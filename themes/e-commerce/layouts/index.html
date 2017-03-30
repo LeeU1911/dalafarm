@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Params.locale }}">
+{{ partial "head.html" . }}
+
+<body id="page-top" class="index">
+{{ partial "nav.html" . }}
+{{ partial "hero.html" . }}
+
+{{ if .Site.Params.product.enable }}
+    {{ partial "product.html" . }}
+{{ end }}
+
+{{ if .Site.Params.about.enable }}
+    {{ partial "about.html" . }}
+{{ end }}
+
+{{ if .Site.Params.team.enable }}
+    {{ partial "team.html" . }}
+{{ end }}
+
+{{ if .Site.Params.contact.enable }}
+    {{ partial "contact.html" . }}
+{{ end }}
+
+{{ if .Site.Params.footer.enable }}
+    {{ partial "footer.html" . }}
+{{ end }}
+
+{{ partial "js.html" . }}
+</body>
+</html>
