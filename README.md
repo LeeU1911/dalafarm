@@ -1,4 +1,6 @@
 # DalaFarm
+[![Build Status](https://travis-ci.org/LeeU1911/dalafarm.svg?branch=master)](https://travis-ci.org/LeeU1911/dalafarm)
+
 We deliver the best of Vietnam to the world
 
 ## Our Products
