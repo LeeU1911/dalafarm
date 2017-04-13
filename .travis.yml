@@ -1,0 +1,22 @@
+language: go
+go:
+  - 1.7.1
+sudo: required
+install:
+  - sudo pip install Pygments
+  - go get github.com/spf13/hugo
+script:
+  - hugo version
+  - hugo
+  - ls public
+deploy:
+  provider: s3
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
+  bucket: preview.dalafarm.com.vn
+  region: ap-southeast-1
+  endpoint: preview.dalafarm.com.vn.s3-website-ap-southeast-1.amazonaws.com/
+  local-dir: public
+  skip_cleanup: true
+  on:
+    repo: LeeU1911/dalafarm
