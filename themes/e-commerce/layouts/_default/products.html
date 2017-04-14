@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="row">
-            {{ range .Data.Pages.GroupByParam "product-line" }}
+            {{ range .Data.Pages.GroupByParam "product_line" }}
             <h3>{{ .Key }}</h3>
             <div class="row">
                 {{ range .Pages }}

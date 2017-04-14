@@ -1,10 +1,27 @@
-<div class="col-md-4 col-sm-4 col-xs-4  product-item">
+<div class="col-md-3 col-sm-3 col-xs-4  product-item">
     <a href="{{ .Permalink }}" class="product-link">
         {{ $url := printf "img/product/%s" .Params.preview }}
         <img src="{{ $url | absURL }}" class="img-responsive" alt=".Title">
     </a>
-    <div class="product-caption">
+    <div class="product-caption text-price">
         <h4>{{ .Title | markdownify }}</h4>
-        <p class="text-muted">{{ .Params.price | markdownify }} {{ with .Site.Params.product.currency }}{{ . }}{{ end }}</p>
+        <p class="text-current-price">
+            {{ echoParam .Params "discounted_price" }}
+            {{ if isset .Params "discounted_price" }}
+                {{ with .Site.Params.product.currency }}{{.}}{{end}}
+            {{ end }}
+            {{ if isset .Params "discounted_percent" }}
+            <span class="text-discount-percent">
+                {{ echoParam .Params "discounted_percent" }}
+            </span>
+            {{ end }}
+        </p>
+        <p>
+            {{ if isset .Params "discounted_price" }}
+            <span class="text-original-price">{{ .Params.price }} {{ with .Site.Params.product.currency }}{{ . }}{{ end }}</span>
+            {{else}}
+            <span class="text-current-price">{{ .Params.price }} {{ with .Site.Params.product.currency }}{{ . }}{{ end }}</span>
+            {{end}}
+        </p>
     </div>
 </div>
