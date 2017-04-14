@@ -4,9 +4,10 @@ languageCode = "vi-vn"
 title = "DalaFarm"
 theme = "e-commerce"
 defaultContentLanguage = "vi"
-
+#defaultContentLanguageInSubdir = true
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
+
 
 ##########################################
 [Languages]
@@ -52,6 +53,7 @@ enable = true
 title = "Sản phẩm"
 subtitle = "Danh mục sản phẩm của Dalafarm"
 path = "san-pham"
+currency = "VND"
 
 # About section
 [Languages.vi.params.about]

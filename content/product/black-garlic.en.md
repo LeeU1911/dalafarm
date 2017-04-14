@@ -6,7 +6,8 @@ price = "195000"
 brand = "Duc Ha"
 preview = "black-garlic-preview.jpg"
 img = "blackgarlic.jpg"
-
+shortDesc = "Hộp tỏi đen 150 grams"
+product-line = "DalaBaby"
 +++
 
 Tỏi đen Đức Hà đóng gói trong hộp 150 grams
