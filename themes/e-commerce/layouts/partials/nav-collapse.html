@@ -1,0 +1,66 @@
+{{ "<!-- Navigation -->" | safeHTML }}
+<nav class="navbar navbar-default navbar-fixed-top navbar-shrink" style="position: relative;">
+  <div class="container">
+
+    {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      {{ if .Site.Params.navigation.logo }}
+        <a class="navbar-brand page-scroll" href="{{ if .IsHome }}#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}">
+          {{ $url := printf "img/%s" .Site.Params.navigation.logo }}
+          <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Site.Params.navigation.brand }}">
+        </a>
+      {{ end }}
+        <a class="navbar-brand page-scroll" href="{{ if .IsHome }}#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}">
+            {{ with .Site.Params.navigation.brand }}{{ . }}{{ end }}
+        </a>
+
+
+    </div>
+    {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="{{ if .IsHome }}#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}"></a>
+        </li>
+          {{ range .Site.Menus.main }}
+          <li>
+              <a href="{{ .URL | absLangURL }}">{{ .Name | markdownify }}</a>
+          </li>
+          {{ end }}
+
+          {{ if .Site.Params.product.enable }}
+          <li>
+              <a class="page-scroll" href="{{ .URL | absLangURL }}#{{ with .Site.Params.product.path }}{{ . }}{{ end }}">{{ with .Site.Params.navigation.product }}{{ . }}{{ end }}</a>
+          </li>
+          {{ end }}
+
+          {{ if .Site.Params.about.enable }}
+          <li>
+              <a class="page-scroll" href="{{ .URL | absLangURL }}#{{ with .Site.Params.about.path }}{{ . }}{{ end }}">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
+          </li>
+          {{ end }}
+
+          {{ if .Site.Params.team.enable }}
+          <li>
+              <a class="page-scroll" href="{{ .URL | absLangURL }}#{{ with .Site.Params.team.path }}{{ . }}{{ end }}">{{ with .Site.Params.navigation.team }}{{ . }}{{ end }}</a>
+          </li>
+          {{ end }}
+
+          {{ if .Site.Params.contact.enable }}
+          <li>
+              <a class="page-scroll" href="{{ .URL | absLangURL }}#contact">{{ with .Site.Params.navigation.contact }}{{ . }}{{ end }}</a>
+          </li>
+          {{ end }}
+
+      </ul>
+    </div>
+    {{ "<!-- /.navbar-collapse -->" | safeHTML }}
+  </div>
+  {{ "<!-- /.container-fluid -->" | safeHTML }}
+</nav>

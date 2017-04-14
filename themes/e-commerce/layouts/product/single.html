@@ -1,1 +1,68 @@
-<h1>Single product page</h1>
+<!DOCTYPE html>
+<html lang="{{ .Site.Params.locale }}">
+{{ partial "head.html" . }}
+
+<body id="page-top" class="index">
+{{ partial "nav-collapse.html" . }}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+        <span>{{ .Params.product_line }}</span> >
+        <span>{{ .Title }}</span>
+        </div>
+    </div>
+    <section id="content" style="padding-top: 2em;">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>{{ .Title | markdownify }}</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <a href="{{ .Permalink }}" class="product-link">
+                    {{ $url := printf "img/product/%s" .Params.preview }}
+                    <img src="{{ $url | absURL }}" class="img-responsive" alt=".Title">
+                </a>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="product-caption">
+                    <p class="text-current-price single-page-price">
+                        {{ echoParam .Params "discounted_price" }}
+                        {{ if isset .Params "discounted_price" }}
+                        {{ with .Site.Params.product.currency }}{{.}}{{end}}
+                        {{ end }}
+                        {{ if isset .Params "discounted_percent" }}
+                        <span class="text-discount-percent">
+                    {{ echoParam .Params "discounted_percent" }}
+                </span>
+                        {{ end }}
+                    </p>
+                    <p>
+                        {{ if isset .Params "discounted_price" }}
+                        <span class="text-original-price">{{ .Params.price }} {{ with .Site.Params.product.currency }}{{ . }}{{ end }}</span>
+                        {{else}}
+                        <span class="text-current-price single-page-price">{{ .Params.price }} {{ with .Site.Params.product.currency }}{{ . }}{{ end }}</span>
+                        {{end}}
+                    </p>
+                </div>
+                <div class="product-desc">
+                    {{ .Description | markdownify }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <article class="bg-light-gray product-article">
+                    {{ .Content | markdownify }}
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+{{ if .Site.Params.footer.enable }}
+{{ partial "footer.html" . }}
+{{ end }}
+</div>
+</body>
+</html>
