@@ -1,7 +1,7 @@
 <div class="col-md-4 col-sm-4 col-xs-4  product-item">
     <a href="{{ .Permalink }}" class="product-link">
         {{ $url := printf "img/product/%s" .Params.preview }}
-        <img src="{{ $url | absURL }}" class="img-responsive" alt="">
+        <img src="{{ $url | absURL }}" class="img-responsive" alt=".Title">
     </a>
     <div class="product-caption">
         <h4>{{ .Title | markdownify }}</h4>
