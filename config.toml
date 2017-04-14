@@ -8,17 +8,6 @@ defaultContentLanguage = "vi"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
-[[params.footer.social]]
-  icon = "fa-twitter"
-  link = "#"
-
-[[params.footer.social]]
-  icon = "fa-facebook"
-  link = "#"
-
-[[params.footer.social]]
-  icon = "fa-linkedin"
-  link = "#"
 ##########################################
 [Languages]
 #Vietnamese
@@ -33,25 +22,29 @@ weight = 0
 
 [Languages.vi.params]
 name = "DalaFarm"
-description = "DalaFarm, provides vegetables powder and garlic related products such as tomato powder, carrot powder, garlic oil, black garlic."
+  description = "DalaFarm cung cấp các sản phẩm bột rau củ hỗ trợ bé ăn dặm dalababy, dầu tỏi, tỏi đen và các sản phẩm từ tỏi."
 
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
 # Navigation
 [Languages.vi.params.navigation]
 brand = "DalaFarm"
 product = "Sản phẩm"
 about = "Về Dalafarm"
-team = "Team Dalafarm"
+team = "Chúng tôi"
 contact = "Liên hệ"
 # Optional logo as brand stored in img/
-logo = "logo.svg"
+#logo = "logo.svg"
 
 # Hero section
 [Languages.vi.params.hero]
 # To change the background image of the hero, replace 'header-bg.jpg' in
 # the 'static/img' folder.
-title = "Chào mừng đến DalaFarm!"
-subtitle = "Rất vui được gặp bạn"
-buttonText = "Xem sản phẩm"
+    title = "Chào mừng bạn ghé thăm!"
+    subtitle = "DalaFarm rất vui được gặp bạn"
+    buttonText = "Dạo 1 vòng nào"
 
 # Products section
 [Languages.vi.params.product]
@@ -63,29 +56,94 @@ path = "san-pham"
 # About section
 [Languages.vi.params.about]
 enable = true
-title = "About"
-subtitle = "How our journey started."
-endpoint = "Be part<br>of our<br>story!"
+    title = "Về DalaFarm"
+    subtitle = "Hành trình của chúng tôi đã bắt đầu như thế nào."
+    endpoint = "Hãy đồng <br>hành cùng <br>DalaFarm!"
 path = "ve-dalafarm"
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[Languages.vi.params.about.events]]
+      img = "toi-den-duc-ha.png"
+      date = "June 2015"
+      title = "Công ty Đức Hà được thành lập"
+      description = "Ms. Hà sáng lập ra công ty Đức Hà để sản xuất và kinh doanh các sản phẩm gia vị thảo dược, nổi bật là tỏi đen cùng các sản phẩm về tỏi"
+
+    [[Languages.vi.params.about.events]]
+      img = "dalahouse.jpg"
+      date = "Feb 2016"
+      title = "Công ty Dalahouse được ra đời"
+      description = "Ms. Trâm sáng lập ra công ty Dalahouse với khao khát biến sản phẩm rau củ trở nên tiện lợi hơn cho những người bận rộn"
+
+    [[Languages.vi.params.about.events]]
+      img = "dalafarm.png"
+      date = "March 2017"
+      title = "Câu chuyện Dalafarm bắt đầu"
+      description = "Chia sẻ chung niềm đam mê về sản xuất và kinh doanh các sản phẩm Việt Nam chất lượng cao, Ms. Hà và Ms. Trâm đã hợp nhất 2 công ty Đức Hà và Dalahouse lại thành 1 công ty duy nhất mang tên DalaFarm. Cùng với 2 cộng sự khác - Ms. Thư và Mr. Vũ, chúng tôi cam kết mang những sản phẩm sạch, chất lượng cao đến với mọi người tiêu dùng!"
 
 # Team section
 [Languages.vi.params.team]
 enable = true
 # Possibility to center items
-#center = true
-title = "Team DalaFarm"
+center = true
+title = "Thành viên DalaFarm"
 subtitle = ""
 description = "Chúng tôi là một đội ngũ gồm những thành viên có những nền tảng khác nhau nhưng cùng 1 chí hướng để mang những sản phẩm tốt nhất của Việt Nam ra thế giới."
-path = "team"
+path = "chung-toi"
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[Languages.vi.params.team.members]]
+      img = "ha.jpg"
+      name = "Lê Thị Thu Hà"
+      position = "Founder"
+      livesIn = "Nha Trang, Việt Nam"
+      scope = [
 
+      ]
+      # For bio markdown and even multiline strings are available.
+#      bio = "Sáng lập nên công ty Đức Hà, nay là một phần của DalaFarm"
+      social = [
+        ["fa-facebook", "https://www.facebook.com/thuha47nt"]
+      ]
+
+    [[Languages.vi.params.team.members]]
+      img = "tram.jpg"
+      name = "Nguyễn Huyền Trâm"
+      position = "Founder"
+      livesIn = "Hồ Chí Minh, Việt Nam"
+#      bio = "Sáng lập nên công ty Dalahouse, nay là một phần của DalaFarm"
+      social = [
+        ["fa-facebook", "https://www.facebook.com/profile.php?id=100000861713629"]
+      ]
+
+    [[Languages.vi.params.team.members]]
+      img = "thu.jpg"
+      name = "Võ Thị Thanh Thư"
+      position = "Co-founder"
+      livesIn = "Hồ Chí Minh, Việt Nam"
+#      bio = "Trùm kinh doanh, đến từ Nestle Việt Nam"
+      social = [
+        ["fa-facebook", "https://www.facebook.com/thanh.thuvo.1"]
+      ]
+
+    [[Languages.vi.params.team.members]]
+      img = "vu.jpg"
+      name = "Lê Tấn Vũ"
+      position = "Co-founder"
+      livesIn = "Hồ Chí Minh, Việt Nam"
+#      bio = "Kỹ sư phần mềm"
+      social = [
+        ["fa-facebook", "https://www.facebook.com/LeeU14"]
+      ]
 # Contact section
 [Languages.vi.params.contact]
 enable = true
 title = "Liên hệ với DalaFarm"
-subtitle  = "Để lại một tin nhắn và chúng tôi sẽ trả lời trong vòng 1 ngày."
-buttonText = "Gửi tin nhắn"
-thanks = "Cám ơn đã liên hệ với chúng tôi. Chúng tôi sẽ trả lời bạn trong vòng 1 ngày."
-error = "Tin nhắn không gửi được. Vui lòng email cho chúng tôi qua contact@dalafarm.com"
+    subtitle  = "Hãy để lại 1 lời nhắn và chúng tôi sẽ liên lạc lại trong vòng 1 ngày."
+    buttonText = "Gửi tin nhắn"
+    thanks = "Cám ơn đã liên hệ với chúng tôi. Chúng tôi sẽ trả lời bạn trong vòng 1 ngày."
+    error = "Tin nhắn không gửi được. Vui lòng email cho chúng tôi qua contact@dalafarm.com"
 # Since this template is static, the contact form uses www.formspree.io as a
 # proxy. The form makes a POST request to their servers to send the actual
 # email. Visitors can send up to a 1000 emails each month for free.
@@ -104,7 +162,7 @@ error = "Tin nhắn không gửi được. Vui lòng email cho chúng tôi qua c
 # add some custom JS script to finish the implementation.
 # postURL = "https://example.com/mailout/"
 
-email = "dalafarm@gmail.com"
+    email = "info@dalafarm.com.vn"
 
 # Success and error message overwrite for async contact form
 #thanks = "Thank you for awesomely contacting us."
@@ -127,6 +185,16 @@ email = "dalafarm@gmail.com"
   text = "Tin nhắn *"
   warning = "Vui lòng nhập nội dung lời nhắn."
 
+# Add optional form fields to identify contact forms
+[[Languages.vi.params.contact.form.hidden]]
+    name = "DalaFarm"
+    value = "dalafarm.com.vn"
+#
+[[Languages.vi.params.contact.form.hidden]]
+# Special values for name such as "page" and "site" will be autofilled
+    name = "site"
+
+
 # Footer section
 [Languages.vi.params.footer]
 enable = true
@@ -134,7 +202,10 @@ copyright = "Bản quyền thuộc DalaFarm (C) 2017"
 
 [[Languages.vi.params.footer.quicklinks]]
   text = "Điều khoản sử dụng"
-  link = "#"
+  link = "/dieu-khoan"
+[[Languages.vi.params.footer.social]]
+  icon = "fa-facebook"
+  link = "https://www.facebook.com/dalafarm.com.vn/"
 
 #######################################
 
@@ -148,30 +219,3 @@ weight = 1
 #url    = "/blogs"
 #name   = "Blogs"
 #weight = 0
-
-#[Languages.en.params]
-#  # You can use Markdown syntax for urls [text](//url.to/source) or
-#  # most longer texts.
-#  #
-#  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-#  # for more icons. The icons are represented by their corresponding
-#  # CSS class.
-#
-#  # To provide some metadata for search engines feel free to add a few
-#  # information about you and your website.
-#  name = "DalaFarm"
-#  description = "DalaFarm, provides vegetables powder and garlic related products such as tomato powder, carrot powder, garlic oil, black garlic."
-#  # Navigation
-#  [Languages.en.params.navigation]
-#    #brand = "DalaFarm"
-#    # Optional logo as brand stored in img/
-#    #logo = "logo.svg"
-#    product = "Products"
-#    about = "About"
-#    team = "Team"
-#    contact = "Contact"
-#
-#  [Languages.en.params.product]
-#    enable = true
-#    title = "Products"
-#    subtitle = "Our product category"
