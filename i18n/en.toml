@@ -1,2 +1,4 @@
 [livesin]
 other = "Lives in"
+[currency]
+other = "USD"

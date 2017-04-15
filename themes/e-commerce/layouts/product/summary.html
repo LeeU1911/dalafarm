@@ -1,4 +1,4 @@
-<div class="col-md-6 col-sm-6 col-xs-6 product-item">
+<div class="col-md-3 col-sm-3 col-xs-4 product-item">
     <a href="{{ .Permalink }}" class="product-link">
         {{ $url := printf "img/product/%s" .Params.preview }}
         <img src="{{ $url | absURL }}" class="img-responsive" alt=".Title">
@@ -8,7 +8,7 @@
         <p class="text-current-price">
             {{ echoParam .Params "discounted_price" }}
             {{ if isset .Params "discounted_price" }}
-                {{ with .Site.Params.product.currency }}{{.}}{{end}}
+                {{ i18n "currency" }}
             {{ end }}
             {{ if isset .Params "discounted_percent" }}
             <span class="text-discount-percent">
@@ -18,9 +18,9 @@
         </p>
         <p>
             {{ if isset .Params "discounted_price" }}
-            <span class="text-original-price">{{ .Params.price }} {{ with .Site.Params.product.currency }}{{ . }}{{ end }}</span>
+            <span class="text-original-price">{{ .Params.price }} {{ i18n "currency" }}</span>
             {{else}}
-            <span class="text-current-price">{{ .Params.price }} {{ with .Site.Params.product.currency }}{{ . }}{{ end }}</span>
+            <span class="text-current-price">{{ .Params.price }} {{ i18n "currency" }}</span>
             {{end}}
         </p>
     </div>
