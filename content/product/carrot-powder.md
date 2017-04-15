@@ -2,11 +2,10 @@
 title = "Bột Cà Rốt (100 gr)"
 description = "Bột cà rốt được sản xuất từ nguyên liệu sạch đạt tiêu chuẩn xuất khẩu kết hợp với công nghệ sấy hiện đại theo tiêu chuẩn ISO, OHSAS và được chứng nhận An toàn VSTP Việt Nam."
 date = "2017-03-30T21:52:24+08:00"
-brand = "Duc Ha"
 preview = "carrot-powder-preview.jpg"
-price = "195 000"
+price = "195,000"
 img = ["carrot-powder.jpg"]
-product_line = "DalaBaby"
+product_line = ""
 +++
 
 ## Bột Cà Rốt
