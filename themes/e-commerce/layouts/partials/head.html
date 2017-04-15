@@ -2,8 +2,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
-  {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.params.description }}<meta name="description" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.params.name }}<meta name="author" content="{{ . }}">{{ end }}
   {{ .Hugo.Generator }}
   <title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
   {{ "<!-- Stylesheets -->" | safeHTML }}
@@ -11,21 +11,21 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.44/theme-default.min.css" />
   <link href="{{ "css/e-commerce.css" | absURL }}" rel="stylesheet">
 
-  {{ range .Site.Params.custom_css }}
+  {{ range .Site.Params.params.custom_css }}
     <link rel="stylesheet" href="{{ . | absURL }}">
   {{ end }}
 
   {{ "<!-- Custom Fonts -->" | safeHTML }}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-  {{ with not .Site.Params.disableFonts }}
+  {{ with not .Site.Params.params.disableFonts }}
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
   {{ end }}
 
-  {{ with .Site.Params.favicon }}
+  {{ with .Site.Params.params.favicon }}
     <link rel="shortcut icon" type="image/x-icon" href="{{ . | absURL }}">
     <link rel="icon" type="image/x-icon" href="{{ . | absURL }}">
   {{ end }}

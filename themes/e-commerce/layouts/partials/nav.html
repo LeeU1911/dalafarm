@@ -10,14 +10,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      {{ if .Site.Params.navigation.logo }}
+      {{ if .Site.Params.params.navigation.logo }}
         <a class="navbar-brand page-scroll" href="{{ if .IsHome }}#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}">
-          {{ $url := printf "img/%s" .Site.Params.navigation.logo }}
-          <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Site.Params.navigation.brand }}">
+          {{ $url := printf "img/%s" .Site.Params.params.navigation.logo }}
+          <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Site.Params.params.navigation.brand }}">
         </a>
       {{ end }}
         <a class="navbar-brand page-scroll" href="{{ if .IsHome }}#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}">
-            {{ with .Site.Params.navigation.brand }}{{ . }}{{ end }}
+            {{ with .Site.Params.params.navigation.brand }}{{ . }}{{ end }}
         </a>
 
 
@@ -34,27 +34,27 @@
           </li>
           {{ end }}
 
-          {{ if .Site.Params.product.enable }}
+          {{ if .Site.Params.params.product.enable }}
           <li>
-              <a class="page-scroll" href="{{ .URL | absLangURL }}#{{ with .Site.Params.product.path }}{{ . }}{{ end }}">{{ with .Site.Params.navigation.product }}{{ . }}{{ end }}</a>
+              <a class="page-scroll" href="{{ .URL | absLangURL }}#{{ with .Site.Params.params.product.path }}{{ . }}{{ end }}">{{ with .Site.Params.params.navigation.product }}{{ . }}{{ end }}</a>
           </li>
           {{ end }}
 
-          {{ if .Site.Params.about.enable }}
+          {{ if .Site.Params.params.about.enable }}
           <li>
-              <a class="page-scroll" href="{{ .URL | absLangURL }}#{{ with .Site.Params.about.path }}{{ . }}{{ end }}">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
+              <a class="page-scroll" href="{{ .URL | absLangURL }}#{{ with .Site.Params.params.about.path }}{{ . }}{{ end }}">{{ with .Site.Params.params.navigation.about }}{{ . }}{{ end }}</a>
           </li>
           {{ end }}
 
-          {{ if .Site.Params.team.enable }}
+          {{ if .Site.Params.params.team.enable }}
           <li>
-              <a class="page-scroll" href="{{ .URL | absLangURL }}#{{ with .Site.Params.team.path }}{{ . }}{{ end }}">{{ with .Site.Params.navigation.team }}{{ . }}{{ end }}</a>
+              <a class="page-scroll" href="{{ .URL | absLangURL }}#{{ with .Site.Params.params.team.path }}{{ . }}{{ end }}">{{ with .Site.Params.params.navigation.team }}{{ . }}{{ end }}</a>
           </li>
           {{ end }}
 
-          {{ if .Site.Params.contact.enable }}
+          {{ if .Site.Params.params.contact.enable }}
           <li>
-              <a class="page-scroll" href="{{ .URL | absLangURL }}#contact">{{ with .Site.Params.navigation.contact }}{{ . }}{{ end }}</a>
+              <a class="page-scroll" href="{{ .URL | absLangURL }}#contact">{{ with .Site.Params.params.navigation.contact }}{{ . }}{{ end }}</a>
           </li>
           {{ end }}
 

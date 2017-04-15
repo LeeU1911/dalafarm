@@ -1,28 +1,29 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Params.locale }}">
+<html lang="{{ .Params.lang }}">
 {{ partial "head.html" . }}
 
 <body id="page-top" class="index">
+
 {{ partial "nav.html" . }}
 {{ partial "hero.html" . }}
 
-{{ if .Site.Params.product.enable }}
-    {{ .Render "products"}}
+{{ if .Site.Params.params.product.enable }}
+    {{ .Render "products" }}
 {{ end }}
 
-{{ if .Site.Params.about.enable }}
+{{ if .Site.Params.params.about.enable }}
     {{ partial "about.html" . }}
 {{ end }}
 
-{{ if .Site.Params.team.enable }}
+{{ if .Site.Params.params.team.enable }}
     {{ partial "team.html" . }}
 {{ end }}
 
-{{ if .Site.Params.contact.enable }}
+{{ if .Site.Params.params.contact.enable }}
     {{ partial "contact.html" . }}
 {{ end }}
 
-{{ if .Site.Params.footer.enable }}
+{{ if .Site.Params.params.footer.enable }}
     {{ partial "footer.html" . }}
 {{ end }}
 

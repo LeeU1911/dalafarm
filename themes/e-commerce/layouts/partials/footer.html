@@ -3,12 +3,12 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <span class="copyright">{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}</span>
+        <span class="copyright">{{ with .Site.Params.params.footer.copyright }}{{ . | markdownify }}{{ end }}</span>
       </div>
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
 
-          {{ range .Site.Params.footer.social }}
+          {{ range .Site.Params.params.footer.social }}
             <li><a href="{{ .link }}"><i class="fa {{ .icon }}"></i></a></li>
           {{ end }}
 
@@ -17,7 +17,7 @@
       <div class="col-md-4">
         <ul class="list-inline quicklinks">
 
-          {{ range .Site.Params.footer.quicklinks }}
+          {{ range .Site.Params.params.footer.quicklinks }}
             <li><a href="{{ .link }}">{{ .text  | markdownify }}</a></li>
           {{ end }}
 
