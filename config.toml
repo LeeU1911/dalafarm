@@ -16,16 +16,18 @@ googleAnalytics = ""
 title = "DalaFarm"
 weight = 0
 
-#[[Languages.vi.menu.main]]
-#url    = "/blogs"
-#name   = "Blogs"
-#weight = 0
+[[Languages.vi.menu.main]]
+url    = "/blog"
+name   = "Blog"
+weight = 0
 
 [Languages.vi.params]
 name = "DalaFarm"
-description = "DalaFarm cung cấp các sản phẩm bột rau củ hỗ trợ bé ăn dặm dalababy, dầu tỏi, tỏi đen và các sản phẩm từ tỏi."
+description = """DalaFarm cung cấp các sản phẩm bột dâu tây, cần tây, củ dền, cà rốt, diếp cá, cả bó xôi, cà chua, rau má,
+                 hạt sen cho bé ăn dặm. Ngoài ra, DalaFarm còn cung cấp bột rau củ hỗn hợp để pha thức uống giải độc detox
+                 cùng với dầu tỏi, tỏi đen và các sản phẩm từ tỏi."""
 
-  # Link custom assets relative to /static
+# Link custom assets relative to /static
 custom_css = []
 custom_js  = []
 favicon    = "favicon.ico"
@@ -41,11 +43,9 @@ contact = "Liên hệ"
 
 # Hero section
 [Languages.vi.params.hero]
-# To change the background image of the hero, replace 'header-bg.jpg' in
-# the 'static/img' folder.
-    title = "Chào mừng bạn ghé thăm!"
-    subtitle = "DalaFarm rất vui được gặp bạn"
-    buttonText = "Dạo 1 vòng nào"
+title = "Chào mừng bạn ghé thăm!"
+subtitle = "DalaFarm rất vui được gặp bạn"
+buttonText = "Dạo 1 vòng nào"
 
 # Products section
 [Languages.vi.params.product]
@@ -60,10 +60,7 @@ enable = true
     title = "Về DalaFarm"
     subtitle = "Hành trình của chúng tôi đã bắt đầu như thế nào."
     endpoint = "Hãy đồng <br>hành cùng <br>DalaFarm!"
-path = "ve-dalafarm"
-    # The events will be listed from the top to the bottom.
-    # All images are stored under 'static/img/about'.
-    # Replace them with your own.
+    path = "ve-dalafarm"
     [[Languages.vi.params.about.events]]
       img = "toi-den-duc-ha.png"
       date = "June 2015"
@@ -85,15 +82,11 @@ path = "ve-dalafarm"
 # Team section
 [Languages.vi.params.team]
 enable = true
-# Possibility to center items
 center = true
 title = "Thành viên DalaFarm"
 subtitle = ""
 description = "Chúng tôi là một đội ngũ gồm những thành viên có những nền tảng khác nhau nhưng cùng 1 chí hướng để mang những sản phẩm tốt nhất của Việt Nam ra thế giới."
 path = "chung-toi"
-    # All team member's pictures are stored under 'static/img/team'.
-    # Replace them with your own too.
-    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[Languages.vi.params.team.members]]
       img = "ha.jpg"
       name = "Lê Thị Thu Hà"
@@ -145,29 +138,7 @@ title = "Liên hệ với DalaFarm"
     buttonText = "Gửi tin nhắn"
     thanks = "Cám ơn đã liên hệ với chúng tôi. Chúng tôi sẽ trả lời bạn trong vòng 1 ngày."
     error = "Tin nhắn không gửi được. Vui lòng email cho chúng tôi qua contact@dalafarm.com"
-# Since this template is static, the contact form uses www.formspree.io as a
-# proxy. The form makes a POST request to their servers to send the actual
-# email. Visitors can send up to a 1000 emails each month for free.
-#
-# What you need to do for the setup?
-#
-# - set your email address under 'email' below
-# - upload the generated site to your server
-# - send a dummy email yourself to confirm your account
-# - click the confirm link in the email from www.formspree.io
-# - you're done. Happy mailing!
-
-# It is possible to substitute formspring with other providers
-# as an example the mailout plugin from caddy.
-# Provide the post URL for the form and depending on the provider
-# add some custom JS script to finish the implementation.
-# postURL = "https://example.com/mailout/"
-
     email = "info@dalafarm.com.vn"
-
-# Success and error message overwrite for async contact form
-#thanks = "Thank you for awesomely contacting us."
-#error = "Message could not be send. Please contact us at mail@example.com instead."
 
 # 'warning' defines error messages for invalid inputs
 [Languages.vi.params.contact.form.name]
