@@ -1,12 +1,12 @@
 # Site settings
-baseurl = "https://preview.dalafarm.com.vn"
+baseurl = "http://localhost:1313/"
 languageCode = "vi-vn"
 title = "DalaFarm"
 theme = "e-commerce"
 defaultContentLanguage = "vi"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
-
+logFile = "log.txt"
 
 
 ##########################################
