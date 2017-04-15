@@ -8,18 +8,15 @@
       </div>
     </div>
     <div class="row">
-      {{ range .Site.Data.product }}
-        <div class="col-md-4 col-sm-6 product-item">
-          <a href="#productModal{{ .modalID }}" class="product-link">
-            {{ $url := printf "img/product/%s" .preview }}
-            <img src="{{ $url | absURL }}" class="img-responsive" alt="">
-          </a>
-          <div class="product-caption">
-            <h4>{{ .title | markdownify }} {{ .IsTranslated }}</h4>
-            <p class="text-muted">{{ .price | markdownify }} {{ with .Site.Params.params.product.currency }}{{ . }}{{ end }}</p>
-          </div>
-        </div>
+      {{ range .Data.Pages.GroupByParam "product_line" }}
+      <h3>{{ .Key }}</h3>
+      <div class="row">
+        {{ range .Pages }}
+        {{ .Render "summary" }}
+        {{ end }}
+      </div>
       {{ end }}
+
     </div>
   </div>
 </section>

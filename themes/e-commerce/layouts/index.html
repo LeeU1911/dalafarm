@@ -8,7 +8,7 @@
 {{ partial "hero.html" . }}
 
 {{ if .Site.Params.params.product.enable }}
-    {{ .Render "products" }}
+    {{ partial "product.html"  . }}
 {{ end }}
 
 {{ if .Site.Params.params.about.enable }}

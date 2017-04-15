@@ -12,7 +12,7 @@
             <h3>{{ .Key }}</h3>
             <div class="row">
                 {{ range .Pages }}
-                    {{ .Render "summary" }}
+                {{ .Render "summary" }}
                 {{ end }}
             </div>
             {{ end }}
