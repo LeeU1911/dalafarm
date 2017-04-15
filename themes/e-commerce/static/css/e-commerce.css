@@ -116,7 +116,7 @@ header .intro-text .intro-heading{margin-bottom:25px;text-transform:uppercase;fo
 header .intro-text .intro-lead-in{margin-bottom:25px;font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:40px;font-style:italic;line-height:40px;}
 header .intro-text .intro-heading{margin-bottom:50px;text-transform:uppercase;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:75px;font-weight:700;line-height:75px;}
 }
-section{padding:50px 0;}
+section{padding:60px 0;}
 section h2.section-heading{margin-top:0;margin-bottom:15px;font-size:40px;}
 section h3.section-subheading{margin-bottom:75px;text-transform:none;font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:16px;font-style:italic;font-weight:400;}
 @media(min-width:768px){section{padding:80px 0;}

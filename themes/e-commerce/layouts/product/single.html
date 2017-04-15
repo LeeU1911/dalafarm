@@ -4,10 +4,14 @@
 
 <body id="page-top" class="index">
 {{ partial "nav-collapse.html" . }}
+<section id="">
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <a href="{{ .Permalink }}" class="product-link">{{ .Params.product_line }}</a> >
+            <a href="{{ with .Site.Params.params.product.path }}{{ . }}{{ end }}" class="product-link">
+                {{ with .Site.Params.params.product.title }}{{ . | markdownify }}{{ end }}
+            </a>
+            >
             <a href="">{{ .Title }}</a>
         </div>
     </div>
@@ -29,7 +33,7 @@
                     <p class="text-current-price single-page-price">
                         {{ echoParam .Params "discounted_price" }}
                         {{ if isset .Params "discounted_price" }}
-                        {{ with .Site.Params.product.currency }}{{.}}{{end}}
+                        {{ i18n "currency" }}
                         {{ end }}
                         {{ if isset .Params "discounted_percent" }}
                         <span class="text-discount-percent">
@@ -39,9 +43,9 @@
                     </p>
                     <p>
                         {{ if isset .Params "discounted_price" }}
-                        <span class="text-original-price">{{ .Params.price }} {{ with .Site.Params.product.currency }}{{ . }}{{ end }}</span>
+                        <span class="text-original-price">{{ .Params.price }} {{ i18n "currency" }}</span>
                         {{else}}
-                        <span class="text-current-price single-page-price">{{ .Params.price }} {{ with .Site.Params.product.currency }}{{ . }}{{ end }}</span>
+                        <span class="text-current-price single-page-price">{{ .Params.price }} {{ i18n "currency" }}</span>
                         {{end}}
                     </p>
                 </div>
@@ -60,9 +64,11 @@
     </section>
 
 
-{{ if .Site.Params.footer.enable }}
+</div>
+</section>
+
+{{ if .Site.Params.params.footer.enable }}
 {{ partial "footer.html" . }}
 {{ end }}
-</div>
 </body>
 </html>
