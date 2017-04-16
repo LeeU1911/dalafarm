@@ -11,7 +11,7 @@ description = """Bột rau củ hỗ trợ bé ăn dặm DalaBaby bao gồm các
 """
 discounted_percent = "-10%"
 discounted_price = "165,000"
-img = ["dalababy-front.jpg",""]
+img = ["dalababy-front.jpg"]
 thumbnail = "dalababy-front.jpg"
 price = "195,000"
 product_line = ""

@@ -2,6 +2,7 @@
 date = "2017-04-16T17:07:14+08:00"
 title = "Công thức pha chế với bột detox DalaFarm"
 thumbnail = "bot-rau-cu-dalafarm.jpg"
+tags = ["veggie-powder"]
 +++
 
 Bột rau củ detox DalaFarm có rất nhiều công dụng để chế biến nước và các món ăn. 
@@ -16,7 +17,8 @@ Dưới dây là công thức cơ bản để pha chế. Bạn có thể điều
 3. Nước tương: 1 phần bột + 2 phần nước
 
 
-GỌI NGAY -  0866 842 517/0918 241 066
+GỌI NGAY -  [08 66 842 517](tel:08 66 842 517) hoặc [0918 241 066](tel:0918 241 066)
 ĐỂ ĐƯỢC TƯ VẤN VÀ CUNG CẤP SẢN PHẨM
 BỘT RAU CỦ DALAFARM VỚI MỨC GIÁ TỐT NHẤT
-Email: info@dalafarm.com.vn
+
+Email: [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
