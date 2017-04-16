@@ -180,6 +180,12 @@ copyright = "Bản quyền thuộc DalaFarm (C) 2017"
 [[Languages.vi.params.footer.social]]
   icon = "fa-facebook"
   link = "https://www.facebook.com/dalafarm.com.vn/"
+[[Languages.vi.params.footer.social]]
+  icon = "fa-pinterest"
+  link = "https://www.pinterest.com/dalafarm/"
+[[Languages.vi.params.footer.social]]
+  icon = "fa-instagram"
+  link = "https://www.instagram.com/dalafarm.com.vn/"
 
 ########################################
 #
