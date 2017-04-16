@@ -305,15 +305,16 @@ body{webkit-tap-highlight-color:#A6CE39;}
     font-weight: 500;
     font-style: normal;
 }
-
-.blog-title-article {
+.blog-title-article{
+    margin-bottom: 1em;
+}
+.blog-title-article h3{
     font-size: 42px;
     line-height: 1.1em;
     text-transform: none;
     letter-spacing: 0px;
     font-weight: 200;
     font-style: normal;
-    margin-bottom: 1em;
     font-family: "Roboto Slab";
 }
 

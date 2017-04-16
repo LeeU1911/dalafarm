@@ -2,3 +2,9 @@
 other = "Hiện ở"
 [currency]
 other = "đ"
+[length]
+other = "Độ dài "
+[word]
+other = "từ"
+[minuteRead]
+other = "phút đọc"

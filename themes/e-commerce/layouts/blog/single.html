@@ -23,23 +23,29 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12 text-center">
-                    <h3 class="blog-title-article">
+                <div class="col-md-12 text-center blog-title-article">
+                    <h3>
                         {{ .Title }}
                     </h3>
-                    <p> {{ .WordCount }}</p>
+                    <span> {{ .ReadingTime }} {{ i18n "minuteRead" }}</span>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
                     <article class="blog-article">
                         {{ .Content | markdownify | emojify}}
                     </article>
                 </div>
+                <div class="col-md-1"></div>
             </div>
-            <div class="rơư">
-                <div class="col-md-12">
-                    TAGGED: {{ .Taxonomies }}
+            <br>
+            <div class="rơw">
+                <div class="col-md-12 text-center">
+                    TAGGED:
+                    {{ range .Params.tags }}
+                    <span>{{ . | upper }}</span>
+                    {{ end }}
                 </div>
             </div>
         </section>

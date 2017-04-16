@@ -2,7 +2,7 @@
 date = "2017-04-16T18:00:15+08:00"
 thumbnail = "bot-rau-cu-dalafarm.jpg"
 title = "Khám phá công dụng tuyệt vời của bột cà chua"
-
+tags = ["veggie-powder", "tomato-powder", "detox"]
 +++
 
 **Bột cà chua** được bán nhiều trên thị trường những năm lại đây, tuy nhiên không phải ai cũng biết hết những công dụng tuyệt vời của bột cà chua mang lại cho sức khỏe của con người.
