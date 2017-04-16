@@ -11,12 +11,12 @@
         <span class="icon-bar"></span>
       </button>
       {{ if .Site.Params.params.navigation.logo }}
-        <a class="navbar-brand page-scroll" href="{{ if .IsHome }}#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}">
+        <a class="navbar-brand page-scroll" href="{{ .Site.BaseURL | absLangURL }}">
           {{ $url := printf "img/%s" .Site.Params.params.navigation.logo }}
-          <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Site.Params.params.navigation.brand }}">
+          <img src="{{ $url | absLangURL }}" class="img-responsive" alt="{{ .Site.Params.params.navigation.brand }}">
         </a>
       {{ end }}
-        <a class="navbar-brand page-scroll" href="{{ if .IsHome }}#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}">
+        <a class="navbar-brand page-scroll" href="{{ .Site.BaseURL | absLangURL }}">
             {{ with .Site.Params.params.navigation.brand }}{{ . }}{{ end }}
         </a>
 
