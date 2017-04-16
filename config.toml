@@ -8,13 +8,15 @@ defaultContentLanguage = "vi"
 googleAnalytics = ""
 logFile = "log.txt"
 
-
 ##########################################
 [Languages]
 #Vietnamese
 [Languages.vi]
 title = "DalaFarm"
 weight = 0
+
+[Languages.vi.permalinks]
+product = "/san-pham/:slug"
 
 [[Languages.vi.menu.main]]
 url    = "/blog"
@@ -191,3 +193,5 @@ weight = 1
 ##url    = "/blogs"
 ##name   = "Blogs"
 ##weight = 0
+#[Languages.en.permalinks]
+#product = "/product/:slug"

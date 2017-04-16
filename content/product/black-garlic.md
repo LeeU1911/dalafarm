@@ -7,8 +7,12 @@ discounted_price = "175,000"
 discounted_percent = "-15%"
 price = "195 000"
 preview = "black-garlic-preview.jpg"
-img = ["blackgarlic.jpg"]
+img = [
+    "blackgarlic.jpg",
+    "carrot-powder.jpg"
+    ]
 product_line = ""
+tags = ["detox","powder"]
 +++
 
 Tỏi đen Đức Hà đóng gói trong hộp 150 grams

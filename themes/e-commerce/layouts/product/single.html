@@ -8,11 +8,10 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <a href="{{ with .Site.Params.params.product.path }}{{ . }}{{ end }}" class="product-link">
+            <a href="/product" class="product-link">
                 {{ with .Site.Params.params.product.title }}{{ . | markdownify }}{{ end }}
             </a>
-            >
-            <a href="">{{ .Title }}</a>
+            > {{ .Title }}
         </div>
     </div>
     <section id="content" style="padding-top: 2em;">
@@ -23,10 +22,10 @@
         </div>
         <div class="row">
             <div class="col-lg-6 col-sm-12">
-                <a href="{{ .Permalink }}" class="product-link">
-                    {{ $url := printf "img/product/%s" .Params.preview }}
+                {{ range .Params.img }}
+                    {{ $url := printf "img/product/%s" . }}
                     <img src="{{ $url | absURL }}" class="img-responsive" alt=".Title">
-                </a>
+                {{ end }}
             </div>
             <div class="col-lg-6 col-sm-12">
                 <div class="product-caption">
