@@ -16,14 +16,15 @@
             </div>
         </div>
         {{ .Content }}
-        <div class="row">
+
             {{ range .Data.Pages.GroupByParam "product_line" }}
+        <div class="row">
             <h3>{{ .Key }}</h3>
                 {{ range first 3 .Pages }}
                     {{ .Render "summary" }}
                 {{ end }}
-            {{ end }}
         </div>
+        {{ end }}
     </div>
 </section>
 {{ if .Site.Params.params.footer.enable }}
