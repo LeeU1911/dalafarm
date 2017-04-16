@@ -1,6 +1,6 @@
 <div class="col-md-4 col-sm-4 col-xs-4 box-item">
     <a href="{{ .Permalink }}" class="product-link">
-        {{ $url := printf "img/product/%s" .Params.preview }}
+        {{ $url := printf "img/product/%s" .Params.thumbnail }}
         <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Title }}">
     </a>
     <div class="product-caption text-price">

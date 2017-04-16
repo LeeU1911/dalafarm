@@ -1,11 +1,9 @@
 +++
 date = "2017-04-16T18:02:51+08:00"
-preview = "tra-xanh-matcha.jpg"
+thumbnail = "tra-xanh-matcha.jpg"
 title = "Những công dụng làm đẹp bất ngờ của Matcha"
 
 +++
-
-# Những công dụng làm đẹp bất ngờ của Matcha
 
 Trà xanh có vô số lợi ích cho sức khỏe, giúp làm đẹp, giảm cân… Đặc biệt, trong Matcha có chứa chất chống ôxy hóa - một chất rất cần thiết trong việc duy trì sự trẻ trung, chống lão hóa.
 

@@ -298,3 +298,25 @@ body{webkit-tap-highlight-color:#A6CE39;}
     margin: 10px 0;
     display: block;
 }
+
+.blog-title {
+    text-transform: none;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.blog-title-article {
+    font-size: 42px;
+    line-height: 1.1em;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 200;
+    font-style: normal;
+    margin-bottom: 1em;
+    font-family: "Roboto Slab";
+}
+
+.blog-article{
+    font-family: "Roboto Slab";
+}

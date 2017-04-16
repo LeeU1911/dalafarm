@@ -1,4 +1,4 @@
 +++
 title = ""
-preview = ""
+thumbnail = ""
 +++

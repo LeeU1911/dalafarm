@@ -4,7 +4,7 @@ description = """"""
 discounted_price = ""
 discounted_percent = ""
 price = ""
-preview = ""
+thumbnail = ""
 img = [
     "",
     ""

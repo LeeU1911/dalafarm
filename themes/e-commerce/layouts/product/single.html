@@ -8,7 +8,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <a href="/product" class="product-link">
+            <a href="/{{ .Section }}" class="product-link">
                 {{ with .Site.Params.params.product.title }}{{ . | markdownify }}{{ end }}
             </a>
             > {{ .Title }}
@@ -69,5 +69,6 @@
 {{ if .Site.Params.params.footer.enable }}
 {{ partial "footer.html" . }}
 {{ end }}
+{{ partial "js_other_page.html" . }}
 </body>
 </html>

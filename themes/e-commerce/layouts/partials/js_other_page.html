@@ -1,0 +1,12 @@
+{{ "<!-- jQuery -->" | safeHTML }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+{{ "<!-- Bootstrap Core -->" | safeHTML }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+{{ "<!-- Custom Theme -->" | safeHTML }}
+<script src="{{ "js/e-commerce-other-page.js"| absURL }}"></script>
+
+{{ range .Site.Params.params.custom_js }}
+  <script src="{{ . | absURL }}"></script>
+{{ end }}

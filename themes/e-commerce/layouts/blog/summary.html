@@ -1,6 +1,6 @@
 <div class="col-sm-6 col-md-3 text-center box-item">
     <a href="{{ .Permalink }}" class="blog-link">
-        {{ $url := printf "img/blog/%s" .Params.preview }}
+        {{ $url := printf "img/blog/%s" .Params.thumbnail }}
         <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Title }}">
     </a>
         <time class="blog-time">
@@ -11,25 +11,4 @@
             {{ .Title }}
         </div>
     </a>
-    <!--<div class="product-caption text-price">-->
-        <!--<h4>{{ .Title | markdownify }}</h4>-->
-        <!--<p class="text-current-price">-->
-            <!--{{ echoParam .Params "discounted_price" }}-->
-            <!--{{ if isset .Params "discounted_price" }}-->
-            <!--{{ i18n "currency" }}-->
-            <!--{{ end }}-->
-            <!--{{ if isset .Params "discounted_percent" }}-->
-            <!--<span class="text-discount-percent">-->
-                <!--{{ echoParam .Params "discounted_percent" }}-->
-            <!--</span>-->
-            <!--{{ end }}-->
-        <!--</p>-->
-        <!--<p>-->
-            <!--{{ if isset .Params "discounted_price" }}-->
-            <!--<span class="text-original-price">{{ .Params.price }} {{ i18n "currency" }}</span>-->
-            <!--{{else}}-->
-            <!--<span class="text-current-price">{{ .Params.price }} {{ i18n "currency" }}</span>-->
-            <!--{{end}}-->
-        <!--</p>-->
-    <!--</div>-->
 </div>

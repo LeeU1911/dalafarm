@@ -1,10 +1,8 @@
 +++
 date = "2017-04-16T17:07:14+08:00"
 title = "Công thức pha chế với bột detox DalaFarm"
-preview = "bot-rau-cu-dalafarm.jpg"
+thumbnail = "bot-rau-cu-dalafarm.jpg"
 +++
-
-# Công thức pha chế với bột rau củ detox
 
 Bột rau củ detox DalaFarm có rất nhiều công dụng để chế biến nước và các món ăn. 
 
