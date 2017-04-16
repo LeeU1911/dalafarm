@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://localhost:1313/"
+baseurl = "http://preview.dalafarm.com.vn/"
 languageCode = "vi-vn"
 title = "DalaFarm"
 theme = "e-commerce"
