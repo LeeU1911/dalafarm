@@ -19,7 +19,7 @@
         <div class="row">
             {{ range .Data.Pages.GroupByParam "product_line" }}
             <h3>{{ .Key }}</h3>
-                {{ range .Pages }}
+                {{ range first 3 .Pages }}
                     {{ .Render "summary" }}
                 {{ end }}
             {{ end }}

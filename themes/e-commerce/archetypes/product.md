@@ -1,10 +1,16 @@
 +++
 title = ""
-img = ""
-preview = ""
-brand = ""
+description = """"""
+discounted_price = ""
+discounted_percent = ""
 price = ""
-discount-price = ""
+preview = ""
+img = [
+    "",
+    ""
+    ]
+product_line = ""
+tags = ["",""]
 +++
 
-Product details
+Description

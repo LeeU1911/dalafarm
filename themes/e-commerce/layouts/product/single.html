@@ -24,7 +24,7 @@
             <div class="col-lg-6 col-sm-12">
                 {{ range .Params.img }}
                     {{ $url := printf "img/product/%s" . }}
-                    <img src="{{ $url | absURL }}" class="img-responsive" alt=".Title">
+                    <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ $.Title }}">
                 {{ end }}
             </div>
             <div class="col-lg-6 col-sm-12">
