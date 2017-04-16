@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+{{ partial "head.html" . }}
+
+<body id="page-top" class="index">
+{{ partial "nav-for-other-page.html" . }}
+{{ "<!-- Blog Section -->" | safeHTML }}
+<section id="{{ .Title }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ .Title }}</h2>
+                <h3></h3>
+            </div>
+        </div>
+        <div class="row">
+            {{ range .Data.Pages }}
+            {{ .Render "summary" }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ if .Site.Params.params.footer.enable }}
+{{ partial "footer.html" . }}
+{{ end }}
+</body>
+</html>
