@@ -9,11 +9,8 @@ tags = ["veggie-powder", "tomato-powder", "detox"]
 
 **Bột cà chua** có chứa nhiều tinh bột, chất xơ, vitamin và những khoáng chất cần thiết giúp bạn có cơ thể khỏe mạnh, săn chắc với làn da trắng mịn và thân hình hấp dẫn. Đó là lý do bột cà chua được nhiều công ty sản xuất và phân phối trên thị trường hiện nay.
 
-<span class="center-block text-center">
-![Công thức tuyệt vời cho một làn da trắng sáng](/img/blog/bot-rau-cu-dalafarm.jpg)
-<br>
-Ảnh: Công thức tuyệt vời cho một làn da trắng sáng
-</span>
+{{< img src="/img/blog/bot-rau-cu-dalafarm.jpg" title="Ảnh: Công thức tuyệt vời cho một làn da trắng sáng" 
+alt="Công thức tuyệt vời cho một làn da trắng sáng">}}
 
 7 lý do bạn nên sở hữu một lượng bột cà chua trong nhà để tận dụng những công dụng tuyệt vời của bột cà chua: 
 
@@ -22,12 +19,8 @@ tags = ["veggie-powder", "tomato-powder", "detox"]
 - Những bà mẹ trẻ nên dự trữ một lượng bột cà chua trong nhà để có thể tạo ra món cháo cho trẻ bất cứ khi nào.
 - Có bột cà chua trong nhà các chị em phụ nữ sẽ không lo lắng đến vấn đề mụn, thâm nám da. Việc sử dụng mặt nạ bột cà chua thường xuyên còn mang lại một làn da trắng, khỏe khắn cho khuôn mặt bạn.
 
-<span class="center-block text-center">
-![Đậu hũ sốt trứng chua ngọt](/img/blog/mon-an-tu-bot-ca-chua.jpg)
-<br>
-Ảnh: Đậu hũ sốt trứng chua ngọt
-</span>
-
+{{< img src="/img/blog/mon-an-tu-bot-ca-chua.jpg" title="Ảnh: Đậu hũ sốt trứng chua ngọt" 
+alt="Đậu hũ sốt trứng chua ngọt">}}
 
 
 - Việc giảm cân hằng ngày luôn là nổi lo của nhiều người, có bột cà chua chuyện giảm cân chỉ là vấn đề đơn giản.

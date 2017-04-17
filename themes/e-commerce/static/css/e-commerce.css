@@ -318,6 +318,7 @@ body{webkit-tap-highlight-color:#A6CE39;}
     font-family: "Roboto Slab";
 }
 
-.blog-article{
+.blog-article, .blog-article p{
     font-family: "Roboto Slab";
+    line-height: 2em;
 }

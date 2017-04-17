@@ -17,14 +17,7 @@
         </div>
         {{ .Content }}
 
-            {{ range .Data.Pages.GroupByParam "product_line" }}
-        <div class="row">
-            <h3>{{ .Key }}</h3>
-                {{ range first 3 .Pages }}
-                    {{ .Render "summary" }}
-                {{ end }}
-        </div>
-        {{ end }}
+        {{ partial "product-display.html" . }}
     </div>
 </section>
 {{ if .Site.Params.params.footer.enable }}

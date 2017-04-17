@@ -1,6 +1,6 @@
 +++
 title = ""
-description = """"""
+description = ""
 discounted_price = ""
 discounted_percent = ""
 price = ""

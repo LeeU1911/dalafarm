@@ -10,11 +10,7 @@ tags = ["veggie-powder", "carrot-powder"]
 
 **Bột cà rốt** càng ngày càng khẳng định được tính năng vượt trội của những hợp chất có trong cà rốt, được nhiều người tin dùng và hiện đang là sản phẩm có lượng tiêu thụ rất lớn.
 
-<span class="center-block text-center">
-![Bột cà rốt có màu sắc bắt mắt, hương vị thơm ngon](/img/blog/bot-ca-rot.png)
-<br>
-Ảnh: Bột cà rốt có màu sắc bắt mắt, hương vị thơm ngon
-</span>
+{{< img src="/img/blog/bot-ca-rot.png" title="Ảnh: Bột cà rốt có màu sắc bắt mắt, hương vị thơm ngon" alt="Bột cà rốt có màu sắc bắt mắt, hương vị thơm ngon">}}
 
 
 **Tại sao nhiều người lại muốn có một lượng bột cà rốt trong nhà?**
@@ -26,12 +22,7 @@ tags = ["veggie-powder", "carrot-powder"]
 
 Bột cà rốt có nhiều ưu điểm hơn bột cà chua, đặc biệt là thời gian sử dụng. Mặc dù bột cà rốt nguyên chất 100% không có chứa chất bảo quản nhưng có thể sử dụng được 12 tháng. Tuy nhiên khi mua bột cà rốt tại những cửa hàng bán lẻ người tiêu dùng chỉ nên mua một lượng ít đủ dùng, khi nào dùng hết thì sẽ mua tiếp để tránh tình trạng mua phải những loại bột gần hết hạn sử dụng.
 
-<span class="center-block text-center">
-![Cháo bột cà rốt là nguồn dinh dưỡng cho trẻ nhỏ](/img/blog/bot-ca-rot-2.jpg)
-<br>
-Ảnh: Cháo bột cà rốt là nguồn dinh dưỡng cho trẻ nhỏ
-</span>
-
+{{< img src="/img/blog/bot-ca-rot-2.jpg" title="Ảnh: Cháo bột cà rốt là nguồn dinh dưỡng cho trẻ nhỏ" alt="Cháo bột cà rốt là nguồn dinh dưỡng cho trẻ nhỏ">}}
 
 Bột cà rốt có hương vị rất thơm ngon, có thể được kết hợp với nhiều loại nguyên liệu để tạo nên những bữa ăn ngon miệng cho gia đình. Đối với những em nhỏ, cháo bột cà rốt không chỉ thơm, ngon, bổ mà còn có màu sắc bắt mắc và dễ ăn do bột đã được hòa tan. Hoặc có thể dùng bột cà rốt để nấu những món súp theo thực đơn của gia đình bạn. Vào những ngày hè oi bức, một ly nước bột cà rốt có thể giúp thanh lọc cơ thể, hạ nhiệt tốt cho cả gia đình.
 Với những công dụng tuyệt vời, bột cà rốt đang đứng trong danh sách những loại bột được tin dùng nhiều nhất hiện nay tại thị trường Việt Nam.
