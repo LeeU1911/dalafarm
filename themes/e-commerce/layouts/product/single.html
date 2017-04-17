@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Params.locale }}">
+<link rel="stylesheet" href=" {{ "css/smoothproducts.css" | absURL }}">
 {{ partial "head.html" . }}
-
 <body id="page-top" class="index">
 {{ partial "nav-for-other-page.html" . }}
 <section id="">
@@ -22,10 +22,13 @@
         </div>
         <div class="row">
             <div class="col-lg-6 col-sm-12">
-                {{ range .Params.img }}
-                    {{ $url := printf "img/product/%s" . }}
-                    <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ $.Title }}">
-                {{ end }}
+                <div class="sp-loading"><img src="{{ "img/sp-loading.gif" | absURL }}" alt=""><br>LOADING IMAGES</div>
+                <div class="sp-wrap">
+                    {{ range .Params.img }}
+                        {{ $url := printf "img/product/%s" . }}
+                    <a href="{{ $url | absURL }}"><img src="{{ $url | absURL }}" class="img-responsive" alt="{{ $.Title }}"></a>
+                    {{ end }}
+                </div>
             </div>
             <div class="col-lg-6 col-sm-12">
                 <div class="product-caption">
@@ -70,5 +73,12 @@
 {{ partial "footer.html" . }}
 {{ end }}
 {{ partial "js_other_page.html" . }}
+<script type="text/javascript" src="{{ "js/smoothproducts.min.js"| absURL }}"></script>
+<script type="text/javascript">
+    /* wait for images to load */
+    $(window).on('load', function() {
+        $('.sp-wrap').smoothproducts();
+    });
+</script>
 </body>
 </html>
