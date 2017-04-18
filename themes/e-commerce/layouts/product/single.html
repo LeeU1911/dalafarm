@@ -4,7 +4,7 @@
 {{ partial "head.html" . }}
 <body id="page-top" class="index">
 {{ partial "nav-for-other-page.html" . }}
-<section id="">
+<section id="{{ .Section }}">
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -21,7 +21,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 col-sm-12">
+            <div class="col-lg-6 col-sm-12 product-viewer">
                 <div class="sp-loading"><img src="{{ "img/sp-loading.gif" | absURL }}" alt=""><br>LOADING IMAGES</div>
                 <div class="sp-wrap">
                     {{ range .Params.img }}
@@ -39,8 +39,8 @@
                         {{ end }}
                         {{ if isset .Params "discounted_percent" }}
                         <span class="text-discount-percent">
-                    {{ echoParam .Params "discounted_percent" }}
-                </span>
+                        {{ echoParam .Params "discounted_percent" }}
+                        </span>
                         {{ end }}
                     </p>
                     <p>
@@ -68,6 +68,7 @@
 
 </div>
 </section>
+
 
 {{ if .Site.Params.params.footer.enable }}
 {{ partial "footer.html" . }}
