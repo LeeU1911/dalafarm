@@ -1,31 +1,34 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
-description = "Bột súp lơ xanh đóng gói zip 50 gram"
-price = "95,000"
-img = ["broccoli-1.jpg","broccoli-2.jpg"]
+description = "Bột củ dền đóng gói zip 50 gram"
+price = "80,000"
+img = ["beetroot-1.jpg","beetroot-2.jpg"]
 product_line = ""
-tags = ["veggie-powder","broccoli"]
-thumbnail = "broccoli-1.jpg"
-title = "Bột súp lơ xanh (50g)"
+tags = ["veggie-powder","beetroot"]
+thumbnail = "beetroot-1.jpg"
+title = "Bột củ dền (50g)"
+
 +++
 
-# Bột Súp lơ
+# Bột củ dền
 
-Bột Súp lơ DalaFarm được chọn lọc và chế biến từ những nguyên liệu 
+Bột Củ dền DalaFarm được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
 sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp chứng nhận 
 VSATTP Việt Nam.
 
 ### Thành phần: 
-100% Súp lơ
+100% Củ dền
 Không hóa chất, không hương liệu
 
 ### Công dụng: 
-Phòng ung thư, giảm cholesterol, 
-giảm chứng sưng, viêm, chống 
-oxy hóa, tốt cho tim, cải thiện 
-hệ thống miễn dịch, chống lại 
-quá trình lão hóa.
+Củ dền chứa rất nhiều vitamin C, 
+vitamin A, vitamin B9, sắt, kali, 
+magiê, axit folic, betaine, kẽm, 
+phốt pho... cung cấp năng lượng 
+cần thiết cho cơ thể, dụng đào 
+thải độc tố, ngăn ngừa hiệu quả 
+một số dạng ung thư. 
 
 ### HDSD:  
 Dùng làm thức uống hàng ngày, 
@@ -35,6 +38,9 @@ bánh, làm đẹp (đắp mặt)…
 
 ### Bảo quản: 
 Dưới 25⁰C, tránh ánh sáng trực tiếp.
+
+### Storage: 
+Below 25⁰C, avoid from direct sunlight.
 
 GỌI NGAY -  [08 66 842 517](tel:08 66 842 517) hoặc [0918 241 066](tel:0918 241 066)
 ĐỂ ĐƯỢC TƯ VẤN VÀ CUNG CẤP SẢN PHẨM 

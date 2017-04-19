@@ -1,37 +1,37 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
-description = "Bột súp lơ xanh đóng gói zip 50 gram"
-price = "95,000"
-img = ["broccoli-1.jpg","broccoli-2.jpg"]
+description = "Bột Trà xanh đóng gói zip 100 gram"
+price = "175,000"
+img = ["matcha-100g-1.jpg","matcha-100g-2.jpg"]
 product_line = ""
-tags = ["veggie-powder","broccoli"]
-thumbnail = "broccoli-1.jpg"
-title = "Bột súp lơ xanh (50g)"
+tags = ["veggie-powder","Matcha"]
+thumbnail = "matcha-100g-1.jpg"
+title = "Bột Trà Xanh (100g)"
 +++
 
-# Bột Súp lơ
+# Bột Trà Xanh
 
-Bột Súp lơ DalaFarm được chọn lọc và chế biến từ những nguyên liệu 
+Bột Trà Xanh DalaFarm được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
 sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp chứng nhận 
 VSATTP Việt Nam.
 
 ### Thành phần: 
-100% Súp lơ
+100% Trà xanh
 Không hóa chất, không hương liệu
 
 ### Công dụng: 
-Phòng ung thư, giảm cholesterol, 
-giảm chứng sưng, viêm, chống 
-oxy hóa, tốt cho tim, cải thiện 
-hệ thống miễn dịch, chống lại 
-quá trình lão hóa.
+Trà xanh giàu chất xơ, chất diệp lục 
+và vitamin, chất chống oxi hóa bao 
+gồm EGCg mạnh, cung cấp vitamin 
+C, selen, crom, kẽm và magiê, ngăn 
+ngừa bệnh tật, làm giảm cholesterol 
+và lượng đường trong máu
 
 ### HDSD:  
 Dùng làm thức uống hàng ngày, 
-bột dinh dưỡng cho em bé, làm 
-nguyên liệu nấu soup, cháo, làm 
-bánh, làm đẹp (đắp mặt)…
+làm bánh, rau câu, trà sữa, làm đẹp 
+(đắp mặt), …
 
 ### Bảo quản: 
 Dưới 25⁰C, tránh ánh sáng trực tiếp.

@@ -1,31 +1,30 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
-description = "Bột súp lơ xanh đóng gói zip 50 gram"
+description = "Bột Cà rốt đóng gói zip 50 gram"
 price = "95,000"
-img = ["broccoli-1.jpg","broccoli-2.jpg"]
+img = ["carrot-1.jpg","carrot-2.jpg"]
 product_line = ""
-tags = ["veggie-powder","broccoli"]
-thumbnail = "broccoli-1.jpg"
-title = "Bột súp lơ xanh (50g)"
+tags = ["veggie-powder","carrot"]
+thumbnail = "carrot-1.jpg"
+title = "Bột Cà rốt (50g)"
 +++
 
-# Bột Súp lơ
+# Bột Cà rốt
 
-Bột Súp lơ DalaFarm được chọn lọc và chế biến từ những nguyên liệu 
+Bột Cà rốt DalaFarm được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
 sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp chứng nhận 
 VSATTP Việt Nam.
 
 ### Thành phần: 
-100% Súp lơ
+100% Cà rốt
 Không hóa chất, không hương liệu
 
 ### Công dụng: 
-Phòng ung thư, giảm cholesterol, 
-giảm chứng sưng, viêm, chống 
-oxy hóa, tốt cho tim, cải thiện 
-hệ thống miễn dịch, chống lại 
-quá trình lão hóa.
+Cà rốt cải thiện thị lực, ngăn 
+ngừa ung thư, ngăn đau tim, 
+ngăn ngừa tai biến mạch máu 
+não, giúp làn da luôn tươi đẹp…
 
 ### HDSD:  
 Dùng làm thức uống hàng ngày, 

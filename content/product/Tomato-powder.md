@@ -1,31 +1,33 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
-description = "Bột súp lơ xanh đóng gói zip 50 gram"
+description = "Bột Cà chua đóng gói zip 50 gram"
 price = "95,000"
-img = ["broccoli-1.jpg","broccoli-2.jpg"]
+img = ["tomato-1.jpg","tomato-2.jpg"]
 product_line = ""
-tags = ["veggie-powder","broccoli"]
-thumbnail = "broccoli-1.jpg"
-title = "Bột súp lơ xanh (50g)"
+tags = ["veggie-powder","tomato"]
+thumbnail = "tomato-1.jpg"
+title = "Bột Cà chua (50g)"
 +++
 
-# Bột Súp lơ
+# Bột Cà chua
 
-Bột Súp lơ DalaFarm được chọn lọc và chế biến từ những nguyên liệu 
+Bột Cà chua DalaFarm được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
 sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp chứng nhận 
 VSATTP Việt Nam.
 
 ### Thành phần: 
-100% Súp lơ
+100% Cà chua
 Không hóa chất, không hương liệu
 
 ### Công dụng: 
-Phòng ung thư, giảm cholesterol, 
-giảm chứng sưng, viêm, chống 
-oxy hóa, tốt cho tim, cải thiện 
-hệ thống miễn dịch, chống lại 
-quá trình lão hóa.
+Cung cấp vitamin A, C giúp tăng 
+thị lực. vitamin K và canxi giúp 
+giữ cho xương chắc khỏe, có 
+các chất chống oxy hóa như 
+lycopene, lutein và zeaxanthin... 
+giúp phòng chống ung thư, giảm 
+lượng đường trong máu.
 
 ### HDSD:  
 Dùng làm thức uống hàng ngày, 

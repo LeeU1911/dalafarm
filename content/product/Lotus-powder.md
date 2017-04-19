@@ -1,31 +1,33 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
-description = "Bột súp lơ xanh đóng gói zip 50 gram"
-price = "95,000"
-img = ["broccoli-1.jpg","broccoli-2.jpg"]
+description = "Bột Hạt sen đóng gói zip 50 gram"
+price = "90,000"
+img = ["lotusseeds-1.jpg","lotusseeds-2.jpg"]
 product_line = ""
-tags = ["veggie-powder","broccoli"]
-thumbnail = "broccoli-1.jpg"
-title = "Bột súp lơ xanh (50g)"
+tags = ["veggie-powder","Lotusseeds"]
+thumbnail = "lotusseeds-1.jpg"
+title = "Bột Hạt sen (50g)"
 +++
 
-# Bột Súp lơ
+# Bột Hạt sen
 
-Bột Súp lơ DalaFarm được chọn lọc và chế biến từ những nguyên liệu 
-tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
+Bột Hạt sen DalaFarm được chọn lọc và chế biến từ những nguyên liệu 
+tươi ngon không hóa chất trồng tại Ninh Hòa, Khánh Hòa. Sản phẩm được 
 sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp chứng nhận 
 VSATTP Việt Nam.
 
 ### Thành phần: 
-100% Súp lơ
+100% Hạt sen
 Không hóa chất, không hương liệu
 
 ### Công dụng: 
-Phòng ung thư, giảm cholesterol, 
-giảm chứng sưng, viêm, chống 
-oxy hóa, tốt cho tim, cải thiện 
-hệ thống miễn dịch, chống lại 
-quá trình lão hóa.
+Hạt sen là một nguồn giàu phốt 
+pho, protein, kali và magiê. Chúng 
+cũng có thể chứa kẽm và sắt. 
+Hạt có hàm lượng đường, natri, 
+cholesterol, chất béo bão hòa, 
+các chất chống oxy hoá mạnh,
+giúp chống viêm và lão hóa.
 
 ### HDSD:  
 Dùng làm thức uống hàng ngày, 

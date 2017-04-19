@@ -1,31 +1,31 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
-description = "Bột súp lơ xanh đóng gói zip 50 gram"
-price = "95,000"
-img = ["broccoli-1.jpg","broccoli-2.jpg"]
+description = "Bột Rau diếp cá, có 2 loại bao bì đóng gói zip 50 gram và 100 gram"
+price = "85,000"
+img = ["heartleaf-50g-1.jpg","heartleaf-50g-2.jpg", "heartleaf-100g-1.jpg","heartleaf-100g-2.jpg"]
 product_line = ""
-tags = ["veggie-powder","broccoli"]
-thumbnail = "broccoli-1.jpg"
-title = "Bột súp lơ xanh (50g)"
+tags = ["veggie-powder","heartleaf"]
+thumbnail = "heartleaf-50g-1.jpg"
+title = "Bột Rau diếp cá"
 +++
 
-# Bột Súp lơ
+# Bột Rau diếp cá
 
-Bột Súp lơ DalaFarm được chọn lọc và chế biến từ những nguyên liệu 
+Bột Rau diếp cá DalaFarm được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
 sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp chứng nhận 
 VSATTP Việt Nam.
 
 ### Thành phần: 
-100% Súp lơ
+100% Rau diếp cá
 Không hóa chất, không hương liệu
 
 ### Công dụng: 
-Phòng ung thư, giảm cholesterol, 
-giảm chứng sưng, viêm, chống 
-oxy hóa, tốt cho tim, cải thiện 
-hệ thống miễn dịch, chống lại 
-quá trình lão hóa.
+Diếp cá có nhiều vitamin C, E, G,
+K, cholin và các loại muối khoáng
+giúp thanh nhiệt, giải độc, kháng 
+viêm, nhuận tràng và hỗ trợ điều 
+trị bệnh trĩ hiệu quả.
 
 ### HDSD:  
 Dùng làm thức uống hàng ngày, 

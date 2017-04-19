@@ -22,7 +22,7 @@ weight = 3
 # <h1 style="text-align: center;">Bột rau củ hỗ trợ ăn dặm cho bé DalaBaby</h1>
 Bột rau củ DalaFarm được chọn lọc và chế biến từ những nguyên liệu tươi ngon không hóa chất trồng tại nông trại DalaFarm, Lâm Đồng theo tiêu chuẩn hữu cơ. Sản phẩm được sản xuất bằng công nghệ SEFD độc quyền và đạt tiêu chuẩn VSATTP Việt Nam. 
 
-### Thành phần:  
+#### Thành phần:  
 100% từ rau củ tươi tự nhiên không chất bảo quản.
 
 Gồm 7 loại bột rau củ:
@@ -36,20 +36,20 @@ Gồm 7 loại bột rau củ:
 * **Hạt sen** 
 
  
-### Công dụng:  
+#### Công dụng:  
 1. Giúp bé hấp thu đủ các vitamin, khoáng chất và chất xơ 
 2. Giúp tăng sức đề kháng cho trẻ 
 3. Giúp giảm táo bón cho trẻ giai đoạn mới ăn dặm 
 
-### Hướng dẫn sử dụng:  
+#### Hướng dẫn sử dụng:  
 5 gram bột rau củ tương đương 70 - 80 gram rau tươi
  
 _Rau củ đã được sấy và làm chín bằng công nghệ độc quyền SEFD nên có thể phối trộn trực tiếp với các thực phẩm ăn dặm của bé như: bột ăn dặm, cháo, cơm, nui, mì, sữa chua, v.v..._ 
 
-### Bảo quản: 
+#### Bảo quản: 
 Dưới 25°C, lưu trữ nơi râm mát, tránh nơi có ánh sáng trực tiếp, nhiệt độ và độ ẩm cao. 
 
-### Mách bạn: 
+#### Mách bạn: 
 Bạn có biết lượng vitamin và khoáng chất còn lại bao nhiêu cho bé sau khi mẹ chế biến?  
 Vitamin và chất dinh dưỡng còn lại khoảng **40%** sau quá trình vận chuyển từ nông trại -> siêu thị -> bảo quản, rửa và nấu ở nhiệt độ cao. 
 Giải pháp nào cho bé? 

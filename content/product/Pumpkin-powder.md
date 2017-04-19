@@ -1,31 +1,30 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
-description = "Bột súp lơ xanh đóng gói zip 50 gram"
-price = "95,000"
-img = ["broccoli-1.jpg","broccoli-2.jpg"]
+description = "Bột Bí đỏ đóng gói zip 50 gram"
+price = "70,000"
+img = ["pumpkin-1.jpg","pumpkin-2.jpg"]
 product_line = ""
-tags = ["veggie-powder","broccoli"]
-thumbnail = "broccoli-1.jpg"
-title = "Bột súp lơ xanh (50g)"
+tags = ["veggie-powder","Pumpkin"]
+thumbnail = "pumpkin-1.jpg"
+title = "Bột Bí đỏ (50g)"
 +++
 
-# Bột Súp lơ
-
-Bột Súp lơ DalaFarm được chọn lọc và chế biến từ những nguyên liệu 
+# Bột Bí đỏ 
+Bột Bí đỏ DalaFarm được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
 sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp chứng nhận 
 VSATTP Việt Nam.
 
 ### Thành phần: 
-100% Súp lơ
-Không hóa chất, không hương liệu
+100% Bí đỏ Không hóa chất, không hương liệu
 
 ### Công dụng: 
-Phòng ung thư, giảm cholesterol, 
-giảm chứng sưng, viêm, chống 
-oxy hóa, tốt cho tim, cải thiện 
-hệ thống miễn dịch, chống lại 
-quá trình lão hóa.
+Bí đỏ giàu các chất chống oxy hoá, 
+vitamin A, B6, C, E và beta-carotene 
+hỗ trợ sức khoẻ mắt và ngăn ngừa
+thoái hoá. Đây cũng là một nguồn 
+giàu chất khoáng như đồng, canxi, 
+kali, phốt pho và chất xơ.
 
 ### HDSD:  
 Dùng làm thức uống hàng ngày, 
