@@ -7,7 +7,7 @@ product_line = ""
 tags = ["veggie-powder","Moonpowder"]
 thumbnail = "moon-powder-1.jpg"
 title = "Bột Detox Moon powder (100g)"
-weight = 1
+weight = 2
 +++
 
 # Bột Detox Moon powder

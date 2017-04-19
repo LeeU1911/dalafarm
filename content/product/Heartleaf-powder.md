@@ -1,12 +1,13 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
-description = "Bột Rau diếp cá, có 2 loại bao bì đóng gói zip 50 gram và 100 gram"
+description = "Bột Rau diếp cá đóng gói zip 50 gram"
 price = "85,000"
-img = ["heartleaf-50g-1.jpg","heartleaf-50g-2.jpg", "heartleaf-100g-1.jpg","heartleaf-100g-2.jpg"]
+img = ["heartleaf-50g-1.jpg","heartleaf-50g-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","heartleaf"]
 thumbnail = "heartleaf-50g-1.jpg"
-title = "Bột Rau diếp cá"
+title = "Bột Rau diếp cá (50g)"
+weight = 1
 +++
 
 # Bột Rau diếp cá

@@ -7,7 +7,7 @@ product_line = ""
 tags = ["veggie-powder","Sunpowder"]
 thumbnail = "sun-powder-1.jpg"
 title = "Bột Detox Sun powder (100g)"
-weight = 1 
+weight = 2
 +++
 
 # Bột Detox Sun powder

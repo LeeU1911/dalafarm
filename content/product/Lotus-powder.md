@@ -7,6 +7,7 @@ product_line = ""
 tags = ["veggie-powder","Lotusseeds"]
 thumbnail = "lotusseeds-1.jpg"
 title = "Bột Hạt sen (50g)"
+weight = 1
 +++
 
 # Bột Hạt sen

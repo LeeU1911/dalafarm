@@ -7,7 +7,7 @@ product_line = ""
 tags = ["veggie-powder","beetroot"]
 thumbnail = "beetroot-1.jpg"
 title = "Bột củ dền (50g)"
-
+weight = 1
 +++
 
 # Bột củ dền

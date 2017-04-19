@@ -7,6 +7,7 @@ product_line = ""
 tags = ["veggie-powder","cocoa"]
 thumbnail = "cocoa-1.jpg"
 title = "Bột cacao (50g)"
+weight = 1
 +++
 
 # Bột cacao

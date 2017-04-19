@@ -7,6 +7,7 @@ product_line = ""
 tags = ["veggie-powder","broccoli"]
 thumbnail = "broccoli-1.jpg"
 title = "Bột súp lơ xanh (50g)"
+weight = 1
 +++
 
 # Bột Súp lơ

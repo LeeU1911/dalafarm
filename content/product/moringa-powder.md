@@ -7,6 +7,7 @@ product_line = ""
 tags = ["veggie-powder","moringa"]
 thumbnail = "moringa-1.jpg"
 title = "Bột Chùm ngây (50g)"
+weight = 1
 +++
 
 # Bột Chùm ngây

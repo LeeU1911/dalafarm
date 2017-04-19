@@ -7,6 +7,7 @@ product_line = ""
 tags = ["veggie-powder","pennywork"]
 thumbnail = "pennywork-100g-1.jpg"
 title = "Bột Rau má (100g)"
+weight = 1
 +++
 
 # Bột Rau má
