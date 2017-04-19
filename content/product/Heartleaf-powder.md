@@ -27,7 +27,7 @@ giúp thanh nhiệt, giải độc, kháng
 viêm, nhuận tràng và hỗ trợ điều 
 trị bệnh trĩ hiệu quả.
 
-### HDSD:  
+### Hướng dẫn sử dụng:  
 Dùng làm thức uống hàng ngày, 
 bột dinh dưỡng cho em bé, làm 
 nguyên liệu nấu soup, cháo, làm 

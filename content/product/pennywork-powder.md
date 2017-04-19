@@ -29,7 +29,7 @@ cholesterol, thúc đẩy quá trình tái
 tạo tế bào da làm cho da căng đầy 
 sức sống và bề mặt da săn chắc hơn.
 
-### HDSD:  
+### Hướng dẫn sử dụng:  
 Dùng làm thức uống hàng ngày, 
 bột dinh dưỡng cho em bé, làm 
 nguyên liệu nấu soup, cháo, làm 

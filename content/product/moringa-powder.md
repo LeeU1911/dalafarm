@@ -29,7 +29,7 @@ vời như sắt, canxi và vitamin A, B, K,
 C, E. Bên cạnh đó, đây là một nguồn 
 chất lượng tốt protein và chất xơ.
 
-### HDSD:  
+### Hướng dẫn sử dụng:  
 Dùng làm thức uống hàng ngày, 
 bột dinh dưỡng cho em bé, làm 
 nguyên liệu nấu soup, cháo, làm 

@@ -26,7 +26,7 @@ thoái hoá. Đây cũng là một nguồn
 giàu chất khoáng như đồng, canxi, 
 kali, phốt pho và chất xơ.
 
-### HDSD:  
+### Hướng dẫn sử dụng:  
 Dùng làm thức uống hàng ngày, 
 bột dinh dưỡng cho em bé, làm 
 nguyên liệu nấu soup, cháo, làm 

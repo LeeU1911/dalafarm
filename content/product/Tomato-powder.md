@@ -29,7 +29,7 @@ lycopene, lutein và zeaxanthin...
 giúp phòng chống ung thư, giảm 
 lượng đường trong máu.
 
-### HDSD:  
+### Hướng dẫn sử dụng:  
 Dùng làm thức uống hàng ngày, 
 bột dinh dưỡng cho em bé, làm 
 nguyên liệu nấu soup, cháo, làm 

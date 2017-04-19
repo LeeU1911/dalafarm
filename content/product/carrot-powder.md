@@ -26,7 +26,7 @@ ngừa ung thư, ngăn đau tim,
 ngăn ngừa tai biến mạch máu 
 não, giúp làn da luôn tươi đẹp…
 
-### HDSD:  
+### Hướng dẫn sử dụng:  
 Dùng làm thức uống hàng ngày, 
 bột dinh dưỡng cho em bé, làm 
 nguyên liệu nấu soup, cháo, làm 

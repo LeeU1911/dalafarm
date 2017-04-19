@@ -28,7 +28,7 @@ C, selen, crom, kẽm và magiê, ngăn
 ngừa bệnh tật, làm giảm cholesterol 
 và lượng đường trong máu
 
-### HDSD:  
+### Hướng dẫn sử dụng:  
 Dùng làm thức uống hàng ngày, 
 làm bánh, rau câu, trà sữa, làm đẹp 
 (đắp mặt), …

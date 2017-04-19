@@ -29,7 +29,7 @@ cholesterol, chất béo bão hòa,
 các chất chống oxy hoá mạnh,
 giúp chống viêm và lão hóa.
 
-### HDSD:  
+### Hướng dẫn sử dụng:  
 Dùng làm thức uống hàng ngày, 
 bột dinh dưỡng cho em bé, làm 
 nguyên liệu nấu soup, cháo, làm 

@@ -27,7 +27,7 @@ oxy hóa, tốt cho tim, cải thiện
 hệ thống miễn dịch, chống lại 
 quá trình lão hóa.
 
-### HDSD:  
+### Hướng dẫn sử dụng:  
 Dùng làm thức uống hàng ngày, 
 bột dinh dưỡng cho em bé, làm 
 nguyên liệu nấu soup, cháo, làm 

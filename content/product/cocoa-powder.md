@@ -24,7 +24,7 @@ Cung cấp sắt, mangan, magiê và  kẽm, giảm huyết áp, cholesterol,  b
 hội chứng mệt  mỏi mãn tính và các bệnh thoái  hóa khớp. Chữa lành vết thương  nhanh, chăm sóc da, 
 giúp cải thiện  sức khoẻ tim mạch và não.
 
-### HDSD:  
+### Hướng dẫn sử dụng:  
 Dùng làm thức uống hàng ngày,  làm bánh, rau câu, làm đẹp  (đắp mặt)… 
 
 ### Bảo quản: 
