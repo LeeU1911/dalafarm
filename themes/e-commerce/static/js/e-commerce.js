@@ -41,9 +41,7 @@ $('body').scrollspy({
 })
 
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
-});
+//move to e-commerce-other-page.js to be easily included in other page
 
 // Async contact form
 $('form[id=contactForm]').submit(function(){
@@ -64,3 +62,6 @@ $('form[id=contactForm]').submit(function(){
 $.validate({
   modules : 'html5, toggleDisabled'
 });
+
+//make height of product tile as the tallest one
+//move to e-commerce-other-page.js to be easily included in other page
