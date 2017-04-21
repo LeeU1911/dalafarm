@@ -1,7 +1,7 @@
 <div class="col-sm-6 col-md-3 text-center box-item">
     <a href="{{ .Permalink }}" class="blog-link">
         {{ $url := printf "img/blog/%s" .Params.thumbnail }}
-        <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Title }}">
+        <img src="{{ $url | absURL }}" class="img-responsive center-block" alt="{{ .Title }}">
     </a>
         <time class="blog-time">
             {{ dateFormat "Monday, Jan 2, 2006" .Date }}
