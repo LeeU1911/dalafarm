@@ -1,7 +1,7 @@
 +++
 date = "2017-04-19T22:29:26+08:00"
 tags = ["bot-diep-ca", "heartleaf-powder", "benh-tri"]
-thumbnail = "HINH NGOAI.jpg"
+thumbnail = "hinh ly diep ca.jpg"
 title = "CÁCH CHỮA BỆNH TRĨ BẰNG BỘT RAU DIẾP CÁ"
 
 +++
