@@ -37,16 +37,17 @@ b. Cách phát hiện bệnh trĩ với búi trĩ:
 * Ở giai đoạn đầu, búi trĩ bắt đầu xuất hiện. Đối với trĩ nội, chúng chỉ nhỏ như hạt đậu tương. Ở trĩ ngoại, chúng là đám nhô ra ở bên ngoài hậu môn. 
 * Tình trạng sa búi trĩ - búi trĩ lòi ra ngoài xuất hiện ở giai đoạn 2 đến cuối của bệnh. Khi mà các búi trĩ đã to và phát triển, chúng thường xuyên lòi ra ngoài khiến người bị rất khó chịu. 
 
-4 - Những biến chứng nguy hiểm của bệnh trĩ: 
+4 - **Những biến chứng nguy hiểm của bệnh trĩ:** 
+
 * Người bệnh đi đại tiện sẽ khó khăn hơn. Khi đi đại tiện mà chảy máu, lâu dẫn người bệnh sẽ bị mất máu, thiếu máu dẫn đến suy giảm trí nhớ, sức khỏe và một số bệnh liên quan khác. 
 * Các búi trĩ thường xuyên sa ra ngoài, người bệnh lại không vệ sinh sạch sẽ giúp cho các vi khuẩn gây bệnh phát triển, hậu môn bị viêm nhiễm … 
 * Đối với phụ nữ, bệnh trĩ có thể biến chứng thành các loại bệnh phụ khoa khác như viêm âm đạo, … do hậu môn và âm hộ khá gần nhau. 
 
-Những cách chữa bệnh trĩ tốt nhất hiện nay đang được sử dụng 
+### Những cách chữa bệnh trĩ tốt nhất hiện nay đang được sử dụng 
 
 Bất kỳ loại bệnh nào cũng vậy, luôn có nhiều cách chữa khác nhau làm giảm thiểu triệu chứng cũng như chữa trị dứt điểm. Để trả lời cho câu hỏi: “Bị trĩ phải làm sao?”. Chúng tôi luôn nghĩ phòng bệnh hơn chữa bệnh, cách tốt nhất bạn nên làm là cần có các biện pháp phòng tránh sớm. Ở bài chia sẻ này chúng tôi xin giới thiệu những cách điều trị và cách chữa bệnh trĩ hiệu quả được nhiều người tin dùng cũng như các bác sĩ chuyên khoa khuyên người bệnh nên sử dụng. 
 
-1 - Một số cách chữa bệnh trĩ tại nhà hiệu quả nhất đã được kiểm chứng: 
+1 - **Một số cách chữa bệnh trĩ tại nhà hiệu quả nhất đã được kiểm chứng:** 
 
 a. Cách trị bệnh trĩ tại nhà với rau Diếp Cá: 
 
@@ -78,7 +79,7 @@ Rau má không đơn chỉ là một loại rau mà còn có thể sử dụng h
 
 {{< img src="/img/blog/chua-benh-tri-tai-nha (3).jpg" title="Chữa bệnh trĩ với rau diếp cá" >}}
 
-2 - Cách trị bệnh trĩ bằng thuốc Tây Y: 
+2 - **Cách trị bệnh trĩ bằng thuốc Tây Y:** 
 
 a. Bệnh trĩ và cách điều trị bằng thuốc kháng sinh: 
 Một số loại thuốc kháng sinh, kháng viêm ở hậu môn và tăng cường sức đề kháng cho cơ thể giúp giảm đau và chống viêm sưng như: Acetaminophen, Aspirin (Asreiptin, Bayer), Ibuprofen (Advil, Motrin)... 
@@ -91,7 +92,8 @@ Giúp cho hậu môn tránh bị tổn thương, thành hậu môn được làm
 
 {{< img src="/img/blog/chua-benh-tri-tai-nha (4).jpg" title="Chữa bệnh trĩ bằng thuốc tây y" >}} 
 
-3 - Cách điều trị bệnh trĩ bằng phương pháp phẫu thuật: 
+3 - **Cách điều trị bệnh trĩ bằng phương pháp phẫu thuật:**
+ 
 Khi bệnh trĩ đã đến giai đoạn nặng, các cách chữa bệnh trĩ tại nhà, tây y đều không còn hiệu quả như trước thì bạn nên sử dụng các phương pháp điều trị bệnh trĩ bằng cách phẫu thuật trĩ. 
 Trong rất nhiều phương pháp phẫu thuật trĩ cắt bỏ búi trĩ, mình đưa ra cho bạn 2 phương pháp, nhằm giải đáp cho bạn cắt trĩ bằng phương pháp nào tốt nhất, mang lại hiệu quả nhất ở dưới đây: 
 
