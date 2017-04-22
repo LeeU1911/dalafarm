@@ -21,4 +21,9 @@ GỌI NGAY -  [08 66 842 517](tel:08 66 842 517) hoặc [0918 241 066](tel:0918 
 ĐỂ ĐƯỢC TƯ VẤN VÀ CUNG CẤP SẢN PHẨM
 BỘT RAU CỦ DALAFARM VỚI MỨC GIÁ TỐT NHẤT
 
+VPĐD: 317 Lô D, CC Lạc Long Quân, Phường 5, 
+Quận 11,TP.HCM
+
+Điện thoại: [(028) 6684 2517](tel:028 6684 2517); [(0258) 3899 189](tel:0258 3899 189)
+
 Email: [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
