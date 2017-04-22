@@ -14,8 +14,11 @@
             </div>
         </div>
         <div class="row">
-            {{ range .Data.Pages }}
+            {{ range $i, $e :=  .Pages }}
             {{ .Render "summary" }}
+            {{ if modBool ( add $i 1) 4 }}
+            </div><div class="row">
+            {{ end }}
             {{ end }}
         </div>
     </div>
