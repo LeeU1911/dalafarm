@@ -7,7 +7,7 @@ defaultContentLanguage = "vi"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 logFile = "log.txt"
-
+disqusShortname = "leeu1911"
 ##########################################
 [Languages]
 #Vietnamese

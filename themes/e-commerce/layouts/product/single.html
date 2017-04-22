@@ -63,7 +63,17 @@
                 </article>
             </div>
         </div>
+        <br>
+        <div class="rơw">
+            <div class="col-md-12 text-center">
+                TAGGED:
+                {{ range .Params.tags }}
+                <span>{{ . | upper }}</span>
+                {{ end }}
+            </div>
+        </div>
     </section>
+    {{ partial "disqus.html" . }}
 
 
 </div>
