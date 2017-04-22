@@ -25,12 +25,11 @@ Bạn hãy xay nhuyễn rau diếp cá để uống sẽ đem lại những tác
 
 {{< img src="/img/blog/chua-benh-tri-bot-diep-ca-1.jpg" title="Rau diếp cá chữa bệnh trĩ" >}}
  
-Hoặc có thể thay thế bằng bột rau diếp cá của Dalahouse được trồng bằng phương pháp organic tại Đà lạt và được  sấy bằng công nghệ SEFD giúp giữ nguyên vitamin và dinh dưỡng. 
+Hoặc có thể thay thế bằng **_bột rau diếp cá_ của DalaFarm được trồng bằng phương pháp organic tại Đà lạt và được sấy bằng công nghệ SEFD giúp giữ nguyên vitamin và dinh dưỡng**. 
 Bạn chỉ cần pha 3-5g bột rau diếp cá + 300ml nước ấm và có thể uống được ngay. 
  
 2) Đắp rau diếp cá:
  
-Giải pháp chữa bệnh trĩ bằng rau diếp cá khi búi trĩ bị sa ra khỏi hậu môn: 
-Hãy pha 10-20g bột rau diếp cá pha với 1 chút nước ấm cho sệt lại rồi đắp lên hậu môn, chỗ búi trĩ bị sa rồi bang lại. Mỗi ngày thực hiện 1 lần, thường xuyên và đều đặn để phương pháp này phát huy tác dụng hiệu quả nhất. 
+Giải pháp chữa bệnh trĩ bằng rau diếp cá khi búi trĩ bị sa ra khỏi hậu môn - hãy pha 10-20g bột rau diếp cá pha với 1 chút nước ấm cho sệt lại rồi đắp lên hậu môn, chỗ búi trĩ bị sa rồi bang lại. Mỗi ngày thực hiện 1 lần, thường xuyên và đều đặn để phương pháp này phát huy tác dụng hiệu quả nhất. 
 
 {{< img src="/img/blog/chua-benh-tri-bot-diep-ca-2.jpg" title="Rau diếp cá chữa bệnh trĩ" >}}
