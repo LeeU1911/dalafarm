@@ -331,3 +331,7 @@ body{webkit-tap-highlight-color:#A6CE39;}
 .product-viewer{
     display: inline-block;
 }
+
+.row-eq-height {
+    display: flex;
+}
