@@ -25,7 +25,7 @@
             <div class="row">
                 <div class="col-md-12 text-center blog-title-article">
                     <h3>
-                        {{ .Title }}
+                        {{ .Title | markdownify}}
                     </h3>
                     <span> {{ .ReadingTime }} {{ i18n "minuteRead" }}</span>
                 </div>
