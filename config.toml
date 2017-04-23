@@ -208,12 +208,192 @@ copyright = "Bản quyền thuộc DalaFarm (C) 2017"
 ## English
 [Languages.en]
 title = "Welcome to DalaFarm"
-copyright = "Copyright DalaFarm (C) 2017"
 weight = 1
 
-##[[Languages.en.menu.main]]
-##url    = "/blogs"
-##name   = "Blogs"
-##weight = 0
-#[Languages.en.permalinks]
-#product = "/product/:slug"
+[Languages.en.permalinks]
+product = "/san-pham/:slug"
+
+[[Languages.en.menu.main]]
+url    = "/blog"
+name   = "Blog"
+weight = 0
+
+[Languages.en.params]
+name = "DalaFarm"
+description = """DalaFarm cung cấp các sản phẩm bột dâu tây, cần tây, củ dền, cà rốt, diếp cá, cả bó xôi, cà chua, rau má,
+                 hạt sen cho bé ăn dặm. Ngoài ra, DalaFarm còn cung cấp bột rau củ hỗn hợp để pha thức uống giải độc detox
+                 cùng với dầu tỏi, tỏi đen và các sản phẩm từ tỏi."""
+
+# Link custom assets relative to /static
+custom_css = []
+custom_js  = []
+favicon    = "favicon.ico"
+#Content footer
+contentFooter = """
+GỌI NGAY -  [08 66 842 517](tel:08 66 842 517) hoặc [0918 241 066](tel:0918 241 066)
+ĐỂ ĐƯỢC TƯ VẤN VÀ CUNG CẤP SẢN PHẨM
+BỘT RAU CỦ DALAFARM VỚI MỨC GIÁ TỐT NHẤT
+
+VPĐD: 317 Lô D, CC Lạc Long Quân, Phường 5,
+Quận 11,TP.HCM
+
+Điện thoại: [(028) 6684 2517](tel:028 6684 2517); [(0258) 3899 189](tel:0258 3899 189)
+
+Email: [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
+"""
+
+# Navigation
+[Languages.en.params.navigation]
+brand = "DalaFarm"
+product = "Sản phẩm"
+about = "Về Dalafarm"
+team = "Chúng tôi"
+contact = "Liên hệ"
+# Optional logo as brand stored in img/
+#logo = "logo.svg"
+
+# Hero section
+[Languages.en.params.hero]
+title = "Chào mừng bạn ghé thăm!"
+subtitle = "DalaFarm rất vui được gặp bạn"
+buttonText = "Dạo 1 vòng nào"
+
+# Products section
+[Languages.en.params.product]
+enable = true
+title = "Sản phẩm"
+subtitle = "Danh mục sản phẩm của Dalafarm"
+path = "san-pham"
+
+# About section
+[Languages.en.params.about]
+enable = true
+    title = "Về DalaFarm"
+    subtitle = "Hành trình của chúng tôi đã bắt đầu như thế nào."
+    endpoint = "Hãy đồng <br>hành cùng <br>DalaFarm!"
+    path = "ve-dalafarm"
+    [[Languages.en.params.about.events]]
+      img = "toi-den-duc-ha.png"
+      date = "June 2015"
+      title = "Công ty Đức Hà được thành lập"
+      description = "Ms. Hà sáng lập ra công ty Đức Hà để sản xuất và kinh doanh các sản phẩm gia vị thảo dược, nổi bật là tỏi đen cùng các sản phẩm về tỏi"
+
+    [[Languages.en.params.about.events]]
+      img = "dalahouse.jpg"
+      date = "Feb 2016"
+      title = "Công ty Dalahouse được ra đời"
+      description = "Ms. Trâm sáng lập ra công ty Dalahouse với khao khát biến sản phẩm rau củ trở nên tiện lợi hơn cho những người bận rộn"
+
+    [[Languages.en.params.about.events]]
+      img = "dalafarm.png"
+      date = "March 2017"
+      title = "Câu chuyện Dalafarm bắt đầu"
+      description = "Chia sẻ chung niềm đam mê về sản xuất và kinh doanh các sản phẩm Việt Nam chất lượng cao, Ms. Hà và Ms. Trâm đã hợp nhất 2 công ty Đức Hà và Dalahouse lại thành 1 công ty duy nhất mang tên DalaFarm. Cùng với 2 cộng sự khác - Ms. Thư và Mr. Vũ, chúng tôi cam kết mang những sản phẩm sạch, chất lượng cao đến với mọi người tiêu dùng!"
+
+# Team section
+[Languages.en.params.team]
+enable = true
+center = true
+title = "Thành viên DalaFarm"
+subtitle = ""
+description = "Chúng tôi là một đội ngũ gồm những thành viên có những nền tảng khác nhau nhưng cùng 1 chí hướng để mang những sản phẩm tốt nhất của Việt Nam ra thế giới."
+path = "chung-toi"
+    [[Languages.en.params.team.members]]
+      img = "ha.jpg"
+      name = "Lê Thị Thu Hà"
+      position = "Founder"
+      livesIn = "Nha Trang, Việt Nam"
+      scope = [
+
+      ]
+      # For bio markdown and even multiline strings are available.
+#      bio = "Sáng lập nên công ty Đức Hà, nay là một phần của DalaFarm"
+      social = [
+        ["fa-facebook", "https://www.facebook.com/thuha47nt"]
+      ]
+
+    [[Languages.en.params.team.members]]
+      img = "tram.jpg"
+      name = "Nguyễn Huyền Trâm"
+      position = "Founder"
+      livesIn = "Hồ Chí Minh, Việt Nam"
+#      bio = "Sáng lập nên công ty Dalahouse, nay là một phần của DalaFarm"
+      social = [
+        ["fa-facebook", "https://www.facebook.com/profile.php?id=100000861713629"]
+      ]
+
+    [[Languages.en.params.team.members]]
+      img = "thu.jpg"
+      name = "Võ Thị Thanh Thư"
+      position = "Co-founder"
+      livesIn = "Hồ Chí Minh, Việt Nam"
+#      bio = "Trùm kinh doanh, đến từ Nestle Việt Nam"
+      social = [
+        ["fa-facebook", "https://www.facebook.com/thanh.thuvo.1"]
+      ]
+
+    [[Languages.en.params.team.members]]
+      img = "vu.jpg"
+      name = "Lê Tấn Vũ"
+      position = "Co-founder"
+      livesIn = "Hồ Chí Minh, Việt Nam"
+#      bio = "Kỹ sư phần mềm"
+      social = [
+        ["fa-facebook", "https://www.facebook.com/LeeU14"]
+      ]
+# Contact section
+[Languages.en.params.contact]
+enable = true
+title = "Liên hệ với DalaFarm"
+    subtitle  = "Hãy để lại 1 lời nhắn và chúng tôi sẽ liên lạc lại trong vòng 1 ngày."
+    buttonText = "Gửi tin nhắn"
+    thanks = "Cám ơn đã liên hệ với chúng tôi. Chúng tôi sẽ trả lời bạn trong vòng 1 ngày."
+    error = "Tin nhắn không gửi được. Vui lòng email cho chúng tôi qua contact@dalafarm.com"
+    email = "info@dalafarm.com.vn"
+
+# 'warning' defines error messages for invalid inputs
+[Languages.en.params.contact.form.name]
+  text = "Tên của bạn *"
+  warning = "Vui lòng nhập tên."
+
+[Languages.en.params.contact.form.email]
+  text = "Email của bạn*"
+  warning = "Vui lòng nhập email để chúng tôi có thể liên lạc lại với bạn."
+
+[Languages.en.params.contact.form.phone]
+  text = "Số điện thoại *"
+  warning = "Vui lòng nhập số điện thoại để chúng tôi có thể liên lạc lại với bạn."
+
+[Languages.en.params.contact.form.message]
+  text = "Tin nhắn *"
+  warning = "Vui lòng nhập nội dung lời nhắn."
+
+# Add optional form fields to identify contact forms
+[[Languages.en.params.contact.form.hidden]]
+    name = "DalaFarm"
+    value = "dalafarm.com.vn"
+#
+[[Languages.en.params.contact.form.hidden]]
+# Special values for name such as "page" and "site" will be autofilled
+    name = "site"
+
+
+# Footer section
+[Languages.en.params.footer]
+enable = true
+copyright = "Copyright DalaFarm (C) 2017"
+
+[[Languages.en.params.footer.quicklinks]]
+  text = "Điều khoản sử dụng"
+  link = "/dieu-khoan"
+[[Languages.en.params.footer.social]]
+  icon = "fa-facebook"
+  link = "https://www.facebook.com/dalafarm.com.vn/"
+[[Languages.en.params.footer.social]]
+  icon = "fa-pinterest"
+  link = "https://www.pinterest.com/dalafarm/"
+[[Languages.en.params.footer.social]]
+  icon = "fa-instagram"
+  link = "https://www.instagram.com/dalafarm.com.vn/"
+
+
