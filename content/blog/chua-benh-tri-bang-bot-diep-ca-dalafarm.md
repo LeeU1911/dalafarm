@@ -2,7 +2,7 @@
 date = "2017-04-23T01:11:40+08:00"
 tags = ["bot-diep-ca", "heartleaf-powder"]
 thumbnail = "chua-benh-tri-bot-diep-ca-tn.jpg"
-title = "\"SỰ THẬT\" VỀ CÁCH CHỮA BỆNH TRĨ BẰNG BỘT RAU DIẾP CÁ DALAFARM "
+title = "\"Sự thật\" về cách chữa bệnh trĩ bằng bột rau diếp cá DalaFarm"
 
 +++
 

@@ -35,6 +35,7 @@
                 <div class="col-md-10">
                     <article class="blog-article">
                         {{ .Content | markdownify | emojify}}
+                        <p>{{ with .Site.Params.params.contentFooter }}{{ . | markdownify }}{{ end }}</p>
                     </article>
                 </div>
                 <div class="col-md-1"></div>

@@ -37,10 +37,3 @@ bánh, làm đẹp (đắp mặt)…
 ### Bảo quản: 
 Dưới 25⁰C, tránh ánh sáng trực tiếp.
 
-GỌI NGAY -  0866 842 517/0918 241 066
-ĐỂ ĐƯỢC TƯ VẤN VÀ CUNG CẤP SẢN PHẨM 
-BỘT RAU CỦ DALAFARM VỚI MỨC GIÁ TỐT NHẤT
-VPĐD: 317 Lô D, CC Lạc Long Quân, Phường 5, 
-Quận 11,TP.HCM
-Điện thoại: (028) 6684 2517; (0258) 3899 189
-Email: info@dalafarm.com.vn

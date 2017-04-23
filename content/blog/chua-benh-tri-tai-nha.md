@@ -2,7 +2,7 @@
 date = "2017-04-23T01:27:54+08:00"
 tags = ["bot-diep-ca", "heartleaf-powder", "bệnh trĩ"]
 thumbnail = "chua-benh-tri-tai-nha-tn.jpg"
-title = "BỆNH TRĨ LÀ GÌ? CÁCH CHỮA BỆNH TRĨ TẠI NHÀ HIỆU QUẢ "
+title = "Bệnh trĩ là gì? Cách chữa bệnh trĩ tại nhà hiệu quả"
 
 +++
 

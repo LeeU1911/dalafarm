@@ -2,7 +2,7 @@
 date = "2017-04-23T01:51:53+08:00"
 tags = ["Trị Hôi Nách", "bot-diep-ca", "heartleaf-powder"]
 thumbnail = "tri-hoi-nach-bang-bot-diep-ca-tn.jpg"
-title = "CÁCH TRỊ HÔI NÁCH CỰC KỲ HIỆU QUẢ BẰNG RAU DIẾP CÁ "
+title = "Cách trị hôi nách cực kỳ hiệu quả bằng rau diếp cá"
 
 +++
  
@@ -44,14 +44,3 @@ Bạn trộn đều 10g bột rau diếp cá + 10g bột khoai tây
 Dùng hỗn hợp này thoa đều lên vùng nách, bạn massage nhẹ nhàng trong 20 phút cho da hút được các tinh chất tuyệt vời từ thiên nhiên này để loại sạch mùi hôi. Nếu ngày nào bạn cũng thực hiện theo cách này thì chẳng mấy chốc mùi hôi nách sẽ không còn vương trên cơ thể bạn nữa. 
  
 Hãy ghi nhớ ngay những cách trị hôi nách tại nhà bằng rau diếp cá này để tạm biệt mùi mồ hôi dưới cánh tay nhanh chóng bạn nhé. Bạn có thể đặt mua bột rau diếp cá [tại đây](/san-pham/bột-rau-diếp-cá-50g/) nhé
-
-GỌI NGAY -  [08 66 842 517](tel:08 66 842 517) hoặc [0918 241 066](tel:0918 241 066)
-ĐỂ ĐƯỢC TƯ VẤN VÀ CUNG CẤP SẢN PHẨM
-BỘT RAU CỦ DALAFARM VỚI MỨC GIÁ TỐT NHẤT
-
-VPĐD: 317 Lô D, CC Lạc Long Quân, Phường 5, 
-Quận 11,TP.HCM
-
-Điện thoại: [(028) 6684 2517](tel:028 6684 2517); [(0258) 3899 189](tel:0258 3899 189)
-
-Email: [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
