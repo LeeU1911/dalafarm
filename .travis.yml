@@ -13,9 +13,9 @@ deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
-  bucket: preview.dalafarm.com.vn
+  bucket: dalafarm.com.vn
   region: ap-southeast-1
-  endpoint: preview.dalafarm.com.vn.s3-website-ap-southeast-1.amazonaws.com/
+  endpoint: dalafarm.com.vn.s3-website-ap-southeast-1.amazonaws.com/
   local-dir: public
   skip_cleanup: true
   on:
