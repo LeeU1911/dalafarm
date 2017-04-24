@@ -7,6 +7,7 @@ defaultContentLanguage = "vi"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-87063471-2"
 disqusShortname = "dalafarm"
+
 ##########################################
 [Languages]
 #Vietnamese
