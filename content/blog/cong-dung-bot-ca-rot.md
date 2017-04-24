@@ -2,7 +2,7 @@
 date = "2017-04-15T20:59:10+08:00"
 thumbnail = "carrot-powder-preview.jpg"
 title = "Bột cà rốt là một sản phẩm đa công dụng"
-tags = ["veggie-powder", "carrot-powder"]
+tags = ["Bột cà rốt", "carrot-powder"]
 +++
 
 
