@@ -73,6 +73,25 @@
                 {{ end }}
             </div>
         </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+
+                {{ range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+                {{ $.Scratch.Set "has_related" true }}
+                {{ end }}
+
+                {{ if $.Scratch.Get "has_related" }}
+                {{ i18n "relatedProducts" | upper }}
+                <ul>
+                    {{ $num_to_show := .Site.Params.params.related_content_limit | default 5 }}
+                    {{ range first $num_to_show (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </div>
+        </div>
     </section>
     {{ partial "disqus.html" . }}
 
