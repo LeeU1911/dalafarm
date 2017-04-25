@@ -2,7 +2,7 @@
 date = "2017-04-19T22:54:16+08:00"
 tags = ["heartleaf-powder","bot-diep-ca"]
 thumbnail = "xoa-tham-mun-voi-diep-ca-thumbnail.jpg"
-title = "Xóa vết thâm mụn với rau diếp cá siêu tốc"
+title = "XÓA VẾT THÂM MỤN VỚI RAU DIẾP CÁ SIÊU TỐC"
 
 +++
 

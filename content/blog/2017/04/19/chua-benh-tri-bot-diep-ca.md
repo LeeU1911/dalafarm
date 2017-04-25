@@ -2,7 +2,7 @@
 date = "2017-04-19T22:29:26+08:00"
 tags = ["bot-diep-ca", "heartleaf-powder", "benh-tri"]
 thumbnail = "hinh ly diep ca-tn.jpg"
-title = "Cách chữa bệnh trĩ bằng bột rau diếp cá"
+title = "CÁCH CHỮA BỆNH TRĨ BẰNG BỘT RAU DIẾP CÁ"
 
 +++
 

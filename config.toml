@@ -47,6 +47,7 @@ Các đối tác, đơn vị muốn liên hệ để biết thêm thông tin cô
 
 Quan tâm đến chính sách & chương trình cho các tổng đại lý, đại lý các cấp, vui lòng liên hệ số: [0906 951 498](tel:0906 951 498) hoặc [0918 241 066](tel:0918 241 066) hoặc email: [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn)
 """
+related_blog_limit = 7
 
 # Navigation
 [Languages.vi.params.navigation]

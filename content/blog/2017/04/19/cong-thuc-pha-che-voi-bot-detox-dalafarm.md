@@ -1,6 +1,6 @@
 +++
-date = "2017-04-16T17:07:14+08:00"
-title = "Công thức pha chế với bột detox DalaFarm"
+date = "2017-04-19T17:07:14+08:00"
+title = "CÔNG THỨC PHA CHẾ VỚI BỘT DETOX DALAFARM"
 thumbnail = "bot-rau-cu-dalafarm.jpg"
 tags = ["Bột rau củ", "dala-kitchen", "detox-sun-powder"]
 +++

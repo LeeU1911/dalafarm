@@ -1,7 +1,7 @@
 +++
-date = "2017-04-16T18:02:51+08:00"
+date = "2017-04-19T18:02:51+08:00"
 thumbnail = "tra-xanh-matcha.jpg"
-title = "Những công dụng làm đẹp bất ngờ của Matcha"
+title = "NHỮNG CÔNG DỊNH LÀM ĐẸP BẤT NGỜ CỦA MATCHA"
 tags = ["matcha-powder"]
 +++
 
