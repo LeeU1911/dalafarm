@@ -4,7 +4,7 @@
 {{ partial "head.html" . }}
 <body id="page-top" class="index">
 {{ partial "nav-for-other-page.html" . }}
-<section id="{{ .Section }}">
+<section id="{{ .Section }}" itemscope itemtype="http://schema.org/Product">
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -17,7 +17,7 @@
     <section id="content" style="padding-top: 2em;">
         <div class="row">
             <div class="col-md-12">
-                <h1>{{ .Title | markdownify }}</h1>
+                <h1 itemprop="name">{{ .Title | markdownify }}</h1>
             </div>
         </div>
         <div class="row">
@@ -26,16 +26,16 @@
                 <div class="sp-wrap">
                     {{ range .Params.img }}
                         {{ $url := printf "img/product/%s" . }}
-                    <a href="{{ $url | absURL }}"><img src="{{ $url | absURL }}" class="img-responsive" alt="{{ $.Title }}"></a>
+                    <a href="{{ $url | absURL }}"><img itemprop="image" src="{{ $url | absURL }}" class="img-responsive" alt="{{ $.Title }}"></a>
                     {{ end }}
                 </div>
             </div>
             <div class="col-lg-6 col-sm-12">
-                <div class="product-caption">
+                <div class="product-caption" itemscope itemtype="http://schema.org/Offer">
                     <p class="text-current-price single-page-price">
-                        {{ echoParam .Params "discounted_price" }}
+                        <span itemprop="price" content="{{ echoParam .Params "discounted_price" }}">{{ echoParam .Params "discounted_price" }}</span>
                         {{ if isset .Params "discounted_price" }}
-                        {{ i18n "currency" }}
+                        <span itemprop="priceCurrency" content="{{ i18n "currency" }}">{{ i18n "currency" }}</span>
                         {{ end }}
                         {{ if isset .Params "discounted_percent" }}
                         <span class="text-discount-percent">
@@ -47,19 +47,19 @@
                         {{ if isset .Params "discounted_price" }}
                         <span class="text-original-price">{{ .Params.price }} {{ i18n "currency" }}</span>
                         {{else}}
-                        <span class="text-current-price single-page-price">{{ .Params.price }} {{ i18n "currency" }}</span>
+                        <span class="text-current-price single-page-price"><span itemprop="price" content="{{ .Params.price }}">{{ .Params.price }}</span> <span itemprop="priceCurrency" content="{{ i18n "currency" }}">{{ i18n "currency" }}</span></span>
                         {{end}}
                     </p>
                 </div>
                 <div class="product-desc">
-                    {{ .Description | markdownify }}
+                    <span itemprop="description">{{ .Description | markdownify }}</span>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12">
                 <article class="bg-light-gray product-article">
-                    {{ .Content | markdownify }}
+                    <span itemprop="description">{{ .Content | markdownify }}</span>
                     <p>{{ with .Site.Params.params.contentFooter }}{{ . | markdownify }}{{ end }}</p>
                 </article>
             </div>
