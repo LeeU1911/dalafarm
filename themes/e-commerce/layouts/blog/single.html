@@ -63,7 +63,7 @@
                         <ul>
                             {{ $num_to_show := .Site.Params.params.related_blog_limit | default 5 }}
                             {{ range first $num_to_show (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
-                            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                            <li><a href="{{ .RelPermalink }}">{{ .Title }} &middot; {{ .ReadingTime }} {{ i18n "minuteRead" }}</a></li>
                             {{ end }}
                         </ul>
                     {{ end }}
