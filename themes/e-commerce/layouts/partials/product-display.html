@@ -1,3 +1,4 @@
+<div itemscope itemtype="http://schema.org/ItemList">
 {{ range .Data.Pages.GroupByParam "product_line" }}
 <h3>{{ .Key }}</h3>
 <div class="row row-eq-height">
@@ -9,3 +10,4 @@
     {{ end }}
 </div>
 {{ end }}
+</div>

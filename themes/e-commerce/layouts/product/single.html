@@ -35,7 +35,7 @@
                     <p class="text-current-price single-page-price">
                         <span itemprop="price" content="{{ echoParam .Params "discounted_price" }}">{{ echoParam .Params "discounted_price" }}</span>
                         {{ if isset .Params "discounted_price" }}
-                        <span itemprop="priceCurrency" content="{{ i18n "currency" }}">{{ i18n "currency" }}</span>
+                            <span itemprop="priceCurrency" content="{{ i18n "currency" }}">{{ i18n "currency" }}</span>
                         {{ end }}
                         {{ if isset .Params "discounted_percent" }}
                         <span class="text-discount-percent">
