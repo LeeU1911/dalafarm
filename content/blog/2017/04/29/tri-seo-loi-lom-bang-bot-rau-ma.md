@@ -1,6 +1,6 @@
 +++
 date = "2017-04-29T01:51:53+08:00"
-tags = ["Trị sẹo lõm", "bot-rau-ma", "pennywork-powder"]
+tags = ["Trị sẹo lõm", "bot-rau-ma", "pennywort-powder"]
 thumbnail = "tri-seo-tham-bang-bot-rau-ma.jpg"
 title = """CÔNG THỨC TRỊ SẸO LỒI VÀ LÕM   
 BẰNG RAU MÁ CỰC KỲ HIỆU QUẢ"""
