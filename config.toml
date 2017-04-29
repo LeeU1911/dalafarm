@@ -17,7 +17,6 @@ weight = 0
 
 [Languages.vi.permalinks]
 product = "/san-pham/:slug"
-term-condition = "/dieu-khoan"
 
 [[Languages.vi.menu.main]]
 url    = "/blog"
@@ -193,7 +192,7 @@ copyright = "Bản quyền thuộc DalaFarm (C) 2017"
 
 [[Languages.vi.params.footer.quicklinks]]
   text = "Điều khoản sử dụng"
-  link = "/dieu-khoan"
+  link = "/term-condition"
 [[Languages.vi.params.footer.social]]
   icon = "fa-facebook"
   link = "https://www.facebook.com/dalafarm.com.vn/"
