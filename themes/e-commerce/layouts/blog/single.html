@@ -16,18 +16,15 @@
         </div>
         <section id="content" style="padding-top: 2em;">
             <div class="row">
-                <div class="col-md-12 text-center">
-                    <time class="blog-time">
-                        {{ dateFormat "Monday, Jan 2, 2006" .Date }}
-                    </time>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-md-12 text-center blog-title-article">
                     <h3>
                         {{ .Title | markdownify}}
                     </h3>
-                    <span> {{ .ReadingTime }} {{ i18n "minuteRead" }}</span>
+                    <time class="blog-time">
+                        {{ $data := index .Site.Data .Site.Language.Lang }}
+                        {{ .Date.Day }} {{ index $data.month (printf "%d" .Date.Month) }}, {{ .Date.Year }}
+                    </time>&middot;&nbsp;
+                    <span class="blog-time">{{ .ReadingTime }} {{ i18n "minuteRead" }}</span>
                 </div>
             </div>
             <div class="row">
