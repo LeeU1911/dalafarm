@@ -21,7 +21,7 @@ Một số đứa trẻ có biểu hiện sốt cao như mắt đỏ, môi đỏ
 
 Sử dụng rau má rất an toàn, không tác dụng phụ, bạn hoàn toàn có thể đối phó với những cơn sốt nhờ rau má hay những loại cây cỏ quanh vườn lại ít tốn kém. Trước khi sử dụng bất kỳ loại thuốc nào bạn nên tìm hiểu nguyên nhân tại sao con bạn bị sốt, chúng sốt do cảm cúm, cảm mạo thì đó là một phản vệ lành tính của cơ thể trước sự xâm nhập cơ thể của các siêu vi trùng, hiện nay có rất nhiều cách để bạn hạ sốt do đó việc cảm gây nên, điển hình là việc dùng miếng dán và uống thuốc hạ sốt được các mẹ sử dụng nhiều, tuy nhiên sử dụng thuốc nhiều sẽ không tốt cho cơ thể của bạn, vì thế hãy sử dụng phương pháp trên từ cây thuốc quen thuộc trong bếp, và ngoài vườn nhà mình.
 
-{{< img src="/img/blog/ha-sot-bang-bot-rau-ma(2).jpg" title="Uống nước rau má giúp hạ sốt" >}} 
+{{< img src="/img/blog/ha-sot-bang-bot-rau-ma(2).png" title="Uống nước rau má giúp hạ sốt" >}} 
 
 Cho bé uống rau má là biện pháp hữu hiệu nhất để bảo vệ sức khỏe cho bé giúp bé có thể khỏe được một cách nhanh nhất, mẹ hãy bỏ túi phương pháp này để áp dụng mỗi khi bé gặp vấn đề về sốt nhé.
 
