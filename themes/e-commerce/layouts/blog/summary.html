@@ -4,7 +4,8 @@
         <img src="{{ $url | absURL }}" class="img-responsive center-block" alt="{{ .Title }}">
     </a>
         <time class="blog-time">
-            {{ dateFormat "Monday, Jan 2, 2006" .Date }}
+            {{ $data := index .Site.Data .Site.Language.Lang }}
+            {{ .Date.Day }} {{ index $data.month (printf "%d" .Date.Month) }}, {{ .Date.Year }}
         </time>
     <a href="{{ .Permalink }}" class="blog-link">
         <div class="blog-title">
