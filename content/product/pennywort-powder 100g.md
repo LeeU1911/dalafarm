@@ -2,10 +2,10 @@
 date = "2017-04-17T23:12:45+08:00"
 description = "Bột Rau má đóng gói zip 100 gram"
 price = "105,000"
-img = ["pennywork-100g-1.jpg","pennywork-100g-2.jpg"]
+img = ["pennywort-100g-1.jpg","pennywort-100g-2.jpg"]
 product_line = ""
-tags = ["veggie-powder","pennywork"]
-thumbnail = "pennywork-100g-1.jpg"
+tags = ["veggie-powder","pennywort-powder"]
+thumbnail = "pennywort-100g-1.jpg"
 title = "Bột Rau má (100g)"
 weight = 1
 +++

@@ -1,23 +1,23 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
-description = "Pennywork powder zip 50 gram"
-price = "60,000"
-img = ["Pennywork-1.jpg","Pennywork-2.jpg"]
+description = "Pennywort powder zip 100 gram"
+price = "105,000"
+img = ["pennywort-1.jpg","pennywort-2.jpg"]
 product_line = ""
-tags = ["veggie-powder","Pennywork"]
-thumbnail = "Pennywork-1.jpg"
-title = "Pennywork powder (50g)"
+tags = ["veggie-powder","pennywort-powder"]
+thumbnail = "Pennywort-1.jpg"
+title = "Pennywort powder (100g)"
 +++
 
-# Pennywork powder
+# Pennywort powder
 
-DalaFarm Pennywork powder is carefully picked and processed from the most fresh and best raw vegetables 
+DalaFarm Pennywort powder is carefully picked and processed from the most fresh and best raw vegetables 
 grown in our own farm in Lam Dong. Our products are produced by SEFD technology (patent pending) and 
 is certified by Vietnam Food Safety regulator.
 
 
 ### Ingredients: 
-100% Pennywork
+100% Pennywort
 No flavor or additive added
 
 ### Benefits: 
