@@ -17,6 +17,7 @@ weight = 0
 
 [Languages.vi.permalinks]
 product = "/san-pham/:slug"
+term-condition = "/dieu-khoan"
 
 [[Languages.vi.menu.main]]
 url    = "/blog"
