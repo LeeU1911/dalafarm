@@ -28,35 +28,12 @@
         <li class="hidden">
           <a href="{{ if .IsHome }}#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}"></a>
         </li>
-          {{ range .Site.Menus.main }}
-          <li>
-              <a href="{{ .URL | absLangURL }}">{{ .Name | markdownify }}</a>
-          </li>
-          {{ end }}
-
-          {{ if .Site.Params.params.product.enable }}
-          <li>
-              <a class="page-scroll" href="{{ .URL | absLangURL }}#{{ with .Site.Params.params.product.path }}{{ . }}{{ end }}">{{ with .Site.Params.params.navigation.product }}{{ . }}{{ end }}</a>
-          </li>
-          {{ end }}
-
-          {{ if .Site.Params.params.about.enable }}
-          <li>
-              <a class="page-scroll" href="{{ .URL | absLangURL }}#{{ with .Site.Params.params.about.path }}{{ . }}{{ end }}">{{ with .Site.Params.params.navigation.about }}{{ . }}{{ end }}</a>
-          </li>
-          {{ end }}
-
-          {{ if .Site.Params.params.team.enable }}
-          <li>
-              <a class="page-scroll" href="{{ .URL | absLangURL }}#{{ with .Site.Params.params.team.path }}{{ . }}{{ end }}">{{ with .Site.Params.params.navigation.team }}{{ . }}{{ end }}</a>
-          </li>
-          {{ end }}
-
-          {{ if .Site.Params.params.contact.enable }}
-          <li>
-              <a class="page-scroll" href="{{ .URL | absLangURL }}#contact">{{ with .Site.Params.params.navigation.contact }}{{ . }}{{ end }}</a>
-          </li>
-          {{ end }}
+          <!--{{ range .Site.Menus.main }}-->
+          <!--<li>-->
+              <!--<a href="{{ .URL | absLangURL }}">{{ .Name | markdownify }}</a>-->
+          <!--</li>-->
+          <!--{{ end }}-->
+          {{ partial "nav-share.html" . }}
 
       </ul>
     </div>

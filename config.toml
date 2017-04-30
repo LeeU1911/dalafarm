@@ -21,7 +21,34 @@ product = "/san-pham/:slug"
 [[Languages.vi.menu.main]]
 url    = "/blog"
 name   = "Blog"
-weight = 0
+weight = 1
+pre = "<i class='fa fa-heart'></i>"
+identifier = "blog"
+[[Languages.vi.menu.main]]
+url    = "/#san-pham"
+name   = "Sản Phẩm"
+weight = 2
+
+[[Languages.vi.menu.main]]
+url    = "/#ve-dalafarm"
+name   = "Về DalaFarm"
+weight = 3
+identifier = "ve-dalafarm"
+[[Languages.vi.menu.main]]
+url    = "/company-profile"
+name   = "Company Profile"
+weight = 1
+parent = "ve-dalafarm"
+
+[[Languages.vi.menu.main]]
+url    = "/#chung-toi"
+name   = "Chúng tôi"
+weight = 4
+
+[[Languages.vi.menu.main]]
+url    = "/#contact"
+name   = "Liên Hệ"
+weight = 5
 
 [Languages.vi.params]
 name = "DalaFarm"
