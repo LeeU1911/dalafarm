@@ -43,7 +43,9 @@ Chúng tôi sử dụng hoàn toàn phân bón hữu cơ và chỉ bón 2 lần 
 
 # Quy trình sản xuất
  
-Nguồn nguyên vật liệu tại DalaFarm – vận chuyển trong vòng 10 tiếng  - quy trình sản xuất – bán hàng 
+Nguồn nguyên liệu rau củ quả sau khi thu hoạch tại DalaFarm sẽ được vận chuyển trong vòng 10 tiếng đến xưởng để chế biến ra thành các sản phẩm bột rau củ DalaFarm. Bên dưới là hình minh họa với thông tin chi tiết hơn. 
+ 
+{{< img src="/img/company-profile/qui trinh sx.jpg" title="Quy trình sản xuất của DalaFarm" >}}
  
 # Chiến lược phát triển 
 
