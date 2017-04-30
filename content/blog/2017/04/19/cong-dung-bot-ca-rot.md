@@ -6,7 +6,7 @@ tags = ["Bột cà rốt", "carrot-powder"]
 +++
 
 
-**Bột cà rốt** cũng giống như củ cà rốt luôn đem lại cho con người những công dụng tốt, giúp cải thiện sức khỏe, làn da và đem lại một cơ thể săn chắc cho nhiều chị em phụ nữ.
+**Bột cà rốt** cũng giống như củ cà rốt luôn đem lại cho con người những công dụng tốt, giúp cải thiện sức khỏe, làn da và đem lại một cơ thể săn chắc cho nhiều chị em phụ nữ.<!--more-->
 
 **Bột cà rốt** càng ngày càng khẳng định được tính năng vượt trội của những hợp chất có trong cà rốt, được nhiều người tin dùng và hiện đang là sản phẩm có lượng tiêu thụ rất lớn.
 

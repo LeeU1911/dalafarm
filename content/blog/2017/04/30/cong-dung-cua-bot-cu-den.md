@@ -6,7 +6,7 @@ title = "CÁC CÔNG DỤNG CỦA BỘT CỦ DỀN"
 
 +++
  
-**Bột củ dền có rất nhiều công dụng khác nhau, chính vì vậy, không quá ngạc nhiên khi loại bột này đang được ngày càng nhiều người biết đến và quan tâm sử dụng.**
+**Bột củ dền có rất nhiều công dụng khác nhau, chính vì vậy, không quá ngạc nhiên khi loại bột này đang được ngày càng nhiều người biết đến và quan tâm sử dụng.**<!--more-->
 
 _Bột củ dền_ là một trong những sản phẩm chiết xuất từ củ dền tự nhiên đã và đang được sử dụng một cách hết sức rộng rãi hiện nay. Vậy, lý do nào khiến loại bột này lại được ưa chuộng sử dụng đến như vậy? Hãy cùng tìm hiểu nhé!
 

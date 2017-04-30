@@ -8,7 +8,7 @@ title = "CÁCH CHỮA BỆNH TRĨ BẰNG BỘT RAU DIẾP CÁ"
 
 **Cách chữa bệnh trĩ bằng _bột rau diếp cá_ hiện đang là một trong những biện phám khá HOT 
 để điều trị bệnh trĩ vì _bột rau diếp cá_ sự hiệu quả và thực hiện rất dễ dàng. 
-Để hiểu kĩ hơn hãy đọc bài viết sau nhé!**
+Để hiểu kĩ hơn hãy đọc bài viết sau nhé!**<!--more-->
  
 Bệnh trĩ là một trong những căn bệnh “khó nói” vì vùng bị bệnh là nơi kín đáo khó nói, nhất là đối với chị em phụ nữ, họ thường rất ngại ngùng và không muốn chia sẻ với người khác. Vì thế, họ thường tìm đến những bài thuốc dân gian để chữa trị căn bệnh khó nói này.
 

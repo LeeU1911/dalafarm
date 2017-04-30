@@ -7,7 +7,7 @@ NHƯ THẾ NÀO CHO TRẺ CON?"""
 
 +++
  
-**Rau má giúp hạ sốt, điều mà ít mẹ biết, chúng có tác dụng tuyệt vời đối với trẻ cùng tìm hiểu xem cách chữa hạ sốt cho bé như thế nào để chúng phát huy tác dụng tốt nhất nhé.**
+**Rau má giúp hạ sốt, điều mà ít mẹ biết, chúng có tác dụng tuyệt vời đối với trẻ cùng tìm hiểu xem cách chữa hạ sốt cho bé như thế nào để chúng phát huy tác dụng tốt nhất nhé.**<!--more-->
 
 Rau má không còn gì xa lạ đối với những người ở làng quê Việt Nam, chúng là loài cây dễ sinh sống nên mọc lan khắp các ven đường, bờ ruộng, mọc len lỏi bên những khóm cỏ dại khắp các triền đê, rau má mọc tương đối dễ dù thời tiết khắc nghiệt như vậy, tưởng chừng như cây cỏ dại nhưng chúng lại có tác dụng tuyệt vời.
 

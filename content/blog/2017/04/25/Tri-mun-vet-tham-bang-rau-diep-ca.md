@@ -6,7 +6,7 @@ title = """RAU DIẾP CÁ TRỊ MỤN VÀ VẾT THÂM HIỆU QUẢ"""
 
 +++
  
-**Mụn trứng cá, mụn bọc hay những vết thâm do mụn là vấn đề mà rất nhiều các cô nàng hay gặp phải. Có rất nhiều yếu tố gây ra mụn như chế độ ăn uống, thay đổi thời tiết hoặc chu kỳ kinh nguyệt. Mụn có thể được trị hết trong vòng 3-4 ngày nhưng với vết thâm, “tàn tích” do mụn để lại thì không biến mất dễ dàng như thế. Thay vì luôn lo lắng vì mụn và vết thâm, bạn hãy kiên trì dùng phương pháp rau diếp cá trị mụn đế trở nên tự tin hơn.**
+**Mụn trứng cá, mụn bọc hay những vết thâm do mụn là vấn đề mà rất nhiều các cô nàng hay gặp phải. Có rất nhiều yếu tố gây ra mụn như chế độ ăn uống, thay đổi thời tiết hoặc chu kỳ kinh nguyệt. Mụn có thể được trị hết trong vòng 3-4 ngày nhưng với vết thâm, “tàn tích” do mụn để lại thì không biến mất dễ dàng như thế. Thay vì luôn lo lắng vì mụn và vết thâm, bạn hãy kiên trì dùng phương pháp rau diếp cá trị mụn đế trở nên tự tin hơn.**<!--more-->
 
 Phương pháp rau diếp cá trị mụn, vết thâm hiệu quả đơn giản 
 

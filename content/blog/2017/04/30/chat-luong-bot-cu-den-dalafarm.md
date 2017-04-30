@@ -7,7 +7,7 @@ TỪ DALAFARM"""
 
 +++
  
-**DalaFarm** tự hào là nguồn cung cấp đến khách hàng những sản phẩm **bột củ dền nguyên chất, an toàn nhất** trên thị trường hiện nay
+**DalaFarm** tự hào là nguồn cung cấp đến khách hàng những sản phẩm **bột củ dền nguyên chất, an toàn nhất** trên thị trường hiện nay<!--more-->
 
 Với nguyên liệu là những củ dền chất lượng, sạch, sản xuất đúng quy trình kỹ thuật, DalaFarm mang đến cho khách hàng những sản phẩm bột củ dền nguyên chất với chất lượng tuyệt hảo. Đây là những sản phẩm tự nhiên rất có lợi cho sức khỏe của người sử dụng, có thể sử dụng và đem lại nhiều lợi ích thiết thực khác nhau.
 {{< img src="/img/blog/bot-cu-den-dalafarm (1).jpg" title="Củ đền được trồng tại Dalafarm" >}}

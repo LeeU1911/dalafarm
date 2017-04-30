@@ -2,7 +2,13 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ if .IsHome }}
   {{ with .Site.Params.params.description }}<meta name="description" content="{{ . }}">{{ end }}
+  {{ else if and (not .IsHome) .IsNode (not .IsPage) }}
+  <meta name="description" content="{{ .Title  }}">
+  {{ else }}
+  <meta name="description" content="{{ .Summary }}">
+  {{ end }}
   {{ with .Site.Params.params.name }}<meta name="author" content="{{ . }}">{{ end }}
   {{ .Hugo.Generator }}
   <title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>

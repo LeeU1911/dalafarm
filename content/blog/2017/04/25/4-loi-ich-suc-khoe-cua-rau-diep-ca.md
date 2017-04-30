@@ -6,7 +6,7 @@ title = """ 4 LỢI ÍCH SỨC KHOẺ CỦA RAU DIẾP CÁ"""
 
 +++
 
-**Các nhà nghiên cứu đã kiểm tra hành vi sinh học của rau diếp cá và nghiên cứu sâu rộng đã khám phá ra những phát hiện đáng kinh ngạc về mối quan hệ của nó đối với sức khoẻ con người.**
+**Các nhà nghiên cứu đã kiểm tra hành vi sinh học của rau diếp cá và nghiên cứu sâu rộng đã khám phá ra những phát hiện đáng kinh ngạc về mối quan hệ của nó đối với sức khoẻ con người.**<!--more-->
 
 **1. Biện pháp khắc phục dị ứng**
 

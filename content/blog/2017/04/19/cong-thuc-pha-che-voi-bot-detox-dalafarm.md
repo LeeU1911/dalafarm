@@ -5,7 +5,7 @@ thumbnail = "bot-rau-cu-dalafarm.jpg"
 tags = ["Bột rau củ", "dala-kitchen", "detox-sun-powder"]
 +++
 
-Bột rau củ detox DalaFarm có rất nhiều công dụng để chế biến nước và các món ăn. 
+Bột rau củ detox DalaFarm có rất nhiều công dụng để chế biến nước và các món ăn. <!--more-->
 
 Dưới dây là công thức cơ bản để pha chế. Bạn có thể điều chỉnh thêm hoặc bớt bột cho phù hợp với khẩu vị.
 

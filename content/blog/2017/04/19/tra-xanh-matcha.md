@@ -5,7 +5,7 @@ title = "NHỮNG CÔNG DỊNH LÀM ĐẸP BẤT NGỜ CỦA MATCHA"
 tags = ["matcha-powder"]
 +++
 
-Trà xanh có vô số lợi ích cho sức khỏe, giúp làm đẹp, giảm cân… Đặc biệt, trong Matcha có chứa chất chống ôxy hóa - một chất rất cần thiết trong việc duy trì sự trẻ trung, chống lão hóa.
+Trà xanh có vô số lợi ích cho sức khỏe, giúp làm đẹp, giảm cân… Đặc biệt, trong Matcha có chứa chất chống ôxy hóa - một chất rất cần thiết trong việc duy trì sự trẻ trung, chống lão hóa.<!--more-->
 
 ### Rửa mặt để làm trắng da
 Trong trà xanh có chứa tinh chất kháng khuẩn. Vì vậy, nếu sử dụng Matcha để rửa mặt đều đặn sẽ giúp bạn có được làn da trắng sáng và giảm mụn trứng cá cực kì hiệu quả. Mỗi ngày bạn hãy trộn một chút xíu Matcha với sữa rửa mặt và mat sa trong vòng 30s. Bạn sẽ cảm nhận được làn da sạch nhờn, tươi mát và sáng hơn.

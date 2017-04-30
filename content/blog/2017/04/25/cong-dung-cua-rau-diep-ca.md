@@ -6,7 +6,7 @@ title = """CÔNG DỤNG CỦA RAU DIẾP CÁ"""
 
 +++
  
-**Rau diếp cá được sử dụng bởi người Trung Quốc từ thời cổ đại đã chứng minh là giúp giảm các triệu chứng liên quan bất thường của phổi cũng như các bệnh truyền nhiễm khác nhau.**
+**Rau diếp cá được sử dụng bởi người Trung Quốc từ thời cổ đại đã chứng minh là giúp giảm các triệu chứng liên quan bất thường của phổi cũng như các bệnh truyền nhiễm khác nhau.**<!--more-->
 
 Trên thực tế, rau diếp cá có thể chống lại tràn dịch màng phổi và ung nhọt. Nó cũng có tác dụng chống lại virus.
 

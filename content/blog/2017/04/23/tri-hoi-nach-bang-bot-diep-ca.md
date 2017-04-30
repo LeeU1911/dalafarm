@@ -7,7 +7,7 @@ BẰNG RAU DIẾP CÁ"""
 
 +++
  
-**Bệnh hôi nách là lý do khiến bạn bỏ lỡ những buổi hội thảo của công ty, hoặc ngay cả những cơ hội gặp gỡ đối tác, khách hàng cũng bị hủy bỏ.** 
+**Bệnh hôi nách là lý do khiến bạn bỏ lỡ những buổi hội thảo của công ty, hoặc ngay cả những cơ hội gặp gỡ đối tác, khách hàng cũng bị hủy bỏ.**<!--more--> 
 
 **Vào những ngày hè nắng nóng thì hôi nách thực sự là một nỗi ám ảnh khi bạn liên tục phải thay đồ vì mồ hôi có màu hoen ố dưới cánh tay, không chỉ vậy còn có mùi hôi hám khó chịu. Đừng quá lo lắng nhé, những kinh nghiệm chữa hôi nách cự kỳ hiệu quả bằng bột rau má thiên nhiên DalaFarm dưới đây chắc chắn sẽ giúp bạn thổi hết mùi hôi nách khó chịu, tự tin giao tiếp và thoải mái hoạt động.** 
  

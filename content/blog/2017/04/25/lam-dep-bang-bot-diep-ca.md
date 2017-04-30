@@ -7,7 +7,7 @@ title = """ RAU DIẾP CÁ CHỐNG LÃO HÓA,
 
 +++
 
-**Rau diếp cá không những là một loại rau gia vị dùng để ăn sống mà còn có tác dụng như kháng khuẩn, tiêu diệt ký sinh trùng, chống ung thư, chữa mụn trứng cá, làm đẹp, chống lão hóa…. Hãy cùng khám phá những công dụng tuyệt vời của rau diếp cá nào:**
+**Rau diếp cá không những là một loại rau gia vị dùng để ăn sống mà còn có tác dụng như kháng khuẩn, tiêu diệt ký sinh trùng, chống ung thư, chữa mụn trứng cá, làm đẹp, chống lão hóa…. Hãy cùng khám phá những công dụng tuyệt vời của rau diếp cá nào:**<!--more-->
 
 **Chống lão hóa bằng rau diếp cá và mật ong**
 

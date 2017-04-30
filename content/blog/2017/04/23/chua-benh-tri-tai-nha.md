@@ -7,7 +7,7 @@ CÁCH CHỮA BỆNH TRĨ TẠI NHÀ HIỆU QUẢ"""
 
 +++
 
-**Bệnh trĩ là một loại bệnh mà không nguy hiểm đến người bệnh, tuy nhiên, nó lại làm đau rát và khá khó chịu, ảnh hưởng không nhỏ đến cuộc sống cũng như công việc của người bệnh. Trong bài viết này, chúng ta sẽ đi tìm hiểu về bệnh trĩ là gì, qua đó cũng có phương pháp, cách chữa bệnh trĩ tại nhà hiệu quả tốt nhất hiện nay.** 
+**Bệnh trĩ là một loại bệnh mà không nguy hiểm đến người bệnh, tuy nhiên, nó lại làm đau rát và khá khó chịu, ảnh hưởng không nhỏ đến cuộc sống cũng như công việc của người bệnh. Trong bài viết này, chúng ta sẽ đi tìm hiểu về bệnh trĩ là gì, qua đó cũng có phương pháp, cách chữa bệnh trĩ tại nhà hiệu quả tốt nhất hiện nay.**<!--more--> 
  
 1 - **Bệnh trĩ là gì và bệnh trĩ như thế nào?** 
 

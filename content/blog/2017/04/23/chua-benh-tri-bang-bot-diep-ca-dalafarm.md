@@ -7,7 +7,7 @@ title = "\"SỰ THẬT\" VỀ CÁCH CHỮA BỆNH TRĨ BẰNG BỘT RAU DIẾP C
 +++
 
 **Bạn luôn băn khoăn bột rau diếp cá có thể chữa khỏi bệnh trĩ hay không? Sử dụng bột rau diếp cá có tác dụng phụ nào không? Bao lâu thì khỏi bệnh? 
-Bột rau diếp cá DalaFarm có tốt như rau tươi không? Câu trả lời nằm trong bài viết này!** 
+Bột rau diếp cá DalaFarm có tốt như rau tươi không? Câu trả lời nằm trong bài viết này!**<!--more-->
  
 Trong dân gian từ xưa đã biết về tác dụng của rau diếp cá trong việc chữa bệnh trĩ. Trong thời gian gần đây, các nhà khoa học phát hiện nhiều công dụng khác của rau diếp cá:
 * Loại bỏ ký sinh trùng

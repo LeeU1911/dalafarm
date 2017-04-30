@@ -6,7 +6,7 @@ title = "XÓA VẾT THÂM MỤN VỚI RAU DIẾP CÁ SIÊU TỐC"
 
 +++
 
-**Mụn là kẻ thù đáng ghét của chị em phụ nữ lẫn cánh mày râu , sau những hậu quả của mụn gây ra bởi vết thâm đáng ghét cứ bám cứng lấy khuôn mặt xinh đẹp của bạn hết ngày này qua ngày khác. Vậy làm cách nào để làm mờ vết thâm mụn nhanh nhất và xóa sạch những vết thâm sau mụn rắc rối này? Bài viết dưới đây sẽ giới thiệu những cách xóa vết thâm mụn nhanh nhất chỉ với một nốt nhạc cho chị em.**
+**Mụn là kẻ thù đáng ghét của chị em phụ nữ lẫn cánh mày râu , sau những hậu quả của mụn gây ra bởi vết thâm đáng ghét cứ bám cứng lấy khuôn mặt xinh đẹp của bạn hết ngày này qua ngày khác. Vậy làm cách nào để làm mờ vết thâm mụn nhanh nhất và xóa sạch những vết thâm sau mụn rắc rối này? Bài viết dưới đây sẽ giới thiệu những cách xóa vết thâm mụn nhanh nhất chỉ với một nốt nhạc cho chị em.**<!--more-->
 
 {{< img src="/img/blog/xoa-tham-mun-voi-diep-ca.jpg" title="Ảnh: Xóa thâm mụn với diếp cá" 
 alt="Xóa thâm mụn với diếp cá">}}

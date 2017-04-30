@@ -7,7 +7,7 @@ title = """BỘT RAU DIẾP CÁ
 
 +++
  
-**Bột rau diếp cá sẽ giúp các cô gái mê làm đẹp xóa tan nỗi lo mụn thâm, sạm da, sần nám...nhờ 5 công thức dưỡng da cùng bột rau diếp cá. Sử dụng bột đều đặn làn da sẽ chuyển biến rất tích cực và rõ rệt.** 
+**Bột rau diếp cá sẽ giúp các cô gái mê làm đẹp xóa tan nỗi lo mụn thâm, sạm da, sần nám...nhờ 5 công thức dưỡng da cùng bột rau diếp cá. Sử dụng bột đều đặn làn da sẽ chuyển biến rất tích cực và rõ rệt.**<!--more--> 
 
 **1.	Bột rau diếp cá nguyên chất dưỡng da mềm mịn** 
 

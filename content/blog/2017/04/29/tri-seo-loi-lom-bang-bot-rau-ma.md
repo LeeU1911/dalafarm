@@ -7,7 +7,7 @@ BẰNG RAU MÁ CỰC KỲ HIỆU QUẢ"""
 
 +++
  
- **Rau má không chỉ có thanh nhiệt, giải độc mà rau má làm mờ sẹo cực kỳ hiệu quả nhé, đây là phương pháp làm đẹp từ tự nhiên. Hãy tham khảo để có được làn da đẹp, trẻ trung và không tỳ vết nhé.**
+ **Rau má không chỉ có thanh nhiệt, giải độc mà rau má làm mờ sẹo cực kỳ hiệu quả nhé, đây là phương pháp làm đẹp từ tự nhiên. Hãy tham khảo để có được làn da đẹp, trẻ trung và không tỳ vết nhé.**<!--more-->
 
 Tác dụng rau má trị sẹo: Rau má là loại nguyên liệu đã được các nhà khoa học chứng minh và nghiên cứu cho thấy loại rau này có tác dụng hỗ trợ làm lành vết thương giúp liền sẹo nhờ được kích thích bằng việc sản xuất các chất keo, collagen trong các mô sẹo và nâng cao chất chống oxy hóa và thúc đẩy sự phát triển, tái tạo làn da mới cho những vết sẹo cũ.
 
