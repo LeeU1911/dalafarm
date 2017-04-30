@@ -43,51 +43,56 @@ Chúng tôi sử dụng hoàn toàn phân bón hữu cơ và chỉ bón 2 lần 
 
 # Quy trình sản xuất
  
-Nguồn nguyên vật liệu tại Dalafarm – vận chuyển trong vòng 10 tiếng  - quy trình sản xuất – bán hàng 
+Nguồn nguyên vật liệu tại DalaFarm – vận chuyển trong vòng 10 tiếng  - quy trình sản xuất – bán hàng 
  
 # Chiến lược phát triển 
 
-Trở thành doanh  nghiệp hàng đầu của Việt Nam về chế biến thực phẩm chất lượng cao, an toàn và tốt cho sức khỏe. 
+* Trở thành doanh  nghiệp hàng đầu của Việt Nam về chế biến thực phẩm chất lượng cao, an toàn và tốt cho sức khỏe. 
 
-Không gây tổn hại đến con người và môi trường 
+* Không gây tổn hại đến con người và môi trường 
 
-Uy tín và chất lượng luôn được đặt lên hàng đầu 
+* Uy tín và chất lượng luôn được đặt lên hàng đầu 
 
-**Tại sao chúng tôi muốn thành lập doanh nghiệp dalafarm?**  
-Dalafarm sinh ra để giải quyết các bài toán mà một start up đơn lẻ ko thể làm đc:  
+# Tại sao chúng tôi thành lập DalaFarm?  
+Dalafarm sinh ra để giải quyết các bài toán mà một start up với 1, 2 cá nhân đơn lẻ ko thể làm đc: 
+ 
 * Từng cá nhân chỉ có 1 điểm mạnh ở 1 lĩnh vực nào đó, khi kết hợp lại với nhau chúng ta sẽ mạnh hơn,  
 
 * Tất cả thành viên DalaFarm đều yêu nông nghiệp sạch, chúng ta đến với nhau vì một sứ mệnh chung, là làm cho những cây rau, cây thảo dược được đến tay người tiêu dùng nhanh nhất, thuận tiện nhất. Mọi người có thể sử dụng những sản phẩm tốt cho sức khỏe của mình một cách thuận tiện nhất  
 
 * Và vì một niềm khao khát chung là đưa sản phẩm của chúng ta đc sánh vai với nông sản các nước trong khu vực nói rieengz và trên TG nói chung  
 
-* Vì chúng tôi đang sản xuất ra những sản phẩm mà xã hội này đạt cần. Và chúng ta có thể làm đc nó  
+* Vì chúng tôi đang sản xuất ra những sản phẩm mà xã hội cần. Và chúng ta có thể làm đc nó  
 
-Theo DalaFarm, điều gì để công ty, có thể tự tin rằng chúng ta sẽ phát triển và giữ vững phát triển và cạnh tranh đc so với các đối thủ cạnh tranh trên thị trường”?.  
+# Theo DalaFarm, điều gì để công ty có thể phát triển và cạnh tranh được so với các đối thủ trên thị trường?  
 
-Điều đầu tiên chúng tôi có thể tự tin nói là DalaFarm sẽ phát triển và cạnh tranh được với thị trường, vì chúng ta đã xây dựng đc một team mạnh về các lĩnh vực cần thiết để đưa đc 1 sản phẩm từ khâu nông trại, đến sản xuất ra thành phẩm và đến tay ng tiêu dùng. Những cofounder trẻ đầy nhiệt huyết, đam mê với công việc, và tình yo với nông nghiệp sạch và healthy food. Chúng tôi tin rằng, với ngọn lửa nhiệt huyết đó, chúng tôi sẽ đibđc rất xa cùng nhau để xây dựng và phát triển Dalafarm  
+DalaFarm tự hào vì xây dựng được một đội ngũ mạnh về các lĩnh vực cần thiết để đưa 1 sản phẩm từ khâu nông trại, đến sản xuất ra thành phẩm và đến tay người tiêu dùng. 
 
-Chúng tôi có thể tự sản xuất và nghiên cứu về quy trình công nghệ theo hướng năng lượng sạch và công nghệ cao, để cam kết với khách hàng rằng sản phẩm của chúng tôi sẽ luôn giải quyết đc bài toán kho khách hàng: là sản phẩm sạch, và tiết kiệm time đối đa khi sử dụng  
+Những người sáng lập và đồng sáng lập trẻ đầy nhiệt huyết, đam mê với công việc, và tình yêu với nông nghiệp sạch cũng như thực phẩm có ích cho sức khỏe. Chúng tôi tin rằng, với ngọn lửa nhiệt huyết đó, chúng tôi sẽ đi được rất xa cùng nhau để xây dựng và phát triển DalaFarm.  
 
-Chúng tôi ko phá hoại môi trường, chúng tôi trồng hữu cơ, và sản xuất sử dụng năng lượng sạch  
+Tại DalaFarm, chúng tôi luôn tìm tòi nâng cao khả năng sản xuất và nghiên cứu về quy trình công nghệ theo hướng năng lượng sạch và công nghệ cao, để giữ đúng cam kết với khách hàng về sản phẩm sạch, an toàn, có lợi cho sức khỏe và tiết kiệm thời gian đối đa khi sử dụng.  
+
+Chúng tôi góp phần bảo vệ môi trường bằng cách trồng trọt theo hướng hữu cơ và sản xuất sử dụng năng lượng sạch.  
 
 # Sứ mệnh - Tầm nhìn - Giá trị cốt lõi - Định hướng phát triển trong tương lai của DalaFarm  
 
 ## Sứ mệnh  
-Bảo vệ sức khoẻ mọi người từ các sản phẩm tự nhiên - Giúp mọi người sử dụng sản phẩm một cách thuận tiện nhất, tiết kiệm thời gian nhất - Bảo vệ môi trường bằng cách sử dụng năng lượng xanh và canh tác theo hướng hữu cơ  
+* Bảo vệ sức khoẻ mọi người bằng các sản phẩm tự nhiên 
+* Giúp mọi người sử dụng sản phẩm một cách thuận tiện nhất, tiết kiệm thời gian nhất 
+* Góp phần bảo vệ môi trường bằng cách sử dụng năng lượng xanh và canh tác theo hướng hữu cơ  
 
 ## Tầm nhìn  
 Càng ngày chúng ta càng nhận ra vai trò của thực phẩm, đặc biệt là các loại rau củ và các loại cây thảo mộc từ thiên nhiên, thay vì sử dụng các loài thuốc kháng sinh hay chất hoá học   
 
-Tuy nhiên, thế giói công nghiệp hoá, làm chúng ta luôn bận rộn và không có đủ thời gian để chế biến các thực phẩm đó. Chưa kể là cách bảo quản, nấu nướng sẽ làm cho dưỡng chất mất rất nhiều   
+Tuy nhiên, thế giói công nghiệp hoá, làm chúng ta luôn bận rộn và không có đủ thời gian để chế biến các thực phẩm đó. Đồng thời, cách bảo quản và nấu nướng không khoa học sẽ làm cho dưỡng chất mất đi rất nhiều.   
 
-Vì các lý do đó mà Dalafarm sẽ ra đời để giúp các bạn làm tất cả những việc trên. 
+Vì các lý do đó mà DalaFarm ra đời để giúp các bạn làm tất cả những việc trên. 
 
-CÁC BẠN CỨ VIỆC SỬ DỤNG BỘT RAU CỦ DALAFARM, SỨC KHOẺ CỦA CÁC BẠN, TIME CỦA CÁC BẠN CỨ ĐỂ CHÚNG TÔI LO  
+**CÁC BẠN CỨ VIỆC SỬ DỤNG BỘT RAU CỦ DALAFARM, SỨC KHOẺ VÀ THỜI GIAN CỦA CÁC BẠN CỨ ĐỂ DALAFARM LO**  
 
 ## Giá trị cốt lõi: 
-Lấy chất lương làm trọng. Không bao giờ bán sản phẩm kém chất lượng ra ngoài thị trường  
+Lấy chất lương làm trọng tâm. DalaFarm không bao giờ bán sản phẩm kém chất lượng ra ngoài thị trường
 
 ## Định hướng phát triển: 
-Tập trung phát triển dòng bột rau củ và thảo dược giúp người tiêu dùng bảo vệ sức khoẻ một cách thuận lợi nhất, tự nhiên nhất 
+Tập trung phát triển dòng bột rau củ và thảo dược giúp người tiêu dùng bảo vệ sức khoẻ một cách thuận tiện và tự nhiên nhất 
  

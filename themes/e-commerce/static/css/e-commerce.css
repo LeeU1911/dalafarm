@@ -5,7 +5,7 @@
  * Modified by imleeu@gmail.com to produce E-Commerce Theme
  */
 
-body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;}
+body{overflow-x:hidden;font-family:"Muli","Helvetica Neue",Helvetica,Arial,sans-serif;}
 .text-muted{color:#777;}
 .text-primary{color:#A6CE39;}
 p{font-size:14px;line-height:1.75;}
@@ -28,7 +28,7 @@ h2,
 h3,
 h4,
 h5,
-h6{text-transform:uppercase;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:700;}
+h6{text-transform:uppercase;font-family:Muli,"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:700;}
 .img-centered{margin:0 auto;}
 .bg-light-gray{background-color:#f7f7f7;}
 .bg-darkest-gray{background-color:#222;}
@@ -307,7 +307,6 @@ body{webkit-tap-highlight-color:#A6CE39;}
 }
 
 .blog-article, .blog-article p{
-    font-family: "Roboto Slab";
     line-height: 2em;
 }
 
