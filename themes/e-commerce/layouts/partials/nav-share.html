@@ -2,15 +2,15 @@
 {{ range .Site.Menus.main }}
 {{ if .HasChildren }}
 
-<li class="sub-menu{{if $currentPage.HasMenuCurrent " main" . }} active{{end}}">
-<a href="{{ .URL | relLangURL }}" class="">
+<li class="dropdown{{if $currentPage.HasMenuCurrent " main" . }} active{{end}}">
+<a href="{{ .URL | relLangURL }}" class="dropdown-toggle" data-toggle="dropdown">
     {{ .Pre }}
     <span>{{ .Name }}</span>
-    <span class="menu-arrow arrow_carrot-right"></span>
+    <span class="caret"></span>
 </a>
-<ul class="sub">
+<ul class="dropdown-menu">
     {{ range .Children }}
-    <li
+    <li class="dropdown-submenu"
     {{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{ .URL | relLangURL }}"> {{ .Name }} </a> </li>
     {{ end }}
 </ul>
