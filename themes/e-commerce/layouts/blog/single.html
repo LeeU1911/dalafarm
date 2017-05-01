@@ -4,7 +4,26 @@
 
 <body id="page-top" class="index">
 {{ partial "nav-for-other-page.html" . }}
-<section id="{{ .Section }}">
+<section id="{{ .Section }}" itemscope itemtype="http://schema.org/BlogPosting">
+    <link itemprop="mainEntityOfPage" href="{{ .RelPermalink | absLangURL }}" />
+    <meta itemprop="inLanguage" content="{{ .Lang }}"/>
+    <div itemprop="publisher author" itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop="name" content="DalaFarm"/>
+        <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            {{ $logoUrl := printf "img/about/dalafarm.png" }}
+            <meta itemprop="image" src="{{ $logoUrl | absLangURL }}" >
+            <meta itemprop="url" content="{{ $logoUrl | absLangURL }}">
+            <meta itemprop="width" content="192">
+            <meta itemprop="height" content="192">
+        </div>
+    </div>
+    <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+        {{ $thumnailUrl := printf "img/blog/%s" .Params.thumbnail }}
+        <meta itemprop="image" src="{{ $thumnailUrl | absLangURL }}" >
+        <meta itemprop="url" content="{{ $thumnailUrl | absLangURL }}">
+        <meta itemprop="width" content="400">
+        <meta itemprop="height" content="400">
+    </div>
     <div class="container blog-section">
         <div class="row">
             <div class="col-md-12">
@@ -17,10 +36,10 @@
         <section id="content" style="padding-top: 2em;">
             <div class="row">
                 <div class="col-md-12 text-center blog-title-article">
-                    <h3>
+                    <h3 itemprop="name headline">
                         {{ .Title | markdownify}}
                     </h3>
-                    <time class="blog-time">
+                    <time class="blog-time" datetime="{{ .Date }}" itemprop="datePublished dateModified">
                         {{ $data := index .Site.Data .Site.Language.Lang }}
                         {{ .Date.Day }} {{ index $data.month (printf "%d" .Date.Month) }}, {{ .Date.Year }}
                     </time>&middot;&nbsp;
@@ -30,7 +49,7 @@
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
-                    <article class="blog-article">
+                    <article class="blog-article" itemprop="articleBody">
                         {{ .Content | markdownify | emojify}}
                         <p>{{ with .Site.Params.params.contentFooter }}{{ . | markdownify }}{{ end }}</p>
                     </article>
@@ -42,7 +61,7 @@
                 <div class="col-md-12 text-center">
                     TAGGED:
                     {{ range .Params.tags }}
-                    <span>{{ . | upper }}</span>
+                    <span itemprop="keywords">{{ . | upper }}</span>
                     {{ end }}
                 </div>
             </div>
