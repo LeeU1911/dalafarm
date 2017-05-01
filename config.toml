@@ -22,7 +22,6 @@ product = "/san-pham/:slug"
 url    = "/blog"
 name   = "Blog"
 weight = 1
-pre = "<i class='fa fa-heart'></i>"
 identifier = "blog"
 [[Languages.vi.menu.main]]
 url    = "/#san-pham"
@@ -95,7 +94,7 @@ contact = "Liên hệ"
 [Languages.vi.params.hero]
 title = "Chào mừng bạn ghé thăm!"
 subtitle = "DalaFarm rất vui được gặp bạn"
-buttonText = "Dạo 1 vòng nào"
+buttonText = "Xem sản phẩm"
 
 # Products section
 [Languages.vi.params.product]
@@ -107,7 +106,7 @@ path = "san-pham"
 # About section
 [Languages.vi.params.about]
 enable = true
-    title = "Về DalaFarm"
+    title = "Hành Trình DalaFarm"
     subtitle = "Hành trình của chúng tôi đã bắt đầu như thế nào."
     endpoint = "Hãy đồng <br>hành cùng <br>DalaFarm!"
     path = "ve-dalafarm"
@@ -126,7 +125,7 @@ enable = true
     [[Languages.vi.params.about.events]]
       img = "dalafarm.png"
       date = "March 2017"
-      title = "Câu chuyện Dalafarm bắt đầu"
+      title = "Câu chuyện DalaFarm bắt đầu"
       description = "Chia sẻ chung niềm đam mê về sản xuất và kinh doanh các sản phẩm Việt Nam chất lượng cao, Ms. Hà và Ms. Trâm đã hợp nhất 2 công ty Đức Hà và Dalahouse lại thành 1 công ty duy nhất mang tên DalaFarm. Cùng với 2 cộng sự khác - Ms. Thư và Mr. Vũ, chúng tôi cam kết mang những sản phẩm sạch, chất lượng cao đến với mọi người tiêu dùng!"
 
 # Team section
