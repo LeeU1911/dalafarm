@@ -43,6 +43,11 @@ url    = "/company-profile"
 name   = "Đôi nét về DalaFarm"
 weight = 2
 parent = "ve-dalafarm"
+[[Languages.vi.menu.main]]
+url    = "/company-docs"
+name   = "Giấy tờ chứng nhận"
+weight = 3
+parent = "ve-dalafarm"
 
 [[Languages.vi.menu.main]]
 url    = "/#chung-toi"
