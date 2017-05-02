@@ -14,6 +14,7 @@ EXCLUDES="s3_excludes"
 
 openssl aes-256-cbc -K $encrypted_72893ab80126_key -iv $encrypted_72893ab80126_iv -in secrets.tar.enc -out secrets.tar -d
 tar xvf secrets.tar
+echo unzip
 
 s3cmd -c s3cfg-prod sync -M -F \
     --no-mime-magic \
