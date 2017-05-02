@@ -1,8 +1,8 @@
 +++
 date = "2017-05-02T01:51:53+08:00"
+publishdate = "2017-05-02T01:51:53+08:00"
 tags = ["tác dụng của bột rau má", "bot-rau-ma", "pennywort-powder"]
 thumbnail = "6-tac-dung-tuyet-voi-cua-bot-rau-ma.jpg"
-draft = true
 title = "6 TÁC DỤNG TUYỆT VỜI CỦA BỘT RAU MÁ"
 
 +++

@@ -1,8 +1,8 @@
 +++
 date = "2017-05-04T01:51:53+08:00"
+publishdate = "2017-05-04T01:51:53+08:00"
 tags = ["Chữa bệnh gan", "bot-rau-ma", "pennywort-powder"]
 thumbnail = "chua-benh-gan-bang-rau-ma.jpg"
-draft = true
 title = "DÙNG RAU MÁ CHỮA BỆNH GAN HIỆU QUẢ"
 
 +++

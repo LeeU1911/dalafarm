@@ -1,8 +1,8 @@
 +++
 date = "2017-05-02T01:51:53+08:00"
+publishdate = "2017-05-02T01:51:53+08:00"
 tags = ["Làm đẹp da", "bot-rau-ma", "pennywort-powder"]
 thumbnail = "Lam-dep-rau-ma.jpg"
-draft = true
 title = """CÔNG DỤNG LÀM ĐẸP DA  
 BẤT NGỜ CỦA RAU MÁ"""
 

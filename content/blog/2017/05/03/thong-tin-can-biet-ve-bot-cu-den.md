@@ -1,8 +1,8 @@
 +++
 date = "2017-05-03T01:51:53+08:00"
+publishdate = "2017-05-03T01:51:53+08:00"
 tags = ["thông tin về bột củ dền", "bot-cu-den", "Beetroot-powder"]
 thumbnail = "thong-tin-cua-bot-cu-den.jpg"
-draft = true
 title = """NHỮNG THÔNG TIN CẦN BIẾT VỀ  
 BỘT CỦ DỀN"""
 

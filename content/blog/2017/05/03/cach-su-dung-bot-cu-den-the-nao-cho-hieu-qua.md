@@ -1,8 +1,8 @@
 +++
 date = "2017-05-03T01:51:53+08:00"
+publishdate = "2017-05-03T01:51:53+08:00"
 tags = ["cách sử dụng bột củ dền", "bot-cu-den", "Beetroot-powder"]
 thumbnail = "cach-su-dung-cua-bot-cu-den.jpg"
-draft = true
 title = """SỬ DỤNG BỘT CỦ DỀN NHƯ THẾ NÀO  
 ĐỂ CÓ HIỆU QUẢ?"""
 

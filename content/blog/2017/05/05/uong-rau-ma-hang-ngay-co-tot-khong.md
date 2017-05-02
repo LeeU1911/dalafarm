@@ -1,8 +1,8 @@
 +++
 date = "2017-05-05T01:51:53+08:00"
+publishdate = "2017-05-05T01:51:53+08:00"
 tags = ["Thức uống hàng ngày", "bot-rau-ma", "pennywort-powder"]
 thumbnail = "Uong-rau-ma.jpg"
-draft = true
 title = """RAU MÁ CÓ TÁC DỤNG GÌ?  
 UỐNG RAU MÁ HÀNG NGÀY CÓ TỐT KHÔNG?"""
 
