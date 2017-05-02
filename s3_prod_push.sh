@@ -7,7 +7,7 @@
 #
 #  Contributors:
 #  Jesse Griffin <jesse@unfoldingword.org>
-
+echo start script
 SOURCE="public/"
 BKT="s3://preview.dalafarm.com.vn/"
 EXCLUDES="s3_excludes"
