@@ -9,14 +9,21 @@ script:
   - hugo version
   - hugo
   - ls public
+before_deploy: pip install --user s3cmd
 deploy:
-  provider: s3
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWS_SECRET_KEY
-  bucket: dalafarm.com.vn
-  region: ap-southeast-1
-  endpoint: dalafarm.com.vn.s3-website-ap-southeast-1.amazonaws.com/
-  local-dir: public
+#  provider: s3
+#  access_key_id: $AWS_ACCESS_KEY
+#  secret_access_key: $AWS_SECRET_KEY
+#  bucket: dalafarm.com.vn
+#  region: ap-southeast-1
+#  endpoint: dalafarm.com.vn.s3-website-ap-southeast-1.amazonaws.com/
+#  local-dir: public
+#  skip_cleanup: true
+#  on:
+#    repo: LeeU1911/dalafarm
+  provider: script
   skip_cleanup: true
+  script: ./s3_prod_push.sh
   on:
     repo: LeeU1911/dalafarm
+    branch: master
