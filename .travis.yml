@@ -11,7 +11,6 @@ script:
   - hugo version
   - hugo
   - ls public
-after_success: ./s3_prod_push.sh
 before_deploy: pip install --user s3cmd
 deploy:
 #  provider: s3
@@ -29,4 +28,3 @@ deploy:
   script: ./s3_prod_push.sh
   on:
     branch: master
-after_script: ./s3_prod_push.sh
