@@ -25,5 +25,4 @@ deploy:
   skip_cleanup: true
   script: ./s3_prod_push.sh
   on:
-    repo: LeeU1911/dalafarm
     branch: master
