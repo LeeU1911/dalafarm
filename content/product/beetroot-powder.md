@@ -39,6 +39,3 @@ bánh, làm đẹp (đắp mặt)…
 ### Bảo quản: 
 Dưới 25⁰C, tránh ánh sáng trực tiếp.
 
-### Storage: 
-Below 25⁰C, avoid from direct sunlight.
-
