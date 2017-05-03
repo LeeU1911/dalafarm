@@ -29,9 +29,14 @@ name   = "Sản Phẩm"
 weight = 2
 
 [[Languages.vi.menu.main]]
+url    = "/qa"
+name   = "Thắc mắc"
+weight = 3
+
+[[Languages.vi.menu.main]]
 url    = "#"
 name   = "Về DalaFarm"
-weight = 3
+weight = 4
 identifier = "ve-dalafarm"
 [[Languages.vi.menu.main]]
 url    = "/#ve-dalafarm"
@@ -53,6 +58,7 @@ url    = "/team"
 name   = "Thành Viên DalaFarm"
 weight = 4
 parent = "ve-dalafarm"
+
 
 [[Languages.vi.menu.main]]
 url    = "/#contact"
