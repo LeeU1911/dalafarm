@@ -25,7 +25,7 @@ Bột củ dền đảm bảo chất lượng phải là sản phẩm được s
 DalaFarm lựa chọn những củ dền tươi sạch, bảo đảm chất lượng nhất, sử dụng công nghệ sấy chân không bằng hơi nước tự nhiên và thực hiện nghiền bột bằng công nghệ ly tâm hiện đại. Sản phẩm bột củ dền từ Dalafarm không sử dụng bất cứ một chất bảo quản, chất tạo mùi, chất tạo màu nào. Bảo đảm nguyên chất, tự nhiên 100%, đây là những sản phẩm hoàn toàn tốt và an toàn cho sức khỏe của mọi khách hàng.
 
 Củ dền rất giàu vitamin C – một loại khoáng chất rất tốt cho sức khỏe của con người, bên cạnh đó, củ dền còn cung cấp rất nhiều chất dinh dưỡng khác có lợi cho cơ thể như sodium, mangnesium, potassium, đây đều là những hoạt chất giúp ích rất nhiều cho các chị em phụ nữ trong việc dưỡng và làm trắng da tự nhiên.
-{{< img src="/img/blog/thong-tin-cua-bot-cu-den (1).jpg" title="Bột củ dền rất tốt cho phụ nữ" >}}
+{{< img src="/img/blog/thong-tin-cua-bot-cu-den (2).jpg" title="Bột củ dền rất tốt cho phụ nữ" >}}
 
 Sử dụng củ dền để chăm sóc sức khỏe là một biện pháp vừa có lợi, vừa tiết kiệm được rất nhiều chi phí. Chính vì vậy, không phải đợi đến ngày nay mà từ cách đây rất lâu, con người đã bắt đầu biết đến việc sử dụng loại thực phẩm thiên nhiên này để chăm sóc cho sức khỏe của chính mình, mang lại những hiệu quả hết sức tích cực.
 
