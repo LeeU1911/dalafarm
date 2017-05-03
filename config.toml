@@ -48,11 +48,11 @@ url    = "/company-docs"
 name   = "Giấy tờ chứng nhận"
 weight = 3
 parent = "ve-dalafarm"
-
 [[Languages.vi.menu.main]]
-url    = "/#chung-toi"
-name   = "Chúng tôi"
+url    = "/team"
+name   = "Thành Viên DalaFarm"
 weight = 4
+parent = "ve-dalafarm"
 
 [[Languages.vi.menu.main]]
 url    = "/#contact"

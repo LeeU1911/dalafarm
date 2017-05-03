@@ -15,10 +15,6 @@
     {{ partial "about.html" . }}
 {{ end }}
 
-{{ if .Site.Params.params.team.enable }}
-    {{ partial "team.html" . }}
-{{ end }}
-
 {{ if .Site.Params.params.contact.enable }}
     {{ partial "contact.html" . }}
 {{ end }}
