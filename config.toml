@@ -225,6 +225,15 @@ title = "Liên hệ với DalaFarm"
 [Languages.vi.params.footer]
 enable = true
 copyright = "Bản quyền thuộc DalaFarm (C) 2017"
+info = """### DalaFarm
+Điện thoại: [0906 951 498](tel:0906 951 498) hoặc [0918 241 066](tel:0918 241 066)
+
+Email: [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
+
+**Ngày làm việc** Thứ 2 - thứ 7
+
+**Thời gian làm việc** 8h00 - 17h00
+"""
 
 [[Languages.vi.params.footer.quicklinks]]
   text = "Điều khoản sử dụng"
@@ -238,8 +247,6 @@ copyright = "Bản quyền thuộc DalaFarm (C) 2017"
 [[Languages.vi.params.footer.social]]
   icon = "fa-instagram"
   link = "https://www.instagram.com/dalafarm.com.vn/"
-
-
 
 ########################################
 #

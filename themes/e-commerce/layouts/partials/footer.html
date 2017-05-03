@@ -2,8 +2,8 @@
 <footer class="bg-logo-brown">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
-        <span class="copyright">{{ with .Site.Params.params.footer.copyright }}{{ . | markdownify }}{{ end }}</span>
+      <div class="col-md-4 footer-info">
+        <span>{{ with .Site.Params.params.footer.info }}{{ . | markdownify }}{{ end }}</span>
       </div>
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
@@ -22,6 +22,7 @@
           {{ end }}
 
         </ul>
+        <span class="copyright">{{ with .Site.Params.params.footer.copyright }}{{ . | markdownify }}{{ end }}</span>
       </div>
     </div>
   </div>
