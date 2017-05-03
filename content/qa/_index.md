@@ -16,7 +16,7 @@ Trong quá trình đó, DalaFarm vẫn đang tích cực nỗ lực hết sức 
 
 DalaFarm khuyến khích khách hàng thanh toán qua hình thức chuyển khoản qua internet banking hoặc app trên điện thoại di động vì những lợi ích sau:
 * Không cần mang và giữ tiền mặt trong người phòng ngừa bị mất cắp hoặc rơi rớt
-* Nhận khuyến mãi giảm 50% giá shipping trực tiếp từ DalaFarm  
+* Nhận khuyến mãi giảm 100% giá shipping trực tiếp từ DalaFarm  
 
 Tuy nhiên, DalaFarm vẫn nhận những hình thức thanh toán khác mà khách hàng chọn như trả tiền mặt lúc nhận hàng.
 
