@@ -44,4 +44,4 @@ Bạn trộn đều 10g bột rau diếp cá + 10g bột khoai tây
 
 Dùng hỗn hợp này thoa đều lên vùng nách, bạn massage nhẹ nhàng trong 20 phút cho da hút được các tinh chất tuyệt vời từ thiên nhiên này để loại sạch mùi hôi. Nếu ngày nào bạn cũng thực hiện theo cách này thì chẳng mấy chốc mùi hôi nách sẽ không còn vương trên cơ thể bạn nữa. 
  
-Hãy ghi nhớ ngay những cách trị hôi nách tại nhà bằng rau diếp cá này để tạm biệt mùi mồ hôi dưới cánh tay nhanh chóng bạn nhé. Bạn có thể đặt mua bột rau diếp cá [tại đây](/san-pham/bột-rau-diếp-cá-50g/) nhé
+Hãy ghi nhớ ngay những cách trị hôi nách tại nhà bằng rau diếp cá này để tạm biệt mùi mồ hôi dưới cánh tay nhanh chóng bạn nhé. Bạn có thể đặt mua bột rau diếp cá [tại đây](/san-pham/bot-rau-diep-ca-100g/) nhé

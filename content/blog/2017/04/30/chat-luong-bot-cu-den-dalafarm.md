@@ -48,4 +48,4 @@ Củ dền từ xa xưa đã được rất nhiều người sử dụng làm th
 _Bột củ dền_ có thể được sử dụng làm thành phần của các món cháp, súp, loại bột này giúp các món ăn tăng thâm mùi vị hấp dẫn, có thêm nhiều chất dinh dưỡng có lợi và đặc biệt là tạo ra được một màu sắc rất băt mắt, hấp dẫn mọi người thưởng thức.
 Rõ ràng, _bột củ dền_ có rất nhiều công dụng khác nhau, chính vì vậy, không quá ngạc nhiên khi loại bột này đang được ngày càng nhiều người biết đến và quan tâm sử dụng.   
 
-Bạn có thể đặt mua bột củ dền [tại đây](/san-pham/bột-củ-dền-50g/) nhé
+Bạn có thể đặt mua bột củ dền [tại đây](/san-pham/bot-cu-den-50g/) nhé

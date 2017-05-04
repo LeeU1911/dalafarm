@@ -29,4 +29,4 @@ Hoạt chất asiaticoside trong rau má cũng đã được ứng dụng trong 
 Nghiên cứu trên chuột cho thấy dịch chiết rau má có khả năng chữa lành khối u dạ dày chuột, có khả năng kháng khối u.
 {{< img src="/img/blog/cong-dung-da-nang-cua-bot-rau-ma(2).jpg" title="Rau má trị ung thư" >}} 
 
-Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bột-rau-má-100g/) nhé
+Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bot-rau-ma-100g/) nhé

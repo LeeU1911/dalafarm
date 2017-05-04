@@ -31,4 +31,4 @@ Sử dụng củ dền để chăm sóc sức khỏe là một biện pháp vừ
 
 Với sự phát triển của khoa học và công nghệ, ngày càng có nhiều sản phẩm chất lượng được sản xuất từ củ dền, và bột củ dền chính là một trong số đó. Sử dụng bột củ dền đúng cách chính là một bí quyết hoàn hảo để tăng cường sức khỏe và làm đẹp cho mỗi người, đặc biệt là các chị em phụ nữ.
 
-Bạn có thể đặt mua bột củ dền [tại đây](/san-pham/bột-củ-dền-50g/) nhé
+Bạn có thể đặt mua bột củ dền [tại đây](/san-pham/bot-cu-den-50g/) nhé

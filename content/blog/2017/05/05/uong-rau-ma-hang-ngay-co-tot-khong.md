@@ -28,10 +28,10 @@ tăng cường chức năng tâm thần trong một số cá nhân. Trong dân g
 **Có nên sử dụng rau má thường xuyên?**
 Rau má là một loại rau khá tốt, nếu biết dùng đúng cách. Mỗi người bình thường có thể cung cấp cho cơ thể khoảng 30 – 40 gram rau má trở lại. 
 
-_Lưu ý là không nên dùng liên tục trong thời gian dài_. Mỗi đợt dùng nên cách nhau nửa tháng là tốt nhất. Để có một ly nước rau má thơm ngon, bạn nên chọn rau má tươi, vừa hái, đem rửa sạch cho vào máy sinh tố xay nhuyễn, lọc rây bỏ phần bã (nếu bạn không có thời gian cho việc này, có thể đặt mua bột rau má DalaFarm [tại đây](/san-pham/bột-rau-má-100g/) với 100% nguyên liệu rau má tươi). Thêm vào một ít đường, sữa, đá viên sẽ giúp tăng thêm hương vị và dễ uống hơn. 
+_Lưu ý là không nên dùng liên tục trong thời gian dài_. Mỗi đợt dùng nên cách nhau nửa tháng là tốt nhất. Để có một ly nước rau má thơm ngon, bạn nên chọn rau má tươi, vừa hái, đem rửa sạch cho vào máy sinh tố xay nhuyễn, lọc rây bỏ phần bã (nếu bạn không có thời gian cho việc này, có thể đặt mua bột rau má DalaFarm [tại đây](/san-pham/bot-rau-ma-100g/) với 100% nguyên liệu rau má tươi). Thêm vào một ít đường, sữa, đá viên sẽ giúp tăng thêm hương vị và dễ uống hơn. 
 
 Đối với những phụ nữ mang thai sử dụng rau má quá nhiều sẽ gây sảy thai vì các chát trong loại rau này có thể gây khả năng sảy thai vô cùng nguy hiểm.
 
 Việc uống nước rau má khá tốt tuy nhiên tùy từng bệnh mà bạn có thể sử dụng các lượng khác nhau không nên sử dụng quá nhiều gây ảnh hưởng tới sức khỏe của mọi người.
 
-Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bột-rau-má-100g/) nhé
+Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bot-rau-ma-100g/) nhé

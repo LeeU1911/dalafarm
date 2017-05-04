@@ -17,4 +17,4 @@ Trong rau má tươi rất giàu hoạt chất triterpenoids làm lưu thông m�
 
 {{< img src="/img/blog/tri-mun-dep-da-bang-bot-rau-ma(2).jpg" title="Bột rau má DalaFarm" >}}
 
-Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bột-rau-má-100g/) nhé
+Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bot-rau-ma-100g/) nhé

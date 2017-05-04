@@ -27,4 +27,4 @@ Bạn lấy khoảng 5g bột rau má pha thêm một chút đường phèn và 
 
 Dùng rau má chữa bệnh rất lành tính, mang lại hiệu quả cao và đơn giản. Người bệnh nên kiên trì áp dụng kết hợp với việc thực hiện chế độ sinh hoạt và ăn uống hợp lý sẽ tốt cho tình trạng bệnh. Các bạn cũng cần kiểm tra sức khỏe và tình trạng bệnh thường xuyên để nắm bắt và có phương pháp điều chỉnh chữa trị phù hợp.
 
-Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bột-rau-má-100g/) nhé
+Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bot-rau-ma-100g/) nhé

@@ -35,4 +35,4 @@ Bạn chỉ cần chọn mua loại rau má nhỏ nhé, sau đó rửa cho thậ
 
 Hãy xem da bạn bị sẹo lồi, lõm hay thâm để có thể sử dụng những công thức trên để có được làn da tuyệt vời nhé, với những cách trên chị em có thể không phải lo lắng vì sẹo rồi, chúc bạn nhanh chóng lấy được sự hoàn hảo của làn da mình nhé.
 
-Ngoài ra, với bột rau má DalaFarm đã được sấy và nghiền mịn thành bột sẵn, việc thực hiện các công thức trên còn nhanh chóng và dễ dàng hơn bao giờ hết. Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bột-rau-má-100g/) nhé
+Ngoài ra, với bột rau má DalaFarm đã được sấy và nghiền mịn thành bột sẵn, việc thực hiện các công thức trên còn nhanh chóng và dễ dàng hơn bao giờ hết. Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bot-rau-ma-100g/) nhé

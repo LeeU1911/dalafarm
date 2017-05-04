@@ -25,4 +25,4 @@ Có hiệu quả với chứng mụn rộp, trĩ, bỏng, gout, thấp khớp, c
 
 Bảo vệ thần kinh
 
-Bạn có thể đặt mua bột rau diếp cá [tại đây](/san-pham/bột-rau-diếp-cá-100g/) nhé
+Bạn có thể đặt mua bột rau diếp cá [tại đây](/san-pham/bot-rau-diep-ca-100g/) nhé

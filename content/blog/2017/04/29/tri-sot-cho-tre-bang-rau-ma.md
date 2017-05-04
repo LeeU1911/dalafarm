@@ -25,4 +25,4 @@ Sử dụng rau má rất an toàn, không tác dụng phụ, bạn hoàn toàn 
 
 Cho bé uống rau má là biện pháp hữu hiệu nhất để bảo vệ sức khỏe cho bé giúp bé có thể khỏe được một cách nhanh nhất, mẹ hãy bỏ túi phương pháp này để áp dụng mỗi khi bé gặp vấn đề về sốt nhé.
 
-Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bột-rau-má-100g/) nhé
+Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bot-rau-ma-100g/) nhé

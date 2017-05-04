@@ -30,4 +30,4 @@ Với những tác dụng rất tốt cho làn da, không quá ngạc nhiên khi
 
 Ngoài ra cũng có rất nhiều loại mỹ phẩm hiện nay có chứa bột củ dền ở trong thành phần. Các loại mỹ phẩm này được đánh giá là an toàn và có hiệu quả rất cao, được sản xuất từ các nguyên liệu thiên nhiên, chính vì vậy, mọi người có thể cảm thất an tâm hơn trong quá trình sử dụng. 
 
-Bạn có thể đặt mua bột củ dền [tại đây](/san-pham/bột-củ-dền-50g/) nhé
+Bạn có thể đặt mua bột củ dền [tại đây](/san-pham/bot-cu-den-50g/) nhé

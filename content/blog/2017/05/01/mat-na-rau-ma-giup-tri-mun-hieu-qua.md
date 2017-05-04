@@ -64,4 +64,4 @@ Kết hợp thức uống này với các mặt nạ rau má trị mụn thâm s
 Chúc các nàng áp dụng thành công phương pháp trị mụn này nhé!
 
 
-Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bột-rau-má-100g/) nhé
+Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bot-rau-ma-100g/) nhé

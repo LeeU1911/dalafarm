@@ -36,4 +36,4 @@ Nền y học hiện đại đã chiết xuất lấy hoạt chất từ rau má
 
 **Cần lưu ý** là các hoạt chất nằm ở trong chất xơ (cellulose) của rau má, nếu chúng ta chỉ giã vắt lấy nước thì sẽ mất đi các hoạt chất này. Một số công trình nghiên cứu cho thấy các chất xơ có thể "kéo" cholesterol ra khỏi cơ thể, vì vậy nếu ăn các loại rau có nhiều chất xơ sẽ giúp cơ thể đào thải dần lượng cholesterol ra khỏi cơ thể. Vì vậy thay vì tồn thời gian xay, ép làm mất chất xơ và thời gian. Bạn có thể đặt mua bột rau má của Dalafarm tại đây nhé.
 
-Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bột-rau-má-100g/) nhé
+Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bot-rau-ma-100g/) nhé

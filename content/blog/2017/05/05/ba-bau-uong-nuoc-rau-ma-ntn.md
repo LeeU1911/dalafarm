@@ -38,4 +38,4 @@ Trước khi xay lấy nước uống, nên rửa và ngâm qua nước muối c
 
 **Với lượng nước rau má vừa phải, hợp lý, mẹ bầu sẽ cảm thấy thoải mái hơn trong tiết trời mùa hè nóng bức như hiện nay. Tuy vậy, nguy cơ của việc uống rau má, đặc biệt là uống nhiều và thường xuyên là điều mà nhiều người đã chỉ ra. Để đảm bảo an toàn, mẹ bầu hãy tham khảo ý kiến bác sĩ, thao tác vệ sinh cẩn thận và uống nước rau má hợp lý nhé.**
 
-Ngoài ra, để tiết kiệm thời gian, mẹ bầu có thể đặt mua bột rau má DalaFarm 100% nguyên liệu rau má tươi [tại đây](/san-pham/bột-rau-má-100g/) nhé
+Ngoài ra, để tiết kiệm thời gian, mẹ bầu có thể đặt mua bột rau má DalaFarm 100% nguyên liệu rau má tươi [tại đây](/san-pham/bot-rau-ma-100g/) nhé

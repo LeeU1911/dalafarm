@@ -40,4 +40,4 @@ Triterpenoids trong rau má cũng có thể làm giảm sự lo lắng và tăng
 
 {{< img src="/img/blog/6-cong-dung-tuyet-voi-cua-bot-rau-ma(3).png" title="Nước rau má" >}}
 
-Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bột-rau-má-100g/) nhé
+Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bot-rau-ma-100g/) nhé

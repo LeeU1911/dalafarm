@@ -28,6 +28,6 @@ Vì diếp cá rất lành tính và mát nên đắp mặt nạ dưỡng da là
 {{< img src="/img/blog/bot-diep-ca-2.png" title="Ảnh: Rau diếp cá và muối hạt" 
 alt="Rau diếp cá và muối hạt">}}
 
-Ngoài ra bạn nên bổ sung uống bột diếp cá hàng ngay, giúp giải độc cơ thể, để cơ thể khỏe mạnh. Đây cũng chính là cách trị mụn đầu đen và vết thâm hiệu quả từ bên trong. Bạn có thể tham khảo giá bột rau diếp cá [tại đây](/product/san-pham/bột-rau-diếp-cá-50g/).
+Ngoài ra bạn nên bổ sung uống bột diếp cá hàng ngay, giúp giải độc cơ thể, để cơ thể khỏe mạnh. Đây cũng chính là cách trị mụn đầu đen và vết thâm hiệu quả từ bên trong. Bạn có thể tham khảo giá bột rau diếp cá [tại đây](/san-pham/bot-rau-diep-ca-100g/).
 
 Nguồn: miphamizzota.vn 
