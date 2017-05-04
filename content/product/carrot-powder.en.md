@@ -1,11 +1,11 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
 description = "Carrot powder zip 50 gram"
-price = "95,000"
-img = ["Carrot-1.jpg","Carrot-2.jpg"]
+price = "5.5"
+img = ["carrot-1.jpg","carrot-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Carrot"]
-thumbnail = "Carrot-1.jpg"
+thumbnail = "carrot-1.jpg"
 title = "Carrot powder (50g)"
 +++
 

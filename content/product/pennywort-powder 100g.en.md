@@ -1,11 +1,11 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
 description = "Pennywort powder zip 100 gram"
-price = "105,000"
-img = ["pennywort-1.jpg","pennywort-2.jpg"]
+price = "6.5"
+img = ["pennywort-100g-1.jpg","pennywort-100g-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","pennywort-powder"]
-thumbnail = "Pennywort-1.jpg"
+thumbnail = "pennywort-100g-1.jpg"
 title = "Pennywort powder (100g)"
 +++
 

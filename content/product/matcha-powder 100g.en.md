@@ -1,11 +1,11 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
 description = "Matcha powder zip 100 gram"
-price = "175,000"
-img = ["Matcha-1.jpg","Matcha-2.jpg"]
+price = "5.5"
+img = ["matcha-100g-1.jpg","matcha-100g-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Matcha"]
-thumbnail = "Matcha-1.jpg"
+thumbnail = "matcha-100g-1.jpg"
 title = "Matcha powder (100g)"
 +++
 
