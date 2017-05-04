@@ -30,7 +30,7 @@ weight = 2
 
 [[Languages.vi.menu.main]]
 url    = "/qa"
-name   = "Thắc mắc"
+name   = "Hỏi Đáp"
 weight = 3
 
 [[Languages.vi.menu.main]]
