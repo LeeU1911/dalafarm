@@ -28,11 +28,6 @@
         <li class="hidden">
           <a href="{{ if .IsHome }}#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}"></a>
         </li>
-          <!--{{ range .Site.Menus.main }}-->
-          <!--<li>-->
-              <!--<a href="{{ .URL | absLangURL }}">{{ .Name | markdownify }}</a>-->
-          <!--</li>-->
-          <!--{{ end }}-->
           {{ partial "nav-share.html" . }}
 
       </ul>

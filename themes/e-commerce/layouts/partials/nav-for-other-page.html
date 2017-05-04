@@ -11,12 +11,12 @@
         <span class="icon-bar"></span>
       </button>
       {{ if .Site.Params.params.navigation.logo }}
-        <a class="navbar-brand page-scroll" href="{{ .Site.BaseURL | absLangURL }}">
+        <a class="navbar-brand page-scroll" href="{{ .Site.BaseURL | relLangURL }}">
           {{ $url := printf "img/%s" .Site.Params.params.navigation.logo }}
           <img src="{{ $url | absLangURL }}" class="img-responsive" alt="{{ .Site.Params.params.navigation.brand }}">
         </a>
       {{ end }}
-        <a class="navbar-brand page-scroll" href="{{ .Site.BaseURL | absLangURL }}">
+        <a class="navbar-brand page-scroll" href="{{ .Site.BaseURL | relLangURL }}">
             {{ with .Site.Params.params.navigation.brand }}{{ . }}{{ end }}
         </a>
 
@@ -26,7 +26,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden">
-          <a href="{{ if .IsHome }}#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}"></a>
+          <a href="{{ if .IsHome }}#page-top{{ else }}{{ .Site.BaseURL | relLangURL }}{{ end }}"></a>
         </li>
           {{ partial "nav-share.html" . }}
 

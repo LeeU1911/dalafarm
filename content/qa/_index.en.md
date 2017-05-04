@@ -4,7 +4,7 @@ date = "2017-03-21T21:52:24+08:00"
 
 +++
 
-# Bột rau củ DalaFarm có đạt chứng nhận hữu cơ (Organic) không?
+# Is DalaFarm vegetables powders organic certified?
 
 Hiện tại DalaFarm là trang trại đầu tiên của công ty Chuông Xanh trồng hoàn toàn theo phương pháp hữu cơ Mansanobu Fukuoka tác giả cuốn sách "Cuộc cách mạng một cọng rơm" với phương pháp "Không làm gì cả".
 

@@ -27,7 +27,7 @@
     <div class="container blog-section">
         <div class="row">
             <div class="col-md-12">
-                <a href="/{{ .Section }}" class="product-link">
+                <a href="{{ .Section | urlize | absLangURL }}" class="product-link">
                     {{ .Section | humanize }}
                 </a>
                 > {{ .Title }}
