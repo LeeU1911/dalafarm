@@ -10,6 +10,7 @@ product_line = ""
 tags = ["veggie-powder","rainbow-powder"]
 thumbnail = "rainbow-powder.jpg"
 title = "Bột rau củ Rainbow"
+url = "/san-pham/bot-rau-cu-rainbow"
 weight = 2
 +++
 

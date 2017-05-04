@@ -7,6 +7,7 @@ product_line = ""
 tags = ["veggie-powder","tomato"]
 thumbnail = "tomato-1.jpg"
 title = "Bột Cà chua (50g)"
+url = "/san-pham/bot-ca-chua-50g"
 weight = 1
 +++
 

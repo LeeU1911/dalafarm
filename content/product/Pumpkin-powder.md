@@ -7,6 +7,7 @@ product_line = ""
 tags = ["veggie-powder","Pumpkin"]
 thumbnail = "pumpkin-1.jpg"
 title = "Bột Bí đỏ (50g)"
+url = "/san-pham/bot-bi-do-50g"
 weight = 1
 +++
 

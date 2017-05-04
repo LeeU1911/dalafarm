@@ -1,5 +1,5 @@
 <div class="col-xs-4 box-item product-box" itemprop="itemListElement" itemscope itemtype="http://schema.org/Product">
-    <a itemprop="url" href="{{ .Permalink }}" class="product-link">
+    <a itemprop="url" href="{{ .URL }}" class="product-link">
         {{ $url := printf "img/product/%s" .Params.thumbnail }}
         <img itemprop="image" src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Title }}">
     </a>

@@ -7,6 +7,7 @@ product_line = ""
 tags = ["veggie-powder","Matcha"]
 thumbnail = "matcha-100g-1.jpg"
 title = "Bột Trà Xanh (100g)"
+url = "/san-pham/bot-tra-xanh-100g"
 weight = 1
 +++
 

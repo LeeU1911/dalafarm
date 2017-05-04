@@ -7,6 +7,7 @@ product_line = ""
 tags = ["veggie-powder","pennywort-powder"]
 thumbnail = "pennywort-100g-1.jpg"
 title = "Bột Rau má (100g)"
+url = "/san-pham/bot-rau-ma-100g"
 weight = 1
 +++
 
