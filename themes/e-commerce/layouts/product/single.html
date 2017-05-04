@@ -8,7 +8,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <a href="/{{ .Section | urlize }}" class="product-link">
+            <a href="{{ .Section | urlize | absLangURL }}" class="product-link">
                 {{ with .Site.Params.params.product.title }}{{ . | markdownify }}{{ end }}
             </a>
             > {{ .Title }}
