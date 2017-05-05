@@ -93,7 +93,7 @@ Vì các lý do đó mà DalaFarm ra đời để giúp các bạn làm tất c�
 **CÁC BẠN CỨ VIỆC SỬ DỤNG BỘT RAU CỦ DALAFARM, SỨC KHOẺ VÀ THỜI GIAN CỦA CÁC BẠN CỨ ĐỂ DALAFARM LO**  
 
 ## Giá trị cốt lõi: 
-Lấy chất lương làm trọng tâm. DalaFarm không bao giờ bán sản phẩm kém chất lượng ra ngoài thị trường
+Lấy chất lượng làm trọng tâm. DalaFarm không bao giờ bán sản phẩm kém chất lượng ra ngoài thị trường
 
 ## Định hướng phát triển: 
 Tập trung phát triển dòng bột rau củ và thảo dược giúp người tiêu dùng bảo vệ sức khoẻ một cách thuận tiện và tự nhiên nhất 
