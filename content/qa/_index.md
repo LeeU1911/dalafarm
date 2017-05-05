@@ -21,3 +21,12 @@ DalaFarm khuyến khích khách hàng thanh toán qua hình thức chuyển kho�
 
 Tuy nhiên, DalaFarm vẫn nhận những hình thức thanh toán khác mà khách hàng chọn như trả tiền mặt lúc nhận hàng.
 
+# Cách sử dụng bột rau củ DalaFarm như thế nào?
+Pha từ 1 đến 2 muỗng cà phê bột (tương đương 3 đến 5 gram bột) vào 300ml nước lọc ấm (không cần nước sôi, vì bột rau củ đã được sấy chín trong quá trình sản xuất), 
+sau đó đánh hoà tan đều lên là có thể dùng được.
+
+Nếu bạn thích uống ngọt, có thể cho thêm 1 muỗng cà phê đường phèn (hoặc 2 muỗng mật ong) vào rồi khuấy đều.
+Nước sau khi pha có thể dùng liền hoặc để tủ lạnh trong 5 - 10 phút để uống mát hoặc thêm đá để uống lạnh tuỳ sở thích.
+
+Bột rau củ DalaFarm lấy tiêu chí giữ nguyên độ lợn cợn của rau củ để bổ sung thêm lượng chất xơ không hoà tan cho người sử dụng, 
+tương tự như việc bạn ăn rau củ tươi để có chất xơ giúp tiêu hóa tốt và đào thải những chất xấu trong đường ruột ra khỏi cơ thể.
