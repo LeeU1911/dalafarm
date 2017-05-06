@@ -14,7 +14,7 @@
   <title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
   {{ "<!-- Stylesheets -->" | safeHTML }}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.44/theme-default.min.css" />
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.44/theme-default.min.css" />-->
   <link href="{{ "css/styles.min.css" | absURL }}" rel="stylesheet">
 
   {{ range .Site.Params.params.custom_css }}
@@ -22,13 +22,13 @@
   {{ end }}
 
   {{ "<!-- Custom Fonts -->" | safeHTML }}
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />-->
 
   {{ with not .Site.Params.params.disableFonts }}
-    <link href="//fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+    <!--<link href="//fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet" type="text/css">-->
+    <!--<link href="//fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">-->
     <!--<link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">-->
-    <link href="//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+    <!--<link href="//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">-->
   {{ end }}
 
   {{ with .Site.Params.params.favicon }}
