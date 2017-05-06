@@ -19,7 +19,7 @@
         <p>
             {{ if isset .Params "discounted_price" }}
             <span class="text-original-price">{{ .Params.price }} {{ i18n "currency" }}</span>
-            {{else}}
+            {{else if isset .Params "price"}}
             <span class="text-current-price"><span itemprop="price" content="{{ .Params.price }}">{{ .Params.price }}</span> <span itemprop="priceCurrency" content="{{ i18n "currency" }}">{{ i18n "currency" }}</span></span>
             {{end}}
         </p>
