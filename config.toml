@@ -312,7 +312,7 @@ weight = 5
 [Languages.en.params]
 name = "DalaFarm"
 description = """DalaFarm provides vegetables powders such as strawberry, celery, beetroot, carrot, heartleaf, spinach, tomato, pennywort,
-                 lotus seed powder for baby food. In addition, DalaFarm also produces mixed vegetables for detox drink, along with garlic oil, black garlic and garlic-based products.
+                 lotus seed powder for baby. DalaFarm also produces mixed vegetables for detox drink, along with garlic oil.
                  """
 
 # Link custom assets relative to /static
