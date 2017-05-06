@@ -11,6 +11,7 @@ install:
   - go get github.com/spf13/hugo
 before_script:
   - npm install gulp gulp-concat gulp-less gulp-minify-css gulp-rename gulp-uglify gulp-watch gulp-imagemin
+  - nvm use 6
 script:
   - node -v
   - npm -v
