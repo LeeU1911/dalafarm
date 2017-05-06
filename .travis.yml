@@ -1,6 +1,8 @@
 language: go
 go:
   - 1.7.1
+env:
+ - TRAVIS_NODE_VERSION="6"
 sudo: required
 before_install:
   - chmod +x s3_preview_push.sh
