@@ -10,6 +10,8 @@ install:
 before_script:
   - npm install gulp gulp-concat gulp-less gulp-minify-css gulp-rename gulp-uglify gulp-watch gulp-imagemin
 script:
+  - node -v
+  - npm -v
   - hugo version
   - gulp
   - hugo
