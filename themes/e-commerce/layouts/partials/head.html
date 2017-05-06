@@ -15,7 +15,7 @@
   {{ "<!-- Stylesheets -->" | safeHTML }}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.44/theme-default.min.css" />
-  <link href="{{ "css/e-commerce.css" | absURL }}" rel="stylesheet">
+  <link href="{{ "css/styles.min.css" | absURL }}" rel="stylesheet">
 
   {{ range .Site.Params.params.custom_css }}
     <link rel="stylesheet" href="{{ . | absURL }}">
