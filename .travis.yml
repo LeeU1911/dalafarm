@@ -6,8 +6,9 @@ before_install:
   - chmod +x s3_preview_push.sh
 install:
   - sudo pip install Pygments
-  - npm install -g gulp
   - go get github.com/spf13/hugo
+before_script:
+  - npm install gulp
 script:
   - hugo version
   - gulp
