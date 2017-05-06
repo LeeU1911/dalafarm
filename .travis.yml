@@ -3,7 +3,7 @@ go:
   - 1.7.1
 sudo: required
 before_install:
-  - chmod +x s3_preview_push.sh
+  - chmod +x s3_prod_push.sh
 install:
   - sudo pip install Pygments
   - go get github.com/spf13/hugo
