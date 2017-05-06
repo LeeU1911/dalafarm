@@ -67,9 +67,9 @@ weight = 5
 
 [Languages.vi.params]
 name = "DalaFarm"
-description = """DalaFarm cung cấp các sản phẩm bột dâu tây, cần tây, củ dền, cà rốt, diếp cá, cả bó xôi, cà chua, rau má,
-                 hạt sen cho bé ăn dặm. Ngoài ra, DalaFarm còn cung cấp bột rau củ hỗn hợp để pha thức uống giải độc detox
-                 cùng với dầu tỏi, tỏi đen và các sản phẩm từ tỏi."""
+description = """DalaFarm cung cấp các sản phẩm bột rau củ, bao gồm: dâu tây, cần tây, củ dền, cà rốt, diếp cá, cả bó xôi, cà chua, rau má,
+                 hạt sen. DalaFarm còn cung cấp bột rau củ hỗn hợp để pha thức uống giải độc detox
+                 và dầu tỏi."""
 
 # Link custom assets relative to /static
 custom_css = []
