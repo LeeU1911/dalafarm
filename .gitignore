@@ -4,6 +4,5 @@ s3cfg-dev
 s3cfg-prod
 secrets.tar
 /node_modules/
-/themes/e-commerce/static/js/scripts.min.js
-/themes/e-commerce/static/js/scripts-other-page.min.js
-/themes/e-commerce/static/css/styles.min.css
+/themes/e-commerce/static/css/
+/themes/e-commerce/static/js/
