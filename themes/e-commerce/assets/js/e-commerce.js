@@ -41,7 +41,7 @@ $('body').scrollspy({
 })
 
 // Closes the Responsive Menu on Menu Item Click
-//move to e-commerce-other-page.js to be easily included in other page
+//move to e-commerce-all-pages.js to be easily included in other page
 
 // Async contact form
 $('form[id=contactForm]').submit(function(){
@@ -64,4 +64,4 @@ $.validate({
 });
 
 //make height of product tile as the tallest one
-//move to e-commerce-other-page.js to be easily included in other page
+//move to e-commerce-all-pages.js to be easily included in other page
