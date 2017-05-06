@@ -6,9 +6,11 @@ before_install:
   - chmod +x s3_preview_push.sh
 install:
   - sudo pip install Pygments
+  - npm install -g gulp
   - go get github.com/spf13/hugo
 script:
   - hugo version
+  - gulp
   - hugo
   - ls public
 before_deploy: pip install --user s3cmd
