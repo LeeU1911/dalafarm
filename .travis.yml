@@ -3,7 +3,7 @@ go:
   - 1.7.1
 sudo: required
 before_install:
-  - chmod +x s3_prod_push.sh
+  - chmod +x s3_preview_push.sh
 install:
   - sudo pip install Pygments
   - go get github.com/spf13/hugo
@@ -13,23 +13,8 @@ script:
   - ls public
 before_deploy: pip install --user s3cmd
 deploy:
-#  provider: s3
-#  access_key_id: $AWS_ACCESS_KEY
-#  secret_access_key: $AWS_SECRET_KEY
-#  bucket: dalafarm.com.vn
-#  region: ap-southeast-1
-#  endpoint: dalafarm.com.vn.s3-website-ap-southeast-1.amazonaws.com/
-#  local-dir: public
-#  skip_cleanup: true
-#  on:
-#    repo: LeeU1911/dalafarm
   provider: script
   skip_cleanup: true
-  script: ./s3_prod_push.sh
+  script: ./s3_preview_push.sh
   on:
-    branch: master
-#after_deploy:
-  # Allow `awscli` to make requests to CloudFront.
-  #- aws configure set preview.cloudfront true
-  # Invalidate every object in the targeted distribution.
-  #- aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+    branch: preview
