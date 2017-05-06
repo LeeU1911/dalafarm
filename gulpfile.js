@@ -4,13 +4,16 @@ var uglify = require('gulp-uglify');
 var gulp = require('gulp');
 var less = require('gulp-less');
 var cssMin = require('gulp-minify-css');
+var imagemin = require('gulp-imagemin');
 
 //script paths
 var jsFiles = 'themes/e-commerce/assets/js/**/*.js',
     jsOtherPageFile = 'themes/e-commerce/assets/js/e-commerce-all-pages.js',
     jsDest = 'themes/e-commerce/static/js',
-    cssFiles = 'themes/e-commerce/assets/less/**/*.less',
-    cssDest = 'themes/e-commerce/static/css';
+    cssFiles = 'themes/e-commerce/assets/less/e-commerce.less',
+    cssDest = 'themes/e-commerce/static/css',
+    imgFiles = 'themes/e-commerce/static/img/*',
+    imgDest = 'themes/e-commerce/static/img/';
 
 gulp.task('scripts-all', function() {
     return gulp.src(jsFiles)
@@ -38,7 +41,37 @@ gulp.task('less-min', function() {
         .pipe(gulp.dest(cssDest));
 });
 
-gulp.task('default', ['less-min','scripts-all','scripts-other-page']);
+gulp.task('less-min-smoothproducts', function() {
+    gulp.src('themes/e-commerce/assets/less/smoothproducts.less')
+        .pipe(less())
+        .pipe(rename('smoothproducts.min.css'))
+        .pipe(cssMin({keepBreaks: false}))
+        .pipe(gulp.dest('themes/e-commerce/static/css/'));
+});
+
+gulp.task('theme-images', function() {
+    gulp.src(imgFiles)
+        .pipe(imagemin({
+            interlaced: true,
+            progressive: true,
+            optimizationLevel: 5
+        }))
+        .pipe(gulp.dest(imgDest));
+    }
+);
+
+gulp.task('images', function() {
+    gulp.src('static/img/**/*')
+        .pipe(imagemin({
+            interlaced: true,
+            progressive: true,
+            optimizationLevel: 5
+        }))
+        .pipe(gulp.dest('static/img'));
+    }
+);
+
+gulp.task('default', ['less-min','less-min-smoothproducts','scripts-all','scripts-other-page','images','theme-images']);
 gulp.task('watch', function(){
     gulp.watch(jsFiles, ['scripts-all']);
     gulp.watch(cssFiles, ['less-min']);
