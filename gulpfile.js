@@ -31,7 +31,7 @@ gulp.task('scripts-other-page', function() {
 });
 
 // compiles less files and outputs them to css
-gulp.task('css', function() {
+gulp.task('less-min', function() {
     gulp.src(cssFiles)
         .pipe(less())
         .pipe(concat('styles.css'))
@@ -41,4 +41,9 @@ gulp.task('css', function() {
         .pipe(gulp.dest(cssDest));
 });
 
-gulp.task('default', ['css','scripts-all','scripts-other-page']);
+gulp.task('default', ['less-min','scripts-all','scripts-other-page']);
+gulp.task('watch', function(){
+    gulp.watch(jsFiles, ['scripts-all']);
+    gulp.watch(cssFiles, ['less-min']);
+    gulp.watch(jsOtherPageFile, ['scripts-other-page']);
+});
