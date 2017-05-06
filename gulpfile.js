@@ -15,7 +15,6 @@ var jsFiles = 'themes/e-commerce/assets/js/**/*.js',
 gulp.task('scripts-all', function() {
     return gulp.src(jsFiles)
         .pipe(concat('scripts.js'))
-        .pipe(gulp.dest(jsDest))
         .pipe(rename('scripts.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest(jsDest));
@@ -24,7 +23,6 @@ gulp.task('scripts-all', function() {
 gulp.task('scripts-other-page', function() {
     return gulp.src(jsOtherPageFile)
         .pipe(concat('scripts-other-page.js'))
-        .pipe(gulp.dest(jsDest))
         .pipe(rename('scripts-other-page.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest(jsDest));
@@ -35,7 +33,6 @@ gulp.task('less-min', function() {
     gulp.src(cssFiles)
         .pipe(less())
         .pipe(concat('styles.css'))
-        .pipe(gulp.dest(cssDest))
         .pipe(rename('styles.min.css'))
         .pipe(cssMin({keepBreaks: false}))
         .pipe(gulp.dest(cssDest));
