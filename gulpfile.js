@@ -71,7 +71,8 @@ gulp.task('images', function() {
     }
 );
 
-gulp.task('default', ['less-min','less-min-smoothproducts','scripts-all','scripts-other-page','images','theme-images']);
+gulp.task('default', ['less-min','less-min-smoothproducts','scripts-all','scripts-other-page']);
+gulp.task('image-opt', ['images', 'theme-images']);
 gulp.task('watch', function(){
     gulp.watch(jsFiles, ['scripts-all']);
     gulp.watch(cssFiles, ['less-min']);

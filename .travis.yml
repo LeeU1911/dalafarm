@@ -1,20 +1,14 @@
 language: go
 go:
   - 1.7.1
-env:
- - TRAVIS_NODE_VERSION="6"
 sudo: required
 before_install:
   - chmod +x s3_preview_push.sh
 install:
   - sudo pip install Pygments
   - go get github.com/spf13/hugo
-before_script:
-  - npm install gulp gulp-concat gulp-less gulp-minify-css gulp-rename gulp-uglify gulp-watch gulp-imagemin
-  - nvm use 6
+  - npm install gulp gulp-concat gulp-less gulp-minify-css gulp-rename gulp-uglify gulp-watch
 script:
-  - node -v
-  - npm -v
   - hugo version
   - gulp
   - hugo
