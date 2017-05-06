@@ -7,7 +7,7 @@ before_install:
 install:
   - sudo pip install Pygments
   - go get github.com/spf13/hugo
-  - npm install gulp gulp-concat gulp-less gulp-minify-css gulp-rename gulp-uglify gulp-watch
+  - npm install gulp gulp-concat gulp-less gulp-minify-css gulp-rename gulp-uglify gulp-watch gulp-imagemin
 script:
   - hugo version
   - gulp
