@@ -1,7 +1,7 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
 description = "Moringa powder zip 50 gram"
-price = "3.5"
+discounted_price = "3.5"
 img = ["moringa-1.jpg","moringa-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Moringa"]

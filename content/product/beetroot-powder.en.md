@@ -1,7 +1,7 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
 description = "Beetroot powder zip 50 gram"
-price = "4.5"
+discounted_price = "4.5"
 img = ["beetroot-1.jpg","beetroot-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","beetroot"]

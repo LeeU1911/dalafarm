@@ -1,7 +1,7 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
 description = "Bột Cà rốt đóng gói zip 50 gram"
-price = "95,000"
+discounted_price = "95,000"
 img = ["carrot-1.jpg","carrot-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","carrot"]

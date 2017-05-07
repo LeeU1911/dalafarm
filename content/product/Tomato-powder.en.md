@@ -1,7 +1,7 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
 description = "Tomato powder zip 50 gram"
-price = "5.5"
+discounted_price = "5.5"
 img = ["tomato-1.jpg","tomato-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Tomato"]

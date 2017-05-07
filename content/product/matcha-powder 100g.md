@@ -1,7 +1,7 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
 description = "Bột Trà xanh đóng gói zip 100 gram"
-price = "175,000"
+discounted_price = "175,000"
 img = ["matcha-100g-1.jpg","matcha-100g-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Matcha"]

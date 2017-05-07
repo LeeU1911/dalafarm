@@ -1,7 +1,7 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
 description = "Heartleaf powder zip 50 gram"
-price = "5"
+discounted_price = "5"
 img = ["heartleaf-50g-1.jpg","heartleaf-50g-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Heartleaf"]

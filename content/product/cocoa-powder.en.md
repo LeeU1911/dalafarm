@@ -1,7 +1,7 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
 description = "Cocoa powder zip 50 gram"
-price = "2"
+discounted_price = "2"
 img = ["cocoa-1.jpg","cocoa-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Cocoa"]
