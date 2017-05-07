@@ -1,6 +1,7 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
 description = "Bột Bí đỏ đóng gói zip 50 gram"
+price = "87,500"
 discounted_price = "70,000"
 discounted_percent = "-20%"
 img = ["pumpkin-1.jpg","pumpkin-2.jpg"]

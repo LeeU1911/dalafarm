@@ -1,6 +1,7 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
 description = "Bột Cà rốt đóng gói zip 50 gram"
+price = "119,000"
 discounted_price = "95,000"
 discounted_percent = "-20%"
 img = ["carrot-1.jpg","carrot-2.jpg"]

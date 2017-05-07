@@ -1,8 +1,9 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
 description = "Bột Rau diếp cá đóng gói zip 50 gram"
+price = "109,000"
 discounted_price = "85,000"
-discounted_percent = "-20%"
+discounted_percent = "-23%"
 img = ["heartleaf-50g-1.jpg","heartleaf-50g-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","heartleaf-powder"]

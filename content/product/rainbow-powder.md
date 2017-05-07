@@ -4,8 +4,7 @@ description = """Bột rau củ Rainbow powder được chọn lọc và chế b
 từ nguyên liệu tươi ngon theo tiêu chuẩn hữu cơ và được sản xuất bằng 
 công nghệ sấy cao cấp và được chứng nhận VSATTP VN
 """
-discounted_price = "165,000"
-discounted_percent = "-20%"
+price = "165,000"
 img = ["rainbow-powder.jpg"]
 product_line = ""
 tags = ["veggie-powder","rainbow-powder"]
