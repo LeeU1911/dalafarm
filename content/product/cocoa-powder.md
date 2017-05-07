@@ -1,5 +1,6 @@
 +++
-date = "2017-04-17T23:12:45+08:00"
+date = "2017-05-07T14:31:45+08:00"
+publishdate = "2017-04-17T23:12:45+08:00"
 description = "Bột Cacao đóng gói zip 50 gram"
 price = "50,000"
 discounted_price = "40,000"
@@ -14,9 +15,9 @@ aliases = ["/san-pham/bột-ca-cao-50g"]
 weight = 1
 +++
 
-# Bột cacao
-
-Bột cacao DalaFarm được chọn lọc và chế biến từ những hạt cacao  đã lên men, 
+# Bột cacao DalaFarm 
+                       
+Được chọn lọc và chế biến từ những hạt cacao  đã lên men, 
 không hóa chất tại Lâm Đồng. Bột được rang, tách vỏ,  nghiền, ép tách bơ và đánh tơi 
 tạo thành bột cacao nguyên chất đạt chứng nhận VSATTP Việt Nam.
 

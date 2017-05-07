@@ -1,5 +1,6 @@
 +++
-date = "2017-04-17T23:12:45+08:00"
+date = "2017-05-07T14:31:45+08:00"
+publishdate = "2017-04-17T23:12:45+08:00"
 description = "Bột Bí đỏ đóng gói zip 50 gram"
 price = "87,500"
 discounted_price = "70,000"
@@ -14,8 +15,9 @@ aliases = ["/san-pham/bột-bí-đỏ-50g"]
 weight = 1
 +++
 
-# Bột Bí đỏ 
-Bột Bí đỏ DalaFarm được chọn lọc và chế biến từ những nguyên liệu 
+# Bột Bí đỏ DalaFarm 
+                       
+Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
 sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp chứng nhận 
 VSATTP Việt Nam.

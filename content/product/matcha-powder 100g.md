@@ -1,5 +1,6 @@
 +++
-date = "2017-04-17T23:12:45+08:00"
+date = "2017-05-07T14:31:45+08:00"
+publishdate = "2017-04-17T23:12:45+08:00"
 description = "Bột Trà xanh đóng gói zip 100 gram"
 price = "219,000"
 discounted_price = "175,000"
@@ -14,9 +15,9 @@ aliases = ["/san-pham/bột-trà-xanh-100g"]
 weight = 1
 +++
 
-# Bột Trà Xanh
-
-Bột Trà Xanh DalaFarm được chọn lọc và chế biến từ những nguyên liệu 
+# Bột Trà Xanh DalaFarm 
+                          
+Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
 sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp chứng nhận 
 VSATTP Việt Nam.

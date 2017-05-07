@@ -15,9 +15,9 @@ aliases = ["/san-pham/bột-cà-chua-50g"]
 weight = 1
 +++
 
-# Bột Cà chua
+# Bột Cà chua DalaFarm 
 
-Bột Cà chua DalaFarm được chọn lọc và chế biến từ những nguyên liệu 
+Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
 sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp chứng nhận 
 VSATTP Việt Nam.
