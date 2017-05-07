@@ -10,6 +10,7 @@ tags = ["veggie-powder","cocoa"]
 thumbnail = "cocoa-1.jpg"
 title = "Bột cacao (50g)"
 url = "/san-pham/bot-ca-cao-50g"
+aliases = ["/san-pham/bột-ca-cao-50g"]
 weight = 1
 +++
 

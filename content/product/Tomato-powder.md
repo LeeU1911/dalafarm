@@ -1,5 +1,6 @@
 +++
-date = "2017-04-17T23:12:45+08:00"
+date = "2017-05-07T14:31:45+08:00"
+publishdate = "2017-04-17T23:12:45+08:00"
 description = "Bột Cà chua đóng gói zip 50 gram"
 price = "119,000"
 discounted_price = "95,000"
@@ -10,6 +11,7 @@ tags = ["veggie-powder","tomato"]
 thumbnail = "tomato-1.jpg"
 title = "Bột Cà chua (50g)"
 url = "/san-pham/bot-ca-chua-50g"
+aliases = ["/san-pham/bột-cà-chua-50g"]
 weight = 1
 +++
 

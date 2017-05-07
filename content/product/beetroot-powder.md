@@ -10,6 +10,7 @@ tags = ["veggie-powder","beetroot"]
 thumbnail = "beetroot-1.jpg"
 title = "Bột củ dền (50g)"
 url = "/san-pham/bot-cu-den-50g"
+aliases = ["/san-pham/bột-củ-dền-50g"]
 weight = 1
 +++
 

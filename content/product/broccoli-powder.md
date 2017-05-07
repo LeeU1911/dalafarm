@@ -10,6 +10,7 @@ tags = ["veggie-powder","broccoli"]
 thumbnail = "broccoli-1.jpg"
 title = "Bột súp lơ xanh (50g)"
 url = "/san-pham/bot-sup-lo-xanh-50g"
+aliases = ["/san-pham/bột-súp-lơ-xanh-50g"]
 weight = 1
 +++
 

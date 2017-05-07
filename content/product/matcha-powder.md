@@ -10,6 +10,7 @@ tags = ["veggie-powder","Matcha"]
 thumbnail = "matcha-50g-1.jpg"
 title = "Bột Trà Xanh (50g)"
 url = "/san-pham/bot-tra-xanh-50g"
+aliases = ["/san-pham/bột-trà-xanh-50g"]
 weight = 1
 +++
 

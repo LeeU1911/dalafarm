@@ -10,6 +10,7 @@ tags = ["veggie-powder","pennywort-powder"]
 thumbnail = "pennywort-50g-1.jpg"
 title = "Bột Rau má (50g)"
 url = "/san-pham/bot-rau-ma-50g"
+aliases = ["/san-pham/bột-rau-má-50g"]
 weight = 1
 +++
 
