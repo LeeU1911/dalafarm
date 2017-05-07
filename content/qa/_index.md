@@ -30,3 +30,16 @@ Nước sau khi pha có thể dùng liền hoặc để tủ lạnh trong 5 - 10
 
 Bột rau củ DalaFarm lấy tiêu chí giữ nguyên độ lợn cợn của rau củ để bổ sung thêm lượng chất xơ không hoà tan cho người sử dụng, 
 tương tự như việc bạn ăn rau củ tươi để có chất xơ giúp tiêu hóa tốt và đào thải những chất xấu trong đường ruột ra khỏi cơ thể.
+
+# Công dụng của bột rau củ DalaFarm là gì? 
+Bột rau củ DalaFarm nguồn gốc 100% rau củ tự nhiên, nên công dụng của từng loại bột sẽ chính là công dụng của loại rau củ đó. Ví dụ:  
+
+* Bột rau má sẽ giữ nguyên công dụng của cây rau má như hạt sốt, giảm căng thẳng, giảm cholesterol, v.v...
+ 
+* Bột diếp cá giúp chống lão hóa, điều trị bệnh trĩ, hỗ trợ miễn dịch giống y như việc dùng rau diếp cá tươi nhưng sử dụng tiện lợi hơn vì DalaFarm đã chế biến và sấy rau diếp cá tươi ra thành bột.
+ 
+Để biết thêm các công dụng cụ thể của từng loại bột có thể được tham khảo thêm trong từng sản phẩm trên website của DalaFarm: https://dalafarm.com.vn/san-pham hoặc DalaFarm blog: https://dalafarm.com.vn/blog 
+
+# Bột rau củ DalaFarm dùng để uống hay đắp mặt? 
+Cả hai đều được. Ngoài công dụng để làm thức uống hàng ngày, bột dinh dưỡng cho em bé, làm nguyên liệu nấu súp, cháo, làm bánh, bột rau củ DalaFarm còn có thể được dùng để làm đẹp như đắp mặt, son môi (với bột củ dền) và nhiều công dụng khác. 
+Bạn có thể tham khảo blog của DalaFarm tại đây để đọc thêm các bài viết về công dụng các loại bột nhé: https://dalafarm.com.vn/blog/ 
