@@ -33,7 +33,7 @@ sức sống và bề mặt da săn chắc hơn.
 ### Hướng dẫn sử dụng:  
 Dùng làm thức uống hàng ngày, 
 bột dinh dưỡng cho em bé, làm 
-nguyên liệu nấu soup, cháo, làm 
+nguyên liệu nấu súp, cháo, làm 
 bánh, làm đẹp (đắp mặt)…
 
 ### Bảo quản: 
