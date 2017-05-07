@@ -21,7 +21,7 @@ Ngoài những lợi ích cho sức khỏe, bà bầu uống nước rau má cò
 **Uống nhiều nước rau má gây hại như thế nào đến sức khỏe bà bầu và thai nhi**
 
 Không ít lời đồn cho rằng bà bầu uống nước rau má trong 3 tháng đầu mang thai rất dễ bị sảy thai. Tuy nhiên, thông tin này chỉ mang tính chất tương đối. Với những mẹ bầu có cơ địa yếu, uống nước rau má quá nhiều rõ ràng không tốt. Rau má có tính hàn, rất dễ gây lạnh bụng. Do đó, khi uống nhiều sẽ dẫn đến tình trạng tiêu chảy. Hơn nữa, với cách xay rau má uống sống, nguy cơ rối loạn tiêu hóa, ngộ độc vì vệ sinh an toàn thực phẩm là rất cao. Vì vậy, không có gì sai khi nhiều người cho rằng bà bầu uống nước rau má có thể bị sảy thai.
-{{< img src="/img/blog/loi-ich-cua-bang-bot-rau-ma(2).jpg" title="Nước rau má?" >}}
+{{< img src="/img/blog/loi-ich-cua-bang-bot-rau-ma(2).jpg" title="Nước rau má" >}}
 
 Nếu đã từng có tiền sử sảy thai, động thai, sức khỏe yếu, hệ tiêu hóa không ổn định, mẹ bầu không nên uống nước rau má, trừ khi được bác sĩ cho phép.
 Bất cứ thực phẩm nào cũng vậy, không riêng gì rau má, đều không nên lạm dụng nhiều. Dù bạn không phải một trong đối tượng trên, cũng nên uống một lượng nước rau má vừa đủ và hợp lý. Nước rau má uống nhiều có thể làm tăng lượng cholesterol và lượng đường trong máu, gây ra chứng tiểu đường thai kỳ.

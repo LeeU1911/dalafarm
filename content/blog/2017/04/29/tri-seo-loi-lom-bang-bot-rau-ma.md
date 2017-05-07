@@ -18,7 +18,7 @@ Ngoài ra trong rau má còn có chứa nhiều triterpenoids giúp tăng cườ
 Công thức trị sẹo lõm bằng rau má rất đơn giản: 
 Sau khi bạn mua rau má về, ngâm trong nước muối loãng trong vòng 15 phút. Rửa sạch, giã nát hoặc xay nát, lọc lấy nước. Cho thêm một ít đường vào cho dễ uống. 
 
-Sau đó bạn có thể lấy bã rau má dùng đắp mặt hoặc rửa mặt bằng nước rau má tươi. Với công thức trên bạn cần lưu ý là những hoạt chất nằm trong chất xơ của ray má, nếu chúng ta chỉ giã và vắt lấy nước thì sẽ mất đi các hoạt chất này, ngoài ra việc uống nước rau má xay cũng giúp làm mát cơ thể, tránh được mụn nhọt, mát gan và tiêu độc.
+Sau đó bạn có thể lấy bã rau má dùng đắp mặt hoặc rửa mặt bằng nước rau má tươi. Với công thức trên bạn cần lưu ý là những hoạt chất nằm trong chất xơ của rau má, nếu chúng ta chỉ giã và vắt lấy nước thì sẽ mất đi các hoạt chất này, ngoài ra việc uống nước rau má xay cũng giúp làm mát cơ thể, tránh được mụn nhọt, mát gan và tiêu độc.
 {{< img src="/img/blog/tri-seo-loi-lom-bang-bot-rau-ma(1).jpg" title="Trị sẹo lõm bằng rau má" >}}
 
 **Công thức trị sẹo lồi bằng rau má**: Công thức chế thuốc trị sẹo lồi từ rau má và mật ong khá đơn giản, nhanh chóng, tiết kiệm chi phí và thời gian. 
