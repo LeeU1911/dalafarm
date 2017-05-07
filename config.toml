@@ -236,6 +236,8 @@ info = """### DalaFarm
 
 <i class="fa fa-envelope"></i> [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
 
+<i class="fa fa-envelope"></i> [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn)
+
 <i class="fa fa-calendar"></i> Thứ 2 - thứ 7 <i class="fa fa-clock-o"></i> 8:00 - 17:00
 """
 
@@ -479,6 +481,8 @@ info = """### DalaFarm
 <i class="fa fa-phone"></i> [0906 951 498](tel:0906 951 498) or <i class="fa fa-phone"></i> [0918 241 066](tel:0918 241 066)
 
 <i class="fa fa-envelope"></i> [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
+
+<i class="fa fa-envelope"></i> [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn)
 
 <i class="fa fa-calendar"></i> Monday - Saturday <i class="fa fa-clock-o"></i> 8:00 - 17:00
 """
