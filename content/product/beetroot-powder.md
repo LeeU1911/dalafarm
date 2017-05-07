@@ -1,6 +1,7 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
 description = "Bột củ dền đóng gói zip 50 gram"
+price = "80,000"
 img = ["beetroot-1.jpg","beetroot-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","beetroot"]
