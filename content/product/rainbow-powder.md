@@ -5,6 +5,7 @@ từ nguyên liệu tươi ngon theo tiêu chuẩn hữu cơ và được sản 
 công nghệ sấy cao cấp và được chứng nhận VSATTP VN
 """
 discounted_price = "165,000"
+discounted_percent = "-20%"
 img = ["rainbow-powder.jpg"]
 product_line = ""
 tags = ["veggie-powder","rainbow-powder"]

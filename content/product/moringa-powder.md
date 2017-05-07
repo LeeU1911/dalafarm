@@ -2,6 +2,7 @@
 date = "2017-04-17T23:12:45+08:00"
 description = "Bột Chùm ngây đóng gói zip 50 gram"
 discounted_price = "65,000"
+discounted_percent = "-20%"
 img = ["moringa-1.jpg","moringa-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","moringa"]

@@ -2,6 +2,7 @@
 date = "2017-04-17T23:12:45+08:00"
 description = "Pumpkin powder zip 50 gram"
 discounted_price = "4"
+discounted_percent = "-20%"
 img = ["pumpkin-1.jpg","pumpkin-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Pumpkin"]

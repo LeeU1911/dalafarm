@@ -2,6 +2,7 @@
 date = "2017-04-17T23:12:45+08:00"
 description = "broccoli powder zip 50 gram"
 discounted_price = "5.5"
+discounted_percent = "-20%"
 img = ["broccoli-1.jpg","broccoli-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","broccoli"]

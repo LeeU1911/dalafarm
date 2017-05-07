@@ -2,6 +2,7 @@
 date = "2017-04-17T23:12:45+08:00"
 description = "Bột Cà chua đóng gói zip 50 gram"
 discounted_price = "95,000"
+discounted_percent = "-20%"
 img = ["tomato-1.jpg","tomato-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","tomato"]
