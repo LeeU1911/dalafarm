@@ -12,7 +12,8 @@
                 <h2 class="section-heading">{{ .Title }}</h2>
             </div>
         </div>
-        {{ "Trang không tìm thấy. Vui lòng quay lại trang chủ https://dalafarm.com.vn" | markdownify }}
+        {{ partial "toc.html" . }}
+        {{ .Content }}
 
     </div>
 </section>
