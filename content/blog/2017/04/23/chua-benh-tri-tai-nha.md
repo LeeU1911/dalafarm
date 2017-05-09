@@ -50,11 +50,11 @@ Bất kỳ loại bệnh nào cũng vậy, luôn có nhiều cách chữa khác 
 
 1 - **Một số cách chữa bệnh trĩ tại nhà hiệu quả nhất đã được kiểm chứng:** 
 
-a. Cách trị bệnh trĩ tại nhà với rau Diếp Cá: 
+a. Cách trị bệnh trĩ tại nhà với rau diếp cá: 
 
-* Rau Diếp Cá có tính mát, mùi tanh, vị cay chua, có công dụng làm cho cơ thể thanh nhiệt, giải độc. 
-* Đối với rau Diếp Cá, người bệnh có thể cho vào thực đơn hàng ngày như một loại rau sống, hoặc có thể xay nhuyễn, giã nát ra lấy nước uống còn bã thì được dùng để đắp lên các búi trĩ giúp giảm đau rát khá tốt. 
-* Ngoài ra, sử dụng rau Diếp Cá cho vào nước đun sôi làm nước xông hơi, ngâm và rửa hậu môn cũng rất tốt. 
+* **Rau diếp cá** có tính mát, mùi tanh, vị cay chua, có công dụng làm cho cơ thể thanh nhiệt, giải độc. 
+* Đối với **rau diếp cá**, người bệnh có thể cho vào thực đơn hàng ngày như một loại rau sống, hoặc có thể xay nhuyễn, giã nát ra lấy nước uống còn bã thì được dùng để đắp lên các búi trĩ giúp giảm đau rát khá tốt. 
+* Ngoài ra, sử dụng **rau diếp cá** cho vào nước đun sôi làm nước xông hơi, ngâm và rửa hậu môn cũng rất tốt. 
 
 {{< img src="/img/blog/chua-benh-tri-tai-nha (1).png" title="Chữa bệnh trĩ với rau diếp cá và thảo dược" >}}
  
