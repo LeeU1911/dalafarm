@@ -21,3 +21,5 @@ s3cmd -c s3cfg-prod sync -M -F \
     --exclude-from "$EXCLUDES" \
     --add-header="Cache-Control:max-age=21600" \
     "$SOURCE" "$BKT"
+
+curl https://www.google.com/webmasters/sitemaps/ping?sitemap=https://dalafarm.com.vn/sitemap.xml
