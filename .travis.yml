@@ -25,5 +25,7 @@ deploy:
 after_deploy:
   # Allow `awscli` to make requests to CloudFront.
   - aws configure set preview.cloudfront true
+  - aws configure set access_key $AWS_ACCESS_KEY
+  - aws configure set secret_key $AWS_SECRET_KEY
   # Invalidate every object in the targeted distribution.
   - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
