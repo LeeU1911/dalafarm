@@ -21,6 +21,16 @@ DalaFarm khuyến khích khách hàng thanh toán qua hình thức chuyển kho�
 
 Tuy nhiên, DalaFarm vẫn nhận những hình thức thanh toán khác mà khách hàng chọn như trả tiền mặt lúc nhận hàng.
 
+Quý khách vui lòng chuyển khoản vào tài khoản công ty DalaFarm:
+
+- Ngân hàng: **Vietcombank**
+- Chi nhánh: **Nha Trang**
+- Số tài khoản: **0061001093187**
+- Tên người thụ hưởng: **Lê Thị Thu Hà**
+
+Sau khi chuyển khoản, quý khách vui lòng nhắn tin facebook messenger cho DalaFarm để xác nhận nhằm trường hợp chuyển khoản khác ngân hàng không đến liền.
+
+
 # Cách sử dụng bột rau củ DalaFarm như thế nào?
 Pha trực tiếp từ 1 đến 2 muỗng cà phê bột (tương đương 3 đến 5 gram bột) vào 300ml nước lọc ấm (không cần nước sôi), 
 sau đó đánh hoà tan đều lên là có thể dùng được.
