@@ -37,8 +37,8 @@ Ngoài ra rau xanh còn giúp bạn điều trị và phòng chống ung thư hi
 Vậy còn chần chờ gì nữa và không tự thưởng cho mình 1 hộp **bột rau củ Rainbow** ngay và luôn nào các bạn.
 
 ### Bảo quản:
-​Nên bảo quản bột củ dền ở điều kiện nhiệt độ phòng, thoáng mát, tránh ánh sáng trực tiếp.
+​Nên bảo quản bột ở điều kiện nhiệt độ phòng, thoáng mát, tránh ánh sáng trực tiếp.
 
 ### Hạn sử dụng:
-Hạn sử dụng của bột củ dền trong điều kiện tốt nhất là 1 năm kể từ ngày sản xuất.
+Hạn sử dụng của bột trong điều kiện tốt nhất là 1 năm kể từ ngày sản xuất.
 
