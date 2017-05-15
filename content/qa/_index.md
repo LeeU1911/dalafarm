@@ -31,6 +31,25 @@ Quý khách vui lòng chuyển khoản vào tài khoản công ty DalaFarm:
 Sau khi chuyển khoản, quý khách vui lòng nhắn tin facebook messenger cho DalaFarm để xác nhận nhằm trường hợp chuyển khoản khác ngân hàng không đến liền.
 
 
+# Làm sao để trở thành đại lý kinh doanh phân phối sản phẩm DalaFarm 
+
+Các anh chị muốn đăng ký làm đại lý phân phối sản phẩm DalaFarm, vui lòng liên hệ qua email [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn) với nội dung sau:   
+- Kinh nghiệm bán hàng ONLINE/OFFLINE của bạn 
+- Link Facebook cá nhân của bạn (Link Fanpage nếu có) 
+- Bạn đã sử dụng bột rau củ DalaFarm chưa? 
+- Vì sao bạn chọn bột rau củ DalaFarm để phân phối? 
+- Mong muốn của bạn khi làm đại lý cho bột rau củ DalaFarm? 
+- Họ Tên & số điện thoại (để chúng tôi tiện liên hệ lại) 
+Hotline DalaFarm: [0906951498](tel:0906951498) / [0918241066](tel:0918241066)
+
+Chúng tôi sẽ gửi các chính sách mức chiết khấu đại lý và liên hệ lại với anh chị trong thời gian ngắn. 
+
+Rất hân hạnh được hợp tác cùng các anh chị. 
+ 
+# Mua bột rau củ DalaFarm ở đâu?
+Tại Hồ Chí Minh, bạn có thể ghé thăm 13 Chu Mạnh Trinh, p. bến nghé, Quân 1 để mua sản phẩm của DalaFarm.
+goài ra, DalaFarm giao tận nơi cho mọi đơn hàng trên toàn quốc. Vui lòng liên hệ fanpage [DalaFarm](https://m.me/dalafarm.com.vn) để đặt hàng hoặc biết thêm chi tiết nhé.
+  
 # Cách sử dụng bột rau củ DalaFarm như thế nào?
 Pha trực tiếp từ 1 đến 2 muỗng cà phê bột (tương đương 3 đến 5 gram bột) vào 300ml nước lọc ấm (không cần nước sôi), 
 sau đó đánh hoà tan đều lên là có thể dùng được.
@@ -58,4 +77,57 @@ Bạn có thể tham khảo blog của DalaFarm tại đây để đọc thêm c
 # DalaFarm có thể tư vấn cho mình về công dụng từng loại bột được không? 
 Về dinh dưỡng rau củ mỗi loại sẽ có những vitamin giống và khác nhau, đều giúp cơ thể chúng ta tăng sức đề kháng khoẻ mạnh.  Vì vậy, bạn có thể tham khảo trên web của DalaFarm để biết thêm công dụng cụ thể của từng loại bột nhé. Về đẹp da chị có thể chọn nhưng loại có nhiều vitamin A, C, E như : cà chua, diếp cá, củ dền, súp lơ.  
 
-Để biết thêm các công dụng cụ thể của từng loại bột có thể được tham khảo thêm trong từng sản phẩm trên website của DalaFarm: https://dalafarm.com.vn/#san-pham hoặc DalaFarm blog để xem các bài viết hữu ích: https://dalafarm.com.vn/blog 
+Để biết thêm các công dụng cụ thể của từng loại bột có thể được tham khảo thêm trong từng sản phẩm trên website của DalaFarm: https://dalafarm.com.vn/#san-pham hoặc DalaFarm blog để xem các bài viết hữu ích: https://dalafarm.com.vn/blog
+ 
+# Uống loại bột nào để tăng cân 
+
+Bạn có thể uống các loại [bí đỏ](/san-pham/bot-bi-do-50g), hạt sen, khoai lang tím sau bữa ăn để tăng cân nặng nhé.
+ 
+# Bột rau củ Dalafarm có mùi như rau củ tự nhiên không? 
+ 
+Bột rau củ DalaFarm với nguyên liệu 100% từ rau củ tự nhiên, không chất bảo quản, không chất tạo màu. DalaFarm xin cam kết 100% với khách hàng về tiêu chuẩn này.  
+
+Ngoài ra với công nghệ sấy độc quyền SEFD sẽ giữ lại hơn 90% vitamin và dinh dưỡng của rau củ tự nhiên. Nên bạn hoàn toàn có thể yên tâm không những về mùi vị sẽ giống với mùi rau củ tự nhiên mà còn giữ nguyên gia trị dinh dưỡng
+
+# Sản phẩm bột rau củ DalaFarm có dùng cho bé ăn dặm được không? 
+
+Bột rau củ DalaFarm được chế biến từ 100% rau củ tự nhiên, không có một loại chất bảo quản, và chất tạo màu nào.
+
+Ngoài ra, bột rau củ DalaFarm được sấy bởi công nghệ độc quyền SEFD, giúp giữ hơn 90% vitamin và chất dinh dưỡng nên việc sử dụng cho bé ăn dặm là rất tốt.
+
+# Ăn bao nhiêu bột rau củ 1 ngày là đủ?
+  
+Theo khuyến cáo của tổ chức WHO, chế độ rau củ quả tươi của 1 người trong 1 ngày là khoảng 400 - 500 gram.
+
+Mỗi 3 - 5gram bột rau củ DalaFarm sẽ tương đương với 80 - 100 gram rau tươi. Nên chỉ cần sử dụng khoảng 20 - 35 gram bột rau củ DalaFarm 
+mỗi ngày là sẽ yên tâm có đủ chất xơ và vitamin cho cơ thể.
+ 
+# Công nghệ sấy của DalaFarm là gì?
+
+DalaFarm định hướng sử dụng nguồn nguyên liệu là các loại rau củ quả thế mạnh của địa phương, 
+canh tác đa canh và hữu cơ. Các nguyên liệu được vận chuyển về xưởng sản xuất ngay sau khi thu hoạch và sấy theo 
+công nghệ độc quyền SEFD, với công nghệ này, sản phẩm được làm đông, sấy ở điều kiện chân không và nhiệt độ cực thấp, 
+đảm bảo giữ nguyên được màu sắc và mùi vị của sản phẩm sau khi sấy. 
+
+# Bột rau củ DalaFarm có dùng để đắp mặt nạ được không? 
+
+Bột rau củ DalaFarm cực kỳ tốt khi sử dụng làm mặt nạ đắp mặt. 
+ 
+Bột rau củ DalaFarm với nguyên liệu hoàn toàn 100% từ rau củ tự nhiên, không chất bảo quản, và không chất tạo màu.
+
+Ngoài ra bột rau củ DalaFarm được sấy bởi công nghệ độc quyền SEFD, giúp giữ hơn 90% vitamin và chất dinh dưỡng nên 
+hoàn toàn có thể dùng làm thức uống để bổ sung dinh dưỡng và đắp mặt nạ làm đẹp. 
+  
+# Loại bột rau củ nào tốt cho người đang điều trị ung thư, trẻ nhỏ, hoặc bà bầu 
+
+Các sản phẩm bột rau củ DalaFarm hầu hết dùng được cho cả 3 đối tưong trên trừ bà bầu thì không nên 
+dùng chùm ngây, diếp cá, rau má trong 4 tháng đầu mang thai và trẻ nhỏ dưới 2 tuổi thì chỉ nên uống 2 lần nước củ dền trong 1 tuần.
+
+# Tại sao chỉ nên củ đên dùng cho trẻ 2 lần / tuần 
+Vì dền là một trong số những loại rau củ rất giàu dinh dưỡng như vitamin A, B, E, C, phốt pho, maggie, v.v... là những dưỡng chất 
+rất cần thiết cho sự phát triển của trẻ. 
+Tuy nhiên, do hàm lượng chất dinh dưỡng cao như vậy, với các bé chưa hoàn thiện hệ thiêu hóa (dưới 12 tháng tuổi) 
+thì nên ăn những lượng nhỏ mỗi ngày, hoặc 2 lần/tuần. Lượng củ dền có thể tăng dần cho các bé lớn hơn. 
+
+Bé dưới 6 tháng tuổi khi ăn phải có sự chỉ định của bác sĩ. Vì khi hệ tiêu hóa chưa hoàn thiện, 
+mà củ dền rất giàu dinh dưỡng, đặc biệt hàm lượng nitrat cao sẽ làm bé ở độ tuổi nhỏ khó hấp thu.
