@@ -49,8 +49,8 @@ Chúng tôi sẽ gửi các chính sách mức chiết khấu đại lý và li�
 Rất hân hạnh được hợp tác cùng các anh chị. 
  
 # Mua bột rau củ DalaFarm ở đâu?
-Tại Hồ Chí Minh, bạn có thể ghé thăm 13 Chu Mạnh Trinh, p. bến nghé, Quân 1 để mua sản phẩm của DalaFarm.
-goài ra, DalaFarm giao tận nơi cho mọi đơn hàng trên toàn quốc. Vui lòng liên hệ fanpage [DalaFarm](https://m.me/dalafarm.com.vn) để đặt hàng hoặc biết thêm chi tiết nhé.
+Tại Hồ Chí Minh, bạn có thể ghé thăm 13 Chu Mạnh Trinh, P. Bến Nghé, Quận 1 để mua sản phẩm của DalaFarm.
+Ngoài ra, DalaFarm giao tận nơi cho mọi đơn hàng trên toàn quốc. Vui lòng liên hệ fanpage [DalaFarm](https://m.me/dalafarm.com.vn) để đặt hàng hoặc biết thêm chi tiết nhé.
   
 # Cách sử dụng bột rau củ DalaFarm như thế nào?
 Pha trực tiếp từ 1 đến 2 muỗng cà phê bột (tương đương 3 đến 5 gram bột) vào 300ml nước lọc ấm (không cần nước sôi), 
@@ -125,8 +125,8 @@ hoàn toàn có thể dùng làm thức uống để bổ sung dinh dưỡng và
 Các sản phẩm bột rau củ DalaFarm hầu hết dùng được cho cả 3 đối tưong trên trừ bà bầu thì không nên 
 dùng chùm ngây, diếp cá, rau má trong 4 tháng đầu mang thai và trẻ nhỏ dưới 2 tuổi thì chỉ nên uống 2 lần nước củ dền trong 1 tuần.
 
-# Tại sao chỉ nên củ đên dùng cho trẻ 2 lần / tuần 
-Vì dền là một trong số những loại rau củ rất giàu dinh dưỡng như vitamin A, B, E, C, phốt pho, maggie, v.v... là những dưỡng chất 
+# Tại sao chỉ nên dùng củ dền cho trẻ 2 lần / tuần 
+Vì củ dền là một trong số những loại rau củ rất giàu dinh dưỡng như vitamin A, B, E, C, phốt pho, maggie, v.v... là những dưỡng chất 
 rất cần thiết cho sự phát triển của trẻ. 
 Tuy nhiên, do hàm lượng chất dinh dưỡng cao như vậy, với các bé chưa hoàn thiện hệ thiêu hóa (dưới 12 tháng tuổi) 
 thì nên ăn những lượng nhỏ mỗi ngày, hoặc 2 lần/tuần. Lượng củ dền có thể tăng dần cho các bé lớn hơn. 
