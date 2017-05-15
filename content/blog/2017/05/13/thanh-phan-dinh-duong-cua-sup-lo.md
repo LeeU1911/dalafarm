@@ -17,7 +17,6 @@ Các nghiên cứu đã chỉ ra rằng tiêu thụ _súp lơ_ trong thời kỳ
 
 Hơn nữa, nó cũng là một nguồn khoáng chất tốt như canxi, mangan, sắt, magiê, selen, kẽm và phốt pho.
 
-{{< img src="/img/blog/thanh-phan-dinh-duong-cua-sup-lo.jpg" title="Xem bảng dưới đây để phân tích sâu về các chất dinh dưỡng:
- (Nguồn: Cơ sở Dữ liệu Dinh dưỡng Quốc gia của USDA)" >}}
+{{< img src="/img/blog/thanh-phan-dinh-duong-cua-sup-lo.jpg" title="Bảng phân tích sâu về các chất dinh dưỡng (Nguồn: Cơ sở Dữ liệu Dinh dưỡng Quốc gia của USDA)" >}}
 
 Bạn có thể đặt mua bột súp lơ [tại đây](/san-pham/bot-sup-lo-xanh-50g/) nhé
