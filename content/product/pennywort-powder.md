@@ -2,9 +2,9 @@
 date = "2017-05-07T14:31:45+08:00"
 publishdate = "2017-04-17T23:12:45+08:00"
 description = "Bột Rau má đóng gói zip 50 gram"
-price = "75,000"
+price = "65,000"
 discounted_price = "60,000"
-discounted_percent = "-20%"
+discounted_percent = "-7%"
 img = ["pennywort-50g-1.jpg","pennywort-50g-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","pennywort-powder"]
