@@ -34,12 +34,14 @@ Sau khi chuyển khoản, quý khách vui lòng nhắn tin facebook messenger ch
 # Làm sao để trở thành đại lý kinh doanh phân phối sản phẩm DalaFarm 
 
 Các anh chị muốn đăng ký làm đại lý phân phối sản phẩm DalaFarm, vui lòng liên hệ qua email [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn) với nội dung sau:   
+
 - Kinh nghiệm bán hàng ONLINE/OFFLINE của bạn 
 - Link Facebook cá nhân của bạn (Link Fanpage nếu có) 
 - Bạn đã sử dụng bột rau củ DalaFarm chưa? 
 - Vì sao bạn chọn bột rau củ DalaFarm để phân phối? 
 - Mong muốn của bạn khi làm đại lý cho bột rau củ DalaFarm? 
 - Họ Tên & số điện thoại (để chúng tôi tiện liên hệ lại) 
+
 Hotline DalaFarm: [0906951498](tel:0906951498) / [0918241066](tel:0918241066)
 
 Chúng tôi sẽ gửi các chính sách mức chiết khấu đại lý và liên hệ lại với anh chị trong thời gian ngắn. 
@@ -99,7 +101,7 @@ Ngoài ra, bột rau củ DalaFarm được sấy bởi công nghệ độc quy�
   
 Theo khuyến cáo của tổ chức WHO, chế độ rau củ quả tươi của 1 người trong 1 ngày là khoảng 400 - 500 gram.
 
-Mỗi 3 - 5gram bột rau củ DalaFarm sẽ tương đương với 80 - 100 gram rau tươi. Nên chỉ cần sử dụng khoảng 20 - 35 gram bột rau củ DalaFarm 
+Mỗi 3 - 5 gram bột rau củ DalaFarm sẽ tương đương với 80 - 100 gram rau tươi. Nên chỉ cần sử dụng khoảng 20 - 35 gram bột rau củ DalaFarm 
 mỗi ngày là sẽ yên tâm có đủ chất xơ và vitamin cho cơ thể.
  
 # Công nghệ sấy của DalaFarm là gì?
