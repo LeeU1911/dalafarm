@@ -13,6 +13,20 @@
   {{ .Hugo.Generator }}
   <title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
   {{ "<!-- Stylesheets -->" | safeHTML }}
+  {{ if .IsPage }}
+  <meta property="og:title" content="{{ .Title }}"/>
+  <meta property="og:url" content="{{ .Permalink }}"/>
+    {{ if eq .Section "blog"}}
+      {{ $tnUrl := printf "img/blog/%s" .Params.thumbnail }}
+      <meta property="og:image" content="{{ $tnUrl | absLangURL }}"/>
+    {{ end }}
+    {{ if eq .Section "product"}}
+      {{ $tnUrl := printf "img/product/%s" .Params.thumbnail }}
+      <meta property="og:image" content="{{ $tnUrl | absLangURL }}"/>
+    {{ end }}
+
+  <meta property="og:description" content="{{ .Summary }}"/>
+  {{ end }}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
   <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.44/theme-default.min.css" />-->
   <link href="{{ "css/styles.min.css" | absURL }}" rel="stylesheet">
