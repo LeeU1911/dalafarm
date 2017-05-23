@@ -7,6 +7,7 @@ defaultContentLanguage = "vi"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-87063471-2"
 disqusShortname = "dalafarm"
+paginate = 8
 
 ##########################################
 [Languages]
@@ -19,10 +20,21 @@ weight = 0
 product = "/san-pham/:slug"
 
 [[Languages.vi.menu.main]]
-url    = "/blog"
+url    = "#"
 name   = "Blog"
 weight = 1
 identifier = "blog"
+[[Languages.vi.menu.main]]
+url    = "/blog"
+name   = "DalaFarm Blog"
+weight = 1
+parent = "blog"
+[[Languages.vi.menu.main]]
+url    = "/dala-kitchen"
+name   = "DalaFarm Kitchen"
+weight = 2
+parent = "blog"
+
 [[Languages.vi.menu.main]]
 url    = "/#san-pham"
 name   = "Sản Phẩm"
