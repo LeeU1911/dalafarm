@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+{{ partial "head.html" . }}
+
+<body id="page-top" class="index">
+{{ partial "nav-for-other-page.html" . }}
+{{ "<!-- Blog Section -->" | safeHTML }}
+<section id="{{ .Title }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ .Title }}</h2>
+                <h3></h3>
+            </div>
+        </div>
+        <div class="row">
+            {{ range $i, $e :=  .Paginator.Pages }}
+            {{ .Render "summary" }}
+            {{ if modBool ( add $i 1) 4 }}
+        </div><div class="row">
+        {{ end }}
+        {{ end }}
+    </div>
+        <span style="float:right;">{{ template "_internal/pagination.html" . }}</span>
+    </div>
+</section>
+{{ if .Site.Params.params.footer.enable }}
+{{ partial "footer.html" . }}
+{{ end }}
+
+{{ partial "js_other_page.html" . }}
+</body>
+</html>
