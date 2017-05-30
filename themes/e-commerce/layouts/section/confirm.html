@@ -54,6 +54,7 @@
             var dbRef = firebase.database().ref('bills/');
             var newPostRef = dbRef.push();
             newPostRef.set(bill);
+            sessionStorage.removeItem('order');
         }
 
         function humanize(bill) {
