@@ -30,9 +30,5 @@ Các mẹ có thể tham khảo làm theo các hình dáng bột dưới đây n
 
 {{< img src="/img/blog/Com-tron-bot-rau-cu-ngu-sac(1).jpg" title="Cơm trộn rau củ hình gấu" >}}
 
-{{< img src="/img/blog/Com-tron-bot-rau-cu-ngu-sac(2).jpg" title="Cơm trộn rau củ hình Heo con" >}}
-
-{{< img src="/img/blog/Com-tron-bot-rau-cu-ngu-sac(3).jpg" title="Cơm trộn rau củ hình thỏ con" >}}
-
 {{< img src="/img/blog/Com-tron-bot-rau-cu-ngu-sac(4).jpg" title="Cơm trộn rau củ kiểu Nhật" >}}
 
