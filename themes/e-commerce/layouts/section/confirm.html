@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+{{ partial "head.html" . }}
+
+<body id="page-top" class="index">
+{{ partial "nav-for-other-page.html" . }}
+{{ "<!-- terms and conditions Grid Section -->" | safeHTML }}
+<section id="{{ .Params.url }}" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ .Title }}</h2>
+            </div>
+        </div>
+        {{ .Content }}
+        <div id="bill" class="col-md-12"></div>
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="save"></label>
+            <div class="col-md-8">
+                <button id="save" name="save" class="btn btn-success">Hoàn tất</button>
+                <button id="cancel" name="cancel" class="btn btn-danger">Hủy bỏ</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+{{ if .Site.Params.params.footer.enable }}
+{{ partial "footer.html" . }}
+{{ end }}
+{{ partial "js_other_page.html" . }}
+<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+<script>
+    $(function () {
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyABGxfllsBj-8tfsAH7t1qqcZvxZHRP25M",
+            authDomain: "dalafarm-bill.firebaseapp.com",
+            databaseURL: "https://dalafarm-bill.firebaseio.com",
+            projectId: "dalafarm-bill",
+            storageBucket: "dalafarm-bill.appspot.com",
+            messagingSenderId: "723108104918"
+        };
+        firebase.initializeApp(config);
+
+        var bill = sessionStorage.getItem('order');
+        $('#bill').append("<span class='bill'>" + humanize(JSON.parse(bill)) + "</span>");
+        $('#save').on('click', function (e) {
+            e.preventDefault();
+            saveToDb(bill);
+            window.location = "/thank-you";
+        });
+        function saveToDb(bill) {
+            var database = firebase.database();
+            var dbRef = firebase.database().ref('bills/');
+            var newPostRef = dbRef.push();
+            newPostRef.set(bill);
+        }
+
+        function humanize(bill) {
+            var data = bill.data;
+            var meta = bill.meta;
+            var output = "<br><br>Ngày " + formatDate(new Date(meta.date)) + ", nhập bởi " + meta.userDisplayName + " (" + meta.username + ")" +
+                "<br><p>Đơn hàng của " + translate(data.prefix) + " " + data.name + ", điện thoại " + data.phone;
+            var phone2 = data.phone2?", điện thoại 2: " + data.phone2: "";
+            output += phone2;
+            var address = "<br>Địa chỉ: " + data.address + ", " + data.province;
+            output += address;
+            output += "<br>Sản phẩm: " + product(data);
+            output += "<br>Phí ship: " + shipCost(data.province);
+            output += "<br> Tổng tiền: " + calcCost(data) + "</p>";
+            return output;
+        }
+        function formatDate(date) {
+            var monthNames = [
+                "January", "February", "March",
+                "April", "May", "June", "July",
+                "August", "September", "October",
+                "November", "December"
+            ];
+
+            var day = date.getDate();
+            var monthIndex = date.getMonth();
+            var year = date.getFullYear();
+
+            return day + ' ' + monthNames[monthIndex] + ' ' + year;
+        }
+
+        function product(data) {
+            var productStr = "";
+            if (data.beetroot != "0") {
+                productStr += "<br>Bột củ dền 50g: " + data.beetroot + "gói";
+            }
+            if (data.broccoli != "0") {
+                productStr += "<br>Bột súp lơ xanh 50g: " + data.broccoli + "gói";
+            }
+            if (data.carrot != "0") {
+                productStr += "<br>Bột cà rốt 50g: " + data.carrot + "gói";
+            }
+            if (data.cocoa != "0") {
+                productStr += "<br>Bột cacao 50g: " + data.cocoa + "gói";
+            }
+            if (data.heartleaf != "0") {
+                productStr += "<br>Bột rau diếp cá 50g: " + data.heartleaf + "gói";
+            }
+            if (data.matcha != "0") {
+                productStr += "<br>Bột trà xanh 50g: " + data.matcha + "gói";
+            }
+            if (data.pennywort != "0") {
+                productStr += "<br>Bột rau má 50g: " + data.pennywort + "gói";
+            }
+            if (data.rainbow != "0") {
+                productStr += "<br>Bột rau củ Rainbow 50g: " + data.rainbow + "hộp";
+            }
+            return productStr;
+        }
+
+        function shipCost(province) {
+            return "0 VNĐ";
+        }
+        function calcCost(data) {
+            return "0 VNĐ";
+        }
+        function translate(keyword) {
+            if(keyword) {
+                switch (keyword){
+                    case "Male": return "anh";
+                    case "Female": return "chị";
+                    case "phone": return "\nĐiện thoại";
+                    case "phone2": return "\nĐiện thoại 2";
+                    case "address": return "\nĐịa chỉ";
+                    case "province": return "\nTỉnh thành";
+                    case "products": return "\n";
+                    case "carrot": return "";
+                    case "heartleaf": return "";
+                    case "pennywort": return "";
+                    case "matcha": return "";
+                    case "cocoa": return "";
+                    case "beetroot": return "";
+                    case "broccoli": return "";
+                    case "rainbow": return "";
+                    case "1": return ": 1 gói"
+                    case "2": return ": 2 gói"
+                    case "3": return ": 3 gói"
+                    case "4": return ": 4 gói"
+                    case "5": return ": 5 gói"
+                    case "6": return ": 6 gói"
+                    default: return keyword;
+                }
+
+
+            }
+        }
+    });
+</script>
+</body>
+</html>
