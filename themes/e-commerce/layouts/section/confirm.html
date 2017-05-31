@@ -17,6 +17,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="save"></label>
             <div class="col-md-8">
+                <button id="edit" name="save" class="btn btn-default">Sửa đơn hàng</button>
                 <button id="save" name="save" class="btn btn-success">Hoàn tất</button>
                 <button id="cancel" name="cancel" class="btn btn-danger">Hủy bỏ</button>
             </div>
@@ -49,6 +50,10 @@
             saveToDb(bill);
             window.location = "/thank-you";
         });
+        $('#edit').on('click', function (e) {
+            e.preventDefault();
+            window.location = "/order";
+        });
         function saveToDb(bill) {
             var database = firebase.database();
             var dbRef = firebase.database().ref('bills/');
@@ -60,7 +65,7 @@
         function humanize(bill) {
             var data = bill.data;
             var meta = bill.meta;
-            var output = "<br><br>Ngày " + formatDate(new Date(meta.date)) + ", nhập bởi " + meta.userDisplayName + " (" + meta.username + ")" +
+            var output = "<br><br>Ngày " + formatDate(new Date(meta.date)) +
                 "<br><p>Đơn hàng của " + translate(data.prefix) + " " + data.name + ", điện thoại " + data.phone;
             var phone2 = data.phone2?", điện thoại 2: " + data.phone2: "";
             output += phone2;
