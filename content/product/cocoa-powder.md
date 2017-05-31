@@ -1,17 +1,15 @@
 +++
 date = "2017-05-07T14:31:45+08:00"
 publishdate = "2017-04-17T23:12:45+08:00"
-description = "Bột Cacao đóng gói zip 50 gram"
-price = "50,000"
-discounted_price = "40,000"
-discounted_percent = "-20%"
+description = "Bột Cacao đóng gói zip 100 gram"
+price = "40,000"
 img = ["cocoa-1.jpg","cocoa-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","cocoa"]
 thumbnail = "cocoa-1.jpg"
-title = "Bột cacao (50g)"
+title = "Bột cacao (100g)"
 url = "/san-pham/bot-ca-cao-50g"
-aliases = ["/san-pham/bột-ca-cao-50g"]
+aliases = ["/san-pham/bột-ca-cao-100g"]
 weight = 1
 +++
 
