@@ -4,50 +4,6 @@ date = "2017-03-21T21:52:24+08:00"
 
 +++
 
-# Bột rau củ DalaFarm có đạt chứng nhận hữu cơ (Organic) không?
-
-Hiện tại DalaFarm là trang trại đầu tiên của công ty Chuông Xanh trồng hoàn toàn theo phương pháp hữu cơ Mansanobu Fukuoka tác giả cuốn sách "Cuộc cách mạng một cọng rơm" với phương pháp "Không làm gì cả".
-
-Ở thời điểm hiện tại, nông trại DalaFarm xin cam kết với khách hàng về các sản phẩm bột chất lượng từ rau củ sạch, an toàn cho sức khỏe, cam kết 100% không phân hoá học, không thuốc trừ sâu. Các dưỡng chất cho rau củ trong nông trại được cung cấp bằng phân trùn quế.
-
-Trong quá trình đó, DalaFarm vẫn đang tích cực nỗ lực hết sức để cải tiến, hoàn thiện và hướng tới việc đạt tiêu chuẩn hữu cơ (Organic) khắc khe (ví dụ: đất trồng rau củ không được sử dụng phân hóa học từ trên 3 năm trở đi), để đáp lại lòng tin yêu của những khách hàng luôn tin tưởng và ủng hộ DalaFarm.‎
- 
-# Cách thanh toán 
-
-DalaFarm khuyến khích khách hàng thanh toán qua hình thức chuyển khoản qua internet banking hoặc app trên điện thoại di động vì những lợi ích sau:
-
-* Không cần mang và giữ tiền mặt trong người phòng ngừa bị mất cắp hoặc rơi rớt
-* Nhận khuyến mãi giảm 100% giá shipping trực tiếp từ DalaFarm  
-
-Tuy nhiên, DalaFarm vẫn nhận những hình thức thanh toán khác mà khách hàng chọn như trả tiền mặt lúc nhận hàng.
-
-Quý khách vui lòng chuyển khoản vào tài khoản công ty DalaFarm:
-
-- Ngân hàng: **Vietcombank**
-- Chi nhánh: **Nha Trang**
-- Số tài khoản: **0061001093187**
-- Tên người thụ hưởng: **Lê Thị Thu Hà**
-
-Sau khi chuyển khoản, quý khách vui lòng nhắn tin facebook messenger cho DalaFarm để xác nhận nhằm trường hợp chuyển khoản khác ngân hàng không đến liền.
-
-
-# Làm sao để trở thành đại lý kinh doanh phân phối sản phẩm DalaFarm 
-
-Các anh chị muốn đăng ký làm đại lý phân phối sản phẩm DalaFarm, vui lòng liên hệ qua email [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn) với nội dung sau:   
-
-- Kinh nghiệm bán hàng ONLINE/OFFLINE của bạn 
-- Link Facebook cá nhân của bạn (Link Fanpage nếu có) 
-- Bạn đã sử dụng bột rau củ DalaFarm chưa? 
-- Vì sao bạn chọn bột rau củ DalaFarm để phân phối? 
-- Mong muốn của bạn khi làm đại lý cho bột rau củ DalaFarm? 
-- Họ Tên & số điện thoại (để chúng tôi tiện liên hệ lại) 
-
-Hotline DalaFarm: [0906951498](tel:0906951498) / [0918241066](tel:0918241066)
-
-Chúng tôi sẽ gửi các chính sách mức chiết khấu đại lý và liên hệ lại với anh chị trong thời gian ngắn. 
-
-Rất hân hạnh được hợp tác cùng các anh chị. 
- 
 # Mua bột rau củ DalaFarm ở đâu?
 Tại Hồ Chí Minh, bạn có thể ghé thăm 13 Chu Mạnh Trinh, P. Bến Nghé, Quận 1 để mua sản phẩm của DalaFarm.
 Ngoài ra, DalaFarm giao tận nơi cho mọi đơn hàng trên toàn quốc. Vui lòng liên hệ fanpage [DalaFarm](https://m.me/dalafarm.com.vn) để đặt hàng hoặc biết thêm chi tiết nhé.
@@ -150,6 +106,7 @@ http://www.euro.who.int/__data/assets/pdf_file/0020/120296/E73182.pdf
 Ngoài ra còn có các bài viết nói về lợi ích của củ dền:
 
 http://www.newkidscenter.com/Beetroot-in-Pregnancy.html
+
 http://www.stylecraze.com/articles/benefits-of-beetroots-during-pregnancy/#gref
 
 # Bột DalaFarm có thể cho trực tiếp vào cháo hay bột bé ăn được không?
@@ -166,3 +123,48 @@ Về bột tương tự vậy: chị pha bột ăn dặm và bột rau củ này
 Với cách sử dụng như trên, nếu bé ăn dặm ngày 1 lần, thì gói 50 gram sẽ dùng được trong 10 ngày.
  
 Nếu bé dùng 1 ngày 2 lần thì gói 50 gram bé dùng trong 5 ngày.
+
+# Bột rau củ DalaFarm có đạt chứng nhận hữu cơ (Organic) không?
+
+Hiện tại DalaFarm là trang trại đầu tiên của công ty Chuông Xanh trồng hoàn toàn theo phương pháp hữu cơ Mansanobu Fukuoka tác giả cuốn sách "Cuộc cách mạng một cọng rơm" với phương pháp "Không làm gì cả".
+
+Ở thời điểm hiện tại, nông trại DalaFarm xin cam kết với khách hàng về các sản phẩm bột chất lượng từ rau củ sạch, an toàn cho sức khỏe, cam kết 100% không phân hoá học, không thuốc trừ sâu. Các dưỡng chất cho rau củ trong nông trại được cung cấp bằng phân trùn quế.
+
+Trong quá trình đó, DalaFarm vẫn đang tích cực nỗ lực hết sức để cải tiến, hoàn thiện và hướng tới việc đạt tiêu chuẩn hữu cơ (Organic) khắc khe (ví dụ: đất trồng rau củ không được sử dụng phân hóa học từ trên 3 năm trở đi), để đáp lại lòng tin yêu của những khách hàng luôn tin tưởng và ủng hộ DalaFarm.‎
+ 
+# Cách thanh toán 
+
+DalaFarm khuyến khích khách hàng thanh toán qua hình thức chuyển khoản qua internet banking hoặc app trên điện thoại di động vì những lợi ích sau:
+
+* Không cần mang và giữ tiền mặt trong người phòng ngừa bị mất cắp hoặc rơi rớt
+* Nhận khuyến mãi giảm 100% giá shipping trực tiếp từ DalaFarm  
+
+Tuy nhiên, DalaFarm vẫn nhận những hình thức thanh toán khác mà khách hàng chọn như trả tiền mặt lúc nhận hàng.
+
+Quý khách vui lòng chuyển khoản vào tài khoản công ty DalaFarm:
+
+- Ngân hàng: **Vietcombank**
+- Chi nhánh: **Nha Trang**
+- Số tài khoản: **0061001093187**
+- Tên người thụ hưởng: **Lê Thị Thu Hà**
+
+Sau khi chuyển khoản, quý khách vui lòng nhắn tin facebook messenger cho DalaFarm để xác nhận nhằm trường hợp chuyển khoản khác ngân hàng không đến liền.
+
+
+# Làm sao để trở thành đại lý kinh doanh phân phối sản phẩm DalaFarm 
+
+Các anh chị muốn đăng ký làm đại lý phân phối sản phẩm DalaFarm, vui lòng liên hệ qua email [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn) với nội dung sau:   
+
+- Kinh nghiệm bán hàng ONLINE/OFFLINE của bạn 
+- Link Facebook cá nhân của bạn (Link Fanpage nếu có) 
+- Bạn đã sử dụng bột rau củ DalaFarm chưa? 
+- Vì sao bạn chọn bột rau củ DalaFarm để phân phối? 
+- Mong muốn của bạn khi làm đại lý cho bột rau củ DalaFarm? 
+- Họ Tên & số điện thoại (để chúng tôi tiện liên hệ lại) 
+
+Hotline DalaFarm: [0906951498](tel:0906951498) / [0918241066](tel:0918241066)
+
+Chúng tôi sẽ gửi các chính sách mức chiết khấu đại lý và liên hệ lại với anh chị trong thời gian ngắn. 
+
+Rất hân hạnh được hợp tác cùng các anh chị. 
+ 
