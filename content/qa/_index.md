@@ -122,7 +122,7 @@ hoàn toàn có thể dùng làm thức uống để bổ sung dinh dưỡng và
   
 # Loại bột rau củ nào tốt cho người đang điều trị ung thư, trẻ nhỏ, hoặc bà bầu 
 
-Các sản phẩm bột rau củ DalaFarm hầu hết dùng được cho cả 3 đối tưong trên trừ bà bầu thì không nên 
+Các sản phẩm bột rau củ DalaFarm hầu hết dùng được cho cả 3 đối tượng trên trừ bà bầu thì không nên 
 dùng chùm ngây, diếp cá, rau má trong 4 tháng đầu mang thai và trẻ nhỏ dưới 2 tuổi thì chỉ nên uống 2 lần nước củ dền trong 1 tuần.
 
 # Tại sao chỉ nên dùng củ dền cho trẻ 2 lần / tuần 
@@ -133,3 +133,36 @@ thì nên ăn những lượng nhỏ mỗi ngày, hoặc 2 lần/tuần. Lượn
 
 Bé dưới 6 tháng tuổi khi ăn phải có sự chỉ định của bác sĩ. Vì khi hệ tiêu hóa chưa hoàn thiện, 
 mà củ dền rất giàu dinh dưỡng, đặc biệt hàm lượng nitrat cao sẽ làm bé ở độ tuổi nhỏ khó hấp thu.
+
+# Nhiều trang mạng khuyên không nên dùng củ dền cho bé dưới 3 tuổi có đúng không? Cách sử dụng củ dền cho bé như thế nào là đúng?
+
+Theo tổ chức y tế thế giới WHO khuyên các bà mẹ:
+Dền là 1 loại củ rất giàu dưỡng chất cho sự phát triển não bộ và thể chất của trẻ.
+Trẻ từ 8 tháng tuổi được khuyến nghị là lứa tuổi tốt nhất để giới thiệu củ dền cho bé.
+Tuy nhiên, do hàm lượng chất dinh dưỡng cao như vậy, với các bé chưa hoàn thiện hệ thiêu hóa (dưới 12 tháng tuổi) thì nên ăn những lượng nhỏ mỗi ngày, hoặc ăn một tuần 2 lần. Lượng củ dền có thể tăng dần cho các bé lớn hơn. Bé dưới 6 tháng tuổi khi ăn phải có sự chỉ định của bác sĩ. vì trẻ nhỏ hệ tiêu hóa chưa hoàn thiện, mà củ dền rất dầu dinh dưỡng, đặc biệt hàm lượng Nitrat cao se lam  bé khó hấp thu
+
+Ngoài ra, các mẹ bầu đều có thể sử dụng củ dền bình thường, vì hàm lượng sắt cao,
+các bà mẹ mang thai đều được khuyến nghị uống sắt vì thường xuyên thiếu máu.
+
+Bài viết của WHO: 
+http://www.euro.who.int/__data/assets/pdf_file/0020/120296/E73182.pdf
+
+Ngoài ra còn có các bài viết nói về lợi ích của củ dền:
+
+http://www.newkidscenter.com/Beetroot-in-Pregnancy.html
+http://www.stylecraze.com/articles/benefits-of-beetroots-during-pregnancy/#gref
+
+# Bột DalaFarm có thể cho trực tiếp vào cháo hay bột bé ăn được không?
+
+Bột DalaFarm đã qua công nghệ sấy SEFD đặc biệt, nên chị có thể dùng trực tiếp để uống và cho trẻ dùng trực tiếp đều được chị nhé.
+
+Cháo nấu chín, múc cháo ra chén, lấy 3 - 5 gram bột tức khoảng 1 thìa bột (tương đương 80 - 100 gram rau tươi). 
+Bỏ trực tiếp vào cháo khuấy đều là bé có thể dùng được. 
+
+Về bột tương tự vậy: chị pha bột ăn dặm và bột rau củ này vào chén nước ấm khuấy đều lên là có thể dùng được.
+ 
+# Một gói bột dùng được bao lâu?
+
+Với cách sử dụng như trên, nếu bé ăn dặm ngày 1 lần, thì gói 50 gram sẽ dùng được trong 10 ngày.
+ 
+Nếu bé dùng 1 ngày 2 lần thì gói 50 gram bé dùng trong 5 ngày.
