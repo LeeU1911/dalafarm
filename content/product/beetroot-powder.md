@@ -9,6 +9,7 @@ thumbnail = "beetroot-1.jpg"
 title = "Bột củ dền (50g)"
 url = "/san-pham/bot-cu-den-50g"
 weight = 1
+key = "beetroot"
 +++
 
 # Bột củ dền

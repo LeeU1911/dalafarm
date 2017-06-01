@@ -9,6 +9,7 @@ thumbnail = "heartleaf-100g-1.jpg"
 title = "Bột Rau diếp cá (100g)"
 url = "/san-pham/bot-rau-diep-ca-100g"
 weight = 1
+key = "heartleaf100"
 +++
 
 # Bột Rau diếp cá

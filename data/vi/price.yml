@@ -1,0 +1,48 @@
+carrot: 119000
+carrot_discounted_price: 0
+carrot_discounted_percent: 0
+
+beetroot: 80000
+beetroot_discounted_price: 0
+beetroot_discounted_percent: 0
+
+broccoli: 119000
+broccoli_discounted_price: 0
+broccoli_discounted_percent: 0
+
+cocoa: 119000
+cocoa_discounted_price: 0
+cocoa_discounted_percent: 0
+
+heartleaf100: 119000
+heartleaf100_discounted_price: 0
+heartleaf100_discounted_percent: 0
+
+heartleaf: 119000
+heartleaf_discounted_price: 0
+heartleaf_discounted_percent: 0
+
+matcha100: 119000
+matcha100_discounted_price: 0
+matcha100_discounted_percent: 0
+
+matcha: 119000
+matcha_discounted_price: 0
+matcha_discounted_percent: 0
+
+moringa: 119000
+moringa_discounted_price: 0
+moringa_discounted_percent: 0
+
+pennywort: 119000
+pennywort_discounted_price: 0
+pennywort_discounted_percent: 0
+
+pumpkin: 119000
+pumpkin_discounted_price: 100000
+pumpkin_discounted_percent: -10%
+
+tomato: 119000
+tomato_discounted_price: 0
+tomato_discounted_percent: 0
+

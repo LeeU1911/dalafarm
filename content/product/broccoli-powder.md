@@ -9,6 +9,7 @@ thumbnail = "broccoli-1.jpg"
 title = "Bột súp lơ xanh (50g)"
 url = "/san-pham/bot-sup-lo-xanh-50g"
 weight = 1
+key = "broccoli"
 +++
 
 # Bột Súp lơ

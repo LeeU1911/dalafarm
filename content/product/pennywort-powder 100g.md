@@ -9,6 +9,7 @@ thumbnail = "pennywort-100g-1.jpg"
 title = "Bột Rau má (100g)"
 url = "/san-pham/bot-rau-ma-100g"
 weight = 1
+key = "pennywort100"
 +++
 
 # Bột Rau má

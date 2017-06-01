@@ -9,6 +9,7 @@ thumbnail = "moringa-1.jpg"
 title = "Bột Chùm ngây (50g)"
 url = "/san-pham/bot-chum-ngay-50g"
 weight = 1
+key = "moringa"
 +++
 
 # Bột Chùm ngây

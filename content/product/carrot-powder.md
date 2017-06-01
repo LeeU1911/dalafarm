@@ -9,6 +9,7 @@ thumbnail = "carrot-1.jpg"
 title = "Bột Cà rốt (50g)"
 url = "/san-pham/bot-ca-rot-50g"
 weight = 1
+key = "carrot"
 +++
 
 # Bột Cà rốt
