@@ -145,176 +145,42 @@
                             </div>
                         </div>
 
-                        {{ $data := index .Site.Data .Site.Language.Lang }}
-                        {{ $prices := $data.price }}
-                        {{ range where .Site.Pages "Section" "product" }}
-                            {{ if isset .Params "key" }}
-                            {{ .Title }}
-                            {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
-                            {{ $discounted_price := index $prices $dscnt_price }}
-                            {{ if gt $discounted_price 0 }}{{ $discounted_price }}{{ else }}{{ index $prices .Params.key }}{{ end }}
-                            {{ end }}
-                            <br>
-                        {{ end }}
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">Sản phẩm</label>
+                            <div class="col-md-4">
 
-                        <!-- Multiple Checkboxes -->
-                        <!--<div class="form-group">-->
-                            <!--<label class="col-md-4 control-label" for="products">Sản phẩm</label>-->
-                            <!--<div class="col-md-4">-->
-                                <!--<div class="checkbox col-md-8">-->
-                                    <!--<label for="products-0">-->
-                                        <!--<input type="checkbox" name="products" id="products-0" value="Bột cà rốt 50g">-->
-                                        <!--Bột cà rốt 50g-->
-                                    <!--</label>-->
-                                <!--</div>-->
-                                <!--&lt;!&ndash; Select Basic &ndash;&gt;-->
-                                <!--<div class="form-group">-->
-                                    <!--<div class="col-md-4">-->
-                                        <!--<select style="display: none;" id="carrot" name="carrot" class="form-control product-select">-->
-                                            <!--<option value="0">0</option><option value="1">1</option>-->
-                                            <!--<option value="2">2</option>-->
-                                            <!--<option value="3">3</option>-->
-                                            <!--<option value="4">4</option>-->
-                                            <!--<option value="5">5</option>-->
-                                            <!--<option value="6">6</option>-->
-                                        <!--</select>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--<div class="checkbox col-md-8">-->
-                                    <!--<label for="products-1">-->
-                                        <!--<input type="checkbox" name="products" id="products-1" value="Bột rau diếp cá 50g">-->
-                                        <!--Bột rau diếp cá 50g-->
-                                    <!--</label>-->
-                                <!--</div>-->
-                                <!--&lt;!&ndash; Select Basic &ndash;&gt;-->
-                                <!--<div class="form-group">-->
-                                    <!--<div class="col-md-4">-->
-                                        <!--<select style="display: none;" id="heartleaf" name="heartleaf" class="form-control product-select">-->
-                                            <!--<option value="0">0</option><option value="1">1</option>-->
-                                            <!--<option value="2">2</option>-->
-                                            <!--<option value="3">3</option>-->
-                                            <!--<option value="4">4</option>-->
-                                            <!--<option value="5">5</option>-->
-                                            <!--<option value="6">6</option>-->
-                                        <!--</select>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--<div class="checkbox col-md-8">-->
-                                    <!--<label for="products-2">-->
-                                        <!--<input type="checkbox" name="products" id="products-2" value="Bột rau má 50g">-->
-                                        <!--Bột rau má 50g-->
-                                    <!--</label>-->
-                                <!--</div>-->
-                                <!--&lt;!&ndash; Select Basic &ndash;&gt;-->
-                                <!--<div class="form-group">-->
-                                    <!--<div class="col-md-4">-->
-                                        <!--<select style="display: none;" id="pennywort" name="pennywort" class="form-control product-select">-->
-                                            <!--<option value="0">0</option><option value="1">1</option>-->
-                                            <!--<option value="2">2</option>-->
-                                            <!--<option value="3">3</option>-->
-                                            <!--<option value="4">4</option>-->
-                                            <!--<option value="5">5</option>-->
-                                            <!--<option value="6">6</option>-->
-                                        <!--</select>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--<div class="checkbox col-md-8">-->
-                                    <!--<label for="products-3">-->
-                                        <!--<input type="checkbox" name="products" id="products-3" value="Bột trà xanh 50g">-->
-                                        <!--Bột trà xanh 50g-->
-                                    <!--</label>-->
-                                <!--</div>-->
-                                <!--&lt;!&ndash; Select Basic &ndash;&gt;-->
-                                <!--<div class="form-group">-->
-                                    <!--<div class="col-md-4">-->
-                                        <!--<select style="display: none;" id="matcha" name="matcha" class="form-control product-select">-->
-                                            <!--<option value="0">0</option><option value="1">1</option>-->
-                                            <!--<option value="2">2</option>-->
-                                            <!--<option value="3">3</option>-->
-                                            <!--<option value="4">4</option>-->
-                                            <!--<option value="5">5</option>-->
-                                            <!--<option value="6">6</option>-->
-                                        <!--</select>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--<div class="checkbox col-md-8">-->
-                                    <!--<label for="products-4">-->
-                                        <!--<input type="checkbox" name="products" id="products-4" value="Bột cacao 50g">-->
-                                        <!--Bột cacao 50g-->
-                                    <!--</label>-->
-                                <!--</div>-->
-                                <!--&lt;!&ndash; Select Basic &ndash;&gt;-->
-                                <!--<div class="form-group">-->
-                                    <!--<div class="col-md-4">-->
-                                        <!--<select style="display: none;" id="cocoa" name="cocoa" class="form-control product-select">-->
-                                            <!--<option value="0">0</option><option value="1">1</option>-->
-                                            <!--<option value="2">2</option>-->
-                                            <!--<option value="3">3</option>-->
-                                            <!--<option value="4">4</option>-->
-                                            <!--<option value="5">5</option>-->
-                                            <!--<option value="6">6</option>-->
-                                        <!--</select>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--<div class="checkbox col-md-8">-->
-                                    <!--<label for="products-5">-->
-                                        <!--<input type="checkbox" name="products" id="products-5" value="Bột củ dền 50g">-->
-                                        <!--Bột củ dền 50g-->
-                                    <!--</label>-->
-                                <!--</div>-->
-                                <!--&lt;!&ndash; Select Basic &ndash;&gt;-->
-                                <!--<div class="form-group">-->
-                                    <!--<div class="col-md-4">-->
-                                        <!--<select style="display: none;" id="beetroot" name="beetroot" class="form-control product-select">-->
-                                            <!--<option value="0">0</option><option value="1">1</option>-->
-                                            <!--<option value="2">2</option>-->
-                                            <!--<option value="3">3</option>-->
-                                            <!--<option value="4">4</option>-->
-                                            <!--<option value="5">5</option>-->
-                                            <!--<option value="6">6</option>-->
-                                        <!--</select>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--<div class="checkbox col-md-8">-->
-                                    <!--<label for="products-6">-->
-                                        <!--<input type="checkbox" name="products" id="products-6" value="Bột súp lơ xanh 50g">-->
-                                        <!--Bột súp lơ xanh 50g-->
-                                    <!--</label>-->
-                                <!--</div>-->
-                                <!--&lt;!&ndash; Select Basic &ndash;&gt;-->
-                                <!--<div class="form-group">-->
-                                    <!--<div class="col-md-4">-->
-                                        <!--<select style="display: none;" id="broccoli" name="broccoli" class="form-control product-select">-->
-                                            <!--<option value="0">0</option><option value="1">1</option>-->
-                                            <!--<option value="2">2</option>-->
-                                            <!--<option value="3">3</option>-->
-                                            <!--<option value="4">4</option>-->
-                                            <!--<option value="5">5</option>-->
-                                            <!--<option value="6">6</option>-->
-                                        <!--</select>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                                <!--<div class="checkbox col-md-8">-->
-                                    <!--<label for="products-7">-->
-                                        <!--<input type="checkbox" name="products" id="products-7" value="Bột rau củ rainbow">-->
-                                        <!--Bột rau củ rainbow-->
-                                    <!--</label>-->
-                                <!--</div>-->
-                                <!--&lt;!&ndash; Select Basic &ndash;&gt;-->
-                                <!--<div class="form-group">-->
-                                    <!--<div class="col-md-4">-->
-                                        <!--<select style="display: none;" id="rainbow" name="rainbow" class="form-control product-select">-->
-                                            <!--<option value="0">0</option><option value="1">1</option>-->
-                                            <!--<option value="2">2</option>-->
-                                            <!--<option value="3">3</option>-->
-                                            <!--<option value="4">4</option>-->
-                                            <!--<option value="5">5</option>-->
-                                            <!--<option value="6">6</option>-->
-                                        <!--</select>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
+                            {{ $data := index .Site.Data .Site.Language.Lang }}
+                            {{ $prices := $data.price }}
+                            {{ range where .Site.Pages "Section" "product" }}
+                            {{ if isset .Params "key" }}
+                                <div class="checkbox col-md-8">
+                                    <label for="products-{{ .Params.key }}">
+                                        <input type="checkbox" name="products" id="products-{{ .Params.key }}" value="{{ .Title }}">{{ .Title }} -
+                                        {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
+                                        {{ $discounted_price := index $prices $dscnt_price }}
+                                        {{ if gt $discounted_price 0 }}{{ $discounted_price }}{{ else }}{{ index $prices .Params.key }}{{ end }}
+                                        {{ end }}
+                                    </label>
+                                </div>
+                                <!-- Select Basic -->
+                                <div class="form-group">
+                                    <div class="col-md-4">
+                                        <select style="display: none;" id="{{ .Params.key }}" name="{{ .Params.key }}"
+                                                class="form-control product-select">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            {{ end }}
+                            </div>
+                        </div>
+
 
                         <!-- Button (Double) -->
                         <div class="form-group">
