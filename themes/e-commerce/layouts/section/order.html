@@ -152,31 +152,32 @@
                             {{ $data := index .Site.Data .Site.Language.Lang }}
                             {{ $prices := $data.price }}
                             {{ range where .Site.Pages "Section" "product" }}
-                            {{ if isset .Params "key" }}
-                                <div class="checkbox col-md-8">
-                                    <label for="products-{{ .Params.key }}">
-                                        <input type="checkbox" name="products" id="products-{{ .Params.key }}" value="{{ .Title }}">{{ .Title }} -
-                                        {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
-                                        {{ $discounted_price := index $prices $dscnt_price }}
-                                        {{ if gt $discounted_price 0 }}{{ $discounted_price }}{{ else }}{{ index $prices .Params.key }}{{ end }}
-                                        {{ end }}
-                                    </label>
-                                </div>
-                                <!-- Select Basic -->
-                                <div class="form-group">
-                                    <div class="col-md-4">
-                                        <select style="display: none;" id="{{ .Params.key }}" name="{{ .Params.key }}"
-                                                class="form-control product-select">
-                                            <option value="0">0</option>
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
-                                            <option value="6">6</option>
-                                        </select>
+                                {{ if isset .Params "key" }}
+                                    <div class="checkbox col-md-8">
+                                        <label for="products-{{ .Params.key }}">
+                                            <input type="checkbox" name="products" id="products-{{ .Params.key }}" value="{{ .Title }}">{{ .Title }} -
+                                            {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
+                                            {{ $discounted_price := index $prices $dscnt_price }}
+                                            {{ if gt $discounted_price 0 }}{{ $discounted_price }}{{ else }}{{ index $prices .Params.key }}{{ end }}
+
+                                        </label>
                                     </div>
-                                </div>
+                                    <!-- Select Basic -->
+                                    <div class="form-group">
+                                        <div class="col-md-4">
+                                            <select style="display: none;" id="{{ .Params.key }}" name="{{ .Params.key }}"
+                                                    class="form-control product-select">
+                                                <option value="0">0</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                {{ end }}
                             {{ end }}
                             </div>
                         </div>
