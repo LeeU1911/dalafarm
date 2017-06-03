@@ -13,7 +13,25 @@
             </div>
         </div>
         {{ .Content }}
-        <div id="bill" class="col-md-12"></div>
+        <div id="bill" class="col-md-12">
+            <p data-bind="text: date"></p>
+            <div class="panel panel-default">
+                <div class="panel-heading">Thông tin người mua</div>
+                <div class="panel-body">
+                    <p data-bind="text: name"></p>
+                    <p data-bind="text: phone1"></p>
+                    <p data-bind="text: phone2"></p>
+                    <p data-bind="text: email"></p>
+                    <p><span data-bind="text: address"></span>, <span data-bind="text: province"></span> </p>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">Sản phẩm</div>
+                <div class="panel-body">
+                    <p data-bind="text: products"></p>
+                </div>
+            </div>
+        </div>
         <div class="form-group">
             <label class="col-md-4 control-label" for="save"></label>
             <div class="col-md-8">
@@ -29,6 +47,7 @@
 {{ partial "footer.html" . }}
 {{ end }}
 {{ partial "js_other_page.html" . }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
 <script>
     $(function () {
@@ -43,8 +62,23 @@
         };
         firebase.initializeApp(config);
 
-        var bill = sessionStorage.getItem('order');
-        $('#bill').append("<span class='bill'>" + humanize(JSON.parse(bill)) + "</span>");
+
+        var bill = JSON.parse(sessionStorage.getItem('order'));
+
+        function AppViewModel() {
+            this.date = new Date(bill.meta.date);
+            this.name = bill.info.name;
+            this.phone1 = bill.info.phone1;
+            this.phone2 = bill.info.phone2;
+            this.email = bill.info.email;
+            this.address = bill.info.address;
+            this.province = bill.info.province;
+            this.products = bill.products;
+        }
+
+        // Activates knockout.js
+        ko.applyBindings(new AppViewModel());
+
         $('#save').on('click', function (e) {
             e.preventDefault();
             saveToDb(bill);
