@@ -262,15 +262,8 @@
         // Activates knockout.js
         ko.applyBindings(viewModel);
 
-        function initUIState() {
-            $('.product-select').hide();
-        }
-
-        initUIState();
-
         function clearForm() {
             $('#bill')[0].reset();
-            $('.product-select').hide();
         }
 
         $('#cancel').on('click', function(e){
@@ -283,19 +276,10 @@
             var bill = ko.toJS(viewModel);
             bill.meta = {};
             bill.meta.date = new Date().getTime();
-//            bill = fillInData(bill);
             saveToSession(bill);
-//            showAutoCloseAlert();
             clearForm();
             window.location = "/confirm";
         });
-
-        function fillInData(bill) {
-            var $form = $("#bill");
-            var data = getFormData($form);
-            bill.data = data;
-            return bill;
-        }
 
         function getFormData($form){
             var unindexed_array = $form.serializeArray();
@@ -311,17 +295,6 @@
         function saveToSession(bill) {
             sessionStorage.setItem("order", JSON.stringify(bill));
         }
-
-        $('.checkbox').on('click', function(e){
-            if($(this).find(':checkbox').is(":checked")) {
-                $(this).next('.form-group').find('select').show();
-                $(this).next('.form-group').find('select').val(1);
-            } else {
-                $(this).next('.form-group').find('select').val(0);
-                $(this).next('.form-group').find('select').hide();
-            }
-        });
-
 
         $('.btn-number').click(function(e){
             e.preventDefault();
@@ -354,10 +327,11 @@
                 input.val(0);
             }
         });
-        $('.input-number').focusin(function(){
+        var $inputNumber = $('.input-number');
+        $inputNumber.focusin(function(){
             $(this).data('oldValue', $(this).val());
         });
-        $('.input-number').change(function() {
+        $inputNumber.change(function() {
 
             minValue =  parseInt($(this).attr('min'));
             maxValue =  parseInt($(this).attr('max'));
@@ -379,7 +353,7 @@
 
 
         });
-        $(".input-number").keydown(function (e) {
+        $inputNumber.keydown(function (e) {
             // Allow: backspace, delete, tab, escape, enter and .
             if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 190]) !== -1 ||
                 // Allow: Ctrl+A
