@@ -12,16 +12,54 @@
                 <h2 class="section-heading">{{ .Title }}</h2>
             </div>
         </div>
-        {{ .Content }}
+        <p class="order-page-content">
+            {{ .Content }}
+        </p>
         <div class="row">
             <div class="col-md-12">
-
-                <form class="form-horizontal" name="bill" id="bill">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Đơn hàng</div>
+                    <div class="panel-body">
+                        <form class="form-horizontal" name="bill" id="bill">
                     <fieldset>
 
                         <!-- Form Name -->
-                        <legend>Đơn hàng</legend>
+                        <legend>Sản phẩm</legend>
 
+                        <div class="form-group">
+                            <div class="col-md-12">
+
+                            {{ $data := index .Site.Data .Site.Language.Lang }}
+                            {{ $prices := $data.price }}
+                            {{ range where .Site.Pages "Section" "product" }}
+                                {{ if isset .Params "key" }}
+                                    <div class="col-md-8">
+                                        <span>
+                                        {{ .Title }} -
+                                        {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
+                                        {{ $discounted_price := index $prices $dscnt_price }}
+                                        {{ if gt $discounted_price 0 }}{{ $discounted_price }}{{ else }}{{ index $prices .Params.key }}{{ end }}
+                                        </span>
+                                    </div>
+                                    <div class="input-group col-md-4">
+                                        <span class="input-group-btn">
+                                             <button type="button" class="btn btn-default btn-number" data-type="minus" data-field="quant[1]-{{.Params.key}}">
+                                                 <span class="glyphicon glyphicon-minus"></span>
+                                             </button>
+                                        </span>
+                                        <input data-bind="value: products.{{.Params.key}}Amt" type="text" name="quant[1]-{{.Params.key}}" class="form-control input-number" value="0" min="0" max="10">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]-{{.Params.key}}">
+                                                <span class="glyphicon glyphicon-plus"></span>
+                                            </button>
+                                        </span>
+                                    </div>
+                                {{ end }}
+                            {{ end }}
+                            </div>
+                        </div>
+
+                        <legend>Thông tin</legend>
                         <!-- Multiple Radios (inline) -->
                         <div class="form-group">
                             <label class="col-md-2 control-label" for="prefix"></label>
@@ -154,40 +192,6 @@
                             </div>
                         </div>
 
-                        <div class="form-group">
-                            <label class="col-md-2 control-label">Sản phẩm</label>
-                            <div class="col-md-8">
-
-                            {{ $data := index .Site.Data .Site.Language.Lang }}
-                            {{ $prices := $data.price }}
-                            {{ range where .Site.Pages "Section" "product" }}
-                                {{ if isset .Params "key" }}
-                                    <div class="col-md-8">
-                                        <span>
-                                        {{ .Title }} -
-                                        {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
-                                        {{ $discounted_price := index $prices $dscnt_price }}
-                                        {{ if gt $discounted_price 0 }}{{ $discounted_price }}{{ else }}{{ index $prices .Params.key }}{{ end }}
-                                        </span>
-                                    </div>
-                                    <div class="input-group col-md-4">
-                                        <span class="input-group-btn">
-                                             <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]-{{.Params.key}}">
-                                                 <span class="glyphicon glyphicon-minus"></span>
-                                             </button>
-                                        </span>
-                                        <input data-bind="value: products.{{.Params.key}}Amt" type="text" name="quant[1]-{{.Params.key}}" class="form-control input-number" value="0" min="0" max="10">
-                                        <span class="input-group-btn">
-                                            <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]-{{.Params.key}}">
-                                                <span class="glyphicon glyphicon-plus"></span>
-                                            </button>
-                                        </span>
-                                    </div>
-                                {{ end }}
-                            {{ end }}
-                            </div>
-                        </div>
-
 
                         <!-- Button (Double) -->
                         <div class="form-group">
@@ -200,7 +204,8 @@
 
                     </fieldset>
                 </form>
-
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -277,7 +282,6 @@
             bill.meta = {};
             bill.meta.date = new Date().getTime();
             saveToSession(bill);
-            clearForm();
             window.location = "/confirm";
         });
 
