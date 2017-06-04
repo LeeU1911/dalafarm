@@ -25,38 +25,14 @@
                     <p><span data-bind="text: address"></span>, <span data-bind="text: province"></span> </p>
                 </div>
             </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">Sản phẩm</div>
-                <div class="panel-body">
-                    <p data-bind="foreach: products">
-                        {{ $data := index .Site.Data .Site.Language.Lang }}
-                        {{ $prices := $data.price }}
-                        {{ range where .Site.Pages "Section" "product" }}
-                            {{ if isset .Params "key" }}
-                                <span data-bind="if: value > 0 && name == '{{ printf "%sAmt" .Params.key}}'">
-                                    <span>
-                                    {{ .Title }} -
-                                    {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
-                                    {{ $discounted_price := index $prices $dscnt_price }}
-                                    {{ if gt $discounted_price 0 }}{{ $discounted_price }}{{ else }}{{ index $prices .Params.key }}{{ end }}
-                                    </span>
-                                    <span> x </span>
-                                    <span data-bind="text: value"></span>
-                                    <br/>
-                                </span>
-                            {{ end }}
-                        {{ end }}
-
-                    </p>
-                </div>
-            </div>
+            {{ partial "selected-product-list.html" . }}
         </div>
         <div class="form-group">
             <label class="col-md-4 control-label" for="save"></label>
             <div class="col-md-8">
-                <button id="edit" name="save" class="btn btn-default">Sửa đơn hàng</button>
-                <button id="save" name="save" class="btn btn-success">Hoàn tất</button>
-                <button id="cancel" name="cancel" class="btn btn-danger">Hủy bỏ</button>
+                <button id="edit" name="save" class="btn btn-lg btn-default">Sửa đơn hàng</button>
+                <button id="save" name="save" class="btn btn-lg btn-success">Hoàn tất</button>
+                <button id="cancel" name="cancel" class="btn btn-lg btn-danger">Hủy bỏ</button>
             </div>
         </div>
 
@@ -67,7 +43,7 @@
 {{ end }}
 {{ partial "js_other_page.html" . }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
-<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script>
 <script>
     $(function () {
         // Initialize Firebase
@@ -80,10 +56,16 @@
             messagingSenderId: "723108104918"
         };
         firebase.initializeApp(config);
+        firebase.auth().onAuthStateChanged(function(user) {
+            if (user) {
+                console.log("User already logged in");
+            } else {
+                console.log("User has not logged in");
+            }
+        });
 
 
         var bill = JSON.parse(sessionStorage.getItem('order'));
-
         //using array for displaying purpose. Let's see if array or object works better to be the data model in db
         function getProductsArrayFromBill(b) {
             var products = b.products;
@@ -108,7 +90,6 @@
         $('#save').on('click', function (e) {
             e.preventDefault();
             saveToDb(bill);
-            window.location = "/thank-you";
         });
         $('#edit').on('click', function (e) {
             e.preventDefault();
@@ -117,8 +98,12 @@
         function saveToDb(bill) {
             var dbRef = firebase.database().ref('bills/');
             var newPostRef = dbRef.push();
-            newPostRef.set(bill);
-            sessionStorage.removeItem('order');
+            newPostRef.set(bill).then(function(response){
+                console.log("Data saved successfully!");
+                sessionStorage.removeItem('order');
+                window.location = "/thank-you";
+            });
+
         }
 
         function humanize(bill) {

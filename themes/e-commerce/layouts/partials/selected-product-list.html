@@ -1,0 +1,25 @@
+<div class="panel panel-default">
+    <div class="panel-heading">Sản phẩm</div>
+    <div class="panel-body">
+        <p data-bind="foreach: products">
+            {{ $data := index .Site.Data .Site.Language.Lang }}
+            {{ $prices := $data.price }}
+            {{ range where .Site.Pages "Section" "product" }}
+            {{ if isset .Params "key" }}
+            <span data-bind="if: value > 0 && name == '{{ printf "%sAmt" .Params.key}}'">
+            <span>
+                                    {{ .Title }} -
+                                    {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
+                                    {{ $discounted_price := index $prices $dscnt_price }}
+                                    {{ if gt $discounted_price 0 }}{{ $discounted_price }}{{ else }}{{ index $prices .Params.key }}{{ end }}
+                                    </span>
+            <span> x </span>
+            <span data-bind="text: value"></span>
+            <br/>
+            </span>
+            {{ end }}
+            {{ end }}
+
+        </p>
+    </div>
+</div>

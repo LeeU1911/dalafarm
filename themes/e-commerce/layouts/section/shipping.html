@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+{{ partial "head.html" . }}
+
+<body id="page-top" class="index">
+{{ partial "nav-for-other-page.html" . }}
+{{ "<!-- terms and conditions Grid Section -->" | safeHTML }}
+<section id="{{ .Params.url }}" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ .Title }}</h2>
+            </div>
+        </div>
+        <p class="order-page-content">
+            {{ .Content }}
+        </p>
+        <div class="row">
+            <div class="col-md-12">
+                {{ partial "selected-product-list.html" . }}
+                <div class="panel panel-default">
+                    <div class="panel-heading">Đơn hàng</div>
+                    <div class="panel-body">
+                        <form class="form-horizontal" name="bill" id="bill">
+                            <fieldset>
+
+                                <!-- Form Name -->
+                                <legend>Thông tin giao hàng</legend>
+
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label" for="name">Tên</label>
+                                    <div class="col-md-8">
+                                        <input data-bind="value: info.name" id="name" name="name" type="text"
+                                               placeholder="Tên" class="form-control input-lg" required="">
+
+                                    </div>
+                                </div>
+
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label" for="phone1">Số điện thoại 1</label>
+                                    <div class="col-md-8">
+                                        <input data-bind="value: info.phone1" id="phone1" name="phone1" type="text"
+                                               placeholder="0901234567" class="form-control input-lg" required=""
+                                               value="09111">
+                                        <input data-bind="value: info.verificationCode" style="display: none;"
+                                               id="verificationCode" name="verificationCode" type="text"
+                                               placeholder="Mã xác thự" class="form-control">
+                                        <p id="showUserSmsSentMsg" style="display: none;">Mã xác thực đã được gửi tới
+                                            điện thoại của bạn. Vui lòng kiểm tra điện thoại.</p>
+                                        <button id="verifyCode" name="verifyCode" style="display: none;"
+                                                class="btn btn-lg btn-success">Xác thực mã
+                                        </button>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <button id="verifyPhone1" style="display: none;" name="verifyPhone1"
+                                                class="btn btn-lg btn-success">Xác thực
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label" for="phone2">Số điện thoại 2</label>
+                                    <div class="col-md-8">
+                                        <input data-bind="value: info.phone2" id="phone2" name="phone2" type="text"
+                                               placeholder="0123456789" class="form-control input-lg">
+
+                                    </div>
+                                </div>
+
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label" for="email">Địa chỉ email</label>
+                                    <div class="col-md-8">
+                                        <input data-bind="value: info.email" id="email" name="email" type="email"
+                                               placeholder="example@gmail.com" class="form-control input-lg">
+
+                                    </div>
+                                </div>
+
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label" for="address">Địa chỉ</label>
+                                    <div class="col-md-8">
+                                        <input data-bind="value: info.address" id="address" name="address" type="text"
+                                               placeholder="Tên số nhà, đường, phường, xã, quận/huyện"
+                                               class="form-control input-lg" required="" value="326/1 tân phước">
+
+                                    </div>
+                                </div>
+
+                                <!-- Select Basic -->
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label" for="province">Tỉnh/Thành phố</label>
+                                    <div class="col-md-8">
+                                        <select data-bind="value: info.province" id="province" name="province"
+                                                class="form-control input-lg">
+                                            <option value="TP HCM">TP HCM</option>
+                                            <option value="An Giang">An Giang</option>
+                                            <option value="Bà Rịa - Vũng Tàu">Bà Rịa - Vũng Tàu</option>
+                                            <option value="Bắc Giang">Bắc Giang</option>
+                                            <option value="Bắc Kạn">Bắc Kạn</option>
+                                            <option value="Bạc Liêu">Bạc Liêu</option>
+                                            <option value="Bắc Ninh">Bắc Ninh</option>
+                                            <option value="Bến Tre">Bến Tre</option>
+                                            <option value="Bình Định">Bình Định</option>
+                                            <option value="Bình Dương">Bình Dương</option>
+                                            <option value="Bình Phước">Bình Phước</option>
+                                            <option value="Bình Thuận">Bình Thuận</option>
+                                            <option value="Cà Mau">Cà Mau</option>
+                                            <option value="Cao Bằng">Cao Bằng</option>
+                                            <option value="Đắk Lắk">Đắk Lắk</option>
+                                            <option value="Đắk Nông">Đắk Nông</option>
+                                            <option value="Điện Biên">Điện Biên</option>
+                                            <option value="Đồng Nai">Đồng Nai</option>
+                                            <option value="Đồng Tháp">Đồng Tháp</option>
+                                            <option value="Gia Lai">Gia Lai</option>
+                                            <option value="Hà Giang">Hà Giang</option>
+                                            <option value="Hà Nam">Hà Nam</option>
+                                            <option value="Hà Tĩnh">Hà Tĩnh</option>
+                                            <option value="Hải Dương">Hải Dương</option>
+                                            <option value="Hậu Giang">Hậu Giang</option>
+                                            <option value="Hòa Bình">Hòa Bình</option>
+                                            <option value="Hưng Yên">Hưng Yên</option>
+                                            <option value="Khánh Hòa">Khánh Hòa</option>
+                                            <option value="Kiên Giang">Kiên Giang</option>
+                                            <option value="Kon Tum">Kon Tum</option>
+                                            <option value="Lai Châu">Lai Châu</option>
+                                            <option value="Lâm Đồng">Lâm Đồng</option>
+                                            <option value="Lạng Sơn">Lạng Sơn</option>
+                                            <option value="Lào Cai">Lào Cai</option>
+                                            <option value="Long An">Long An</option>
+                                            <option value="Nam Định">Nam Định</option>
+                                            <option value="Nghệ An">Nghệ An</option>
+                                            <option value="Ninh Bình">Ninh Bình</option>
+                                            <option value="Ninh Thuận">Ninh Thuận</option>
+                                            <option value="Phú Thọ">Phú Thọ</option>
+                                            <option value="Quảng Bình">Quảng Bình</option>
+                                            <option value="Quảng Nam">Quảng Nam</option>
+                                            <option value="Quảng Ngãi">Quảng Ngãi</option>
+                                            <option value="Quảng Ninh">Quảng Ninh</option>
+                                            <option value="Quảng Trị">Quảng Trị</option>
+                                            <option value="Sóc Trăng">Sóc Trăng</option>
+                                            <option value="Sơn La">Sơn La</option>
+                                            <option value="Tây Ninh">Tây Ninh</option>
+                                            <option value="Thái Bình">Thái Bình</option>
+                                            <option value="Thái Nguyên">Thái Nguyên</option>
+                                            <option value="Thanh Hóa">Thanh Hóa</option>
+                                            <option value="Thừa Thiên Huế">Thừa Thiên Huế</option>
+                                            <option value="Tiền Giang">Tiền Giang</option>
+                                            <option value="Trà Vinh">Trà Vinh</option>
+                                            <option value="Tuyên Quang">Tuyên Quang</option>
+                                            <option value="Vĩnh Long">Vĩnh Long</option>
+                                            <option value="Vĩnh Phúc">Vĩnh Phúc</option>
+                                            <option value="Yên Bái">Yên Bái</option>
+                                            <option value="Phú Yên">Phú Yên</option>
+                                            <option value="Cần Thơ">Cần Thơ</option>
+                                            <option value="Đà Nẵng">Đà Nẵng</option>
+                                            <option value="Hải Phòng">Hải Phòng</option>
+                                            <option value="Hà Nội">Hà Nội</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <!-- Button (Double) -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="save"></label>
+                    <div class="col-md-8">
+                        <button id="edit" name="save" class="btn btn-lg btn-default">Sửa đơn hàng</button>
+                        <button id="save" name="save" class="btn btn-lg btn-success">Tiếp tục</button>
+                        <button id="cancel" name="cancel" class="btn btn-lg btn-danger">Xóa làm lại</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+{{ if .Site.Params.params.footer.enable }}
+{{ partial "footer.html" . }}
+{{ end }}
+{{ partial "js_other_page.html" . }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script>
+<script>
+    $(function() {
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyABGxfllsBj-8tfsAH7t1qqcZvxZHRP25M",
+            authDomain: "dalafarm-bill.firebaseapp.com",
+            databaseURL: "https://dalafarm-bill.firebaseio.com",
+            projectId: "dalafarm-bill",
+            storageBucket: "dalafarm-bill.appspot.com",
+            messagingSenderId: "723108104918"
+        };
+        firebase.initializeApp(config);
+        firebase.auth().onAuthStateChanged(function(user) {
+            if (user) {
+                console.log("User already logged in");
+                initUIStateForLoginBasedOnUserState(user);
+            } else {
+                console.log("User has not logged in");
+                initUIStateForLoginBasedOnUserState(user);
+            }
+        });
+
+        var emptyBill = {
+            meta: {
+                date: undefined
+            },
+            data: {
+                info: {
+                    prefix: "",
+                    name: "",
+                    phone1: "",
+                    phone2: "",
+                    email: "",
+                    address: "",
+                    province: ""
+                },
+                products: []
+            }
+        };
+        var bill = JSON.parse(sessionStorage.getItem('order')) || emptyBill;
+        //using array for displaying purpose. Let's see if array or object works better to be the data model in db
+        function getProductsArrayFromBill(b) {
+            var products = b.products;
+            return $.map(products, function (val, key) {
+                return {name: key, value: val};
+            });
+        }
+        var viewModel = {
+            info:{
+                name: ko.observable((bill && bill.info && bill.info.name) || "Ha"),
+                phone1: ko.observable((bill && bill.info && bill.info.phone1) || "091155551"),
+                verificationCode: ko.observable(""),
+                phone2: ko.observable((bill && bill.info && bill.info.phone2) || ""),
+                email: ko.observable((bill && bill.info && bill.info.email) || ""),
+                address: ko.observable((bill && bill.info && bill.info.address) || "326/1 Tan Son"),
+                province: ko.observable((bill && bill.info && bill.info.province) || "Khánh Hòa")
+            },
+            products: getProductsArrayFromBill(bill)
+        };
+
+        // Activates knockout.js
+        ko.applyBindings(viewModel);
+
+        function initUIStateForLoginBasedOnUserState(user) {
+            if(user != null) {
+                $('#verifyPhone1').hide();
+                $('#verifyCode').hide();
+                $('#verificationCode').hide();
+                $('#showUserSmsSentMsg').hide();
+            } else {
+                $('#verifyPhone1').show();
+                $('#verifyCode').show();
+                $('#verificationCode').show();
+            }
+        }
+
+        function toggleFieldsWhenSendingSmsVerificationCode(){
+            $('#verifyCode').toogle();
+            $('#verificationCode').toggle();
+            $('#showUserSmsSentMsg').toggle();
+        }
+
+        function clearForm() {
+            $('#bill')[0].reset();
+        }
+        window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('verifyCode', {
+            'size': 'invisible',
+            'callback': function(response) {
+                // reCAPTCHA solved, allow signInWithPhoneNumber.
+            }
+        });
+        function getPhoneNumber() {
+            var trimmedNumber = viewModel.info.phone1();
+            return "+65" + trimmedNumber.substring(1);
+        }
+        $('#verifyPhone1').on('click', function(e){
+            e.preventDefault();
+            var phoneNumber = getPhoneNumber();
+            console.log("phone number is " + phoneNumber);
+            var appVerifier = window.recaptchaVerifier;
+            firebase.auth().signInWithPhoneNumber(phoneNumber, appVerifier)
+                .then(function (confirmationResult) {
+                    // SMS sent. Prompt user to type the code from the message, then sign the
+                    // user in with confirmationResult.confirm(code).
+                    $('#showUserSmsSentMsg').show();
+                    window.confirmationResult = confirmationResult;
+                }).catch(function (error) {
+                alert("Somethine wrong! SMS not sent!");
+                console.log("Somethine wrong! SMS not sent! " + error);
+                // re-render captcha
+                window.recaptchaVerifier.render().then(function(widgetId) {
+                    grecaptcha.reset(widgetId);
+                });
+            });
+        });
+        $('#verifyCode').on('click', function (e) {
+            e && e.preventDefault();
+            var code = viewModel.info.verificationCode();
+            window.confirmationResult.confirm(code).then(function (result) {
+                // User signed in successfully.
+                console.log("User logged in!");
+                initUIStateForLoginBasedOnUserState();
+            }).catch(function (error) {
+                alert("Something wrong! Verification code incorrect!");
+                console.log("Something wrong! Verification code incorrect! " + error);
+            });
+        });
+
+        $('#edit').on('click', function (e) {
+            e.preventDefault();
+            window.location = "/order";
+        });
+
+        $('#cancel').on('click', function(e){
+            e.preventDefault();
+            clearForm();
+        });
+
+        $('#save').on('click', function (e) {
+            e.preventDefault();
+            var billFormUI = ko.toJS(viewModel);
+            bill.meta = {};
+            bill.meta.date = new Date().getTime();
+            bill.info = billFormUI.info;
+            saveToSession(bill);
+            window.location = "/confirm";
+        });
+
+        function saveToSession(bill) {
+            sessionStorage.setItem("order", JSON.stringify(bill));
+        }
+    });
+</script>
+
+</body>
+</html>
