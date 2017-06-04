@@ -89,7 +89,12 @@
                             <label class="col-md-2 control-label" for="phone1">Số điện thoại 1</label>
                             <div class="col-md-8">
                                 <input data-bind="value: info.phone1" id="phone1" name="phone1" type="text" placeholder="0901234567" class="form-control input-lg" required="" value="09111">
-
+                                <input data-bind="value: info.verificationCode" id="verificationCode" name="verificationCode" type="text" placeholder="Mã xác thự" class="form-control">
+                                <p id="showUserSmsSentMsg" style="display: none;">Mã xác thực đã được gửi tới điện thoại của bạn. Vui lòng kiểm tra điện thoại.</p>
+                                <button id="verifyCode" name="verifyCode" class="btn btn-lg btn-success">Xác thực mã</button>
+                            </div>
+                            <div class="col-md-2">
+                                <button id="verifyPhone1" name="verifyPhone1" class="btn btn-lg btn-success">Xác thực</button>
                             </div>
                         </div>
 
@@ -217,8 +222,27 @@
 {{ end }}
 {{ partial "js_other_page.html" . }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script>
 <script>
     $(function() {
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyABGxfllsBj-8tfsAH7t1qqcZvxZHRP25M",
+            authDomain: "dalafarm-bill.firebaseapp.com",
+            databaseURL: "https://dalafarm-bill.firebaseio.com",
+            projectId: "dalafarm-bill",
+            storageBucket: "dalafarm-bill.appspot.com",
+            messagingSenderId: "723108104918"
+        };
+        firebase.initializeApp(config);
+        firebase.auth().onAuthStateChanged(function(user) {
+            if (user) {
+                console.log("User already logged in");
+            } else {
+                console.log("User has not logged in")
+            }
+        });
+
         var emptyBill = {
             meta: {
                 date: undefined
@@ -241,7 +265,8 @@
         var viewModel = {
             info:{
                 name: ko.observable((bill && bill.info && bill.info.name) || "Ha"),
-                phone1: ko.observable((bill && bill.info && bill.info.phone1) || "0911"),
+                phone1: ko.observable((bill && bill.info && bill.info.phone1) || "091155551"),
+                verificationCode: ko.observable(""),
                 phone2: ko.observable((bill && bill.info && bill.info.phone2) || ""),
                 email: ko.observable((bill && bill.info && bill.info.email) || ""),
                 address: ko.observable((bill && bill.info && bill.info.address) || "326/1 Tan Son"),
@@ -267,9 +292,62 @@
         // Activates knockout.js
         ko.applyBindings(viewModel);
 
+        function initUIState() {
+            if(firebase.auth().currentUser != null) {
+                $('#verifyPhone1').hide();
+                $('#verifyCode').hide();
+                $('#verificationCode').hide();
+                $('#showUserSmsSentMsg').hide();
+            }
+        }
+
+        initUIState();
         function clearForm() {
             $('#bill')[0].reset();
         }
+        window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('verifyCode', {
+            'size': 'invisible',
+            'callback': function(response) {
+                // reCAPTCHA solved, allow signInWithPhoneNumber.
+            }
+        });
+        function getPhoneNumber() {
+            var trimmedNumber = viewModel.info.phone1();
+            return "+65" + trimmedNumber.substring(1);
+        }
+        $('#verifyPhone1').on('click', function(e){
+            e.preventDefault();
+            var phoneNumber = getPhoneNumber();
+            console.log("phone number is " + phoneNumber);
+            var appVerifier = window.recaptchaVerifier;
+            firebase.auth().signInWithPhoneNumber(phoneNumber, appVerifier)
+                .then(function (confirmationResult) {
+                    // SMS sent. Prompt user to type the code from the message, then sign the
+                    // user in with confirmationResult.confirm(code).
+                    $('#showUserSmsSentMsg').show();
+                    window.confirmationResult = confirmationResult;
+                }).catch(function (error) {
+                alert("Somethine wrong! SMS not sent!");
+                console.log("Somethine wrong! SMS not sent! " + error);
+                // re-render captcha
+                window.recaptchaVerifier.render().then(function(widgetId) {
+                    grecaptcha.reset(widgetId);
+                });
+            });
+        });
+        $('#verifyCode').on('click', function (e) {
+            e && e.preventDefault();
+            var code = viewModel.info.verificationCode();
+            window.confirmationResult.confirm(code).then(function (result) {
+                // User signed in successfully.
+                console.log("User logged in!");
+                initUIState();
+            }).catch(function (error) {
+                alert("Something wrong! Verification code incorrect!");
+                console.log("Something wrong! Verification code incorrect! " + error);
+            });
+        });
+
 
         $('#cancel').on('click', function(e){
             e.preventDefault();
