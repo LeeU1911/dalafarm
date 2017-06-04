@@ -28,7 +28,26 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Sản phẩm</div>
                 <div class="panel-body">
-                    <p data-bind="text: products"></p>
+                    <p data-bind="foreach: products">
+                        {{ $data := index .Site.Data .Site.Language.Lang }}
+                        {{ $prices := $data.price }}
+                        {{ range where .Site.Pages "Section" "product" }}
+                            {{ if isset .Params "key" }}
+                                <span data-bind="if: value > 0 && name == '{{ printf "%sAmt" .Params.key}}'">
+                                    <span>
+                                    {{ .Title }} -
+                                    {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
+                                    {{ $discounted_price := index $prices $dscnt_price }}
+                                    {{ if gt $discounted_price 0 }}{{ $discounted_price }}{{ else }}{{ index $prices .Params.key }}{{ end }}
+                                    </span>
+                                    <span> x </span>
+                                    <span data-bind="text: value"></span>
+                                    <br/>
+                                </span>
+                            {{ end }}
+                        {{ end }}
+
+                    </p>
                 </div>
             </div>
         </div>
@@ -65,6 +84,13 @@
 
         var bill = JSON.parse(sessionStorage.getItem('order'));
 
+        //using array for displaying purpose. Let's see if array or object works better to be the data model in db
+        function getProductsArrayFromBill(b) {
+            var products = b.products;
+            return $.map(products, function (val, key) {
+                return {name: key, value: val};
+            });
+        }
         function AppViewModel() {
             this.date = new Date(bill.meta.date);
             this.name = bill.info.name;
@@ -73,7 +99,7 @@
             this.email = bill.info.email;
             this.address = bill.info.address;
             this.province = bill.info.province;
-            this.products = bill.products;
+            this.products = getProductsArrayFromBill(bill);
         }
 
         // Activates knockout.js
@@ -89,7 +115,6 @@
             window.location = "/order";
         });
         function saveToDb(bill) {
-            var database = firebase.database();
             var dbRef = firebase.database().ref('bills/');
             var newPostRef = dbRef.push();
             newPostRef.set(bill);
