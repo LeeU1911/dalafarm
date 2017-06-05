@@ -96,111 +96,50 @@
             window.location = "/order";
         });
         function saveToDb(bill) {
+            bill.status = "Ordered";
             var dbRef = firebase.database().ref('bills/');
             var newPostRef = dbRef.push();
             newPostRef.set(bill).then(function(response){
                 console.log("Data saved successfully!");
-                sessionStorage.removeItem('order');
+                sendToEmailWebhook(bill);
+                sessionStorage.setItem('order', JSON.stringify(bill));
                 window.location = "/thank-you";
             });
-
         }
 
-        function humanize(bill) {
-            var data = bill.data;
-            var meta = bill.meta;
-            var output = "<br><br>Ngày " + formatDate(new Date(meta.date)) +
-                "<br><p>Đơn hàng của " + translate(data.prefix) + " " + data.name + ", điện thoại " + data.phone;
-            var phone2 = data.phone2?", điện thoại 2: " + data.phone2: "";
-            output += phone2;
-            var address = "<br>Địa chỉ: " + data.address + ", " + data.province;
-            output += address;
-            output += "<br>Sản phẩm: " + product(data);
-            output += "<br>Phí ship: " + shipCost(data.province);
-            output += "<br> Tổng tiền: " + calcCost(data) + "</p>";
-            return output;
-        }
-        function formatDate(date) {
-            var monthNames = [
-                "January", "February", "March",
-                "April", "May", "June", "July",
-                "August", "September", "October",
-                "November", "December"
-            ];
-
-            var day = date.getDate();
-            var monthIndex = date.getMonth();
-            var year = date.getFullYear();
-
-            return day + ' ' + monthNames[monthIndex] + ' ' + year;
+        function sendToEmailWebhook(order){
+            var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/98r7zl/";
+            var payload = {"to":"", "from":"info@dalafarm.com.vn", "content":"", "orderId": "" };
+            var htmlBody = prepareBody(order);
+            payload.to = order.info.email;
+            payload.orderId = order.id;
+            payload.content = htmlBody;
+            $.ajax({
+                type: "POST",
+                url: webhookURL,
+                data: payload,
+                success: function(res){ console.log(res);},
+                dataType: "json"
+            });
         }
 
-        function product(data) {
-            var productStr = "";
-            if (data.beetroot != "0") {
-                productStr += "<br>Bột củ dền 50g: " + data.beetroot + "gói";
-            }
-            if (data.broccoli != "0") {
-                productStr += "<br>Bột súp lơ xanh 50g: " + data.broccoli + "gói";
-            }
-            if (data.carrot != "0") {
-                productStr += "<br>Bột cà rốt 50g: " + data.carrot + "gói";
-            }
-            if (data.cocoa != "0") {
-                productStr += "<br>Bột cacao 50g: " + data.cocoa + "gói";
-            }
-            if (data.heartleaf != "0") {
-                productStr += "<br>Bột rau diếp cá 50g: " + data.heartleaf + "gói";
-            }
-            if (data.matcha != "0") {
-                productStr += "<br>Bột trà xanh 50g: " + data.matcha + "gói";
-            }
-            if (data.pennywort != "0") {
-                productStr += "<br>Bột rau má 50g: " + data.pennywort + "gói";
-            }
-            if (data.rainbow != "0") {
-                productStr += "<br>Bột rau củ Rainbow 50g: " + data.rainbow + "hộp";
-            }
-            return productStr;
+        function prepareBody(order){
+            var head = "<!DOCTYPE html> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> </head> <p>DalaFarm xin cám ơn bạn đã đặt hàng.</p> <p>Bên dưới là nội dung đơn hàng của bạn</p> <p>Mã đơn hàng:" + order.id;
+            var middle = "</p> <table> <thead> <tr> <th>Tên</th> <th>Số lượng</th> <th>Đơn giá</th> <th>Thành tiền</th> </tr> </thead> <tbody> <tr>";
+            var orderContent = buildOrderContent(order.products);
+            var shipping = "</tr> </tbody> </table> <p>Phí giao hàng:" + order.shippingCost + "</p>";
+            var total = "<p>Tổng tiền: " + order.totalCost + "</p>";
+            var footer = "<p>Xin cám ơn bạn đã ủng hộ DalaFarm.</p>  <p>Nếu có vấn đề hay câu hỏi gì, xin vui lòng liên hệ fanpage: <a href=\"https://fb.me/dalafarm.com.vn\">Facebook DalaFarm</a> hoặc website <a href=\"https://dalafarm.com.vn\">DalaFarm</a></p>";
+            return head + middle + orderContent + shipping + total + footer;
         }
 
-        function shipCost(province) {
-            return "0 VNĐ";
+        function buildOrderContent(products){
+            return "<td>Bột súp lơ xanh</td> <td>1</td> <td>119,000</td> <td>119,000</td> </tr><tr> <td>Bột cà rốt</td> <td>1</td> <td>119,000</td> <td>119,000</td>";
         }
-        function calcCost(data) {
-            return "0 VNĐ";
-        }
-        function translate(keyword) {
-            if(keyword) {
-                switch (keyword){
-                    case "Male": return "anh";
-                    case "Female": return "chị";
-                    case "phone": return "\nĐiện thoại";
-                    case "phone2": return "\nĐiện thoại 2";
-                    case "address": return "\nĐịa chỉ";
-                    case "province": return "\nTỉnh thành";
-                    case "products": return "\n";
-                    case "carrot": return "";
-                    case "heartleaf": return "";
-                    case "pennywort": return "";
-                    case "matcha": return "";
-                    case "cocoa": return "";
-                    case "beetroot": return "";
-                    case "broccoli": return "";
-                    case "rainbow": return "";
-                    case "1": return ": 1 gói"
-                    case "2": return ": 2 gói"
-                    case "3": return ": 3 gói"
-                    case "4": return ": 4 gói"
-                    case "5": return ": 5 gói"
-                    case "6": return ": 6 gói"
-                    default: return keyword;
-                }
 
 
-            }
-        }
     });
+
 </script>
 </body>
 </html>
