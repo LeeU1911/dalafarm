@@ -8,6 +8,7 @@ product_line = ""
 tags = ["veggie-powder","purple-sweet-potato"]
 thumbnail = "purple-sweet-potato-1.jpg"
 title = "Bột khoai lang tím (50g)"
+weight = 1
 aliases = ["/san-pham/bot-khoai-lang-tim-50g","/san-pham/bot-khoai-lang-50g"]
 key = "purpleswpotato"
 +++

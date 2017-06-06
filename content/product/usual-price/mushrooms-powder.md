@@ -8,6 +8,7 @@ product_line = ""
 tags = ["veggie-powder","mushrooms"]
 thumbnail = "mushrooms-1.jpg"
 title = "Bột Nấm (50g)"
+weight = 1
 aliases = ["/san-pham/bot-nam-50g","/san-pham/bot-nam-bao-ngu-50g"]
 key = "mushroom"
 +++

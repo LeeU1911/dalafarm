@@ -9,6 +9,7 @@ tags = ["veggie-powder","Lotusseeds"]
 thumbnail = "lotusseeds-1.jpg"
 title = "Bột Hạt sen (50g)"
 weight = 1
+aliases = ["/san-pham/bot-sen-50g","/san-pham/bot-hat-sen-50g"]
 key = "lotus"
 +++
 
