@@ -2,12 +2,13 @@
 date = "2017-06-06T08:05:45+08:00"
 publishdate = "2017-06-06T08:05:45+08:00"
 description = "Bột Nấm đóng gói zip 50 gram"
-price = "40,000"
+price = "SẮP RA MẮT - 135,000"
 img = ["mushrooms-1.jpg","mushrooms-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","mushrooms"]
 thumbnail = "mushrooms-1.jpg"
 title = "Bột Nấm (50g)"
+aliases = ["/san-pham/bot-nam-50g","/san-pham/bot-nam-bao-ngu-50g"]
 key = "mushroom"
 +++
 

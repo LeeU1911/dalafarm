@@ -2,12 +2,13 @@
 date = "2017-06-06T08:05:45+08:00"
 publishdate = "2017-06-06T08:05:45+08:00"
 description = "Bột khoai lang tím đóng gói zip 50 gram"
-price = "40,000"
+price = "SẮP RA MẮT - 85,000"
 img = ["purple-sweet-potato-1.jpg","purple-sweet-potato-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","purple-sweet-potato"]
 thumbnail = "purple-sweet-potato-1.jpg"
 title = "Bột khoai lang tím (50g)"
+aliases = ["/san-pham/bot-khoai-lang-tim-50g","/san-pham/bot-khoai-lang-50g"]
 key = "purpleswpotato"
 +++
 
