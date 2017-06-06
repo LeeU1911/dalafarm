@@ -2,7 +2,7 @@
 date = "2017-06-06T08:05:45+08:00"
 publishdate = "2017-06-06T08:05:45+08:00"
 description = "Bột Hạt sen đóng gói zip 50 gram"
-price = "90,000"
+price = "119,000"
 img = ["lotusseeds-1.jpg","lotusseeds-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Lotusseeds"]
