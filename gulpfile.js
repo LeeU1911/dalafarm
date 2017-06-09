@@ -11,6 +11,7 @@ var htmlmin = require('gulp-htmlmin');
 gulp.task('minify-html', function() {
     return gulp.src('public/**/*.html')
         .pipe(htmlmin({collapseWhitespace: true}))
+        .pipe(gzip({ append: false }))
         .pipe(gulp.dest('public'));
 });
 
