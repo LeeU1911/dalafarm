@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://preview.dalafarm.com.vn/"
+baseurl = "https://dalafarm.com.vn/"
 languageCode = "vi-vn"
 title = "DalaFarm"
 theme = "e-commerce"
@@ -7,6 +7,7 @@ defaultContentLanguage = "vi"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-87063471-2"
 disqusShortname = "dalafarm"
+paginate = 8
 
 ##########################################
 [Languages]
@@ -19,10 +20,21 @@ weight = 0
 product = "/san-pham/:slug"
 
 [[Languages.vi.menu.main]]
-url    = "/blog"
+url    = "#"
 name   = "Blog"
 weight = 1
 identifier = "blog"
+[[Languages.vi.menu.main]]
+url    = "/blog"
+name   = "DalaFarm Blog"
+weight = 1
+parent = "blog"
+[[Languages.vi.menu.main]]
+url    = "/dala-kitchen"
+name   = "DalaFarm Kitchen"
+weight = 2
+parent = "blog"
+
 [[Languages.vi.menu.main]]
 url    = "/#san-pham"
 name   = "Sản Phẩm"
@@ -67,9 +79,9 @@ weight = 5
 
 [Languages.vi.params]
 name = "DalaFarm"
-description = """DalaFarm cung cấp các sản phẩm bột dâu tây, cần tây, củ dền, cà rốt, diếp cá, cả bó xôi, cà chua, rau má,
-                 hạt sen cho bé ăn dặm. Ngoài ra, DalaFarm còn cung cấp bột rau củ hỗn hợp để pha thức uống giải độc detox
-                 cùng với dầu tỏi, tỏi đen và các sản phẩm từ tỏi."""
+description = """DalaFarm cung cấp các sản phẩm bột rau củ, bao gồm: dâu tây, cần tây, củ dền, cà rốt, diếp cá, cả bó xôi, cà chua, rau má,
+                 hạt sen. DalaFarm còn cung cấp bột rau củ hỗn hợp để pha thức uống giải độc detox
+                 và dầu tỏi."""
 
 # Link custom assets relative to /static
 custom_css = []
@@ -111,7 +123,7 @@ buttonText = "Xem sản phẩm"
 [Languages.vi.params.product]
 enable = true
 title = "Sản phẩm"
-subtitle = "Danh mục sản phẩm của Dalafarm"
+subtitle = "Danh mục sản phẩm của DalaFarm"
 path = "san-pham"
 
 # About section
@@ -231,10 +243,13 @@ title = "Liên hệ với DalaFarm"
 [Languages.vi.params.footer]
 enable = true
 copyright = "Bản quyền thuộc DalaFarm (C) 2017"
-info = """### DalaFarm
-<i class="fa fa-phone"></i> [0906 951 498](tel:0906 951 498) hoặc <i class="fa fa-phone"></i> [0918 241 066](tel:0918 241 066)
+info = """##### DALAFARM - CÔNG TY TNHH SXTM CHUÔNG XANH
 
-<i class="fa fa-envelope"></i> [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
+<i class="fa fa-building-o"></i> 317 Lô D, CC Lạc Long Quân, Phường 5, Quận 11, TP.HCM
+
+<i class="fa fa-phone"></i> [0906 951 498](tel:0906 951 498) | [0918 241 066](tel:0918 241 066)
+
+<i class="fa fa-envelope"></i> [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn) | [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn)
 
 <i class="fa fa-calendar"></i> Thứ 2 - thứ 7 <i class="fa fa-clock-o"></i> 8:00 - 17:00
 """
@@ -312,7 +327,7 @@ weight = 5
 [Languages.en.params]
 name = "DalaFarm"
 description = """DalaFarm provides vegetables powders such as strawberry, celery, beetroot, carrot, heartleaf, spinach, tomato, pennywort,
-                 lotus seed powder for baby food. In addition, DalaFarm also produces mixed vegetables for detox drink, along with garlic oil, black garlic and garlic-based products.
+                 lotus seed powder for baby. DalaFarm also produces mixed vegetables for detox drink, along with garlic oil.
                  """
 
 # Link custom assets relative to /static
@@ -475,14 +490,16 @@ title = "Contact Us"
 [Languages.en.params.footer]
 enable = true
 copyright = "Copyright DalaFarm (C) 2017"
-info = """### DalaFarm
-<i class="fa fa-phone"></i> [0906 951 498](tel:0906 951 498) or <i class="fa fa-phone"></i> [0918 241 066](tel:0918 241 066)
+info = """##### DALAFARM - CHUÔNG XANH PRODUCING AND TRADING CO. LTD.
 
-<i class="fa fa-envelope"></i> [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
+<i class="fa fa-building-o"></i> 317 block D, Lac Long Quan apartment, Ward 5, District 11, HCMC, Vietnam
+
+<i class="fa fa-phone"></i> [0906 951 498](tel:0906 951 498) | [0918 241 066](tel:0918 241 066)
+
+<i class="fa fa-envelope"></i> [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn) | [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn)
 
 <i class="fa fa-calendar"></i> Monday - Saturday <i class="fa fa-clock-o"></i> 8:00 - 17:00
 """
-
 [[Languages.en.params.footer.quicklinks]]
   text = "Terms and Conditions"
   link = "/term-condition"
