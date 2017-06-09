@@ -3,9 +3,7 @@ go:
   - 1.7.1
 sudo: required
 before_install:
-  - chmod +x s3_prod_push.sh
-  - pip install --user awscli
-  - export PATH=$PATH:$HOME/.local/bin
+  - chmod +x s3_preview_push.sh
 install:
   - sudo pip install Pygments
   - go get github.com/spf13/hugo
@@ -19,13 +17,6 @@ before_deploy: pip install --user s3cmd
 deploy:
   provider: script
   skip_cleanup: true
-  script: ./s3_prod_push.sh
+  script: ./s3_preview_push.sh
   on:
-    branch: master
-after_deploy:
-  # Allow `awscli` to make requests to CloudFront.
-  - aws configure set preview.cloudfront true
-  - aws configure set access_key $AWS_ACCESS_KEY
-  - aws configure set secret_key $AWS_SECRET_KEY
-  # Invalidate every object in the targeted distribution.
-  - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+    branch: preview
