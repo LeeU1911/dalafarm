@@ -6,6 +6,13 @@ var less = require('gulp-less');
 var cssMin = require('gulp-minify-css');
 // var imagemin = require('gulp-imagemin');
 var gzip = require('gulp-gzip');
+var htmlmin = require('gulp-htmlmin');
+
+gulp.task('minify-html', function() {
+    return gulp.src('public/**/*.html')
+        .pipe(htmlmin({collapseWhitespace: true}))
+        .pipe(gulp.dest('public'));
+});
 
 //script paths
 var jsFiles = 'themes/e-commerce/assets/js/**/*.js',
