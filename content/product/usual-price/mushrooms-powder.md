@@ -21,7 +21,7 @@ sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp ch
 VSATTP Việt Nam.
 
 ## Thành phần: 
-100% Nấm bào ngư 
+100% Nấm Bào Ngư 
 Không hóa chất, không hương liệu
 
 ## Công dụng: 

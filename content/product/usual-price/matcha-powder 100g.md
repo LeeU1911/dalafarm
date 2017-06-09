@@ -1,7 +1,7 @@
 +++
 date = "2017-05-07T14:31:45+08:00"
 publishdate = "2017-06-01T00:00:00+07:00"
-description = "Bột Trà xanh đóng gói zip 100 gram"
+description = "Bột Trà Xanh đóng gói zip 100 gram"
 price = "175,000"
 img = ["matcha-100g-1.jpg","matcha-100g-2.jpg"]
 product_line = ""
@@ -21,7 +21,7 @@ sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp ch
 VSATTP Việt Nam.
 
 ### Thành phần: 
-100% Trà xanh
+100% Trà Xanh
 Không hóa chất, không hương liệu
 
 ### Công dụng: 

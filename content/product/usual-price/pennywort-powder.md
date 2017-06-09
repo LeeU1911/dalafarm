@@ -1,19 +1,19 @@
 +++
 date = "2017-05-07T14:31:45+08:00"
 publishdate = "2017-06-01T00:00:00+07:00"
-description = "Bột Rau má đóng gói zip 50 gram"
+description = "Bột Rau Má đóng gói zip 50 gram"
 price = "65,000"
 img = ["pennywort-50g-1.jpg","pennywort-50g-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","pennywort-powder"]
 thumbnail = "pennywort-50g-1.jpg"
-title = "Bột Rau má (50g)"
+title = "Bột Rau Má (50g)"
 url = "/san-pham/bot-rau-ma-50g"
 aliases = ["/san-pham/bột-rau-má-50g"]
 weight = 1
 +++
 
-# Bột Rau má DalaFarm 
+# Bột Rau Má DalaFarm 
                         
 Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
@@ -21,7 +21,7 @@ sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp ch
 VSATTP Việt Nam.
 
 ### Thành phần: 
-100% Rau má
+100% Rau Má
 Không hóa chất, không hương liệu
 
 ### Công dụng: 

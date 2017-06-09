@@ -1,19 +1,19 @@
 +++
 date = "2017-05-07T14:31:45+08:00"
 publishdate = "2017-06-01T00:00:00+07:00"
-description = "Bột củ dền đóng gói zip 50 gram"
+description = "Bột Củ Dền đóng gói zip 50 gram"
 price = "100,000"
 img = ["beetroot-1.jpg","beetroot-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","beetroot"]
 thumbnail = "beetroot-1.jpg"
-title = "Bột củ dền (50g)"
+title = "Bột Củ Dền (50g)"
 url = "/san-pham/bot-cu-den-50g"
 aliases = ["/san-pham/bột-củ-dền-50g"]
 weight = 1
 +++
 
-# Bột củ dền DalaFarm 
+# Bột Củ Dền DalaFarm 
 
 Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
@@ -21,7 +21,7 @@ sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp ch
 VSATTP Việt Nam.
 
 ### Thành phần: 
-100% Củ dền
+100% Củ Dền
 Không hóa chất, không hương liệu
 
 ### Công dụng: 

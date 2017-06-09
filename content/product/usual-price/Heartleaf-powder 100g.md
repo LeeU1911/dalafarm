@@ -1,19 +1,19 @@
 +++
 date = "2017-05-07T14:31:45+08:00"
 publishdate = "2017-06-01T00:00:00+07:00"
-description = "Bột Rau diếp cá đóng gói zip 100 gram"
+description = "Bột Rau Diếp Cá đóng gói zip 100 gram"
 price = "165,000"
 img = ["heartleaf-100g-1.jpg","heartleaf-100g-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","heartleaf-powder"]
 thumbnail = "heartleaf-100g-1.jpg"
-title = "Bột Rau diếp cá (100g)"
+title = "Bột Rau Diếp Cá (100g)"
 url = "/san-pham/bot-rau-diep-ca-100g"
 aliases = ["/san-pham/bột-rau-diếp-cá-100g"]
 weight = 1
 +++
 
-# Bột Rau diếp cá DalaFarm 
+# Bột Rau Diếp Cá DalaFarm 
                              
 Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
@@ -21,7 +21,7 @@ sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp ch
 VSATTP Việt Nam.
 
 ### Thành phần: 
-100% Rau diếp cá
+100% Rau Diếp Cá
 Không hóa chất, không hương liệu
 
 ### Công dụng: 

@@ -1,19 +1,19 @@
 +++
 date = "2017-05-07T14:31:45+08:00"
 publishdate = "2017-06-01T00:00:00+07:00"
-description = "Bột Cà chua đóng gói zip 50 gram"
+description = "Bột Cà Chua đóng gói zip 50 gram"
 price = "119,000"
 img = ["tomato-1.jpg","tomato-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","tomato"]
 thumbnail = "tomato-1.jpg"
-title = "Bột Cà chua (50g)"
+title = "Bột Cà Chua (50g)"
 url = "/san-pham/bot-ca-chua-50g"
 aliases = ["/san-pham/bột-cà-chua-50g"]
 weight = 1
 +++
 
-# Bột Cà chua DalaFarm 
+# Bột Cà Chua DalaFarm 
 
 Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
@@ -21,7 +21,7 @@ sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp ch
 VSATTP Việt Nam.
 
 ### Thành phần: 
-100% Cà chua
+100% Cà Chua
 Không hóa chất, không hương liệu
 
 ### Công dụng: 

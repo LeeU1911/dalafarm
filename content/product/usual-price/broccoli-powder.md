@@ -1,19 +1,19 @@
 +++
 date = "2017-05-07T14:31:45+08:00"
 publishdate = "2017-06-01T00:00:00+07:00"
-description = "Bột súp lơ xanh đóng gói zip 50 gram"
+description = "Bột Súp Lơ Xanh đóng gói zip 50 gram"
 price = "119,000"
 img = ["broccoli-1.jpg","broccoli-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","broccoli"]
 thumbnail = "broccoli-1.jpg"
-title = "Bột súp lơ xanh (50g)"
+title = "Bột Súp Lơ Xanh (50g)"
 url = "/san-pham/bot-sup-lo-xanh-50g"
 aliases = ["/san-pham/bột-súp-lơ-xanh-50g"]
 weight = 1
 +++
 
-# Bột Súp lơ DalaFarm 
+# Bột Súp Lơ DalaFarm 
             
 Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
@@ -21,7 +21,7 @@ sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp ch
 VSATTP Việt Nam.
 
 ### Thành phần: 
-100% Súp lơ
+100% Súp Lơ
 Không hóa chất, không hương liệu
 
 ### Công dụng: 

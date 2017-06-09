@@ -7,20 +7,20 @@ img = ["cocoa-1.jpg","cocoa-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","cocoa"]
 thumbnail = "cocoa-1.jpg"
-title = "Bột cacao (100g)"
+title = "Bột Cacao (100g)"
 url = "/san-pham/bot-ca-cao-50g"
 aliases = ["/san-pham/bột-ca-cao-100g"]
 weight = 1
 +++
 
-# Bột cacao DalaFarm 
+# Bột Cacao DalaFarm 
                        
 Được chọn lọc và chế biến từ những hạt cacao  đã lên men, 
 không hóa chất tại Lâm Đồng. Bột được rang, tách vỏ,  nghiền, ép tách bơ và đánh tơi 
 tạo thành bột cacao nguyên chất đạt chứng nhận VSATTP Việt Nam.
 
 ### Thành phần: 
-100% Ca cao 
+100% Cacao 
 Không hóa chất, không hương liệu
 
 ### Công dụng: 

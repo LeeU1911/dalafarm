@@ -1,19 +1,19 @@
 +++
 date = "2017-06-06T08:05:45+08:00"
 publishdate = "2017-06-06T08:05:45+08:00"
-description = "Bột rau bó xôi đóng gói zip 50 gram"
+description = "Bột Rau Bó Xôi đóng gói zip 50 gram"
 price = "SẮP RA MẮT - 110,000"
 img = ["spinach-1.jpg","spinach-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","spinach"]
 thumbnail = "spinach-1.jpg"
-title = "Bột rau bó xôi (50g)"
+title = "Bột Rau Bó Xôi (50g)"
 weight = 1
 aliases = ["/san-pham/bot-rau-bo-xoi-50g","/san-pham/bot-cai-bo-xoi-50g"]
 key = "spinach"
 +++
 
-# Bột rau bó xôi DalaFarm (Bột cải bó xôi DalaFarm)
+# Bột Rau Bó Xôi DalaFarm (Bột Cải Bó Xôi DalaFarm)
 
 Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
@@ -21,11 +21,11 @@ sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp ch
 VSATTP Việt Nam.
 
 ## Thành phần: 
-100% rau bó xôi (cả bó xôi)
+100% Rau Bó Xôi (Cải Bó Xôi)
 Không hóa chất, không hương liệu
 
 ## Công dụng: 
-Bó xôi chứa vitamin K, A, E, B2, B6, B1, C, 
+Rau bó xôi chứa vitamin K, A, E, B2, B6, B1, C, 
 mangan, magiê, sắt, đồng, canxi, kali. 
 Có chất xơ ăn kiêng, phốt pho, kẽm, 
 protein choline, axit béo omega-3. 

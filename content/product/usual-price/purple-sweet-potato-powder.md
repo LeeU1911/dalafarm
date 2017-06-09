@@ -1,19 +1,19 @@
 +++
 date = "2017-06-06T08:05:45+08:00"
 publishdate = "2017-06-06T08:05:45+08:00"
-description = "Bột khoai lang tím đóng gói zip 50 gram"
+description = "Bột Khoai Lang Tím đóng gói zip 50 gram"
 price = "SẮP RA MẮT - 85,000"
 img = ["purple-sweet-potato-1.jpg","purple-sweet-potato-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","purple-sweet-potato"]
 thumbnail = "purple-sweet-potato-1.jpg"
-title = "Bột khoai lang tím (50g)"
+title = "Bột Khoai Lang Tím (50g)"
 weight = 1
 aliases = ["/san-pham/bot-khoai-lang-tim-50g","/san-pham/bot-khoai-lang-50g"]
 key = "purpleswpotato"
 +++
 
-# Bột khoai lang tím DalaFarm
+# Bột Khoai Lang Tím DalaFarm
 
 Được chọn lọc và chế biến từ những nguyên 
 liệu tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm 
@@ -21,7 +21,7 @@ liệu tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sả
 nhận VSATTP Việt Nam.
 
 ## Thành phần: 
-100% khoai lang tím 
+100% Khoai Lang Tím 
 Không hóa chất, không hương liệu
 
 ## Công dụng: 

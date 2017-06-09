@@ -1,19 +1,19 @@
 +++
 date = "2017-05-07T14:31:45+08:00"
 publishdate = "2017-06-01T00:00:00+07:00"
-description = "Bột Chùm ngây đóng gói zip 50 gram"
+description = "Bột Chùm Ngây đóng gói zip 50 gram"
 price = "65,000"
 img = ["moringa-1.jpg","moringa-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","moringa"]
 thumbnail = "moringa-1.jpg"
-title = "Bột Chùm ngây (50g)"
+title = "Bột Chùm Ngây (50g)"
 url = "/san-pham/bot-chum-ngay-50g"
 aliases = ["/san-pham/bột-chùm-ngây-50g"]
 weight = 1
 +++
 
-# Bột Chùm ngây DalaFarm 
+# Bột Chùm Ngây DalaFarm 
                            
 Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
@@ -21,7 +21,7 @@ sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp ch
 VSATTP Việt Nam.
 
 ### Thành phần: 
-100% Chùm ngây
+100% Chùm Ngây
 Không hóa chất, không hương liệu
 
 ### Công dụng: 

@@ -1,17 +1,17 @@
 +++
 date = "2017-06-06T08:05:45+08:00"
 publishdate = "2018-06-06T08:05:45+08:00"
-description = "Bột rong nho đóng gói zip 50 gram"
+description = "Bột Rong Nho đóng gói zip 50 gram"
 price = "SẮP RA MẮT"
 img = ["sea-grapes-1.jpg","sea-grapes-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","sea-grapes"]
 thumbnail = "sea-grapes-1.jpg"
-title = "Bột rong nho (50g)"
+title = "Bột Rong Nho (50g)"
 key = "seagrapes"
 +++
 
-# Bột rong nho DalaFarm
+# Bột Rong Nho DalaFarm
 
 Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon được trồng tại vùng biển sạch Nha Trang - Khánh Hòa. 
@@ -19,7 +19,7 @@ Sản phẩm được sản xuất bằng công nghệ sấy độc quyền SEFD
 cấp giấy chứng nhận VSATTP Việt Nam.
 
 ## Thành phần: 
-100% Rong nho
+100% Rong Nho
 Không hóa chất, không hương liệu
 
 ## Công dụng: 
