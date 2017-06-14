@@ -11,6 +11,7 @@ title = "Bột Rau Má (50g)"
 url = "/san-pham/bot-rau-ma-50g"
 aliases = ["/san-pham/bột-rau-má-50g"]
 weight = 1
+key = "pennywort"
 +++
 
 # Bột Rau Má DalaFarm 

@@ -11,6 +11,7 @@ title = "Bột Rau Diếp Cá (100g)"
 url = "/san-pham/bot-rau-diep-ca-100g"
 aliases = ["/san-pham/bột-rau-diếp-cá-100g"]
 weight = 1
+key = "heartleaf100"
 +++
 
 # Bột Rau Diếp Cá DalaFarm 

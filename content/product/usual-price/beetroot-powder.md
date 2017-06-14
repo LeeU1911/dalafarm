@@ -11,6 +11,7 @@ title = "Bột Củ Dền (50g)"
 url = "/san-pham/bot-cu-den-50g"
 aliases = ["/san-pham/bột-củ-dền-50g"]
 weight = 1
+key = "beetroot"
 +++
 
 # Bột Củ Dền DalaFarm 
