@@ -264,7 +264,8 @@
                 province: ko.observable((bill && bill.info && bill.info.province) || "Khánh Hòa")
             },
             products: getProductsArrayFromBill(bill),
-            subtotal: calculateTotalBill(bill)
+            subtotal: calculateTotalBill(bill),
+            shippingCost: undefined
         };
 
         // Activates knockout.js

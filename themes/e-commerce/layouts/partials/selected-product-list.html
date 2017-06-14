@@ -24,6 +24,11 @@
 
         </p>
         <p>
+            <span data-bind="if: shippingCost && shippingCost >= 0">
+                <span>Phí giao hàng: </span><span data-bind="text: shippingCost"></span>
+            </span>
+        </p>
+        <p>
             <span>Tổng bill: </span><span data-bind="text: subtotal"></span>
         </p>
     </div>
