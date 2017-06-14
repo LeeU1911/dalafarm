@@ -17,6 +17,7 @@ tar xvf secrets.tar
 echo unzip
 
 s3cmd -c s3cfg-prod sync -M -F \
+    --delete-removed \
     --no-mime-magic \
     --exclude-from "$EXCLUDES" \
     --add-header="Cache-Control:max-age=21600" \
