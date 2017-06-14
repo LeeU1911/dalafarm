@@ -38,7 +38,8 @@
                                                 {{ .Title }} -
                                                 {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
                                                 {{ $discounted_price := index $prices $dscnt_price }}
-                                                {{ if gt $discounted_price 0 }}{{ $discounted_price }}{{ else }}{{ index $prices .Params.key }}{{ end }}
+                                                {{ if gt $discounted_price 0 }}<span id="{{ printf "%sPrice" .Params.key }}" data-price="{{ $discounted_price }}">{{ $discounted_price }}{{ else }}<span id="{{ printf "%sPrice" .Params.key }}" data-price="{{ index $prices .Params.key }}">{{ index $prices .Params.key }}{{ end }}
+                                                    </span>
                                                 </span>
                                             </div>
                                             <div class="input-group col-md-4">
@@ -162,7 +163,11 @@
                 matchaAmt: ko.observable("0"),
                 cocoaAmt: ko.observable("0"),
                 beetrootAmt: ko.observable("0"),
-                broccoliAmt: ko.observable("0")
+                broccoliAmt: ko.observable("0"),
+                mushroomAmt: ko.observable("0"),
+                lotusAmt: ko.observable("0"),
+                spinachAmt: ko.observable("0"),
+                purpleswpotatoAmt: ko.observable("0")
             }
         };
 
@@ -186,9 +191,23 @@
             if(!bill.id) {
                 bill.id = generateUID();
             }
+            bill = storeProductPrice(bill);
             saveToSession(bill);
             window.location = "/shipping";
         });
+
+        function storeProductPrice(bill){
+            var products = bill.products;
+            for (var property in products) {
+                if (products.hasOwnProperty(property)) {
+                    var key = property.substr(0, property.length - 3);
+                    console.log(key);
+                    var keyPrice = key + "Price";
+                    bill.products[keyPrice] = parseInt($("#" + keyPrice).data("price").replace(",", ""));
+                }
+            }
+            return bill;
+        }
         function generateUID() {
             // I generate the UID from two parts here
             // to ensure the random number provide enough bits.
