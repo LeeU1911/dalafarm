@@ -6,7 +6,7 @@
             {{ $prices := $data.price }}
             {{ range where .Site.Pages "Section" "product" }}
             {{ if isset .Params "key" }}
-            <span data-bind="if: value > 0 && name == '{{ printf "%sAmt" .Params.key}}'">
+            <span data-bind="if: amount > 0 && name == '{{ printf "%sAmt" .Params.key}}'">
             <span>
                                     {{ .Title }} -
                                     {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
@@ -14,12 +14,17 @@
                                     {{ if gt $discounted_price 0 }}{{ $discounted_price }}{{ else }}{{ index $prices .Params.key }}{{ end }}
                                     </span>
             <span> x </span>
-            <span data-bind="text: value"></span>
+            <span data-bind="text: amount"></span>
+            <span> = </span>
+            <span data-bind="text: subtotal"></span>
             <br/>
             </span>
             {{ end }}
             {{ end }}
 
+        </p>
+        <p>
+            <span>Tổng bill: </span><span data-bind="text: subtotal"></span>
         </p>
     </div>
 </div>

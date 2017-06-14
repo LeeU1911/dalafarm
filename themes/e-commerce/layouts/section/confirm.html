@@ -70,7 +70,7 @@
         function getProductsArrayFromBill(b) {
             var products = b.products;
             return $.map(products, function (val, key) {
-                return {name: key, value: val};
+                return {name: key, amount: val};
             });
         }
         function AppViewModel() {
