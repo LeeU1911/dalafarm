@@ -10,9 +10,9 @@ broccoli: 119,000
 broccoli_discounted_price: 0
 broccoli_discounted_percent: 0
 
-cocoa: 40,000
-cocoa_discounted_price: 0
-cocoa_discounted_percent: 0
+cocoa100: 40,000
+cocoa100_discounted_price: 0
+cocoa100_discounted_percent: 0
 
 heartleaf100: 165,000
 heartleaf100_discounted_price: 0
