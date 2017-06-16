@@ -208,6 +208,7 @@
             newPostRef.set(bill).then(function(response){
                 console.log("Data saved successfully!" + response);
                 sendToEmailWebhook(bill);
+                sendToSmsWebhook(bill);
             }).error(function (error) {
                 console.log(error);
                 order.error = error;
@@ -216,6 +217,26 @@
             });
         }
 
+        function sendToSmsWebhook(order) {
+            var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/9eneca/";
+            var payload = {"to":"", "from":"32523276", "content":"", "orderId": "" };
+            var smsBody = "DalaFarm - don hang ma " + order.id + ". Tong so tien: " + order.subtotal;
+            payload.to = "+84" + order.info.phone1.substring(1);
+            payload.orderId = order.id;
+            payload.content = smsBody;
+            $.ajax({
+                type: "POST",
+                url: webhookURL,
+                data: payload,
+                success: function(res) {
+                    console.log(res);
+                },
+                error: function (error) {
+                    console.log(error);
+                },
+                dataType: "json"
+            });
+        }
         function sendToEmailWebhook(order){
             var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/98r7zl/";
             var payload = {"to":"", "from":"info@dalafarm.com.vn", "content":"", "orderId": "" };
@@ -247,13 +268,19 @@
             var middle = "</p> <table> <thead> <tr> <th>Tên</th> <th>Số lượng</th> <th>Đơn giá</th> <th>Thành tiền</th> </tr> </thead> <tbody> <tr>";
             var orderContent = buildOrderContent(order.products);
             var shipping = "</tr> </tbody> </table> <p>Phí giao hàng:" + order.shippingCost + "</p>";
-            var total = "<p>Tổng tiền: " + order.totalCost + "</p>";
+            var total = "<p>Tổng tiền: " + order.subtotal + "</p>";
             var footer = "<p>Xin cám ơn bạn đã ủng hộ DalaFarm.</p>  <p>Nếu có vấn đề hay câu hỏi gì, xin vui lòng liên hệ fanpage: <a href=\"https://fb.me/dalafarm.com.vn\">Facebook DalaFarm</a> hoặc website <a href=\"https://dalafarm.com.vn\">DalaFarm</a></p>";
             return head + middle + orderContent + shipping + total + footer;
         }
 
         function buildOrderContent(products){
-            return "<td>Bột súp lơ xanh</td> <td>1</td> <td>119,000</td> <td>119,000</td> </tr><tr> <td>Bột cà rốt</td> <td>1</td> <td>119,000</td> <td>119,000</td>";
+            var orderContent = "";
+            products.forEach(function (p) {
+                if(p.amount > 0) {
+                    orderContent += "<td>" + p.name + "</td><td>" + p.amount + "</td><td>" + p.price + "</td><td>" + p.subtotal + "</td>";
+                }
+            });
+            return orderContent;
         }
 
 
