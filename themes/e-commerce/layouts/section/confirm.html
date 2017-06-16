@@ -31,7 +31,7 @@
             <label class="col-md-4 control-label" for="save"></label>
             <div class="col-md-8">
                 <button id="edit" name="save" class="btn btn-lg btn-default">Sửa đơn hàng</button>
-                <button id="save" name="save" class="btn btn-lg btn-success">Hoàn tất</button>
+                <button id="save" name="save" class="btn btn-lg btn-success" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Đang nhập đơn hàng">Hoàn tất</button>
                 <button id="cancel" name="cancel" class="btn btn-lg btn-danger">Hủy bỏ</button>
             </div>
         </div>
@@ -189,7 +189,8 @@
 
         $('#save').on('click', function (e) {
             e.preventDefault();
-            //TODO: display loading indicator
+            var $this = $(this);
+            $this.button('loading');
             saveToDb(bill);
         });
         $('#edit').on('click', function (e) {
@@ -210,7 +211,6 @@
                 console.log(error);
                 order.error = error;
                 localStorage.setItem('order-' + order.id, JSON.stringify(order));
-                //TODO: remove loading indicator
                 window.location = "/order-error";
             });
         }
@@ -230,13 +230,11 @@
                     console.log(res);
                     localStorage.setItem('order-' + order.id, JSON.stringify(order));
                     sessionStorage.removeItem('order');
-                    //TODO: remove loading indicator
                     window.location = "/thank-you";},
                 error: function (error) {
                     console.log(error);
                     order.error = error;
                     localStorage.setItem('order-' + order.id, JSON.stringify(order));
-                    //TODO: remove loading indicator
                     window.location = "/order-error";
                 },
                 dataType: "json"
