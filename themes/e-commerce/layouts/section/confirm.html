@@ -189,8 +189,7 @@
 
         $('#save').on('click', function (e) {
             e.preventDefault();
-            var $this = $(this);
-            $this.button('loading');
+            $('#save').button('loading');
             saveToDb(bill);
         });
         $('#edit').on('click', function (e) {
