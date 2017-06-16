@@ -15,11 +15,12 @@
         <p class="order-page-content">
             {{ .Content }}
         </p>
+        {{ partial "order-id.html" . }}
         <div class="row">
             <div class="col-md-12">
                 {{ partial "selected-product-list.html" . }}
                 <div class="panel panel-default">
-                    <div class="panel-heading">Đơn hàng</div>
+                    <div class="panel-heading">Đơn hàng mã <strong><span data-bind="text: id"></span> </strong></div>
                     <div class="panel-body">
                         <form class="form-horizontal" name="bill" id="bill">
                             <fieldset>
@@ -254,6 +255,7 @@
             return subtotal;
         }
         var viewModel = {
+            id: ko.observable((bill && bill.id) || ""),
             info:{
                 name: ko.observable((bill && bill.info && bill.info.name) || "Ha"),
                 phone1: ko.observable((bill && bill.info && bill.info.phone1) || "091155551"),

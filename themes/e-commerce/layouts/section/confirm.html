@@ -13,6 +13,8 @@
             </div>
         </div>
         {{ .Content }}
+        {{ partial "order-id.html" . }}
+        <div class="row">
         <div id="bill" class="col-md-12">
             <p data-bind="text: date"></p>
             <div class="panel panel-default">
@@ -35,7 +37,7 @@
                 <button id="cancel" name="cancel" class="btn btn-lg btn-danger">Hủy bỏ</button>
             </div>
         </div>
-
+        </div>
     </div>
 </section>
 {{ if .Site.Params.params.footer.enable }}
@@ -91,6 +93,7 @@
             return subtotal + calculateShippingCost(bill);
         }
         function AppViewModel() {
+            this.id = bill.id;
             this.date = new Date(bill.meta.date);
             this.name = bill.info.name;
             this.phone1 = bill.info.phone1;
