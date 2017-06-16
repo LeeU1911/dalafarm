@@ -189,6 +189,7 @@
 
         $('#save').on('click', function (e) {
             e.preventDefault();
+            //TODO: display loading indicator
             saveToDb(bill);
         });
         $('#edit').on('click', function (e) {
@@ -205,6 +206,12 @@
             newPostRef.set(bill).then(function(response){
                 console.log("Data saved successfully!" + response);
                 sendToEmailWebhook(bill);
+            }).error(function (error) {
+                console.log(error);
+                order.error = error;
+                localStorage.setItem('order-' + order.id, JSON.stringify(order));
+                //TODO: remove loading indicator
+                window.location = "/order-error";
             });
         }
 
@@ -223,7 +230,15 @@
                     console.log(res);
                     localStorage.setItem('order-' + order.id, JSON.stringify(order));
                     sessionStorage.removeItem('order');
+                    //TODO: remove loading indicator
                     window.location = "/thank-you";},
+                error: function (error) {
+                    console.log(error);
+                    order.error = error;
+                    localStorage.setItem('order-' + order.id, JSON.stringify(order));
+                    //TODO: remove loading indicator
+                    window.location = "/order-error";
+                },
                 dataType: "json"
             });
         }
