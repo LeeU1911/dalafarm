@@ -24,7 +24,7 @@
 
         </p>
         <p>
-            <span data-bind="if: shippingCost && shippingCost >= 0">
+            <span data-bind="if: shippingCost != undefined && !shippingCost.isNaN">
                 <span>Phí giao hàng: </span><span data-bind="text: shippingCost"></span>
             </span>
         </p>
