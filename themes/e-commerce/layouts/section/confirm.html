@@ -119,19 +119,25 @@
             var weight = calculateWeight(bill);
             console.log("Weight is " + weight);
             if( province === "TP HCM") {
-                shippingCost = 25000;
-            } else if(groupA(province)) {
-                weight <= 300 ? shippingCost = 30000 : (weight <= 500 ? shippingCost = 40000 : (weight <= 1000 ? shippingCost = 50000 : (weight <= 1500 ? shippingCost = 65000 : (weight <= 2000 ? shippingCost = 75000 : shippingCost = addShippingCostAtExceedPrice(weight, 75000)))));
-            } else if(groupB(province)) {
-                weight <= 300 ? shippingCost = 35000 : (weight <= 500 ? shippingCost = 45000 : (weight <= 1000 ? shippingCost = 55000 : (weight <= 1500 ? shippingCost = 70000 : (weight <= 2000 ? shippingCost = 80000 : shippingCost = addShippingCostAtExceedPrice(weight, 80000)))));
-            } else if(groupC(province)) {
-                weight <= 300 ? shippingCost = 35000 : (weight <= 500 ? shippingCost = 45000 : (weight <= 1000 ? shippingCost = 55000 : (weight <= 1500 ? shippingCost = 70000 : (weight <= 2000 ? shippingCost = 80000 : shippingCost = addShippingCostAtExceedPrice(weight, 80000)))));
-            } else if(groupD(province)) {
-                weight <= 300 ? shippingCost = 35000 : (weight <= 500 ? shippingCost = 45000 : (weight <= 1000 ? shippingCost = 60000 : (weight <= 1500 ? shippingCost = 75000 : (weight <= 2000 ? shippingCost = 85000 : shippingCost = addShippingCostAtExceedPrice(weight, 85000)))));
-            } else if(groupE(province)) {
-                weight <= 300 ? shippingCost = 35000 : (weight <= 500 ? shippingCost = 45000 : (weight <= 1000 ? shippingCost = 60000 : (weight <= 1500 ? shippingCost = 75000 : (weight <= 2000 ? shippingCost = 85000 : shippingCost = addShippingCostAtExceedPrice(weight, 85000)))));
+                if(weight < 200){
+                    shippingCost = 25000;
+                }
             } else {
-                weight <= 300? shippingCost = 40000:(weight <= 500? shippingCost = 50000: (weight <= 1000? shippingCost = 65000: (weight <= 1500? shippingCost = 80000: (weight <= 2000 ? shippingCost = 85000: shippingCost = addShippingCostAtExceedPrice(weight, 85000)))));
+                if(weight < 300) {
+                    if (groupA(province)) {
+                        weight <= 300 ? shippingCost = 30000 : (weight <= 500 ? shippingCost = 40000 : (weight <= 1000 ? shippingCost = 50000 : (weight <= 1500 ? shippingCost = 65000 : (weight <= 2000 ? shippingCost = 75000 : shippingCost = addShippingCostAtExceedPrice(weight, 75000)))));
+                    } else if (groupB(province)) {
+                        weight <= 300 ? shippingCost = 35000 : (weight <= 500 ? shippingCost = 45000 : (weight <= 1000 ? shippingCost = 55000 : (weight <= 1500 ? shippingCost = 70000 : (weight <= 2000 ? shippingCost = 80000 : shippingCost = addShippingCostAtExceedPrice(weight, 80000)))));
+                    } else if (groupC(province)) {
+                        weight <= 300 ? shippingCost = 35000 : (weight <= 500 ? shippingCost = 45000 : (weight <= 1000 ? shippingCost = 55000 : (weight <= 1500 ? shippingCost = 70000 : (weight <= 2000 ? shippingCost = 80000 : shippingCost = addShippingCostAtExceedPrice(weight, 80000)))));
+                    } else if (groupD(province)) {
+                        weight <= 300 ? shippingCost = 35000 : (weight <= 500 ? shippingCost = 45000 : (weight <= 1000 ? shippingCost = 60000 : (weight <= 1500 ? shippingCost = 75000 : (weight <= 2000 ? shippingCost = 85000 : shippingCost = addShippingCostAtExceedPrice(weight, 85000)))));
+                    } else if (groupE(province)) {
+                        weight <= 300 ? shippingCost = 35000 : (weight <= 500 ? shippingCost = 45000 : (weight <= 1000 ? shippingCost = 60000 : (weight <= 1500 ? shippingCost = 75000 : (weight <= 2000 ? shippingCost = 85000 : shippingCost = addShippingCostAtExceedPrice(weight, 85000)))));
+                    } else {
+                        weight <= 300 ? shippingCost = 40000 : (weight <= 500 ? shippingCost = 50000 : (weight <= 1000 ? shippingCost = 65000 : (weight <= 1500 ? shippingCost = 80000 : (weight <= 2000 ? shippingCost = 85000 : shippingCost = addShippingCostAtExceedPrice(weight, 85000)))));
+                    }
+                }
             }
             return shippingCost;
 
