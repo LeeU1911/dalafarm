@@ -12,5 +12,5 @@ Chúng tôi cũng đồng thời gửi mã đơn hàng và thông tin đơn vào
  
 Nếu có bất kỳ câu hỏi hay thắc mắc gì, xin vui lòng gọi đường dây nóng [0906 951 498](tel:0906951498) hoặc [0918 241 066](tel:0918241066). 
 
-Quý khách cũng có thể gửi email và nhắn tin cho chúng tôi với mã đơn hàng của mình.
+Quý khách cũng có thể [gửi email](mailto:info@dalafarm.com.vn) hoặc [nhắn tin Facebook](https://fb.me/dalafarm.com.vn) cho chúng tôi với mã đơn hàng của mình.
 
