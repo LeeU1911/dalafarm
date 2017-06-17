@@ -289,8 +289,10 @@
                 $('#verifyCode').hide();
                 $('#verificationCode').hide();
                 $('#showUserSmsSentMsg').hide();
+                $('#save').prop('disabled', false);
             } else {
                 $('#verifyPhone1').show();
+                $('#save').prop('disabled', true);
                 if(verificationCodeSent) {
                     $('#verifyCode').show();
                     $('#verificationCode').show();
