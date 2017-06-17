@@ -114,13 +114,13 @@
         var viewModel = {
             id: ko.observable((bill && bill.id) || ""),
             info:{
-                name: ko.observable((bill && bill.info && bill.info.name) || "Ha"),
-                phone1: ko.observable((bill && bill.info && bill.info.phone1) || "905551287"),
+                name: ko.observable((bill && bill.info && bill.info.name) || ""),
+                phone1: ko.observable((bill && bill.info && bill.info.phone1) || ""),
                 verificationCode: ko.observable(""),
                 phone2: ko.observable((bill && bill.info && bill.info.phone2) || ""),
                 email: ko.observable((bill && bill.info && bill.info.email) || ""),
-                address: ko.observable((bill && bill.info && bill.info.address) || "326/1 Tan Son"),
-                province: ko.observable((bill && bill.info && bill.info.province) || "Khánh Hòa")
+                address: ko.observable((bill && bill.info && bill.info.address) || ""),
+                province: ko.observable((bill && bill.info && bill.info.province) || "TP HCM")
             },
             products: {
                 pumpkinAmt: ko.observable((bill && bill.products && bill.products.pumpkinAmt) || "0"),

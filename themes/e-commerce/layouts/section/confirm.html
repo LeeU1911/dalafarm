@@ -247,7 +247,7 @@
         function sendToSmsWebhook(order) {
             var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/9eneca/";
             var payload = {"to":"", "name":"", "from":"32523276", "subtotal":"", "orderId": "" };
-            payload.to = "+84" + order.info.phone1;
+            payload.to = order.info.phone1;
             payload.orderId = order.id;
             payload.name = order.info.name;
             payload.subtotal = order.subtotal;
@@ -270,7 +270,8 @@
             var htmlBody = prepareBody(order);
             payload.to = order.info.email;
             payload.orderId = order.id;
-            payload.name = order.info.name;
+            nameArr = order.info.name.split(" ");
+            payload.name = nameArr && nameArr[nameArr.length - 1];
             payload.address = order.info.address + ", " + order.info.province;
             payload.phone = order.info.phone1;
             payload.content = htmlBody;
