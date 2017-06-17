@@ -42,21 +42,25 @@
                                 <div class="form-group">
                                     <label class="col-md-2 control-label" for="phone1">Số điện thoại 1</label>
                                     <div class="col-md-8">
-                                        <input data-bind="value: info.phone1" id="phone1" name="phone1" type="text"
-                                               placeholder="0901234567" class="form-control input-lg" required=""
-                                               value="09111">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">+84</span>
+                                            <input data-bind="value: info.phone1" id="phone1" name="phone1" type="text"
+                                                   placeholder="901234567" class="form-control input-lg" required="">
+                                        </div>
                                         <input data-bind="value: info.verificationCode" style="display: none;"
                                                id="verificationCode" name="verificationCode" type="text"
-                                               placeholder="Mã xác thự" class="form-control">
+                                               placeholder="Mã xác thực" class="form-control">
                                         <p id="showUserSmsSentMsg" style="display: none;">Mã xác thực đã được gửi tới
                                             điện thoại của bạn. Vui lòng kiểm tra điện thoại.</p>
                                         <button id="verifyCode" name="verifyCode" style="display: none;"
-                                                class="btn btn-lg btn-success">Xác thực mã
+                                                class="btn btn-lg btn-success"
+                                                data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> ">Xác thực mã
                                         </button>
                                     </div>
                                     <div class="col-md-2">
                                         <button id="verifyPhone1" style="display: none;" name="verifyPhone1"
-                                                class="btn btn-lg btn-success">Xác thực
+                                                class="btn btn-lg btn-success"
+                                                data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> ">Lấy mã xác thực
                                         </button>
                                     </div>
                                 </div>
@@ -272,6 +276,7 @@
 
         // Activates knockout.js
         ko.applyBindings(viewModel);
+        var verificationCodeSent = false;
 
         function initUIStateForLoginBasedOnUserState(user) {
             if(user != null) {
@@ -281,13 +286,16 @@
                 $('#showUserSmsSentMsg').hide();
             } else {
                 $('#verifyPhone1').show();
-                $('#verifyCode').show();
-                $('#verificationCode').show();
+                if(verificationCodeSent) {
+                    $('#verifyCode').show();
+                    $('#verificationCode').show();
+                }
             }
         }
 
         function toggleFieldsWhenSendingSmsVerificationCode(){
-            $('#verifyCode').toogle();
+            $('#verifyPhone1').toggle();
+            $('#verifyCode').toggle();
             $('#verificationCode').toggle();
             $('#showUserSmsSentMsg').toggle();
         }
@@ -303,10 +311,11 @@
         });
         function getPhoneNumber() {
             var trimmedNumber = viewModel.info.phone1();
-            return "+84" + trimmedNumber.substring(1);
+            return "+84" + trimmedNumber;
         }
         $('#verifyPhone1').on('click', function(e){
             e.preventDefault();
+            $('#verifyPhone1').button('loading');
             var phoneNumber = getPhoneNumber();
             console.log("phone number is " + phoneNumber);
             var appVerifier = window.recaptchaVerifier;
@@ -314,10 +323,11 @@
                 .then(function (confirmationResult) {
                     // SMS sent. Prompt user to type the code from the message, then sign the
                     // user in with confirmationResult.confirm(code).
-                    $('#showUserSmsSentMsg').show();
+                    verificationCodeSent = true;
+                    toggleFieldsWhenSendingSmsVerificationCode();
                     window.confirmationResult = confirmationResult;
                 }).catch(function (error) {
-                alert("Somethine wrong! SMS not sent!");
+                alert("Somethine wrong! SMS not sent!" + error);
                 console.log("Somethine wrong! SMS not sent! " + error);
                 // re-render captcha
                 window.recaptchaVerifier.render().then(function(widgetId) {
@@ -327,13 +337,14 @@
         });
         $('#verifyCode').on('click', function (e) {
             e && e.preventDefault();
+            $('#verifyCode').button('loading');
             var code = viewModel.info.verificationCode();
             window.confirmationResult.confirm(code).then(function (result) {
                 // User signed in successfully.
                 console.log("User logged in!");
                 initUIStateForLoginBasedOnUserState();
             }).catch(function (error) {
-                alert("Something wrong! Verification code incorrect!");
+                alert("Something wrong! Verification code incorrect!" + error);
                 console.log("Something wrong! Verification code incorrect! " + error);
             });
         });
