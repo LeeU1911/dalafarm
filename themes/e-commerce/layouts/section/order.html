@@ -110,6 +110,7 @@
         var bill = JSON.parse(sessionStorage.getItem('order')) || emptyBill;
 
         var viewModel = {
+            id: ko.observable((bill && bill.id) || ""),
             info:{
                 name: ko.observable((bill && bill.info && bill.info.name) || "Ha"),
                 phone1: ko.observable((bill && bill.info && bill.info.phone1) || "091155551"),
