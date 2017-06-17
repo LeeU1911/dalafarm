@@ -244,12 +244,18 @@
                 dataType: "json"
             });
         }
+
+        function getFirstName(name) {
+            nameArr = name.split(" ");
+            return nameArr && nameArr[nameArr.length - 1];
+        }
+
         function sendToSmsWebhook(order) {
             var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/9eneca/";
             var payload = {"to":"", "name":"", "from":"32523276", "subtotal":"", "orderId": "" };
             payload.to = order.info.phone1;
             payload.orderId = order.id;
-            payload.name = order.info.name;
+            payload.name = getFirstName(order.info.name);
             payload.subtotal = order.subtotal;
             $.ajax({
                 type: "POST",
@@ -270,8 +276,7 @@
             var htmlBody = prepareBody(order);
             payload.to = order.info.email;
             payload.orderId = order.id;
-            nameArr = order.info.name.split(" ");
-            payload.name = nameArr && nameArr[nameArr.length - 1];
+            payload.name = order.info.name;
             payload.address = order.info.address + ", " + order.info.province;
             payload.phone = order.info.phone1;
             payload.content = htmlBody;
