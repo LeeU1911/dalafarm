@@ -246,11 +246,11 @@
         }
         function sendToSmsWebhook(order) {
             var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/9eneca/";
-            var payload = {"to":"", "from":"32523276", "content":"", "orderId": "" };
-            var smsBody = "DalaFarm - don hang ma " + order.id + ". Tong so tien: " + order.subtotal;
+            var payload = {"to":"", "name":"", "from":"32523276", "subtotal":"", "orderId": "" };
             payload.to = "+84" + order.info.phone1;
             payload.orderId = order.id;
-            payload.content = smsBody;
+            payload.name = order.info.name;
+            payload.subtotal = order.subtotal;
             $.ajax({
                 type: "POST",
                 url: webhookURL,
