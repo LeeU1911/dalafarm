@@ -342,6 +342,7 @@
             window.confirmationResult.confirm(code).then(function (result) {
                 // User signed in successfully.
                 console.log("User logged in!");
+                alert("Số điện thoại xác thực thành công!");
                 initUIStateForLoginBasedOnUserState();
             }).catch(function (error) {
                 alert("Something wrong! Verification code incorrect!" + error);
