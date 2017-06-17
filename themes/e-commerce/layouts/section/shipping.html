@@ -373,6 +373,7 @@
             bill.meta = {};
             bill.meta.date = new Date().getTime();
             bill.info = billFormUI.info;
+            bill.info.phone1 = getPhoneNumber();
             saveToSession(bill);
             window.location = "/confirm";
         });
