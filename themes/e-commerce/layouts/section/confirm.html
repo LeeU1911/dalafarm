@@ -209,6 +209,7 @@
                 console.log("Data saved successfully!" + response);
                 sendToEmailWebhook(bill);
                 sendToSmsWebhook(bill);
+                sendFullDetailsToWebhook4SlackNExcel(bill);
             }).error(function (error) {
                 console.log(error);
                 order.error = error;
@@ -217,6 +218,21 @@
             });
         }
 
+        function sendFullDetailsToWebhook4SlackNExcel(order) {
+            var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/9cmzdm/";
+            $.ajax({
+                type: "POST",
+                url: webhookURL,
+                data: removeEmptyProductNHumanizeName(order),
+                success: function(res) {
+                    console.log(res);
+                },
+                error: function (error) {
+                    console.log(error);
+                },
+                dataType: "json"
+            });
+        }
         function sendToSmsWebhook(order) {
             var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/9eneca/";
             var payload = {"to":"", "from":"32523276", "content":"", "orderId": "" };
@@ -265,9 +281,9 @@
 
         function prepareBody(order){
             var head = "<!DOCTYPE html> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> </head> <p>DalaFarm xin cám ơn bạn đã đặt hàng.</p> <p>Bên dưới là nội dung đơn hàng của bạn</p> <p>Mã đơn hàng:" + order.id;
-            var middle = "</p> <table> <thead> <tr> <th>Tên</th> <th>Số lượng</th> <th>Đơn giá</th> <th>Thành tiền</th> </tr> </thead> <tbody> <tr>";
+            var middle = "</p> <table> <thead> <tr> <th>Tên</th> <th>Số lượng</th> <th>Đơn giá</th> <th>Thành tiền</th> </tr> </thead> <tbody>";
             var orderContent = buildOrderContent(order.products);
-            var shipping = "</tr> </tbody> </table> <p>Phí giao hàng:" + order.shippingCost + "</p>";
+            var shipping = "</tbody> </table> <p>Phí giao hàng:" + order.shippingCost + "</p>";
             var total = "<p>Tổng tiền: " + order.subtotal + "</p>";
             var footer = "<p>Xin cám ơn bạn đã ủng hộ DalaFarm.</p>  <p>Nếu có vấn đề hay câu hỏi gì, xin vui lòng liên hệ fanpage: <a href=\"https://fb.me/dalafarm.com.vn\">Facebook DalaFarm</a> hoặc website <a href=\"https://dalafarm.com.vn\">DalaFarm</a></p>";
             return head + middle + orderContent + shipping + total + footer;
@@ -277,12 +293,49 @@
             var orderContent = "";
             products.forEach(function (p) {
                 if(p.amount > 0) {
-                    orderContent += "<td>" + p.name + "</td><td>" + p.amount + "</td><td>" + p.price + "</td><td>" + p.subtotal + "</td>";
+                    orderContent += "<tr><td>" + humanizeProductName(p.name) + "</td><td>" + p.amount + "</td><td>" + p.price + "</td><td>" + p.subtotal + "</td></tr>";
                 }
             });
             return orderContent;
         }
 
+        function removeEmptyProductNHumanizeName(orderWProductArr) {
+            var fullProducts = orderWProductArr.products;
+            orderWProductArr.products = fullProducts.filter(function (p) {
+                if(p.amount > 0) {
+                    p.name = humanizeProductName(p.name);
+                    return p;
+                }
+            });
+            return orderWProductArr;
+        }
+
+        function humanizeProductName(productKey) {
+            if(productKey) {
+                switch (productKey){
+                    case "carrotAmt": return "Bột cà rốt 50g";
+                    case "beetrootAmt": return "Bột củ dền 50g";
+                    case "broccoliAmt": return "Bột súp lơ xanh 50g";
+                    case "cocoa100Amt": return "Bột ca cao 100g";
+                    case "heartleaf100Amt": return "Bột rau diếp cá 100g";
+                    case "heartleafAmt": return "Bột rau diếp cá 50g";
+                    case "matcha100Amt": return "Bột trà xanh 100g";
+                    case "matchaAmt": return "Bột trà xanh 50g";
+                    case "moringaAmt": return "Bột chùm ngây 50g";
+                    case "pennywortAmt": return "Bột rau má 50g";
+                    case "pennywort100Amt": return "Bột rau má 100g";
+                    case "pumpkinAmt": return "Bột bí đỏ 50g";
+                    case "tomatoAmt": return "Bột cà chua 50g";
+                    case "lotusAmt": return "Bột hạt sen 50g";
+                    case "purpleswpotatoAmt": return "Bột khoai lang tím 50g";
+                    case "spinachAmt": return "Bột rau bó xôi 50g";
+                    case "mushroomAmt": return "Bột nấm 50g";
+                    default: return productKey;
+                }
+
+
+            }
+        }
 
     });
 
