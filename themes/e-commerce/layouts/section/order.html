@@ -67,16 +67,17 @@
                         </form>
                     </div>
                 </div>
-                <!-- Button (Double) -->
-                <div class="form-group">
-                    <div class="col-md-6">
-                        <button id="cancel" name="cancel" class="btn btn-lg btn-danger">Xóa thông tin</button>
-                    </div>
-                    <div class="col-md-6 text-right">
-                        <button id="save" name="save" class="btn btn-lg btn-success">Tiếp tục</button>
-                    </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Button (Double) -->
+            <div class="form-group">
+                <div class="col-md-6">
+                    <button id="cancel" name="cancel" class="btn btn-lg btn-danger">Xóa thông tin</button>
                 </div>
-
+                <div class="col-md-6 text-right">
+                    <button id="save" name="save" class="btn btn-lg btn-success">Tiếp tục</button>
+                </div>
             </div>
         </div>
 
@@ -114,7 +115,7 @@
             id: ko.observable((bill && bill.id) || ""),
             info:{
                 name: ko.observable((bill && bill.info && bill.info.name) || "Ha"),
-                phone1: ko.observable((bill && bill.info && bill.info.phone1) || "091155551"),
+                phone1: ko.observable((bill && bill.info && bill.info.phone1) || "905551287"),
                 verificationCode: ko.observable(""),
                 phone2: ko.observable((bill && bill.info && bill.info.phone2) || ""),
                 email: ko.observable((bill && bill.info && bill.info.email) || ""),

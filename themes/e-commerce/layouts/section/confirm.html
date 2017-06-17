@@ -15,30 +15,32 @@
         {{ .Content }}
         {{ partial "order-id.html" . }}
         <div class="row">
-        <div id="bill" class="col-md-12">
-            <div class="panel panel-default">
-                <div class="panel-heading">Thông tin người mua</div>
-                <div class="panel-body">
-                    <p data-bind="text: name"></p>
-                    <p data-bind="text: phone1"></p>
-                    <p data-bind="text: phone2"></p>
-                    <p data-bind="text: email"></p>
-                    <p><span data-bind="text: address"></span>, <span data-bind="text: province"></span> </p>
+            <div id="bill" class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Thông tin người mua</div>
+                    <div class="panel-body">
+                        <p data-bind="text: name"></p>
+                        <p data-bind="text: phone1"></p>
+                        <p data-bind="text: phone2"></p>
+                        <p data-bind="text: email"></p>
+                        <p><span data-bind="text: address"></span>, <span data-bind="text: province"></span> </p>
+                    </div>
+                </div>
+                {{ partial "selected-product-list.html" . }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <div class="col-md-4">
+                    <button id="edit" name="save" class="btn btn-lg btn-default">Sửa đơn hàng</button>
+                </div>
+                <div class="col-md-4 text-center">
+                    <button id="cancel" name="cancel" class="btn btn-lg btn-danger" onclick="window.location = '/';">Hủy đặt hàng</button>
+                </div>
+                <div class="col-md-4 text-right">
+                    <button id="save" name="save" class="btn btn-lg btn-success" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Đang nhập đơn hàng">Hoàn tất</button>
                 </div>
             </div>
-            {{ partial "selected-product-list.html" . }}
-        </div>
-        <div class="form-group">
-            <div class="col-md-4">
-                <button id="edit" name="save" class="btn btn-lg btn-default">Sửa đơn hàng</button>
-            </div>
-            <div class="col-md-4 text-center">
-                <button id="cancel" name="cancel" class="btn btn-lg btn-danger" onclick="window.location = '/';">Hủy đặt hàng</button>
-            </div>
-            <div class="col-md-4 text-right">
-                <button id="save" name="save" class="btn btn-lg btn-success" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Đang nhập đơn hàng">Hoàn tất</button>
-            </div>
-        </div>
         </div>
     </div>
 </section>
@@ -240,7 +242,7 @@
             var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/9eneca/";
             var payload = {"to":"", "from":"32523276", "content":"", "orderId": "" };
             var smsBody = "DalaFarm - don hang ma " + order.id + ". Tong so tien: " + order.subtotal;
-            payload.to = "+84" + order.info.phone1.substring(1);
+            payload.to = "+84" + order.info.phone1;
             payload.orderId = order.id;
             payload.content = smsBody;
             $.ajax({
