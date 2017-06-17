@@ -49,7 +49,7 @@
                                                      </button>
                                                 </span>
                                                 <input data-bind="value: products.{{.Params.key}}Amt" type="text" name="quant[1]-{{.Params.key}}" class="form-control input-number" value="0" min="0" max="10">
-                                                <span class="input-group-btn">
+                                                  <span class="input-group-btn">
                                                     <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]-{{.Params.key}}">
                                                         <span class="glyphicon glyphicon-plus"></span>
                                                     </button>
@@ -69,10 +69,11 @@
                 </div>
                 <!-- Button (Double) -->
                 <div class="form-group">
-                    <label class="col-md-4 control-label" for="save"></label>
-                    <div class="col-md-8">
-                        <button id="save" name="save" class="btn btn-lg btn-success">Tiếp tục</button>
+                    <div class="col-md-6">
                         <button id="cancel" name="cancel" class="btn btn-lg btn-danger">Xóa làm lại</button>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <button id="save" name="save" class="btn btn-lg btn-success">Tiếp tục</button>
                     </div>
                 </div>
 
