@@ -4,4 +4,6 @@ date = "2017-05-30T21:52:24+08:00"
 
 +++
 
-SẢN PHẨM ----------> THÔNG TIN GIAO HÀNG ----------> **_XÁC NHẬN_**
+**Free ship** cho đơn hàng khối lượng từ **200 gram** trở lên cho **nội thành thành phố HCM** và từ **300 gram** trở lên cho các **tỉnh khác**.
+
+**Free ship** cho đơn hàng **thanh toán bằng hình thức chuyển khoản**.
