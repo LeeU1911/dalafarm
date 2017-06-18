@@ -255,7 +255,7 @@
             var payload = {"to":"", "name":"", "from":"32523276", "subtotal":"", "orderId": "" };
             payload.to = order.info.phone1;
             payload.orderId = order.id;
-            payload.name = getFirstName(order.info.name);
+            payload.name = removeSpecialCharactersInName(getFirstName(order.info.name));
             payload.subtotal = order.subtotal;
             $.ajax({
                 type: "POST",
@@ -355,6 +355,16 @@
 
 
             }
+        }
+
+        function removeSpecialCharactersInName(name) {
+            var vnDictMap = [
+                {"base": "a", "letters": /[\u00C2]/g}
+            ]
+            for(var i = 0; i < vnDictMap.length; i++){
+                name = name.replace('â', 'a');
+            }
+            return name;
         }
 
     });
