@@ -15,7 +15,7 @@
         {{ .Content }}
         {{ partial "order-id.html" . }}
         <div class="row">
-            <div id="bill" class="col-md-12">
+            <div id="order-content" class="col-md-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">Thông tin người mua</div>
                     <div class="panel-body">
@@ -47,11 +47,9 @@
 {{ if .Site.Params.params.footer.enable }}
 {{ partial "footer.html" . }}
 {{ end }}
-{{ partial "js_other_page.html" . }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
-<script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script>
+{{ partial "js_order_page.html" . }}
 <script>
-    $(function () {
+$(function() {
         // Initialize Firebase
         var config = {
             apiKey: "AIzaSyABGxfllsBj-8tfsAH7t1qqcZvxZHRP25M",

@@ -1,6 +1,8 @@
 <div class="panel panel-default">
-    <div class="panel-heading">Sản phẩm</div>
-    <div class="panel-body">
+    <div class="panel-heading">Sản phẩm
+    </div>
+
+    <div class="panel-body" id="order-content">
         <p data-bind="foreach: products">
             {{ $data := index .Site.Data .Site.Language.Lang }}
             {{ $prices := $data.price }}

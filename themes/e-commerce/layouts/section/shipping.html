@@ -20,7 +20,7 @@
             <div class="col-md-12">
                 {{ partial "selected-product-list.html" . }}
                 <div class="panel panel-default">
-                    <div class="panel-heading">Đơn hàng mã <strong><span data-bind="text: id"></span> </strong></div>
+                    <div class="panel-heading">Đơn hàng</div>
                     <div class="panel-body">
                         <form class="form-horizontal" name="bill" id="bill">
                             <fieldset>
@@ -196,9 +196,7 @@
 {{ if .Site.Params.params.footer.enable }}
 {{ partial "footer.html" . }}
 {{ end }}
-{{ partial "js_other_page.html" . }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
-<script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script>
+{{ partial "js_order_page.html" . }}
 <script>
     $(function() {
         // Initialize Firebase
