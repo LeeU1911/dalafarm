@@ -13,20 +13,22 @@
             </div>
         </div>
         {{ .Content }}
-        {{ partial "order-id.html" . }}
-        <div class="row">
-            <div id="order-content" class="col-md-12">
-                <div class="panel panel-default">
-                    <div class="panel-heading">Thông tin người mua</div>
-                    <div class="panel-body">
-                        <p data-bind="text: name"></p>
-                        <p data-bind="text: phone1"></p>
-                        <p data-bind="text: phone2"></p>
-                        <p data-bind="text: email"></p>
-                        <p><span data-bind="text: address"></span>, <span data-bind="text: province"></span> </p>
+        <div id="order-content">
+            {{ partial "order-id.html" . }}
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Thông tin người mua</div>
+                        <div class="panel-body">
+                            <p data-bind="text: name"></p>
+                            <p data-bind="text: phone1"></p>
+                            <p data-bind="text: phone2"></p>
+                            <p data-bind="text: email"></p>
+                            <p><span data-bind="text: address"></span>, <span data-bind="text: province"></span></p>
+                        </div>
                     </div>
+                    {{ partial "selected-product-list.html" . }}
                 </div>
-                {{ partial "selected-product-list.html" . }}
             </div>
         </div>
         <div class="row">
@@ -35,10 +37,14 @@
                     <button id="edit" name="save" class="btn btn-lg btn-default">Sửa đơn hàng</button>
                 </div>
                 <div class="col-xs-4 text-center">
-                    <button id="cancel" name="cancel" class="btn btn-lg btn-danger" onclick="window.location = '/';">Hủy đặt hàng</button>
+                    <button id="cancel" name="cancel" class="btn btn-lg btn-danger" onclick="window.location = '/';">Hủy
+                        đặt hàng
+                    </button>
                 </div>
                 <div class="col-xs-4 text-right">
-                    <button id="save" name="save" class="btn btn-lg btn-success" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Đang nhập đơn hàng">Hoàn tất</button>
+                    <button id="save" name="save" class="btn btn-lg btn-success"
+                            data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Đang nhập đơn hàng">Hoàn tất
+                    </button>
                 </div>
             </div>
         </div>
@@ -49,7 +55,7 @@
 {{ end }}
 {{ partial "js_order_page.html" . }}
 <script>
-$(function() {
+    $(function () {
         // Initialize Firebase
         var config = {
             apiKey: "AIzaSyABGxfllsBj-8tfsAH7t1qqcZvxZHRP25M",
@@ -60,7 +66,7 @@ $(function() {
             messagingSenderId: "723108104918"
         };
         firebase.initializeApp(config);
-        firebase.auth().onAuthStateChanged(function(user) {
+        firebase.auth().onAuthStateChanged(function (user) {
             if (user) {
                 console.log("User already logged in");
             } else {
@@ -74,7 +80,7 @@ $(function() {
         function getProductsArrayFromBill(b) {
             var products = b.products;
             var productArr = $.map(products, function (val, key) {
-                if(key.substr(key.length - 3, key.length) == "Amt"){
+                if (key.substr(key.length - 3, key.length) == "Amt") {
                     return {name: key, amount: val};
                 }
             });
@@ -94,6 +100,7 @@ $(function() {
             }
             return subtotal + calculateShippingCost(bill);
         }
+
         function AppViewModel() {
             this.id = bill.id;
             this.date = new Date(bill.meta.date);
@@ -116,12 +123,12 @@ $(function() {
             var shippingCost = 0;
             var weight = calculateWeight(bill);
             console.log("Weight is " + weight);
-            if( province === "TP HCM") {
-                if(weight < 200){
+            if (province === "TP HCM") {
+                if (weight < 200) {
                     shippingCost = 25000;
                 }
             } else {
-                if(weight < 300) {
+                if (weight < 300) {
                     if (groupA(province)) {
                         weight <= 300 ? shippingCost = 30000 : (weight <= 500 ? shippingCost = 40000 : (weight <= 1000 ? shippingCost = 50000 : (weight <= 1500 ? shippingCost = 65000 : (weight <= 2000 ? shippingCost = 75000 : shippingCost = addShippingCostAtExceedPrice(weight, 75000)))));
                     } else if (groupB(province)) {
@@ -171,8 +178,8 @@ $(function() {
                     || province === "Quảng Trị" || province === "Thừa Thiên Huế";
             }
 
-            function addShippingCostAtExceedPrice(weightInGram, lowerTierShippingCost){
-                if(weightInGram > 2000) {
+            function addShippingCostAtExceedPrice(weightInGram, lowerTierShippingCost) {
+                if (weightInGram > 2000) {
                     var exceedWeight = weightInGram - 2000;
                     var nextTierPriceAddition = 10000;
                     var shippingCost = lowerTierShippingCost + (Math.ceil(exceedWeight / 500) * nextTierPriceAddition);
@@ -181,14 +188,14 @@ $(function() {
                 return lowerTierShippingCost;
             }
 
-            function calculateWeight(bill){
+            function calculateWeight(bill) {
                 var weight = 0;
                 var products = bill.products;
                 for (var property in products) {
                     if (products.hasOwnProperty(property)) {
                         if (property.substr(property.length - 3, property.length) == "Amt" && products[property] > 0) {
                             weight += 50 * products[property];
-                            if(property.indexOf("100") > 0){
+                            if (property.indexOf("100") > 0) {
                                 weight += 50 * products[property];
                             }
                         }
@@ -214,7 +221,7 @@ $(function() {
             bill.products = getProductsArrayFromBill(bill);
             var dbRef = firebase.database().ref('bills/');
             var newPostRef = dbRef.push();
-            newPostRef.set(bill).then(function(response){
+            newPostRef.set(bill).then(function (response) {
                 console.log("Data saved successfully!" + response);
                 sendToEmailWebhook(bill);
                 sendToSmsWebhook(bill);
@@ -233,7 +240,7 @@ $(function() {
                 type: "POST",
                 url: webhookURL,
                 data: removeEmptyProductNHumanizeName(order),
-                success: function(res) {
+                success: function (res) {
                     console.log(res);
                 },
                 error: function (error) {
@@ -250,17 +257,17 @@ $(function() {
 
         function sendToSmsWebhook(order) {
             var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/9eneca/";
-            var payload = {"to":"", "name":"", "from":"32523276", "subtotal":"", "orderId": "" };
+            var payload = {"to": "", "name": "", "from": "32523276", "subtotal": "", "orderId": ""};
             payload.to = order.info.phone1;
             payload.orderId = order.id;
             var firstName = getFirstName(order.info.name);
-            payload.name = firstName.isLatin()? firstName: firstName.latinise();
+            payload.name = firstName.isLatin() ? firstName : firstName.latinise();
             payload.subtotal = order.subtotal;
             $.ajax({
                 type: "POST",
                 url: webhookURL,
                 data: payload,
-                success: function(res) {
+                success: function (res) {
                     console.log(res);
                 },
                 error: function (error) {
@@ -269,9 +276,18 @@ $(function() {
                 dataType: "json"
             });
         }
-        function sendToEmailWebhook(order){
+
+        function sendToEmailWebhook(order) {
             var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/98r7zl/";
-            var payload = {"to":"", "name":"", "address":"", "phone":"", "from":"info@dalafarm.com.vn", "content":"", "orderId": "" };
+            var payload = {
+                "to": "",
+                "name": "",
+                "address": "",
+                "phone": "",
+                "from": "info@dalafarm.com.vn",
+                "content": "",
+                "orderId": ""
+            };
             var htmlBody = prepareBody(order);
             payload.to = order.info.email;
             payload.orderId = order.id;
@@ -283,11 +299,12 @@ $(function() {
                 type: "POST",
                 url: webhookURL,
                 data: payload,
-                success: function(res){
+                success: function (res) {
                     console.log(res);
                     localStorage.setItem('order-' + order.id, JSON.stringify(order));
                     sessionStorage.removeItem('order');
-                    window.location = "/thank-you";},
+                    window.location = "/thank-you";
+                },
                 error: function (error) {
                     console.log(error);
                     order.error = error;
@@ -298,7 +315,7 @@ $(function() {
             });
         }
 
-        function prepareBody(order){
+        function prepareBody(order) {
             var head = "";//"<!DOCTYPE html> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> </head> <p>DalaFarm xin cám ơn bạn đã đặt hàng.</p> <p>Bên dưới là nội dung đơn hàng của bạn</p> <p>Mã đơn hàng:" + order.id;
             var middle = "<table id='content'> <thead> <tr> <th>Tên</th> <th>Số lượng</th> <th>Đơn giá</th> <th>Thành tiền</th> </tr> </thead> <tbody>";
             var orderContent = buildOrderContent(order.products);
@@ -308,10 +325,10 @@ $(function() {
             return head + middle + orderContent + shipping + total + footer;
         }
 
-        function buildOrderContent(products){
+        function buildOrderContent(products) {
             var orderContent = "";
             products.forEach(function (p) {
-                if(p.amount > 0) {
+                if (p.amount > 0) {
                     orderContent += "<tr><td>" + humanizeProductName(p.name) + "</td><td>" + p.amount + "</td><td>" + p.price + "</td><td>" + p.subtotal + "</td></tr>";
                 }
             });
@@ -321,7 +338,7 @@ $(function() {
         function removeEmptyProductNHumanizeName(orderWProductArr) {
             var fullProducts = orderWProductArr.products;
             orderWProductArr.products = fullProducts.filter(function (p) {
-                if(p.amount > 0) {
+                if (p.amount > 0) {
                     p.name = humanizeProductName(p.name);
                     return p;
                 }
@@ -330,26 +347,44 @@ $(function() {
         }
 
         function humanizeProductName(productKey) {
-            if(productKey) {
-                switch (productKey){
-                    case "carrotAmt": return "Bột cà rốt 50g";
-                    case "beetrootAmt": return "Bột củ dền 50g";
-                    case "broccoliAmt": return "Bột súp lơ xanh 50g";
-                    case "cocoa100Amt": return "Bột ca cao 100g";
-                    case "heartleaf100Amt": return "Bột rau diếp cá 100g";
-                    case "heartleafAmt": return "Bột rau diếp cá 50g";
-                    case "matcha100Amt": return "Bột trà xanh 100g";
-                    case "matchaAmt": return "Bột trà xanh 50g";
-                    case "moringaAmt": return "Bột chùm ngây 50g";
-                    case "pennywortAmt": return "Bột rau má 50g";
-                    case "pennywort100Amt": return "Bột rau má 100g";
-                    case "pumpkinAmt": return "Bột bí đỏ 50g";
-                    case "tomatoAmt": return "Bột cà chua 50g";
-                    case "lotusAmt": return "Bột hạt sen 50g";
-                    case "purpleswpotatoAmt": return "Bột khoai lang tím 50g";
-                    case "spinachAmt": return "Bột rau bó xôi 50g";
-                    case "mushroomAmt": return "Bột nấm 50g";
-                    default: return productKey;
+            if (productKey) {
+                switch (productKey) {
+                    case "carrotAmt":
+                        return "Bột cà rốt 50g";
+                    case "beetrootAmt":
+                        return "Bột củ dền 50g";
+                    case "broccoliAmt":
+                        return "Bột súp lơ xanh 50g";
+                    case "cocoa100Amt":
+                        return "Bột ca cao 100g";
+                    case "heartleaf100Amt":
+                        return "Bột rau diếp cá 100g";
+                    case "heartleafAmt":
+                        return "Bột rau diếp cá 50g";
+                    case "matcha100Amt":
+                        return "Bột trà xanh 100g";
+                    case "matchaAmt":
+                        return "Bột trà xanh 50g";
+                    case "moringaAmt":
+                        return "Bột chùm ngây 50g";
+                    case "pennywortAmt":
+                        return "Bột rau má 50g";
+                    case "pennywort100Amt":
+                        return "Bột rau má 100g";
+                    case "pumpkinAmt":
+                        return "Bột bí đỏ 50g";
+                    case "tomatoAmt":
+                        return "Bột cà chua 50g";
+                    case "lotusAmt":
+                        return "Bột hạt sen 50g";
+                    case "purpleswpotatoAmt":
+                        return "Bột khoai lang tím 50g";
+                    case "spinachAmt":
+                        return "Bột rau bó xôi 50g";
+                    case "mushroomAmt":
+                        return "Bột nấm 50g";
+                    default:
+                        return productKey;
                 }
 
 
