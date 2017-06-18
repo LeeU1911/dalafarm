@@ -15,8 +15,9 @@ gulp.task('minify-html', function() {
 });
 
 //script paths
-var jsFiles = 'themes/e-commerce/assets/js/**/*.js',
+var jsFiles = ['themes/e-commerce/assets/js/e-commerce.js','themes/e-commerce/assets/js/e-commerce-all-pages.js'],
     jsOtherPageFile = 'themes/e-commerce/assets/js/e-commerce-all-pages.js',
+    jsOrderPageFile = ['themes/e-commerce/assets/js/e-commerce-order-pages.js','themes/e-commerce/assets/js/clipboard.min.js'],
     jsDest = 'themes/e-commerce/static/js',
     cssFiles = 'themes/e-commerce/assets/less/e-commerce.less',
     cssDest = 'themes/e-commerce/static/css',
@@ -36,6 +37,15 @@ gulp.task('scripts-other-page', function() {
     return gulp.src(jsOtherPageFile)
         .pipe(concat('scripts-other-page.js'))
         .pipe(rename('scripts-other-page.min.js'))
+        .pipe(uglify())
+        .pipe(gzip({ append: false }))
+        .pipe(gulp.dest(jsDest));
+});
+
+gulp.task('scripts-order-pages', function() {
+    return gulp.src(jsOrderPageFile)
+        .pipe(concat('scripts-order-pages.js'))
+        .pipe(rename('scripts-order-pages.min.js'))
         .pipe(uglify())
         .pipe(gzip({ append: false }))
         .pipe(gulp.dest(jsDest));
@@ -85,9 +95,10 @@ gulp.task('less-min-smoothproducts', function() {
 // gulp.task('default', ['less-min','less-min-smoothproducts','scripts-all','scripts-other-page','image-opt']);
 // gulp.task('image-opt', ['images', 'theme-images']);
 
-gulp.task('default', ['less-min','less-min-smoothproducts','scripts-all','scripts-other-page']);
+gulp.task('default', ['less-min','less-min-smoothproducts','scripts-all','scripts-other-page', 'scripts-order-pages']);
 gulp.task('watch', function(){
     gulp.watch(jsFiles, ['scripts-all']);
     gulp.watch(cssFiles, ['less-min']);
     gulp.watch(jsOtherPageFile, ['scripts-other-page']);
+    gulp.watch(jsOrderPageFile, ['scripts-order-pages']);
 });
