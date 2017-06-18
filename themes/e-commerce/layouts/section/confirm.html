@@ -245,13 +245,13 @@
                 "content": "",
                 "orderId": ""
             };
-            var productList = prepareSlackMessageProductList(order);
+            var slackMessageBody = prepareSlackMessageBody(order);
             payload.to = order.info.email;
             payload.orderId = order.id;
             payload.name = order.info.name;
             payload.address = order.info.address + ", " + order.info.province;
             payload.phone = order.info.phone1;
-            payload.products = productList;
+            payload.content = slackMessageBody;
             $.ajax({
                 type: "POST",
                 url: webhookURL,
@@ -391,13 +391,14 @@
             return orderContent;
         }
 
-        function prepareSlackMessageProductList(order) {
+        function prepareSlackMessageBody(order) {
             var orderContent = "";
             order.products.forEach(function (p) {
                 if (p.amount > 0) {
                     orderContent += "•" + humanizeProductName(p.name) + " - " + p.amount + " x " + p.price + " = " + p.subtotal + "\"\n\"";
                 }
             });
+            orderContent += "Phí giao hàng: " + order.shippingCost + "\"\n\"" + "Tổng tiền: " + order.subtotal;
             return orderContent;
         }
 
