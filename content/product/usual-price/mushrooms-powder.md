@@ -2,7 +2,7 @@
 date = "2017-06-06T08:05:45+08:00"
 publishdate = "2017-06-06T08:05:45+08:00"
 description = "Bột Nấm đóng gói zip 50 gram"
-price = "SẮP RA MẮT - 135,000"
+price = "135,000"
 img = ["mushrooms-1.jpg","mushrooms-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","mushrooms"]
