@@ -223,7 +223,7 @@
             var newPostRef = dbRef.push();
             newPostRef.set(bill).then(function (response) {
                 console.log("Data saved successfully!" + response);
-                sendToSmsEndpointOfEsms(bill);
+                sendToSmsWebhook(bill);
 //                sendFullDetailsToWebhook4Excel(bill);
                 sendFullDetailsToWebhook4Slack(bill);
                 sendToEmailWebhook(bill);
@@ -321,27 +321,27 @@
                 }
             });
         }
-//        function sendToSmsWebhook(order) {
-//            var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/9eneca/";
-//            var payload = {"to": "", "name": "", "from": "32523276", "subtotal": "", "orderId": ""};
-//            payload.to = order.info.phone1;
-//            payload.orderId = order.id;
-//            var firstName = getFirstName(order.info.name);
-//            payload.name = firstName.isLatin() ? firstName : firstName.latinise();
-//            payload.subtotal = order.subtotal;
-//            $.ajax({
-//                type: "POST",
-//                url: webhookURL,
-//                data: payload,
-//                success: function (res) {
-//                    console.log(res);
-//                },
-//                error: function (error) {
-//                    console.log(error);
-//                },
-//                dataType: "json"
-//            });
-//        }
+        function sendToSmsWebhook(order) {
+            var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/9eneca/";
+            var payload = {"to": "", "name": "", "from": "32523276", "subtotal": "", "orderId": ""};
+            payload.to = order.info.phone1;
+            payload.orderId = order.id;
+            var firstName = getFirstName(order.info.name);
+            payload.name = firstName.isLatin() ? firstName : firstName.latinise();
+            payload.subtotal = order.subtotal;
+            $.ajax({
+                type: "POST",
+                url: webhookURL,
+                data: payload,
+                success: function (res) {
+                    console.log(res);
+                },
+                error: function (error) {
+                    console.log(error);
+                },
+                dataType: "json"
+            });
+        }
 
         function sendToEmailWebhook(order) {
             var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/98r7zl/";
