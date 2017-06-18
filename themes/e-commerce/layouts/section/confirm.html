@@ -224,7 +224,8 @@
             newPostRef.set(bill).then(function (response) {
                 console.log("Data saved successfully!" + response);
                 sendToSmsEndpointOfEsms(bill);
-                sendFullDetailsToWebhook4Excel(bill);
+//                sendFullDetailsToWebhook4Excel(bill);
+                sendFullDetailsToWebhook4Slack(bill);
                 sendToEmailWebhook(bill);
             }, function (error) {
                 console.log(error);
@@ -234,8 +235,23 @@
             });
         }
 
-        function sendFullDetailsToWebhook4Excel(order) {
+        function sendFullDetailsToWebhook4Slack(order) {
             var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/9cmzdm/";
+            var payload = {
+                "to": "",
+                "name": "",
+                "address": "",
+                "phone": "",
+                "content": "",
+                "orderId": ""
+            };
+            var productList = prepareSlackMessageProductList(order);
+            payload.to = order.info.email;
+            payload.orderId = order.id;
+            payload.name = order.info.name;
+            payload.address = order.info.address + ", " + order.info.province;
+            payload.phone = order.info.phone1;
+            payload.products = productList;
             $.ajax({
                 type: "POST",
                 url: webhookURL,
@@ -249,6 +265,22 @@
                 dataType: "json"
             });
         }
+
+//        function sendFullDetailsToWebhook4Excel(order) {
+//            var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/9cmzdm/";
+//            $.ajax({
+//                type: "POST",
+//                url: webhookURL,
+//                data: removeEmptyProductNHumanizeName(order),
+//                success: function (res) {
+//                    console.log(res);
+//                },
+//                error: function (error) {
+//                    console.log(error);
+//                },
+//                dataType: "json"
+//            });
+//        }
 
         function getFirstName(name) {
             nameArr = name.split(" ");
@@ -354,6 +386,16 @@
             products.forEach(function (p) {
                 if (p.amount > 0) {
                     orderContent += "<tr><td>" + humanizeProductName(p.name) + "</td><td>" + p.amount + "</td><td>" + p.price + "</td><td>" + p.subtotal + "</td></tr>";
+                }
+            });
+            return orderContent;
+        }
+
+        function prepareSlackMessageProductList(order) {
+            var orderContent = "";
+            order.products.forEach(function (p) {
+                if (p.amount > 0) {
+                    orderContent += "•" + humanizeProductName(p.name) + " - " + p.amount + " x " + p.price + " = " + p.subtotal + "\"\n\"";
                 }
             });
             return orderContent;
