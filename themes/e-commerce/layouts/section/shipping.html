@@ -318,7 +318,7 @@
         });
         function getPhoneNumber() {
             var trimmedNumber = viewModel.info.phone1();
-            return "+84" + trimmedNumber;
+            return "+65" + trimmedNumber;
         }
         $('#verifyPhone1').on('click', function(e){
             e.preventDefault();
@@ -350,7 +350,7 @@
                 // User signed in successfully.
                 console.log("User logged in!");
                 alert("Số điện thoại xác thực thành công!");
-                initUIStateForLoginBasedOnUserState();
+                initUIStateForLoginBasedOnUserState(result.user);
             }).catch(function (error) {
                 alert("Something wrong! Verification code incorrect!" + error);
                 console.log("Something wrong! Verification code incorrect! " + error);
