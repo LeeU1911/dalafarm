@@ -327,7 +327,7 @@
                     console.log(res);
                     localStorage.setItem('order-' + order.id, JSON.stringify(order));
                     sessionStorage.removeItem('order');
-//                    window.location = "/thank-you";
+                    window.location = "/thank-you";
                 },
                 error: function (error) {
                     console.log(error);
