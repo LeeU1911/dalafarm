@@ -265,6 +265,16 @@
                 dataType: "json"
             });
         }
+        function prepareSlackMessageBody(order) {
+            var orderContent = "";
+            order.products.forEach(function (p) {
+                if (p.amount > 0) {
+                    orderContent += "•" + humanizeProductName(p.name) + " - " + p.amount + " x " + p.price + " = " + p.subtotal + "\n";
+                }
+            });
+            orderContent += "Phí giao hàng: " + order.shippingCost + "\n" + "Tổng tiền: " + order.subtotal;
+            return orderContent;
+        }
 
 //        function sendFullDetailsToWebhook4Excel(order) {
 //            var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/9cmzdm/";
@@ -391,16 +401,6 @@
             return orderContent;
         }
 
-        function prepareSlackMessageBody(order) {
-            var orderContent = "";
-            order.products.forEach(function (p) {
-                if (p.amount > 0) {
-                    orderContent += "•" + humanizeProductName(p.name) + " - " + p.amount + " x " + p.price + " = " + p.subtotal + "\"\n\"";
-                }
-            });
-            orderContent += "Phí giao hàng: " + order.shippingCost + "\"\n\"" + "Tổng tiền: " + order.subtotal;
-            return orderContent;
-        }
 
         function removeEmptyProductNHumanizeName(orderWProductArr) {
             var fullProducts = orderWProductArr.products;
