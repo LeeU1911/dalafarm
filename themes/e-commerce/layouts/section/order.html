@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}">
 {{ partial "head.html" . }}
-
+<style>
+    #products .row:nth-child(odd){
+        background-color: lightgray;
+        padding: 10px 0;
+    }
+</style>
 <body id="page-top" class="index">
 {{ partial "nav-for-other-page.html" . }}
 {{ "<!-- terms and conditions Grid Section -->" | safeHTML }}
@@ -26,14 +31,13 @@
                                 <!-- Form Name -->
                                 <legend>Sản phẩm</legend>
 
-                                <div class="form-group">
+                                <div id="products">
 
 
                                     {{ $data := index .Site.Data .Site.Language.Lang }}
                                     {{ $prices := $data.price }}
                                     {{ range where .Site.Pages "Section" "product" }}
                                     <div class="row" style="margin-bottom: 10px;">
-                                        <div class="col-md-12">
                                         {{ if isset .Params "key" }}
                                             <div class="col-md-8">
                                                 <span>
@@ -58,7 +62,6 @@
                                                 </span>
                                             </div>
                                         {{ end }}
-                                        </div>
                                     </div>
                                     {{ end }}
 
