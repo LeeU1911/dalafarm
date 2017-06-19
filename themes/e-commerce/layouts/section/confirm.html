@@ -13,9 +13,8 @@
             </div>
         </div>
         {{ .Content }}
-        <div id="order-content">
             {{ partial "order-id.html" . }}
-            <div class="row">
+            <div class="row" id="order-content">
                 <div class="col-md-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">Thông tin người mua</div>
@@ -30,7 +29,6 @@
                     {{ partial "selected-product-list.html" . }}
                 </div>
             </div>
-        </div>
         <div class="row">
             <div class="form-group">
                 <div class="col-xs-4">
