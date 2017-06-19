@@ -222,7 +222,7 @@
             newPostRef.set(bill).then(function (response) {
                 console.log("Data saved successfully!" + response);
                 sendToSmsWebhook(bill);
-//                sendFullDetailsToWebhook4Excel(bill);
+                sendFullDetailsToWebhook4Excel(bill);
                 sendFullDetailsToWebhook4Slack(bill);
                 sendToEmailWebhook(bill);
             }, function (error) {
@@ -274,21 +274,21 @@
             return orderContent;
         }
 
-//        function sendFullDetailsToWebhook4Excel(order) {
-//            var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/9cmzdm/";
-//            $.ajax({
-//                type: "POST",
-//                url: webhookURL,
-//                data: removeEmptyProductNHumanizeName(order),
-//                success: function (res) {
-//                    console.log(res);
-//                },
-//                error: function (error) {
-//                    console.log(error);
-//                },
-//                dataType: "json"
-//            });
-//        }
+        function sendFullDetailsToWebhook4Excel(order) {
+            var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/906tv0/";
+            $.ajax({
+                type: "POST",
+                url: webhookURL,
+                data: order,
+                success: function (res) {
+                    console.log(res);
+                },
+                error: function (error) {
+                    console.log(error);
+                },
+                dataType: "json"
+            });
+        }
 
         function getFirstName(name) {
             nameArr = name.split(" ");
