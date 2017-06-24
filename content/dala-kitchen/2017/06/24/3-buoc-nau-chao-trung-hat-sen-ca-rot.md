@@ -17,19 +17,19 @@ TRỨNG – HẠT SEN - CÀ RỐT
 
 - **Trứng gà** là một thực phẩm vô cùng bổ dưỡng đối với trẻ, mẹ có thể cho trẻ ăn trứng gà từ khoảng 6 tháng tuổi trở đi nhưng cần phải ăn đúng liều lượng. Tùy theo độ tuổi mà mẹ cho bé ăn trứng với số lượng khác nhau, sau đây là lượng trứng phù hợp theo từng độ tuổi mẹ nên cho trẻ ăn:
 
-1.	Trẻ 6 – 7 tháng tuổi: ăn 2 – 3 bữa/tuần, ăn 1/2 lòng trứng gà/bữa.
+  1.	Trẻ 6 – 7 tháng tuổi: ăn 2 – 3 bữa/tuần, ăn 1/2 lòng trứng gà/bữa.
 
-2.	Trẻ 8 – 12 tháng tuổi: ăn 3 – 4 bữa/tuần, ăn 1 lòng đỏ/bữa.
+  2.	Trẻ 8 – 12 tháng tuổi: ăn 3 – 4 bữa/tuần, ăn 1 lòng đỏ/bữa.
 
-3.	Trẻ 1 – 2 tuổi: ăn 3 – 4 quả trứng/tuần, ăn cả lòng trắng trứng.
+  3.	Trẻ 1 – 2 tuổi: ăn 3 – 4 quả trứng/tuần, ăn cả lòng trắng trứng.
 
-4.	Trẻ từ 2 tuổi trở lên: có thể ăn 1 quả trứng/ngày.
+  4.	Trẻ từ 2 tuổi trở lên: có thể ăn 1 quả trứng/ngày.
 
-**Cách nấu cháo trứng,  hạt sen, cà rốt cho bé**
+**Cách nấu cháo trứng, hạt sen, cà rốt cho bé**
 
 Nguyên liệu: 
 
-* Trứng
+* Trứng gà
 * [Bột Hạt Sen DalaFarm](/san-pham/bot-hat-sen-50g)
 * [Bột Cà Rốt DalaFarm](/san-pham/bot-ca-rot-50g)
 * Dầu ăn tỏi tía DalaFarm.
