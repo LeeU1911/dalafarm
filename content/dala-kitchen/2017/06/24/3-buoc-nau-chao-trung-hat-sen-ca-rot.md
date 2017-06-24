@@ -1,6 +1,6 @@
 +++
 date = "2017-06-24T01:51:53+08:00"
-tags = ["3-buoc-nau-chao-trung-hat-sen-ca-rot", "bột-hạt-sen", "Mushrooms-powder"]
+tags = ["3-buoc-nau-chao-trung-hat-sen-ca-rot", "bột-hạt-sen", "Mushroom-powder"]
 thumbnail = "3-buoc-nau-chao-trung-hat-sen-ca-rot.jpg"
 title = """3 BƯỚC NẤU CHÁO  
 TRỨNG – HẠT SEN - CÀ RỐT  

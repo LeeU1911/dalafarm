@@ -1,6 +1,6 @@
 +++
 date = "2017-06-24T01:51:53+08:00"
-tags = ["chao-trung-ga-va bot-nam-bao-ngu-DalaFarm", "bột-nấm", "Mushrooms-powder"]
+tags = ["chao-trung-ga-va bot-nam-bao-ngu-DalaFarm", "bột-nấm", "Mushroom-powder"]
 thumbnail = "chao-trung-ga-va bot-nam-bao-ngu-DalaFarm.jpg"
 title = "CHÁO TRỨNG GÀ VÀ BỘT NẤM BÀO NGƯ DALAFARM"
 

@@ -1,6 +1,6 @@
 +++
 date = "2017-06-24T01:51:53+08:00"
-tags = ["Loi-ich-khi-cho-be-an-dam-voi-nam", "bột-nấm", "Mushrooms-powder"]
+tags = ["Loi-ich-khi-cho-be-an-dam-voi-nam", "bột-nấm", "Mushroom-powder"]
 thumbnail = "Loi-ich-khi-cho-be-an-dam-voi-nam.jpg"
 title = "LỢI ÍCH KHI CHO BÉ ĂN DẶM VỚI NẤM"
 
