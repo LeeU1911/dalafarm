@@ -24,6 +24,7 @@
                             <p data-bind="text: phone2"></p>
                             <p data-bind="text: email"></p>
                             <p><span data-bind="text: address"></span>, <span data-bind="text: province"></span></p>
+                            <p>Hình thức thanh toán: <span data-bind="text: paymentType"></span></p>
                         </div>
                     </div>
                     {{ partial "selected-product-list.html" . }}
@@ -111,6 +112,7 @@
             this.products = getProductsArrayFromBill(bill);
             this.subtotal = calculateTotalBill(bill);
             this.shippingCost = calculateShippingCost(bill);
+            this.paymentType = humanizePaymentType(bill.info.paymentType);
         }
 
         // Activates knockout.js
@@ -270,7 +272,7 @@
                     orderContent += "•" + humanizeProductName(p.name) + " - " + p.amount + " x " + p.price + " = " + p.subtotal + "\n";
                 }
             });
-            orderContent += "Phí giao hàng: " + order.shippingCost + "\n" + "Tổng tiền: " + order.subtotal;
+            orderContent += "Phí giao hàng: " + order.shippingCost + "\n" + "Tổng tiền: " + order.subtotal + "\n" + "Cách thanh toán: " + humanizePaymentType(order.info.paymentType);
             return orderContent;
         }
 
@@ -380,12 +382,13 @@
         }
 
         function prepareBody(order) {
-            var head = "";//"<!DOCTYPE html> <head> <meta charset=\"utf-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> </head> <p>DalaFarm xin cám ơn bạn đã đặt hàng.</p> <p>Bên dưới là nội dung đơn hàng của bạn</p> <p>Mã đơn hàng:" + order.id;
+            var head = "";
             var middle = "<table id='content'> <thead> <tr> <th>Tên</th> <th>Số lượng</th> <th>Đơn giá</th> <th>Thành tiền</th> </tr> </thead> <tbody>";
             var orderContent = buildOrderContent(order.products);
             var shipping = "</tbody> </table> <p>Phí giao hàng: <strong>" + order.shippingCost + "</strong></p>";
             var total = "<p>Tổng tiền: <strong>" + order.subtotal + "</strong></p>";
-            var footer = "";//"<p>Xin cám ơn bạn đã ủng hộ DalaFarm.</p>  <p>Nếu có vấn đề hay câu hỏi gì, xin vui lòng liên hệ fanpage: <a href=\"https://fb.me/dalafarm.com.vn\">Facebook DalaFarm</a> hoặc website <a href=\"https://dalafarm.com.vn\">DalaFarm</a></p>";
+            var paymentType = "<p>Hình thức thanh toán: <strong>" + humanizePaymentType(order.info.paymentType) + "</strong></p>";
+            var footer = "";
             return head + middle + orderContent + shipping + total + footer;
         }
 
@@ -397,18 +400,6 @@
                 }
             });
             return orderContent;
-        }
-
-
-        function removeEmptyProductNHumanizeName(orderWProductArr) {
-            var fullProducts = orderWProductArr.products;
-            orderWProductArr.products = fullProducts.filter(function (p) {
-                if (p.amount > 0) {
-                    p.name = humanizeProductName(p.name);
-                    return p;
-                }
-            });
-            return orderWProductArr;
         }
 
         function humanizeProductName(productKey) {
@@ -452,6 +443,16 @@
                         return productKey;
                 }
 
+
+            }
+        }
+
+        function humanizePaymentType(paymentType) {
+            if(paymentType){
+                switch (paymentType) {
+                    case "cod": return "Thanh toán lúc nhận hàng (COD)";
+                    case "bank-transfer": return "Chuyển khoản ngân hàng";
+                }
 
             }
         }

@@ -171,6 +171,25 @@
                                         </select>
                                     </div>
                                 </div>
+                                <!-- Multiple Radios -->
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label" for="radios">Hình thức thanh toán</label>
+                                    <div class="col-md-8" id="radios">
+                                        <div class="radio">
+                                            <label for="radios-0">
+                                                <input name="radios" id="radios-0" value="cod" data-bind="checked: info.paymentType" type="radio">
+                                                Thanh toán lúc nhận hàng (COD)
+                                            </label>
+                                        </div>
+                                        <div class="radio">
+                                            <label for="radios-1">
+                                                <input name="radios" id="radios-1" value="bank-transfer" data-bind="checked: info.paymentType" type="radio">
+                                                Chuyển khoản
+                                            </label>
+                                            <a href="/qa/#cách-thanh-toán" target="_blank">(Xem thông tin chuyển khoản)</a>
+                                        </div>
+                                    </div>
+                                </div>
 
                             </fieldset>
                         </form>
@@ -276,7 +295,8 @@
                 phone2: ko.observable((bill && bill.info && bill.info.phone2) || ""),
                 email: ko.observable((bill && bill.info && bill.info.email) || ""),
                 address: ko.observable((bill && bill.info && bill.info.address) || ""),
-                province: ko.observable((bill && bill.info && bill.info.province) || "TP HCM")
+                province: ko.observable((bill && bill.info && bill.info.province) || "TP HCM"),
+                paymentType: ko.observable((bill && bill.info && bill.info.paymentType) || "cod")
             },
             products: getProductsArrayFromBill(bill),
             subtotal: calculateTotalBill(bill),
