@@ -56,6 +56,7 @@
                                                 class="btn btn-lg btn-success"
                                                 data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Vui lòng đợi...">Xác thực mã
                                         </button>
+                                        <div id="recaptcha-container"></div>
                                     </div>
                                     <div class="col-md-2">
                                         <button id="verifyPhone1" style="display: none;" name="verifyPhone1"
@@ -200,6 +201,7 @@
 {{ end }}
 {{ partial "js_order_page.html" . }}
 <script>
+    var VNPhoneCountryCode = "+84";
     $(function() {
         // Initialize Firebase
         var config = {
@@ -267,10 +269,10 @@
             id: ko.observable((bill && bill.id) || ""),
             info:{
                 name: ko.observable((bill && bill.info && bill.info.name) || ""),
-                phone1CountryCode: ko.observable((bill && bill.info && bill.info.phone1CountryCode) || "+84"),
+                phone1CountryCode: ko.observable((bill && bill.info && bill.info.phone1CountryCode) || VNPhoneCountryCode),
                 phone1: ko.observable((bill && bill.info && bill.info.phone1.substring(3)) || ""),
                 verificationCode: ko.observable(""),
-                phone2CountryCode: ko.observable((bill && bill.info && bill.info.phone2CountryCode) || "+84"),
+                phone2CountryCode: ko.observable((bill && bill.info && bill.info.phone2CountryCode) || VNPhoneCountryCode),
                 phone2: ko.observable((bill && bill.info && bill.info.phone2) || ""),
                 email: ko.observable((bill && bill.info && bill.info.email) || ""),
                 address: ko.observable((bill && bill.info && bill.info.address) || ""),
@@ -291,6 +293,7 @@
                 $('#verifyCode').hide();
                 $('#verificationCode').hide();
                 $('#showUserSmsSentMsg').hide();
+                $('#recaptcha-container').hide();
                 $('#save').prop('disabled', false);
             } else {
                 $('#verifyPhone1').show();
@@ -312,15 +315,21 @@
         function clearForm() {
             $('#bill')[0].reset();
         }
-        window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('verifyCode', {
-            'size': 'invisible',
+        window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('recaptcha-container', {
+            'size': 'normal',
             'callback': function(response) {
                 // reCAPTCHA solved, allow signInWithPhoneNumber.
+                // ...
+            },
+            'expired-callback': function() {
+                // Response expired. Ask user to solve reCAPTCHA again.
+                // ...
             }
         });
+
         function getPhoneNumber() {
             var trimmedNumber = viewModel.info.phone1();
-            return "+84" + trimmedNumber;
+            return VNPhoneCountryCode + trimmedNumber;
         }
         $('#verifyPhone1').on('click', function(e){
             e.preventDefault();
