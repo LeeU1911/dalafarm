@@ -12,9 +12,11 @@
                 <h2 class="section-heading">{{ .Title }}</h2>
             </div>
         </div>
-        <p class="order-page-content">
-            {{ .Content }}
-        </p>
+        <div class="row alert alert-info">
+            <p class="order-page-content">
+                {{ .Content }}
+            </p>
+        </div>
         {{ partial "order-id.html" . }}
         <div class="row">
             <div class="col-md-12">
