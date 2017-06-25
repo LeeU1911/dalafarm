@@ -25,6 +25,7 @@
                             <p data-bind="text: email"></p>
                             <p><span data-bind="text: address"></span>, <span data-bind="text: province"></span></p>
                             <p>Hình thức thanh toán: <span data-bind="text: paymentType"></span></p>
+                            <p data-bind="text: additionalNote" style="font-style: italic;" ></p>
                         </div>
                     </div>
                     {{ partial "selected-product-list.html" . }}
@@ -113,6 +114,7 @@
             this.subtotal = calculateTotalBill(bill);
             this.shippingCost = calculateShippingCost(bill);
             this.paymentType = humanizePaymentType(bill.info.paymentType);
+            this.additionalNote = bill.info.additionalNote;
         }
 
         // Activates knockout.js

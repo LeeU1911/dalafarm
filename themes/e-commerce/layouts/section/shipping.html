@@ -30,7 +30,7 @@
 
                                 <!-- Text input-->
                                 <div class="form-group">
-                                    <label class="col-md-2 control-label" for="name">Tên</label>
+                                    <label class="col-md-2 control-label" for="name">Tên *</label>
                                     <div class="col-md-8">
                                         <input data-bind="value: info.name" id="name" name="name" type="text"
                                                placeholder="Tên" class="form-control input-lg" required="">
@@ -40,7 +40,7 @@
 
                                 <!-- Text input-->
                                 <div class="form-group">
-                                    <label class="col-md-2 control-label" for="phone1">Số điện thoại 1</label>
+                                    <label class="col-md-2 control-label" for="phone1">Số điện thoại 1 *</label>
                                     <div class="col-md-8">
                                         <div class="input-group">
                                             <span class="input-group-addon" data-bind="text: info.phone1CountryCode"></span>
@@ -90,7 +90,7 @@
 
                                 <!-- Text input-->
                                 <div class="form-group">
-                                    <label class="col-md-2 control-label" for="address">Địa chỉ</label>
+                                    <label class="col-md-2 control-label" for="address">Địa chỉ *</label>
                                     <div class="col-md-8">
                                         <input data-bind="value: info.address" id="address" name="address" type="text"
                                                placeholder="Tên số nhà, đường, phường, xã, quận/huyện"
@@ -173,7 +173,7 @@
                                 </div>
                                 <!-- Multiple Radios -->
                                 <div class="form-group">
-                                    <label class="col-md-2 control-label" for="radios">Hình thức thanh toán</label>
+                                    <label class="col-md-2 control-label" for="radios">Hình thức thanh toán *</label>
                                     <div class="col-md-8" id="radios">
                                         <div class="radio">
                                             <label for="radios-0">
@@ -188,6 +188,15 @@
                                             </label>
                                             <a href="/qa/#cách-thanh-toán" target="_blank">(Xem thông tin chuyển khoản)</a>
                                         </div>
+                                    </div>
+                                </div>
+
+                                <!-- Textarea -->
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label" for="additionalNote">Ghi chú</label>
+                                    <div class="col-md-8">
+                                        <textarea data-bind="value: info.additionalNote" class="form-control"
+                                                  id="additionalNote" name="textarea" placeholder="Ghi chú thêm nếu có, ví dụ: vui lòng giao sau thứ 3"></textarea>
                                     </div>
                                 </div>
 
@@ -296,7 +305,8 @@
                 email: ko.observable((bill && bill.info && bill.info.email) || ""),
                 address: ko.observable((bill && bill.info && bill.info.address) || ""),
                 province: ko.observable((bill && bill.info && bill.info.province) || "TP HCM"),
-                paymentType: ko.observable((bill && bill.info && bill.info.paymentType) || "cod")
+                paymentType: ko.observable((bill && bill.info && bill.info.paymentType) || "cod"),
+                additionalNote: ko.observable((bill && bill.info && bill.info.additionalNote) || "")
             },
             products: getProductsArrayFromBill(bill),
             subtotal: calculateTotalBill(bill),

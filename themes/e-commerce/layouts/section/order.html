@@ -120,12 +120,16 @@
             id: ko.observable((bill && bill.id) || ""),
             info:{
                 name: ko.observable((bill && bill.info && bill.info.name) || ""),
+                phone1CountryCode: ko.observable((bill && bill.info && bill.info.phone1CountryCode) || VNPhoneCountryCode),
                 phone1: ko.observable((bill && bill.info && bill.info.phone1) || ""),
                 verificationCode: ko.observable(""),
+                phone2CountryCode: ko.observable((bill && bill.info && bill.info.phone2CountryCode) || VNPhoneCountryCode),
                 phone2: ko.observable((bill && bill.info && bill.info.phone2) || ""),
                 email: ko.observable((bill && bill.info && bill.info.email) || ""),
                 address: ko.observable((bill && bill.info && bill.info.address) || ""),
-                province: ko.observable((bill && bill.info && bill.info.province) || "TP HCM")
+                province: ko.observable((bill && bill.info && bill.info.province) || "TP HCM"),
+                paymentType: ko.observable((bill && bill.info && bill.info.paymentType) || "cod"),
+                additionalNote: ko.observable((bill && bill.info && bill.info.additionalNote) || "")
             },
             products: {
                 pumpkinAmt: ko.observable((bill && bill.products && bill.products.pumpkinAmt) || "0"),
@@ -145,37 +149,6 @@
                 lotusAmt: ko.observable((bill && bill.products && bill.products.lotusAmt) || "0"),
                 spinachAmt: ko.observable((bill && bill.products && bill.products.spinachAmt) || "0"),
                 purpleswpotatoAmt: ko.observable((bill && bill.products && bill.products.purpleswpotatoAmt) || "0")
-            }
-        };
-
-        var viewModelEmpty = {
-            info:{
-                name: ko.observable(""),
-                phone1: ko.observable(""),
-                verificationCode: ko.observable(""),
-                phone2: ko.observable(""),
-                email: ko.observable(""),
-                address: ko.observable(""),
-                province: ko.observable("")
-            },
-            products: {
-                pumpkinAmt: ko.observable("0"),
-                moringaAmt: ko.observable("0"),
-                tomatoAmt: ko.observable("0"),
-                carrotAmt: ko.observable("0"),
-                heartleaf100Amt: ko.observable("0"),
-                heartleafAmt: ko.observable("0"),
-                pennywort100Amt: ko.observable("0"),
-                pennywortAmt: ko.observable("0"),
-                matcha100Amt: ko.observable("0"),
-                matchaAmt: ko.observable("0"),
-                cocoa100Amt: ko.observable("0"),
-                beetrootAmt: ko.observable("0"),
-                broccoliAmt: ko.observable("0"),
-                mushroomAmt: ko.observable("0"),
-                lotusAmt: ko.observable("0"),
-                spinachAmt: ko.observable("0"),
-                purpleswpotatoAmt: ko.observable("0")
             }
         };
 
