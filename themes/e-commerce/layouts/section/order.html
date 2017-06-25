@@ -40,7 +40,7 @@
                             {{ $prices := $data.price }}
                             {{ range $i, $e := where .Site.Pages "Section" "product" }}
                             {{ if isset .Params "key" }}
-                            <div class="col-xs-4 box-item product-box" style="margin-bottom: 1em; padding-bottom: 1em;">
+                            <div class="col-xs-6 box-item product-box" style="margin-bottom: 1em; padding-bottom: 1em;">
                                 <a href="{{ .URL }}" class="product-link">
                                     {{ $url := printf "img/product/%s" .Params.thumbnail }}
                                     <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Title }}">
@@ -61,7 +61,7 @@
                                                  <span class="glyphicon glyphicon-minus"></span>
                                              </button>
                                         </span>
-                                    <input style="font-size: 2.5rem;" data-bind="value: products.{{.Params.key}}Amt" type="text" name="quant[1]-{{.Params.key}}" class="form-control input-number add-to-cart-btn" value="0" min="0" max="10">
+                                    <input style="font-size: 1.5rem;" data-bind="value: products.{{.Params.key}}Amt" type="text" name="quant[1]-{{.Params.key}}" class="form-control input-number add-to-cart-btn" value="0" min="0" max="10">
                                     <span class="input-group-btn">
                                             <button type="button" class="btn btn-default btn-number add-to-cart-btn" data-type="plus" data-field="quant[1]-{{.Params.key}}">
                                                 <span class="glyphicon glyphicon-plus"></span>
@@ -70,7 +70,7 @@
                                 </div>
                             </div>
                             {{ end }}
-                                {{ if modBool ( add $i 1) 3 }}
+                                {{ if modBool ( add $i 1) 2 }}
                                 </div><div class="row row-eq-height">
                                 {{ end }}
                             {{ end }}
