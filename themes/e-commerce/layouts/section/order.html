@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}">
 {{ partial "head.html" . }}
+<style>
+    .add-to-cart-btn {
+        background-color: darkgoldenrod;
+        text-align: center;
+        color: white;
+    }
+    .add-to-cart-btn:focus, .add-to-cart-btn:hover {
+        background-color: #A6CE39;
+    }
+</style>
 <body id="page-top" class="index">
 {{ partial "nav-for-other-page.html" . }}
 {{ "<!-- terms and conditions Grid Section -->" | safeHTML }}
@@ -47,13 +57,13 @@
                                 </div>
                                 <div class="input-group">
                                         <span class="input-group-btn">
-                                             <button type="button" class="btn btn-default btn-number" data-type="minus" data-field="quant[1]-{{.Params.key}}">
+                                             <button type="button" class="btn btn-default btn-number add-to-cart-btn" data-type="minus" data-field="quant[1]-{{.Params.key}}">
                                                  <span class="glyphicon glyphicon-minus"></span>
                                              </button>
                                         </span>
-                                    <input data-bind="value: products.{{.Params.key}}Amt" type="text" name="quant[1]-{{.Params.key}}" class="form-control input-number" value="0" min="0" max="10">
+                                    <input style="font-size: 2.5rem;" data-bind="value: products.{{.Params.key}}Amt" type="text" name="quant[1]-{{.Params.key}}" class="form-control input-number add-to-cart-btn" value="0" min="0" max="10">
                                     <span class="input-group-btn">
-                                            <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]-{{.Params.key}}">
+                                            <button type="button" class="btn btn-default btn-number add-to-cart-btn" data-type="plus" data-field="quant[1]-{{.Params.key}}">
                                                 <span class="glyphicon glyphicon-plus"></span>
                                             </button>
                                         </span>
