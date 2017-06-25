@@ -120,10 +120,10 @@
             id: ko.observable((bill && bill.id) || ""),
             info:{
                 name: ko.observable((bill && bill.info && bill.info.name) || ""),
-                phone1CountryCode: ko.observable((bill && bill.info && bill.info.phone1CountryCode) || VNPhoneCountryCode),
+                phone1CountryCode: ko.observable((bill && bill.info && bill.info.phone1CountryCode) || ""),
                 phone1: ko.observable((bill && bill.info && bill.info.phone1) || ""),
                 verificationCode: ko.observable(""),
-                phone2CountryCode: ko.observable((bill && bill.info && bill.info.phone2CountryCode) || VNPhoneCountryCode),
+                phone2CountryCode: ko.observable((bill && bill.info && bill.info.phone2CountryCode) || ""),
                 phone2: ko.observable((bill && bill.info && bill.info.phone2) || ""),
                 email: ko.observable((bill && bill.info && bill.info.email) || ""),
                 address: ko.observable((bill && bill.info && bill.info.address) || ""),
