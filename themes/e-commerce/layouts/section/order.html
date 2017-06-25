@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}">
 {{ partial "head.html" . }}
-<style>
-    #products .row:nth-child(odd){
-        background-color: lightgray;
-        padding: 10px 0;
-    }
-</style>
 <body id="page-top" class="index">
 {{ partial "nav-for-other-page.html" . }}
 {{ "<!-- terms and conditions Grid Section -->" | safeHTML }}
@@ -18,7 +12,7 @@
             </div>
         </div>
 
-        <div class="alert alert-info">
+        <div class="row alert alert-info">
             <p class="order-page-content">
             {{ .Content }}
             </p>
@@ -26,57 +20,57 @@
 
         <div class="row">
             <div class="col-md-12">
-                <div class="panel panel-default">
-                    <div class="panel-heading">Đơn hàng</div>
-                    <div class="panel-body">
-                        <form class="form-horizontal" name="bill" id="bill">
-                            <fieldset>
+                <form class="form-horizontal" name="bill" id="bill">
+                    <fieldset>
 
-                                <!-- Form Name -->
-                                <legend>Sản phẩm</legend>
+                        <div id="products">
+                            <div class="row row-eq-height">
 
-                                <div id="products">
-
-
-                                    {{ $data := index .Site.Data .Site.Language.Lang }}
-                                    {{ $prices := $data.price }}
-                                    {{ range where .Site.Pages "Section" "product" }}
-                                    <div class="row" style="margin-bottom: 10px;">
-                                        {{ if isset .Params "key" }}
-                                            <div class="col-md-8">
-                                                <span>
-                                                {{ .Title }} -
-                                                {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
-                                                {{ $discounted_price := index $prices $dscnt_price }}
-                                                {{ if gt $discounted_price 0 }}<span id="{{ printf "%sPrice" .Params.key }}" data-price="{{ $discounted_price }}">{{ $discounted_price }}{{ else }}<span id="{{ printf "%sPrice" .Params.key }}" data-price="{{ index $prices .Params.key }}">{{ index $prices .Params.key }}{{ end }}
-                                                    </span>
-                                                </span>
-                                            </div>
-                                            <div class="input-group col-md-4">
-                                                <span class="input-group-btn">
-                                                     <button type="button" class="btn btn-default btn-number" data-type="minus" data-field="quant[1]-{{.Params.key}}">
-                                                         <span class="glyphicon glyphicon-minus"></span>
-                                                     </button>
-                                                </span>
-                                                <input data-bind="value: products.{{.Params.key}}Amt" type="text" name="quant[1]-{{.Params.key}}" class="form-control input-number" value="0" min="0" max="10">
-                                                  <span class="input-group-btn">
-                                                    <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]-{{.Params.key}}">
-                                                        <span class="glyphicon glyphicon-plus"></span>
-                                                    </button>
-                                                </span>
-                                            </div>
-                                        {{ end }}
-                                    </div>
-                                    {{ end }}
-
+                            {{ $data := index .Site.Data .Site.Language.Lang }}
+                            {{ $prices := $data.price }}
+                            {{ range $i, $e := where .Site.Pages "Section" "product" }}
+                            {{ if isset .Params "key" }}
+                            <div class="col-xs-4 box-item product-box" style="margin-bottom: 1em; padding-bottom: 1em;">
+                                <a href="{{ .URL }}" class="product-link">
+                                    {{ $url := printf "img/product/%s" .Params.thumbnail }}
+                                    <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Title }}">
+                                </a>
+                                <div class="product-caption text-price">
+                                    <h4>{{ .Title | markdownify }}</h4>
+                                    <p>
+                                        {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
+                                        {{ $discounted_price := index $prices $dscnt_price }}
+                                        {{ if gt $discounted_price 0 }}<span class="text-current-price" id="{{ printf "%sPrice" .Params.key }}" data-price="{{ $discounted_price }}">{{ $discounted_price }}
+                                        {{ else }}<span class="text-current-price" id="{{ printf "%sPrice" .Params.key }}" data-price="{{ index $prices .Params.key }}">{{ index $prices .Params.key }}
+                                        {{ end }}</span>
+                                    </p>
                                 </div>
+                                <div class="input-group">
+                                        <span class="input-group-btn">
+                                             <button type="button" class="btn btn-default btn-number" data-type="minus" data-field="quant[1]-{{.Params.key}}">
+                                                 <span class="glyphicon glyphicon-minus"></span>
+                                             </button>
+                                        </span>
+                                    <input data-bind="value: products.{{.Params.key}}Amt" type="text" name="quant[1]-{{.Params.key}}" class="form-control input-number" value="0" min="0" max="10">
+                                    <span class="input-group-btn">
+                                            <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]-{{.Params.key}}">
+                                                <span class="glyphicon glyphicon-plus"></span>
+                                            </button>
+                                        </span>
+                                </div>
+                            </div>
+                            {{ end }}
+                                {{ if modBool ( add $i 1) 3 }}
+                                </div><div class="row row-eq-height">
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                        </div>
 
 
 
-                            </fieldset>
-                        </form>
-                    </div>
-                </div>
+                    </fieldset>
+                </form>
             </div>
         </div>
         <div class="row">
