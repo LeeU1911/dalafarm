@@ -130,7 +130,7 @@
             var weight = calculateWeight(bill);
             console.log("Weight is " + weight);
             if(bill.info.paymentType === "bank-transfer"){
-                shippingCost = 0;
+                return 0;
             }
             if (province === "TP HCM") {
                 if (weight < 200) {
