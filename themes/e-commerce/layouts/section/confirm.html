@@ -394,8 +394,9 @@
             var shipping = "</tbody> </table> <p>Phí giao hàng: <strong>" + order.shippingCost + "</strong></p>";
             var total = "<p>Tổng tiền: <strong>" + order.subtotal + "</strong></p>";
             var paymentType = "<p>Hình thức thanh toán: <strong>" + humanizePaymentType(order.info.paymentType) + "</strong></p>";
+            var additionalNote = "<p>Ghi chú: <strong>" + order.info.additionalNote + "</strong></p>";
             var footer = "";
-            return head + middle + orderContent + shipping + total + footer;
+            return head + middle + orderContent + shipping + total + paymentType + additionalNote + footer;
         }
 
         function buildOrderContent(products) {
