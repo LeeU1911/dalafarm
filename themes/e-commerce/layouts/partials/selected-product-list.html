@@ -31,7 +31,12 @@
             </span>
         </p>
         <p>
-            <span>Tổng bill: </span><span data-bind="text: subtotal"></span>
+            <span data-bind="if: discountPercent != undefined">
+                <span>Giảm giá: </span>-<span data-bind="text: discountPercent"></span>%
+            </span>
+            <p>
+                <span>Tổng bill: </span><span data-bind="text: subtotal"></span>
+            </p>
         </p>
     </div>
 </div>

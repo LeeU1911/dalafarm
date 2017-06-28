@@ -332,7 +332,7 @@
             subtotal: ko.observable(calculateTotalBill(bill)),
             shippingCost: undefined,
             promoCode: ko.observable((bill && bill.promoCode) || ""),
-            discountPercent: ko.observable("")
+            discountPercent: ko.observable((bill && bill.discountPercent) || undefined)
         };
 
         // Activates knockout.js
@@ -459,13 +459,17 @@
             }
         }
 
+        function applyDiscountOnTotal(subtotal, discountPercent) {
+            return subtotal * (1 - (discountPercent / 100));
+        }
+
         $('#verifyPromoCode').on('click', function (e) {
             e.preventDefault();
             var promoCode = viewModel.promoCode();
             var subtotal = viewModel.subtotal();
             var discountPercent = verifyPromoCode(promoCode);
-            viewModel.subtotal(subtotal * (1 - (discountPercent/100)));
-            viewModel.discountPercent(discountPercent);
+            viewModel.subtotal(applyDiscountOnTotal(subtotal, discountPercent));
+            viewModel.discountPercent = discountPercent;
         })
     });
 </script>
