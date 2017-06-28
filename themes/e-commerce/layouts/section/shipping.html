@@ -28,6 +28,24 @@
                             <fieldset>
 
                                 <!-- Form Name -->
+                                <legend>Khuyến mại</legend>
+
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label" for="name">Mã giảm giá (nếu có)</label>
+                                    <div class="col-md-8">
+                                        <input data-bind="value: promoCode" id="promoCode" name="promoCode" type="text"
+                                               placeholder="Mã giảm giá" class="form-control input-lg" required="">
+                                    </div>
+                                    <div class="col-md-2">
+                                        <button id="verifyPromoCode" name="verifyPromoCode"
+                                                class="btn btn-lg btn-success"
+                                                data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Vui lòng đợi...">Nhập
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- Form Name -->
                                 <legend>Thông tin giao hàng</legend>
 
                                 <!-- Text input-->
@@ -311,8 +329,10 @@
                 additionalNote: ko.observable((bill && bill.info && bill.info.additionalNote) || "")
             },
             products: getProductsArrayFromBill(bill),
-            subtotal: calculateTotalBill(bill),
-            shippingCost: undefined
+            subtotal: ko.observable(calculateTotalBill(bill)),
+            shippingCost: undefined,
+            promoCode: ko.observable((bill && bill.promoCode) || ""),
+            discountPercent: ko.observable("")
         };
 
         // Activates knockout.js
@@ -417,6 +437,8 @@
             bill.meta.date = new Date().getTime();
             bill.info = billFormUI.info;
             bill.info.phone1 = getPhoneNumber();
+            bill.promoCode = billFormUI.promoCode;
+            bill.discountPercent = billFormUI.discountPercent;
             saveToSession(bill);
             window.location = "/confirm";
         });
@@ -424,6 +446,27 @@
         function saveToSession(bill) {
             sessionStorage.setItem("order", JSON.stringify(bill));
         }
+
+        function verifyPromoCode(promoCode) {
+            if (promoCode === 'DLF1T5OFF') {
+                return 5;
+            } else if (promoCode === 'DLF1T10OFF') {
+                return 10;
+            } else if (promoCode === 'DLF1T15OFF') {
+                return 15;
+            } else if (promoCode === 'DLF1T20OFF') {
+                return 20;
+            }
+        }
+
+        $('#verifyPromoCode').on('click', function (e) {
+            e.preventDefault();
+            var promoCode = viewModel.promoCode();
+            var subtotal = viewModel.subtotal();
+            var discountPercent = verifyPromoCode(promoCode);
+            viewModel.subtotal(subtotal * (1 - (discountPercent/100)));
+            viewModel.discountPercent(discountPercent);
+        })
     });
 </script>
 
