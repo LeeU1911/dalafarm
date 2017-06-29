@@ -289,30 +289,7 @@
             }
         };
         var bill = JSON.parse(sessionStorage.getItem('order')) || emptyBill;
-        //using array for displaying purpose. Let's see if array or object works better to be the data model in db
-        function getProductsArrayFromBill(b) {
-            var products = b.products;
-            var productArr = $.map(products, function (val, key) {
-                if(key.substr(key.length - 3, key.length) == "Amt"){
-                    return {name: key, amount: val};
-                }
-            });
-            productArr.forEach(function (p) {
-                var key = p.name.substr(0, p.name.length - 3);
-                p.price = products[key + "Price"];
-                p.subtotal = p.amount * p.price;
-            });
-            return productArr;
-        }
 
-        function calculateTotalBill(bill) {
-            var products = getProductsArrayFromBill(bill);
-            var subtotal = 0;
-            for (var i = 0; i < products.length; i++) {
-                subtotal += products[i].subtotal;
-            }
-            return subtotal;
-        }
         var viewModel = {
             id: ko.observable((bill && bill.id) || ""),
             info:{
@@ -329,7 +306,7 @@
                 additionalNote: ko.observable((bill && bill.info && bill.info.additionalNote) || "")
             },
             products: getProductsArrayFromBill(bill),
-            subtotal: ko.observable(calculateTotalBill(bill)),
+            subtotal: ko.observable(calculateTotalBillWithoutShippingCost(bill)),
             shippingCost: undefined,
             promoCode: ko.observable((bill && bill.promoCode) || ""),
             discountPercent: ko.observable((bill && bill.discountPercent) || undefined)
@@ -370,12 +347,8 @@
         window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('recaptcha-container', {
             'size': 'normal',
             'callback': function(response) {
-                // reCAPTCHA solved, allow signInWithPhoneNumber.
-                // ...
             },
             'expired-callback': function() {
-                // Response expired. Ask user to solve reCAPTCHA again.
-                // ...
             }
         });
 
@@ -457,6 +430,7 @@
             } else if (promoCode === 'DLF1T20OFF') {
                 return 20;
             }
+            return 0;
         }
 
         function applyDiscountOnTotal(subtotal, discountPercent) {
@@ -469,7 +443,7 @@
             var subtotal = viewModel.subtotal();
             var discountPercent = verifyPromoCode(promoCode);
             viewModel.subtotal(applyDiscountOnTotal(subtotal, discountPercent));
-            viewModel.discountPercent = discountPercent;
+            viewModel.discountPercent(discountPercent);
         })
     });
 </script>

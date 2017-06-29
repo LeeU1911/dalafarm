@@ -36,7 +36,11 @@
             {{ .Content }}
             </p>
         </div>
-
+        <div class="row">
+            <div class="col-xs-6 text-right">
+                <button id="save1" name="save" class="btn btn-lg btn-success saveBtn">Tiếp tục</button>
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-12">
                 <form class="form-horizontal" name="bill" id="bill">
@@ -99,7 +103,7 @@
                     <button id="cancel" name="cancel" class="btn btn-lg btn-danger">Xóa thông tin</button>
                 </div>
                 <div class="col-xs-6 text-right">
-                    <button id="save" name="save" class="btn btn-lg btn-success">Tiếp tục</button>
+                    <button id="save2" name="save" class="btn btn-lg btn-success saveBtn">Tiếp tục</button>
                 </div>
             </div>
         </div>
@@ -114,24 +118,24 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
 <script>
     $(function() {
-        var emptyBill = {
-            meta: {
-                date: undefined
-            },
-            data: {
-                info: {
-                    prefix: "",
-                    name: "",
-                    phone1: "",
-                    phone2: "",
-                    email: "",
-                    address: "",
-                    province: ""
-                },
-                products: []
-            }
-        };
-        var bill = JSON.parse(sessionStorage.getItem('order')) || emptyBill;
+//        var emptyBill = {
+//            meta: {
+//                date: undefined
+//            },
+//            data: {
+//                info: {
+//                    prefix: "",
+//                    name: "",
+//                    phone1: "",
+//                    phone2: "",
+//                    email: "",
+//                    address: "",
+//                    province: ""
+//                },
+//                products: []
+//            }
+//        };
+        var bill = JSON.parse(sessionStorage.getItem('order')) || undefined;
 
         var viewModel = {
             id: ko.observable((bill && bill.id) || ""),
@@ -165,7 +169,9 @@
                 mushroomAmt: ko.observable((bill && bill.products && bill.products.mushroomAmt) || "0"),
                 lotusAmt: ko.observable((bill && bill.products && bill.products.lotusAmt) || "0"),
                 spinachAmt: ko.observable((bill && bill.products && bill.products.spinachAmt) || "0"),
-                purpleswpotatoAmt: ko.observable((bill && bill.products && bill.products.purpleswpotatoAmt) || "0")
+                purpleswpotatoAmt: ko.observable((bill && bill.products && bill.products.purpleswpotatoAmt) || "0"),
+                garlicoilAmt: ko.observable((bill && bill.products && bill.products.garlicoilAmt) || "0"),
+                dalababyAmt: ko.observable((bill && bill.products && bill.products.dalababyAmt) || "0")
             }
         };
 
@@ -181,15 +187,19 @@
             clearForm();
         });
 
-        $('#save').on('click', function (e) {
+        $('.saveBtn').on('click', function (e) {
             e.preventDefault();
-            var bill = ko.toJS(viewModel);
-            bill.meta = {};
-            bill.meta.date = new Date().getTime();
-            if(!bill.id) {
-                bill.id = generateUID();
+            if (!bill){
+                bill = ko.toJS(viewModel);
+                if(!bill.id) {
+                    bill.id = generateUID();
+                }
+            }else{
+                var onscreenBill =  ko.toJS(viewModel);
+                bill.products = onscreenBill.products;
             }
             bill = storeProductPrice(bill);
+
             saveToSession(bill);
             window.location = "/shipping";
         });
