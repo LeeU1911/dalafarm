@@ -7,6 +7,8 @@ product_line = ""
 tags = ["veggie-powder","dalababy-powder"]
 thumbnail = "dalababy-1.jpg"
 title = "Bột rau củ DalaBaby (70g)"
+key = "dalababy"
+weight = 1
 +++
 
 # Bột rau củ DalaBaby từ DalaFarm

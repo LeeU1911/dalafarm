@@ -6,7 +6,9 @@ img = ["DAU 1.jpg","DAU 2.jpg","DAU 3.jpg","DAU 4.jpg","DAU 5.jpg"]
 product_line = ""
 tags = ["garlic-oil","DalaBaby-powder"]
 thumbnail = "dau-toi-tn.jpg"
-title = "Dầu tỏi tía Đà Lạt (100g)"
+title = "Dầu tỏi tía Đà Lạt (250ml)"
+key = "garlicoil"
+weight = 1
 +++
 
 # DẦU TỎI TÍA Đà LẠT
