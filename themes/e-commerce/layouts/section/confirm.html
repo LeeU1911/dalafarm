@@ -119,7 +119,8 @@
             var newPostRef = dbRef.push();
             newPostRef.set(bill).then(function (response) {
                 console.log("Data saved successfully!" + response);
-                sendToSmsWebhook(bill);
+//                sendToSmsWebhook(bill);
+                sendToSmsEndpointOfEsms(bill);
                 sendFullDetailsToWebhook4Excel(bill);
                 sendFullDetailsToWebhook4Slack(bill);
                 sendToEmailWebhook(bill);
