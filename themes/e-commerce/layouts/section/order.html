@@ -118,23 +118,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
 <script>
     $(function() {
-//        var emptyBill = {
-//            meta: {
-//                date: undefined
-//            },
-//            data: {
-//                info: {
-//                    prefix: "",
-//                    name: "",
-//                    phone1: "",
-//                    phone2: "",
-//                    email: "",
-//                    address: "",
-//                    province: ""
-//                },
-//                products: []
-//            }
-//        };
         var bill = JSON.parse(sessionStorage.getItem('order')) || undefined;
 
         var viewModel = {
@@ -171,7 +154,11 @@
                 spinachAmt: ko.observable((bill && bill.products && bill.products.spinachAmt) || "0"),
                 purpleswpotatoAmt: ko.observable((bill && bill.products && bill.products.purpleswpotatoAmt) || "0"),
                 garlicoilAmt: ko.observable((bill && bill.products && bill.products.garlicoilAmt) || "0"),
-                dalababyAmt: ko.observable((bill && bill.products && bill.products.dalababyAmt) || "0")
+                dalababyAmt: ko.observable((bill && bill.products && bill.products.dalababyAmt) || "0")/*,
+                garlicwineAmt: ko.observable((bill && bill.products && bill.products.garlicwineAmt) || "0"),
+                garlichoneyAmt: ko.observable((bill && bill.products && bill.products.garlichoneyAmt) || "0"),
+                sundetoxAmt: ko.observable((bill && bill.products && bill.products.sundetoxAmt) || "0"),
+                moondetoxAmt: ko.observable((bill && bill.products && bill.products.moondetoxAmt) || "0")*/
             }
         };
 
