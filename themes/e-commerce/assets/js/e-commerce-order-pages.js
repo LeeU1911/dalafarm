@@ -83,11 +83,8 @@ function calculateShippingCost(bill) {
         return 0;
     }
     if (province === "TP HCM") {
-        if (weight < 200) {
             shippingCost = 20000;
-        }
     } else {
-        if (weight < 300) {
             if (groupA(province)) {
                 weight <= 300 ? shippingCost = 30000 : (weight <= 500 ? shippingCost = 40000 : (weight <= 1000 ? shippingCost = 50000 : (weight <= 1500 ? shippingCost = 65000 : (weight <= 2000 ? shippingCost = 75000 : shippingCost = addShippingCostAtExceedPrice(weight, 75000)))));
             } else if (groupB(province)) {
@@ -101,7 +98,6 @@ function calculateShippingCost(bill) {
             } else {
                 weight <= 300 ? shippingCost = 40000 : (weight <= 500 ? shippingCost = 50000 : (weight <= 1000 ? shippingCost = 65000 : (weight <= 1500 ? shippingCost = 80000 : (weight <= 2000 ? shippingCost = 85000 : shippingCost = addShippingCostAtExceedPrice(weight, 85000)))));
             }
-        }
     }
     return shippingCost;
 
