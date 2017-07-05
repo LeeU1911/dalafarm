@@ -37,13 +37,13 @@ function calculateTotalBillWithoutShippingCost(bill) {
     for (var i = 0; i < products.length; i++) {
         subtotal += products[i].subtotal;
     }
-    // subtotal = applyDiscountOnTotal(subtotal, bill.discountPercent);
+    subtotal = applyDiscountOnTotal(subtotal, bill.discountPercent);
     subtotal = roundDownToThousand(subtotal);
     return subtotal;
 }
 
 function calculateTotalBill(bill) {
-    return calculateTotalBillWithoutShippingCost(bill) + calculateShippingCost(bill);
+    return bill.subtotal + calculateShippingCost(bill);
 }
 
 function roundDownToThousand(value){
@@ -167,6 +167,7 @@ function calculateWeightOfPowders(bill) {
 
 function applyPromotion(bill){
     var totalBillWoShippingCost = calculateTotalBillWithoutShippingCost(bill);
+    bill.subtotal = totalBillWoShippingCost;
     var weight = calculateWeightOfPowders(bill);
     if(weight >= 500) {
         bill.freeShip = true;
