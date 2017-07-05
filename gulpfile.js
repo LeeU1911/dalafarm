@@ -46,8 +46,8 @@ gulp.task('scripts-order-pages', function() {
     return gulp.src(jsOrderPageFile)
         .pipe(concat('scripts-order-pages.js'))
         .pipe(rename('scripts-order-pages.min.js'))
-        .pipe(uglify())
-        .pipe(gzip({ append: false }))
+        // .pipe(uglify())
+        // .pipe(gzip({ append: false }))
         .pipe(gulp.dest(jsDest));
 });
 
