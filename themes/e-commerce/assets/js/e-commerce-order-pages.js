@@ -37,7 +37,7 @@ function calculateTotalBillWithoutShippingCost(bill) {
     for (var i = 0; i < products.length; i++) {
         subtotal += products[i].subtotal;
     }
-    subtotal = applyDiscountOnTotal(subtotal, bill.discountPercent);
+    // subtotal = applyDiscountOnTotal(subtotal, bill.discountPercent);
     subtotal = roundDownToThousand(subtotal);
     return subtotal;
 }
@@ -77,13 +77,17 @@ function getProductsArrayFromBill(b) {
 function calculateShippingCost(bill) {
     var province = bill.info.province;
     var shippingCost = 0;
-    var weight = calculateWeight(bill);
+    var weight = calculateWeightOfPowders(bill);
     console.log("Weight is " + weight);
-    if(bill.info.paymentType === "bank-transfer"){
+    if(bill.info.paymentType === "bank-transfer" || bill.freeShip){
         return 0;
     }
     if (province === "TP HCM") {
+        if(bill.info.suburb){
+            shippingCost = 25000;
+        }else{
             shippingCost = 20000;
+        }
     } else {
             if (groupA(province)) {
                 weight <= 300 ? shippingCost = 30000 : (weight <= 500 ? shippingCost = 40000 : (weight <= 1000 ? shippingCost = 50000 : (weight <= 1500 ? shippingCost = 65000 : (weight <= 2000 ? shippingCost = 75000 : shippingCost = addShippingCostAtExceedPrice(weight, 75000)))));
@@ -143,23 +147,42 @@ function calculateShippingCost(bill) {
         return lowerTierShippingCost;
     }
 
-    function calculateWeight(bill) {
-        var weight = 0;
-        var products = bill.products;
-        for (var property in products) {
-            if (products.hasOwnProperty(property)) {
-                if (property.substr(property.length - 3, property.length) == "Amt" && products[property] > 0) {
+}
+
+function calculateWeightOfPowders(bill) {
+    var weight = 0;
+    var products = bill.products;
+    for (var property in products) {
+        if (products.hasOwnProperty(property)) {
+            if (property.substr(property.length - 3, property.length) == "Amt" && products[property] > 0) {
+                weight += 50 * products[property];
+                if (property.indexOf("100") > 0) {
                     weight += 50 * products[property];
-                    if (property.indexOf("100") > 0) {
-                        weight += 50 * products[property];
-                    }
                 }
             }
         }
-        return weight;
     }
+    return weight;
 }
 
+function applyPromotion(bill){
+    var totalBillWoShippingCost = calculateTotalBillWithoutShippingCost(bill);
+    var weight = calculateWeightOfPowders(bill);
+    if(weight >= 500) {
+        bill.freeShip = true;
+        bill.products['dalababyAmt'] += 1;
+        return bill;
+    }
+    if(totalBillWoShippingCost > 680000){
+        bill.products['garlicoilAmt'] += 1;
+        return bill;
+    }
+    if(totalBillWoShippingCost > 580000) {
+        bill.freeShip = true;
+        return bill;
+    }
+    return bill;
+}
 var Latinise = {};
 Latinise.latin_map = {
     "Á": "A",

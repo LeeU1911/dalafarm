@@ -79,7 +79,7 @@
         });
 
 
-        var bill = JSON.parse(sessionStorage.getItem('order'));
+        var bill = applyPromotion(JSON.parse(sessionStorage.getItem('order')));
 
         function AppViewModel() {
             this.id = bill.id;
@@ -119,8 +119,8 @@
             var newPostRef = dbRef.push();
             newPostRef.set(bill).then(function (response) {
                 console.log("Data saved successfully!" + response);
-//                sendToSmsWebhook(bill);
-                sendToSmsEndpointOfEsms(bill);
+                sendToSmsWebhook(bill);
+//                sendToSmsEndpointOfEsms(bill);
                 sendFullDetailsToWebhook4Excel(bill);
                 sendFullDetailsToWebhook4Slack(bill);
                 sendToEmailWebhook(bill);
@@ -194,30 +194,30 @@
             return nameArr && nameArr[nameArr.length - 1];
         }
 
-        function sendToSmsEndpointOfEsms(order) {
-            var payload = {"to": "", "name": "", "from": "32523276", "subtotal": "", "orderId": ""};
-            payload.to = order.info.phone1;
-            payload.orderId = order.id;
-            var firstName = getFirstName(order.info.name);
-            payload.name = firstName.isLatin() ? firstName : firstName.latinise();
-            payload.subtotal = order.subtotal;
-            var smsContent = payload.name + " oi, DalaFarm da nhan duoc don hang cua ban co ma " +
-                             payload.orderId + " va tong so tien la " +
-                             payload.subtotal + ". Cam on ban da ung ho DalaFarm nhe. Website: goo.gl/XiTjAo";
-            var webhookURL = "http://rest.esms.vn/MainService.svc/json/SendMultipleMessage_V4_get?Phone=" +
-                 payload.to + "&Content=" +
-                 smsContent + "&ApiKey=4F91A21209C93DDD6AB1581045AB6A&SecretKey=728116B5AA871EB9FC87F6CE2E488E&IsUnicode=1&SmsType=4";
-            $.ajax({
-                type: "GET",
-                url: webhookURL,
-                success: function (res) {
-                    console.log(res);
-                },
-                error: function (error) {
-                    console.log(error);
-                }
-            });
-        }
+//        function sendToSmsEndpointOfEsms(order) {
+//            var payload = {"to": "", "name": "", "from": "32523276", "subtotal": "", "orderId": ""};
+//            payload.to = order.info.phone1;
+//            payload.orderId = order.id;
+//            var firstName = getFirstName(order.info.name);
+//            payload.name = firstName.isLatin() ? firstName : firstName.latinise();
+//            payload.subtotal = order.subtotal;
+//            var smsContent = payload.name + " oi, DalaFarm da nhan duoc don hang cua ban co ma " +
+//                             payload.orderId + " va tong so tien la " +
+//                             payload.subtotal + ". Cam on ban da ung ho DalaFarm nhe. Website: goo.gl/XiTjAo";
+//            var webhookURL = "http://rest.esms.vn/MainService.svc/json/SendMultipleMessage_V4_get?Phone=" +
+//                 payload.to + "&Content=" +
+//                 smsContent + "&ApiKey=4F91A21209C93DDD6AB1581045AB6A&SecretKey=728116B5AA871EB9FC87F6CE2E488E&IsUnicode=1&SmsType=4";
+//            $.ajax({
+//                type: "GET",
+//                url: webhookURL,
+//                success: function (res) {
+//                    console.log(res);
+//                },
+//                error: function (error) {
+//                    console.log(error);
+//                }
+//            });
+//        }
         function sendToSmsWebhook(order) {
             var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/9eneca/";
             var payload = {"to": "", "name": "", "from": "32523276", "subtotal": "", "orderId": ""};

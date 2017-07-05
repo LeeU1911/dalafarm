@@ -122,7 +122,7 @@
                                 <!-- Select Basic -->
                                 <div class="form-group">
                                     <label class="col-md-2 control-label" for="province">Tỉnh/Thành phố</label>
-                                    <div class="col-md-8">
+                                    <div class="col-md-6">
                                         <select data-bind="value: info.province" id="province" name="province"
                                                 class="form-control input-lg">
                                             <option value="TP HCM">TP HCM</option>
@@ -189,6 +189,12 @@
                                             <option value="Vĩnh Phúc">Vĩnh Phúc</option>
                                             <option value="Yên Bái">Yên Bái</option>
                                         </select>
+                                    </div>
+                                    <div class="checkbox col-md-2">
+                                        <label for="checkboxes-0">
+                                            <input name="checkboxes" id="checkboxes-0" type="checkbox" data-bind="checked: info.suburb">
+                                            Ngoại thành
+                                        </label>
                                     </div>
                                 </div>
                                 <!-- Multiple Radios -->
@@ -302,6 +308,7 @@
                 email: ko.observable((bill && bill.info && bill.info.email) || ""),
                 address: ko.observable((bill && bill.info && bill.info.address) || ""),
                 province: ko.observable((bill && bill.info && bill.info.province) || "TP HCM"),
+                suburb: ko.observable((bill && bill.info && bill.info.suburb) || ""),
                 paymentType: ko.observable((bill && bill.info && bill.info.paymentType) || "cod"),
                 additionalNote: ko.observable((bill && bill.info && bill.info.additionalNote) || "")
             },
