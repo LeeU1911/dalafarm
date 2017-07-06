@@ -6,8 +6,9 @@ url= "product"
 aliases = ["/san-pham/"]
 +++
 
-DalaFarm chế biến các sản phẩm từ rau củ quả 
-được trồng và kiểm soát bởi chính DalaFarm 
-kết hợp với công nghệ sấy SEFD nhằm 
-đem đến cho khách hàng sản phẩm sạch, tiện lợi, 
-tốt cho sức khỏe và tiết kiệm chi phí mà vẫn giữ được vitamin và dưỡng chất trong từng sản phẩm. 
+
+- Đơn hàng từ **580k** trở lên free ship
+
+- Đơn hàng từ **680k** trở lên tặng 1 dầu tỏi tía Đà Lạt tăng sức để kháng cho bé ăn dặm trị giá 150k
+
+- Đơn hàng từ **10 gói 50gram** trở lên vừa tặng bột rau củ DalaBaby 199k & free ship
