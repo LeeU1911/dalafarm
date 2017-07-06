@@ -54,7 +54,6 @@
                                     <div class="col-md-8">
                                         <input data-bind="value: info.name" id="name" name="name" type="text"
                                                placeholder="Tên" class="form-control input-lg" required="required" data-validation-error-msg="Vui lòng nhập thông tin">
-                                        <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
 
@@ -64,9 +63,8 @@
                                     <div class="col-md-8">
                                         <div class="input-group">
                                             <span class="input-group-addon" data-bind="text: info.phone1CountryCode"></span>
-                                            <input data-bind="value: info.phone1" id="phone1" name="phone1" type="text"
-                                                   placeholder="901234567" class="form-control input-lg" required="required" data-validation-error-msg="Vui lòng nhập thông tin">
-                                            <p class="help-block text-danger"></p>
+                                            <input data-bind="value: info.phone1" id="phone1" name="phone1" type="number"
+                                                   placeholder="901234567" class="form-control input-lg" required="required" data-validation="number" data-validation-error-msg="Vui lòng nhập thông tin">
                                         </div>
                                         <input data-bind="value: info.verificationCode" style="display: none;"
                                                id="verificationCode" name="verificationCode" type="text"
@@ -93,8 +91,8 @@
                                     <div class="col-md-8">
                                         <div class="input-group">
                                             <span class="input-group-addon" data-bind="text: info.phone2CountryCode"></span>
-                                            <input data-bind="value: info.phone2" id="phone2" name="phone2" type="text"
-                                               placeholder="1689887777" class="form-control input-lg">
+                                            <input data-bind="value: info.phone2" id="phone2" name="phone2" type="number"
+                                               placeholder="1689887777" class="form-control input-lg" data-validation="number" >
                                         </div>
                                     </div>
                                 </div>
@@ -104,7 +102,7 @@
                                     <label class="col-md-2 control-label" for="email">Email</label>
                                     <div class="col-md-8">
                                         <input data-bind="value: info.email" id="email" name="email" type="email"
-                                               placeholder="example@gmail.com" class="form-control input-lg">
+                                               placeholder="example@gmail.com" class="form-control input-lg" data-validation="email" data-validation-error-msg="Email không hợp lệ" >
 
                                     </div>
                                 </div>
@@ -116,7 +114,6 @@
                                         <input data-bind="value: info.address" id="address" name="address" type="text"
                                                placeholder="Số nhà, đường, phường, xã, quận/huyện"
                                                class="form-control input-lg" required="required" value="" data-validation-error-msg="Vui lòng nhập thông tin">
-                                        <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
 
@@ -455,7 +452,11 @@
             viewModel.subtotal(applyDiscountOnTotal(subtotal, discountPercent));
             viewModel.discountPercent(discountPercent);
         });
-//                $('#bill').validate();
+        // Form validation
+        $.validate({
+            modules : 'html5, toggleDisabled'
+        });
+
     });
 </script>
 
