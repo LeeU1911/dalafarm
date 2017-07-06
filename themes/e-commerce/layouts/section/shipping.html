@@ -53,8 +53,8 @@
                                     <label class="col-md-2 control-label" for="name">Tên *</label>
                                     <div class="col-md-8">
                                         <input data-bind="value: info.name" id="name" name="name" type="text"
-                                               placeholder="Tên" class="form-control input-lg" required="">
-
+                                               placeholder="Tên" class="form-control input-lg" required="required" data-validation-error-msg="Vui lòng nhập thông tin">
+                                        <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
 
@@ -65,7 +65,8 @@
                                         <div class="input-group">
                                             <span class="input-group-addon" data-bind="text: info.phone1CountryCode"></span>
                                             <input data-bind="value: info.phone1" id="phone1" name="phone1" type="text"
-                                                   placeholder="901234567" class="form-control input-lg" required="">
+                                                   placeholder="901234567" class="form-control input-lg" required="required" data-validation-error-msg="Vui lòng nhập thông tin">
+                                            <p class="help-block text-danger"></p>
                                         </div>
                                         <input data-bind="value: info.verificationCode" style="display: none;"
                                                id="verificationCode" name="verificationCode" type="text"
@@ -114,8 +115,8 @@
                                     <div class="col-md-8">
                                         <input data-bind="value: info.address" id="address" name="address" type="text"
                                                placeholder="Số nhà, đường, phường, xã, quận/huyện"
-                                               class="form-control input-lg" required="" value="">
-
+                                               class="form-control input-lg" required="required" value="" data-validation-error-msg="Vui lòng nhập thông tin">
+                                        <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
 
@@ -256,7 +257,9 @@
 {{ partial "js_order_page.html" . }}
 <script>
     var VNPhoneCountryCode = "+84";
+
     $(function() {
+
         // Initialize Firebase
         var config = {
             apiKey: "AIzaSyABGxfllsBj-8tfsAH7t1qqcZvxZHRP25M",
@@ -451,7 +454,8 @@
             var discountPercent = verifyPromoCode(promoCode);
             viewModel.subtotal(applyDiscountOnTotal(subtotal, discountPercent));
             viewModel.discountPercent(discountPercent);
-        })
+        });
+//                $('#bill').validate();
     });
 </script>
 
