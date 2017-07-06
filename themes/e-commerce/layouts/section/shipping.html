@@ -18,14 +18,15 @@
             </p>
         </div>
         {{ partial "order-id.html" . }}
+        <form class="form-horizontal" name="bill" id="bill">
+            <fieldset>
         <div class="row">
             <div class="col-md-12">
                 {{ partial "selected-product-list.html" . }}
                 <div class="panel panel-default">
                     <div class="panel-heading">Đơn hàng</div>
                     <div class="panel-body">
-                        <form class="form-horizontal" name="bill" id="bill">
-                            <fieldset>
+
 
                                 <!-- Form Name -->
                                 <legend>Khuyến mại</legend>
@@ -35,7 +36,7 @@
                                     <label class="col-md-2 control-label" for="name">Mã giảm giá (nếu có)</label>
                                     <div class="col-md-8">
                                         <input data-bind="value: promoCode" id="promoCode" name="promoCode" type="text"
-                                               placeholder="Mã giảm giá" class="form-control input-lg" required="">
+                                               placeholder="Mã giảm giá" class="form-control input-lg">
                                     </div>
                                     <div class="col-md-2">
                                         <button id="verifyPromoCode" name="verifyPromoCode"
@@ -224,8 +225,7 @@
                                     </div>
                                 </div>
 
-                            </fieldset>
-                        </form>
+
                     </div>
                 </div>
 
@@ -245,7 +245,8 @@
                 </div>
             </div>
         </div>
-
+            </fieldset>
+        </form>
     </div>
 </section>
 {{ if .Site.Params.params.footer.enable }}
