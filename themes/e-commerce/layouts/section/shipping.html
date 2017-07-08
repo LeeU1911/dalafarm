@@ -314,6 +314,7 @@
                 additionalNote: ko.observable((bill && bill.info && bill.info.additionalNote) || "")
             },
             products: getProductsArrayFromBill(bill),
+            subtotalBeforeDiscount: ((bill && bill.subtotalBeforeDiscount) || undefined),
             subtotal: ko.observable(calculateTotalBillWithoutShippingCost(bill)),
             shippingCost: undefined,
             promoCode: ko.observable((bill && bill.promoCode) || ""),
@@ -420,6 +421,7 @@
             bill.info.phone1 = getPhoneNumber();
             bill.promoCode = billFormUI.promoCode;
             bill.discountPercent = billFormUI.discountPercent;
+            bill.subtotalBeforeDiscount = billFormUI.subtotalBeforeDiscount;
             saveToSession(bill);
             window.location = "/confirm";
         });
@@ -429,9 +431,9 @@
         }
 
         function verifyPromoCode(promoCode) {
-            /*if (promoCode === 'DLF1T5OFF') {
+            if (promoCode === 'DLF1T5OFF') {
                 return 5;
-            } else if (promoCode === 'DLF1T10OFF') {
+            } /*else if (promoCode === 'DLF1T10OFF') {
                 return 10;
             } else if (promoCode === 'DLF1T15OFF') {
                 return 15;
@@ -445,14 +447,41 @@
             return subtotal * (1 - (discountPercent / 100));
         }
 
+        function disablePromoCodeInput(promoCodeInput) {
+            promoCodeInput.prop('disabled', true);
+            $('#verifyPromoCode').text("Gỡ bỏ");
+        }
+
+        function enablePromoCodeInput(promoCodeInput) {
+            promoCodeInput.prop('disabled', false);
+            $('#verifyPromoCode').text("Nhập");
+        }
+
         $('#verifyPromoCode').on('click', function (e) {
             e.preventDefault();
-            var promoCode = viewModel.promoCode();
-            var subtotal = viewModel.subtotal();
-            var discountPercent = verifyPromoCode(promoCode);
-            viewModel.subtotal(applyDiscountOnTotal(subtotal, discountPercent));
-            viewModel.discountPercent(discountPercent);
+            if(!viewModel.discountPercent()) {
+                var promoCode = viewModel.promoCode();
+                var subtotal = viewModel.subtotal();
+                var discountPercent = verifyPromoCode(promoCode);
+                viewModel.subtotalBeforeDiscount = subtotal;
+                viewModel.subtotal(roundDownToThousand(applyDiscountOnTotal(subtotal, discountPercent)));
+                viewModel.discountPercent(discountPercent);
+            } else {
+                viewModel.promoCode(undefined);
+                viewModel.discountPercent(undefined);
+                viewModel.subtotal(viewModel.subtotalBeforeDiscount);
+            }
+            initPromoCodeFieldState();
         });
+        initPromoCodeFieldState();
+        function initPromoCodeFieldState() {
+            var promoCodeInput = $('#promoCode');
+            if(viewModel.discountPercent()) {
+                disablePromoCodeInput(promoCodeInput);
+            } else {
+                enablePromoCodeInput(promoCodeInput);
+            }
+        }
         // Form validation
         $.validate({
             modules : 'html5, toggleDisabled'
