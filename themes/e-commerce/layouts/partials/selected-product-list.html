@@ -18,7 +18,7 @@
             <span> x </span>
             <span data-bind="text: amount"></span>
             <span> = </span>
-            <span data-bind="text: subtotal"></span>
+            <span data-bind="text: numeral(subtotal).format('0,0')"></span>
             <br/>
             </span>
             {{ end }}
@@ -27,7 +27,7 @@
         </p>
         <p>
             <span data-bind="if: shippingCost != undefined && !shippingCost.isNaN">
-                <span>Phí giao hàng: </span><span data-bind="text: shippingCost"></span>
+                <span>Phí giao hàng: </span><span data-bind="text: numeral(shippingCost).format('0,0')"></span>
             </span>
         </p>
         <p>
@@ -35,7 +35,7 @@
                 <span>Giảm giá: </span>-<span data-bind="text: discountPercent"></span>%
             </span>
             <p>
-                <span>Tổng bill: </span><span data-bind="text: subtotal"></span>
+                <span>Tổng bill: </span><span data-bind="text: numeral(subtotal()).format('0,0')"></span>
             </p>
         </p>
     </div>

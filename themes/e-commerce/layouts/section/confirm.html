@@ -91,7 +91,7 @@
             this.address = bill.info.address;
             this.province = bill.info.province;
             this.products = getProductsArrayFromBill(bill);
-            this.subtotal = calculateTotalBill(bill);
+            this.subtotal = ko.observable(calculateTotalBill(bill));
             this.shippingCost = calculateShippingCost(bill);
             this.paymentType = humanizePaymentType(bill.info.paymentType);
             this.additionalNote = bill.info.additionalNote;
