@@ -3,6 +3,16 @@
 {{ partial "head.html" . }}
 
 <body id="page-top" class="index">
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+  
+}(document, 'script', 'facebook-jssdk'));
+</script>
 {{ partial "nav-for-other-page.html" . }}
 <section id="{{ .Section }}" itemscope itemtype="http://schema.org/BlogPosting">
     <link itemprop="mainEntityOfPage" href="{{ .RelPermalink | absLangURL }}" />
@@ -51,6 +61,9 @@
                 <div class="col-md-10">
                     <article class="blog-article" itemprop="articleBody">
                         {{ .Content | markdownify | emojify}}
+                        <div class="fb-share-button" data-href="{{ .Permalink }}" data-layout="button" data-size="large" data-mobile-iframe="false">
+			        		<a class="fb-xfbml-parse-ignore" target="_blank" href="#">Share</a>
+			        	</div>
                         <p>{{ with .Site.Params.params.contentFooter }}{{ . | markdownify }}{{ end }}</p>
                     </article>
                 </div>
