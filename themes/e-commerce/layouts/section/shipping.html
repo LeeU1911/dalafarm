@@ -20,12 +20,12 @@
         {{ partial "order-id.html" . }}
         <form class="form-horizontal" name="bill" id="bill">
             <fieldset>
-        <div class="row">
-            <div class="col-md-12">
-                {{ partial "selected-product-list.html" . }}
-                <div class="panel panel-default">
-                    <div class="panel-heading">Đơn hàng</div>
-                    <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        {{ partial "selected-product-list.html" . }}
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Đơn hàng</div>
+                            <div class="panel-body">
 
 
                                 <!-- Form Name -->
@@ -41,7 +41,8 @@
                                     <div class="col-md-2">
                                         <button id="verifyPromoCode" name="verifyPromoCode"
                                                 class="btn btn-lg btn-success"
-                                                data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Vui lòng đợi...">Nhập
+                                                data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Vui lòng đợi...">
+                                            Nhập
                                         </button>
                                     </div>
                                 </div>
@@ -54,18 +55,24 @@
                                     <label class="col-md-2 control-label" for="name">Tên *</label>
                                     <div class="col-md-8">
                                         <input data-bind="value: info.name" id="name" name="name" type="text"
-                                               placeholder="Tên" class="form-control input-lg" required="required" data-validation-error-msg="Vui lòng nhập thông tin">
+                                               placeholder="Tên" class="form-control input-lg" required="required"
+                                               data-validation-error-msg="Vui lòng nhập thông tin">
                                     </div>
                                 </div>
 
                                 <!-- Text input-->
                                 <div class="form-group">
-                                    <label class="col-md-2 control-label" for="phone1">Số điện thoại 1 * <br/>(bỏ số 0 ở đầu)</label>
+                                    <label class="col-md-2 control-label" for="phone1">Số điện thoại 1 * <br/>(bỏ số 0 ở
+                                        đầu)</label>
                                     <div class="col-md-8">
                                         <div class="input-group">
-                                            <span class="input-group-addon" data-bind="text: info.phone1CountryCode"></span>
-                                            <input data-bind="value: info.phone1" id="phone1" name="phone1" type="number"
-                                                   placeholder="901234567" class="form-control input-lg" required="required" data-validation="number" data-validation-error-msg="Vui lòng nhập thông tin">
+                                            <span class="input-group-addon"
+                                                  data-bind="text: info.phone1CountryCode"></span>
+                                            <input data-bind="value: info.phone1" id="phone1" name="phone1"
+                                                   type="number"
+                                                   placeholder="901234567" class="form-control input-lg"
+                                                   required="required" data-validation="number"
+                                                   data-validation-error-msg="Vui lòng nhập thông tin">
                                         </div>
                                         <input data-bind="value: info.verificationCode" style="display: none;"
                                                id="verificationCode" name="verificationCode" type="text"
@@ -74,26 +81,32 @@
                                             điện thoại của bạn. Vui lòng kiểm tra điện thoại.</p>
                                         <button id="verifyCode" name="verifyCode" style="display: none;"
                                                 class="btn btn-lg btn-success"
-                                                data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Vui lòng đợi...">Xác thực mã
+                                                data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Vui lòng đợi...">
+                                            Xác thực mã
                                         </button>
                                         <div id="recaptcha-container" style="margin-top: 5px"></div>
                                     </div>
                                     <div class="col-md-2">
                                         <button id="verifyPhone1" style="display: none;" name="verifyPhone1"
                                                 class="btn btn-lg btn-success"
-                                                data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Vui lòng đợi...">Lấy mã xác thực
+                                                data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Vui lòng đợi...">
+                                            Lấy mã xác thực
                                         </button>
                                     </div>
                                 </div>
 
                                 <!-- Text input-->
                                 <div class="form-group">
-                                    <label class="col-md-2 control-label" for="phone2">Số điện thoại 2 <br/>(bỏ số 0 ở đầu)</label>
+                                    <label class="col-md-2 control-label" for="phone2">Số điện thoại 2 <br/>(bỏ số 0 ở
+                                        đầu)</label>
                                     <div class="col-md-8">
                                         <div class="input-group">
-                                            <span class="input-group-addon" data-bind="text: info.phone2CountryCode"></span>
-                                            <input data-bind="value: info.phone2" id="phone2" name="phone2" type="number"
-                                               placeholder="1689887777" class="form-control input-lg" data-validation="number" >
+                                            <span class="input-group-addon"
+                                                  data-bind="text: info.phone2CountryCode"></span>
+                                            <input data-bind="value: info.phone2" id="phone2" name="phone2"
+                                                   type="number"
+                                                   placeholder="1689887777" class="form-control input-lg"
+                                                   data-validation="number">
                                         </div>
                                     </div>
                                 </div>
@@ -103,7 +116,8 @@
                                     <label class="col-md-2 control-label" for="email">Email</label>
                                     <div class="col-md-8">
                                         <input data-bind="value: info.email" id="email" name="email" type="email"
-                                               placeholder="example@gmail.com" class="form-control input-lg" data-validation="email" data-validation-error-msg="Email không hợp lệ" >
+                                               placeholder="example@gmail.com" class="form-control input-lg"
+                                               data-validation="email" data-validation-error-msg="Email không hợp lệ">
 
                                     </div>
                                 </div>
@@ -114,7 +128,8 @@
                                     <div class="col-md-8">
                                         <input data-bind="value: info.address" id="address" name="address" type="text"
                                                placeholder="Số nhà, đường, phường, xã, quận/huyện"
-                                               class="form-control input-lg" required="required" value="" data-validation-error-msg="Vui lòng nhập thông tin">
+                                               class="form-control input-lg" required="required" value=""
+                                               data-validation-error-msg="Vui lòng nhập thông tin">
                                     </div>
                                 </div>
 
@@ -191,7 +206,8 @@
                                     </div>
                                     <div class="checkbox col-md-2">
                                         <label for="checkboxes-0">
-                                            <input name="checkboxes" id="checkboxes-0" type="checkbox" data-bind="checked: info.suburb">
+                                            <input name="checkboxes" id="checkboxes-0" type="checkbox"
+                                                   data-bind="checked: info.suburb">
                                             Ngoại thành
                                         </label>
                                     </div>
@@ -202,16 +218,19 @@
                                     <div class="col-md-8" id="radios">
                                         <div class="radio">
                                             <label for="radios-0">
-                                                <input name="radios" id="radios-0" value="cod" data-bind="checked: info.paymentType" type="radio">
+                                                <input name="radios" id="radios-0" value="cod"
+                                                       data-bind="checked: info.paymentType" type="radio">
                                                 Thanh toán lúc nhận hàng (COD)
                                             </label>
                                         </div>
                                         <div class="radio">
                                             <label for="radios-1">
-                                                <input name="radios" id="radios-1" value="bank-transfer" data-bind="checked: info.paymentType" type="radio">
+                                                <input name="radios" id="radios-1" value="bank-transfer"
+                                                       data-bind="checked: info.paymentType" type="radio">
                                                 Chuyển khoản
                                             </label>
-                                            <a href="/qa/#cách-thanh-toán" target="_blank"> (Xem thông tin chuyển khoản)</a>
+                                            <a href="/qa/#cách-thanh-toán" target="_blank"> (Xem thông tin chuyển
+                                                khoản)</a>
                                         </div>
                                     </div>
                                 </div>
@@ -221,30 +240,31 @@
                                     <label class="col-md-2 control-label" for="additionalNote">Ghi chú</label>
                                     <div class="col-md-8">
                                         <textarea data-bind="value: info.additionalNote" class="form-control"
-                                                  id="additionalNote" name="textarea" placeholder="Ghi chú thêm nếu có, ví dụ: vui lòng giao sau thứ 3"></textarea>
+                                                  id="additionalNote" name="textarea"
+                                                  placeholder="Ghi chú thêm nếu có, ví dụ: vui lòng giao sau thứ 3"></textarea>
                                     </div>
                                 </div>
 
 
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-
-            </div>
-        </div>
-        <div class="row">
-            <!-- Button (Double) -->
-            <div class="form-group">
-                <div class="col-xs-4">
-                    <button id="edit" name="save" class="btn btn-lg btn-default">Sửa đơn hàng</button>
+                <div class="row">
+                    <!-- Button (Double) -->
+                    <div class="form-group">
+                        <div class="col-xs-4">
+                            <button id="edit" name="save" class="btn btn-lg btn-default">Sửa đơn hàng</button>
+                        </div>
+                        <div class="col-xs-4 text-center">
+                            <button id="cancel" name="cancel" class="btn btn-lg btn-danger">Xóa thông tin</button>
+                        </div>
+                        <div class="col-xs-4 text-right">
+                            <button type="submit" id="save" name="save" class="btn btn-lg btn-success">Tiếp tục</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xs-4 text-center">
-                    <button id="cancel" name="cancel" class="btn btn-lg btn-danger">Xóa thông tin</button>
-                </div>
-                <div class="col-xs-4 text-right">
-                    <button type="submit" id="save" name="save" class="btn btn-lg btn-success">Tiếp tục</button>
-                </div>
-            </div>
-        </div>
             </fieldset>
         </form>
     </div>
