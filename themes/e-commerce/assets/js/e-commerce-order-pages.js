@@ -61,15 +61,12 @@ function applyDiscountOnTotal(subtotal, discountPercent) {
 //using array for displaying purpose. Let's see if array or object works better to be the data model in db
 function getProductsArrayFromBill(b) {
     var products = b.products;
-    var productArr = $.map(products, function (val, key) {
-        if (key.substr(key.length - 3, key.length) == "Amt") {
-            return {name: key, amount: val};
+    var productArr = $.map(products, function (val, keyAmt) {
+        if (keyAmt.substr(keyAmt.length - 3, keyAmt.length) == "Amt") {
+            var key = keyAmt.substr(0, keyAmt.length - 3);
+            var price = products[key + "Price"];
+            return {name: keyAmt, amount: val, price: price, subtotal: val * price};
         }
-    });
-    productArr.forEach(function (p) {
-        var key = p.name.substr(0, p.name.length - 3);
-        p.price = products[key + "Price"];
-        p.subtotal = p.amount * p.price;
     });
     return productArr;
 }
