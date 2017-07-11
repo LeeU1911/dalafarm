@@ -76,7 +76,7 @@ function calculateShippingCost(bill) {
     var shippingCost = 0;
     var weight = calculateWeightOfPowders(bill);
     console.log("Weight is " + weight);
-    if(bill.info.paymentType === "bank-transfer" || bill.freeShip){
+    if(bill.freeShip){
         return 0;
     }
     if (province === "TP HCM") {
