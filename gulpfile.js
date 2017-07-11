@@ -58,7 +58,7 @@ gulp.task('less-min', function() {
         .pipe(concat('styles.css'))
         .pipe(rename('styles.min.css'))
         .pipe(cssMin({keepBreaks: false}))
-        .pipe(gzip())
+        .pipe(gzip({ append: false }))
         .pipe(gulp.dest(cssDest));
 });
 
