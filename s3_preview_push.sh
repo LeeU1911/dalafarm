@@ -18,7 +18,7 @@ echo unzip
 
 s3cmd -c s3cfg-prod sync -M -F \
     --delete-removed \
-    --no-mime-magic \
+    --guess-mime-type \
     --exclude-from "$EXCLUDES" \
     --add-header="Cache-Control:max-age=21600" \
     "$SOURCE" "$BKT"
