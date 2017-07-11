@@ -29,7 +29,7 @@ gulp.task('scripts-all', function() {
         .pipe(concat('scripts.js'))
         .pipe(rename('scripts.min.js'))
         .pipe(uglify())
-        .pipe(gzip({ append: false }))
+        // .pipe(gzip({ append: false }))
         .pipe(gulp.dest(jsDest));
 });
 
@@ -38,7 +38,7 @@ gulp.task('scripts-other-page', function() {
         .pipe(concat('scripts-other-page.js'))
         .pipe(rename('scripts-other-page.min.js'))
         .pipe(uglify())
-        .pipe(gzip({ append: false }))
+        // .pipe(gzip({ append: false }))
         .pipe(gulp.dest(jsDest));
 });
 
@@ -47,7 +47,7 @@ gulp.task('scripts-order-pages', function() {
         .pipe(concat('scripts-order-pages.js'))
         .pipe(rename('scripts-order-pages.min.js'))
         .pipe(uglify())
-        .pipe(gzip({ append: false }))
+        // .pipe(gzip({ append: false }))
         .pipe(gulp.dest(jsDest));
 });
 
@@ -58,7 +58,7 @@ gulp.task('less-min', function() {
         .pipe(concat('styles.css'))
         .pipe(rename('styles.min.css'))
         .pipe(cssMin({keepBreaks: false}))
-        .pipe(gzip({ append: false }))
+        // .pipe(gzip({ append: false }))
         .pipe(gulp.dest(cssDest));
 });
 
@@ -67,7 +67,7 @@ gulp.task('less-min-smoothproducts', function() {
         .pipe(less())
         .pipe(rename('smoothproducts.min.css'))
         .pipe(cssMin({keepBreaks: false}))
-        .pipe(gzip({ append: false }))
+        // .pipe(gzip({ append: false }))
         .pipe(gulp.dest('themes/e-commerce/static/css/'));
 });
 
