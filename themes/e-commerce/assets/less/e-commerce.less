@@ -22,13 +22,13 @@
 @font_family_7: "Roboto Slab";
 @background_color_1: #f7f7f7;
 @background_color_2: #222;
-@background_color_3: #A6CE39;
+@background_color_3: @color_2;
 @background_color_4: #C5F442;
 @background_color_5: #fff;
 @background_color_6: #532416;
 @background_color_7: transparent;
 @background_color_8: #f1f1f1;
-@border_color_1: #A6CE39;
+@border_color_1: @color_2;
 @border_color_2: #f6bf01;
 @border_color_3: transparent;
 @border_color_4: rgba(255,255,255,.02);
@@ -48,7 +48,7 @@
 body {
   overflow-x: hidden;
   font-family: @font_family_1;
-  webkit-tap-highlight-color: #A6CE39;
+  webkit-tap-highlight-color: @color_2;
   color: @color_8;
 }
 .text-muted {
@@ -863,11 +863,11 @@ ul.social-buttons {
 }
 &::-moz-selection {
   text-shadow: none;
-  background: #A6CE39;
+  background: @color_2;
 }
 &::selection {
   text-shadow: none;
-  background: #A6CE39;
+  background: @color_2;
 }
 img {
   &::selection {
@@ -1291,11 +1291,37 @@ img {
 }
 
 .validationMessage {
-  color: red;
+  color: @color_13;
 }
 .validationElement {
-  border: 1px solid red;
+  border: 1px solid @color_13;
 }
+
+.add-to-cart-btn {
+  background-color: rgb(66, 189, 65);
+  text-align: center;
+  color: white;
+}
+.add-to-cart-btn:focus, .add-to-cart-btn:hover, .add-to-cart-init-btn:focus, .add-to-cart-init-btn:hover {
+  background-color: @color_2;
+}
+@media (max-width: 767px) {
+  .add-to-cart-btn.input-number {
+    font-size: 2rem;
+    padding: 2px 0px;
+  }
+  button.add-to-cart-btn {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+
+.add-to-cart-init-btn {
+  padding: 0.5em 1em;
+  width: 100%;
+  .add-to-cart-btn;
+}
+
 .fb-share-button {
     transform: scale(1.5, 1.25);
     transform-origin: top left;

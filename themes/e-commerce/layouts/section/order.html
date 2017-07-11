@@ -1,25 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}">
 {{ partial "head.html" . }}
-<style>
-    .add-to-cart-btn {
-        background-color: rgb(66, 189, 65);
-        text-align: center;
-        color: white;
-    }
-    .add-to-cart-btn:focus, .add-to-cart-btn:hover {
-        background-color: #A6CE39;
-    }
-    @media (max-width: 767px) {
-        .add-to-cart-btn.input-number {
-            font-size: 2rem;
-            padding: 2px 0px;
-        }
-        button.add-to-cart-btn {
-            padding: 6px 6px;
-        }
-    }
-</style>
 <body id="page-top" class="index">
 {{ partial "nav-for-other-page.html" . }}
 {{ "<!-- terms and conditions Grid Section -->" | safeHTML }}
@@ -69,15 +50,20 @@
                                         {{ end }}</span>
                                     </p>
                                 </div>
-                                <div class="input-group">
+                                <div class="input-group btn-block" data-bind="visible: products.{{.Params.key}}Amt() == 0">
+                                    <button type="button" class="btn btn-default btn-lg btn-number add-to-cart-init-btn" data-type="plus" data-field="quant[1]-{{.Params.key}}">
+                                        <span class="">Mua</span>
+                                    </button>
+                                </div>
+                                <div class="input-group" data-bind="visible: products.{{.Params.key}}Amt() > 0">
                                         <span class="input-group-btn">
-                                             <button type="button" class="btn btn-default btn-number add-to-cart-btn" data-type="minus" data-field="quant[1]-{{.Params.key}}">
+                                             <button type="button" class="btn btn-default btn-lg btn-number add-to-cart-btn" data-type="minus" data-field="quant[1]-{{.Params.key}}">
                                                  <span class="glyphicon glyphicon-minus"></span>
                                              </button>
                                         </span>
-                                    <input data-bind="value: products.{{.Params.key}}Amt" type="text" name="quant[1]-{{.Params.key}}" class="form-control input-number add-to-cart-btn" value="0" min="0" max="10">
+                                    <input data-bind="value: products.{{.Params.key}}Amt" type="text" name="quant[1]-{{.Params.key}}" class="form-control input-lg input-number add-to-cart-btn" value="0" min="0" max="10">
                                     <span class="input-group-btn">
-                                            <button type="button" class="btn btn-default btn-number add-to-cart-btn" data-type="plus" data-field="quant[1]-{{.Params.key}}">
+                                            <button type="button" class="btn btn-default btn-lg btn-number add-to-cart-btn" data-type="plus" data-field="quant[1]-{{.Params.key}}">
                                                 <span class="glyphicon glyphicon-plus"></span>
                                             </button>
                                         </span>
