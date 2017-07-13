@@ -66,22 +66,30 @@
                                             <input data-bind="value: info.phone1" id="phone1" name="phone1" type="number"
                                                    placeholder="901234567" class="form-control input-lg">
                                         </div>
-                                        <input data-bind="value: info.verificationCode" style="display: none;"
-                                               id="verificationCode" name="verificationCode" type="text"
-                                               placeholder="Mã xác thực" class="form-control">
-                                        <p id="showUserSmsSentMsg" style="display: none;">Mã xác thực đã được gửi tới
-                                            điện thoại của bạn. Vui lòng kiểm tra điện thoại.</p>
-                                        <button id="verifyCode" name="verifyCode" style="display: none;"
-                                                class="btn btn-lg btn-success"
-                                                data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Vui lòng đợi...">Xác thực mã
-                                        </button>
-                                        <div id="recaptcha-container" style="margin-top: 5px"></div>
+                                        <div data-bind="visible: !authenticated() && verificationCodeSent()">
+                                            <input data-bind="value: info.verificationCode"
+                                                   id="verificationCode" name="verificationCode" type="text"
+                                                   placeholder="Mã xác thực" class="form-control">
+                                            <p id="showUserSmsSentMsg">Mã
+                                                xác thực đã được gửi tới
+                                                điện thoại của bạn. Vui lòng kiểm tra điện thoại.
+                                            <span data-bind="visible: resendVerificationCodeFlag()">
+                                                Hoặc <a style="text-decoration: underline;cursor: pointer;" id="verifyPhone2">nhấn vào đây để gửi lại mã</a>
+                                             nếu chưa nhận được.</span></p>
+                                            <button id="verifyCode" name="verifyCode"
+                                                    class="btn btn-lg btn-success"
+                                                    data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Vui lòng đợi...">
+                                                Xác thực mã
+                                            </button>
+                                        </div>
+                                        <div id="recaptcha-container" data-bind="visible: !authenticated() && showCaptcha()" style="margin-top: 5px"></div>
                                     </div>
                                     <div class="col-md-2">
-                                        <button id="verifyPhone1" style="display: none;" name="verifyPhone1"
+                                        <button id="verifyPhone1" data-bind="visible: !authenticated() && !verificationCodeSent()" name="verifyPhone1"
                                                 class="btn btn-lg btn-success"
                                                 data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Vui lòng đợi...">Lấy mã xác thực
                                         </button>
+
                                     </div>
                                 </div>
 
@@ -254,10 +262,114 @@
 {{ partial "js_order_page.html" . }}
 <script type="text/javascript" src="{{ printf "js/%s.js" "vi-VN" | absURL }}"></script>
 <script>
-    var VNPhoneCountryCode = "+84";
+    var VNPhoneCountryCode = "+65";
+function getPhoneNumber(phoneNum) {
+    var validatedPhoneNumber = validatePhoneNumberSG(phoneNum);
+    if(validatedPhoneNumber.isValid){
+        return validatedPhoneNumber.phoneNumber;
+    }
+}
+var emptyBill = {
+    meta: {
+        date: undefined
+    },
+    data: {
+        info: {
+            prefix: "",
+            name: "",
+            phone1: "",
+            phone2: "",
+            email: "",
+            address: "",
+            province: ""
+        },
+        products: []
+    }
+};
+var bill = JSON.parse(sessionStorage.getItem('order')) || emptyBill;
+
+// Custom validation for phone number
+ko.validation.rules['phoneVN'] = {
+    validator: function (val, otherVal) {
+        if(otherVal){
+            if(!val){
+                return true;
+            }
+            var result = validatePhoneNumberSG(val);
+            return result.isValid;
+        }
+        return true;
+    }
+};
+
+function enableResendVerificationCodeAfterTimeout(){
+    setTimeout(function(){
+        viewModel().resendVerificationCodeFlag(true);
+    }, 4000);
+}
+ko.validation.registerExtenders();
+ko.validation.locale('vi-VN');
+var viewModel = ko.validatedObservable({
+    id: ko.observable((bill && bill.id) || ""),
+    info:{
+        name: ko.observable((bill && bill.info && bill.info.name) || "").extend({ required: true, minLength: 1 }),
+        phone1CountryCode: ko.observable((bill && bill.info && bill.info.phone1CountryCode) || VNPhoneCountryCode),
+        phone1: ko.observable((bill && bill.info && bill.info.phone1.substring(3)) || "").extend({ required: true, phoneVN: true }),
+        verificationCode: ko.observable(""),
+        phone2CountryCode: ko.observable((bill && bill.info && bill.info.phone2CountryCode) || VNPhoneCountryCode),
+        phone2: ko.observable((bill && bill.info && bill.info.phone2) || "").extend({ required: false, phoneVN: true }),
+        email: ko.observable((bill && bill.info && bill.info.email) || "").extend({ required: false, email: true }),
+        address: ko.observable((bill && bill.info && bill.info.address) || "").extend({ required: true, minLength: 1 }),
+        province: ko.observable((bill && bill.info && bill.info.province) || "TP HCM"),
+        suburb: ko.observable((bill && bill.info && bill.info.suburb) || ""),
+        paymentType: ko.observable((bill && bill.info && bill.info.paymentType) || "cod"),
+        additionalNote: ko.observable((bill && bill.info && bill.info.additionalNote) || "")
+    },
+    products: getProductsArrayFromBill(bill),
+    subtotal: ko.observable(calculateTotalBillWithoutShippingCost(bill)),
+    shippingCost: undefined,
+    promoCode: ko.observable((bill && bill.promoCode) || ""),
+    discountPercent: ko.observable((bill && bill.discountPercent) || undefined),
+    authenticated: ko.observable(false),
+    resendVerificationCodeFlag: ko.observable(false),
+    verificationCodeSent: ko.observable(false),
+    showCaptcha: ko.observable(false),
+    submit: function () {
+        if (viewModel.errors().length === 0) {
+            var billFormUI = ko.toJS(viewModel);
+            bill.meta = {};
+            bill.meta.date = new Date().getTime();
+            bill.info = billFormUI.info;
+            bill.info.phone1 = getPhoneNumber(viewModel().info.phone1());
+            bill.info.phone2 = getPhoneNumber(viewModel().info.phone2());
+            bill.promoCode = billFormUI.promoCode;
+            bill.discountPercent = billFormUI.discountPercent;
+            saveToSession(bill);
+            window.location = "/confirm";
+        }
+        else {
+            alert('Vui lòng kiểm tra dữ liệu.');
+            viewModel.errors.showAllMessages();
+        }
+    }
+});
+
+// Activates knockout.js
+ko.validation.init({
+    grouping: {
+        deep: true,
+        live: true,
+        observable: true
+    },
+    decorateInputElement: true
+});
+viewModel.errors = ko.validation.group(viewModel);
+
+ko.applyBindings(viewModel);
+
+
 
     $(function() {
-
         // Initialize Firebase
         var config = {
             apiKey: "AIzaSyABGxfllsBj-8tfsAH7t1qqcZvxZHRP25M",
@@ -278,109 +390,24 @@
             }
         });
 
-        var emptyBill = {
-            meta: {
-                date: undefined
-            },
-            data: {
-                info: {
-                    prefix: "",
-                    name: "",
-                    phone1: "",
-                    phone2: "",
-                    email: "",
-                    address: "",
-                    province: ""
-                },
-                products: []
-            }
-        };
-        var bill = JSON.parse(sessionStorage.getItem('order')) || emptyBill;
-
-        // Custom validation for phone number
-        ko.validation.rules['phoneVN'] = {
-            validator: function (val, otherVal) {
-                if(otherVal){
-                    if(!val){
-                        return true;
-                    }
-                    var result = validatePhoneNumber(val);
-                    return result.isValid;
-                }
-                return true;
-            }
-        };
-        ko.validation.registerExtenders();
-        ko.validation.locale('vi-VN');
-        var viewModel = ko.validatedObservable({
-            id: ko.observable((bill && bill.id) || ""),
-            info:{
-                name: ko.observable((bill && bill.info && bill.info.name) || "").extend({ required: true, minLength: 1 }),
-                phone1CountryCode: ko.observable((bill && bill.info && bill.info.phone1CountryCode) || VNPhoneCountryCode),
-                phone1: ko.observable((bill && bill.info && bill.info.phone1.substring(3)) || "").extend({ required: true, phoneVN: true }),
-                verificationCode: ko.observable(""),
-                phone2CountryCode: ko.observable((bill && bill.info && bill.info.phone2CountryCode) || VNPhoneCountryCode),
-                phone2: ko.observable((bill && bill.info && bill.info.phone2) || "").extend({ required: false, phoneVN: true }),
-                email: ko.observable((bill && bill.info && bill.info.email) || "").extend({ required: false, email: true }),
-                address: ko.observable((bill && bill.info && bill.info.address) || "").extend({ required: true, minLength: 1 }),
-                province: ko.observable((bill && bill.info && bill.info.province) || "TP HCM"),
-                suburb: ko.observable((bill && bill.info && bill.info.suburb) || ""),
-                paymentType: ko.observable((bill && bill.info && bill.info.paymentType) || "cod"),
-                additionalNote: ko.observable((bill && bill.info && bill.info.additionalNote) || "")
-            },
-            products: getProductsArrayFromBill(bill),
-            subtotal: ko.observable(calculateTotalBillWithoutShippingCost(bill)),
-            shippingCost: undefined,
-            promoCode: ko.observable((bill && bill.promoCode) || ""),
-            discountPercent: ko.observable((bill && bill.discountPercent) || undefined),
-            submit: function () {
-                if (viewModel.errors().length === 0) {
-                    var billFormUI = ko.toJS(viewModel);
-                    bill.meta = {};
-                    bill.meta.date = new Date().getTime();
-                    bill.info = billFormUI.info;
-                    bill.info.phone1 = getPhoneNumber(viewModel().info.phone1());
-                    bill.info.phone2 = getPhoneNumber(viewModel().info.phone2());
-                    bill.promoCode = billFormUI.promoCode;
-                    bill.discountPercent = billFormUI.discountPercent;
-                    saveToSession(bill);
-                    window.location = "/confirm";
-                }
-                else {
-                    alert('Vui lòng kiểm tra dữ liệu.');
-                    viewModel.errors.showAllMessages();
-                }
-            }
-        });
-
-        // Activates knockout.js
-        ko.validation.init({
-            grouping: {
-                deep: true,
-                live: true,
-                observable: true
-            },
-            decorateInputElement: true
-        });
-        viewModel.errors = ko.validation.group(viewModel);
-
-        ko.applyBindings(viewModel);
-        var verificationCodeSent = false;
-
         function initUIStateForLoginBasedOnUserState(user) {
             if(user) {
-                $('#verifyPhone1').hide();
-                $('#verifyCode').hide();
-                $('#verificationCode').hide();
-                $('#showUserSmsSentMsg').hide();
-                $('#recaptcha-container').hide();
+                console.log("blablabal");
+                viewModel().authenticated(true);
+//                $('#verifyPhone1').hide();
+//                $('#verifyCode').hide();
+//                $('#verificationCode').hide();
+//                $('#showUserSmsSentMsg').hide();
+//                $('#recaptcha-container').hide();
                 $('#save').prop('disabled', false);
             } else {
-                $('#verifyPhone1').show();
+                console.log("blablabal");
+                viewModel().authenticated(false);
+//                $('#verifyPhone1').show();
                 $('#save').prop('disabled', true);
-                if(verificationCodeSent) {
-                    $('#verifyCode').show();
-                    $('#verificationCode').show();
+                if(viewModel().verificationCodeSent()) {
+//                    $('#verifyCode').show();
+//                    $('#verificationCode').show();
                 }
             }
         }
@@ -403,39 +430,56 @@
             }
         });
 
-        function getPhoneNumber(phoneNum) {
-            var validatedPhoneNumber = validatePhoneNumber(phoneNum);
-            if(validatedPhoneNumber.isValid){
-                return validatedPhoneNumber.phoneNumber;
-            }
-        }
-
-        $('#verifyPhone1').on('click', function(e){
+        $('#verifyPhone2').on('click', function(e) {
+            console.log("Resend verification Code");
+            e.preventDefault();
+            window.recaptchaVerifier.render().then(function(widgetId) {
+                grecaptcha.reset(widgetId);
+            });
+            viewModel().showCaptcha(true);
+            firebase.auth().signInWithPhoneNumber(getPhoneNumber(viewModel().info.phone1()), window.recaptchaVerifier)
+                .then(function (confirmationResult) {
+                    viewModel().verificationCodeSent(true);
+                    window.confirmationResult = confirmationResult;
+                }).catch(function (error) {
+                    alert("Somethine wrong! SMS not sent!" + error);
+                    console.log("Somethine wrong! SMS not sent! " + error);
+                    // re-render captcha
+                    window.recaptchaVerifier.render().then(function(widgetId) {
+                        grecaptcha.reset(widgetId);
+                    });
+            });
+        });
+        var appVerifier = window.recaptchaVerifier;
+        $('#verifyPhone1').on('click', function sendVerificationCode(e){
             e.preventDefault();
             $('#verifyPhone1').button('loading');
             var phoneNumber = getPhoneNumber(viewModel().info.phone1());
             console.log("phone number is " + phoneNumber);
-            var appVerifier = window.recaptchaVerifier;
+            viewModel().showCaptcha(true);
             firebase.auth().signInWithPhoneNumber(phoneNumber, appVerifier)
                 .then(function (confirmationResult) {
                     // SMS sent. Prompt user to type the code from the message, then sign the
                     // user in with confirmationResult.confirm(code).
-                    verificationCodeSent = true;
-                    toggleFieldsWhenSendingSmsVerificationCode();
+                    viewModel().verificationCodeSent(true);
+                    viewModel().showCaptcha(false);
+                    enableResendVerificationCodeAfterTimeout();
+//                    toggleFieldsWhenSendingSmsVerificationCode();
                     window.confirmationResult = confirmationResult;
                 }).catch(function (error) {
-                alert("Somethine wrong! SMS not sent!" + error);
-                console.log("Somethine wrong! SMS not sent! " + error);
-                // re-render captcha
-                window.recaptchaVerifier.render().then(function(widgetId) {
-                    grecaptcha.reset(widgetId);
-                });
+                    viewModel().showCaptcha(false);
+                    alert("Somethine wrong! SMS not sent!" + error);
+                    console.log("Somethine wrong! SMS not sent! " + error);
+                    // re-render captcha
+                    window.recaptchaVerifier.render().then(function(widgetId) {
+                        grecaptcha.reset(widgetId);
+                    });
             });
         });
         $('#verifyCode').on('click', function (e) {
             e && e.preventDefault();
             $('#verifyCode').button('loading');
-            var code = viewModel.info.verificationCode();
+            var code = viewModel().info.verificationCode();
             window.confirmationResult.confirm(code).then(function (result) {
                 // User signed in successfully.
                 console.log("User logged in!");
@@ -501,7 +545,16 @@
         });
 
     });
-function validatePhoneNumber(phoneNumInit){
+
+function validatePhoneNumberSG(phoneNumInit){
+    var Output = {
+        isValid : true,
+        reason : "",
+        phoneNumber : VNPhoneCountryCode + phoneNumInit
+    };
+    return Output;
+}
+function validatePhoneNumberVN(phoneNumInit){
     var pattern1 = /^[0][0-9]{9,10}$/;//Start with zero
     var pattern2 = /^[0-9]{9,10}$/;//start with !zero
     var phoneNum = phoneNumInit;
