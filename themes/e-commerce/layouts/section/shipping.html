@@ -262,9 +262,9 @@
 {{ partial "js_order_page.html" . }}
 <script type="text/javascript" src="{{ printf "js/%s.js" "vi-VN" | absURL }}"></script>
 <script>
-    var VNPhoneCountryCode = "+65";
+    var VNPhoneCountryCode = "+84";
 function getPhoneNumber(phoneNum) {
-    var validatedPhoneNumber = validatePhoneNumberSG(phoneNum);
+    var validatedPhoneNumber = validatePhoneNumberVN(phoneNum);
     if(validatedPhoneNumber.isValid){
         return validatedPhoneNumber.phoneNumber;
     }
