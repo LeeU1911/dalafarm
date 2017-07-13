@@ -305,7 +305,7 @@ ko.validation.rules['phoneVN'] = {
 function enableResendVerificationCodeAfterTimeout(){
     setTimeout(function(){
         viewModel().resendVerificationCodeFlag(true);
-    }, 4000);
+    }, 40000);
 }
 ko.validation.registerExtenders();
 ko.validation.locale('vi-VN');
