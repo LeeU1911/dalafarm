@@ -485,19 +485,6 @@
             clearForm();
         });
 
-//        $('#save').on('click', function (e) {
-//            e.preventDefault();
-//            var billFormUI = ko.toJS(viewModel);
-//            bill.meta = {};
-//            bill.meta.date = new Date().getTime();
-//            bill.info = billFormUI.info;
-//            bill.info.phone1 = getPhoneNumber();
-//            bill.promoCode = billFormUI.promoCode;
-//            bill.discountPercent = billFormUI.discountPercent;
-//            saveToSession(bill);
-//            window.location = "/confirm";
-//        });
-
         function saveToSession(bill) {
             sessionStorage.setItem("order", JSON.stringify(bill));
         }
