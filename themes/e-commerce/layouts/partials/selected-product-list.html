@@ -3,23 +3,19 @@
     </div>
 
     <div class="panel-body" id="order-content">
-        <p data-bind="foreach: products">
-            {{ $data := index .Site.Data .Site.Language.Lang }}
-            {{ $prices := $data.price }}
+        <p data-bind="foreach: products.filter(function(p){return p.amount>0})">
             {{ range where .Site.Pages "Section" "product" }}
             {{ if isset .Params "key" }}
-            <span data-bind="if: amount > 0 && name == '{{ .Params.key }}'">
-            <span>
-                                    {{ .Title }} -
-                                    {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
-                                    {{ $discounted_price := index $prices $dscnt_price }}
-                                    {{ if gt $discounted_price 0 }}{{ $discounted_price }}{{ else }}{{ index $prices .Params.key }}{{ end }}
-                                    </span>
-            <span> x </span>
-            <span data-bind="text: amount"></span>
-            <span> = </span>
-            <span data-bind="text: numeral(subtotal).format('0,0')"></span>
-            <br/>
+            <span data-bind="if: name == '{{ .Params.key }}'">
+                <span>
+                    {{ .Title }} -
+                </span>
+                <span data-bind="text: numeral(price).format('0,0')"></span>
+                <span> x </span>
+                <span data-bind="text: amount"></span>
+                <span> = </span>
+                <span data-bind="text: numeral(subtotal).format('0,0')"></span>
+                <br/>
             </span>
             {{ end }}
             {{ end }}

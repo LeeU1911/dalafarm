@@ -45,8 +45,8 @@
                                     <p>
                                         {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
                                         {{ $discounted_price := index $prices $dscnt_price }}
-                                        {{ if gt $discounted_price 0 }}<span class="text-current-price" id="{{ printf "%sPrice" .Params.key }}" data-price="{{ $discounted_price }}">{{ $discounted_price }}
-                                        {{ else }}<span class="text-current-price" id="{{ printf "%sPrice" .Params.key }}" data-price="{{ index $prices .Params.key }}">{{ index $prices .Params.key }}
+                                        {{ if gt $discounted_price 0 }}<span class="text-current-price" id="{{ printf "%sPrice" .Params.key }}" data-price="{{ $discounted_price }}" data-bind="text: numeral({{ $discounted_price }}).format('0,0')">
+                                        {{ else }}<span class="text-current-price" id="{{ printf "%sPrice" .Params.key }}" data-price="{{ index $prices .Params.key }}" data-bind="text: numeral({{ index $prices .Params.key }}).format('0,0')">
                                         {{ end }}</span>
                                     </p>
                                 </div>
@@ -101,8 +101,7 @@
 {{ if .Site.Params.params.footer.enable }}
 {{ partial "footer.html" . }}
 {{ end }}
-{{ partial "js_other_page.html" . }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
+{{ partial "js_order_page.html" . }}
 <script>
     $(function() {
         var bill = JSON.parse(sessionStorage.getItem('order')) || undefined;
@@ -186,7 +185,7 @@
                     var key = property.substr(0, property.length - 3);
                     console.log(key);
                     var keyPrice = key + "Price";
-                    bill.products[keyPrice] = parseInt($("#" + keyPrice).data("price").replace(",", ""));
+                    bill.products[keyPrice] = parseInt($("#" + keyPrice).data("price"));
                 }
             }
             return bill;
