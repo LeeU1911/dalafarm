@@ -393,20 +393,12 @@
             if(user) {
                 console.log("blablabal");
                 viewModel().authenticated(true);
-//                $('#verifyPhone1').hide();
-//                $('#verifyCode').hide();
-//                $('#verificationCode').hide();
-//                $('#showUserSmsSentMsg').hide();
-//                $('#recaptcha-container').hide();
                 $('#save').prop('disabled', false);
             } else {
                 console.log("blablabal");
                 viewModel().authenticated(false);
-//                $('#verifyPhone1').show();
                 $('#save').prop('disabled', true);
                 if(viewModel().verificationCodeSent()) {
-//                    $('#verifyCode').show();
-//                    $('#verificationCode').show();
                 }
             }
         }
