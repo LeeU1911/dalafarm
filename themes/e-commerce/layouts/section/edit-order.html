@@ -37,29 +37,29 @@
 {{ if .Site.Params.params.footer.enable }}
 {{ partial "footer.html" . }}
 {{ end }}
-{{ partial "js_other_page.html" . }}
+{{ partial "js_order_page.html" . }}
 <script>
     $(function() {
-        function findOrder(orderId) {
-            var order = findOrderInLocalStorage(orderId);
-            if (!order) {
-                order = findOrderInCloud(orderId);
-            }
-            if((typeof order) === "string"){
-                order = JSON.parse(order);
-            }
-            return order;
-        }
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyABGxfllsBj-8tfsAH7t1qqcZvxZHRP25M",
+            authDomain: "dalafarm-bill.firebaseapp.com",
+            databaseURL: "https://dalafarm-bill.firebaseio.com",
+            projectId: "dalafarm-bill",
+            storageBucket: "dalafarm-bill.appspot.com",
+            messagingSenderId: "723108104918"
+        };
+        firebase.initializeApp(config);
 
         $("#openOrderBtn").on('click', function (e) {
             e.preventDefault();
             var orderId = $('#orderId').val();
             if(orderId) {
-                var order = findOrder(orderId);
-                if (allowEditOrder(order)) {
-                    order = convertProductArraysToProductObject(order);
-                    saveOrderToSessionStorage(order);
-                    window.location = "/confirm";
+                var order = findOrderInLocalStorage(orderId);
+                if (!order) {
+                    findOrderInCloudNEdit(orderId);
+                } else {
+                    editOrder(order);
                 }
             }else{
                 alert("Vui lòng nhập mã đơn hàng.");
@@ -67,12 +67,35 @@
         })
     });
 
+    function editOrder(order) {
+        order = convertOrderFromStrToJsonIfRequired(order);
+        if (allowEditOrder(order)) {
+            order = convertProductArraysToProductObject(order);
+            saveOrderToSessionStorage(order);
+            window.location = "/confirm";
+        }
+    }
+
+    function convertOrderFromStrToJsonIfRequired(order) {
+        if ((typeof order) === "string") {
+            order = JSON.parse(order);
+        }
+        return order;
+    }
+
     function findOrderInLocalStorage(orderId) {
         var order = localStorage.getItem("order-" + orderId);
         return order;
     }
 
-    function findOrderInCloud(orderId) {
+    function findOrderInCloudNEdit(orderId) {
+        var order = undefined;
+        firebase.database().ref('/bills/' + orderId).once('value').then(function(snapshot) {
+            order = snapshot.val();
+            editOrder(order);
+        }, function (error) {
+            console.log(error);
+        });
 
     }
     
