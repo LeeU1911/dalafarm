@@ -170,11 +170,11 @@ function applyPromotion(bill){
     var weight = calculateWeightOfPowders(bill);
     if(weight >= 500) {
         bill.freeShip = true;
-        bill.products['dalababyAmt'] += 1;
+        bill.products['dalababyAmt']++;
         return bill;
     }
     if(totalBillWoShippingCost > 680000){
-        bill.products['garlicoilAmt'] += 1;
+        bill.products['garlicoilAmt']++;
         return bill;
     }
     if(totalBillWoShippingCost > 580000) {

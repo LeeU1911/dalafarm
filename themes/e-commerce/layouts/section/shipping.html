@@ -263,113 +263,112 @@
 <script type="text/javascript" src="{{ printf "js/%s.js" "vi-VN" | absURL }}"></script>
 <script>
     var VNPhoneCountryCode = "+84";
-function getPhoneNumber(phoneNum) {
-    var validatedPhoneNumber = validatePhoneNumberVN(phoneNum);
-    if(validatedPhoneNumber.isValid){
-        return validatedPhoneNumber.phoneNumber;
-    }
-}
-var emptyBill = {
-    meta: {
-        date: undefined
-    },
-    data: {
-        info: {
-            prefix: "",
-            name: "",
-            phone1: "",
-            phone2: "",
-            email: "",
-            address: "",
-            province: ""
-        },
-        products: []
-    }
-};
-var bill = JSON.parse(sessionStorage.getItem('order')) || emptyBill;
+    $(function() {
+        function getPhoneNumber(phoneNum) {
+            var validatedPhoneNumber = validatePhoneNumberVN(phoneNum);
+            if(validatedPhoneNumber.isValid){
+                return validatedPhoneNumber.phoneNumber;
+            }
+        }
+        var emptyBill = {
+            meta: {
+                date: undefined
+            },
+            data: {
+                info: {
+                    prefix: "",
+                    name: "",
+                    phone1: "",
+                    phone2: "",
+                    email: "",
+                    address: "",
+                    province: ""
+                },
+                products: []
+            }
+        };
+        var bill = JSON.parse(sessionStorage.getItem('order')) || emptyBill;
 
 // Custom validation for phone number
-ko.validation.rules['phoneVN'] = {
-    validator: function (val, otherVal) {
-        if(otherVal){
-            if(!val){
+        ko.validation.rules['phoneVN'] = {
+            validator: function (val, otherVal) {
+                if(otherVal){
+                    if(!val){
+                        return true;
+                    }
+                    var result = validatePhoneNumberSG(val);
+                    return result.isValid;
+                }
                 return true;
             }
-            var result = validatePhoneNumberSG(val);
-            return result.isValid;
-        }
-        return true;
-    }
-};
+        };
 
-function enableResendVerificationCodeAfterTimeout(){
-    setTimeout(function(){
-        viewModel().resendVerificationCodeFlag(true);
-    }, 40000);
-}
-ko.validation.registerExtenders();
-ko.validation.locale('vi-VN');
-var viewModel = ko.validatedObservable({
-    id: ko.observable((bill && bill.id) || ""),
-    info:{
-        name: ko.observable((bill && bill.info && bill.info.name) || "").extend({ required: true, minLength: 1 }),
-        phone1CountryCode: ko.observable((bill && bill.info && bill.info.phone1CountryCode) || VNPhoneCountryCode),
-        phone1: ko.observable((bill && bill.info && bill.info.phone1.substring(3)) || "").extend({ required: true, phoneVN: true }),
-        verificationCode: ko.observable(""),
-        phone2CountryCode: ko.observable((bill && bill.info && bill.info.phone2CountryCode) || VNPhoneCountryCode),
-        phone2: ko.observable((bill && bill.info && bill.info.phone2) || "").extend({ required: false, phoneVN: true }),
-        email: ko.observable((bill && bill.info && bill.info.email) || "").extend({ required: false, email: true }),
-        address: ko.observable((bill && bill.info && bill.info.address) || "").extend({ required: true, minLength: 1 }),
-        province: ko.observable((bill && bill.info && bill.info.province) || "TP HCM"),
-        suburb: ko.observable((bill && bill.info && bill.info.suburb) || ""),
-        paymentType: ko.observable((bill && bill.info && bill.info.paymentType) || "cod"),
-        additionalNote: ko.observable((bill && bill.info && bill.info.additionalNote) || "")
-    },
-    products: getProductsArrayFromBill(bill),
-    subtotal: ko.observable(calculateTotalBillWithoutShippingCost(bill)),
-    shippingCost: undefined,
-    promoCode: ko.observable((bill && bill.promoCode) || ""),
-    discountPercent: ko.observable((bill && bill.discountPercent) || undefined),
-    authenticated: ko.observable(false),
-    resendVerificationCodeFlag: ko.observable(false),
-    verificationCodeSent: ko.observable(false),
-    showCaptcha: ko.observable(false),
-    submit: function () {
-        if (viewModel.errors().length === 0) {
-            var billFormUI = ko.toJS(viewModel);
-            bill.meta = {};
-            bill.meta.date = new Date().getTime();
-            bill.info = billFormUI.info;
-            bill.info.phone1 = getPhoneNumber(viewModel().info.phone1());
-            bill.info.phone2 = getPhoneNumber(viewModel().info.phone2());
-            bill.promoCode = billFormUI.promoCode;
-            bill.discountPercent = billFormUI.discountPercent;
-            saveToSession(bill);
-            window.location = "/confirm";
+        function enableResendVerificationCodeAfterTimeout(){
+            setTimeout(function(){
+                viewModel().resendVerificationCodeFlag(true);
+            }, 40000);
         }
-        else {
-            alert('Vui lòng kiểm tra dữ liệu.');
-            viewModel.errors.showAllMessages();
-        }
-    }
-});
+        ko.validation.registerExtenders();
+        ko.validation.locale('vi-VN');
+        var viewModel = ko.validatedObservable({
+            id: ko.observable((bill && bill.id) || ""),
+            info:{
+                name: ko.observable((bill && bill.info && bill.info.name) || "").extend({ required: true, minLength: 1 }),
+                phone1CountryCode: ko.observable((bill && bill.info && bill.info.phone1CountryCode) || VNPhoneCountryCode),
+                phone1: ko.observable((bill && bill.info && bill.info.phone1.substring(3)) || "").extend({ required: true, phoneVN: true }),
+                verificationCode: ko.observable(""),
+                phone2CountryCode: ko.observable((bill && bill.info && bill.info.phone2CountryCode) || VNPhoneCountryCode),
+                phone2: ko.observable((bill && bill.info && bill.info.phone2) || "").extend({ required: false, phoneVN: true }),
+                email: ko.observable((bill && bill.info && bill.info.email) || "").extend({ required: false, email: true }),
+                address: ko.observable((bill && bill.info && bill.info.address) || "").extend({ required: true, minLength: 1 }),
+                province: ko.observable((bill && bill.info && bill.info.province) || "TP HCM"),
+                suburb: ko.observable((bill && bill.info && bill.info.suburb) || ""),
+                paymentType: ko.observable((bill && bill.info && bill.info.paymentType) || "cod"),
+                additionalNote: ko.observable((bill && bill.info && bill.info.additionalNote) || "")
+            },
+            products: getProductsArrayFromBill(bill),
+            subtotal: ko.observable(calculateTotalBillWithoutShippingCost(bill)),
+            shippingCost: undefined,
+            promoCode: ko.observable((bill && bill.promoCode) || ""),
+            discountPercent: ko.observable((bill && bill.discountPercent) || undefined),
+            authenticated: ko.observable(false),
+            resendVerificationCodeFlag: ko.observable(false),
+            verificationCodeSent: ko.observable(false),
+            showCaptcha: ko.observable(false),
+            submit: function () {
+                if (viewModel.errors().length === 0) {
+                    var billFormUI = ko.toJS(viewModel);
+                    bill.meta = {};
+                    bill.meta.date = new Date().getTime();
+                    bill.info = billFormUI.info;
+                    bill.info.phone1 = getPhoneNumber(viewModel().info.phone1());
+                    bill.info.phone2 = getPhoneNumber(viewModel().info.phone2());
+                    bill.promoCode = billFormUI.promoCode;
+                    bill.discountPercent = billFormUI.discountPercent;
+                    saveToSession(bill);
+                    window.location = "/confirm";
+                }
+                else {
+                    alert('Vui lòng kiểm tra dữ liệu.');
+                    viewModel.errors.showAllMessages();
+                }
+            }
+        });
 
 // Activates knockout.js
-ko.validation.init({
-    grouping: {
-        deep: true,
-        live: true,
-        observable: true
-    },
-    decorateInputElement: true
-});
-viewModel.errors = ko.validation.group(viewModel);
+        ko.validation.init({
+            grouping: {
+                deep: true,
+                live: true,
+                observable: true
+            },
+            decorateInputElement: true
+        });
+        viewModel.errors = ko.validation.group(viewModel);
 
-ko.applyBindings(viewModel);
+        ko.applyBindings(viewModel);
 
 
-
-    $(function() {
         // Initialize Firebase
         var config = {
             apiKey: "AIzaSyABGxfllsBj-8tfsAH7t1qqcZvxZHRP25M",
