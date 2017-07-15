@@ -40,15 +40,24 @@
 {{ partial "js_other_page.html" . }}
 <script>
     $(function() {
+        function findOrder(orderId) {
+            var order = findOrderInLocalStorage(orderId);
+            if (!order) {
+                order = findOrderInCloud(orderId);
+            }
+            if((typeof order) === "string"){
+                order = JSON.parse(order);
+            }
+            return order;
+        }
+
         $("#openOrderBtn").on('click', function (e) {
             e.preventDefault();
             var orderId = $('#orderId').val();
             if(orderId) {
-                var order = findOrderInLocalStorage(orderId);
-                if (!order) {
-                    order = findOrderInCloud(orderId);
-                }
+                var order = findOrder(orderId);
                 if (allowEditOrder(order)) {
+                    order = convertProductArraysToProductObject(order);
                     saveOrderToSessionStorage(order);
                     window.location = "/confirm";
                 }
@@ -66,9 +75,24 @@
     function findOrderInCloud(orderId) {
 
     }
+    
+    function convertProductArraysToProductObject(order) {
+        var productsArr = order.products;
+        var productsObj = {};
+        productsArr.forEach(function (p) {
+            var sku = p.name;
+            if(sku.substr(sku.length - 3, sku.length) === 'Amt'){
+                sku = sku.substr(0, sku.length - 3);
+            }
+            productsObj[sku + 'Amt'] = p.amount;
+            productsObj[sku + 'Price'] = p.price;
+        });
+        order.products = productsObj;
+        return order;
+    }
 
     function saveOrderToSessionStorage(order){
-        sessionStorage.setItem("order", order);
+        sessionStorage.setItem("order", JSON.stringify(order));
     }
 
     function allowEditOrder(order){
