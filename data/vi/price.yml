@@ -67,12 +67,12 @@ mushroom_discounted_price: 0
 mushroom_discounted_percent: 0
 
 garlicoil: 150000
-garlicoil_discounted_price: 200000
-garlicoil_discounted_percent: 10
+garlicoil_discounted_price: 0
+garlicoil_discounted_percent: 0
 
 dalababy: 199000
-dalababy_discounted_price: 190000
-dalababy_discounted_percent: 1
+dalababy_discounted_price: 0
+dalababy_discounted_percent: 0
 
 garlicwine: 400000
 garlicwine_discounted_price: 0
