@@ -61,14 +61,13 @@ function applyDiscountOnTotal(subtotal, discountPercent) {
 //using array for displaying purpose. Let's see if array or object works better to be the data model in db
 function getProductsArrayFromBill(b) {
     var products = b.products;
-    var productArr = $.map(products, function (val, keyAmt) {
+    return $.map(products, function (val, keyAmt) {
         if (keyAmt.substr(keyAmt.length - 3, keyAmt.length) == "Amt") {
-            var key = keyAmt.substr(0, keyAmt.length - 3);
-            var price = products[key + "Price"];
-            return {name: keyAmt, amount: val, price: price, subtotal: val * price};
+            var sku = keyAmt.substr(0, keyAmt.length - 3);
+            var price = products[sku + "Price"];
+            return {name: sku, amount: val, price: price, subtotal: val * price};
         }
     });
-    return productArr;
 }
 
 function calculateShippingCost(bill) {
@@ -186,6 +185,72 @@ function applyPromotion(bill){
 }
 
 // Utility methods
+
+function humanizeProductName(productKey) {
+    if (productKey) {
+        switch (productKey) {
+            case "carrot":
+                return "Bột cà rốt 50g";
+            case "beetroot":
+                return "Bột củ dền 50g";
+            case "broccoli":
+                return "Bột súp lơ xanh 50g";
+            case "cocoa100":
+                return "Bột ca cao 100g";
+            case "heartleaf100":
+                return "Bột rau diếp cá 100g";
+            case "heartleaf":
+                return "Bột rau diếp cá 50g";
+            case "matcha100":
+                return "Bột trà xanh 100g";
+            case "matcha":
+                return "Bột trà xanh 50g";
+            case "moringa":
+                return "Bột chùm ngây 50g";
+            case "pennywort":
+                return "Bột rau má 50g";
+            case "pennywort100":
+                return "Bột rau má 100g";
+            case "pumpkin":
+                return "Bột bí đỏ 50g";
+            case "tomato":
+                return "Bột cà chua 50g";
+            case "lotus":
+                return "Bột hạt sen 50g";
+            case "purpleswpotato":
+                return "Bột khoai lang tím 50g";
+            case "spinach":
+                return "Bột rau bó xôi 50g";
+            case "mushroom":
+                return "Bột nấm 50g";
+            case "garlicoil":
+                return "Dầu tỏi tía Đà Lạt 250ml";
+            case "dalababy":
+                return "Bột rau củ DalaBaby 70g";
+            case "garlicwine":
+                return "Rượu tỏi đen 750ml";
+            case "garlichoney":
+                return "Mật ong tỏi đen 50g";
+            case "sundetox":
+                return "Bột detox đỏ Sun Powder 100g";
+            case "moondetox":
+                return "Bột detox xanh Moon Powder 100g";
+            default:
+                return productKey;
+        }
+
+    }
+}
+
+function humanizePaymentType(paymentType) {
+    if(paymentType){
+        switch (paymentType) {
+            case "cod": return "Thanh toán lúc nhận hàng (COD)";
+            case "bank-transfer": return "Chuyển khoản ngân hàng";
+        }
+
+    }
+}
 
 var Latinise = {};
 Latinise.latin_map = {

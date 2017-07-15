@@ -8,7 +8,7 @@
             {{ $prices := $data.price }}
             {{ range where .Site.Pages "Section" "product" }}
             {{ if isset .Params "key" }}
-            <span data-bind="if: amount > 0 && name == '{{ printf "%sAmt" .Params.key}}'">
+            <span data-bind="if: amount > 0 && name == '{{ .Params.key }}'">
             <span>
                                     {{ .Title }} -
                                     {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
