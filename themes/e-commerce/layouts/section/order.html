@@ -183,7 +183,6 @@
             for (var property in products) {
                 if (products.hasOwnProperty(property)) {
                     var key = property.substr(0, property.length - 3);
-                    console.log(key);
                     var keyPrice = key + "Price";
                     bill.products[keyPrice] = parseInt($("#" + keyPrice).data("price"));
                 }
