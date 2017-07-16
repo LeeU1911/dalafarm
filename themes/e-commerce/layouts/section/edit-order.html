@@ -78,11 +78,6 @@
         return order;
     }
 
-    function findOrderInLocalStorage(orderId) {
-        var order = localStorage.getItem("order-" + orderId);
-        return order;
-    }
-
     function findOrderInCloudNEdit(orderId) {
         var order = undefined;
         firebase.database().ref('/bills/' + orderId).once('value').then(function(snapshot) {
@@ -114,7 +109,8 @@
     }
 
     function allowEditOrder(order){
-        return true;
+        return order.status === "Ordered";
+
     }
 </script>
 
