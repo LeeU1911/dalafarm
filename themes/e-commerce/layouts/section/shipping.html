@@ -318,7 +318,7 @@
                 phone1: ko.observable((bill && bill.info && bill.info.phone1.substring(3)) || "").extend({ required: true, phoneVN: true }),
                 verificationCode: ko.observable(""),
                 phone2CountryCode: ko.observable((bill && bill.info && bill.info.phone2CountryCode) || VNPhoneCountryCode),
-                phone2: ko.observable((bill && bill.info && bill.info.phone2) || "").extend({ required: false, phoneVN: true }),
+                phone2: ko.observable((bill && bill.info && bill.info.phone2.substring(3)) || "").extend({ required: false, phoneVN: true }),
                 email: ko.observable((bill && bill.info && bill.info.email) || "").extend({ required: false, email: true }),
                 address: ko.observable((bill && bill.info && bill.info.address) || "").extend({ required: true, minLength: 1 }),
                 province: ko.observable((bill && bill.info && bill.info.province) || "TP HCM"),
