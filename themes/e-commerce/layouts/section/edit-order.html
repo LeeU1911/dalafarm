@@ -52,6 +52,7 @@
         firebase.initializeApp(config);
 
         $("#openOrderBtn").on('click', function (e) {
+            $('#openOrderBtn').button('loading');
             e.preventDefault();
             var orderId = $('#orderId').val();
             if(orderId) {
