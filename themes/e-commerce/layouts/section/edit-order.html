@@ -55,12 +55,7 @@
             e.preventDefault();
             var orderId = $('#orderId').val();
             if(orderId) {
-                var order = findOrderInLocalStorage(orderId);
-                if (!order) {
-                    findOrderInCloudNEdit(orderId);
-                } else {
-                    editOrder(order);
-                }
+                findOrderInCloudNEdit(orderId);
             }else{
                 alert("Vui lòng nhập mã đơn hàng.");
             }
