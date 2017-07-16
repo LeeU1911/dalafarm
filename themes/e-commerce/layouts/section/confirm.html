@@ -60,24 +60,6 @@
 {{ partial "js_order_page.html" . }}
 <script>
     $(function () {
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyABGxfllsBj-8tfsAH7t1qqcZvxZHRP25M",
-            authDomain: "dalafarm-bill.firebaseapp.com",
-            databaseURL: "https://dalafarm-bill.firebaseio.com",
-            projectId: "dalafarm-bill",
-            storageBucket: "dalafarm-bill.appspot.com",
-            messagingSenderId: "723108104918"
-        };
-        firebase.initializeApp(config);
-        firebase.auth().onAuthStateChanged(function (user) {
-            if (user) {
-                console.log("User already logged in");
-            } else {
-                console.log("User has not logged in");
-            }
-        });
-
 
         var bill = applyPromotion(JSON.parse(sessionStorage.getItem('order')));
 
@@ -115,24 +97,10 @@
             bill.shippingCost = calculateShippingCost(bill);
             bill.subtotal = calculateTotalBill(bill);
             bill.products = getProductsArrayFromBill(bill);
-            var dbRef = firebase.database().ref();
-            var updates = {};
-            updates['/bills/' + bill.id] = bill;
-            updates['/user-bills/' + bill.info.phone1 + '/' + bill.id] = bill;
-
-            dbRef.update(updates).then(function (response) {
-                console.log("Data saved successfully!" + response);
-                sendToSmsWebhook(bill);
-//                sendToSmsEndpointOfEsms(bill);
-                sendFullDetailsToWebhook4Excel(bill);
-                sendFullDetailsToWebhook4Slack(bill);
-                sendToEmailWebhook(bill);
-            }, function (error) {
-                console.log(error);
-                order.error = error;
-                localStorage.setItem('order-' + order.id, JSON.stringify(order));
-                window.location = "/order-error";
-            });
+            sendToSmsWebhook(bill);
+            sendFullDetailsToWebhook4Excel(bill);
+            sendFullDetailsToWebhook4Slack(bill);
+            sendToEmailWebhook(bill);
         }
 
         function sendFullDetailsToWebhook4Slack(order) {

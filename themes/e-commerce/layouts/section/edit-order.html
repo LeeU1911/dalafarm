@@ -40,17 +40,6 @@
 {{ partial "js_order_page.html" . }}
 <script>
     $(function() {
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyABGxfllsBj-8tfsAH7t1qqcZvxZHRP25M",
-            authDomain: "dalafarm-bill.firebaseapp.com",
-            databaseURL: "https://dalafarm-bill.firebaseio.com",
-            projectId: "dalafarm-bill",
-            storageBucket: "dalafarm-bill.appspot.com",
-            messagingSenderId: "723108104918"
-        };
-        firebase.initializeApp(config);
-
         $("#openOrderBtn").on('click', function (e) {
             $('#openOrderBtn').button('loading');
             e.preventDefault();
@@ -81,13 +70,6 @@
 
     function findOrderInCloudNEdit(orderId) {
         var order = undefined;
-        firebase.database().ref('/bills/' + orderId).once('value').then(function(snapshot) {
-            order = snapshot.val();
-            editOrder(order);
-        }, function (error) {
-            console.log(error);
-        });
-
     }
     
     function convertProductArraysToProductObject(order) {
