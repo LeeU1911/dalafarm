@@ -355,7 +355,7 @@
             }
         });
 
-// Activates knockout.js
+        // Activates knockout.js
         ko.validation.init({
             grouping: {
                 deep: true,
@@ -508,11 +508,11 @@
 
         $('#verifyPromoCode').on('click', function (e) {
             e.preventDefault();
-            var promoCode = viewModel.promoCode();
-            var subtotal = viewModel.subtotal();
+            var promoCode = viewModel().promoCode();
+            var subtotal = viewModel().subtotal();
             var discountPercent = verifyPromoCode(promoCode);
-            viewModel.subtotal(applyDiscountOnTotal(subtotal, discountPercent));
-            viewModel.discountPercent(discountPercent);
+            viewModel().subtotal(applyDiscountOnTotal(subtotal, discountPercent));
+            viewModel().discountPercent(discountPercent);
         });
 
     });
