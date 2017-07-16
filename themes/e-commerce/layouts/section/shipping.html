@@ -511,7 +511,7 @@
             var promoCode = viewModel().promoCode();
             var subtotal = viewModel().subtotal();
             var discountPercent = verifyPromoCode(promoCode);
-            viewModel().subtotal(applyDiscountOnTotal(subtotal, discountPercent));
+            viewModel().subtotal(roundDownToThousand(applyDiscountOnTotal(subtotal, discountPercent)));
             viewModel().discountPercent(discountPercent);
         });
 
