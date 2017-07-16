@@ -18,7 +18,7 @@ Trong những ngày hè oi nóng, thưởng thức một cốc nước giải kh
 Chế biến các cốc nước giải khát từ bột củ dền hoàn toàn không khó, chính vì vậy, đây là một phương pháp sử dụng loại bột này phổ biến hàng đầu hiện nay.
 {{< img src="/img/blog/cach-su-dung-cua-bot-cu-den (1).jpg" title="Nước Bột củ dền" >}}
 
-**Thêm bột củ dền vào các món canh, cháp, súp**
+**Thêm bột củ dền vào các món canh, cháo, súp**
 
 Với việc cung cấp cho cơ thể nhiều chất dinh dưỡng có lợi cho đường tiêu hóa, kích thích hoạt động của gan, ruột, chúng ta hoàn toàn có thể sử dụng bột củ dền làm thực phẩm bằng cách cho thêm loại bột này vào các món canh, cháo, súp. Việc làm này không chỉ giúp cung cấp cho cơ thể thêm một số chất dinh dưỡng cần thiết mà cũng giúp cho món ăn có được màu sắc và mùi vị hấp dẫn hơn rất nhiều.
 Tất nhiên, cần chú ý đến lượng bột củ dền cho thêm vào các món ăn, không nên cho quá nhiều loại bột này vào,bởi sẽ ảnh hưởng đến mùi vị của món ăn, và cũng dễ gây ngán, khó ăn với nhiều người. Một lượng vừa phải sẽ mang lại hiệu quả tối đa.
