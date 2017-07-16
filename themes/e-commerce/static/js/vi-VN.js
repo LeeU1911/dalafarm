@@ -1,5 +1,5 @@
 /**
- * Localization file for Czech - Czech Republic (cs-CZ)
+ * Localization file for Vietnamese - Vietnam (vi-VN)
  */
 (function(factory) {
     // Module systems magic dance.
