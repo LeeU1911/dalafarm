@@ -40,9 +40,9 @@
             <div class="form-group">
                 <div class="col-md-6 col-xs-12 text-right second-last-btn">
                     <button id="save" name="save" class="btn btn-xxl btn-success btn-block"
-                            data-bind="click: function(){dataLayer.push({
-                                     'subtotal': subtotal,
-                                     'currency': 'VND'})}"
+                            onclick="dataLayer.push({
+                                     'subtotal': viewModel().subtotal(),
+                                     'currency': 'VND'})"
                             data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Đang nhập đơn hàng">Hoàn tất
                     </button>
                 </div>
