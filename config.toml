@@ -5,7 +5,7 @@ title = "DalaFarm"
 theme = "e-commerce"
 defaultContentLanguage = "vi"
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-87063471-2"
+#googleAnalytics = "UA-87063471-2"
 disqusShortname = "dalafarm"
 paginate = 8
 
