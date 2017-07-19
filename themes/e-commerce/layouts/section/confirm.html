@@ -40,9 +40,6 @@
             <div class="form-group">
                 <div class="col-md-6 col-xs-12 text-right second-last-btn">
                     <button id="save" name="save" class="btn btn-xxl btn-success btn-block"
-                            onclick="dataLayer.push({
-                                     'subtotal': viewModel().subtotal(),
-                                     'currency': 'VND'})"
                             data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Đang nhập đơn hàng">Hoàn tất
                     </button>
                 </div>
@@ -67,25 +64,25 @@
 
         var bill = applyPromotion(JSON.parse(sessionStorage.getItem('order')));
 
-        function AppViewModel() {
-            this.id = bill.id;
-            this.date = new Date(bill.meta.date);
-            this.name = bill.info.name;
-            this.phone1 = bill.info.phone1;
-            this.phone2 = bill.info.phone2;
-            this.email = bill.info.email;
-            this.address = bill.info.address;
-            this.province = bill.info.province;
-            this.products = getProductsArrayFromBill(bill);
-            this.subtotal = ko.observable(calculateTotalBill(bill));
-            this.shippingCost = calculateShippingCost(bill);
-            this.paymentType = humanizePaymentType(bill.info.paymentType);
-            this.additionalNote = bill.info.additionalNote;
-            this.discountPercent = bill.discountPercent;
-        }
+        var viewModel = {
+            id: bill.id,
+            date: new Date(bill.meta.date),
+            name: bill.info.name,
+            phone1: bill.info.phone1,
+            phone2: bill.info.phone2,
+            email: bill.info.email,
+            address: bill.info.address,
+            province: bill.info.province,
+            products: getProductsArrayFromBill(bill),
+            subtotal: ko.observable(calculateTotalBill(bill)),
+            shippingCost: calculateShippingCost(bill),
+            paymentType: humanizePaymentType(bill.info.paymentType),
+            additionalNote: bill.info.additionalNote,
+            discountPercent: bill.discountPercent
+        };
 
         // Activates knockout.js
-        ko.applyBindings(new AppViewModel());
+        ko.applyBindings(viewModel);
 
         $('#save').on('click', function (e) {
             e.preventDefault();
@@ -101,6 +98,9 @@
             bill.shippingCost = calculateShippingCost(bill);
             bill.subtotal = calculateTotalBill(bill);
             bill.products = getProductsArrayFromBill(bill);
+            dataLayer.push({
+                'subtotal': bill.subtotal,
+                'currency': 'VND'})
             sendToSmsWebhook(bill);
             sendFullDetailsToWebhook4Excel(bill);
             sendFullDetailsToWebhook4Slack(bill);
