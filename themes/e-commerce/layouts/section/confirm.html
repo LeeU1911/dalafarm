@@ -83,7 +83,9 @@
 
         // Activates knockout.js
         ko.applyBindings(viewModel);
-
+        dataLayer.push({
+            'value': bill.subtotal,
+            'currency': 'VND'});
         $('#purchaseBtn').on('click', function (e) {
             e.preventDefault();
             $('#purchaseBtn').button('loading');
@@ -98,9 +100,6 @@
             bill.shippingCost = calculateShippingCost(bill);
             bill.subtotal = calculateTotalBill(bill);
             bill.products = getProductsArrayFromBill(bill);
-            dataLayer.push({
-                'subtotal': bill.subtotal,
-                'currency': 'VND'})
             sendToSmsWebhook(bill);
             sendFullDetailsToWebhook4Excel(bill);
             sendFullDetailsToWebhook4Slack(bill);
