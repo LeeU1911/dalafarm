@@ -2,10 +2,10 @@
 date = "2017-04-17T23:12:45+08:00"
 description = "Lotus seeds powder zip 50 gram"
 price = "90,000"
-img = ["Lotus seeds-1.jpg","Lotus seeds-2.jpg"]
+img = ["lotusseeds-1.jpg","lotusseeds-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Lotus seeds"]
-thumbnail = "Lotus seeds-1.jpg"
+thumbnail = "lotusseeds-1.jpg"
 title = "Lotus seeds powder (50g)"
 +++
 
