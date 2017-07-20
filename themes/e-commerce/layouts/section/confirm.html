@@ -3,6 +3,7 @@
 {{ partial "head.html" . }}
 
 <body id="page-top" class="index">
+{{ partial "google_tag_manager_after_opening_body_tag.html" }}
 {{ partial "nav-for-other-page.html" . }}
 {{ "<!-- terms and conditions Grid Section -->" | safeHTML }}
 <section id="{{ .Params.url }}" class="bg-light-gray">
@@ -38,12 +39,12 @@
         <div class="row">
             <div class="form-group">
                 <div class="col-md-6 col-xs-12 text-right second-last-btn">
-                    <button id="save" name="save" class="btn btn-xxl btn-success btn-block"
+                    <button id="purchaseBtn" name="save" class="btn btn-xxl btn-success btn-block"
                             data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Đang nhập đơn hàng">Hoàn tất
                     </button>
                 </div>
                 <div class="col-md-3 col-xs-6">
-                    <button id="edit" name="save" class="btn btn-xxl btn-default btn-block">Sửa đơn hàng</button>
+                    <button id="edit" name="edit" class="btn btn-xxl btn-default btn-block">Sửa đơn hàng</button>
                 </div>
                 <div class="col-md-3 col-xs-6 text-center">
                     <button id="cancel" name="cancel" class="btn btn-xxl btn-danger btn-block" onclick="window.location = '/';">Hủy
@@ -60,50 +61,32 @@
 {{ partial "js_order_page.html" . }}
 <script>
     $(function () {
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyABGxfllsBj-8tfsAH7t1qqcZvxZHRP25M",
-            authDomain: "dalafarm-bill.firebaseapp.com",
-            databaseURL: "https://dalafarm-bill.firebaseio.com",
-            projectId: "dalafarm-bill",
-            storageBucket: "dalafarm-bill.appspot.com",
-            messagingSenderId: "723108104918"
-        };
-        firebase.initializeApp(config);
-        firebase.auth().onAuthStateChanged(function (user) {
-            if (user) {
-                console.log("User already logged in");
-            } else {
-                console.log("User has not logged in");
-            }
-        });
-
 
         var bill = applyPromotion(JSON.parse(sessionStorage.getItem('order')));
 
-        function AppViewModel() {
-            this.id = bill.id;
-            this.date = new Date(bill.meta.date);
-            this.name = bill.info.name;
-            this.phone1 = bill.info.phone1;
-            this.phone2 = bill.info.phone2;
-            this.email = bill.info.email;
-            this.address = bill.info.address;
-            this.province = bill.info.province;
-            this.products = getProductsArrayFromBill(bill);
-            this.subtotal = ko.observable(calculateTotalBill(bill));
-            this.shippingCost = calculateShippingCost(bill);
-            this.paymentType = humanizePaymentType(bill.info.paymentType);
-            this.additionalNote = bill.info.additionalNote;
-            this.discountPercent = bill.discountPercent;
-        }
+        var viewModel = {
+            id: bill.id,
+            date: new Date(bill.meta.date),
+            name: bill.info.name,
+            phone1: bill.info.phone1,
+            phone2: bill.info.phone2,
+            email: bill.info.email,
+            address: bill.info.address,
+            province: bill.info.province,
+            products: getProductsArrayFromBill(bill),
+            subtotal: ko.observable(calculateTotalBill(bill)),
+            shippingCost: calculateShippingCost(bill),
+            paymentType: humanizePaymentType(bill.info.paymentType),
+            additionalNote: bill.info.additionalNote,
+            discountPercent: bill.discountPercent
+        };
 
         // Activates knockout.js
-        ko.applyBindings(new AppViewModel());
+        ko.applyBindings(viewModel);
 
-        $('#save').on('click', function (e) {
+        $('#purchaseBtn').on('click', function (e) {
             e.preventDefault();
-            $('#save').button('loading');
+            $('#purchaseBtn').button('loading');
             saveToDb(bill);
         });
         $('#edit').on('click', function (e) {
@@ -115,24 +98,13 @@
             bill.shippingCost = calculateShippingCost(bill);
             bill.subtotal = calculateTotalBill(bill);
             bill.products = getProductsArrayFromBill(bill);
-            var dbRef = firebase.database().ref();
-            var updates = {};
-            updates['/bills/' + bill.id] = bill;
-            updates['/user-bills/' + bill.info.phone1 + '/' + bill.id] = bill;
-
-            dbRef.update(updates).then(function (response) {
-                console.log("Data saved successfully!" + response);
-                sendToSmsWebhook(bill);
-//                sendToSmsEndpointOfEsms(bill);
-                sendFullDetailsToWebhook4Excel(bill);
-                sendFullDetailsToWebhook4Slack(bill);
-                sendToEmailWebhook(bill);
-            }, function (error) {
-                console.log(error);
-                order.error = error;
-                localStorage.setItem('order-' + order.id, JSON.stringify(order));
-                window.location = "/order-error";
-            });
+            dataLayer.push({
+                'subtotal': bill.subtotal,
+                'currency': 'VND'})
+            sendToSmsWebhook(bill);
+            sendFullDetailsToWebhook4Excel(bill);
+            sendFullDetailsToWebhook4Slack(bill);
+            sendToEmailWebhook(bill);
         }
 
         function sendFullDetailsToWebhook4Slack(order) {

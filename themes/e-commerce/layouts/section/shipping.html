@@ -3,6 +3,7 @@
 {{ partial "head.html" . }}
 
 <body id="page-top" class="index">
+{{ partial "google_tag_manager_after_opening_body_tag.html" }}
 {{ partial "nav-for-other-page.html" . }}
 {{ "<!-- terms and conditions Grid Section -->" | safeHTML }}
 <section id="{{ .Params.url }}" class="bg-light-gray">
@@ -63,33 +64,9 @@
                                     <div class="col-md-8">
                                         <div class="input-group">
                                             <span class="input-group-addon" data-bind="text: info.phone1CountryCode"></span>
-                                            <input data-bind="value: info.phone1, disable: showCaptcha() || verificationCodeSent()" id="phone1" name="phone1" type="number"
+                                            <input data-bind="value: info.phone1" id="phone1" name="phone1" type="number"
                                                    placeholder="901234567" class="form-control input-lg">
                                         </div>
-                                        <div data-bind="visible: !authenticated() && verificationCodeSent()">
-                                            <input data-bind="value: info.verificationCode"
-                                                   id="verificationCode" name="verificationCode" type="text"
-                                                   placeholder="Mã xác thực" class="form-control">
-                                            <p id="showUserSmsSentMsg">Mã
-                                                xác thực đã được gửi tới
-                                                điện thoại của bạn. Vui lòng kiểm tra điện thoại.
-                                            <span data-bind="visible: resendVerificationCodeFlag()">
-                                                Hoặc <a style="text-decoration: underline;cursor: pointer;" id="verifyPhone2">nhấn vào đây để gửi lại mã</a>
-                                             nếu chưa nhận được.</span></p>
-                                            <button id="verifyCode" name="verifyCode"
-                                                    class="btn btn-lg btn-success"
-                                                    data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Vui lòng đợi...">
-                                                Xác thực mã
-                                            </button>
-                                        </div>
-                                        <div id="recaptcha-container" data-bind="visible: !authenticated() && showCaptcha()" style="margin-top: 5px"></div>
-                                    </div>
-                                    <div class="col-md-2">
-                                        <button id="verifyPhone1" data-bind="visible: !authenticated() && !verificationCodeSent()" name="verifyPhone1"
-                                                class="btn btn-lg btn-success"
-                                                data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Vui lòng đợi...">Lấy mã xác thực
-                                        </button>
-
                                     </div>
                                 </div>
 
@@ -289,7 +266,7 @@
         };
         var bill = JSON.parse(sessionStorage.getItem('order')) || emptyBill;
 
-// Custom validation for phone number
+        // Custom validation for phone number
         ko.validation.rules['phoneVN'] = {
             validator: function (val, otherVal) {
                 if(otherVal){
@@ -318,7 +295,7 @@
                 phone1: ko.observable((bill && bill.info && bill.info.phone1.substring(3)) || "").extend({ required: true, phoneVN: true }),
                 verificationCode: ko.observable(""),
                 phone2CountryCode: ko.observable((bill && bill.info && bill.info.phone2CountryCode) || VNPhoneCountryCode),
-                phone2: ko.observable((bill && bill.info && bill.info.phone2.substring(3)) || "").extend({ required: false, phoneVN: true }),
+                phone2: ko.observable((bill && bill.info && bill.info.phone2 && bill.info.phone2.substring(3)) || "").extend({ required: false, phoneVN: true }),
                 email: ko.observable((bill && bill.info && bill.info.email) || "").extend({ required: false, email: true }),
                 address: ko.observable((bill && bill.info && bill.info.address) || "").extend({ required: true, minLength: 1 }),
                 province: ko.observable((bill && bill.info && bill.info.province) || "TP HCM"),
@@ -332,10 +309,6 @@
             shippingCost: undefined,
             promoCode: ko.observable((bill && bill.promoCode) || ""),
             discountPercent: ko.observable((bill && bill.discountPercent) || undefined),
-            authenticated: ko.observable(false),
-            resendVerificationCodeFlag: ko.observable(false),
-            verificationCodeSent: ko.observable(false),
-            showCaptcha: ko.observable(false),
             submit: function () {
                 if (viewModel.errors().length === 0) {
                     var billFormUI = ko.toJS(viewModel);
@@ -369,112 +342,9 @@
 
         ko.applyBindings(viewModel);
 
-
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyABGxfllsBj-8tfsAH7t1qqcZvxZHRP25M",
-            authDomain: "dalafarm-bill.firebaseapp.com",
-            databaseURL: "https://dalafarm-bill.firebaseio.com",
-            projectId: "dalafarm-bill",
-            storageBucket: "dalafarm-bill.appspot.com",
-            messagingSenderId: "723108104918"
-        };
-        firebase.initializeApp(config);
-        firebase.auth().onAuthStateChanged(function(user) {
-            if (user) {
-                console.log("User already logged in");
-                initUIStateForLoginBasedOnUserState(user);
-            } else {
-                console.log("User has not logged in");
-                initUIStateForLoginBasedOnUserState(user);
-            }
-        });
-
-        function initUIStateForLoginBasedOnUserState(user) {
-            if(user) {
-                console.log("blablabal");
-                viewModel().authenticated(true);
-                $('#save').prop('disabled', false);
-            } else {
-                console.log("blablabal");
-                viewModel().authenticated(false);
-                $('#save').prop('disabled', true);
-                if(viewModel().verificationCodeSent()) {
-                }
-            }
-        }
-
         function clearForm() {
             $('#bill')[0].reset();
         }
-        window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('recaptcha-container', {
-            'size': 'normal',
-            'callback': function(response) {
-            },
-            'expired-callback': function() {
-            }
-        });
-
-        $('#verifyPhone2').on('click', function(e) {
-            console.log("Resend verification Code");
-            e.preventDefault();
-            window.recaptchaVerifier.render().then(function(widgetId) {
-                grecaptcha.reset(widgetId);
-            });
-            viewModel().showCaptcha(true);
-            firebase.auth().signInWithPhoneNumber(getPhoneNumber(viewModel().info.phone1()), window.recaptchaVerifier)
-                .then(function (confirmationResult) {
-                    viewModel().verificationCodeSent(true);
-                    window.confirmationResult = confirmationResult;
-                }).catch(function (error) {
-                    alert("Somethine wrong! SMS not sent!" + error);
-                    console.log("Somethine wrong! SMS not sent! " + error);
-                    // re-render captcha
-                    window.recaptchaVerifier.render().then(function(widgetId) {
-                        grecaptcha.reset(widgetId);
-                    });
-            });
-        });
-        var appVerifier = window.recaptchaVerifier;
-        $('#verifyPhone1').on('click', function sendVerificationCode(e){
-            e.preventDefault();
-            $('#verifyPhone1').button('loading');
-            var phoneNumber = getPhoneNumber(viewModel().info.phone1());
-            console.log("phone number is " + phoneNumber);
-            viewModel().showCaptcha(true);
-            firebase.auth().signInWithPhoneNumber(phoneNumber, appVerifier)
-                .then(function (confirmationResult) {
-                    // SMS sent. Prompt user to type the code from the message, then sign the
-                    // user in with confirmationResult.confirm(code).
-                    viewModel().verificationCodeSent(true);
-                    viewModel().showCaptcha(false);
-                    enableResendVerificationCodeAfterTimeout();
-//                    toggleFieldsWhenSendingSmsVerificationCode();
-                    window.confirmationResult = confirmationResult;
-                }).catch(function (error) {
-                    viewModel().showCaptcha(false);
-                    alert("Somethine wrong! SMS not sent!" + error);
-                    console.log("Somethine wrong! SMS not sent! " + error);
-                    // re-render captcha
-                    window.recaptchaVerifier.render().then(function(widgetId) {
-                        grecaptcha.reset(widgetId);
-                    });
-            });
-        });
-        $('#verifyCode').on('click', function (e) {
-            e && e.preventDefault();
-            $('#verifyCode').button('loading');
-            var code = viewModel().info.verificationCode();
-            window.confirmationResult.confirm(code).then(function (result) {
-                // User signed in successfully.
-                console.log("User logged in!");
-                alert("Số điện thoại xác thực thành công!");
-                initUIStateForLoginBasedOnUserState(result.user);
-            }).catch(function (error) {
-                alert("Something wrong! Verification code incorrect!" + error);
-                console.log("Something wrong! Verification code incorrect! " + error);
-            });
-        });
 
         $('#edit').on('click', function (e) {
             e.preventDefault();

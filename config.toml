@@ -1,11 +1,11 @@
 # Site settings
-baseurl = "http://preview.dalafarm.com.vn/"
+baseurl = "https://dalafarm.com.vn/"
 languageCode = "vi-vn"
 title = "DalaFarm"
 theme = "e-commerce"
 defaultContentLanguage = "vi"
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-87063471-2"
+#googleAnalytics = "UA-87063471-2"
 disqusShortname = "dalafarm"
 paginate = 8
 
@@ -88,19 +88,19 @@ custom_css = []
 custom_js  = []
 favicon    = "favicon.ico"
 #Content footer
-contentFooter = """
----
-GỌI NGAY -  [0906 951 498](tel:0906 951 498) hoặc [0918 241 066](tel:0918 241 066)
-ĐỂ ĐƯỢC TƯ VẤN VÀ CUNG CẤP SẢN PHẨM BỘT RAU CỦ DALAFARM VỚI MỨC GIÁ TỐT NHẤT
-
-VPĐD: 317 Lô D, CC Lạc Long Quân, Phường 5, Quận 11, TP.HCM
-
-Điện thoại: [(028) 6684 2517](tel:028 6684 2517); [(0258) 3899 189](tel:0258 3899 189)
-
-Các đối tác, đơn vị muốn liên hệ để biết thêm thông tin công ty xin vui lòng liên hệ số [0906 951 498](tel:0906 951 498) hoặc [0918 241 066](tel:0918 241 066) hoặc email: [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
-
-Quan tâm đến chính sách & chương trình cho các tổng đại lý, đại lý các cấp, vui lòng liên hệ số: [0906 951 498](tel:0906 951 498) hoặc [0918 241 066](tel:0918 241 066) hoặc email: [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn)
-"""
+#contentFooter = """
+#---
+#GỌI NGAY -  [0906 951 498](tel:0906 951 498) hoặc [0918 241 066](tel:0918 241 066)
+#ĐỂ ĐƯỢC TƯ VẤN VÀ CUNG CẤP SẢN PHẨM BỘT RAU CỦ DALAFARM VỚI MỨC GIÁ TỐT NHẤT
+#
+#VPĐD: 317 Lô D, CC Lạc Long Quân, Phường 5, Quận 11, TP.HCM
+#
+#Điện thoại: [(028) 6684 2517](tel:028 6684 2517); [(0258) 3899 189](tel:0258 3899 189)
+#
+#Các đối tác, đơn vị muốn liên hệ để biết thêm thông tin công ty xin vui lòng liên hệ số [0906 951 498](tel:0906 951 498) hoặc [0918 241 066](tel:0918 241 066) hoặc email: [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
+#
+#Quan tâm đến chính sách & chương trình cho các tổng đại lý, đại lý các cấp, vui lòng liên hệ số: [0906 951 498](tel:0906 951 498) hoặc [0918 241 066](tel:0918 241 066) hoặc email: [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn)
+#"""
 related_blog_limit = 7
 
 # Navigation
@@ -245,11 +245,11 @@ enable = true
 copyright = "Bản quyền thuộc DalaFarm (C) 2017"
 info = """##### DALAFARM - CÔNG TY TNHH SXTM CHUÔNG XANH
 
-<i class="fa fa-building-o"></i> 317 Lô D, CC Lạc Long Quân, Phường 5, Quận 11, TP.HCM
+<i class="fa fa-building-o"></i> 317 Lô D, CC Lạc Long Quân, Phường 5, Quận 11, TP.HCM <i class="fa fa-phone"></i> [(028) 6684 2517](tel:028 6684 2517)
 
-<i class="fa fa-phone"></i> [0906 951 498](tel:0906 951 498) | [0918 241 066](tel:0918 241 066)
+<i class="fa fa-cogs"></i> Tổ 18, thôn Xuân Ngọc, xã Vĩnh Ngọc, Nha Trang, Khánh Hòa <i class="fa fa-phone"></i> [(0258) 3899 189](tel:0258 3899 189)
 
-<i class="fa fa-envelope"></i> [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn) | [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn)
+<i class="fa fa-envelope"></i> [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
 
 <i class="fa fa-calendar"></i> Thứ 2 - thứ 7 <i class="fa fa-clock-o"></i> 8:00 - 17:00
 """
