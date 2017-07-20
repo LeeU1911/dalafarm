@@ -84,7 +84,7 @@
         // Activates knockout.js
         ko.applyBindings(viewModel);
         dataLayer.push({
-            'subtotal': bill.subtotal,
+            'value': bill.subtotal,
             'currency': 'VND'});
         $('#purchaseBtn').on('click', function (e) {
             e.preventDefault();
