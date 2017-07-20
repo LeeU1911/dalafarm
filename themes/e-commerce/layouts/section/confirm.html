@@ -44,7 +44,7 @@
                     </button>
                 </div>
                 <div class="col-md-3 col-xs-6">
-                    <button id="edit" name="save" class="btn btn-xxl btn-default btn-block">Sửa đơn hàng</button>
+                    <button id="edit" name="edit" class="btn btn-xxl btn-default btn-block">Sửa đơn hàng</button>
                 </div>
                 <div class="col-md-3 col-xs-6 text-center">
                     <button id="cancel" name="cancel" class="btn btn-xxl btn-danger btn-block" onclick="window.location = '/';">Hủy
@@ -84,9 +84,9 @@
         // Activates knockout.js
         ko.applyBindings(viewModel);
 
-        $('#save').on('click', function (e) {
+        $('#purchaseBtn').on('click', function (e) {
             e.preventDefault();
-            $('#save').button('loading');
+            $('#purchaseBtn').button('loading');
             saveToDb(bill);
         });
         $('#edit').on('click', function (e) {
