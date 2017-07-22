@@ -31,7 +31,9 @@
                 <span>Giảm giá: </span>-<span data-bind="text: discountPercent"></span>%
             </span>
             <p>
-                <span>Tổng bill: </span><span data-bind="text: numeral(subtotal()).format('0,0')"></span>
+                <span data-bind="visible: shippingCost != undefined && !shippingCost.isNaN">Tổng bill: </span>
+                <span data-bind="visible: shippingCost == undefined || shippingCost.isNaN">Tạm tính bill: </span>
+                <span data-bind="text: numeral(subtotal()).format('0,0')"></span>
             </p>
         </p>
     </div>
