@@ -8,7 +8,6 @@ tags = ["detox-sun-powder", "veggie-powder"]
 thumbnail = "sun-powder-1.jpg"
 title = "Bột Detox Sun powder (100g)"
 weight = 2
-key = "sundetox"
 +++
 
 # Bột Detox Sun powder

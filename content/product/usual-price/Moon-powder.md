@@ -8,7 +8,6 @@ tags = ["veggie-powder","Moonpowder"]
 thumbnail = "moon-powder-1.jpg"
 title = "Bột Detox Moon powder (100g)"
 weight = 2
-key = "moondetox"
 +++
 
 # Bột Detox Moon powder
