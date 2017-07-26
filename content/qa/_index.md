@@ -139,7 +139,6 @@ DalaFarm khuyến khích khách hàng thanh toán qua hình thức chuyển kho�
 Tuy nhiên, DalaFarm vẫn nhận những hình thức thanh toán khác mà khách hàng ưa thích như trả tiền mặt lúc nhận hàng.
 
 Quý khách chọn hình thức chuyển khoản vui lòng chuyển khoản vào tài khoản công ty DalaFarm:
-Chị vui lòng chuyển khoản vào tài khoản này giúp em ạ: 
  
 - Ngân hàng: **Vietcombank**
 - Chi nhánh: **Hồ Chí Minh**
