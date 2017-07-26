@@ -8,7 +8,7 @@ tags = ["garlic-oil","DalaBaby-powder"]
 thumbnail = "dau-toi-tn.jpg"
 title = "Dầu tỏi tía Đà Lạt (250ml)"
 key = "garlicoil"
-weight = 1
+weight = 2
 +++
 
 # DẦU TỎI TÍA Đà LẠT
