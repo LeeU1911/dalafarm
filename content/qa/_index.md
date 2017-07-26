@@ -139,12 +139,13 @@ DalaFarm khuyến khích khách hàng thanh toán qua hình thức chuyển kho�
 Tuy nhiên, DalaFarm vẫn nhận những hình thức thanh toán khác mà khách hàng ưa thích như trả tiền mặt lúc nhận hàng.
 
 Quý khách chọn hình thức chuyển khoản vui lòng chuyển khoản vào tài khoản công ty DalaFarm:
-
+Chị vui lòng chuyển khoản vào tài khoản này giúp em ạ: 
+ 
 - Ngân hàng: **Vietcombank**
-- Chi nhánh: **Nha Trang**
-- Số tài khoản: **0061001093187**
-- Tên người thụ hưởng: **Lê Thị Thu Hà**
-- Nội dung: Thanh toán đơn hàng mã **123xyz** (trong đó, **123xyz** là mã đơn hàng 6 ký tự được tạo ra bởi hệ thống DalaFarm. Khách hàng vui lòng yêu cầu mã này trước khi thanh toán đơn hàng.)
+- Chi nhánh: **Hồ Chí Minh**
+- Số tài khoản: **0531002506601**
+- Tên người thụ hưởng: **Nguyễn Thị Huyền Trâm**
+- Nội dung chuyển khoản: Thanh toán đơn hàng mã **123xyz** (trong đó, **123xyz** là mã đơn hàng 6 ký tự được tạo ra bởi hệ thống DalaFarm. Khách hàng vui lòng yêu cầu mã này trước khi thanh toán đơn hàng.)
 
 Sau khi chuyển khoản, quý khách vui lòng nhắn tin facebook messenger cho DalaFarm để xác nhận nhằm trường hợp chuyển khoản khác ngân hàng không đến liền.
 
