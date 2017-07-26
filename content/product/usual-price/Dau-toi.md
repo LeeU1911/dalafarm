@@ -11,7 +11,7 @@ key = "garlicoil"
 weight = 2
 +++
 
-# DẦU TỎI TÍA Đà LẠT
+# DẦU TỎI TÍA ĐÀ LẠT
 
 ### Thành phần
 100% dầu mè và tinh dầu tỏi. 100% nguyên chất, không phụ gia và chất bảo quản
