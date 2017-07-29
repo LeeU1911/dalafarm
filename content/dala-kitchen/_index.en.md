@@ -5,4 +5,4 @@ tags = []
 
 +++
 
-Available only in Vietnamese currently. Please visit here for Vietnamese version: [DalaKitchen](/dala-kitchen)
+Only available in Vietnamese currently. Please visit here for Vietnamese version: [DalaFarm Kitchen](/dala-kitchen)
