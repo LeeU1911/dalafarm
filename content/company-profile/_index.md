@@ -49,14 +49,14 @@ Nguồn nguyên liệu rau củ quả sau khi thu hoạch tại DalaFarm sẽ đ
  
 # Chiến lược phát triển 
 
-* Trở thành doanh  nghiệp hàng đầu của Việt Nam về chế biến thực phẩm chất lượng cao, an toàn và tốt cho sức khỏe. 
+* Trở thành doanh nghiệp hàng đầu của Việt Nam về chế biến thực phẩm chất lượng cao, an toàn và tốt cho sức khỏe. 
 
 * Không gây tổn hại đến con người và môi trường 
 
 * Uy tín và chất lượng luôn được đặt lên hàng đầu 
 
 # Tại sao chúng tôi thành lập DalaFarm?  
-Dalafarm sinh ra để giải quyết các bài toán mà một start up với 1, 2 cá nhân đơn lẻ ko thể làm đc: 
+DalaFarm sinh ra để giải quyết các bài toán mà một start up với 1, 2 cá nhân đơn lẻ ko thể làm đc: 
  
 * Từng cá nhân chỉ có 1 điểm mạnh ở 1 lĩnh vực nào đó, khi kết hợp lại với nhau chúng ta sẽ mạnh hơn,  
 
