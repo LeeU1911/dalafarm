@@ -36,7 +36,7 @@ weight = 2
 parent = "blog"
 
 [[Languages.vi.menu.main]]
-url    = "/#san-pham"
+url    = "/san-pham"
 name   = "Sản Phẩm"
 weight = 2
 
@@ -346,19 +346,19 @@ custom_css = []
 custom_js  = []
 favicon    = "favicon.ico"
 #Content footer
-contentFooter = """
----
-CALL US - [+84906 951 498](tel:+84906 951 498) OR [+84918 241 066](tel:+84918 241 066)
-TO BE CONSULTED AND GET DALAFARM VEGGIE POWDERS WITH BEST PRICE.
-
-OFFICE: 317 block D, Lạc Long Quân apartment, Ward 5, District 11, Ho Chi Minh City
-
-Phone: [(+8428) 6684 2517](tel:+8428 6684 2517); [(+84258) 3899 189](tel:+84258 3899 189)
-
-Partners who would like to know more about company profile, please call us at [+84906 951 498](tel:+84906 951 498) OR [+84918 241 066](tel:+84918 241 066) or email: [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
-
-Care about commission programs and promotional campaigns, please call us at [+84906 951 498](tel:+84906 951 498) OR [+84918 241 066](tel:+84918 241 066) or email: [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn)
-"""
+#contentFooter = """
+#---
+#CALL US - [+84906 951 498](tel:+84906 951 498) OR [+84918 241 066](tel:+84918 241 066)
+#TO BE CONSULTED AND GET DALAFARM VEGGIE POWDERS WITH BEST PRICE.
+#
+#OFFICE: 317 block D, Lạc Long Quân apartment, Ward 5, District 11, Ho Chi Minh City
+#
+#Phone: [(+8428) 6684 2517](tel:+8428 6684 2517); [(+84258) 3899 189](tel:+84258 3899 189)
+#
+#Partners who would like to know more about company profile, please call us at [+84906 951 498](tel:+84906 951 498) OR [+84918 241 066](tel:+84918 241 066) or email: [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
+#
+#Care about commission programs and promotional campaigns, please call us at [+84906 951 498](tel:+84906 951 498) OR [+84918 241 066](tel:+84918 241 066) or email: [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn)
+#"""
 related_blog_limit = 7
 
 # Navigation
