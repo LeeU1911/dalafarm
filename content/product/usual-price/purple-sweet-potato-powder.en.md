@@ -2,7 +2,7 @@
 date = "2017-06-06T08:05:45+08:00"
 publishdate = "2017-06-06T08:05:45+08:00"
 description = "Purple Sweet Potato Powder zip 50 gram"
-price = "85,000"
+price = "4"
 img = ["purple-sweet-potato-1.jpg","purple-sweet-potato-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","purple-sweet-potato"]

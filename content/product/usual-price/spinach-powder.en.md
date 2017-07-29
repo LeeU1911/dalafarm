@@ -2,7 +2,7 @@
 date = "2017-06-06T08:05:45+08:00"
 publishdate = "2017-06-06T08:05:45+08:00"
 description = "Spinach Powder zip 50 gram"
-price = "110,000"
+price = "6"
 img = ["spinach-1.jpg","spinach-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","spinach"]

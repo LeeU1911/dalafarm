@@ -1,7 +1,7 @@
 +++
 date = "2017-06-28T23:12:45+08:00"
 description = "Vegetables powder box contains 7 kinds of veggies for your baby DalaBaby 70 gram"
-price = "199,000"
+price = "10"
 img = ["dalababy-1.jpg","dalababy-2.jpg","dalababy-3.jpg","dalababy-4.jpg","dalababy-5.jpg"]
 product_line = ""
 tags = ["veggie-powder","dalababy-powder"]
