@@ -1,5 +1,5 @@
 +++
-title = "Đôi nét về DalaFarm"
+title = "DalaFarm Profile"
 date = "2017-03-21T21:52:24+08:00"
 
 +++
@@ -27,11 +27,11 @@ We've built the DalaFarm farm model according to organic standards and then expa
  
 The methods of farming and harvesting are strictly controlled by DalaFarm to bring our customers best products from the most fresh, healthy and safe vegetables. Please join us at DalaFarm and the farmers altogether to protect and enhance our health by clean products, good quality, while preserving the natural habitat.
 
-# Quy trình sản xuất
+# Production
  
 DalaFarm factory is located in the coastal city of Nha Trang. Favorable geographical position helps DalaFarm takes advantage of two large agricultural areas in Khanh Hoa and Lam Dong plus nearby neighborhood. Short transportation distance ensures vegetables stays afresh when it arrives at the factory. At the plant, DalaFarm uses its own SEFD technology with solar energy systems that retains over 90% nutrition and vitamins found in fresh vegetables, while also helping to save energy and protect the environment. 
  
-{{< img src="/img/company-profile/qui trinh sx.jpg" title="Quy trình sản xuất của DalaFarm" >}}
+{{< img src="/img/company-profile/qui trinh sx.jpg" title="DalaFarm production processes" >}}
  
 # Development strategy 
 
