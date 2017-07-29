@@ -278,12 +278,23 @@ weight = 0
 product = "/product/:slug"
 
 [[Languages.en.menu.main]]
-url    = "/blog"
+url    = "#"
 name   = "Blog"
 weight = 1
 identifier = "blog"
 [[Languages.en.menu.main]]
-url    = "/#product"
+url    = "/blog"
+name   = "DalaFarm Blog"
+weight = 1
+parent = "blog"
+[[Languages.en.menu.main]]
+url    = "/dala-kitchen"
+name   = "DalaFarm Kitchen"
+weight = 2
+parent = "blog"
+
+[[Languages.en.menu.main]]
+url    = "/product"
 name   = "Products"
 weight = 2
 
@@ -299,7 +310,7 @@ weight = 4
 identifier = "about-us"
 [[Languages.en.menu.main]]
 url    = "/#about-us"
-name   = "DalaFarm journey"
+name   = "DalaFarm Journey"
 weight = 1
 parent = "about-us"
 [[Languages.en.menu.main]]
