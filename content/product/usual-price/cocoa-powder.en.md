@@ -12,9 +12,9 @@ title = "Cocoa powder (100g)"
 
 # Cocoa powder
 
-Bột cacao DalaFarm được chọn lọc và chế biến từ những hạt cacao  đã lên men, không hóa chất tại Lâm Đồng. 
-Bột được rang, tách vỏ,  nghiền, ép tách bơ và đánh tơi tạo thành bột cacao nguyên chất đạt chứng nhận VSATTP Việt Nam.
-
+DalaFarm Cocoa Powder is is carefully picked and processed from the most fresh and best raw materials 
+grown in our own farm in Lam Dong. Our products are produced by SEFD technology (patent pending) and 
+is certified by Vietnam Food Safety regulator.
 
 ### Ingredients: 
 100% Cocoa
