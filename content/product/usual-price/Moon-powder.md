@@ -1,13 +1,14 @@
 +++
 date = "2017-07-08T23:12:45+08:00"
 description = "Bột Detox Moon powder đóng gói zip 100 gram"
-price = "SẮP RA MẮT - 375,000"
+price = "375,000"
 img = ["moon-powder-1.jpg","moon-powder-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Moonpowder"]
 thumbnail = "moon-powder-1.jpg"
 title = "Bột Detox Moon powder (100g)"
 weight = 2
+key = "moondetox"
 +++
 
 # Bột Detox Moon powder

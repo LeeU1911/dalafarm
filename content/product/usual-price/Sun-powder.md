@@ -1,13 +1,14 @@
 +++
 date = "2017-07-08T23:12:45+08:00"
 description = "Bột Detox Sun powder đóng gói zip 100 gram"
-price = "SẮP RA MẮT - 375,000"
+price = "375,000"
 img = ["sun-powder-1.jpg","sun-powder-2.jpg"]
 product_line = ""
 tags = ["detox-sun-powder", "veggie-powder"]
 thumbnail = "sun-powder-1.jpg"
 title = "Bột Detox Sun powder (100g)"
 weight = 2
+key = "sundetox"
 +++
 
 # Bột Detox Sun powder
