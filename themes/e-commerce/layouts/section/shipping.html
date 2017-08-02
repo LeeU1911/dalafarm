@@ -279,12 +279,6 @@
                 return true;
             }
         };
-
-        function enableResendVerificationCodeAfterTimeout(){
-            setTimeout(function(){
-                viewModel().resendVerificationCodeFlag(true);
-            }, 40000);
-        }
         ko.validation.registerExtenders();
         ko.validation.locale('vi-VN');
         var viewModel = ko.validatedObservable({
