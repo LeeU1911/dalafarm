@@ -57,7 +57,7 @@
                                         <button type="button" class="btn btn-default btn-lg btn-number add-to-cart-init-btn" data-type="plus" data-field="quant[1]-{{.Params.key}}"
                                                 id="addToCartBtn"
                                                 onclick="dataLayer.push({'sku': '{{ .Params.key }}', 'value': 1})">
-                                            <span class="">Mua</span>
+                                            <span class="">+</span>
                                         </button>
                                     </div>
                                     <div class="input-group" data-bind="visible: products.{{.Params.key}}Amt() > 0">
