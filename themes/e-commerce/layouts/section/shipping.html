@@ -298,6 +298,7 @@
                 additionalNote: ko.observable((bill && bill.info && bill.info.additionalNote) || "")
             },
             products: getProductsArrayFromBill(bill),
+            promotionalProducts: undefined,
             subtotalBeforeDiscount: ((bill && bill.subtotalBeforeDiscount) || undefined),
             subtotal: ko.observable(calculateTotalBillWithoutShippingCost(bill)),
             shippingCost: undefined,

@@ -21,6 +21,12 @@
             {{ end }}
 
         </p>
+        <p data-bind="visible: promotionalProducts != undefined && promotionalProducts['dalababyAmt'] != undefined && promotionalProducts['dalababyAmt'] > 0">
+            <span>Bột rau củ DalaBaby (70g) - 199,000 x 1 = -199,000</span><span> (Khuyến mãi)</span>
+        </p>
+        <p data-bind="visible: promotionalProducts != undefined && promotionalProducts['garlicoilAmt'] != undefined && promotionalProducts['garlicoilAmt'] > 0">
+            <span>Dầu tỏi tía Đà Lạt (250ml) - 150,000 x 1 = -150,000 </span><span> (Khuyến mãi)</span>
+        </p>
         <p>
             <span data-bind="if: shippingCost != undefined && !shippingCost.isNaN">
                 <span>Phí giao hàng: </span><span data-bind="text: numeral(shippingCost).format('0,0')"></span>
@@ -31,8 +37,8 @@
                 <span>Giảm giá: </span>-<span data-bind="text: discountPercent"></span>%
             </span>
             <p>
-                <span data-bind="visible: shippingCost != undefined && !shippingCost.isNaN">Tổng bill: </span>
-                <span data-bind="visible: shippingCost == undefined || shippingCost.isNaN">Tạm tính bill: </span>
+                <span data-bind="visible: shippingCost != undefined && !shippingCost.isNaN">Tổng tiền: </span>
+                <span data-bind="visible: shippingCost == undefined || shippingCost.isNaN">Tạm tính: </span>
                 <span data-bind="text: numeral(subtotal()).format('0,0')"></span>
             </p>
         </p>

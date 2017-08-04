@@ -74,6 +74,7 @@
             address: bill.info.address,
             province: bill.info.province,
             products: getProductsArrayFromBill(bill),
+            promotionalProducts: bill.promotionalProducts,
             subtotal: ko.observable(calculateTotalBill(bill)),
             shippingCost: calculateShippingCost(bill),
             paymentType: humanizePaymentType(bill.info.paymentType),
