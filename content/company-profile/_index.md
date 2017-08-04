@@ -28,16 +28,12 @@ Chúng tôi sẽ luôn cam kết và kiên trì đi theo con đường mình đ�
  
 # Trang trại 
 Trang trại của DalaFram  nằm tại Thôn Pang Tiên, xã Lát, Huyện Lạc Dương, Tỉnh Lâm Đồng 
-Hình ảnh 
 
 Vùng đất sạch hoàn toàn được DalaFarm trồng theo phương pháp hữu cơ, thuận tư nhiên và đa canh. Rau sống chung với cỏ nhằm giữ nước và giảm độc tố trong đất. 
-Hình ảnh 
 
 Giống rau thuần chủng địa phương, hoàn toàn không sử dụng giống cây trồng biến đổi gien. 
-Hình ảnh 
 
 Nguồn nước sạch được trữ và lọc ngay trên đính đồi nhằm đảm bảo nguồn nước sạch trước khi tưới. 
-Hình ảnh 
 
 Chúng tôi sử dụng hoàn toàn phân bón hữu cơ và chỉ bón 2 lần duy nhất là 1 lần trong quá trình trồng và 1 lần bổ sung dinh dưỡng cho đất sau khi đã thu hoạch. 
 
