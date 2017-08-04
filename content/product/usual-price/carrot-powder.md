@@ -10,7 +10,7 @@ thumbnail = "carrot-1.jpg"
 title = "Bột Cà Rốt (50g)"
 url = "/san-pham/bot-ca-rot-50g"
 aliases = ["/san-pham/bột-cà-rốt-50g","/san-pham/Bột-cà-rốt-50g"]
-weight = 1
+weight = 3
 key = "carrot"
 +++
 

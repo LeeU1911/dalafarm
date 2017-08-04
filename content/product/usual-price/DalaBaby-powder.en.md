@@ -8,7 +8,7 @@ tags = ["veggie-powder","dalababy-powder"]
 thumbnail = "dalababy-6.jpg"
 title = "DalaBaby Vegetables Powder (70g)"
 key = "dalababy"
-weight = 1
+weight = 3
 +++
 
 # DalaBaby Vegetables Powder

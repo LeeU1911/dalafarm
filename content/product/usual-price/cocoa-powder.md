@@ -10,7 +10,7 @@ thumbnail = "cocoa-1.jpg"
 title = "Bột Cacao (100g)"
 url = "/san-pham/bot-ca-cao-50g"
 aliases = ["/san-pham/bột-ca-cao-100g"]
-weight = 1
+weight = 3
 key = "cocoa100"
 +++
 

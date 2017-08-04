@@ -1,5 +1,5 @@
 +++
-date = "2017-09-29T23:12:45+08:00"
+date = "2017-05-07T14:31:45+08:00"
 description = "Dầu tỏi tía nguyên chất chai 250 ml"
 price = "150,000"
 img = ["DAU 1.jpg","DAU 2.jpg","DAU 3.jpg","DAU 4.jpg","DAU 5.jpg"]
