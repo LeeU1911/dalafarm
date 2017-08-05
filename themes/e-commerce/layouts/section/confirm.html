@@ -256,7 +256,7 @@
         function prepareBody(order) {
             var head = "";
             var middle = "<table id='content'> <thead> <tr> <th>Tên</th> <th>Số lượng</th> <th>Đơn giá</th> <th>Thành tiền</th> </tr> </thead> <tbody>";
-            var orderContent = buildOrderContent(order.products);
+            var orderContent = buildOrderContent(order);
             var shipping = "</tbody> </table> <p>Phí giao hàng: <strong>" + order.shippingCost + "</strong></p>";
             var total = "<p>Tổng tiền: <strong>" + order.subtotal + "</strong></p>";
             var paymentType = "<p>Hình thức thanh toán: <strong>" + humanizePaymentType(order.info.paymentType) + "</strong></p>";
@@ -265,14 +265,31 @@
             return head + middle + orderContent + shipping + total + paymentType + additionalNote + footer;
         }
 
-        function buildOrderContent(products) {
+        function buildOrderContent(order) {
             var orderContent = "";
+            var products = order.products;
             products.forEach(function (p) {
                 if (p.amount > 0) {
-                    orderContent += "<tr><td>" + humanizeProductName(p.name) + "</td><td>" + p.amount + "</td><td>" + p.price + "</td><td>" + p.subtotal + "</td></tr>";
+                    orderContent += "<tr><td>" + humanizeProductName(p.name) + "</td><td>" + p.amount + "</td><td>" + numeral(p.price).format('0,0') + "</td><td>" + numeral(p.subtotal).format('0,0') + "</td></tr>";
                 }
             });
+            orderContent += buildPromotionalProducts(order);
             return orderContent;
+        }
+
+        function buildPromotionalProducts(order) {
+            var promotionalProducts = order.promotionalProducts;
+            if(promotionalProducts) {
+                var content = "<tr>";
+                if(promotionalProducts['dalababyAmt'] && promotionalProducts['dalababyAmt'] > 0) {
+                    content += "<td>Bột rau củ DalaBaby (70g) (Khuyến mãi)</td><td>1</td><td>199,000</td><td>-199,000</td>";
+                }
+                if(promotionalProducts['garlicoilAmt'] && promotionalProducts['garlicoilAmt'] > 0) {
+                    content += "<td>Dầu tỏi tía Đà Lạt (250ml) (Khuyến mãi)</td><td>1</td><td>150,000</td><td>-150,000</td>";
+                }
+                content += "</tr>";
+                return content;
+            }
         }
     });
 
