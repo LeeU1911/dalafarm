@@ -1,6 +1,6 @@
-language: go
-go:
-  - 1.7.1
+language: nodejs
+node_js:
+  - "7"
 sudo: required
 before_install:
   - chmod +x s3_prod_push.sh
@@ -8,7 +8,7 @@ install:
   - sudo pip install Pygments
   - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.20.1/hugo_0.20.1-64bit.deb
   - sudo dpkg -i /tmp/hugo.deb
-  - npm install gulp-cli gulp-concat gulp-less gulp-minify-css gulp-rename gulp-uglify gulp-watch gulp-gzip gulp-htmlmin
+  - npm install -g gulp-cli gulp-concat gulp-less gulp-minify-css gulp-rename gulp-uglify gulp-watch gulp-gzip gulp-htmlmin
 script:
   - hugo version
   - gulp
