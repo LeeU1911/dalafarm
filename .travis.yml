@@ -8,7 +8,7 @@ install:
   - sudo pip install Pygments
   - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.20.1/hugo_0.20.1-64bit.deb
   - sudo dpkg -i /tmp/hugo.deb
-  - npm install gulp gulp-concat gulp-less gulp-minify-css gulp-rename gulp-uglify gulp-watch gulp-gzip gulp-htmlmin
+  - npm install -g gulp gulp-concat gulp-less gulp-minify-css gulp-rename gulp-uglify gulp-watch gulp-gzip gulp-htmlmin
 script:
   - hugo version
   - gulp
