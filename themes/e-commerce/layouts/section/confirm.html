@@ -90,6 +90,10 @@
             'currency': 'VND'});
         $('#purchaseBtn').on('click', function (e) {
             e.preventDefault();
+            if(isEmptyCart(bill)) {
+                alert("Bạn không có sản phẩm nào trong đơn hàng. Vui lòng sửa đơn hàng và chọn sản phẩm cần mua trước khi hoàn tất đặt hàng!");
+                return;
+            }
             $('#purchaseBtn').button('loading');
             saveToDb(bill);
         });
