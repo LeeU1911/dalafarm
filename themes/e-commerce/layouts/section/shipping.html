@@ -114,7 +114,7 @@
                                     <label class="col-md-2 control-label" for="address">Địa chỉ *</label>
                                     <div class="col-md-8">
                                         <input data-bind="value: info.address" id="address" name="address" type="text"
-                                               placeholder="Số nhà, đường, phường, xã, quận/huyện"
+                                               placeholder="Số nhà, đường, phường, xã"
                                                class="form-control input-lg">
                                     </div>
                                 </div>
@@ -204,6 +204,7 @@
             }
         };
         getListProvinces();
+        populateDistrictByProvince(79);
         var bill = JSON.parse(sessionStorage.getItem('order')) || emptyBill;
 
         // Custom validation for phone number
@@ -287,7 +288,7 @@
         function getListProvinces() {
             $.getJSON("http://localhost:8080/v1/provinces", function (data) {
                 data = sortProvinces(data);
-                var listItems = "<option value=''></option>";
+                var listItems = "";
                 $.each(data, function(key, value){
                     listItems += '<option value=' + value.id + '>' + value.name + '</option>';
                 });
@@ -296,7 +297,8 @@
         }
         function populateDistrictByProvince(provinceId){
             $.getJSON("http://localhost:8080/v1/province/" + provinceId + "/districts", function (data) {
-                var listItems = "<option value=''></option>";
+                var listItems = "";
+                data = sortDistrictOrProvinceOnLocaleCompare(data);
                 $.each(data, function(key, value){
                     listItems += '<option value=' + value.id + '>' + value.name + '</option>';
                 });
@@ -305,8 +307,22 @@
                 $district.append(listItems);
             });
         }
+
+
         function sortProvinces(provinces){
+            provinces = sortDistrictOrProvinceOnLocaleCompare(provinces);
+            movePopularPlaceToTop(provinces);
             return provinces;
+            function movePopularPlaceToTop(provinces) {
+                provinces.move(28, 0);
+                provinces.move(24, 1);
+            }
+        }
+        function sortDistrictOrProvinceOnLocaleCompare(districts){
+            districts = districts.sort(function (a, b) {
+                return a.name.localeCompare(b.name);
+            });
+            return districts;
         }
 
         function clearForm() {
