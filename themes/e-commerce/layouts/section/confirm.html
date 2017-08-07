@@ -73,6 +73,7 @@
             email: bill.info.email,
             address: bill.info.address,
             province: bill.info.province,
+            district: bill.info.district,
             products: getProductsArrayFromBill(bill),
             promotionalProducts: bill.promotionalProducts,
             subtotal: ko.observable(calculateTotalBill(bill)),
