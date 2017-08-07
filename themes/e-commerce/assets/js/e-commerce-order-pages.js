@@ -187,8 +187,19 @@ function applyPromotion(bill){
     return bill;
 }
 
-// Utility methods
+function isEmptyCart(bill) {
+    var products = bill.products;
+    for (var property in products) {
+        if (products.hasOwnProperty(property)) {
+            if (property.substr(property.length - 3, property.length) == "Amt" && products[property] > 0) {
+                return false;
+            }
+        }
+    }
+    return true;
+}
 
+// Utility methods
 function humanizeProductName(productKey) {
     if (productKey) {
         switch (productKey) {

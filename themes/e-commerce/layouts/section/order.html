@@ -181,7 +181,10 @@
                 bill.products = onscreenBill.products;
             }
             bill = storeProductPrice(bill);
-
+            if(isEmptyCart(bill)){
+                alert("Bạn chưa chọn sản phẩm nào. Vui lòng chọn sản phẩm cần mua trước khi tiếp tục!");
+                return;
+            }
             saveToSession(bill);
             window.location = "/shipping";
         });
