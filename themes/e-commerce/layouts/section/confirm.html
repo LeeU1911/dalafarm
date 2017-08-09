@@ -125,7 +125,7 @@
             payload.to = order.info.email;
             payload.orderId = order.id;
             payload.name = order.info.name;
-            payload.address = order.info.address + ", " + order.info.province;
+            payload.address = buildAddress(order);
             payload.phone = order.info.phone1;
             payload.content = slackMessageBody;
             $.ajax({
@@ -240,7 +240,7 @@
             payload.to = order.info.email;
             payload.orderId = order.id;
             payload.name = order.info.name;
-            payload.address = order.info.address + ", " + order.info.province;
+            payload.address = buildAddress(order);
             payload.phone = order.info.phone1;
             payload.content = htmlBody;
             $.ajax({
@@ -262,6 +262,11 @@
                 dataType: "json"
             });
         }
+
+        function buildAddress(order) {
+            return order.info.address + ", " + order.info.district + ", " + order.info.province;
+        }
+
         function sendOrderErrorToEmailWebhook(order) {
             var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/98r7zl/";
             var payload = {
@@ -276,7 +281,7 @@
             var htmlBody = prepareBody(order);
             payload.orderId = order.id;
             payload.name = order.info.name;
-            payload.address = order.info.address + ", " + order.info.province;
+            payload.address = buildAddress(order);
             payload.phone = order.info.phone1;
             payload.content = "<p>Đơn hàng lỗi: " + order.error + "</p>" + htmlBody;
             $.ajax({
