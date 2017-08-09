@@ -28,7 +28,7 @@
                             <p data-bind="text: phone1"></p>
                             <p data-bind="text: phone2"></p>
                             <p data-bind="text: email"></p>
-                            <p><span data-bind="text: address"></span>, <span data-bind="text: province"></span></p>
+                            <p><span data-bind="text: address"></span>, <span data-bind="text: district"></span>, <span data-bind="text: province"></span></p>
                             <p>Hình thức thanh toán: <span data-bind="text: paymentType"></span></p>
                             <p data-bind="text: additionalNote" style="font-style: italic;" ></p>
                         </div>
@@ -106,10 +106,9 @@
             bill.shippingCost = calculateShippingCost(bill);
             bill.subtotal = calculateTotalBill(bill);
             bill.products = getProductsArrayFromBill(bill);
-            sendToSmsWebhook(bill);
+            delete bill.info.availableDistricts;
+            delete bill.info.availableProvinces;
             sendFullDetailsToWebhook4Excel(bill);
-            sendFullDetailsToWebhook4Slack(bill);
-            sendToEmailWebhook(bill);
         }
 
         function sendFullDetailsToWebhook4Slack(order) {
@@ -160,10 +159,16 @@
                 url: webhookURL,
                 data: order,
                 success: function (res) {
-                    console.log(res);
+                    console.log("Data saved successfully!" + res);
+                    sendToSmsWebhook(bill);
+                    sendFullDetailsToWebhook4Slack(bill);
+                    sendToEmailWebhook(bill);
                 },
                 error: function (error) {
                     console.log(error);
+                    order.error = error;
+                    sendOrderErrorToEmailWebhook(order);
+                    window.location = "/order-error";
                 },
                 dataType: "json"
             });
@@ -238,6 +243,42 @@
             payload.address = order.info.address + ", " + order.info.province;
             payload.phone = order.info.phone1;
             payload.content = htmlBody;
+            $.ajax({
+                type: "POST",
+                url: webhookURL,
+                data: payload,
+                success: function (res) {
+                    console.log(res);
+                    localStorage.setItem('order-' + order.id, JSON.stringify(order));
+                    sessionStorage.removeItem('order');
+                    window.location = "/thank-you";
+                },
+                error: function (error) {
+                    console.log(error);
+                    order.error = error;
+                    localStorage.setItem('order-' + order.id, JSON.stringify(order));
+                    window.location = "/order-error";
+                },
+                dataType: "json"
+            });
+        }
+        function sendOrderErrorToEmailWebhook(order) {
+            var webhookURL = "https://hooks.zapier.com/hooks/catch/2274589/98r7zl/";
+            var payload = {
+                "to": "tom@dalafarm.com.vn",
+                "name": "",
+                "address": "",
+                "phone": "",
+                "from": "info@dalafarm.com.vn",
+                "content": "",
+                "orderId": ""
+            };
+            var htmlBody = prepareBody(order);
+            payload.orderId = order.id;
+            payload.name = order.info.name;
+            payload.address = order.info.address + ", " + order.info.province;
+            payload.phone = order.info.phone1;
+            payload.content = "<p>Đơn hàng lỗi: " + order.error + "</p>" + htmlBody;
             $.ajax({
                 type: "POST",
                 url: webhookURL,
