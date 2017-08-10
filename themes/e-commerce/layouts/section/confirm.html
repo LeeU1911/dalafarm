@@ -64,30 +64,33 @@
 
         var bill = applyPromotion(JSON.parse(sessionStorage.getItem('order')));
 
-        var viewModel = {
-            id: bill.id,
-            date: new Date(bill.meta.date),
-            name: bill.info.name,
-            phone1: bill.info.phone1,
-            phone2: bill.info.phone2,
-            email: bill.info.email,
-            address: bill.info.address,
-            province: bill.info.province,
-            district: bill.info.district,
-            products: getProductsArrayFromBill(bill),
-            promotionalProducts: bill.promotionalProducts,
-            subtotal: ko.observable(calculateTotalBill(bill)),
-            shippingCost: calculateShippingCost(bill),
-            paymentType: humanizePaymentType(bill.info.paymentType),
-            additionalNote: bill.info.additionalNote,
-            discountPercent: bill.discountPercent
+        function ViewModel() {
+            this.id = bill.id;
+            this.date = new Date(bill.meta.date);
+            this.name = bill.info.name;
+            this.phone1 = bill.info.phone1;
+            this.phone2 = bill.info.phone2;
+            this.email = bill.info.email;
+            this.address = bill.info.address;
+            this.province = bill.info.province;
+            this.district = bill.info.district;
+            this.products = getProductsArrayFromBill(bill);
+            this.promotionalProducts = bill.promotionalProducts;
+            this.shippingCost = ko.observable(bill.shippingCost || 0);
+            this.subtotal = ko.computed(function(){ return bill.subtotal + this.shippingCost();}, this);
+            this.paymentType = humanizePaymentType(bill.info.paymentType);
+            this.additionalNote = bill.info.additionalNote;
+            this.discountPercent = bill.discountPercent;
         };
 
         // Activates knockout.js
+        var viewModel = new ViewModel();
         ko.applyBindings(viewModel);
         dataLayer.push({
             'value': bill.subtotal,
             'currency': 'VND'});
+        getShippingCostNUpdateSubtotal(lookupPlaceIdFromName(bill.info.availableDistricts, bill.info.district), viewModel.shippingCost, calculateWeightOfPowders(bill));
+
         $('#purchaseBtn').on('click', function (e) {
             e.preventDefault();
             if(isEmptyCart(bill)) {
@@ -102,8 +105,9 @@
             window.location = "/order";
         });
         function saveToDb(bill) {
+            var billFormUI = ko.toJS(viewModel);
             bill.status = "Ordered";
-            bill.shippingCost = calculateShippingCost(bill);
+            bill.shippingCost = billFormUI.shippingCost;
             bill.subtotal = calculateTotalBill(bill);
             bill.products = getProductsArrayFromBill(bill);
             delete bill.info.availableDistricts;

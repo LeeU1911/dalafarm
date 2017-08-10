@@ -179,7 +179,7 @@
 <script type="text/javascript" src="{{ printf "js/%s.js" "vi-VN" | absURL }}"></script>
 <script>
     var VNPhoneCountryCode = "+84";
-    var baseURL = "https://api.dalafarm.com.vn";
+
     $(function() {
         function getPhoneNumber(phoneNum) {
             var validatedPhoneNumber = validatePhoneNumberVN(phoneNum);
@@ -287,7 +287,7 @@
         });
 
         function getListProvinces() {
-            $.getJSON(baseURL + "/v1/provinces", function (data) {
+            $.getJSON(apiBaseURL + "/v1/provinces", function (data) {
                 data = sortProvinces(data);
                 viewModel().info.availableProvinces(data);
             }).fail(function() {
@@ -296,25 +296,19 @@
             });
         }
 
-        function lookupProvinceId(provinceName){
-            return viewModel().info.availableProvinces().filter(function(p) {
-                return p.name === provinceName;
-            })[0].id;
-        }
         function populateDistrictByProvinceId(provinceId){
             getListOfDistrictsByProvinceIdFromApi(provinceId);
         }
 
         function populateDistrictByProvinceName(provinceName){
             if(typeof provinceName === "string") {
-                var provinceId = lookupProvinceId(provinceName);
+                var provinceId = lookupPlaceIdFromName(viewModel().info.availableProvinces(), provinceName);
             }
             getListOfDistrictsByProvinceIdFromApi(provinceId);
         }
 
         function getListOfDistrictsByProvinceIdFromApi(provinceId) {
-            $.getJSON(baseURL + "/v1/province/" + provinceId + "/districts", function (data) {
-                var listItems = "";
+            $.getJSON(apiBaseURL + "/v1/province/" + provinceId + "/districts", function (data) {
                 data = sortDistrictOrProvinceOnLocaleCompare(data);
                 viewModel().info.availableDistricts(data);
             }).fail(function () {

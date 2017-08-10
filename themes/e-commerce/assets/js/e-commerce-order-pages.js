@@ -43,7 +43,7 @@ function calculateTotalBillWithoutShippingCost(bill) {
 }
 
 function calculateTotalBill(bill) {
-    return bill.subtotal + calculateShippingCost(bill);
+    return bill.subtotal + bill.shippingCost;
 }
 
 function roundDownToThousand(value){
@@ -69,6 +69,34 @@ function getProductsArrayFromBill(b) {
         }
     });
 }
+
+//    var apiBaseURL = "https://api.dalafarm.com.vn";
+var apiBaseURL = "http://localhost:8080";
+
+function getShippingCostNUpdateSubtotal(dropDistrictId, callback, weight) {
+    var payload = { "pickupDistrictId": "772", "dropDistrictId": dropDistrictId, "weight": weight || 0};
+    $.ajax({
+        type: 'POST',
+        url: apiBaseURL + "/v1/logistic/shipping-fee",
+        data: JSON.stringify(payload),
+        success: function(data) { if(data.success) {//{"success":true,"message":"","totalFee":35000}
+            callback(data.totalFee);
+        }else{
+            alert(data.message);
+        }},
+        contentType: "application/json",
+        dataType: 'json'
+    }).fail(function(error) {
+        alert(JSON.stringify(error));
+    });
+}
+
+function lookupPlaceIdFromName(availablePlaces, placeName){
+    return availablePlaces.filter(function(p) {
+        return p.name === placeName;
+    })[0].id;
+}
+
 
 function calculateShippingCost(bill) {
     var province = bill.info.province;
