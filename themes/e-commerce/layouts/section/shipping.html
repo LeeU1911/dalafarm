@@ -236,7 +236,7 @@
                 province: ko.observable((bill && bill.info && bill.info.province) || "Hồ Chí Minh"),
                 availableProvinces: ko.observable((bill && bill.info && bill.info.availableProvinces) || getListProvinces()),
                 district: ko.observable((bill && bill.info && bill.info.district) || "1"),
-                availableDistricts: ko.observable((bill && bill.info && bill.info.availableDistricts) || populateDistrictByProvinceId(79)),
+                availableDistricts: ko.observable((bill && bill.info && bill.info.availableDistricts) || undefined),
                 paymentType: ko.observable((bill && bill.info && bill.info.paymentType) || "cod"),
                 additionalNote: ko.observable((bill && bill.info && bill.info.additionalNote) || "")
             },
@@ -296,10 +296,6 @@
             });
         }
 
-        function populateDistrictByProvinceId(provinceId){
-            getListOfDistrictsByProvinceIdFromApi(provinceId);
-        }
-
         function populateDistrictByProvinceName(provinceName){
             if(typeof provinceName === "string") {
                 var provinceId = lookupPlaceIdFromName(viewModel().info.availableProvinces(), provinceName);
@@ -310,45 +306,46 @@
         function getListOfDistrictsByProvinceIdFromApi(provinceId) {
             $.getJSON(apiBaseURL + "/v1/province/" + provinceId + "/districts", function (data) {
                 data = sortDistrictOrProvinceOnLocaleCompare(data);
+                data = data.map(function(d){d.name = d.type + " " + d.name; return d;});
                 viewModel().info.availableDistricts(data);
             }).fail(function () {
                 setDefaultValuesForDistrict();
                 console.log("Error contacting api server! Use districts of HCM.");
                 function setDefaultValuesForDistrict() {
-                    viewModel().info.availableDistricts([{"id": "760", "name": "1"}, {
+                    viewModel().info.availableDistricts([{"id": "760", "name": "Quận 1"}, {
                         "id": "771",
-                        "name": "10"
-                    }, {"id": "772", "name": "11"}, {
+                        "name": "Quận 10"
+                    }, {"id": "772", "name": "Quận 11"}, {
                         "id": "761",
-                        "name": "12"
-                    }, {"id": "769", "name": "2"}, {
+                        "name": "Quận 12"
+                    }, {"id": "769", "name": "Quận 2"}, {
                         "id": "770",
-                        "name": "3"
+                        "name": "Quận 3"
                     }, {
                         "id": "773",
-                        "name": "4"
-                    }, {"id": "774", "name": "5"}, {"id": "775", "name": "6"}, {"id": "778", "name": "7"}, {
+                        "name": "Quận 4"
+                    }, {"id": "774", "name": "Quận 5"}, {"id": "775", "name": "Quận 6"}, {"id": "778", "name": "Quận 7"}, {
                         "id": "776",
-                        "name": "8"
-                    }, {"id": "763", "name": "9"}, {"id": "785", "name": "Bình Chánh"}, {
+                        "name": "Quận 8"
+                    }, {"id": "763", "name": "Quận 9"}, {"id": "785", "name": "Huyện Bình Chánh"}, {
                         "id": "777",
-                        "name": "Bình Tân"
-                    }, {"id": "765", "name": "Bình Thạnh"}, {
+                        "name": "Quận Bình Tân"
+                    }, {"id": "765", "name": "Quận Bình Thạnh"}, {
                         "id": "787",
-                        "name": "Cần Giờ"
-                    }, {"id": "783", "name": "Củ Chi"}, {
+                        "name": "Huyện Cần Giờ"
+                    }, {"id": "783", "name": "Huyện Củ Chi"}, {
                         "id": "764",
-                        "name": "Gò Vấp"
+                        "name": "Quận Gò Vấp"
                     }, {
                         "id": "784",
-                        "name": "Hóc Môn"
-                    }, {"id": "786", "name": "Nhà Bè"}, {"id": "768", "name": "Phú Nhuận"}, {
+                        "name": "Huyện Hóc Môn"
+                    }, {"id": "786", "name": "Huyện Nhà Bè"}, {"id": "768", "name": "Quận Phú Nhuận"}, {
                         "id": "766",
-                        "name": "Tân Bình"
+                        "name": "Quận Tân Bình"
                     }, {
                         "id": "767",
-                        "name": "Tân Phú"
-                    }, {"id": "762", "name": "Thủ Đức"}]);
+                        "name": "Quận Tân Phú"
+                    }, {"id": "762", "name": "Quận Thủ Đức"}]);
                 }
             });
         }
