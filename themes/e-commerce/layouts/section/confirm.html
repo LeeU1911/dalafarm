@@ -81,7 +81,7 @@
             this.paymentType = humanizePaymentType(bill.info.paymentType);
             this.additionalNote = bill.info.additionalNote;
             this.discountPercent = bill.discountPercent;
-        };
+        }
 
         // Activates knockout.js
         var viewModel = new ViewModel();
@@ -89,7 +89,16 @@
         dataLayer.push({
             'value': bill.subtotal,
             'currency': 'VND'});
-        getShippingCostNUpdateSubtotal(lookupPlaceIdFromName(bill.info.availableDistricts, bill.info.district), viewModel.shippingCost, calculateWeightOfPowders(bill));
+
+        function getShippingCost() {
+            if(bill.freeShip) {
+                viewModel.shippingCost(0);
+            }else{
+                getShippingCostNUpdateSubtotal(lookupPlaceIdFromName(bill.info.availableDistricts, bill.info.district), viewModel.shippingCost, calculateWeightOfPowders(bill));
+            }
+        }
+
+        getShippingCost();
 
         $('#purchaseBtn').on('click', function (e) {
             e.preventDefault();
@@ -104,6 +113,8 @@
             e.preventDefault();
             window.location = "/order";
         });
+
+        // TODO: verify save to db values
         function saveToDb(bill) {
             var billFormUI = ko.toJS(viewModel);
             bill.status = "Ordered";

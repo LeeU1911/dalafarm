@@ -176,6 +176,7 @@ function calculateShippingCost(bill) {
 
 }
 
+//TODO: to calculate more correctly
 function calculateWeightOfPowders(bill) {
     var weight = 0;
     var products = bill.products;
