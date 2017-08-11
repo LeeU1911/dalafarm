@@ -78,7 +78,7 @@ function calculateShippingCost(bill) {
     if(bill.freeShip){
         return 0;
     }
-    if (province === "TP HCM") {
+    if (province === "Hồ Chí Minh") {
         if(bill.info.suburb){
             shippingCost = 25000;
         }else{
