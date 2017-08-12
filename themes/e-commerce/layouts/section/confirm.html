@@ -323,8 +323,8 @@
             var head = "";
             var middle = "<table id='content'> <thead> <tr> <th>Tên</th> <th>Số lượng</th> <th>Đơn giá</th> <th>Thành tiền</th> </tr> </thead> <tbody>";
             var orderContent = buildOrderContent(order);
-            var shipping = "</tbody> </table> <p>Phí giao hàng: <strong>" + order.shippingCost + "</strong></p>";
-            var total = "<p>Tổng tiền: <strong>" + order.subtotal + "</strong></p>";
+            var shipping = "</tbody> </table> <p>Phí giao hàng: <strong>" + numeral(order.shippingCost).format('0,0') + "</strong></p>";
+            var total = "<p>Tổng tiền: <strong>" + numeral(order.subtotal).format('0,0') + "</strong></p>";
             var paymentType = "<p>Hình thức thanh toán: <strong>" + humanizePaymentType(order.info.paymentType) + "</strong></p>";
             var additionalNote = "<p>Ghi chú: <strong>" + order.info.additionalNote + "</strong></p>";
             var footer = "";
