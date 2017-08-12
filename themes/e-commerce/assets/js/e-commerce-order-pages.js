@@ -235,10 +235,8 @@ function only50gPowdersInOrder(bill){
             }
         }
     }
-    if(numOf50gPowder >= 10) {
-        return true;
-    }
-    return true;
+    return numOf50gPowder >= 10;
+
 }
 function isEmptyCart(bill) {
     var products = bill.products;
