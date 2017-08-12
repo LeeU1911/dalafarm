@@ -176,7 +176,6 @@ function calculateShippingCost(bill) {
 
 }
 
-//TODO: to calculate more correctly
 function calculateWeightOfPowders(bill) {
     var weight = 0;
     var products = bill.products;
@@ -184,12 +183,20 @@ function calculateWeightOfPowders(bill) {
         if (products.hasOwnProperty(property)) {
             if (property.substr(property.length - 3, property.length) == "Amt" && products[property] > 0) {
                 weight += 50 * products[property];
-                if (property.indexOf("100") > 0) {
+                if (property.indexOf("100") > -1 || property.indexOf("detox") > -1) {
                     weight += 50 * products[property];
                 }
+                if(property.indexOf("garlicoil") > -1) {
+                    weight += 720 * products[property];
+                }
+                if(property.indexOf("dalababy") > -1) {
+                    weight += 20 * products[property];
+                }
+
             }
         }
     }
+    console.log("Weight is " + weight);
     return weight;
 }
 
@@ -198,7 +205,7 @@ function applyPromotion(bill){
     bill.subtotal = totalBillWoShippingCost;
     bill.promotionalProducts = {};
     var weight = calculateWeightOfPowders(bill);
-    if(weight >= 500) {
+    if(weight >= 500 && only50gPowdersInOrder(bill)) {
         bill.freeShip = true;
         bill.products['dalababyAmt']++;
         bill.promotionalProducts['dalababyAmt'] = 1;
@@ -216,6 +223,23 @@ function applyPromotion(bill){
     return bill;
 }
 
+function only50gPowdersInOrder(bill){
+    var products = bill.products;
+    var numOf50gPowder = 0;
+    for (var property in products) {
+        if (products.hasOwnProperty(property)) {
+            if (property.substr(property.length - 3, property.length) == "Amt" && products[property] > 0) {
+                if (!(property.indexOf("detox") > -1 || property.indexOf("dalababy") > -1 || property.indexOf("garlicoil") > -1)) {
+                    numOf50gPowder += products[property];
+                }
+            }
+        }
+    }
+    if(numOf50gPowder >= 10) {
+        return true;
+    }
+    return true;
+}
 function isEmptyCart(bill) {
     var products = bill.products;
     for (var property in products) {
