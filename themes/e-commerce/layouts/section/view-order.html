@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+{{ partial "head.html" . }}
+<body id="page-top" class="index">
+{{ partial "google_tag_manager_after_opening_body_tag.html" }}
+{{ partial "nav-for-other-page.html" . }}
+{{ "<!-- terms and conditions Grid Section -->" | safeHTML }}
+<section id="{{ .Params.url }}" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ .Title }}</h2>
+            </div>
+        </div>
+
+        <div class="row alert alert-info">
+            <p class="order-page-content">
+                {{ .Content }}
+            </p>
+        </div>
+        <div class="row">
+            <form>
+                <div class="form-group row">
+                    <label class="col-md-2 control-label" for="orderId">Mã đơn hàng</label>
+                    <div class="col-md-10">
+                        <input id="orderId" name="orderId" type="text"
+                               placeholder="123xyz" class="form-control input-lg">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-12">
+                        <button id="openOrderBtn" name="openOrderBtn"
+                                class="btn btn-lg btn-block btn-success pull-right"
+                                data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Vui lòng đợi...">Nhập
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+{{ if .Site.Params.params.footer.enable }}
+{{ partial "footer.html" . }}
+{{ end }}
+{{ partial "js_order_page.html" . }}
+<script>
+    $(function() {
+        $("#openOrderBtn").on('click', function (e) {
+            e.preventDefault();
+            var orderId = $('#orderId').val();
+            if(orderId) {
+                $('#openOrderBtn').button('loading');
+            }else{
+                alert("Vui lòng nhập mã đơn hàng.");
+            }
+        });
+
+
+    });
+
+</script>
+
+</body>
+</html>
