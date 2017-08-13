@@ -113,7 +113,12 @@
                     viewModel.statusMessage(data.name);
                     viewModel.lastModifiedDate(data.lastUpdatedDate);
                 }).fail(function (error) {
-                    alert(JSON.stringify(error));
+                    if(error.status == '404') {
+                        alert("Mã đơn hàng " + orderId + " không tìm thấy. Vui lòng nhập lại mã.");
+                        $('#orderId').val("");
+                    }else {
+                        alert(JSON.stringify(error));
+                    }
                 }).always(function () {
                     $('#openOrderBtn').button('reset');
                 });
