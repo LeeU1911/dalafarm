@@ -266,6 +266,31 @@ info = """##### DALAFARM - CÔNG TY TNHH SXTM CHUÔNG XANH
 [[Languages.vi.params.footer.social]]
   icon = "fa-instagram"
   link = "https://www.instagram.com/dalafarm.com.vn/"
+  
+[[Languages.vi.params.footer.sitemap]]
+  text = "DalaFarm Blog"
+  link = "/blog/"
+[[Languages.vi.params.footer.sitemap]]
+  text = "DalaFarm Kitchen"
+  link = "/dala-kitchen/"
+[[Languages.vi.params.footer.sitemap]]
+  text = "Sản phẩm"
+  link = "/san-pham/"
+[[Languages.vi.params.footer.sitemap]]
+  text = "Hỏi đáp"
+  link = "/qa/"
+[[Languages.vi.params.footer.sitemap]]
+  text = "Hành trình DalaFarm"
+  link = "/#ve=dalafarm/"
+[[Languages.vi.params.footer.sitemap]]
+  text = "Đôi nét về DalaFarm"
+  link = "/company-profile/"
+[[Languages.vi.params.footer.sitemap]]
+  text = "Giấy tờ chứng nhận"
+  link = "/company-docs/"
+[[Languages.vi.params.footer.sitemap]]
+  text = "Thành viên DalaFarm"
+  link = "/team/"
 
 ########################################
 #
