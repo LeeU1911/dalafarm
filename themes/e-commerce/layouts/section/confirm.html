@@ -95,6 +95,7 @@
         function getShippingCost() {
             if(bill.freeShip) {
                 viewModel.shippingCost(0);
+                viewModel.shippingCostLoaded(true);
             }else{
                 getShippingCostNUpdateSubtotal(lookupPlaceIdFromName(bill.info.availableDistricts, bill.info.district), shippingCostLoadedCallback, calculateWeightOfPowders(bill));
             }
