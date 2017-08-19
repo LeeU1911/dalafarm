@@ -22,12 +22,12 @@
         </ul>
         <span class="copyright">{{ with .Site.Params.params.footer.copyright }}{{ . | markdownify }}{{ end }}</span>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 text-right">
 		 <span>{{ with .Site.Params.params.footer.blog }}{{ . | markdownify }}{{ end }}</span>
 		  <ul class="list-inline quicklinks">
 
           {{ range .Site.Params.params.footer.sitemap }}
-            <li><a href="{{ .link | absLangURL }}">{{ .text  | markdownify }}</a></li></br>
+            <li style="text-decoration: underline;"><a href="{{ .link | absLangURL }}">{{ .text  | markdownify }}</a></li></br>
           {{ end }}
 
         </ul>
