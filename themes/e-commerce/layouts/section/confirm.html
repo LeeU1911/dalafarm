@@ -82,6 +82,7 @@
             this.additionalNote = bill.info.additionalNote;
             this.discountPercent = bill.discountPercent;
             this.shippingCostLoaded = ko.observable(false);
+            this.shippingVendor = ko.observable();
         }
 
         // Activates knockout.js
@@ -99,9 +100,10 @@
             }
         }
 
-        function shippingCostLoadedCallback(shippingCost) {
+        function shippingCostLoadedCallback(shippingCost, vendor) {
             viewModel.shippingCost(shippingCost);
             viewModel.shippingCostLoaded(true);
+            viewModel.shippingVendor(vendor);
         }
 
         getShippingCost();
@@ -124,6 +126,7 @@
             var billFormUI = ko.toJS(viewModel);
             bill.status = "Ordered";
             bill.shippingCost = billFormUI.shippingCost;
+            bill.shippingVendor = billFormUI.shippingVendor;
             bill.subtotal = calculateTotalBill(bill);
             bill.products = getProductsArrayFromBill(bill);
             delete bill.info.availableDistricts;
