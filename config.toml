@@ -280,9 +280,6 @@ info = """##### DALAFARM - CÔNG TY TNHH SXTM CHUÔNG XANH
   text = "Hỏi đáp"
   link = "/qa/"
 [[Languages.vi.params.footer.sitemap]]
-  text = "Hành trình DalaFarm"
-  link = "/#ve=dalafarm/"
-[[Languages.vi.params.footer.sitemap]]
   text = "Đôi nét về DalaFarm"
   link = "/company-profile/"
 [[Languages.vi.params.footer.sitemap]]
@@ -548,3 +545,25 @@ info = """##### DALAFARM - CHUÔNG XANH PRODUCING AND TRADING CO. LTD.
 [[Languages.en.params.footer.social]]
   icon = "fa-instagram"
   link = "https://www.instagram.com/dalafarm.com.vn/"
+
+[[Languages.en.params.footer.sitemap]]
+  text = "DalaFarm Blog"
+  link = "/blog/"
+[[Languages.en.params.footer.sitemap]]
+  text = "DalaFarm Kitchen"
+  link = "/dala-kitchen/"
+[[Languages.en.params.footer.sitemap]]
+  text = "Product"
+  link = "/product/"
+[[Languages.en.params.footer.sitemap]]
+  text = "FAQ"
+  link = "/qa/"
+[[Languages.en.params.footer.sitemap]]
+  text = "DalaFarm Profile"
+  link = "/company-profile/"
+[[Languages.en.params.footer.sitemap]]
+  text = "Ceritificates"
+  link = "/company-docs/"
+[[Languages.en.params.footer.sitemap]]
+  text = "DalaFarm Team"
+  link = "/team/"
