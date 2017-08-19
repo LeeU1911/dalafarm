@@ -75,6 +75,7 @@ var apiBaseURL = "http://localhost:8080";
 
 function getShippingCostNUpdateSubtotal(dropDistrictId, callback, weight) {
     var payload = { "pickupDistrictId": "772", "dropDistrictId": dropDistrictId, "weight": weight || 0};
+    NProgress.start();
     $.ajax({
         type: 'POST',
         url: apiBaseURL + "/v1/logistic/shipping-fee",
@@ -88,6 +89,9 @@ function getShippingCostNUpdateSubtotal(dropDistrictId, callback, weight) {
         dataType: 'json'
     }).fail(function(error) {
         alert(JSON.stringify(error));
+    }).always(function () {
+        NProgress.done();
+
     });
 }
 

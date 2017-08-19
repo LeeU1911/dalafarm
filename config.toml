@@ -84,8 +84,8 @@ description = """DalaFarm cung cấp các sản phẩm bột rau củ, bao gồm
                  và dầu tỏi."""
 
 # Link custom assets relative to /static
-custom_css = []
-custom_js  = []
+custom_css = ["css/nprogress.css"]
+custom_js  = ["js/nprogress.js"]
 favicon    = "favicon.ico"
 #Content footer
 #contentFooter = """
@@ -342,8 +342,8 @@ description = """DalaFarm provides vegetables powders such as strawberry, celery
                  """
 
 # Link custom assets relative to /static
-custom_css = []
-custom_js  = []
+custom_css = ["css/nprogress.css"]
+custom_js  = ["js/nprogress.js"]
 favicon    = "favicon.ico"
 #Content footer
 #contentFooter = """
