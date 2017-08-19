@@ -101,8 +101,6 @@ function lookupPlaceIdFromName(availablePlaces, placeName){
     })[0].id;
 }
 
-//TODO: enhance back end to support Tin logistic if ghtk is not delivering there => solution for multiple logistic company too
-
 function calculateWeightOfPowders(bill) {
     var weight = 0;
     var products = bill.products;
