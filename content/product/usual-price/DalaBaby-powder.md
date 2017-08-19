@@ -28,11 +28,17 @@ có đủ chất xơ và vitamin cho bé yêu của bạn.
 ### Thành phần
 
 * Bột cà rốt
+
 * Bột súp lơ
+
 * Bột bí đỏ
+
 * Bột rau bó xôi
+
 * Bột nấm bào ngư
+
 * Bột hạt sen
+
 * Bột khoai lang tím
 
 100% từ rau củ tươi tự nhiên không chất bảo quản. 
@@ -47,11 +53,15 @@ Bột Dalafarm giúp bé thay đổi mùi vị và cung cấp đầy đủ các 
 giúp bé tăng sức đề kháng giảm ốm vặt.
 
 * Giúp cơ thể bé phát triển khỏe mạnh: 
+
   * Rau củ quả chứa nhiều vitamin và khoáng chất thiết 
 yếu như vitamin A, C, E, Kali… giúp xây dựng tế bào và phát triển mô.
+
   * Ngoài ra, 90% lượng vitamin C hàng ngày của cơ thể trẻ bắt nguồn từ trái cây và rau quả. Sự thiếu hụt vitamin C 
 có thể gây ra bệnh còi xương và làm cho hệ thống miễn dịch của cơ thể trẻ yếu
+
 * Rau củ quả giúp não bộ phát triên khỏe mạnh, tăng khả năng học hỏi và có chỉ số IQ cao
+
 * Phòng ngừa được các bệnh về sau cho các bé về tim mạch,tiểu đường tuýp 2, béo phì…
 
 ### Cách sử dụng cho bé
