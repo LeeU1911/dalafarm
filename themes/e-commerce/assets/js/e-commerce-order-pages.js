@@ -80,8 +80,8 @@ function getShippingCostNUpdateSubtotal(dropDistrictId, callback, weight) {
         type: 'POST',
         url: apiBaseURL + "/v1/logistic/shipping-fee",
         data: JSON.stringify(payload),
-        success: function(data) { if(data.success) {//{"success":true,"message":"","totalFee":35000}
-            callback(data.totalFee, data.message);
+        success: function(data) { if(data.success) {//{"success":true,"message":"Able to deliver this package","totalFee":45000,"vendorId":1}
+            callback(data.totalFee, data.vendorId);
         }else{
             alert(data.message);
         }},

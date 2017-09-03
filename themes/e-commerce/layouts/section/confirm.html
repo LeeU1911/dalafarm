@@ -101,10 +101,10 @@
             }
         }
 
-        function shippingCostLoadedCallback(shippingCost, vendor) {
+        function shippingCostLoadedCallback(shippingCost, vendorId) {
             viewModel.shippingCost(shippingCost);
             viewModel.shippingCostLoaded(true);
-            viewModel.shippingVendor(vendor);
+            viewModel.shippingVendor(vendorId);
         }
 
         getShippingCost();
@@ -130,9 +130,27 @@
             bill.shippingVendor = billFormUI.shippingVendor;
             bill.subtotal = calculateTotalBill(bill);
             bill.products = getProductsArrayFromBill(bill);
+            bill.info.districtId = lookupPlaceIdFromName(bill.info.availableDistricts, bill.info.district);
             delete bill.info.availableDistricts;
             delete bill.info.availableProvinces;
-            sendFullDetailsToWebhook4Excel(bill);
+            sendToApiWebhook(bill);
+        }
+
+        function sendToApiWebhook(order){
+            var rawWebhookURL = "https://hooks.zapier.com/hooks/catch/2274589/rrshkw/";
+            $.ajax({
+                type: "POST",
+                url: rawWebhookURL,
+                data: JSON.stringify(order),
+                success: function (res) {
+                    console.log(res);
+                    sendFullDetailsToWebhook4Excel(order);
+                },
+                error: function (error) {
+                    console.log(error);
+                },
+                dataType: "json"
+            });
         }
 
         function sendFullDetailsToWebhook4Slack(order) {
