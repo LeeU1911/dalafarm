@@ -130,21 +130,21 @@ function applyPromotion(bill){
     bill.subtotal = totalBillWoShippingCost;
     bill.promotionalProducts = {};
     var weight = calculateWeightOfPowders(bill);
-    if(weight >= 500 && only50gPowdersInOrder(bill)) {
-        bill.freeShip = true;
-        bill.products['dalababyAmt']++;
-        bill.promotionalProducts['dalababyAmt'] = 1;
-        return bill;
-    }
-    if(totalBillWoShippingCost > 680000){
-        bill.products['garlicoilAmt']++;
-        bill.promotionalProducts['garlicoilAmt'] = 1;
-        return bill;
-    }
-    if(totalBillWoShippingCost > 580000) {
-        bill.freeShip = true;
-        return bill;
-    }
+    // if(weight >= 500 && only50gPowdersInOrder(bill)) {
+    //     bill.freeShip = true;
+    //     bill.products['dalababyAmt']++;
+    //     bill.promotionalProducts['dalababyAmt'] = 1;
+    //     return bill;
+    // }
+    // if(totalBillWoShippingCost > 680000){
+    //     bill.products['garlicoilAmt']++;
+    //     bill.promotionalProducts['garlicoilAmt'] = 1;
+    //     return bill;
+    // }
+    // if(totalBillWoShippingCost > 580000) {
+    //     bill.freeShip = true;
+    //     return bill;
+    // }
     return bill;
 }
 
