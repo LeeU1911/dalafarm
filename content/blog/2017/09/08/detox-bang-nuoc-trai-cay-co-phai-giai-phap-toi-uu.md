@@ -50,7 +50,7 @@ _Để tránh gặp phải các nguy cơ trên. Ngày nay phụ nữ trên khắ
 - Rau xanh chứa nhiều chất xơ không hòa tan lôi kéo độc tố tích tụ lâu ngày trong đường ruột
 
 - Cung cấp nhiều vitamin, khoáng chất kết hợp giảm tinh bột , giúp làm nhẹ quá trình chuyến hóa chất ở gan => làm nhẹ cơ thể
-{{< img src="/img/blog/detox-bang-nuoc-trai-cay-co-phai-giai-phap-toi-uu(4).jpg" title="Detox bằng bột rau củ giúp detox được "tối đa"" >}}
+{{< img src="/img/blog/detox-bang-nuoc-trai-cay-co-phai-giai-phap-toi-uu(4).jpg" title="Detox bằng bột rau củ giúp detox được \"tối đa\"" >}}
 
 - Rau xanh giúp tránh được táo bón và giảm lượng đường trong máu.
 
