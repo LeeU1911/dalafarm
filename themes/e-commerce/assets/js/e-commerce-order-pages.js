@@ -229,6 +229,8 @@ function humanizeProductName(productKey) {
                 return "Bột detox đỏ Sun Powder 100g";
             case "moondetox":
                 return "Bột detox xanh Moon Powder 100g";
+            case "stardetox":
+                return "Bột detox vàng Star Powder 100g";
             default:
                 return productKey;
         }
