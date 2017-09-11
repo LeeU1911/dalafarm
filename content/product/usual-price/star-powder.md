@@ -1,5 +1,5 @@
 +++
-date = "2017-04-17T23:12:45+08:00"
+date = "2017-09-12T23:12:45+08:00"
 description = "Bột Detox Star Powder đóng gói zip 100 gram"
 price = "375,000"
 img = ["star powder 1.jpg","star powder 2.jpg"]
