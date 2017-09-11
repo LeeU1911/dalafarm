@@ -2,23 +2,23 @@
 date = "2017-04-17T23:12:45+08:00"
 description = "Detox Star powder zip 100 gram"
 price = "375,000"
-img = ["Starpowder-1.jpg","Starpowder-2.jpg"]
+img = ["star powder 1.jpg","star powder 2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Starpowder"]
-thumbnail = "Starpowder-1.jpg"
+thumbnail = "star powder 1.jpg"
 title = "Detox Star powder (100g)"
 +++
 
-#Detox Star powder
+# Detox Star Powder
 
-Bột Detox Star powder DalaFarm được chọn lọc và chế biến từ những nguyên liệu 
+Bột Detox Star Powder DalaFarm được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
 sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp chứng nhận 
 VSATTP Việt Nam.
 
 
-##Tại sao nên chọn thức uống detox ?
-Mỗi ngày chúng ta tiếp xúc với ô nhiễm môi trường,  các chất bảo quản, kim loại nặng, đủ loại thuốc trừ sâu  và chất hóa học có khả năng gây ung thư.   Chúng ta hít thở, ăn vào hoặc tiếp xúc với các loại độc  tố này và chúng sẽ lưu lại trong những mô và tế bào  của cơ thể. Rất nhiều chất trong số này đã được chứng minh gây  ra ung thư, hoặc biến chứng sinh sản, trao đổi chất hoặc tâm thần. 
+## Tại sao nên chọn thức uống detox ?
+Mỗi ngày chúng ta tiếp xúc với ô nhiễm môi trường,  các chất bảo quản, kim loại nặng, đủ loại thuốc trừ sâu  và chất hóa học có khả năng gây ung thư. Chúng ta hít thở, ăn vào hoặc tiếp xúc với các loại độc  tố này và chúng sẽ lưu lại trong những mô và tế bào  của cơ thể. Rất nhiều chất trong số này đã được chứng minh gây ra ung thư, hoặc biến chứng sinh sản, trao đổi chất hoặc tâm thần. 
 
 ## Thành phần: 
 Carrot: improves eye vision, lowers the risk for stroke, 
@@ -54,11 +54,3 @@ Giảm chứng viêm nhiễm do các loại bệnh và sưng tấy trong cơ th�
 
 ## Bảo quản: 
 Dưới 25⁰C, tránh ánh sáng trực tiếp.
-
-GỌI NGAY -  0866 842 517/0918 241 066
-ĐỂ ĐƯỢC TƯ VẤN VÀ CUNG CẤP SẢN PHẨM 
-BỘT RAU CỦ DALAFARM VỚI MỨC GIÁ TỐT NHẤT
-VPĐD: 317 Lô D, CC Lạc Long Quân, Phường 5, 
-Quận 11,TP.HCM
-Điện thoại: (028) 6684 2517; (0258) 3899 189
-Email: info@dalafarm.com.vn
