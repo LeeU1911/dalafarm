@@ -1,5 +1,6 @@
 +++
-date = "2017-04-17T23:12:45+08:00"
+date = "2017-09-19T23:12:45+08:00"
+publishdate = "2017-09-19T23:12:45+08:00"
 description = " Combo 3 gói Bột Detox powder đóng gói zip 100 gram/gói"
 price = "1,125,000"
 img = ["Combodetox-1.jpg"]
