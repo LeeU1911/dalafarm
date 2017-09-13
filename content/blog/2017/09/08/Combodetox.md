@@ -2,7 +2,7 @@
 date = "2017-09-11T01:51:53+08:00"
 tags = ["veggie-powder","detoxpowder"]
 thumbnail = "Combodetox-1.jpg"
-title = "combo bộ 3 detox thải độc toàn diện"
+title = "COMBO BỘ DETOX THẢI ĐỘC TOÀN DIỆN"
 +++
 
 THANH LỌC CƠ THỂ TỐI ĐA VỚI BỘT RAU CỦ DETOX DALAFARM 100% TỰ NHIÊN
@@ -71,7 +71,7 @@ Bột detox Moon powder với các thành phần chính là các loại rau  c�
 
 •	Rau diếp cá có nhiều vitamin C,E, G, K, cholin và các loại muối khoáng giúp thanh nhiệt, giải độc, kháng viêm, nhuận tràng.
 
-•	 Dâu tây cung cấp vitamin A và C, và giúp giải độc cho cơ thể chống oxy hoá và chống viêm làm chậm quá trình lão hóa, bảo vệ da. 
+•	Dâu tây cung cấp vitamin A và C, và giúp giải độc cho cơ thể chống oxy hoá và chống viêm làm chậm quá trình lão hóa, bảo vệ da. 
 
 •	Ngoài ra moon powder còn chứa 1 số loại rau xanh khác bổ sung thêm chất xơ và khoáng chất giúp cho đường ruột ổn định, nhẹ nhàng, cơ thể được  cân bằng và tạo giấc ngủ ngon (tham khảo thêm tại đây). 
 
@@ -83,7 +83,7 @@ Mỗi lần uống : 1 muỗng 5 gram bột detox + 300ml nước lọc --> cung
 Uống trước bữa ăn: 30-45 phút 
 Như vậy : 3 gói uống : 20 ngày
 
-## Bảo quản: 
+## BẢO QUẢN: 
 Dưới 25⁰C, tránh ánh sáng trực tiếp.
 
 Để biết thêm độc tố chúng ta nạp mỗi ngày các bạn tham khảo link:https://dalafarm.com.vn/…/chung-ta-song-cung-voi-bao-nhieu…/
