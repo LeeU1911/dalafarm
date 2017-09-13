@@ -15,11 +15,11 @@ THANH LỌC CƠ THỂ TỐI ĐA VỚI BỘT RAU CỦ DETOX DALAFARM 100% TỰ NH
 
 -	BỘ SẢN PHẨM DETOX “ TỐI ĐA” bằng cơ chế “3 thông” thải độc cùng lúc qua 3 còn đường: đại tiện, tiểu tiện và mồ hôi để cơ thể luôn được thông suốt. Đồng thời thải độc cùng lúc ở nhiều cơ quan, tăng tối đa hiệu quả thải độc cho cơ thể:
 
-o	Thải độc qua đường ruôt bằng chất xơ vì chất xơ giúp loại bỏ các độc tố ra khỏi ruột kết, cân bằng chuyển động của ruột, ngăn ngừa những vấn đề về ruột và kiểm soát tốt vấn đề đại tiện.Đây là 1 trong những đường thải độc hiểu quả nhất vì hơn 50%  độc tố được đào thải qua đường ruột (đại tiện).
+    o	Thải độc qua đường ruôt bằng chất xơ vì chất xơ giúp loại bỏ các độc tố ra khỏi ruột kết, cân bằng chuyển động của ruột, ngăn ngừa những vấn đề về ruột và kiểm soát tốt vấn đề đại tiện.Đây là 1 trong những đường thải độc hiểu quả nhất vì hơn 50%  độc tố được đào thải qua đường ruột (đại tiện).
 
-o	Thanh lọc qua gan nhờ cung cấp nhiều vitamin, khoáng chất kết hợp giảm tinh bột , giúp làm nhẹ quá trình chuyến hóa chất ở gan, nhờ đó giúp làm nhẹ cơ thể
+    o	Thanh lọc qua gan nhờ cung cấp nhiều vitamin, khoáng chất kết hợp giảm tinh bột , giúp làm nhẹ quá trình chuyến hóa chất ở gan, nhờ đó giúp làm nhẹ cơ thể
 
-o	Thanh lọc qua thận nhờ uống nước nhiều 
+    o	Thanh lọc qua thận nhờ uống nước nhiều 
 
 **Trong trường hợp giảm ăn tinh bột, chất béo, đường và uống kèm nước rau củ detox DalaFarm.**
 
