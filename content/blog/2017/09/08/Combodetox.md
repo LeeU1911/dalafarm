@@ -5,7 +5,8 @@ thumbnail = "detox.jpg"
 title = "COMBO BỘ DETOX THẢI ĐỘC TOÀN DIỆN"
 +++
 
-THANH LỌC CƠ THỂ TỐI ĐA VỚI BỘT RAU CỦ DETOX DALAFARM 100% TỰ NHIÊN
+<span style="text-align: center">THANH LỌC CƠ THỂ TỐI ĐA VỚI BỘT RAU CỦ DETOX DALAFARM 100% TỰ NHIÊN</span>
+
 -	Bạn có biết lượng độc tố tích tụ trong cơ thể sẽ chiếm khoảng từ 3-25kg (Chuyên gia thanh lọc độc tố người Ucraina ) và nó được tích tụ liên tục từng ngày do môi trường, thực phẩm và thói quen sinh hoạt. Độc tố ngấm vào cơ quan nội tạng phá hủy các tế bào, ngăn cản các tế bào hấp thu các chất dinh dưỡng và chặn đường thoát của các tế bào chết, gây ra hiện tượng đau đầu, chóng mặt, mệt mỏi, mất ngủ kém ăn, sức đề kháng kém và vô số các bệnh lý khác..
 
 -	Mặc dù vậy, chúng ta có 1 cơ thể rất kì diệu. Đó là: “cơ thể có năng lực vô hạn trong việc tự chữa lành” ( trích từ quyển “phòng và chữa bệnh ung thư theo phương pháp tự nhiên). Vấn đề là bạn có lắng nghe cơ thể mình hàng ngày và cho chúng có cơ hội được trở lại bình thường hay không?
@@ -25,12 +26,12 @@ THANH LỌC CƠ THỂ TỐI ĐA VỚI BỘT RAU CỦ DETOX DALAFARM 100% TỰ NH
 
 Bộ sản phẩm gồm 3 màu: vàng cam–đỏ-xanh tương ứng – sáng-trưa-tối.
 
-Buổi sáng - Star powder (màu vàng cam): Buối sáng là thời gian dạ dày, đường ruột bài độc. Dạ dày & đường ruôt là cơ quan tiêu hóa lớn nhất của cơ thể,có chức năng tích trữ, vận chuyển,tiêu hóa thức ăn và đào thải những chất không hấp thụ vào cơ thể ra ngoài, vì thế đây còn là nơi tích trữ một lượng lớn các độc tố, chất “cặn bã” còn sót lại từ đồ ăn, thức uống con người đưa vào cơ thể. Do đó, buổi sáng là thời điểm thích hơp để thanh lọc cơ thể qua đường ruột. 
+1. **Buổi sáng - Star powder (màu vàng cam)**: Buối sáng là thời gian dạ dày, đường ruột bài độc. Dạ dày & đường ruôt là cơ quan tiêu hóa lớn nhất của cơ thể,có chức năng tích trữ, vận chuyển,tiêu hóa thức ăn và đào thải những chất không hấp thụ vào cơ thể ra ngoài, vì thế đây còn là nơi tích trữ một lượng lớn các độc tố, chất “cặn bã” còn sót lại từ đồ ăn, thức uống con người đưa vào cơ thể. Do đó, buổi sáng là thời điểm thích hơp để thanh lọc cơ thể qua đường ruột. 
 
 Bột detox Star powder (màu vàng cam) chứa các thành phần thúc đẩy sự tuần hoàn của huyết dịch dạ dày, cải thiện sự trao đổi chất, tăng cường chức năng tiêu hóa của dạ dày. Đồng thời chất xơ không hòa tan từ rau củ giúp cấu trúc phân trong đường ruột tơi xốp, dễ dàng “quét” đi độc tố, các chất cặn không hấp thụ vào cơ thể còn bám lại ở thành ruột.
 {{< img src="/img/blog/combodetox(2).jpg" title="Khởi đầu ngày mới tươi vui với bột detox star powder" >}}
 
-Bột detox Star powder với các thành phần chính tốt cho dạ dày, đường ruột như: 
+_Bột detox Star powder_ với các thành phần chính tốt cho dạ dày, đường ruột như: 
 
 •	Cà rốt giàu vitamin A, C, E và magiê, giúp kích thích sự tiêu hóa,hoạt động hiệu quả.
 
@@ -42,10 +43,10 @@ Bột detox Star powder với các thành phần chính tốt cho dạ dày, đ�
 
 •	Và 1 số loại rau củ khác bổ sung thêm chất xơ và vitamin (tham khảo thêm [tại đây](https://dalafarm.com.vn/san-pham/b%E1%BB%99t-detox-star-powder-100g/)). 
 
-Buổi trưa - Sun powder ( màu đỏ): Buổi trưa là thời gian trái tim bài độc. Trái tim là trung tâm của tất cả các cơ quan bên trong cơ thể người. Đây còn là khoảng thời gian nhịp tim nhanh nhất vì vậy tốt nhất nên nghỉ ngơi một lát sẽ khiến trái tim bài độc được thuận lợi nhất.
+2. **Buổi trưa - Sun powder (màu đỏ)**: Buổi trưa là thời gian trái tim bài độc. Trái tim là trung tâm của tất cả các cơ quan bên trong cơ thể người. Đây còn là khoảng thời gian nhịp tim nhanh nhất vì vậy tốt nhất nên nghỉ ngơi một lát sẽ khiến trái tim bài độc được thuận lợi nhất.
  {{< img src="/img/blog/combodetox(3).jpg" title="Buổi trưa tràn đầy năng lượng với bột detox sun powder" >}}
  
-Bột detox Sun powder chứa  các thành phần chính giúp quả tim hoạt động tốt nhất như: 
+_Bột detox Sun powder_ chứa  các thành phần chính giúp quả tim hoạt động tốt nhất như: 
 
 •	Cà chua cung cấp vitamin A, C, K, có các chất chống oxy hóa như lycopene, lutein và zeaxanthin... giúp phòng chống ung thư và giảm lượng đường trong máu, phòng tránh bệnh tim mạch, chống xơ vữa động mạch, làm mềm hóa các mạch máu. 
 
@@ -57,11 +58,11 @@ Bột detox Sun powder chứa  các thành phần chính giúp quả tim hoạt 
 
 •	Và 1 số loại rau củ khác bổ sung thêm các chất dinh dưỡng và năng lượng cho buổi trưa giúp tỉnh táo, chống mệt mỏi (tham khảo thêm [tại đây](https://dalafarm.com.vn/san-pham/b%E1%BB%99t-detox-sun-powder-100g/)). 
 
-Buổi tối- Moon powder ( màu xanh): Buổi tối là thời gian cho ruột non, thận và bàng quang. Ruột non là chìa khóa cho sự hấp thu dinh dưỡng. Nó sẽ gửi chất lỏng đến bàng quang, chất thải tới ruột già và chất dinh dưỡng tới lá lách để tạo máu và năng lượng. Đây cũng là thời gian thận lọc máu trong cơ thể và  đưa các chất thải đến bang quang. Bàng quang là nơi rất quan trọng để loại bỏ độc tố. Tất cả chất độc ở các cơ quan khác đều phải tới bàng quang và ra ngoài thông qua nước tiểu. 
+3. **Buổi tối - Moon powder (màu xanh)**: Buổi tối là thời gian cho ruột non, thận và bàng quang. Ruột non là chìa khóa cho sự hấp thu dinh dưỡng. Nó sẽ gửi chất lỏng đến bàng quang, chất thải tới ruột già và chất dinh dưỡng tới lá lách để tạo máu và năng lượng. Đây cũng là thời gian thận lọc máu trong cơ thể và  đưa các chất thải đến bang quang. Bàng quang là nơi rất quan trọng để loại bỏ độc tố. Tất cả chất độc ở các cơ quan khác đều phải tới bàng quang và ra ngoài thông qua nước tiểu. 
 
 {{< img src="/img/blog/combodetox(4).jpg" title="Buổi tối nhẹ nhàng với bột detox moon powder" >}}
 
-Bột detox Moon powder với các thành phần chính là các loại rau  cỏ lá màu xanh giàu chất xơ,  rất hiệu quả  trong việc phòng tránh táo bón, duy trì được tính kiềm yếu cho đường ruột, giúp loại bỏ máu độc. 
+_Bột detox Moon powder_ với các thành phần chính là các loại rau  cỏ lá màu xanh giàu chất xơ,  rất hiệu quả  trong việc phòng tránh táo bón, duy trì được tính kiềm yếu cho đường ruột, giúp loại bỏ máu độc. 
 
 •	Đặc biệt, bột detox Moon powder chứa cần tây, là một loại thực phẩm nhiều chất xơ có tác dụng chống ung thư, lignin hoặc các chất lipid đường ruột. vì cần tây là một chất chống oxy hóa ở nồng độ cao có thể ức chế các vi khuẩn đường ruột được sản xuất bởi chất gây ung thư. Nó cũng có thể tăng tốc độ đào thảiphân trong ruột, làm giảm tiếp xúc của chất gây ung thư và niêm mạc đại tràng, và đạt được mục đích ngăn ngừa ung thư ruột kết.
 
