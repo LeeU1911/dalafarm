@@ -26,7 +26,7 @@ title = "COMBO BỘ DETOX THẢI ĐỘC TOÀN DIỆN"
 
 Bộ sản phẩm gồm 3 màu: vàng cam–đỏ-xanh tương ứng – sáng-trưa-tối.
 
-1. **Buổi sáng - Star powder (màu vàng cam)**: Buối sáng là thời gian dạ dày, đường ruột bài độc. Dạ dày & đường ruôt là cơ quan tiêu hóa lớn nhất của cơ thể,có chức năng tích trữ, vận chuyển,tiêu hóa thức ăn và đào thải những chất không hấp thụ vào cơ thể ra ngoài, vì thế đây còn là nơi tích trữ một lượng lớn các độc tố, chất “cặn bã” còn sót lại từ đồ ăn, thức uống con người đưa vào cơ thể. Do đó, buổi sáng là thời điểm thích hơp để thanh lọc cơ thể qua đường ruột. 
+**Buổi sáng - Star powder (màu vàng cam)**: Buối sáng là thời gian dạ dày, đường ruột bài độc. Dạ dày & đường ruôt là cơ quan tiêu hóa lớn nhất của cơ thể,có chức năng tích trữ, vận chuyển,tiêu hóa thức ăn và đào thải những chất không hấp thụ vào cơ thể ra ngoài, vì thế đây còn là nơi tích trữ một lượng lớn các độc tố, chất “cặn bã” còn sót lại từ đồ ăn, thức uống con người đưa vào cơ thể. Do đó, buổi sáng là thời điểm thích hơp để thanh lọc cơ thể qua đường ruột. 
 
 Bột detox Star powder (màu vàng cam) chứa các thành phần thúc đẩy sự tuần hoàn của huyết dịch dạ dày, cải thiện sự trao đổi chất, tăng cường chức năng tiêu hóa của dạ dày. Đồng thời chất xơ không hòa tan từ rau củ giúp cấu trúc phân trong đường ruột tơi xốp, dễ dàng “quét” đi độc tố, các chất cặn không hấp thụ vào cơ thể còn bám lại ở thành ruột.
 {{< img src="/img/blog/combodetox(2).jpg" title="Khởi đầu ngày mới tươi vui với bột detox star powder" >}}
@@ -43,7 +43,7 @@ _Bột detox Star powder_ với các thành phần chính tốt cho dạ dày, �
 
 •	Và 1 số loại rau củ khác bổ sung thêm chất xơ và vitamin (tham khảo thêm [tại đây](https://dalafarm.com.vn/san-pham/b%E1%BB%99t-detox-star-powder-100g/)). 
 
-2. **Buổi trưa - Sun powder (màu đỏ)**: Buổi trưa là thời gian trái tim bài độc. Trái tim là trung tâm của tất cả các cơ quan bên trong cơ thể người. Đây còn là khoảng thời gian nhịp tim nhanh nhất vì vậy tốt nhất nên nghỉ ngơi một lát sẽ khiến trái tim bài độc được thuận lợi nhất.
+**Buổi trưa - Sun powder (màu đỏ)**: Buổi trưa là thời gian trái tim bài độc. Trái tim là trung tâm của tất cả các cơ quan bên trong cơ thể người. Đây còn là khoảng thời gian nhịp tim nhanh nhất vì vậy tốt nhất nên nghỉ ngơi một lát sẽ khiến trái tim bài độc được thuận lợi nhất.
  {{< img src="/img/blog/combodetox(3).jpg" title="Buổi trưa tràn đầy năng lượng với bột detox sun powder" >}}
  
 _Bột detox Sun powder_ chứa  các thành phần chính giúp quả tim hoạt động tốt nhất như: 
@@ -58,7 +58,7 @@ _Bột detox Sun powder_ chứa  các thành phần chính giúp quả tim hoạ
 
 •	Và 1 số loại rau củ khác bổ sung thêm các chất dinh dưỡng và năng lượng cho buổi trưa giúp tỉnh táo, chống mệt mỏi (tham khảo thêm [tại đây](https://dalafarm.com.vn/san-pham/b%E1%BB%99t-detox-sun-powder-100g/)). 
 
-3. **Buổi tối - Moon powder (màu xanh)**: Buổi tối là thời gian cho ruột non, thận và bàng quang. Ruột non là chìa khóa cho sự hấp thu dinh dưỡng. Nó sẽ gửi chất lỏng đến bàng quang, chất thải tới ruột già và chất dinh dưỡng tới lá lách để tạo máu và năng lượng. Đây cũng là thời gian thận lọc máu trong cơ thể và  đưa các chất thải đến bang quang. Bàng quang là nơi rất quan trọng để loại bỏ độc tố. Tất cả chất độc ở các cơ quan khác đều phải tới bàng quang và ra ngoài thông qua nước tiểu. 
+**Buổi tối - Moon powder (màu xanh)**: Buổi tối là thời gian cho ruột non, thận và bàng quang. Ruột non là chìa khóa cho sự hấp thu dinh dưỡng. Nó sẽ gửi chất lỏng đến bàng quang, chất thải tới ruột già và chất dinh dưỡng tới lá lách để tạo máu và năng lượng. Đây cũng là thời gian thận lọc máu trong cơ thể và  đưa các chất thải đến bang quang. Bàng quang là nơi rất quan trọng để loại bỏ độc tố. Tất cả chất độc ở các cơ quan khác đều phải tới bàng quang và ra ngoài thông qua nước tiểu. 
 
 {{< img src="/img/blog/combodetox(4).jpg" title="Buổi tối nhẹ nhàng với bột detox moon powder" >}}
 
