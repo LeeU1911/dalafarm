@@ -80,8 +80,8 @@ function getShippingCostNUpdateSubtotal(dropDistrictId, callback, weight) {
         type: 'POST',
         url: apiBaseURL + "/v1/logistic/shipping-fee",
         data: JSON.stringify(payload),
-        success: function(data) { if(data.success) {//{"success":true,"message":"","totalFee":35000}
-            callback(data.totalFee, data.message);
+        success: function(data) { if(data.success) {//{"success":true,"message":"Able to deliver this package","totalFee":45000,"vendorId":1}
+            callback(data.totalFee, data.vendorId);
         }else{
             alert(data.message);
         }},
@@ -130,21 +130,21 @@ function applyPromotion(bill){
     bill.subtotal = totalBillWoShippingCost;
     bill.promotionalProducts = {};
     var weight = calculateWeightOfPowders(bill);
-    if(weight >= 500 && only50gPowdersInOrder(bill)) {
-        bill.freeShip = true;
-        bill.products['dalababyAmt']++;
-        bill.promotionalProducts['dalababyAmt'] = 1;
-        return bill;
-    }
-    if(totalBillWoShippingCost > 680000){
-        bill.products['garlicoilAmt']++;
-        bill.promotionalProducts['garlicoilAmt'] = 1;
-        return bill;
-    }
-    if(totalBillWoShippingCost > 580000) {
-        bill.freeShip = true;
-        return bill;
-    }
+    // if(weight >= 500 && only50gPowdersInOrder(bill)) {
+    //     bill.freeShip = true;
+    //     bill.products['dalababyAmt']++;
+    //     bill.promotionalProducts['dalababyAmt'] = 1;
+    //     return bill;
+    // }
+    // if(totalBillWoShippingCost > 680000){
+    //     bill.products['garlicoilAmt']++;
+    //     bill.promotionalProducts['garlicoilAmt'] = 1;
+    //     return bill;
+    // }
+    // if(totalBillWoShippingCost > 580000) {
+    //     bill.freeShip = true;
+    //     return bill;
+    // }
     return bill;
 }
 
@@ -229,6 +229,8 @@ function humanizeProductName(productKey) {
                 return "Bột detox đỏ Sun Powder 100g";
             case "moondetox":
                 return "Bột detox xanh Moon Powder 100g";
+            case "stardetox":
+                return "Bột detox vàng Star Powder 100g";
             default:
                 return productKey;
         }

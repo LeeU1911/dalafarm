@@ -141,10 +141,21 @@ Tuy nhiên, DalaFarm vẫn nhận những hình thức thanh toán khác mà kh�
 Quý khách chọn hình thức chuyển khoản vui lòng chuyển khoản vào tài khoản công ty DalaFarm:
  
 - Ngân hàng: **Vietcombank**
-- Chi nhánh: **Hồ Chí Minh**
-- Số tài khoản: **0531002506601**
-- Tên người thụ hưởng: **Nguyễn Thị Huyền Trâm**
+- Chi nhánh: **Phú Thọ**
+- Số tài khoản: **0421000413614**
+- Tên người thụ hưởng: **Võ Thị Thanh Thư**
 - Nội dung chuyển khoản: Thanh toán đơn hàng mã **123xyz** (trong đó, **123xyz** là mã đơn hàng 6 ký tự được tạo ra bởi hệ thống DalaFarm. Khách hàng vui lòng yêu cầu mã này trước khi thanh toán đơn hàng.)
+
+hoặc
+
+- Ngân hàng: **VP Bank (Việt Nam Thịnh Vượng)**
+- Chi nhánh: **Hồ Chí Minh**
+- Số tài khoản: **131396996**
+- Số thẻ (trong trường hợp bạn muốn chuyển qua số thẻ ATM): **9704 3211 2882 3340**
+- Tên người thụ hưởng: **Võ Thị Thanh Thư**
+- Nội dung chuyển khoản: Thanh toán đơn hàng mã **123xyz** (trong đó, **123xyz** là mã đơn hàng 6 ký tự được tạo ra bởi hệ thống DalaFarm. Khách hàng vui lòng yêu cầu mã này trước khi thanh toán đơn hàng.)
+
+
 
 Sau khi chuyển khoản, quý khách vui lòng nhắn tin facebook messenger cho DalaFarm để xác nhận nhằm trường hợp chuyển khoản khác ngân hàng không đến liền.
 
