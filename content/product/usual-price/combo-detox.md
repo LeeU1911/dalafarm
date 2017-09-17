@@ -12,7 +12,7 @@ sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp ch
 VSATTP Việt Nam._
 
 <p style="color: red">Khuyến mãi đặc biệt nhân dịp trung thu: Mua 1 bộ combo 3 detox thải độc toàn tiện từ DalaFarm
-sẽ được tặng 1 hộp bánh trung thu 4 bánh 75 gram với trị giá 250,000 đ!</p>
+sẽ được tặng 1 hộp bánh trung thu 4 bánh 75 gram với trị giá 120,000 đ!</p>
 """
 price = "1,125,000"
 promotion_text = "Tặng 1 hộp bánh trung thu"
