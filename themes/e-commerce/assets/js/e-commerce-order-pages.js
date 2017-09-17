@@ -109,7 +109,11 @@ function calculateWeightOfPowders(bill) {
             if (property.substr(property.length - 3, property.length) == "Amt" && products[property] > 0) {
                 weight += 50 * products[property];
                 if (property.indexOf("100") > -1 || property.indexOf("detox") > -1) {
-                    weight += 50 * products[property];
+                    if(property.indexOf("combodetox") > -1){
+                        weight += 250 * products[property];
+                    }else {
+                        weight += 50 * products[property];
+                    }
                 }
                 if(property.indexOf("garlicoil") > -1) {
                     weight += 720 * products[property];
@@ -145,9 +149,25 @@ function applyPromotion(bill){
     //     bill.freeShip = true;
     //     return bill;
     // }
+    if(isComboDetox(bill)) {
+        bill.promotionalProducts['mooncakeAmt'] = 1;
+    }
+
     return bill;
 }
-
+function isComboDetox(bill) {
+    var products = bill.products;
+    for (var property in products) {
+        if (products.hasOwnProperty(property)) {
+            if (property.substr(property.length - 3, property.length) == "Amt" && products[property] > 0) {
+                if (property.indexOf("combodetox") > -1) {
+                    return true;
+                }
+            }
+        }
+    }
+    return false;
+}
 function only50gPowdersInOrder(bill){
     var products = bill.products;
     var numOf50gPowder = 0;

@@ -27,6 +27,9 @@
         <p data-bind="visible: promotionalProducts != undefined && promotionalProducts['garlicoilAmt'] != undefined && promotionalProducts['garlicoilAmt'] > 0">
             <span>Dầu tỏi tía Đà Lạt (250ml) - 150,000 x 1 = -150,000 </span><span> (Khuyến mãi)</span>
         </p>
+        <p data-bind="visible: promotionalProducts != undefined && promotionalProducts['mooncakeAmt'] != undefined && promotionalProducts['mooncakeAmt'] > 0">
+            <span>Hộp bánh trung thu 4 cái - 250,000 x 1 = 0 </span><span> (Khuyến mãi)</span>
+        </p>
         <p>
             <span data-bind="if: shippingCost != undefined && !shippingCost.isNaN">
                 <span>Phí giao hàng: </span><span data-bind="text: numeral(shippingCost()).format('0,0')"></span><span> (phụ thuộc vào địa chỉ nhận hàng và trọng lượng gói hàng)</span>
