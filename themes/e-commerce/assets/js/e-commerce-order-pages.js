@@ -151,6 +151,7 @@ function applyPromotion(bill){
     // }
     var numberOfComboDetox2 = numberOfComboDetox(bill);
     if(numberOfComboDetox2 > 0) {
+        bill.freeShip = true;
         bill.promotionalProducts['mooncakeAmt'] = numberOfComboDetox2;
     }
 
