@@ -8,7 +8,7 @@ product_line = ""
 tags = ["veggie-powder","Lotusseeds"]
 thumbnail = "lotusseeds-1.jpg"
 title = "Bột Hạt Sen (50g)"
-weight = 1
+weight = 3
 aliases = ["/san-pham/bot-sen-50g","/san-pham/bot-hat-sen-50g"]
 key = "lotus"
 +++

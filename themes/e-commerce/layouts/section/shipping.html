@@ -60,11 +60,11 @@
 
                                 <!-- Text input-->
                                 <div class="form-group">
-                                    <label class="col-md-2 control-label" for="phone1">Số điện thoại 1 *</label>
+                                    <label class="col-md-2 control-label" for="phone1">Số điện thoại *</label>
                                     <div class="col-md-8">
                                         <div class="input-group">
                                             <span class="input-group-addon" data-bind="text: info.phone1CountryCode"></span>
-                                            <input data-bind="value: info.phone1" id="phone1" name="phone1" type="number"
+                                            <input data-bind="value: info.phone1" id="phone1" name="phone1" type="tel"
                                                    placeholder="901234567" class="form-control input-lg">
                                         </div>
                                     </div>
@@ -72,114 +72,41 @@
 
                                 <!-- Text input-->
                                 <div class="form-group">
-                                    <label class="col-md-2 control-label" for="phone2">Số điện thoại 2</label>
-                                    <div class="col-md-8">
-                                        <div class="input-group">
-                                            <span class="input-group-addon" data-bind="text: info.phone2CountryCode"></span>
-                                            <input data-bind="value: info.phone2" id="phone2" name="phone2" type="number"
-                                               placeholder="1689887777" class="form-control input-lg" >
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Text input-->
-                                <div class="form-group">
-                                    <label class="col-md-2 control-label" for="email">Email</label>
+                                    <label class="col-md-2 control-label" for="email">Email (nhận thông tin đơn hàng)</label>
                                     <div class="col-md-8">
                                         <input data-bind="value: info.email" id="email" name="email" type="email"
                                                placeholder="example@gmail.com" class="form-control input-lg" >
 
                                     </div>
                                 </div>
-
+                                <!-- Select Basic -->
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label" for="province">Tỉnh/Thành phố</label>
+                                    <div class="col-md-6">
+                                        <select data-bind="value: info.province, options: info.availableProvinces, optionsValue: 'name', optionsText: 'name'" id="province" name="province"
+                                                class="form-control input-lg">
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- Select Basic -->
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label" for="district">Quận/Huyện</label>
+                                    <div class="col-md-6">
+                                        <select data-bind="value: info.district, options: info.availableDistricts, optionsValue: 'name', optionsText: 'name'" id="district" name="district"
+                                                class="form-control input-lg">
+                                        </select>
+                                    </div>
+                                </div>
                                 <!-- Text input-->
                                 <div class="form-group">
                                     <label class="col-md-2 control-label" for="address">Địa chỉ *</label>
                                     <div class="col-md-8">
                                         <input data-bind="value: info.address" id="address" name="address" type="text"
-                                               placeholder="Số nhà, đường, phường, xã, quận/huyện"
+                                               placeholder="Số nhà, đường, phường, xã"
                                                class="form-control input-lg">
                                     </div>
                                 </div>
 
-                                <!-- Select Basic -->
-                                <div class="form-group">
-                                    <label class="col-md-2 control-label" for="province">Tỉnh/Thành phố</label>
-                                    <div class="col-md-6">
-                                        <select data-bind="value: info.province" id="province" name="province"
-                                                class="form-control input-lg">
-                                            <option value="TP HCM">TP HCM</option>
-                                            <option value="Hà Nội">Hà Nội</option>
-                                            <option value="Cần Thơ">Cần Thơ</option>
-                                            <option value="Đà Nẵng">Đà Nẵng</option>
-                                            <option value="Hải Phòng">Hải Phòng</option>
-                                            <option value="An Giang">An Giang</option>
-                                            <option value="Bà Rịa - Vũng Tàu">Bà Rịa - Vũng Tàu</option>
-                                            <option value="Bắc Giang">Bắc Giang</option>
-                                            <option value="Bắc Kạn">Bắc Kạn</option>
-                                            <option value="Bạc Liêu">Bạc Liêu</option>
-                                            <option value="Bắc Ninh">Bắc Ninh</option>
-                                            <option value="Bến Tre">Bến Tre</option>
-                                            <option value="Bình Định">Bình Định</option>
-                                            <option value="Bình Dương">Bình Dương</option>
-                                            <option value="Bình Phước">Bình Phước</option>
-                                            <option value="Bình Thuận">Bình Thuận</option>
-                                            <option value="Cà Mau">Cà Mau</option>
-                                            <option value="Cao Bằng">Cao Bằng</option>
-                                            <option value="Đắk Lắk">Đắk Lắk</option>
-                                            <option value="Đắk Nông">Đắk Nông</option>
-                                            <option value="Điện Biên">Điện Biên</option>
-                                            <option value="Đồng Nai">Đồng Nai</option>
-                                            <option value="Đồng Tháp">Đồng Tháp</option>
-                                            <option value="Gia Lai">Gia Lai</option>
-                                            <option value="Hà Giang">Hà Giang</option>
-                                            <option value="Hà Nam">Hà Nam</option>
-                                            <option value="Hà Tĩnh">Hà Tĩnh</option>
-                                            <option value="Hải Dương">Hải Dương</option>
-                                            <option value="Hậu Giang">Hậu Giang</option>
-                                            <option value="Hòa Bình">Hòa Bình</option>
-                                            <option value="Hưng Yên">Hưng Yên</option>
-                                            <option value="Khánh Hòa">Khánh Hòa</option>
-                                            <option value="Kiên Giang">Kiên Giang</option>
-                                            <option value="Kon Tum">Kon Tum</option>
-                                            <option value="Lai Châu">Lai Châu</option>
-                                            <option value="Lâm Đồng">Lâm Đồng</option>
-                                            <option value="Lạng Sơn">Lạng Sơn</option>
-                                            <option value="Lào Cai">Lào Cai</option>
-                                            <option value="Long An">Long An</option>
-                                            <option value="Nam Định">Nam Định</option>
-                                            <option value="Nghệ An">Nghệ An</option>
-                                            <option value="Ninh Bình">Ninh Bình</option>
-                                            <option value="Ninh Thuận">Ninh Thuận</option>
-                                            <option value="Phú Thọ">Phú Thọ</option>
-                                            <option value="Phú Yên">Phú Yên</option>
-                                            <option value="Quảng Bình">Quảng Bình</option>
-                                            <option value="Quảng Nam">Quảng Nam</option>
-                                            <option value="Quảng Ngãi">Quảng Ngãi</option>
-                                            <option value="Quảng Ninh">Quảng Ninh</option>
-                                            <option value="Quảng Trị">Quảng Trị</option>
-                                            <option value="Sóc Trăng">Sóc Trăng</option>
-                                            <option value="Sơn La">Sơn La</option>
-                                            <option value="Tây Ninh">Tây Ninh</option>
-                                            <option value="Thái Bình">Thái Bình</option>
-                                            <option value="Thái Nguyên">Thái Nguyên</option>
-                                            <option value="Thanh Hóa">Thanh Hóa</option>
-                                            <option value="Thừa Thiên Huế">Thừa Thiên Huế</option>
-                                            <option value="Tiền Giang">Tiền Giang</option>
-                                            <option value="Trà Vinh">Trà Vinh</option>
-                                            <option value="Tuyên Quang">Tuyên Quang</option>
-                                            <option value="Vĩnh Long">Vĩnh Long</option>
-                                            <option value="Vĩnh Phúc">Vĩnh Phúc</option>
-                                            <option value="Yên Bái">Yên Bái</option>
-                                        </select>
-                                    </div>
-                                    <div class="checkbox col-md-2">
-                                        <label for="checkboxes-0">
-                                            <input name="checkboxes" id="checkboxes-0" type="checkbox" data-bind="checked: info.suburb">
-                                            Ngoại thành
-                                        </label>
-                                    </div>
-                                </div>
                                 <!-- Multiple Radios -->
                                 <div class="form-group">
                                     <label class="col-md-2 control-label" for="radios">Hình thức thanh toán *</label>
@@ -240,6 +167,7 @@
 <script type="text/javascript" src="{{ printf "js/%s.js" "vi-VN" | absURL }}"></script>
 <script>
     var VNPhoneCountryCode = "+84";
+
     $(function() {
         function getPhoneNumber(phoneNum) {
             var validatedPhoneNumber = validatePhoneNumberVN(phoneNum);
@@ -264,6 +192,7 @@
                 products: []
             }
         };
+
         var bill = JSON.parse(sessionStorage.getItem('order')) || emptyBill;
 
         // Custom validation for phone number
@@ -279,12 +208,6 @@
                 return true;
             }
         };
-
-        function enableResendVerificationCodeAfterTimeout(){
-            setTimeout(function(){
-                viewModel().resendVerificationCodeFlag(true);
-            }, 40000);
-        }
         ko.validation.registerExtenders();
         ko.validation.locale('vi-VN');
         var viewModel = ko.validatedObservable({
@@ -298,12 +221,15 @@
                 phone2: ko.observable((bill && bill.info && bill.info.phone2 && bill.info.phone2.substring(3)) || "").extend({ required: false, phoneVN: true }),
                 email: ko.observable((bill && bill.info && bill.info.email) || "").extend({ required: false, email: true }),
                 address: ko.observable((bill && bill.info && bill.info.address) || "").extend({ required: true, minLength: 1 }),
-                province: ko.observable((bill && bill.info && bill.info.province) || "TP HCM"),
-                suburb: ko.observable((bill && bill.info && bill.info.suburb) || ""),
+                province: ko.observable((bill && bill.info && bill.info.province) || "Hồ Chí Minh"),
+                availableProvinces: ko.observable((bill && bill.info && bill.info.availableProvinces) || getListProvinces()),
+                district: ko.observable((bill && bill.info && bill.info.district) || "1"),
+                availableDistricts: ko.observable((bill && bill.info && bill.info.availableDistricts) || undefined),
                 paymentType: ko.observable((bill && bill.info && bill.info.paymentType) || "cod"),
                 additionalNote: ko.observable((bill && bill.info && bill.info.additionalNote) || "")
             },
             products: getProductsArrayFromBill(bill),
+            promotionalProducts: undefined,
             subtotalBeforeDiscount: ((bill && bill.subtotalBeforeDiscount) || undefined),
             subtotal: ko.observable(calculateTotalBillWithoutShippingCost(bill)),
             shippingCost: undefined,
@@ -341,6 +267,93 @@
         viewModel.errors = ko.validation.group(viewModel);
 
         ko.applyBindings(viewModel);
+
+        $('#province').change(function(){
+            if(provinceName = $('#province').val()){
+                populateDistrictByProvinceName(provinceName);
+            }
+        });
+
+        function getListProvinces() {
+            $.getJSON(apiBaseURL + "/v1/provinces", function (data) {
+                data = sortProvinces(data);
+                viewModel().info.availableProvinces(data);
+            }).fail(function() {
+                viewModel().info.availableProvinces([{id: 79, name: "Hồ Chí Minh"}]);
+                console.log("Error contacting api server! Use HCM as the only value");
+            });
+        }
+
+        function populateDistrictByProvinceName(provinceName){
+            if(typeof provinceName === "string") {
+                var provinceId = lookupPlaceIdFromName(viewModel().info.availableProvinces(), provinceName);
+            }
+            getListOfDistrictsByProvinceIdFromApi(provinceId);
+        }
+
+        function getListOfDistrictsByProvinceIdFromApi(provinceId) {
+            $.getJSON(apiBaseURL + "/v1/province/" + provinceId + "/districts", function (data) {
+                data = sortDistrictOrProvinceOnLocaleCompare(data);
+                data = data.map(function(d){d.name = d.type + " " + d.name; return d;});
+                viewModel().info.availableDistricts(data);
+            }).fail(function () {
+                setDefaultValuesForDistrict();
+                console.log("Error contacting api server! Use districts of HCM.");
+                function setDefaultValuesForDistrict() {
+                    viewModel().info.availableDistricts([{"id": "760", "name": "Quận 1"}, {
+                        "id": "771",
+                        "name": "Quận 10"
+                    }, {"id": "772", "name": "Quận 11"}, {
+                        "id": "761",
+                        "name": "Quận 12"
+                    }, {"id": "769", "name": "Quận 2"}, {
+                        "id": "770",
+                        "name": "Quận 3"
+                    }, {
+                        "id": "773",
+                        "name": "Quận 4"
+                    }, {"id": "774", "name": "Quận 5"}, {"id": "775", "name": "Quận 6"}, {"id": "778", "name": "Quận 7"}, {
+                        "id": "776",
+                        "name": "Quận 8"
+                    }, {"id": "763", "name": "Quận 9"}, {"id": "785", "name": "Huyện Bình Chánh"}, {
+                        "id": "777",
+                        "name": "Quận Bình Tân"
+                    }, {"id": "765", "name": "Quận Bình Thạnh"}, {
+                        "id": "787",
+                        "name": "Huyện Cần Giờ"
+                    }, {"id": "783", "name": "Huyện Củ Chi"}, {
+                        "id": "764",
+                        "name": "Quận Gò Vấp"
+                    }, {
+                        "id": "784",
+                        "name": "Huyện Hóc Môn"
+                    }, {"id": "786", "name": "Huyện Nhà Bè"}, {"id": "768", "name": "Quận Phú Nhuận"}, {
+                        "id": "766",
+                        "name": "Quận Tân Bình"
+                    }, {
+                        "id": "767",
+                        "name": "Quận Tân Phú"
+                    }, {"id": "762", "name": "Quận Thủ Đức"}]);
+                }
+            });
+        }
+
+
+        function sortProvinces(provinces){
+            provinces = sortDistrictOrProvinceOnLocaleCompare(provinces);
+            movePopularPlaceToTop(provinces);
+            return provinces;
+            function movePopularPlaceToTop(provinces) {
+                provinces.move(28, 0);
+                provinces.move(24, 1);
+            }
+        }
+        function sortDistrictOrProvinceOnLocaleCompare(districts){
+            districts = districts.sort(function (a, b) {
+                return a.name.localeCompare(b.name);
+            });
+            return districts;
+        }
 
         function clearForm() {
             $('#bill')[0].reset();

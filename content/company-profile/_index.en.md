@@ -1,100 +1,87 @@
 +++
-title = "Đôi nét về DalaFarm"
+title = "DalaFarm Profile"
 date = "2017-03-21T21:52:24+08:00"
 
 +++
  
-# Câu chuyện DalaFarm 
+# DalaFarm Story 
 
-**DalaFarm** là công ty tiên phong trong lĩnh vực sản xuất chế biến các sản phẩm từ rau củ quả được trồng và kiếm soát bởi chính DalaFarm kết hợp với công nghệ sấy SEFD độc quyền nhằm đem đến cho khách hàng sản phẩm sạch, tiện lợi, an toàn, tốt cho sức khỏe và tiết kiệm chi phí mà vẫn giữ được vitamin và dưỡng chất trong từng sản phẩm. 
+**DalaFarm** is a pioneer company in producing fruit and vegetable products, which is grown and controlled by DalaFarm itself, combined with SEFD proprietary technology to provide customers with safe, healthy and cost-effective products while retaining the vitamins and nutrients. 
  
-**DalaFarm** luôn cam kết phát triển bền vững vì khách hàng, vì người nông dân, vì môi trường và sức khỏe cộng đồng nên tất cả các quy trình của chúng tôi đều được kiểm soát tối ưu nhất.
+**DalaFarm** is committed to sustainable development for its customers, farmers, the environment and public health. All our processes are controlled to the best of our quality standard.
+
+All fresh vegetables are grown in an organic manner at our DalaFarm farm in Lam Dong province.
+ 
+At the plant, DalaFarm uses its own SEFD technology with solar energy systems that retains over 90% nutrition and vitamins found in fresh vegetables, while also helping to save energy and protect the environment.
+ 
+**DALAFARM COMMITS TO:** 
+ 
+1.  Say no to preservatives, additives, artificial colorings or unknown materials.  
+
+2. Produce healthy yet convenient products to allow you to spend more time to care for yourself, your children and your family.  
+
+3. Always be there with you in your daily busy life by creating healthy and nutritious food. 
+
+# Farm 
+We've built the DalaFarm farm model according to organic standards and then expanded the vegetables suppliers by cooperating with farmers in Khanh Hoa and Lam Dong and some neighboring areas to grow vegetables following DalaFarm model and up to DalaFarm standards on their own lands.
+ 
+The methods of farming and harvesting are strictly controlled by DalaFarm to bring our customers best products from the most fresh, healthy and safe vegetables. Please join us at DalaFarm and the farmers altogether to protect and enhance our health by clean products, good quality, while preserving the natural habitat.
+
+# Production
+ 
+DalaFarm factory is located in the coastal city of Nha Trang. Favorable geographical position helps DalaFarm takes advantage of two large agricultural areas in Khanh Hoa and Lam Dong plus nearby neighborhood. Short transportation distance ensures vegetables stays afresh when it arrives at the factory. At the plant, DalaFarm uses its own SEFD technology with solar energy systems that retains over 90% nutrition and vitamins found in fresh vegetables, while also helping to save energy and protect the environment. 
+ 
+{{< img src="/img/company-profile/qui trinh sx.jpg" title="DalaFarm production processes" >}}
+ 
+# Development strategy 
+
+* Become one of the best companies in Vietnam that produces high quality, safe and healthy products.
+
+* Keep the people healthy and the environment clean 
+
+* Trust and quality is our top values
+
+# Why we've founded DalaFarm?
   
-Nguyên vật liệu được hướng đến trồng hoàn toàn theo phương pháp hữu cơ tại nông trại của DalaFarm tại Lâm Đồng.
- 
-Công nghệ sấy cao cấp với hệ thống sử dụng năng lượng xanh từ mặt trời giúp tiết kiệm điện năng, bảo vệ môi trường mà vẫn giữ lại đầy đủ các chất dinh dưỡng và hàm lượng vitamin có trong sản phẩm tươi. 
- 
-**Chúng tôi, tại DalaFarm, xin cam kết:**  
+DalaFarm was born to solve a complex problem that individuals find it hard: 
 
-* Giúp người tiêu dùng có những sản phẩm tốt cho sức khỏe 1 cách dễ dàng hơn đế giúp bạn có nhiều thời gian hơn để chăm sóc bản thân, con cái và gia đình.  
+* Each individual only possess strong skill in a particular field, when we team up together, we create a great team.
 
-* Sẽ luôn đồng hành cùng các bạn trong hành trình tạo ra những món ăn mới nhiều chất dinh dưỡng, tốt cho sức khỏe và phù hợp với cuộc sống bận rộn. Không tạo ra sản phẩm theo xu hướng hay nhu cầu thị trường. 
+* All team members at DalaFarm share the same passion for organic food and sustainable agriculture. 
+Hence, we are thrilled to make healthy, safe food for the customers that is easier to consume, and way faster to get.  
+That lives in our slogan "Healthy food made easy"
 
-* Chúng tôi tạo ra những sản phẩm giúp cho sức khỏe, sắc đẹp và tiện lợi.  
+* We commit to introduce and deliver the best products of Vietnam to the world
 
-* Nói không với chất bảo quản, phụ gia, phẩm màu hay các loại thực phẩm không rõ nguồn gốc.  
+# What makes DalaFarm special and can grow sustainably  
 
-Chúng tôi sẽ luôn cam kết và kiên trì đi theo con đường mình đã chọn và chứng minh sự cam kết của mình trong tất cả mọi việc chúng tôi làm thông qua sản phẩm. 
- 
-# Trang trại 
-Trang trại của DalaFram  nằm tại Thôn Pang Tiên, xã Lát, Huyện Lạc Dương, Tỉnh Lâm Đồng 
-Hình ảnh 
+We've built a strong team who has mandatory skills in numerous of fields in order to bring a product from the farm to our customers.
 
-Vùng đất sạch hoàn toàn được DalaFarm trồng theo phương pháp hữu cơ, thuận tư nhiên và đa canh. Rau sống chung với cỏ nhằm giữ nước và giảm độc tố trong đất. 
-Hình ảnh 
+Founders and co-founders are passionate, young people who share the same love with healthy food and organic agriculture.
+We strongly believe with the right attitude and right people, we can go very far together.
 
-Giống rau thuần chủng địa phương, hoàn toàn không sử dụng giống cây trồng biến đổi gien. 
-Hình ảnh 
+At DalaFarm, we continuously improve our manufacturing process as well as farming technology towards green energy,
+in order to fulfill our commitments about clean, safe, cost-savings, convenient yet healthy food.
 
-Nguồn nước sạch được trữ và lọc ngay trên đính đồi nhằm đảm bảo nguồn nước sạch trước khi tưới. 
-Hình ảnh 
+We contribute our small part for the mother Earth by farming organically and using green energy in production.
 
-Chúng tôi sử dụng hoàn toàn phân bón hữu cơ và chỉ bón 2 lần duy nhất là 1 lần trong quá trình trồng và 1 lần bổ sung dinh dưỡng cho đất sau khi đã thu hoạch. 
+# Mission - Vision - Core values - Growth strategy  
 
-# Quy trình sản xuất
- 
-Nguồn nguyên liệu rau củ quả sau khi thu hoạch tại DalaFarm sẽ được vận chuyển trong vòng 10 tiếng đến xưởng để chế biến ra thành các sản phẩm bột rau củ DalaFarm. Bên dưới là hình minh họa với thông tin chi tiết hơn. 
- 
-{{< img src="/img/company-profile/qui trinh sx.jpg" title="Quy trình sản xuất của DalaFarm" >}}
- 
-# Chiến lược phát triển 
+## Mission
+* Provide high quality healthy food for our customers
+* Save our customers time and effort by making healthy food easier to use, and faster to get
+* Protect the environment by using green energy and farming organically
 
-* Trở thành doanh  nghiệp hàng đầu của Việt Nam về chế biến thực phẩm chất lượng cao, an toàn và tốt cho sức khỏe. 
+## Vision
+More and more people realize the real values of healthy food, especially fruits, vegetables and natural herb, instead of using medicine and chemicals.
 
-* Không gây tổn hại đến con người và môi trường 
+However, our lives have been too busy to consume those food properly. Meanwhile, storage and cooking them the wrong way also make them less healthy than they should be
 
-* Uy tín và chất lượng luôn được đặt lên hàng đầu 
+Hence, DalaFarm was born to help you out with that.
 
-# Tại sao chúng tôi thành lập DalaFarm?  
-Dalafarm sinh ra để giải quyết các bài toán mà một start up với 1, 2 cá nhân đơn lẻ ko thể làm đc: 
- 
-* Từng cá nhân chỉ có 1 điểm mạnh ở 1 lĩnh vực nào đó, khi kết hợp lại với nhau chúng ta sẽ mạnh hơn,  
+## Core values
+Quality is our core value. DalaFarm commits to only deliver our highest quality products to our customers
 
-* Tất cả thành viên DalaFarm đều yêu nông nghiệp sạch, chúng ta đến với nhau vì một sứ mệnh chung, là làm cho những cây rau, cây thảo dược được đến tay người tiêu dùng nhanh nhất, thuận tiện nhất. Mọi người có thể sử dụng những sản phẩm tốt cho sức khỏe của mình một cách thuận tiện nhất  
-
-* Và vì một niềm khao khát chung là đưa sản phẩm của chúng ta đc sánh vai với nông sản các nước trong khu vực nói rieengz và trên TG nói chung  
-
-* Vì chúng tôi đang sản xuất ra những sản phẩm mà xã hội cần. Và chúng ta có thể làm đc nó  
-
-# Theo DalaFarm, điều gì để công ty có thể phát triển và cạnh tranh được so với các đối thủ trên thị trường?  
-
-DalaFarm tự hào vì xây dựng được một đội ngũ mạnh về các lĩnh vực cần thiết để đưa 1 sản phẩm từ khâu nông trại, đến sản xuất ra thành phẩm và đến tay người tiêu dùng. 
-
-Những người sáng lập và đồng sáng lập trẻ đầy nhiệt huyết, đam mê với công việc, và tình yêu với nông nghiệp sạch cũng như thực phẩm có ích cho sức khỏe. Chúng tôi tin rằng, với ngọn lửa nhiệt huyết đó, chúng tôi sẽ đi được rất xa cùng nhau để xây dựng và phát triển DalaFarm.  
-
-Tại DalaFarm, chúng tôi luôn tìm tòi nâng cao khả năng sản xuất và nghiên cứu về quy trình công nghệ theo hướng năng lượng sạch và công nghệ cao, để giữ đúng cam kết với khách hàng về sản phẩm sạch, an toàn, có lợi cho sức khỏe và tiết kiệm thời gian đối đa khi sử dụng.  
-
-Chúng tôi góp phần bảo vệ môi trường bằng cách trồng trọt theo hướng hữu cơ và sản xuất sử dụng năng lượng sạch.  
-
-# Sứ mệnh - Tầm nhìn - Giá trị cốt lõi - Định hướng phát triển trong tương lai của DalaFarm  
-
-## Sứ mệnh  
-* Bảo vệ sức khoẻ mọi người bằng các sản phẩm tự nhiên 
-* Giúp mọi người sử dụng sản phẩm một cách thuận tiện nhất, tiết kiệm thời gian nhất 
-* Góp phần bảo vệ môi trường bằng cách sử dụng năng lượng xanh và canh tác theo hướng hữu cơ  
-
-## Tầm nhìn  
-Càng ngày chúng ta càng nhận ra vai trò của thực phẩm, đặc biệt là các loại rau củ và các loại cây thảo mộc từ thiên nhiên, thay vì sử dụng các loài thuốc kháng sinh hay chất hoá học   
-
-Tuy nhiên, thế giói công nghiệp hoá, làm chúng ta luôn bận rộn và không có đủ thời gian để chế biến các thực phẩm đó. Đồng thời, cách bảo quản và nấu nướng không khoa học sẽ làm cho dưỡng chất mất đi rất nhiều.   
-
-Vì các lý do đó mà DalaFarm ra đời để giúp các bạn làm tất cả những việc trên. 
-
-**CÁC BẠN CỨ VIỆC SỬ DỤNG BỘT RAU CỦ DALAFARM, SỨC KHOẺ VÀ THỜI GIAN CỦA CÁC BẠN CỨ ĐỂ DALAFARM LO**  
-
-## Giá trị cốt lõi: 
-Lấy chất lương làm trọng tâm. DalaFarm không bao giờ bán sản phẩm kém chất lượng ra ngoài thị trường
-
-## Định hướng phát triển: 
-Tập trung phát triển dòng bột rau củ và thảo dược giúp người tiêu dùng bảo vệ sức khoẻ một cách thuận tiện và tự nhiên nhất 
+## Growth strategy
+Develop vegetables powders and herb products to help our customers improve their health in a convenient way
  

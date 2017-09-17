@@ -29,55 +29,59 @@
                 <form class="form-horizontal" name="bill" id="bill">
                     <fieldset>
 
-                        <div id="products">
-                            <div class="row row-eq-height">
-
+                        <div id="products" class="flex-wrap">
                             {{ $data := index .Site.Data .Site.Language.Lang }}
                             {{ $prices := $data.price }}
                             {{ range $i, $e := where .Site.Pages "Section" "product" }}
-                            {{ if isset .Params "key" }}
-                            <div class="col-xs-4 box-item product-box" style="margin-bottom: 1em; padding-bottom: 1em;">
-                                <a href="{{ .URL }}" class="product-link">
-                                    {{ $url := printf "img/product/%s" .Params.thumbnail }}
-                                    <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Title }}">
-                                </a>
-                                <div class="product-caption text-price">
-                                    <h4>{{ .Title | markdownify }}</h4>
-                                    <p>
-                                        {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
-                                        {{ $discounted_price := index $prices $dscnt_price }}
-                                        {{ if gt $discounted_price 0 }}<span class="text-current-price" id="{{ printf "%sPrice" .Params.key }}" data-price="{{ $discounted_price }}" data-bind="text: numeral({{ $discounted_price }}).format('0,0')">
-                                        {{ else }}<span class="text-current-price" id="{{ printf "%sPrice" .Params.key }}" data-price="{{ index $prices .Params.key }}" data-bind="text: numeral({{ index $prices .Params.key }}).format('0,0')">
-                                        {{ end }}</span>
-                                    </p>
-                                </div>
-                                <div class="input-group btn-block" data-bind="visible: products.{{.Params.key}}Amt() == 0">
-                                    <button type="button" class="btn btn-default btn-lg btn-number add-to-cart-init-btn" data-type="plus" data-field="quant[1]-{{.Params.key}}"
-                                            id="addToCartBtn"
-                                            onclick="dataLayer.push({'sku': '{{ .Params.key }}', 'value': 1})">
-                                        <span class="">Mua</span>
-                                    </button>
-                                </div>
-                                <div class="input-group" data-bind="visible: products.{{.Params.key}}Amt() > 0">
+                                {{ if isset .Params "key" }}
+                                <div class="col-xs-4 col-md-3 box-item product-box flex-column" style="margin-bottom: 1em;">
+                                    <a href="{{ .URL }}" class="product-link">
+                                        {{ $url := printf "img/product/%s" .Params.thumbnail }}
+                                        <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Title }}">
+                                    </a>
+                                    <div class="product-description flex-column">
+                                        <div class="product-caption">
+                                            <h4>{{ .Title | markdownify }}</h4>
+                                        </div>
+                                        <div class=" text-price">
+                                            <p>
+                                                {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
+                                                {{ $discounted_price := index $prices $dscnt_price }}
+                                                {{ if gt $discounted_price 0 }}<span class="text-current-price" id="{{ printf "%sPrice" .Params.key }}" data-price="{{ $discounted_price }}" data-bind="text: numeral({{ $discounted_price }}).format('0,0')">
+                                                {{ else }}<span class="text-current-price" id="{{ printf "%sPrice" .Params.key }}" data-price="{{ index $prices .Params.key }}" data-bind="text: numeral({{ index $prices .Params.key }}).format('0,0')">
+                                                {{ end }}</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="input-group btn-block" data-bind="visible: products.{{.Params.key}}Amt() == 0">
+                                        <button type="button" class="btn btn-default btn-lg btn-number add-to-cart-init-btn" data-type="plus" data-field="quant[1]-{{.Params.key}}"
+                                                id="addToCartBtn"
+                                                onclick="dataLayer.push({'sku': '{{ .Params.key }}', 'value': 1})">
+                                            Chọn
+                                        </button>
+                                    </div>
+                                    <div class="input-group" data-bind="visible: products.{{.Params.key}}Amt() > 0">
+                                            <span class="input-group-btn">
+                                                 <button type="button" class="btn btn-default btn-lg btn-number add-to-cart-btn"
+                                                         onclick="dataLayer.push({'sku': '{{ .Params.key }}', 'value': -1})"
+                                                         id="addToCartBtnMinus"
+                                                         data-type="minus" data-field="quant[1]-{{.Params.key}}">
+                                                     <span class="glyphicon glyphicon-minus"></span>
+                                                 </button>
+                                            </span>
+                                        <input data-bind="value: products.{{.Params.key}}Amt" type="text" name="quant[1]-{{.Params.key}}" class="form-control input-lg input-number add-to-cart-btn" value="0" min="0" max="10">
                                         <span class="input-group-btn">
-                                             <button type="button" class="btn btn-default btn-lg btn-number add-to-cart-btn" data-type="minus" data-field="quant[1]-{{.Params.key}}">
-                                                 <span class="glyphicon glyphicon-minus"></span>
-                                             </button>
-                                        </span>
-                                    <input data-bind="value: products.{{.Params.key}}Amt" type="text" name="quant[1]-{{.Params.key}}" class="form-control input-lg input-number add-to-cart-btn" value="0" min="0" max="10">
-                                    <span class="input-group-btn">
-                                            <button type="button" class="btn btn-default btn-lg btn-number add-to-cart-btn" data-type="plus" data-field="quant[1]-{{.Params.key}}">
-                                                <span class="glyphicon glyphicon-plus"></span>
-                                            </button>
-                                        </span>
+                                                <button type="button" class="btn btn-default btn-lg btn-number add-to-cart-btn"
+                                                        onclick="dataLayer.push({'sku': '{{ .Params.key }}', 'value': 1})"
+                                                        id="addToCartBtnPlus"
+                                                        data-type="plus" data-field="quant[1]-{{.Params.key}}">
+                                                    <span class="glyphicon glyphicon-plus"></span>
+                                                </button>
+                                            </span>
+                                    </div>
                                 </div>
-                            </div>
-                            {{ end }}
-                                {{ if modBool ( add $i 1) 3 }}
-                                </div><div class="row row-eq-height">
                                 {{ end }}
                             {{ end }}
-                        </div>
                         </div>
 
 
@@ -121,7 +125,7 @@
                 email: ko.observable((bill && bill.info && bill.info.email) || ""),
                 address: ko.observable((bill && bill.info && bill.info.address) || ""),
                 province: ko.observable((bill && bill.info && bill.info.province) || "TP HCM"),
-                suburb: ko.observable((bill && bill.info && bill.info.suburb) || ""),
+                district: ko.observable((bill && bill.info && bill.info.district) || ""),
                 paymentType: ko.observable((bill && bill.info && bill.info.paymentType) || "cod"),
                 additionalNote: ko.observable((bill && bill.info && bill.info.additionalNote) || "")
             },
@@ -148,7 +152,8 @@
                 garlicwineAmt: ko.observable((bill && bill.products && bill.products.garlicwineAmt) || "0"),
                 garlichoneyAmt: ko.observable((bill && bill.products && bill.products.garlichoneyAmt) || "0")*/,
                 sundetoxAmt: ko.observable((bill && bill.products && bill.products.sundetoxAmt) || "0"),
-                moondetoxAmt: ko.observable((bill && bill.products && bill.products.moondetoxAmt) || "0")
+                moondetoxAmt: ko.observable((bill && bill.products && bill.products.moondetoxAmt) || "0"),
+                stardetoxAmt: ko.observable((bill && bill.products && bill.products.stardetoxAmt) || "0")
             }
         };
 
@@ -176,7 +181,10 @@
                 bill.products = onscreenBill.products;
             }
             bill = storeProductPrice(bill);
-
+            if(isEmptyCart(bill)){
+                alert("Bạn chưa chọn sản phẩm nào. Vui lòng chọn sản phẩm cần mua trước khi tiếp tục!");
+                return;
+            }
             saveToSession(bill);
             window.location = "/shipping";
         });
@@ -277,7 +285,7 @@
         var secondPart = (Math.random() * 46656) | 0;
         firstPart = ("000" + firstPart.toString(36)).slice(-3);
         secondPart = ("000" + secondPart.toString(36)).slice(-3);
-        return firstPart + secondPart;
+        return (firstPart + secondPart).toUpperCase();
     }
 
 </script>

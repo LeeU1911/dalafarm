@@ -1,27 +1,39 @@
-<div class="col-xs-4 box-item product-box" itemprop="itemListElement" itemscope itemtype="http://schema.org/Product">
+<div class="col-xs-4 col-md-3 box-item product-box flex-column" itemprop="itemListElement" itemscope itemtype="http://schema.org/Product">
     <a itemprop="url" href="{{ .URL }}" class="product-link">
         {{ $url := printf "img/product/%s" .Params.thumbnail }}
         <img itemprop="image" src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Title }}">
     </a>
-    <div class="product-caption text-price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-        <h4 itemprop="name">{{ .Title | markdownify }}</h4>
-        <p class="text-current-price">
-            <span itemprop="price" content="{{ echoParam .Params "discounted_price" }}">{{ echoParam .Params "discounted_price" }}</span>
-            {{ if isset .Params "discounted_price" }}
-                <span itemprop="priceCurrency" content="{{ i18n "currency" }}">{{ i18n "currency" }}</span>
-            {{ end }}
-            {{ if isset .Params "discounted_percent" }}
-            <span class="text-discount-percent">
-                {{ echoParam .Params "discounted_percent" }}
-            </span>
-            {{ end }}
-        </p>
-        <p>
-            {{ if isset .Params "discounted_price" }}
-            <span class="text-original-price">{{ .Params.price }} {{ i18n "currency" }}</span>
-            {{else if isset .Params "price"}}
-            <span class="text-current-price"><span itemprop="price" content="{{ .Params.price }}">{{ .Params.price }}</span> <span itemprop="priceCurrency" content="{{ i18n "currency" }}">{{ i18n "currency" }}</span></span>
-            {{end}}
-        </p>
+    <div class="product-description flex-column">
+        <div class="product-caption" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <h4 itemprop="name">{{ .Title | markdownify }}</h4>
+        </div>
+        <div>
+            <div class=" text-price">
+                <p class="text-current-price">
+                    <span itemprop="price" content="{{ echoParam .Params "discounted_price" }}">{{ echoParam .Params "discounted_price" }}</span>
+                    {{ if isset .Params "discounted_price" }}
+                    <span itemprop="priceCurrency" content="{{ i18n "currency" }}">{{ i18n "currency" }}</span>
+                    {{ end }}
+                    {{ if isset .Params "discounted_percent" }}
+                    <span class="text-discount-percent">
+                    {{ echoParam .Params "discounted_percent" }}
+                </span>
+                    {{ end }}
+                </p>
+                <p>
+                    {{ if isset .Params "discounted_price" }}
+                    <span class="text-original-price">{{ .Params.price }} {{ i18n "currency" }}</span>
+                    {{else if isset .Params "price"}}
+                    <span class="text-current-price"><span itemprop="price" content="{{ .Params.price }}">{{ .Params.price }}</span> <span itemprop="priceCurrency" content="{{ i18n "currency" }}">{{ i18n "currency" }}</span></span>
+                    {{end}}
+                </p>
+            </div>
+            <div class="input-group btn-block">
+                <a href="{{ "/order" | absLangURL }}"><button type="button" class="btn btn-default btn-lg btn-number add-to-cart-init-btn init-order-class"
+                        id="buyBtn">
+                    <span class="">Mua</span>
+                </button></a>
+            </div>
+        </div>
     </div>
 </div>

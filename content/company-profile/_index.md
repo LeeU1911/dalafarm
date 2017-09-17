@@ -28,16 +28,12 @@ Chúng tôi sẽ luôn cam kết và kiên trì đi theo con đường mình đ�
  
 # Trang trại 
 Trang trại của DalaFram  nằm tại Thôn Pang Tiên, xã Lát, Huyện Lạc Dương, Tỉnh Lâm Đồng 
-Hình ảnh 
 
 Vùng đất sạch hoàn toàn được DalaFarm trồng theo phương pháp hữu cơ, thuận tư nhiên và đa canh. Rau sống chung với cỏ nhằm giữ nước và giảm độc tố trong đất. 
-Hình ảnh 
 
 Giống rau thuần chủng địa phương, hoàn toàn không sử dụng giống cây trồng biến đổi gien. 
-Hình ảnh 
 
 Nguồn nước sạch được trữ và lọc ngay trên đính đồi nhằm đảm bảo nguồn nước sạch trước khi tưới. 
-Hình ảnh 
 
 Chúng tôi sử dụng hoàn toàn phân bón hữu cơ và chỉ bón 2 lần duy nhất là 1 lần trong quá trình trồng và 1 lần bổ sung dinh dưỡng cho đất sau khi đã thu hoạch. 
 
@@ -49,14 +45,14 @@ Nguồn nguyên liệu rau củ quả sau khi thu hoạch tại DalaFarm sẽ đ
  
 # Chiến lược phát triển 
 
-* Trở thành doanh  nghiệp hàng đầu của Việt Nam về chế biến thực phẩm chất lượng cao, an toàn và tốt cho sức khỏe. 
+* Trở thành doanh nghiệp hàng đầu của Việt Nam về chế biến thực phẩm chất lượng cao, an toàn và tốt cho sức khỏe. 
 
 * Không gây tổn hại đến con người và môi trường 
 
 * Uy tín và chất lượng luôn được đặt lên hàng đầu 
 
 # Tại sao chúng tôi thành lập DalaFarm?  
-Dalafarm sinh ra để giải quyết các bài toán mà một start up với 1, 2 cá nhân đơn lẻ ko thể làm đc: 
+DalaFarm sinh ra để giải quyết các bài toán mà một start up với 1, 2 cá nhân đơn lẻ ko thể làm đc: 
  
 * Từng cá nhân chỉ có 1 điểm mạnh ở 1 lĩnh vực nào đó, khi kết hợp lại với nhau chúng ta sẽ mạnh hơn,  
 

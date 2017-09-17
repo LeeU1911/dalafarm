@@ -13,6 +13,8 @@
 @color_13: #d21f30;
 @color_14: rgba(28,28,28,.5);
 @color_15: red;
+@color_16: rgb(66, 189, 65);
+@color_17: rgba(66, 189, 65, 0.7);
 @font_family_1: "Helvetica Neue",Helvetica,Arial,sans-serif;
 @font_family_2: "Helvetica Neue",Helvetica,Arial,sans-serif;
 @font_family_3: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -983,6 +985,12 @@ img {
 .sp-wrap {
   max-width: 100%;
   margin: 0;
+  display: inline-flex;
+  flex-direction: row-reverse;
+}
+.sp-thumbs {
+  display: inline-flex;
+  flex-direction: column;
 }
 .product-viewer {
   display: inline-block;
@@ -1241,11 +1249,10 @@ img {
   }
 }
 
-#return-to-top {
+.float-button {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.7);
   width: 50px;
   height: 50px;
@@ -1254,12 +1261,45 @@ img {
   -webkit-border-radius: 35px;
   -moz-border-radius: 35px;
   border-radius: 35px;
-  display: none;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+
+.float-button i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+
+}
+.fa-3x {
+  font-size: 3em !important;}
+#init-order {
+  width: 80px;
+  height: 80px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background: @color_16;
+}
+
+#init-order i {
+  left: 0px;
+  top: 42px;
+}
+#return-to-top {
+  .float-button;
+  display: none;
 }
 #return-to-top i {
   color: #fff;
@@ -1298,7 +1338,7 @@ img {
 }
 
 .add-to-cart-btn {
-  background-color: rgb(66, 189, 65);
+  background-color: @color_16;
   text-align: center;
   color: white;
 }
@@ -1311,17 +1351,33 @@ img {
     padding: 2px 0px;
   }
   button.add-to-cart-btn {
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-left: 3px;
+    padding-right: 3px;
   }
 }
 
 .add-to-cart-init-btn {
   padding: 0.5em 1em;
   width: 100%;
+  border: 2px solid @color_16;
   .add-to-cart-btn;
 }
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-description{
+  flex-grow: 1;
+}
 
+.product-box {
+  padding-bottom: 1em;
+}
 .fb-share-button {
     transform: scale(1.5, 1.25);
     transform-origin: top left;

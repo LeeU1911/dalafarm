@@ -1,5 +1,5 @@
 +++
-date = "2017-09-29T23:12:45+08:00"
+date = "2017-05-07T14:31:45+08:00"
 description = "Dầu tỏi tía nguyên chất chai 250 ml"
 price = "150,000"
 img = ["DAU 1.jpg","DAU 2.jpg","DAU 3.jpg","DAU 4.jpg","DAU 5.jpg"]
@@ -8,10 +8,10 @@ tags = ["garlic-oil","DalaBaby-powder"]
 thumbnail = "dau-toi-tn.jpg"
 title = "Dầu tỏi tía Đà Lạt (250ml)"
 key = "garlicoil"
-weight = 1
+weight = 2
 +++
 
-# DẦU TỎI TÍA Đà LẠT
+# DẦU TỎI TÍA ĐÀ LẠT
 
 ### Thành phần
 100% dầu mè và tinh dầu tỏi. 100% nguyên chất, không phụ gia và chất bảo quản
@@ -41,21 +41,22 @@ Trong đa số các loại dầu ăn có chứa một thành phần chất béo 
 Cho một muỗng dầu ăn vào thức ăn của trẻ khi chuẩn bị bắc khỏi bếp mới có tác dụng tốt đối với sự phát triển của bé vì khi đó dầu chưa bị biến chất do tác động của nhiệt độ cao, giúp trẻ hấp thu dễ dàng hơn.
 
 ### Công dụng của dầu tỏi tía
-Tăng cường sức đề kháng.
 
-Hỗ trợ khi bé cảm cùm.
+* Tăng cường sức đề kháng.
 
-Giúp bé ăn ngon, tiêu hóa tốt.
+* Hỗ trợ khi bé cảm cùm.
 
-Chữa rối loạn hô hấp
+* Giúp bé ăn ngon, tiêu hóa tốt.
 
-Trị đau bụng
+* Chữa rối loạn hô hấp
 
-Kiểm soát nhiễm trùng
+* Trị đau bụng
 
-Chữa lành vết thương
+* Kiểm soát nhiễm trùng
 
-Tẩy giun
+* Chữa lành vết thương
+
+* Tẩy giun
 
 ### Bảo quản
 

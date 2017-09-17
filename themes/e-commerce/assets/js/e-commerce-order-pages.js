@@ -43,7 +43,7 @@ function calculateTotalBillWithoutShippingCost(bill) {
 }
 
 function calculateTotalBill(bill) {
-    return bill.subtotal + calculateShippingCost(bill);
+    return bill.subtotal + bill.shippingCost;
 }
 
 function roundDownToThousand(value){
@@ -70,82 +70,35 @@ function getProductsArrayFromBill(b) {
     });
 }
 
-function calculateShippingCost(bill) {
-    var province = bill.info.province;
-    var shippingCost = 0;
-    var weight = calculateWeightOfPowders(bill);
-    console.log("Weight is " + weight);
-    if(bill.freeShip){
-        return 0;
-    }
-    if (province === "TP HCM") {
-        if(bill.info.suburb){
-            shippingCost = 25000;
+   var apiBaseURL = "https://api.dalafarm.com.vn";
+// var apiBaseURL = "http://localhost:8080";
+
+function getShippingCostNUpdateSubtotal(dropDistrictId, callback, weight) {
+    var payload = { "pickupDistrictId": "772", "dropDistrictId": dropDistrictId, "weight": weight || 0};
+    NProgress.start();
+    $.ajax({
+        type: 'POST',
+        url: apiBaseURL + "/v1/logistic/shipping-fee",
+        data: JSON.stringify(payload),
+        success: function(data) { if(data.success) {//{"success":true,"message":"Able to deliver this package","totalFee":45000,"vendorId":1}
+            callback(data.totalFee, data.vendorId);
         }else{
-            shippingCost = 20000;
-        }
-    } else {
-            if (groupA(province)) {
-                weight <= 300 ? shippingCost = 30000 : (weight <= 500 ? shippingCost = 40000 : (weight <= 1000 ? shippingCost = 50000 : (weight <= 1500 ? shippingCost = 65000 : (weight <= 2000 ? shippingCost = 75000 : shippingCost = addShippingCostAtExceedPrice(weight, 75000)))));
-            } else if (groupB(province)) {
-                weight <= 300 ? shippingCost = 35000 : (weight <= 500 ? shippingCost = 45000 : (weight <= 1000 ? shippingCost = 55000 : (weight <= 1500 ? shippingCost = 70000 : (weight <= 2000 ? shippingCost = 80000 : shippingCost = addShippingCostAtExceedPrice(weight, 80000)))));
-            } else if (groupC(province)) {
-                weight <= 300 ? shippingCost = 35000 : (weight <= 500 ? shippingCost = 45000 : (weight <= 1000 ? shippingCost = 55000 : (weight <= 1500 ? shippingCost = 70000 : (weight <= 2000 ? shippingCost = 80000 : shippingCost = addShippingCostAtExceedPrice(weight, 80000)))));
-            } else if (groupD(province)) {
-                weight <= 300 ? shippingCost = 35000 : (weight <= 500 ? shippingCost = 45000 : (weight <= 1000 ? shippingCost = 60000 : (weight <= 1500 ? shippingCost = 75000 : (weight <= 2000 ? shippingCost = 85000 : shippingCost = addShippingCostAtExceedPrice(weight, 85000)))));
-            } else if (groupE(province)) {
-                weight <= 300 ? shippingCost = 35000 : (weight <= 500 ? shippingCost = 45000 : (weight <= 1000 ? shippingCost = 60000 : (weight <= 1500 ? shippingCost = 75000 : (weight <= 2000 ? shippingCost = 85000 : shippingCost = addShippingCostAtExceedPrice(weight, 85000)))));
-            } else {
-                weight <= 300 ? shippingCost = 40000 : (weight <= 500 ? shippingCost = 50000 : (weight <= 1000 ? shippingCost = 65000 : (weight <= 1500 ? shippingCost = 80000 : (weight <= 2000 ? shippingCost = 85000 : shippingCost = addShippingCostAtExceedPrice(weight, 85000)))));
-            }
-            if(bill.info.suburb) {
-                shippingCost = shippingCost * 1.2;
-            }
-    }
-    return shippingCost;
+            alert(data.message);
+        }},
+        contentType: "application/json",
+        dataType: 'json'
+    }).fail(function(error) {
+        alert(JSON.stringify(error));
+    }).always(function () {
+        NProgress.done();
 
-    function groupA(province) {
-        return province === "Bình Dương" || province === "Đồng Nai" || province === "Tây Ninh" || province === "Bà Rịa - Vũng Tàu";
-    }
+    });
+}
 
-    function groupB(province) {
-        return province === "Bình Phước" || province === "Gia Lai" || province === "Đắk Lắk" || province === "Đắk Nông" || province === "Kon Tum" || province === "Lâm Đồng";
-    }
-
-    function groupC(province) {
-        return province === "Cần Thơ" || province === "An Giang"
-            || province === "Bạc Liêu" || province === "Bến Tre"
-            || province === "Cà Mau" || province === "Đồng Tháp"
-            || province === "Kiên Giang" || province === "Hậu Giang"
-            || province === "Long An" || province === "Sóc Trăng"
-            || province === "Trà Vinh" || province === "Tiền Giang"
-            || province === "Vĩnh Long";
-    }
-
-    function groupD(province) {
-        return province === "Hà Nội" || province === "Bắc Ninh" || province === "Vĩnh Phúc" || province === "Hải Phòng" || province === "Phú Thọ";
-    }
-
-    function groupE(province) {
-        return province === "Đà Nẵng" || province === "Quảng Nam"
-            || province === "Bình Định" || province === "Quảng Ngãi"
-            || province === "Phú Yên" || province === "Khánh Hòa"
-            || province === "Bình Thuận" || province === "Ninh Thuận"
-            || province === "Nghệ An" || province === "Thanh Hóa"
-            || province === "Quảng Bình" || province === "Hà Tĩnh"
-            || province === "Quảng Trị" || province === "Thừa Thiên Huế";
-    }
-
-    function addShippingCostAtExceedPrice(weightInGram, lowerTierShippingCost) {
-        if (weightInGram > 2000) {
-            var exceedWeight = weightInGram - 2000;
-            var nextTierPriceAddition = 10000;
-            var shippingCost = lowerTierShippingCost + (Math.ceil(exceedWeight / 500) * nextTierPriceAddition);
-            return shippingCost;
-        }
-        return lowerTierShippingCost;
-    }
-
+function lookupPlaceIdFromName(availablePlaces, placeName){
+    return availablePlaces.filter(function(p) {
+        return p.name === placeName;
+    })[0].id;
 }
 
 function calculateWeightOfPowders(bill) {
@@ -155,36 +108,77 @@ function calculateWeightOfPowders(bill) {
         if (products.hasOwnProperty(property)) {
             if (property.substr(property.length - 3, property.length) == "Amt" && products[property] > 0) {
                 weight += 50 * products[property];
-                if (property.indexOf("100") > 0) {
+                if (property.indexOf("100") > -1 || property.indexOf("detox") > -1) {
                     weight += 50 * products[property];
                 }
+                if(property.indexOf("garlicoil") > -1) {
+                    weight += 720 * products[property];
+                }
+                if(property.indexOf("dalababy") > -1) {
+                    weight += 20 * products[property];
+                }
+
             }
         }
     }
+    console.log("Weight is " + weight);
     return weight;
 }
 
 function applyPromotion(bill){
     var totalBillWoShippingCost = calculateTotalBillWithoutShippingCost(bill);
     bill.subtotal = totalBillWoShippingCost;
+    bill.promotionalProducts = {};
     var weight = calculateWeightOfPowders(bill);
-    if(weight >= 500) {
-        bill.freeShip = true;
-        bill.products['dalababyAmt']++;
-        return bill;
-    }
-    if(totalBillWoShippingCost > 680000){
-        bill.products['garlicoilAmt']++;
-        return bill;
-    }
-    if(totalBillWoShippingCost > 580000) {
-        bill.freeShip = true;
-        return bill;
-    }
+    // if(weight >= 500 && only50gPowdersInOrder(bill)) {
+    //     bill.freeShip = true;
+    //     bill.products['dalababyAmt']++;
+    //     bill.promotionalProducts['dalababyAmt'] = 1;
+    //     return bill;
+    // }
+    // if(totalBillWoShippingCost > 680000){
+    //     bill.products['garlicoilAmt']++;
+    //     bill.promotionalProducts['garlicoilAmt'] = 1;
+    //     return bill;
+    // }
+    // if(totalBillWoShippingCost > 580000) {
+    //     bill.freeShip = true;
+    //     return bill;
+    // }
     return bill;
 }
 
+function only50gPowdersInOrder(bill){
+    var products = bill.products;
+    var numOf50gPowder = 0;
+    for (var property in products) {
+        if (products.hasOwnProperty(property)) {
+            if (property.substr(property.length - 3, property.length) == "Amt" && products[property] > 0) {
+                if (!(property.indexOf("detox") > -1 || property.indexOf("dalababy") > -1 || property.indexOf("garlicoil") > -1)) {
+                    numOf50gPowder += products[property];
+                }
+            }
+        }
+    }
+    return numOf50gPowder >= 10;
+
+}
+function isEmptyCart(bill) {
+    var products = bill.products;
+    for (var property in products) {
+        if (products.hasOwnProperty(property)) {
+            if (property.substr(property.length - 3, property.length) == "Amt" && products[property] > 0) {
+                return false;
+            }
+        }
+    }
+    return true;
+}
+
 // Utility methods
+Array.prototype.move = function(from, to) {
+    this.splice(to, 0, this.splice(from, 1)[0]);
+};
 
 function humanizeProductName(productKey) {
     if (productKey) {
@@ -235,6 +229,8 @@ function humanizeProductName(productKey) {
                 return "Bột detox đỏ Sun Powder 100g";
             case "moondetox":
                 return "Bột detox xanh Moon Powder 100g";
+            case "stardetox":
+                return "Bột detox vàng Star Powder 100g";
             default:
                 return productKey;
         }

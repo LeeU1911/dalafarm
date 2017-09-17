@@ -36,7 +36,7 @@ weight = 2
 parent = "blog"
 
 [[Languages.vi.menu.main]]
-url    = "/#san-pham"
+url    = "/san-pham"
 name   = "Sản Phẩm"
 weight = 2
 
@@ -84,8 +84,8 @@ description = """DalaFarm cung cấp các sản phẩm bột rau củ, bao gồm
                  và dầu tỏi."""
 
 # Link custom assets relative to /static
-custom_css = []
-custom_js  = []
+custom_css = ["css/nprogress.css"]
+custom_js  = ["js/nprogress.js"]
 favicon    = "favicon.ico"
 #Content footer
 #contentFooter = """
@@ -245,9 +245,9 @@ enable = true
 copyright = "Bản quyền thuộc DalaFarm (C) 2017"
 info = """##### DALAFARM - CÔNG TY TNHH SXTM CHUÔNG XANH
 
-<i class="fa fa-building-o"></i> 317 Lô D, CC Lạc Long Quân, Phường 5, Quận 11, TP.HCM <i class="fa fa-phone"></i> [(028) 6684 2517](tel:028 6684 2517)
+<i class="fa fa-building-o"></i> 317 Lô D, CC Lạc Long Quân, Phường 5, Quận 11, TP.HCM <i class="fa fa-phone"></i> [0906 951 498](tel:0906 951 498)
 
-<i class="fa fa-cogs"></i> Tổ 18, thôn Xuân Ngọc, xã Vĩnh Ngọc, Nha Trang, Khánh Hòa <i class="fa fa-phone"></i> [(0258) 3899 189](tel:0258 3899 189)
+<i class="fa fa-cogs"></i> Tổ 18, thôn Xuân Ngọc, xã Vĩnh Ngọc, Nha Trang, Khánh Hòa
 
 <i class="fa fa-envelope"></i> [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
 
@@ -267,6 +267,28 @@ info = """##### DALAFARM - CÔNG TY TNHH SXTM CHUÔNG XANH
   icon = "fa-instagram"
   link = "https://www.instagram.com/dalafarm.com.vn/"
 
+[[Languages.vi.params.footer.sitemap]]
+  text = "DalaFarm Blog"
+  link = "/blog/"
+[[Languages.vi.params.footer.sitemap]]
+  text = "DalaFarm Kitchen"
+  link = "/dala-kitchen/"
+[[Languages.vi.params.footer.sitemap]]
+  text = "Sản phẩm"
+  link = "/san-pham/"
+[[Languages.vi.params.footer.sitemap]]
+  text = "Hỏi đáp"
+  link = "/qa/"
+[[Languages.vi.params.footer.sitemap]]
+  text = "Đôi nét về DalaFarm"
+  link = "/company-profile/"
+[[Languages.vi.params.footer.sitemap]]
+  text = "Giấy tờ chứng nhận"
+  link = "/company-docs/"
+[[Languages.vi.params.footer.sitemap]]
+  text = "Thành viên DalaFarm"
+  link = "/team/"
+
 ########################################
 #
 ## English
@@ -278,12 +300,23 @@ weight = 0
 product = "/product/:slug"
 
 [[Languages.en.menu.main]]
-url    = "/blog"
+url    = "#"
 name   = "Blog"
 weight = 1
 identifier = "blog"
 [[Languages.en.menu.main]]
-url    = "/#product"
+url    = "/blog"
+name   = "DalaFarm Blog"
+weight = 1
+parent = "blog"
+[[Languages.en.menu.main]]
+url    = "/dala-kitchen"
+name   = "DalaFarm Kitchen"
+weight = 2
+parent = "blog"
+
+[[Languages.en.menu.main]]
+url    = "/product"
 name   = "Products"
 weight = 2
 
@@ -299,7 +332,7 @@ weight = 4
 identifier = "about-us"
 [[Languages.en.menu.main]]
 url    = "/#about-us"
-name   = "DalaFarm journey"
+name   = "DalaFarm Journey"
 weight = 1
 parent = "about-us"
 [[Languages.en.menu.main]]
@@ -331,23 +364,23 @@ description = """DalaFarm provides vegetables powders such as strawberry, celery
                  """
 
 # Link custom assets relative to /static
-custom_css = []
-custom_js  = []
+custom_css = ["css/nprogress.css"]
+custom_js  = ["js/nprogress.js"]
 favicon    = "favicon.ico"
 #Content footer
-contentFooter = """
----
-CALL US - [+84906 951 498](tel:+84906 951 498) OR [+84918 241 066](tel:+84918 241 066)
-TO BE CONSULTED AND GET DALAFARM VEGGIE POWDERS WITH BEST PRICE.
-
-OFFICE: 317 block D, Lạc Long Quân apartment, Ward 5, District 11, Ho Chi Minh City
-
-Phone: [(+8428) 6684 2517](tel:+8428 6684 2517); [(+84258) 3899 189](tel:+84258 3899 189)
-
-Partners who would like to know more about company profile, please call us at [+84906 951 498](tel:+84906 951 498) OR [+84918 241 066](tel:+84918 241 066) or email: [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
-
-Care about commission programs and promotional campaigns, please call us at [+84906 951 498](tel:+84906 951 498) OR [+84918 241 066](tel:+84918 241 066) or email: [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn)
-"""
+#contentFooter = """
+#---
+#CALL US - [+84906 951 498](tel:+84906 951 498) OR [+84918 241 066](tel:+84918 241 066)
+#TO BE CONSULTED AND GET DALAFARM VEGGIE POWDERS WITH BEST PRICE.
+#
+#OFFICE: 317 block D, Lạc Long Quân apartment, Ward 5, District 11, Ho Chi Minh City
+#
+#Phone: [(+8428) 6684 2517](tel:+8428 6684 2517); [(+84258) 3899 189](tel:+84258 3899 189)
+#
+#Partners who would like to know more about company profile, please call us at [+84906 951 498](tel:+84906 951 498) OR [+84918 241 066](tel:+84918 241 066) or email: [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
+#
+#Care about commission programs and promotional campaigns, please call us at [+84906 951 498](tel:+84906 951 498) OR [+84918 241 066](tel:+84918 241 066) or email: [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn)
+#"""
 related_blog_limit = 7
 
 # Navigation
@@ -512,3 +545,25 @@ info = """##### DALAFARM - CHUÔNG XANH PRODUCING AND TRADING CO. LTD.
 [[Languages.en.params.footer.social]]
   icon = "fa-instagram"
   link = "https://www.instagram.com/dalafarm.com.vn/"
+
+[[Languages.en.params.footer.sitemap]]
+  text = "DalaFarm Blog"
+  link = "/blog/"
+[[Languages.en.params.footer.sitemap]]
+  text = "DalaFarm Kitchen"
+  link = "/dala-kitchen/"
+[[Languages.en.params.footer.sitemap]]
+  text = "Product"
+  link = "/product/"
+[[Languages.en.params.footer.sitemap]]
+  text = "FAQ"
+  link = "/qa/"
+[[Languages.en.params.footer.sitemap]]
+  text = "DalaFarm Profile"
+  link = "/company-profile/"
+[[Languages.en.params.footer.sitemap]]
+  text = "Ceritificates"
+  link = "/company-docs/"
+[[Languages.en.params.footer.sitemap]]
+  text = "DalaFarm Team"
+  link = "/team/"

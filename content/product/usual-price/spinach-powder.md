@@ -8,7 +8,7 @@ product_line = ""
 tags = ["veggie-powder","spinach"]
 thumbnail = "spinach-1.jpg"
 title = "Bột Rau Bó Xôi (50g)"
-weight = 1
+weight = 3
 aliases = ["/san-pham/bot-rau-bo-xoi-50g","/san-pham/bot-cai-bo-xoi-50g"]
 key = "spinach"
 +++
