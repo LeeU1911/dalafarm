@@ -149,24 +149,25 @@ function applyPromotion(bill){
     //     bill.freeShip = true;
     //     return bill;
     // }
-    if(isComboDetox(bill)) {
-        bill.promotionalProducts['mooncakeAmt'] = 1;
+    var numberOfComboDetox2 = numberOfComboDetox(bill);
+    if(numberOfComboDetox2 > 0) {
+        bill.promotionalProducts['mooncakeAmt'] = numberOfComboDetox2;
     }
 
     return bill;
 }
-function isComboDetox(bill) {
+function numberOfComboDetox(bill) {
     var products = bill.products;
     for (var property in products) {
         if (products.hasOwnProperty(property)) {
             if (property.substr(property.length - 3, property.length) == "Amt" && products[property] > 0) {
                 if (property.indexOf("combodetox") > -1) {
-                    return true;
+                    return products[property];
                 }
             }
         }
     }
-    return false;
+    return 0;
 }
 function only50gPowdersInOrder(bill){
     var products = bill.products;

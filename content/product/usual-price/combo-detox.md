@@ -2,8 +2,14 @@
 date = "2017-09-12T23:12:45+08:00"
 publishdate = "2017-09-13T01:12:45+08:00"
 description = """
+
+<p style="color: red">Khuyến mãi đặc biệt nhân dịp trung thu: Mua 1 bộ combo 3 detox thải độc toàn tiện từ DalaFarm
+sẽ được tặng 1 hộp bánh trung thu 4 bánh 75 gram với trị giá 120,000 đ!</p>
+
 * Bột Detox Star Powder đóng gói zip 100 gram
+
 * Bột Detox Sun Powder đóng gói zip 100 gram
+
 * Bột Detox Moon Powder đóng gói zip 100 gram
 
 _**Bột Detox Star, Sun và Moon Powder từ DalaFarm** được chọn lọc và chế biến từ những nguyên liệu
@@ -11,8 +17,6 @@ tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩ
 sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp chứng nhận
 VSATTP Việt Nam._
 
-<p style="color: red">Khuyến mãi đặc biệt nhân dịp trung thu: Mua 1 bộ combo 3 detox thải độc toàn tiện từ DalaFarm
-sẽ được tặng 1 hộp bánh trung thu 4 bánh 75 gram với trị giá 120,000 đ!</p>
 """
 price = "1,125,000"
 promotion_text = "Tặng 1 hộp bánh trung thu"
