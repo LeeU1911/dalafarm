@@ -20,12 +20,12 @@ img = ["combodetox(5).jpg","combodetox(1).jpg","combodetox(2).jpg","combodetox(3
 product_line = ""
 tags = ["veggie-powder","detoxpowder"]
 thumbnail = "combo-detox.jpg"
-title = "Combo Bộ 3 Detox Thải Độc Toàn Diện"
+title = "Combo Bộ 3 Detox Thải Độc Toàn Diện (300g)"
 weight = 1
-key = "stardetox"
+key = "combodetox"
 +++
 
-<h1 style="text-align: center;">Combo bộ 3 Detox thải độc toàn diện (300g)</h1>
+<h1 style="text-align: center;">Combo Bộ 3 Detox Thải Độc Toàn Diện (300g)</h1>
 
 <p style="text-align: center;">THANH LỌC CƠ THỂ TỐI ĐA VỚI BỘT RAU CỦ DETOX DALAFARM 100% TỰ NHIÊN</p>
 

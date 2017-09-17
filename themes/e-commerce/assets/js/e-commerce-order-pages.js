@@ -70,8 +70,8 @@ function getProductsArrayFromBill(b) {
     });
 }
 
-   var apiBaseURL = "https://api.dalafarm.com.vn";
-// var apiBaseURL = "http://localhost:8080";
+   // var apiBaseURL = "https://api.dalafarm.com.vn";
+var apiBaseURL = "http://localhost:8080";
 
 function getShippingCostNUpdateSubtotal(dropDistrictId, callback, weight) {
     var payload = { "pickupDistrictId": "772", "dropDistrictId": dropDistrictId, "weight": weight || 0};
@@ -231,6 +231,8 @@ function humanizeProductName(productKey) {
                 return "Bột detox xanh Moon Powder 100g";
             case "stardetox":
                 return "Bột detox vàng Star Powder 100g";
+            case "combodetox":
+                return "Combo Bộ 3 Detox Thải Độc Toàn Diện (300g)";
             default:
                 return productKey;
         }

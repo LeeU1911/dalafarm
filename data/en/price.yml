@@ -90,3 +90,10 @@ moondetox: 375000
 moondetox_discounted_price: 0
 moondetox_discounted_percent: 0
 
+stardetox: 375000
+stardetox_discounted_price: 0
+stardetox_discounted_percent: 0
+
+combodetox: 1125000
+combodetox_discounted_price: 0
+combodetox_discounted_percent: 0
