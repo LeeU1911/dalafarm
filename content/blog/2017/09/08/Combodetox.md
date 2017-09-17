@@ -5,7 +5,7 @@ thumbnail = "detox.jpg"
 title = "COMBO BỘ DETOX THẢI ĐỘC TOÀN DIỆN"
 +++
 
-<span style="text-align: center">THANH LỌC CƠ THỂ TỐI ĐA VỚI BỘT RAU CỦ DETOX DALAFARM 100% TỰ NHIÊN</span>
+<p style="text-align: center">THANH LỌC CƠ THỂ TỐI ĐA VỚI BỘT RAU CỦ DETOX DALAFARM 100% TỰ NHIÊN</p>
 
 -	Bạn có biết lượng độc tố tích tụ trong cơ thể sẽ chiếm khoảng từ 3-25kg (Chuyên gia thanh lọc độc tố người Ucraina ) và nó được tích tụ liên tục từng ngày do môi trường, thực phẩm và thói quen sinh hoạt. Độc tố ngấm vào cơ quan nội tạng phá hủy các tế bào, ngăn cản các tế bào hấp thu các chất dinh dưỡng và chặn đường thoát của các tế bào chết, gây ra hiện tượng đau đầu, chóng mặt, mệt mỏi, mất ngủ kém ăn, sức đề kháng kém và vô số các bệnh lý khác..
 
