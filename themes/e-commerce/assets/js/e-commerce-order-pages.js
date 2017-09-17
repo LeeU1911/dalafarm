@@ -70,8 +70,8 @@ function getProductsArrayFromBill(b) {
     });
 }
 
-   // var apiBaseURL = "https://api.dalafarm.com.vn";
-var apiBaseURL = "http://localhost:8080";
+   var apiBaseURL = "https://api.dalafarm.com.vn";
+// var apiBaseURL = "http://localhost:8080";
 
 function getShippingCostNUpdateSubtotal(dropDistrictId, callback, weight) {
     var payload = { "pickupDistrictId": "772", "dropDistrictId": dropDistrictId, "weight": weight || 0};
