@@ -12,6 +12,7 @@ We deliver the best of Vietnam to the world
 * Detox
   * Sun Powder
   * Moon Powder
+  * Star Powder
   
 ## Why us
 - We commit to deliver high quality made-in-Vietnam products
