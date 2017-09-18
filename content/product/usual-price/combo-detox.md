@@ -4,7 +4,7 @@ publishdate = "2017-09-13T01:12:45+08:00"
 description = """
 
 <p style="color: red">Khuyến mãi đặc biệt nhân dịp trung thu: Mua 1 bộ combo 3 detox thải độc toàn tiện từ DalaFarm
-sẽ được tặng 1 hộp bánh trung thu 4 bánh 75 gram với trị giá 120,000 đ!</p>
+sẽ được tặng 1 hộp bánh trung thu 4 bánh 75 gram với trị giá 170,000 đ!</p>
 
 * Bột Detox Star Powder đóng gói zip 100 gram
 
