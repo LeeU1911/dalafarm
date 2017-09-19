@@ -5,7 +5,7 @@ description = """
 
 <span style="color: red"><p>Khuyến mãi đặc biệt nhân dịp Trung Thu: Mua 1 bộ combo 3 detox thải độc toàn diện DalaFarm sẽ được tặng 1 hộp bánh Trung Thu đặc biệt làm từ bột rau củ DalaFarm với vị ngọt thanh nhẹ, đảm bảo chất xơ, lên màu tự nhiên từ rau củ, phù hợp cho các bạn yêu thích sự thanh đạm và đang trong quá trình ăn kiêng.
 </p><p>
-Trọng lượng: 75 gram
+Trọng lượng: 300 gram (hộp 4 cái 75 gram)
 </p><p>
 Trị giá 170.000 đ
 </p>
@@ -127,7 +127,7 @@ Dưới 25⁰C, tránh ánh sáng trực tiếp.
 
 <p style="color: red">Mua 1 bộ combo 3 detox thải độc toàn diện DalaFarm sẽ được tặng 1 hộp bánh Trung Thu đặc biệt làm từ bột rau củ DalaFarm với vị ngọt thanh nhẹ, đảm bảo chất xơ, lên màu tự nhiên từ rau củ, phù hợp cho các bạn yêu thích sự thanh đạm và đang trong quá trình ăn kiêng.
 </p><p style="color: red">
-Trọng lượng: 75 gram
+Trọng lượng: 300 gram (hộp 4 cái 75 gram)
 </p><p style="color: red">
 Trị giá 170.000 đ
 </p>
