@@ -3,7 +3,7 @@ node_js:
   - "7"
 sudo: required
 before_install:
-  - chmod +x s3_prod_push.sh
+  - chmod +x s3_preview_push.sh
 install:
   - sudo pip install Pygments
   - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.20.1/hugo_0.20.1-64bit.deb
@@ -19,6 +19,6 @@ before_deploy: pip install --user s3cmd
 deploy:
   provider: script
   skip_cleanup: true
-  script: ./s3_prod_push.sh
+  script: ./s3_preview_push.sh
   on:
-    branch: master
+    branch: preview

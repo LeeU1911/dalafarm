@@ -27,6 +27,13 @@
                     <span class="text-current-price"><span itemprop="price" content="{{ .Params.price }}">{{ .Params.price }}</span> <span itemprop="priceCurrency" content="{{ i18n "currency" }}">{{ i18n "currency" }}</span></span>
                     {{end}}
                 </p>
+                <p>
+                    {{ if isset .Params "promotion_text" }}
+                        <span class="text-discount-percent">
+                        {{ echoParam .Params "promotion_text" }}
+                        </span>
+                    {{ end }}
+                </p>
             </div>
             <div class="input-group btn-block">
                 <a href="{{ "/order" | absLangURL }}"><button type="button" class="btn btn-default btn-lg btn-number add-to-cart-init-btn init-order-class"

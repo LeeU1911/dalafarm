@@ -109,7 +109,11 @@ function calculateWeightOfPowders(bill) {
             if (property.substr(property.length - 3, property.length) == "Amt" && products[property] > 0) {
                 weight += 50 * products[property];
                 if (property.indexOf("100") > -1 || property.indexOf("detox") > -1) {
-                    weight += 50 * products[property];
+                    if(property.indexOf("combodetox") > -1){
+                        weight += 250 * products[property];
+                    }else {
+                        weight += 50 * products[property];
+                    }
                 }
                 if(property.indexOf("garlicoil") > -1) {
                     weight += 720 * products[property];
@@ -145,9 +149,27 @@ function applyPromotion(bill){
     //     bill.freeShip = true;
     //     return bill;
     // }
+    var numberOfComboDetox2 = numberOfComboDetox(bill);
+    if(numberOfComboDetox2 > 0) {
+        bill.freeShip = true;
+        bill.promotionalProducts['mooncakeAmt'] = numberOfComboDetox2;
+    }
+
     return bill;
 }
-
+function numberOfComboDetox(bill) {
+    var products = bill.products;
+    for (var property in products) {
+        if (products.hasOwnProperty(property)) {
+            if (property.substr(property.length - 3, property.length) == "Amt" && products[property] > 0) {
+                if (property.indexOf("combodetox") > -1) {
+                    return products[property];
+                }
+            }
+        }
+    }
+    return 0;
+}
 function only50gPowdersInOrder(bill){
     var products = bill.products;
     var numOf50gPowder = 0;
@@ -231,6 +253,8 @@ function humanizeProductName(productKey) {
                 return "Bột detox xanh Moon Powder 100g";
             case "stardetox":
                 return "Bột detox vàng Star Powder 100g";
+            case "combodetox":
+                return "Combo Bộ 3 Detox Thải Độc Toàn Diện (300g)";
             default:
                 return productKey;
         }
