@@ -60,12 +60,17 @@
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
+                    <div class="fb-share-button" data-href="{{ .Permalink }}" data-layout="button" data-size="large" data-mobile-iframe="false">
+                        <a class="fb-xfbml-parse-ignore" target="_blank" href="#">Share</a>
+                    </div>
+                    <br/>
+                    <br/>
                     <article class="blog-article" itemprop="articleBody">
                         {{ .Content | markdownify | emojify}}
-                        <div class="fb-share-button" data-href="{{ .Permalink }}" data-layout="button" data-size="large" data-mobile-iframe="false">
-			        		<a class="fb-xfbml-parse-ignore" target="_blank" href="#">Share</a>
-			        	</div>
                         <p>{{ with .Site.Params.params.contentFooter }}{{ . | markdownify }}{{ end }}</p>
+                        <div class="fb-share-button" data-href="{{ .Permalink }}" data-layout="button" data-size="large" data-mobile-iframe="false">
+                            <a class="fb-xfbml-parse-ignore" target="_blank" href="#">Share</a>
+                        </div>
                     </article>
                 </div>
                 <div class="col-md-1"></div>
