@@ -75,6 +75,7 @@
                     <div class="divTableRow">
                         <div class="divTableHead">Mã đơn hàng</div>
                         <div class="divTableHead">Trạng thái đơn hàng</div>
+                        <div class="divTableHead">Ngày giao hàng dự kiến</div>
                         <div class="divTableHead">Lần cập nhật cuối</div>
                     </div>
                 </div>
@@ -82,6 +83,7 @@
                     <div class="divTableRow">
                         <div class="divTableCell"><span data-bind="text: orderId"></span></p></div>
                         <div class="divTableCell"><span data-bind="text: statusMessage"></span></div>
+                        <div class="divTableCell"><span data-bind="text: estimatedDeliveryTime"></span></div>
                         <div class="divTableCell"><span data-bind="text: lastModifiedDate"></span></div>
                     </div>
                 </div>
@@ -99,6 +101,7 @@
             this.orderId = ko.observable();
             this.statusMessage = ko.observable();
             this.lastModifiedDate = ko.observable();
+            this.estimatedDeliveryTime = ko.observable();
         }
 
         var viewModel = new ViewModel();
@@ -112,6 +115,7 @@
                     viewModel.orderId(data.orderId);
                     viewModel.statusMessage(data.name);
                     viewModel.lastModifiedDate(data.lastUpdatedDate);
+                    viewModel.estimatedDeliveryTime(data.estimatedDeliveryTime);
                 }).fail(function (error) {
                     if(error.status == '404') {
                         alert("Mã đơn hàng " + orderId + " không tìm thấy. Vui lòng nhập lại mã.");
