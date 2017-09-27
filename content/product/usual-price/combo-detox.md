@@ -3,10 +3,6 @@ date = "2017-09-12T23:12:45+08:00"
 publishdate = "2017-09-13T01:12:45+08:00"
 description = """
 
-<span style="color: red; font-style: italic;">Khuyến mãi đặc biệt nhân dịp Trung Thu: Mua 1 bộ combo 3 detox thải độc toàn diện DalaFarm sẽ được tặng 1 hộp bánh Trung Thu đặc biệt làm từ bột rau củ DalaFarm với vị ngọt thanh nhẹ, đảm bảo chất xơ, lên màu tự nhiên từ rau củ, phù hợp cho các bạn yêu thích sự thanh đạm và đang trong quá trình ăn kiêng.
-Hộp bánh 300 gram (4 cái x 75 gram) trị giá 170.000 đ.
-</span>
-
 * Bột Detox Star Powder đóng gói zip 100 gram
 
 * Bột Detox Sun Powder đóng gói zip 100 gram
@@ -20,7 +16,6 @@ VSATTP Việt Nam._
 
 """
 price = "1,125,000"
-discounted_percent = "Tặng 1 hộp bánh trung thu"
 img = ["combodetox(5).jpg","combodetox(1).jpg","combodetox(2).jpg","combodetox(3).jpg","combodetox(4).jpg"]
 product_line = ""
 tags = ["veggie-powder","detoxpowder"]
@@ -118,17 +113,3 @@ Dưới 25⁰C, tránh ánh sáng trực tiếp.
 Để biết thêm độc tố chúng ta nạp mỗi ngày các bạn tham khảo link: https://dalafarm.com.vn/blog/2017/09/07/chung-ta-song-cung-voi-bao-nhieu-doc-to/
 
 Để biết các triệu chứng khi cơ thể báo hiệu cần phải detox bạn hãy tham khảo link: https://dalafarm.com.vn/blog/2017/09/08/10-dau-hieu-can-detox/
-
-<h1 style="color: red">Khuyến mãi đặc biệt nhân dịp Trung Thu</h1>
-
-<p style="color: red">Mua 1 bộ combo 3 detox thải độc toàn diện DalaFarm sẽ được tặng 1 hộp bánh Trung Thu đặc biệt làm từ bột rau củ DalaFarm với vị ngọt thanh nhẹ, đảm bảo chất xơ, lên màu tự nhiên từ rau củ, phù hợp cho các bạn yêu thích sự thanh đạm và đang trong quá trình ăn kiêng.
-</p><p style="color: red">
-Trọng lượng: 300 gram (hộp 4 cái 75 gram)
-</p><p style="color: red">
-Trị giá 170.000 đ
-</p>
-{{< img src="/img/blog/mooncake1.jpg" title="Bánh trung thu có vỏ bánh được làm bằng rau củ tự nhiên từ DalaFarm" >}}
-
-{{< img src="/img/blog/mooncake2.jpg" title="Bánh trung thu có vỏ bánh được làm bằng rau củ tự nhiên từ DalaFarm" >}}
-
-{{< img src="/img/blog/mooncake3.jpg" title="Bánh trung thu có vỏ bánh được làm bằng rau củ tự nhiên từ DalaFarm" >}}
