@@ -115,9 +115,9 @@ contact = "Liên hệ"
 
 # Hero section
 [Languages.vi.params.hero]
-title = ""
-subtitle = "Mua Detox Tặng Bánh Trung Thu"
-buttonText = "Xem Ngay"
+title = "DalaFarm"
+subtitle = "Healthy Food made Easy"
+buttonText = "Xem Sản Phẩm"
 
 # Products section
 [Languages.vi.params.product]
