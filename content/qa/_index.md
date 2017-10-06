@@ -148,8 +148,9 @@ Quý khách chọn hình thức chuyển khoản vui lòng chuyển khoản vào
 
 hoặc
 
-- Ngân hàng: **VP Bank (Việt Nam Thịnh Vượng)**
-- Chi nhánh: **Hồ Chí Minh**
+- Ngân hàng: **TMCP VP Bank (Việt Nam Thịnh Vượng)**
+- Loại ngân hàng: **Thương Mại Cổ Phần**
+- Chi nhánh: **Hồ Chí Minh** (hoặc **Chi Nhánh Sài Gòn**)
 - Số tài khoản: **131396996**
 - Số thẻ (trong trường hợp bạn muốn chuyển qua số thẻ ATM): **9704 3211 2882 3340**
 - Tên người thụ hưởng: **Võ Thị Thanh Thư**
