@@ -374,6 +374,9 @@
         }
 
         function verifyPromoCode(promoCode) {
+            if (promoCode === 'MN30OFF') {
+                return 30;
+            }
             /*if (promoCode === 'DLF1T5OFF') {
                 return 5;
             } else if (promoCode === 'DLF1T10OFF') {
