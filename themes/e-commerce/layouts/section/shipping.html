@@ -245,6 +245,7 @@
                     bill.info.phone2 = getPhoneNumber(viewModel().info.phone2());
                     bill.promoCode = billFormUI.promoCode;
                     bill.discountPercent = billFormUI.discountPercent;
+                    bill.promotionalProducts = billFormUI.promotionalProducts;
                     saveToSession(bill);
                     window.location = "/confirm";
                 }

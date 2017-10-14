@@ -140,20 +140,21 @@ function applyPromotion(bill){
     //     bill.promotionalProducts['dalababyAmt'] = 1;
     //     return bill;
     // }
-    // if(totalBillWoShippingCost > 680000){
-    //     bill.products['garlicoilAmt']++;
-    //     bill.promotionalProducts['garlicoilAmt'] = 1;
-    //     return bill;
-    // }
+    if(totalBillWoShippingCost > 600000){
+        bill.freeShip = true;
+        bill.products['lotusAmt']++;
+        bill.promotionalProducts['lotusAmt'] = 1;
+    }
+
     // if(totalBillWoShippingCost > 580000) {
     //     bill.freeShip = true;
     //     return bill;
     // }
-    var numberOfComboDetox2 = numberOfComboDetox(bill);
-    if(numberOfComboDetox2 > 0) {
-        bill.freeShip = true;
-        // bill.promotionalProducts['mooncakeAmt'] = numberOfComboDetox2;
-    }
+    // var numberOfComboDetox2 = numberOfComboDetox(bill);
+    // if(numberOfComboDetox2 > 0) {
+    //     bill.freeShip = true;
+    //     // bill.promotionalProducts['mooncakeAmt'] = numberOfComboDetox2;
+    // }
 
     return bill;
 }

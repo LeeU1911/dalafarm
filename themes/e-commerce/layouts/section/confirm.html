@@ -354,6 +354,9 @@
             var promotionalProducts = order.promotionalProducts;
             if(promotionalProducts) {
                 var content = "<tr>";
+                if(promotionalProducts['lotusAmt'] && promotionalProducts['lotusAmt'] > 0) {
+                    content += "<td>Bột Hạt Sen (50g) (Khuyến mãi)</td><td>1</td><td>119,000</td><td>-119,000</td>";
+                }
                 if(promotionalProducts['dalababyAmt'] && promotionalProducts['dalababyAmt'] > 0) {
                     content += "<td>Bột rau củ DalaBaby (70g) (Khuyến mãi)</td><td>1</td><td>199,000</td><td>-199,000</td>";
                 }

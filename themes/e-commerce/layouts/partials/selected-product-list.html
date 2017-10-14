@@ -21,6 +21,9 @@
             {{ end }}
 
         </p>
+        <p data-bind="visible: promotionalProducts != undefined && promotionalProducts['lotusAmt'] != undefined && promotionalProducts['lotusAmt'] > 0">
+            <span>Bột Hạt Sen (50g) - 119,000 x 1 = -119,000</span><span> (Khuyến mãi)</span>
+        </p>
         <p data-bind="visible: promotionalProducts != undefined && promotionalProducts['dalababyAmt'] != undefined && promotionalProducts['dalababyAmt'] > 0">
             <span>Bột rau củ DalaBaby (70g) - 199,000 x 1 = -199,000</span><span> (Khuyến mãi)</span>
         </p>
