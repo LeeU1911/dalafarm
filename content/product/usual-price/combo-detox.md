@@ -15,7 +15,8 @@ sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp ch
 VSATTP Việt Nam._
 
 """
-discounted_percent = "Free ship HCM"
+discounted_price = "999,000"
+discounted_percent = "-11%"
 price = "1,125,000"
 img = ["combodetox(5).jpg","combodetox(1).jpg","combodetox(2).jpg","combodetox(3).jpg","combodetox(4).jpg"]
 product_line = ""

@@ -1,3 +1,5 @@
+currency: đ
+
 carrot: 119000
 carrot_discounted_price: 0
 carrot_discounted_percent: 0
@@ -95,5 +97,5 @@ stardetox_discounted_price: 0
 stardetox_discounted_percent: 0
 
 combodetox: 1125000
-combodetox_discounted_price: 0
+combodetox_discounted_price: 999000
 combodetox_discounted_percent: 0

@@ -45,17 +45,19 @@
                                         </div>
                                         <div class=" text-price">
                                             <p class="text-current-price">
-                                            {{ if isset .Params "discounted_percent" }}
-                                            <span class="text-discount-percent">
-                                                {{ echoParam .Params "discounted_percent" }}
-                                            </span>
-                                            {{ end }}
                                             <p>
                                                 {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
                                                 {{ $discounted_price := index $prices $dscnt_price }}
-                                                {{ if gt $discounted_price 0 }}<span class="text-current-price" id="{{ printf "%sPrice" .Params.key }}" data-price="{{ $discounted_price }}" data-bind="text: numeral({{ $discounted_price }}).format('0,0')">
-                                                {{ else }}<span class="text-current-price" id="{{ printf "%sPrice" .Params.key }}" data-price="{{ index $prices .Params.key }}" data-bind="text: numeral({{ index $prices .Params.key }}).format('0,0')">
-                                                {{ end }}</span>
+                                                {{ $currency := index $prices "currency" }}
+                                                {{ if gt $discounted_price 0 }}<span class="text-current-price" id="{{ printf "%sPrice" .Params.key }}" data-price="{{ $discounted_price }}" data-bind="text: numeral({{ $discounted_price }}).format('0,0') + ' {{ $currency }}'">
+                                                    </span>{{ if isset .Params "discounted_percent" }}
+                                                            <span class="text-discount-percent">
+                                                                {{ echoParam .Params "discounted_percent" }}
+                                                            </span>
+                                                            {{ end }}
+                                                    <p><span class="text-original-price" id="{{ printf "%sPrice" .Params.key }}" data-price="{{ index $prices .Params.key }}" data-bind="text: numeral({{ index $prices .Params.key }}).format('0,0') + ' {{ $currency }}'">
+                                                {{ else }}<span class="text-current-price" id="{{ printf "%sPrice" .Params.key }}" data-price="{{ index $prices .Params.key }}" data-bind="text: numeral({{ index $prices .Params.key }}).format('0,0') + ' {{ $currency }}'">
+                                                {{ end }}</span></p>
                                             </p>
                                             </p>
                                         </div>
