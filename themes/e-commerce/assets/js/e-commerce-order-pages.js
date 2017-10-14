@@ -1,3 +1,19 @@
+$(document).ready(function(){
+    var minOffset = 300;
+    var orderButons = $('.order-buttons');
+    var maxOffset = orderButons.position().top + orderButons.height();
+
+    $(window).scroll(function() {
+        var scrollBottom = $(window).scrollTop() + $(window).height();
+        var scrollTop = $(window).scrollTop();
+        if (scrollTop >= minOffset && scrollBottom <= maxOffset) {
+            $('.order-buttons').addClass('order-buttons-fixed');
+        } else {
+            $('.order-buttons').removeClass('order-buttons-fixed');
+        }
+    });
+});
+
 $(function() {
     // Initialize copy button
     var clipboard = new Clipboard('#copyOrderContentBtn');
