@@ -156,6 +156,9 @@ function applyPromotion(bill){
     //     bill.promotionalProducts['dalababyAmt'] = 1;
     //     return bill;
     // }
+    if(weight >= 300){
+        bill.freeShip = true;
+    }
     if(totalBillWoShippingCost > 600000){
         bill.freeShip = true;
         bill.products['lotusAmt']++;
