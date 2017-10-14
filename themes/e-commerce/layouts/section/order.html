@@ -99,18 +99,17 @@
                 </form>
             </div>
         </div>
-        <div class="row">
+        <div class="row order-buttons">
             <!-- Button (Double) -->
             <div class="form-group">
                 <div class="col-xs-12 col-md-8 text-right second-last-btn">
                     <button id="save2" name="save" class="btn btn-xxl btn-success saveBtn btn-block">Tiếp tục</button>
                 </div>
-                <div class="col-xs-12 col-md-4">
+                <div class="col-xs-12 col-md-4 cancel-btn">
                     <button id="cancel" name="cancel" class="btn btn-xxl btn-danger btn-block">Xóa thông tin</button>
                 </div>
             </div>
         </div>
-
 
     </div>
 </section>
@@ -119,6 +118,20 @@
 {{ end }}
 {{ partial "js_order_page.html" . }}
 <script>
+    $(window).on('load', function() {
+        var minOffset = 0;
+        var orderButons = $('.cancel-btn');
+        var maxOffset = orderButons.position().top + orderButons.height() - $(window).height();
+        $(window).scroll(function() {
+            var scrollTop = $(window).scrollTop();
+            if (scrollTop >= minOffset && scrollTop <= maxOffset) {
+                $('.order-buttons').addClass('order-buttons-fixed navbar-fixed-bottom');
+            } else {
+                $('.order-buttons').removeClass('order-buttons-fixed navbar-fixed-bottom');
+            }
+        });
+    });
+
     $(function() {
         var bill = JSON.parse(sessionStorage.getItem('order')) || undefined;
 
