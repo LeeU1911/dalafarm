@@ -381,6 +381,7 @@
 
         function verifyPromoCode(promoCode) {
             if (promoCode === 'MN30OFF') {
+                alert({{ with .Site.Params.params.discount_code_success_alert }}{{ . }}{{ end }} + '30%');
                 return 30;
             }
             /*if (promoCode === 'DLF1T5OFF') {
