@@ -119,7 +119,7 @@
 {{ partial "js_order_page.html" . }}
 <script>
     $(window).on('load', function() {
-        var minOffset = 0;
+        var minOffset = 300;
         var orderButons = $('.cancel-btn');
         var maxOffset = orderButons.position().top + orderButons.height() - $(window).height();
         $(window).scroll(function() {

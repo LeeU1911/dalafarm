@@ -1019,7 +1019,7 @@ img {
     }
   }
   .navbar-default {
-    padding: 25px 0;
+    padding: 50px 0 25px 0;
     border: 0;
     background-color: @background_color_7;
     -webkit-transition: padding .3s;
@@ -1040,7 +1040,7 @@ img {
     }
   }
   .navbar-default.navbar-shrink {
-    padding: 10px 0;
+    padding: 35px 0 10px 0;
     background-color: @background_color_6;
     .navbar-brand {
       font-size: 2.5em;
@@ -1185,6 +1185,7 @@ img {
     }
   }
   .navbar-default {
+    padding-top: 25px;
     .navbar-brand {
       display: inline;
     }
@@ -1395,5 +1396,14 @@ img {
   background-color: white;
 }
 .header-top-bg {
-  background: white;
+  background: black;
+  height: 25px;
+  color: @color_6;
+  text-align: center;
+  vertical-align: text-top;
+}
+
+.header-top-bg > a {
+  color: @color_6;
+  text-decoration: underline;
 }

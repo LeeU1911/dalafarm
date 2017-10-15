@@ -1,0 +1,3 @@
+<div class="header-top-bg navbar-fixed-top">
+    <a href="{{ with .Site.Params.params.announcement_link }}{{ . | absLangURL }}{{ end }}">{{ with .Site.Params.params.announcement_text }}{{ . | markdownify }}{{ end }}</a>
+</div>
