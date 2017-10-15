@@ -23,28 +23,33 @@
             <div class="col-md-12">
                 {{ partial "selected-product-list.html" . }}
                 <div class="panel panel-default">
+                    <div class="panel-heading">Khuyến mại</div>
+                    <div class="panel-body">
+                        <!-- Form Name -->
+
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-2 control-label" for="name">Mã giảm giá (nếu có)</label>
+                            <div class="col-md-8">
+                                <input data-bind="value: promoCode, disable: discountPercent() > 0" id="promoCode" name="promoCode" type="text"
+                                       placeholder="Mã giảm giá" class="form-control input-lg">
+                            </div>
+                            <div class="col-md-2">
+                                <button id="verifyPromoCode" name="verifyPromoCode"
+                                        class="btn btn-lg btn-success"
+                                        data-bind="text: discountPercent() > 0?'Gỡ bỏ':'Áp dụng'">
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="panel panel-default">
                     <div class="panel-heading">Đơn hàng</div>
                     <div class="panel-body">
                         <form class="form-horizontal" name="bill" id="bill">
                             <fieldset>
 
-                                <!-- Form Name -->
-                                <legend>Khuyến mại</legend>
-
-                                <!-- Text input-->
-                                <div class="form-group">
-                                    <label class="col-md-2 control-label" for="name">Mã giảm giá (nếu có)</label>
-                                    <div class="col-md-8">
-                                        <input data-bind="value: promoCode, disable: discountPercent() > 0" id="promoCode" name="promoCode" type="text"
-                                               placeholder="Mã giảm giá" class="form-control input-lg">
-                                    </div>
-                                    <div class="col-md-2">
-                                        <button id="verifyPromoCode" name="verifyPromoCode"
-                                                class="btn btn-lg btn-success"
-                                                data-bind="text: discountPercent() > 0?'Gỡ bỏ':'Áp dụng'">
-                                        </button>
-                                    </div>
-                                </div>
 
                                 <!-- Form Name -->
                                 <legend>Thông tin giao hàng</legend>
