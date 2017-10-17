@@ -94,11 +94,11 @@
 
         function getShippingCost() {
             if(bill.freeShip) {
-                if(bill.info.province === "Hồ Chí Minh"){
+//                if(bill.info.province === "Hồ Chí Minh"){
                     viewModel.shippingCost(0);
-                } else {
-                    viewModel.shippingCost(35000);
-                }
+//                } else {
+//                    viewModel.shippingCost(35000);
+//                }
                 viewModel.shippingCostLoaded(true);
             }else{
                 getShippingCostNUpdateSubtotal(lookupPlaceIdFromName(bill.info.availableDistricts, bill.info.district), shippingCostLoadedCallback, calculateWeightOfPowders(bill));
