@@ -41,6 +41,16 @@ function calculateTotalBillWithoutShippingCost(bill) {
     subtotal = roundDownToThousand(subtotal);
     return subtotal;
 }
+function calculateTotalBillWithoutShippingCostWithoutDiscount(bill) {
+
+    var products = getProductsArrayFromBill(bill);
+    var subtotal = 0;
+    for (var i = 0; i < products.length; i++) {
+        subtotal += products[i].subtotal;
+    }
+    subtotal = roundDownToThousand(subtotal);
+    return subtotal;
+}
 
 function calculateTotalBill(bill) {
     return bill.subtotal + bill.shippingCost;
@@ -132,8 +142,8 @@ function calculateWeightOfPowders(bill) {
 function applyPromotion(bill){
     var totalBillWoShippingCost = calculateTotalBillWithoutShippingCost(bill);
     bill.subtotal = totalBillWoShippingCost;
-	if(bill.promoCode != undefined && bill.promoCode != "") {
-        alert("Lưu ý: Đơn hàng của bạn không được hưởng chương trình khuyến mãi 20/10 hiện có vì đang áp dụng mã giảm giá khuyến mãi " + bill.promoCode + ".");
+	if(bill.promoCode !== undefined && bill.promoCode !== "") {
+        alert("Lưu ý: Nếu muốn hưởng chương trình khuyến mãi 20/10, bạn cần gỡ bỏ mã khuyến mãi đang dùng " + bill.promoCode + ".");
         return bill;
     }
     bill.promotionalProducts = {};

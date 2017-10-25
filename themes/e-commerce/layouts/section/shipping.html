@@ -235,7 +235,7 @@
             },
             products: getProductsArrayFromBill(bill),
             promotionalProducts: undefined,
-            subtotalBeforeDiscount: ((bill && bill.subtotalBeforeDiscount) || undefined),
+            subtotalBeforeDiscount: ((bill && bill.subtotalBeforeDiscount) || calculateTotalBillWithoutShippingCostWithoutDiscount(bill)),
             subtotal: ko.observable(calculateTotalBillWithoutShippingCost(bill)),
             shippingCost: undefined,
             promoCode: ko.observable((bill && bill.promoCode) || ""),
@@ -383,6 +383,9 @@
             if (promoCode === 'MN30OFF') {
                 alert({{ with .Site.Params.params.discount_code_success_alert }}{{ . }}{{ end }} + '30%');
                 return 30;
+            } else if (promoCode === 'KS10PCT') {
+                alert({{ with .Site.Params.params.discount_code_success_alert }}{{ . }}{{ end }} + '10%');
+                return 10;
             }
             /*if (promoCode === 'DLF1T5OFF') {
                 return 5;
