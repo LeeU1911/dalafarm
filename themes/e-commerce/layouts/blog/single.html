@@ -63,6 +63,9 @@
                     <div class="fb-share-button" data-href="{{ .Permalink }}" data-layout="button" data-size="large" data-mobile-iframe="false">
                         <a class="fb-xfbml-parse-ignore" target="_blank" href="#">Share</a>
                     </div>
+                    <div class="zalo-share-button" data-href="{{ .Permalink }}" data-oaid="579745863508352884" 
+                		data-layout="1" data-color="blue" data-customize=false>
+                	</div>
                     <br/>
                     <br/>
                     <article class="blog-article" itemprop="articleBody">
@@ -71,6 +74,9 @@
                         <div class="fb-share-button" data-href="{{ .Permalink }}" data-layout="button" data-size="large" data-mobile-iframe="false">
                             <a class="fb-xfbml-parse-ignore" target="_blank" href="#">Share</a>
                         </div>
+                        <div class="zalo-share-button" data-href="{{ .Permalink }}" data-oaid="579745863508352884" 
+	                		data-layout="1" data-color="blue" data-customize=false>
+	                	</div>
                     </article>
                 </div>
                 <div class="col-md-1"></div>
@@ -115,5 +121,6 @@
 {{ partial "footer.html" . }}
 {{ end }}
 {{ partial "js_other_page.html" . }}
+<script src="https://sp.zalo.me/plugins/sdk.js"></script>
 </body>
 </html>
