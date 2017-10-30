@@ -60,10 +60,10 @@
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
-                    <div class="fb-share-button" data-href="{{ .Permalink }}" data-layout="button" data-size="large" data-mobile-iframe="false">
+                    <div class="fb-share-button media-share-button" data-href="{{ .Permalink }}" data-layout="button" data-size="large" data-mobile-iframe="false">
                         <a class="fb-xfbml-parse-ignore" target="_blank" href="#">Share</a>
                     </div>
-                    <div class="zalo-share-button" data-href="{{ .Permalink }}" data-oaid="579745863508352884" 
+                    <div class="zalo-share-button media-share-button" data-href="{{ .Permalink }}" data-oaid="579745863508352884"
                 		data-layout="1" data-color="blue" data-customize=false>
                 	</div>
                     <br/>
@@ -71,10 +71,10 @@
                     <article class="blog-article" itemprop="articleBody">
                         {{ .Content | markdownify | emojify}}
                         <p>{{ with .Site.Params.params.contentFooter }}{{ . | markdownify }}{{ end }}</p>
-                        <div class="fb-share-button" data-href="{{ .Permalink }}" data-layout="button" data-size="large" data-mobile-iframe="false">
+                        <div class="fb-share-button media-share-button" data-href="{{ .Permalink }}" data-layout="button" data-size="large" data-mobile-iframe="false">
                             <a class="fb-xfbml-parse-ignore" target="_blank" href="#">Share</a>
                         </div>
-                        <div class="zalo-share-button" data-href="{{ .Permalink }}" data-oaid="579745863508352884" 
+                        <div class="zalo-share-button media-share-button" data-href="{{ .Permalink }}" data-oaid="579745863508352884"
 	                		data-layout="1" data-color="blue" data-customize=false>
 	                	</div>
                     </article>
