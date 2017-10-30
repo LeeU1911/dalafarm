@@ -23,7 +23,7 @@ product_line = ""
 tags = ["veggie-powder","detoxpowder"]
 thumbnail = "combo-detox.jpg"
 title = "Combo Bộ 3 Detox Thải Độc Toàn Diện (300g)"
-weight = 1
+weight = 4
 key = "combodetox"
 +++
 

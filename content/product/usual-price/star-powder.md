@@ -8,7 +8,7 @@ product_line = ""
 tags = ["veggie-powder","Starpowder"]
 thumbnail = "star powder 1.jpg"
 title = "Bột Detox Star Powder (100g)"
-weight = 2
+weight = 5
 key = "stardetox"
 +++
 
