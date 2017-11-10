@@ -139,6 +139,34 @@ function calculateWeightOfPowders(bill) {
     return weight;
 }
 
+function calculateWeightOfPowdersForPromotionPurpose(bill) {
+    var weight = 0;
+    var products = bill.products;
+    for (var property in products) {
+        if (products.hasOwnProperty(property)) {
+            if (property.substr(property.length - 3, property.length) == "Amt" && products[property] > 0) {
+                weight += 50 * products[property];
+                if (property.indexOf("100") > -1 || property.indexOf("detox") > -1) {
+                    if(property.indexOf("combodetox") > -1){
+                        weight += 250 * products[property];
+                    }else {
+                        weight += 50 * products[property];
+                    }
+                }
+                if(property.indexOf("garlicoil") > -1) {
+                    weight += 0 * products[property];
+                }
+                if(property.indexOf("dalababy") > -1) {
+                    weight += 20 * products[property];
+                }
+
+            }
+        }
+    }
+    console.log("Weight is " + weight);
+    return weight;
+}
+
 function applyPromotion(bill){
     var totalBillWoShippingCost = calculateTotalBillWithoutShippingCost(bill);
     bill.subtotal = totalBillWoShippingCost;
@@ -147,7 +175,7 @@ function applyPromotion(bill){
         return bill;
     }
     bill.promotionalProducts = {};
-    var weight = calculateWeightOfPowders(bill);
+    var weight = calculateWeightOfPowdersForPromotionPurpose(bill);
     // if(weight >= 500 && only50gPowdersInOrder(bill)) {
     //     bill.freeShip = true;
     //     bill.products['dalababyAmt']++;
