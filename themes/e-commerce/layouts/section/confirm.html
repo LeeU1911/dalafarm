@@ -221,7 +221,7 @@
         }
 
         function getFirstName(name) {
-            nameArr = name.split(" ");
+            nameArr = name.trim().split(" ");
             return nameArr && nameArr[nameArr.length - 1];
         }
 
