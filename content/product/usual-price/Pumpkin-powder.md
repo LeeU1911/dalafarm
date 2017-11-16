@@ -12,6 +12,7 @@ url = "/san-pham/bot-bi-do-50g"
 aliases = ["/san-pham/bột-bí-đỏ-50g","/san-pham/Bột-bí-đỏ-50g"]
 weight = 3
 key = "pumpkin"
+popular_product = true
 +++
 
 # Bột Bí Đỏ DalaFarm 

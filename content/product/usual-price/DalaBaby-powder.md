@@ -9,6 +9,7 @@ thumbnail = "dalababy-6.jpg"
 title = "Bột rau củ DalaBaby (70g)"
 key = "dalababy"
 weight = 2
+popular_product = true
 +++
 
 # Bột rau củ DalaBaby từ DalaFarm

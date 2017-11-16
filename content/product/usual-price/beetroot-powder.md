@@ -12,6 +12,7 @@ url = "/san-pham/bot-cu-den-50g"
 aliases = ["/san-pham/bột-củ-dền-50g"]
 weight = 3
 key = "beetroot"
+popular_product = true
 +++
 
 # Bột Củ Dền DalaFarm 

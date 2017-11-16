@@ -1413,3 +1413,46 @@ img {
   color: @color_5;
   text-decoration: underline;
 }
+
+.close-ribbon{
+  position: absolute;
+  top: 0;
+  right: 0.5em;
+  z-index: 1;
+  color: #eee;
+  font-size: 2em;
+  cursor: pointer;
+  width: 1.5em;
+  line-height: 0.5em;
+  -webkit-transition: line-height 0.5s;
+  transition: line-height 0.5s;
+}
+.close-ribbon:after {
+  content: "";
+  font-size: 0.5em;
+  position: absolute;
+  height: 4.5em;
+  z-index: -1;
+  top: -0.4em;
+  border: 1.5em solid @color_earth;
+  border-bottom-color: transparent;
+  right: 0;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+}
+.close-ribbon:before {
+  content: "";
+  font-size: 0.5em;
+  position: absolute;
+  border-style: solid;
+  border-color: transparent transparent @color_earth transparent;
+  top: -0.4em;
+  right: 3em;
+  border-width: 0 0 0.4em 0.3em;
+  z-index: -1;
+}
+
+.close-ribbon > i {
+  color: white;
+  padding: 0px 0px 0px 7px;
+}

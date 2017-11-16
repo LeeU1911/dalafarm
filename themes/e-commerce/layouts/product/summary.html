@@ -1,4 +1,5 @@
 <div class="col-xs-4 col-md-3 box-item product-box flex-column" itemprop="itemListElement" itemscope itemtype="http://schema.org/Product">
+    {{ if isset .Params "popular_product" }}<div class="close-ribbon"><i class="fa fa-thumbs-up" aria-hidden="true"></i></div>{{ end }}
     <a itemprop="url" href="{{ .URL }}" class="product-link">
         {{ $url := printf "img/product/%s" .Params.thumbnail }}
         <img itemprop="image" src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Title }}">
