@@ -117,7 +117,7 @@ contact = "Liên hệ"
 
 # Hero section
 [Languages.vi.params.hero]
-title = "DalaFarm"
+title = ""
 subtitle = "Healthy Food made Easy"
 buttonText = "Xem Sản Phẩm"
 
