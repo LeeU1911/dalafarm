@@ -1237,6 +1237,7 @@ img {
   li.dropdown.open {
     border: 0px solid red;
   }
+
 }
 @media (min-width: 768px) {
   ul.nav {
@@ -1359,7 +1360,9 @@ img {
     padding-left: 3px;
     padding-right: 3px;
   }
-
+  .close-ribbon{
+    font-size: 2rem;
+  }
 }
 
 .add-to-cart-init-btn {
@@ -1420,7 +1423,6 @@ img {
   right: 0.5em;
   z-index: 1;
   color: #eee;
-  font-size: 2em;
   cursor: pointer;
   width: 1.5em;
   line-height: 0.5em;
@@ -1455,4 +1457,10 @@ img {
 .close-ribbon > i {
   color: white;
   padding: 0px 0px 0px 7px;
+}
+
+@media (min-width: 680px) {
+  .close-ribbon{
+    font-size: 2em;
+  }
 }
