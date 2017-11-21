@@ -1,1 +1,33 @@
-{{ partial "general_page.html" . }}
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+{{ partial "head.html" . }}
+
+<body id="page-top" class="index">
+{{ partial "google_tag_manager_after_opening_body_tag.html" }}
+{{ partial "nav-for-other-page.html" . }}
+{{ "<!-- terms and conditions Grid Section -->" | safeHTML }}
+<section id="{{ .Params.url }}" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ .Title }}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-success" role="progressbar"
+                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                    100%
+                </div>
+            </div>
+        </div>
+        {{ .Content }}
+
+    </div>
+</section>
+{{ if .Site.Params.params.footer.enable }}
+{{ partial "footer.html" . }}
+{{ end }}
+{{ partial "js_other_page.html" . }}
+</body>
+</html>
