@@ -12,6 +12,7 @@ url = "/san-pham/bot-ca-chua-50g"
 aliases = ["/san-pham/bột-cà-chua-50g"]
 weight = 3
 key = "tomato"
+discounted_percent = "Tạm hết"
 +++
 
 # Bột Cà Chua DalaFarm 
