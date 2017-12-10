@@ -1510,8 +1510,14 @@ img {
   color: green;
 }
 .progressbar li.active:before {
-  border-color: #55b776;
+  border-color: @color_2;
 }
 .progressbar li.active + li:after {
-  background-color: #55b776;
+  background-color: @color_2;
+}
+
+.progressbar .in-progress:before {
+  background-color: @color_2;
+  border-color: @color_2;
+  color: white;
 }
