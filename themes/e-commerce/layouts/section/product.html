@@ -16,7 +16,11 @@
                 {{ end }}
             </div>
         </div>
-        {{ .Content }}
+        <div class="row alert alert-info">
+            <p class="order-page-content">
+                {{ .Content }}
+            </p>
+        </div>
 
         {{ partial "product-display.html" . }}
     </div>
