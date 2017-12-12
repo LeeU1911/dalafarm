@@ -185,10 +185,9 @@ function applyPromotion(bill){
     if(weight >= 300){
         bill.freeShip = true;
     }
-    if(totalBillWoShippingCost > 600000){
+
+    if(totalBillWoShippingCost >= 600000){
         bill.freeShip = true;
-        bill.products['lotusAmt']++;
-        bill.promotionalProducts['lotusAmt'] = 1;
     }
 
     // if(totalBillWoShippingCost > 580000) {
