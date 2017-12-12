@@ -41,7 +41,7 @@ title = "PHƯƠNG PHÁP CHO TRẺ 6 THÁNG TUỔI TẬP ĂN DẶM"
  - Luôn ở bên cạnh bé khi bé ăn để kịp thời can thiệp nếu bé bị nghẹn
   {{< img src="/img/blog/phuong-phap-be-6-thang-an-dam(2).jpg" title="Bé 6 tháng nên bắt đầu làm quen với cháo trắng" >}}
  
- Đế tránh bị nhiễn khuẩn và mất nhiều thời gian chuẩn bị đồ ăn cho bé, Các mẹ có thể thay thế rau tươi bằng các loại bột rau củ ăn dặm DalaFarm với công nghệ sấy SEFD giúp giữ được màu sắc, dinh dưỡng và mùi vị của rau củ đến 90%
+ Đế tránh bị nhiễm khuẩn và mất nhiều thời gian chuẩn bị đồ ăn cho bé, Các mẹ có thể thay thế rau tươi bằng các loại bột rau củ ăn dặm DalaFarm với công nghệ sấy SEFD giúp giữ được màu sắc, dinh dưỡng và mùi vị của rau củ đến 90%
 
  Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé
 
