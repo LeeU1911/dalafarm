@@ -121,6 +121,7 @@ title = ""
 subtitle = "Tiết kiệm 2 tiếng/ngày"
 buttonText = "Tìm hiểu"
 buttonPath = "/san-pham/bột-rau-củ-dalababy-70g/"
+orderButtonText = "Mua"
 
 # Products section
 [Languages.vi.params.product]
