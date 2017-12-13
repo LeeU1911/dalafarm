@@ -113,13 +113,14 @@ about = "Về Dalafarm"
 team = "Chúng tôi"
 contact = "Liên hệ"
 # Optional logo as brand stored in img/
-#logo = "logo.svg"
+#logo = "logo.png"
 
 # Hero section
 [Languages.vi.params.hero]
 title = ""
-subtitle = "Healthy Food made Easy"
-buttonText = "Xem Sản Phẩm"
+subtitle = "Tiết kiệm 2 tiếng/ngày"
+buttonText = "Tìm hiểu"
+buttonPath = "/san-pham/bột-rau-củ-dalababy-70g/"
 
 # Products section
 [Languages.vi.params.product]

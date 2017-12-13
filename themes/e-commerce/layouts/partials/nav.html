@@ -16,11 +16,11 @@
           {{ $url := printf "img/%s" .Site.Params.params.navigation.logo }}
           <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Site.Params.params.navigation.brand }}">
         </a>
-      {{ end }}
+      {{ else }}
         <a class="navbar-brand page-scroll" href="{{ if .IsHome }}#page-top{{ else }}{{ .Site.BaseURL }}{{ end }}">
             {{ with .Site.Params.params.navigation.brand }}{{ . }}{{ end }}
         </a>
-
+      {{ end }}
 
     </div>
     {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
