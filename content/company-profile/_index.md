@@ -52,15 +52,15 @@ Nguồn nguyên liệu rau củ quả sau khi thu hoạch tại DalaFarm sẽ đ
 * Uy tín và chất lượng luôn được đặt lên hàng đầu 
 
 # Tại sao chúng tôi thành lập DalaFarm?  
-DalaFarm sinh ra để giải quyết các bài toán mà một start up với 1, 2 cá nhân đơn lẻ ko thể làm đc: 
+DalaFarm sinh ra để giải quyết các bài toán mà một khởi nghiệp với 1, 2 cá nhân đơn lẻ không thể làm được: 
  
 * Từng cá nhân chỉ có 1 điểm mạnh ở 1 lĩnh vực nào đó, khi kết hợp lại với nhau chúng ta sẽ mạnh hơn,  
 
 * Tất cả thành viên DalaFarm đều yêu nông nghiệp sạch, chúng ta đến với nhau vì một sứ mệnh chung, là làm cho những cây rau, cây thảo dược được đến tay người tiêu dùng nhanh nhất, thuận tiện nhất. Mọi người có thể sử dụng những sản phẩm tốt cho sức khỏe của mình một cách thuận tiện nhất  
 
-* Và vì một niềm khao khát chung là đưa sản phẩm của chúng ta đc sánh vai với nông sản các nước trong khu vực nói rieengz và trên TG nói chung  
+* Và vì một niềm khao khát chung là đưa sản phẩm của chúng ta được sánh vai với nông sản các nước trong khu vực nói riêng và trên thế giới nói chung  
 
-* Vì chúng tôi đang sản xuất ra những sản phẩm mà xã hội cần. Và chúng ta có thể làm đc nó  
+* Vì chúng tôi đang sản xuất ra những sản phẩm mà xã hội cần.  
 
 # Theo DalaFarm, điều gì để công ty có thể phát triển và cạnh tranh được so với các đối thủ trên thị trường?  
 
