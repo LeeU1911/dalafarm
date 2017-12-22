@@ -170,10 +170,14 @@ function calculateWeightOfPowdersForPromotionPurpose(bill) {
 function applyPromotion(bill){
     var totalBillWoShippingCost = calculateTotalBillWithoutShippingCost(bill);
     bill.subtotal = totalBillWoShippingCost;
-	if(bill.promoCode !== undefined && bill.promoCode !== "") {
-        alert("Lưu ý: Nếu muốn hưởng chương trình khuyến mãi 20/10, bạn cần gỡ bỏ mã khuyến mãi đang dùng " + bill.promoCode + ".");
-        return bill;
-    }
+	// if(bill.promoCode !== undefined && bill.promoCode !== "") {
+        // alert("Lưu ý: Nếu muốn hưởng chương trình khuyến mãi trên hệ thống, bạn cần gỡ bỏ mã khuyến mãi đang dùng " + bill.promoCode + ".");
+        // return bill;
+    // }
+	if(bill.promoCode !== undefined && bill.promoCode === "FREESHIPDALAT") {
+		bill.freeShip = true;
+		return bill;
+	}
     bill.promotionalProducts = {};
     var weight = calculateWeightOfPowdersForPromotionPurpose(bill);
     // if(weight >= 500 && only50gPowdersInOrder(bill)) {
@@ -182,13 +186,13 @@ function applyPromotion(bill){
     //     bill.promotionalProducts['dalababyAmt'] = 1;
     //     return bill;
     // }
-    if(weight >= 300){
-        bill.freeShip = true;
-    }
+    // if(weight >= 300){
+        // bill.freeShip = true;
+    // }
 
-    if(totalBillWoShippingCost >= 600000){
-        bill.freeShip = true;
-    }
+    // if(totalBillWoShippingCost >= 600000){
+        // bill.freeShip = true;
+    // }
 
     // if(totalBillWoShippingCost > 580000) {
     //     bill.freeShip = true;

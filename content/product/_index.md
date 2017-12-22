@@ -6,6 +6,4 @@ url= "product"
 aliases = ["/san-pham/"]
 +++
 
-Combo detox thải độc toàn diện nay chỉ còn 959k!
-
-Đơn hàng khối lượng từ 300 gram trở lên hoặc trên 600,000 đ được FREE SHIP.
+Merry Christmas and Happy New Year 2018!

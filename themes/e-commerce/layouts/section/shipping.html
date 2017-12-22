@@ -39,13 +39,13 @@
                         <div class="form-group">
                             <label class="col-md-2 control-label" for="name">Mã giảm giá (nếu có)</label>
                             <div class="col-md-8">
-                                <input data-bind="value: promoCode, disable: discountPercent() > 0" id="promoCode" name="promoCode" type="text"
+                                <input data-bind="value: promoCode, disable: discountPercent() >= 0" id="promoCode" name="promoCode" type="text"
                                        placeholder="Mã giảm giá" class="form-control input-lg">
                             </div>
                             <div class="col-md-2">
                                 <button id="verifyPromoCode" name="verifyPromoCode"
                                         class="btn btn-lg btn-success"
-                                        data-bind="text: discountPercent() > 0?'Gỡ bỏ':'Áp dụng'">
+                                        data-bind="text: discountPercent() >= 0?'Gỡ bỏ':'Áp dụng'">
                                 </button>
                             </div>
                         </div>
@@ -247,7 +247,7 @@
             subtotal: ko.observable(calculateTotalBillWithoutShippingCost(bill)),
             shippingCost: undefined,
             promoCode: ko.observable((bill && bill.promoCode) || ""),
-            discountPercent: ko.observable((bill && bill.discountPercent) || undefined),
+            discountPercent: ko.observable((bill && bill.discountPercent) || (bill.discountPercent == 0? 0: undefined)),
             submit: function () {
                 if (viewModel.errors().length === 0) {
                     var billFormUI = ko.toJS(viewModel);
@@ -394,6 +394,9 @@
             } else if (promoCode === 'KS10PCT') {
                 alert({{ with .Site.Params.params.discount_code_success_alert }}{{ . }}{{ end }} + '10%');
                 return 10;
+            } else if (promoCode === 'FREESHIPDALAT') {
+                alert({{ with .Site.Params.params.discount_code_success_alert }}{{ . }}{{ end }} + 'FREE SHIP');
+                return 0;
             }
             /*if (promoCode === 'DLF1T5OFF') {
                 return 5;
@@ -405,7 +408,7 @@
                 return 20;
             }*/
             alert("Mã giảm giá không hợp lệ! Vui lòng kiểm tra.");
-            return 0;
+            return -1;
         }
 
         function applyDiscountOnTotal(subtotal, discountPercent) {
@@ -414,7 +417,7 @@
 
         $('#verifyPromoCode').on('click', function (e) {
             e.preventDefault();
-            if(!viewModel().discountPercent()) {
+            if(viewModel().discountPercent() === undefined || viewModel().discountPercent() < 0) {
                 var promoCode = viewModel().promoCode();
                 var subtotal = viewModel().subtotal();
                 var discountPercent = verifyPromoCode(promoCode);
