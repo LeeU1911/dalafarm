@@ -82,7 +82,7 @@ Rau củ đã được sấy và làm chín bằng công nghệ
 với các thực phẩm của bé như: bột ăn dặm, 
 cháo, cơm, nui, mì, sữa chua, v.v... 
 
-Tham khảo thêm các món ăn cho bé tại link: https://dalafarm.com.vn/dala-kitchen/
+Tham khảo thêm các món ăn cho bé tại link: https://dalafarm.vn/dala-kitchen/
 
 ### Bảo quản: 
 Dưới 25⁰C, tránh ánh sáng trực tiếp.

@@ -9,7 +9,7 @@
 #  Jesse Griffin <jesse@unfoldingword.org>
 echo start script
 SOURCE="public/"
-BKT="s3://preview.dalafarm.com.vn/"
+BKT="s3://preview.dalafarm.vn/"
 EXCLUDES="s3_excludes"
 
 openssl aes-256-cbc -K $encrypted_72893ab80126_key -iv $encrypted_72893ab80126_iv -in secrets.tar.enc -out secrets.tar -d

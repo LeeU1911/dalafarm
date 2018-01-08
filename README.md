@@ -20,10 +20,10 @@ We deliver the best of Vietnam to the world
 - Fresh and organic raw materials are carefully selected to produce amazing goods.
 
 ## Contact us
-https://dalafarm.com.vn
+https://dalafarm.vn
 
 Via our children companies: 
 * Black Garlic Duc Ha: http://toidenducha.com
 * Dalahouse: http://dalahouse.com
 
-Email: info@dalafarm.com.vn
+Email: info@dalafarm.vn

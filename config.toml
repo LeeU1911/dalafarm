@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://dalafarm.com.vn/"
+baseurl = "https://dalafarm.vn/"
 languageCode = "vi-vn"
 title = "DalaFarm"
 theme = "e-commerce"
@@ -99,9 +99,9 @@ favicon    = "favicon.ico"
 #
 #Điện thoại: [(028) 6684 2517](tel:028 6684 2517); [(0258) 3899 189](tel:0258 3899 189)
 #
-#Các đối tác, đơn vị muốn liên hệ để biết thêm thông tin công ty xin vui lòng liên hệ số [0906 951 498](tel:0906 951 498) hoặc [0918 241 066](tel:0918 241 066) hoặc email: [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
+#Các đối tác, đơn vị muốn liên hệ để biết thêm thông tin công ty xin vui lòng liên hệ số [0906 951 498](tel:0906 951 498) hoặc [0918 241 066](tel:0918 241 066) hoặc email: [info@dalafarm.vn](mailto:info@dalafarm.vn)
 #
-#Quan tâm đến chính sách & chương trình cho các tổng đại lý, đại lý các cấp, vui lòng liên hệ số: [0906 951 498](tel:0906 951 498) hoặc [0918 241 066](tel:0918 241 066) hoặc email: [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn)
+#Quan tâm đến chính sách & chương trình cho các tổng đại lý, đại lý các cấp, vui lòng liên hệ số: [0906 951 498](tel:0906 951 498) hoặc [0918 241 066](tel:0918 241 066) hoặc email: [sale@dalafarm.vn](mailto:sale@dalafarm.vn)
 #"""
 related_blog_limit = 7
 
@@ -213,8 +213,8 @@ title = "Liên hệ với DalaFarm"
     subtitle  = "Hãy để lại 1 lời nhắn và chúng tôi sẽ liên lạc lại trong vòng 1 ngày."
     buttonText = "Gửi tin nhắn"
     thanks = "Cám ơn đã liên hệ với chúng tôi. Chúng tôi sẽ trả lời bạn trong vòng 1 ngày."
-    error = "Tin nhắn không gửi được. Vui lòng email cho chúng tôi qua info@dalafarm.com.vn"
-    email = "info@dalafarm.com.vn"
+    error = "Tin nhắn không gửi được. Vui lòng email cho chúng tôi qua info@dalafarm.vn"
+    email = "info@dalafarm.vn"
 
 # 'warning' defines error messages for invalid inputs
 [Languages.vi.params.contact.form.name]
@@ -236,7 +236,7 @@ title = "Liên hệ với DalaFarm"
 # Add optional form fields to identify contact forms
 [[Languages.vi.params.contact.form.hidden]]
     name = "DalaFarm"
-    value = "dalafarm.com.vn"
+    value = "dalafarm.vn"
 #
 [[Languages.vi.params.contact.form.hidden]]
 # Special values for name such as "page" and "site" will be autofilled
@@ -253,7 +253,7 @@ info = """##### DALAFARM - CÔNG TY TNHH SXTM CHUÔNG XANH
 
 <i class="fa fa-cogs"></i> Tổ 18, thôn Xuân Ngọc, xã Vĩnh Ngọc, Nha Trang, Khánh Hòa
 
-<i class="fa fa-envelope"></i> [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
+<i class="fa fa-envelope"></i> [info@dalafarm.vn](mailto:info@dalafarm.vn)
 
 <i class="fa fa-calendar"></i> Thứ 2 - thứ 7 <i class="fa fa-clock-o"></i> 8:00 - 17:00
 """
@@ -263,13 +263,13 @@ info = """##### DALAFARM - CÔNG TY TNHH SXTM CHUÔNG XANH
   link = "/term-condition"
 [[Languages.vi.params.footer.social]]
   icon = "fa-facebook"
-  link = "https://www.facebook.com/dalafarm.com.vn/"
+  link = "https://www.facebook.com/dalafarm.vn/"
 [[Languages.vi.params.footer.social]]
   icon = "fa-pinterest"
   link = "https://www.pinterest.com/dalafarm/"
 [[Languages.vi.params.footer.social]]
   icon = "fa-instagram"
-  link = "https://www.instagram.com/dalafarm.com.vn/"
+  link = "https://www.instagram.com/dalafarm.vn/"
 
 [[Languages.vi.params.footer.sitemap]]
   text = "DalaFarm Blog"
@@ -381,9 +381,9 @@ favicon    = "favicon.ico"
 #
 #Phone: [(+8428) 6684 2517](tel:+8428 6684 2517); [(+84258) 3899 189](tel:+84258 3899 189)
 #
-#Partners who would like to know more about company profile, please call us at [+84906 951 498](tel:+84906 951 498) OR [+84918 241 066](tel:+84918 241 066) or email: [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
+#Partners who would like to know more about company profile, please call us at [+84906 951 498](tel:+84906 951 498) OR [+84918 241 066](tel:+84918 241 066) or email: [info@dalafarm.vn](mailto:info@dalafarm.vn)
 #
-#Care about commission programs and promotional campaigns, please call us at [+84906 951 498](tel:+84906 951 498) OR [+84918 241 066](tel:+84918 241 066) or email: [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn)
+#Care about commission programs and promotional campaigns, please call us at [+84906 951 498](tel:+84906 951 498) OR [+84918 241 066](tel:+84918 241 066) or email: [sale@dalafarm.vn](mailto:sale@dalafarm.vn)
 #"""
 related_blog_limit = 7
 
@@ -493,8 +493,8 @@ title = "Contact Us"
     subtitle  = "Leave a message and we'll respond within a day."
     buttonText = "Send message"
     thanks = "Thanks for contacting us. We'll respond to you within a day."
-    error = "Message was not sent. Please email us at info@dalafarm.com.vn"
-    email = "info@dalafarm.com.vn"
+    error = "Message was not sent. Please email us at info@dalafarm.vn"
+    email = "info@dalafarm.vn"
 
 # 'warning' defines error messages for invalid inputs
 [Languages.en.params.contact.form.name]
@@ -516,7 +516,7 @@ title = "Contact Us"
 # Add optional form fields to identify contact forms
 [[Languages.en.params.contact.form.hidden]]
     name = "DalaFarm"
-    value = "dalafarm.com.vn"
+    value = "dalafarm.vn"
 #
 [[Languages.en.params.contact.form.hidden]]
 # Special values for name such as "page" and "site" will be autofilled
@@ -533,7 +533,7 @@ info = """##### DALAFARM - CHUÔNG XANH PRODUCING AND TRADING CO. LTD.
 
 <i class="fa fa-phone"></i> [0906 951 498](tel:0906 951 498) | [0918 241 066](tel:0918 241 066)
 
-<i class="fa fa-envelope"></i> [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn) | [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn)
+<i class="fa fa-envelope"></i> [info@dalafarm.vn](mailto:info@dalafarm.vn) | [sale@dalafarm.vn](mailto:sale@dalafarm.vn)
 
 <i class="fa fa-calendar"></i> Monday - Saturday <i class="fa fa-clock-o"></i> 8:00 - 17:00
 """
@@ -542,13 +542,13 @@ info = """##### DALAFARM - CHUÔNG XANH PRODUCING AND TRADING CO. LTD.
   link = "/term-condition"
 [[Languages.en.params.footer.social]]
   icon = "fa-facebook"
-  link = "https://www.facebook.com/dalafarm.com.vn/"
+  link = "https://www.facebook.com/dalafarm.vn/"
 [[Languages.en.params.footer.social]]
   icon = "fa-pinterest"
   link = "https://www.pinterest.com/dalafarm/"
 [[Languages.en.params.footer.social]]
   icon = "fa-instagram"
-  link = "https://www.instagram.com/dalafarm.com.vn/"
+  link = "https://www.instagram.com/dalafarm.vn/"
 
 [[Languages.en.params.footer.sitemap]]
   text = "DalaFarm Blog"

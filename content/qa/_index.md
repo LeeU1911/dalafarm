@@ -25,17 +25,17 @@ Bột rau củ DalaFarm nguồn gốc 100% rau củ tự nhiên, nên công dụ
  
 * Bột diếp cá giúp chống lão hóa, điều trị bệnh trĩ, hỗ trợ miễn dịch giống y như việc dùng rau diếp cá tươi nhưng sử dụng tiện lợi hơn vì DalaFarm đã chế biến và sấy rau diếp cá tươi ra thành bột.
  
-Để biết thêm các công dụng cụ thể của từng loại bột có thể được tham khảo thêm trong từng sản phẩm trên website của DalaFarm: https://dalafarm.com.vn/#san-pham hoặc DalaFarm blog để xem các bài viết hữu ích: https://dalafarm.com.vn/blog 
+Để biết thêm các công dụng cụ thể của từng loại bột có thể được tham khảo thêm trong từng sản phẩm trên website của DalaFarm: https://dalafarm.vn/#san-pham hoặc DalaFarm blog để xem các bài viết hữu ích: https://dalafarm.vn/blog 
 
 # Bột rau củ DalaFarm dùng để uống hay đắp mặt? 
 Cả hai đều được. Ngoài công dụng để làm thức uống hàng ngày, bột dinh dưỡng cho em bé, làm nguyên liệu nấu súp, cháo, làm bánh, bột rau củ DalaFarm còn có thể được dùng để làm đẹp như đắp mặt, son môi (với bột củ dền) và nhiều công dụng khác. 
 
-Bạn có thể tham khảo blog của DalaFarm tại đây để đọc thêm các bài viết về công dụng các loại bột nhé: https://dalafarm.com.vn/blog/ 
+Bạn có thể tham khảo blog của DalaFarm tại đây để đọc thêm các bài viết về công dụng các loại bột nhé: https://dalafarm.vn/blog/ 
 
 # DalaFarm có thể tư vấn cho mình về công dụng từng loại bột được không? 
 Về dinh dưỡng rau củ mỗi loại sẽ có những vitamin giống và khác nhau, đều giúp cơ thể chúng ta tăng sức đề kháng khoẻ mạnh.  Vì vậy, bạn có thể tham khảo trên web của DalaFarm để biết thêm công dụng cụ thể của từng loại bột nhé. Về đẹp da chị có thể chọn nhưng loại có nhiều vitamin A, C, E như : cà chua, diếp cá, củ dền, súp lơ.  
 
-Để biết thêm các công dụng cụ thể của từng loại bột có thể được tham khảo thêm trong từng sản phẩm trên website của DalaFarm: https://dalafarm.com.vn/#san-pham hoặc DalaFarm blog để xem các bài viết hữu ích: https://dalafarm.com.vn/blog
+Để biết thêm các công dụng cụ thể của từng loại bột có thể được tham khảo thêm trong từng sản phẩm trên website của DalaFarm: https://dalafarm.vn/#san-pham hoặc DalaFarm blog để xem các bài viết hữu ích: https://dalafarm.vn/blog
  
 # Uống loại bột nào để tăng cân 
 
@@ -163,7 +163,7 @@ Sau khi chuyển khoản, quý khách vui lòng nhắn tin facebook messenger ch
 
 # Làm sao để trở thành đại lý kinh doanh phân phối sản phẩm DalaFarm 
 
-Các anh chị muốn đăng ký làm đại lý phân phối sản phẩm DalaFarm, vui lòng liên hệ qua email [sale@dalafarm.com.vn](mailto:sale@dalafarm.com.vn) với nội dung sau:   
+Các anh chị muốn đăng ký làm đại lý phân phối sản phẩm DalaFarm, vui lòng liên hệ qua email [sale@dalafarm.vn](mailto:sale@dalafarm.vn) với nội dung sau:   
 
 - Kinh nghiệm bán hàng ONLINE/OFFLINE của bạn 
 - Link Facebook cá nhân của bạn (Link Fanpage nếu có) 

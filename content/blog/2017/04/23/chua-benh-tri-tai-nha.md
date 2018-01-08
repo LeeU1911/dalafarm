@@ -117,4 +117,4 @@ Quận 11,TP.HCM
 
 Điện thoại: [(028) 6684 2517](tel:028 6684 2517); [(0258) 3899 189](tel:0258 3899 189)
 
-Email: [info@dalafarm.com.vn](mailto:info@dalafarm.com.vn)
+Email: [info@dalafarm.vn](mailto:info@dalafarm.vn)
