@@ -41,7 +41,7 @@ _Bột detox Star powder_ với các thành phần chính tốt cho dạ dày, �
 
 •	Chanh dây, Dâu tây chứa lượng lớn vitamin A và C giúp vô hiệu hóa các gốc tự do và bảo vệ cơ thể bạn khỏi bệnh ung thư. 
 
-•	Và 1 số loại rau củ khác bổ sung thêm chất xơ và vitamin (tham khảo thêm [tại đây](https://dalafarm.vn/san-pham/b%E1%BB%99t-detox-star-powder-100g/)). 
+•	Và 1 số loại rau củ khác bổ sung thêm chất xơ và vitamin (tham khảo thêm [tại đây](http://dalafarm.vn/san-pham/b%E1%BB%99t-detox-star-powder-100g/)). 
 
 **Buổi trưa - Sun powder (màu đỏ)**: Buổi trưa là thời gian trái tim bài độc. Trái tim là trung tâm của tất cả các cơ quan bên trong cơ thể người. Đây còn là khoảng thời gian nhịp tim nhanh nhất vì vậy tốt nhất nên nghỉ ngơi một lát sẽ khiến trái tim bài độc được thuận lợi nhất.
  {{< img src="/img/blog/combodetox(3).jpg" title="Buổi trưa tràn đầy năng lượng với bột detox sun powder" >}}
@@ -56,7 +56,7 @@ _Bột detox Sun powder_ chứa  các thành phần chính giúp quả tim hoạ
 
 •	Dâu tây giúp thải độc, kháng viêm, bảo vệ da 
 
-•	Và 1 số loại rau củ khác bổ sung thêm các chất dinh dưỡng và năng lượng cho buổi trưa giúp tỉnh táo, chống mệt mỏi (tham khảo thêm [tại đây](https://dalafarm.vn/san-pham/b%E1%BB%99t-detox-sun-powder-100g/)). 
+•	Và 1 số loại rau củ khác bổ sung thêm các chất dinh dưỡng và năng lượng cho buổi trưa giúp tỉnh táo, chống mệt mỏi (tham khảo thêm [tại đây](http://dalafarm.vn/san-pham/b%E1%BB%99t-detox-sun-powder-100g/)). 
 
 **Buổi tối - Moon powder (màu xanh)**: Buổi tối là thời gian cho ruột non, thận và bàng quang. Ruột non là chìa khóa cho sự hấp thu dinh dưỡng. Nó sẽ gửi chất lỏng đến bàng quang, chất thải tới ruột già và chất dinh dưỡng tới lá lách để tạo máu và năng lượng. Đây cũng là thời gian thận lọc máu trong cơ thể và  đưa các chất thải đến bang quang. Bàng quang là nơi rất quan trọng để loại bỏ độc tố. Tất cả chất độc ở các cơ quan khác đều phải tới bàng quang và ra ngoài thông qua nước tiểu. 
 
@@ -74,7 +74,7 @@ _Bột detox Moon powder_ với các thành phần chính là các loại rau  c
 
 •	Dâu tây cung cấp vitamin A và C, và giúp giải độc cho cơ thể chống oxy hoá và chống viêm làm chậm quá trình lão hóa, bảo vệ da. 
 
-•	Ngoài ra moon powder còn chứa 1 số loại rau xanh khác bổ sung thêm chất xơ và khoáng chất giúp cho đường ruột ổn định, nhẹ nhàng, cơ thể được  cân bằng và tạo giấc ngủ ngon (tham khảo thêm [tại đây](https://dalafarm.vn/san-pham/b%E1%BB%99t-detox-moon-powder-100g/)). 
+•	Ngoài ra moon powder còn chứa 1 số loại rau xanh khác bổ sung thêm chất xơ và khoáng chất giúp cho đường ruột ổn định, nhẹ nhàng, cơ thể được  cân bằng và tạo giấc ngủ ngon (tham khảo thêm [tại đây](http://dalafarm.vn/san-pham/b%E1%BB%99t-detox-moon-powder-100g/)). 
 
 {{< img src="/img/blog/combodetox(5).jpg">}}
 
@@ -87,6 +87,6 @@ Như vậy : 3 gói uống : 20 ngày
 ## BẢO QUẢN: 
 Dưới 25⁰C, tránh ánh sáng trực tiếp.
 
-Để biết thêm độc tố chúng ta nạp mỗi ngày các bạn tham khảo link: https://dalafarm.vn/blog/2017/09/07/chung-ta-song-cung-voi-bao-nhieu-doc-to/
+Để biết thêm độc tố chúng ta nạp mỗi ngày các bạn tham khảo link: http://dalafarm.vn/blog/2017/09/07/chung-ta-song-cung-voi-bao-nhieu-doc-to/
 
-Để biết các triệu chứng khi cơ thể báo hiệu cần phải detox bạn hãy tham khảo link: https://dalafarm.vn/blog/2017/09/08/10-dau-hieu-can-detox/
+Để biết các triệu chứng khi cơ thể báo hiệu cần phải detox bạn hãy tham khảo link: http://dalafarm.vn/blog/2017/09/08/10-dau-hieu-can-detox/

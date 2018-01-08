@@ -25,17 +25,17 @@ Bột rau củ DalaFarm nguồn gốc 100% rau củ tự nhiên, nên công dụ
  
 * Bột diếp cá giúp chống lão hóa, điều trị bệnh trĩ, hỗ trợ miễn dịch giống y như việc dùng rau diếp cá tươi nhưng sử dụng tiện lợi hơn vì DalaFarm đã chế biến và sấy rau diếp cá tươi ra thành bột.
  
-Để biết thêm các công dụng cụ thể của từng loại bột có thể được tham khảo thêm trong từng sản phẩm trên website của DalaFarm: https://dalafarm.vn/#san-pham hoặc DalaFarm blog để xem các bài viết hữu ích: https://dalafarm.vn/blog 
+Để biết thêm các công dụng cụ thể của từng loại bột có thể được tham khảo thêm trong từng sản phẩm trên website của DalaFarm: http://dalafarm.vn/#san-pham hoặc DalaFarm blog để xem các bài viết hữu ích: http://dalafarm.vn/blog 
 
 # Bột rau củ DalaFarm dùng để uống hay đắp mặt? 
 Cả hai đều được. Ngoài công dụng để làm thức uống hàng ngày, bột dinh dưỡng cho em bé, làm nguyên liệu nấu súp, cháo, làm bánh, bột rau củ DalaFarm còn có thể được dùng để làm đẹp như đắp mặt, son môi (với bột củ dền) và nhiều công dụng khác. 
 
-Bạn có thể tham khảo blog của DalaFarm tại đây để đọc thêm các bài viết về công dụng các loại bột nhé: https://dalafarm.vn/blog/ 
+Bạn có thể tham khảo blog của DalaFarm tại đây để đọc thêm các bài viết về công dụng các loại bột nhé: http://dalafarm.vn/blog/ 
 
 # DalaFarm có thể tư vấn cho mình về công dụng từng loại bột được không? 
 Về dinh dưỡng rau củ mỗi loại sẽ có những vitamin giống và khác nhau, đều giúp cơ thể chúng ta tăng sức đề kháng khoẻ mạnh.  Vì vậy, bạn có thể tham khảo trên web của DalaFarm để biết thêm công dụng cụ thể của từng loại bột nhé. Về đẹp da chị có thể chọn nhưng loại có nhiều vitamin A, C, E như : cà chua, diếp cá, củ dền, súp lơ.  
 
-Để biết thêm các công dụng cụ thể của từng loại bột có thể được tham khảo thêm trong từng sản phẩm trên website của DalaFarm: https://dalafarm.vn/#san-pham hoặc DalaFarm blog để xem các bài viết hữu ích: https://dalafarm.vn/blog
+Để biết thêm các công dụng cụ thể của từng loại bột có thể được tham khảo thêm trong từng sản phẩm trên website của DalaFarm: http://dalafarm.vn/#san-pham hoặc DalaFarm blog để xem các bài viết hữu ích: http://dalafarm.vn/blog
  
 # Uống loại bột nào để tăng cân 
 

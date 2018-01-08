@@ -23,6 +23,6 @@ s3cmd -c s3cfg-prod sync -M -F \
     --add-header="Cache-Control:max-age=21600" \
     "$SOURCE" "$BKT"
 
-curl https://www.google.com/webmasters/sitemaps/ping?sitemap=https://dalafarm.vn/sitemap.xml
-curl https://www.google.com/webmasters/sitemaps/ping?sitemap=https://dalafarm.vn/vi/sitemap.xml
-curl https://www.google.com/webmasters/sitemaps/ping?sitemap=https://dalafarm.vn/en/sitemap.xml
+curl https://www.google.com/webmasters/sitemaps/ping?sitemap=http://dalafarm.vn/sitemap.xml
+curl https://www.google.com/webmasters/sitemaps/ping?sitemap=http://dalafarm.vn/vi/sitemap.xml
+curl https://www.google.com/webmasters/sitemaps/ping?sitemap=http://dalafarm.vn/en/sitemap.xml

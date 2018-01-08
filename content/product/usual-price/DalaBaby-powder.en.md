@@ -61,7 +61,7 @@ Dalafarm veggie powder helps your baby to try different tastes and provide enoug
 
 * Use with baby food: mix baby food and DalaFarm powder into a bowl of warm water, stirred up before use.
 
-Read more about food recipes here: https://dalafarm.vn/dala-kitchen/
+Read more about food recipes here: http://dalafarm.vn/dala-kitchen/
 
 ### Storage: 
 Below 25⁰C, avoid from direct sunlight.

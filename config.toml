@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://dalafarm.vn/"
+baseurl = "http://dalafarm.vn/"
 languageCode = "vi-vn"
 title = "DalaFarm"
 theme = "e-commerce"

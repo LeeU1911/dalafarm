@@ -17,7 +17,7 @@ thời gian sớm nhất.
 
 1. _Xem lại đơn hàng_: Kiểm tra email và tin nhắn sms.
 
-2. _Xem cập nhật trạng thái đơn hàng và ngày giao dự kiến_: https://dalafarm.vn/view-order
+2. _Xem cập nhật trạng thái đơn hàng và ngày giao dự kiến_: http://dalafarm.vn/view-order
 
 3. _Huỷ đơn hàng, báo sai sót, không nhận được email, tin nhắn_: [gọi 0906 951 498](tel:0906951498), [gửi email (nhấn vào đây)](mailto:info@dalafarm.vn), [fanpage Facebook (nhấn vào đây)](https://fb.me/dalafarm.vn) 
 
