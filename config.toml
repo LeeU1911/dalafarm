@@ -163,36 +163,13 @@ title = "Thành viên DalaFarm"
 subtitle = ""
 description = "Chúng tôi là một đội ngũ gồm những thành viên có những nền tảng khác nhau nhưng cùng 1 chí hướng để mang những sản phẩm tốt nhất của Việt Nam ra thế giới."
 path = "chung-toi"
-    [[Languages.vi.params.team.members]]
-      img = "ha.jpg"
-      name = "Lê Thị Thu Hà"
-      position = "Founder"
-      livesIn = "Nha Trang, Việt Nam"
-      scope = [
-
-      ]
-      # For bio markdown and even multiline strings are available.
-#      bio = "Sáng lập nên công ty Đức Hà, nay là một phần của DalaFarm"
-      social = [
-        ["fa-facebook", "https://www.facebook.com/thuha47nt"]
-      ]
-
-    [[Languages.vi.params.team.members]]
-      img = "tram.jpg"
-      name = "Nguyễn Huyền Trâm"
-      position = "Founder"
-      livesIn = "Hồ Chí Minh, Việt Nam"
-#      bio = "Sáng lập nên công ty Dalahouse, nay là một phần của DalaFarm"
-      social = [
-        ["fa-facebook", "https://www.facebook.com/profile.php?id=100000861713629"]
-      ]
 
     [[Languages.vi.params.team.members]]
       img = "thu.jpg"
       name = "Võ Thị Thanh Thư"
       position = "Co-founder"
       livesIn = "Hồ Chí Minh, Việt Nam"
-#      bio = "Trùm kinh doanh, đến từ Nestle Việt Nam"
+#      bio = "Chuyên viên kinh doanh, đến từ Nestle Việt Nam"
       social = [
         ["fa-facebook", "https://www.facebook.com/thanh.thuvo.1"]
       ]
@@ -444,35 +421,11 @@ subtitle = ""
 description = "We are passionate, young and dynamic people with different backgrounds, with share the same motivation to bring the best of Vietnam to the world."
 path = "team"
     [[Languages.en.params.team.members]]
-      img = "ha.jpg"
-      name = "Lê Thị Thu Hà"
-      position = "Founder"
-      livesIn = "Nha Trang, Việt Nam"
-      scope = [
-
-      ]
-      # For bio markdown and even multiline strings are available.
-#      bio = "Sáng lập nên công ty Đức Hà, nay là một phần của DalaFarm"
-      social = [
-        ["fa-facebook", "https://www.facebook.com/thuha47nt"]
-      ]
-
-    [[Languages.en.params.team.members]]
-      img = "tram.jpg"
-      name = "Nguyễn Huyền Trâm"
-      position = "Founder"
-      livesIn = "Hồ Chí Minh, Việt Nam"
-#      bio = "Sáng lập nên công ty Dalahouse, nay là một phần của DalaFarm"
-      social = [
-        ["fa-facebook", "https://www.facebook.com/profile.php?id=100000861713629"]
-      ]
-
-    [[Languages.en.params.team.members]]
       img = "thu.jpg"
       name = "Võ Thị Thanh Thư"
       position = "Co-founder"
       livesIn = "Hồ Chí Minh, Việt Nam"
-#      bio = "Trùm kinh doanh, đến từ Nestle Việt Nam"
+#      bio = "Sale Representative"
       social = [
         ["fa-facebook", "https://www.facebook.com/thanh.thuvo.1"]
       ]
@@ -482,7 +435,7 @@ path = "team"
       name = "Lê Tấn Vũ"
       position = "Co-founder"
       livesIn = "Hồ Chí Minh, Việt Nam"
-#      bio = "Kỹ sư phần mềm"
+#      bio = "Software Engineer"
       social = [
         ["fa-facebook", "https://www.facebook.com/LeeU14"]
       ]
