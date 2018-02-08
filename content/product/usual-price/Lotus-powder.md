@@ -9,8 +9,8 @@ tags = ["veggie-powder","Lotusseeds"]
 thumbnail = "lotusseeds-1.jpg"
 title = "Bột Hạt Sen (50g)"
 weight = 3
+discounted_percent = "Tạm hết"
 aliases = ["/san-pham/bot-sen-50g","/san-pham/bot-hat-sen-50g"]
-key = "lotus"
 +++
 
 # Bột Hạt Sen DalaFarm

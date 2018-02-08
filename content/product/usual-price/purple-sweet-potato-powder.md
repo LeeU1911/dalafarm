@@ -10,8 +10,8 @@ thumbnail = "purple-sweet-potato-1.jpg"
 title = "Bột Khoai Lang Tím (50g)"
 weight = 3
 aliases = ["/san-pham/bot-khoai-lang-tim-50g","/san-pham/bot-khoai-lang-50g"]
-key = "purpleswpotato"
 popular_product = true
+discounted_percent = "Tạm hết"
 +++
 
 # Bột Khoai Lang Tím DalaFarm

@@ -9,10 +9,9 @@ tags = ["veggie-powder","heartleaf-powder"]
 thumbnail = "heartleaf-100g-1.jpg"
 title = "Bột Rau Diếp Cá (100g)"
 url = "/san-pham/bot-rau-diep-ca-100g"
-aliases = ["/san-pham/bột-rau-diếp-cá-100g"]
+aliases = ["/san-pham/bột-rau-diếp-cá-100g","/san-pham/bot-rau-diep-ca-100g"]
 weight = 3
-key = "heartleaf100"
-discounted_percent = "Còn 7 gói"
+discounted_percent = "Tạm hết"
 +++
 
 # Bột Rau Diếp Cá DalaFarm 
