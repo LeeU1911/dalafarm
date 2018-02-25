@@ -10,7 +10,6 @@ title = "Bột rau củ DalaBaby (70g)"
 key = "dalababy"
 weight = 2
 popular_product = true
-discounted_percent = "Còn 5 hộp"
 aliases = ["/san-pham/bot-rau-cu-dalababy-70g/","/san-pham/dalababy","/san-pham/bot-rau-cu"]
 +++
 

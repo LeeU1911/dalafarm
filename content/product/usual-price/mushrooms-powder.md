@@ -11,6 +11,7 @@ title = "Bột Nấm (50g)"
 weight = 3
 aliases = ["/san-pham/bot-nam-50g","/san-pham/bot-nam-bao-ngu-50g"]
 key = "mushroom"
+discounted_percent = "Còn 8 gói"
 +++
 
 # Bột Nấm Bào Ngư DalaFarm

@@ -7,8 +7,8 @@ product_line = ""
 tags = ["garlic-oil","DalaBaby-powder"]
 thumbnail = "dau-toi-tn.jpg"
 title = "Dầu tỏi tía Đà Lạt (250ml)"
-key = "garlicoil"
-weight = 2
+weight = 4
+discounted_percent = "Tạm hết"
 +++
 
 # DẦU TỎI TÍA ĐÀ LẠT
