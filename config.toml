@@ -132,7 +132,7 @@ path = "san-pham"
 
 # About section
 [Languages.vi.params.about]
-enable = true
+enable = false
     title = "Hành Trình DalaFarm"
     subtitle = "Hành trình của chúng tôi đã bắt đầu như thế nào."
     endpoint = "Hãy đồng <br>hành cùng <br>DalaFarm!"
@@ -389,7 +389,7 @@ path = "product"
 
 # About section
 [Languages.en.params.about]
-enable = true
+enable = false
     title = "DalaFarm Story"
     subtitle = "How our journey started."
     endpoint = "Be part<br> of our <br>story!"
