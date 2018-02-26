@@ -7,6 +7,10 @@
 {{ partial "nav.html" . }}
 {{ partial "hero.html" . }}
 
+{{ if .Site.Params.params.review.enable }}
+    {{ partial "review.html"  . }}
+{{ end }}
+
 {{ if .Site.Params.params.product.enable }}
     {{ partial "product.html"  . }}
 {{ end }}
