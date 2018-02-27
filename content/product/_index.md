@@ -6,4 +6,5 @@ url= "product"
 aliases = ["/san-pham/"]
 +++
 
-Merry Christmas and Happy New Year 2018!
+Các loại rau củ DalaFarm được trồng và kiểm soát chặt chẽ từ nguyên liệu đầu vào, sau đó được sấy khô và nghiền mịn để đảm bảo
+giữ lại hơn 90% dinh dưỡng so với rau củ tươi
