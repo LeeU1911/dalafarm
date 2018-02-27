@@ -24,4 +24,21 @@ function loadStyleSheet(src) {
     }
 };
 
+var view = $(".review-group > .row");
+var move = 100;
+var pos = 0;
 
+$("#rightArrow").click(function(){
+    console.log(pos);
+    pos += move;
+    view.scrollLeft(pos);
+    pos > move?$("#leftArrow").show():$("#leftArrow").hide();
+
+});
+
+$("#leftArrow").click(function(){
+    console.log(pos);
+    pos > 0?pos -= move:pos=0;
+    view.scrollLeft(pos);
+    pos == 0?$("#leftArrow").hide():$("#leftArrow").show();
+});

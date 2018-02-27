@@ -135,6 +135,8 @@ path = "san-pham"
 enable = true
 title = "Phản hồi"
 subtitle = "Xem khách hàng của DalaFarm nói gì về sản phẩm nhé"
+path = "phan-hoi"
+
 # About section
 [Languages.vi.params.about]
 enable = false
