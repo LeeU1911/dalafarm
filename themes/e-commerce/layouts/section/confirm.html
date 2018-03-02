@@ -36,7 +36,7 @@
                             <p data-bind="text: phone1"></p>
                             <p data-bind="text: phone2"></p>
                             <p data-bind="text: email"></p>
-                            <p><span data-bind="text: address"></span>, <span data-bind="text: district"></span>, <span data-bind="text: province"></span></p>
+                            <p><span data-bind="text: address"></span>, <span data-bind="text: ward"></span>, <span data-bind="text: district"></span>, <span data-bind="text: province"></span></p>
                             <p>Hình thức thanh toán: <span data-bind="text: paymentType"></span></p>
                             <p data-bind="text: additionalNote" style="font-style: italic;" ></p>
                         </div>
@@ -82,6 +82,7 @@
             this.address = bill.info.address;
             this.province = bill.info.province;
             this.district = bill.info.district;
+            this.ward = bill.info.ward;
             this.products = getProductsArrayFromBill(bill);
             this.promotionalProducts = bill.promotionalProducts;
             this.shippingCost = ko.observable(bill.shippingCost || 0);
@@ -143,9 +144,11 @@
             bill.subtotal = calculateTotalBill(bill);
             bill.products = getProductsArrayFromBill(bill);
             bill.info.districtId = lookupPlaceIdFromName(bill.info.availableDistricts, bill.info.district);
+            bill.info.wardId = lookupPlaceIdFromName(bill.info.availableWards, bill.info.ward);
             delete bill.info.availableDistricts;
             delete bill.info.availableProvinces;
-            sendToApiWebhook(bill);
+            delete bill.info.availableWards;
+            // sendToApiWebhook(bill);
         }
 
         function sendToApiWebhook(order){
