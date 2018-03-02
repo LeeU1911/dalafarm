@@ -110,6 +110,15 @@
                                         </select>
                                     </div>
                                 </div>
+                                <!-- Select Basic -->
+                                <div class="form-group">
+                                    <label class="col-md-2 control-label" for="ward">Phường/Xã</label>
+                                    <div class="col-md-6">
+                                        <select data-bind="value: info.ward, options: info.availableWards, optionsValue: 'name', optionsText: 'name'" id="ward" name="ward"
+                                                class="form-control input-lg">
+                                        </select>
+                                    </div>
+                                </div>
                                 <!-- Text input-->
                                 <div class="form-group">
                                     <label class="col-md-2 control-label" for="address">Địa chỉ *</label>
@@ -238,6 +247,8 @@
                 availableProvinces: ko.observable((bill && bill.info && bill.info.availableProvinces) || getListProvinces()),
                 district: ko.observable((bill && bill.info && bill.info.district) || "1"),
                 availableDistricts: ko.observable((bill && bill.info && bill.info.availableDistricts) || undefined),
+                ward: ko.observable((bill && bill.info && bill.info.ward) || "Tân Định"),
+                availableWards: ko.observable((bill && bill.info && bill.info.availableWards) || undefined),
                 paymentType: ko.observable((bill && bill.info && bill.info.paymentType) || "cod"),
                 additionalNote: ko.observable((bill && bill.info && bill.info.additionalNote) || "")
             },
@@ -287,6 +298,11 @@
                 populateDistrictByProvinceName(provinceName);
             }
         });
+        $('#district').change(function(){
+            if(districtName = $('#district').val()){
+                populateWardByDistrictName(districtName);
+            }
+        });
 
         function getListProvinces() {
             $.getJSON(apiBaseURL + "/v1/provinces", function (data) {
@@ -303,6 +319,13 @@
                 var provinceId = lookupPlaceIdFromName(viewModel().info.availableProvinces(), provinceName);
             }
             getListOfDistrictsByProvinceIdFromApi(provinceId);
+        }
+
+        function populateWardByDistrictName(districtName){
+            if(typeof districtName === "string") {
+                var districtId = lookupPlaceIdFromName(viewModel().info.availableDistricts(), districtName);
+            }
+            getListOfWardsByDistrictIdFromApi(districtId);
         }
 
         function getListOfDistrictsByProvinceIdFromApi(provinceId) {
@@ -348,6 +371,20 @@
                         "id": "767",
                         "name": "Quận Tân Phú"
                     }, {"id": "762", "name": "Quận Thủ Đức"}]);
+                }
+            });
+        }
+
+        function getListOfWardsByDistrictIdFromApi(districtId) {
+            $.getJSON(apiBaseURL + "/v1/province/" + districtId + "/wards", function (data) {
+                data = sortDistrictOrProvinceOnLocaleCompare(data);
+                data = data.map(function(d){d.name = d.type + " " + d.name; return d;});
+                viewModel().info.availableWards(data);
+            }).fail(function () {
+                setDefaultValuesForWard();
+                console.log("Error contacting api server! Use wards of HCM district 1.");
+                function setDefaultValuesForWard() {
+                    viewModel().info.availableWards([{"id":"26734","name":"Phường Tân Định","type":"Phường"},{"id":"26737","name":"Phường Đa Kao","type":"Phường"},{"id":"26740","name":"Phường Bến Nghé","type":"Phường"},{"id":"26743","name":"Phường Bến Thành","type":"Phường"},{"id":"26746","name":"Phường Nguyễn Thái Bình","type":"Phường"},{"id":"26749","name":"Phường Phạm Ngũ Lão","type":"Phường"},{"id":"26752","name":"Phường Cầu Ông Lãnh","type":"Phường"},{"id":"26755","name":"Phường Cô Giang","type":"Phường"},{"id":"26758","name":"Phường Nguyễn Cư Trinh","type":"Phường"},{"id":"26761","name":"Phường Cầu Kho","type":"Phường"}]);
                 }
             });
         }
