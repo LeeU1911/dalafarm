@@ -99,6 +99,7 @@
         ko.applyBindings(viewModel);
         dataLayer.push({
             'value': bill.subtotal,
+            'id': bill.id,
             'currency': 'VND'});
 
         function getShippingCost() {
