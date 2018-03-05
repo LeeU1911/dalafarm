@@ -89,6 +89,7 @@ discount_code_success_alert = "Chúc mừng bạn đã nhận được khuyến 
 custom_css = ["css/nprogress.css"]
 custom_js  = ["js/nprogress.js"]
 favicon    = "favicon.ico"
+disableFonts = false
 #Content footer
 #contentFooter = """
 #---
