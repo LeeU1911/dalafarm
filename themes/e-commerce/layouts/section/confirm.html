@@ -149,7 +149,7 @@
             delete bill.info.availableDistricts;
             delete bill.info.availableProvinces;
             delete bill.info.availableWards;
-            // sendToApiWebhook(bill);
+            sendToApiWebhook(bill);
         }
 
         function sendToApiWebhook(order){
