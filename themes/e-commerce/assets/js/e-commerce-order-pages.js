@@ -80,6 +80,14 @@ function getProductsArrayFromBill(b) {
     });
 }
 
+function conformProductsArrayForAnalyticsPurpose(productsArr) {
+    var conformedProductsArr = [];
+    productsArr.forEach(function (prod) {
+        conformedProductsArr.push({sku: prod.sku, name: prod.sku, price: prod.price, quantity: prod.amount})
+    });
+    return conformedProductsArr;
+}
+
    var apiBaseURL = "http://api.dalafarm.vn";
 // var apiBaseURL = "http://localhost:8080";
 

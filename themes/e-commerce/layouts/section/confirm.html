@@ -99,7 +99,11 @@
         ko.applyBindings(viewModel);
         dataLayer.push({
             'value': bill.subtotal,
+            'transactionShipping': bill.shippingCost,
+            'transactionTotal': bill.subtotal,
+            'transactionProducts': conformProductsArrayForAnalyticsPurpose(getProductsArrayFromBill(bill)),
             'order-id': bill.id,
+            'transactionId': bill.id,
             'currency': 'VND'});
 
         function getShippingCost() {
