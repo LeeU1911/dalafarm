@@ -40,4 +40,8 @@ Triterpenoids trong rau má cũng có thể làm giảm sự lo lắng và tăng
 
 {{< img src="/img/blog/6-cong-dung-tuyet-voi-cua-bot-rau-ma(3).png" title="Nước rau má" >}}
 
-Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bot-rau-ma-100g/) nhé
+Với việc trồng và kiểm soát rau củ tại nông trại để đảm bảo rau củ sạch, an toàn, DalaFarm còn sấy khô và nghiền mịn rau củ tươi ra thành bột rau củ giúp bảo toàn hơn 90% chất dinh dưỡng so với rau củ tươi nhằm giúp mọi người sử dụng rau củ một cách nhanh chóng và tiết kiệm hơn.
+
+Bạn có thể đặt mua bột rau má DalaFarm [tại đây](/san-pham/bot-rau-ma-50g/) nhé.
+
+

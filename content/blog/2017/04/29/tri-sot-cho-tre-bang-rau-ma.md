@@ -25,4 +25,8 @@ Sử dụng rau má rất an toàn, không tác dụng phụ, bạn hoàn toàn 
 
 Cho bé uống rau má là biện pháp hữu hiệu nhất để bảo vệ sức khỏe cho bé giúp bé có thể khỏe được một cách nhanh nhất, mẹ hãy bỏ túi phương pháp này để áp dụng mỗi khi bé gặp vấn đề về sốt nhé.
 
-Bạn có thể đặt mua bột rau má [tại đây](/san-pham/bot-rau-ma-100g/) nhé
+Với việc trồng và kiểm soát rau củ tại nông trại để đảm bảo rau củ sạch, an toàn, DalaFarm còn sấy khô và nghiền mịn rau củ tươi ra thành bột rau củ giúp bảo toàn hơn 90% chất dinh dưỡng so với rau củ tươi nhằm giúp mọi người sử dụng rau củ một cách nhanh chóng và tiết kiệm hơn.
+
+Bạn có thể đặt mua bột rau má DalaFarm [tại đây](/san-pham/bot-rau-ma-50g/) nhé.
+
+

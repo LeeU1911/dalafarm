@@ -30,4 +30,10 @@ Hàng ngày, bạn lấy bột rau diếp cá ra uống 3 lần vào các buổi
 
 Theo các chuyên gia, những biện pháp chữa bệnh trĩ bằng rau diếp cá ở trên được xác định là đem lại hiệu quả rất tốt đối với những người bị bệnh trĩ nhẹ, điều bạn cần làm là phải kiên trì thực hiện phương pháp này mỗi ngày thì phương pháp này mới phát huy được tác dụng. 
 
-Ngoài ra, bạn cũng cần phải lưu ý là không nên cho trẻ em ăn quá nhiều rau diếp cá. Trong trường hợp bạn bị mắc bệnh trĩ quá nặng thì chúng tôi khuyên bạn nên sắp xếp thời gian đến ngay các cơ sở y tế chuyên khoa để khám và chữa trị bệnh kịp thời, tránh để bệnh quá nặng gây khó khăn cho việc điều trị. 
+Ngoài ra, bạn cũng cần phải lưu ý là không nên cho trẻ em ăn quá nhiều rau diếp cá. Trong trường hợp bạn bị mắc bệnh trĩ quá nặng thì chúng tôi khuyên bạn nên sắp xếp thời gian đến ngay các cơ sở y tế chuyên khoa để khám và chữa trị bệnh kịp thời, tránh để bệnh quá nặng gây khó khăn cho việc điều trị.
+
+Với việc trồng và kiểm soát rau củ tại nông trại để đảm bảo rau củ sạch, an toàn, DalaFarm còn sấy khô và nghiền mịn rau củ tươi ra thành bột rau củ giúp bảo toàn hơn 90% chất dinh dưỡng so với rau củ tươi nhằm giúp mọi người sử dụng rau củ một cách nhanh chóng và tiết kiệm hơn.
+
+Bạn có thể đặt mua bột rau má DalaFarm [tại đây](/san-pham/bot-diep-ca-50g/) nhé.
+
+ 
