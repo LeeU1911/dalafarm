@@ -1,7 +1,15 @@
 +++
 date = "2017-06-06T08:05:45+08:00"
 publishdate = "2017-06-06T08:05:45+08:00"
-description = "Bột Rau Bó Xôi (dùng liền) đóng gói zip 50 gram"
+description = """
+Bột Rau Bó Xôi (dùng liền) đóng gói zip 50 gram
+
+* Bổ sung vitamin K, A, E, B2, B6, B1, C, mangan, magiê, sắt, đồng, canxi, kali. 
+* Có chất xơ ăn kiêng, phốt pho, kẽm, protein choline, axit béo omega-3. 
+* Cung cấp dưỡng chất cho da và tóc, cho xương chắc khỏe, cải thiện lượng đường trong máu, giảm nguy cơ ung thư, giảm huyết áp và nguy cơ mắc bệnh hen suyễn ....
+* 100% từ Rau Bó Xôi (Cải Bó Xôi) tươi tự nhiên an toàn, không hóa chất, không hương liệu
+* Dạng bột hoà tan dùng liền tiện lợi
+"""
 price = "110,000"
 img = ["spinach-1.jpg","spinach-2.jpg"]
 product_line = ""
@@ -26,15 +34,7 @@ VSATTP Việt Nam.
 Không hóa chất, không hương liệu
 
 ## Công dụng: 
-Rau bó xôi chứa vitamin K, A, E, B2, B6, B1, C, 
-mangan, magiê, sắt, đồng, canxi, kali. 
-Có chất xơ ăn kiêng, phốt pho, kẽm, 
-protein choline, axit béo omega-3. 
-Cung cấp dưỡng chất cho da và tóc, 
-cho xương chắc khỏe, cải thiện lượng 
-đường trong máu, giảm nguy cơ ung thư,
-giảm huyết áp và nguy cơ mắc bệnh 
-hen suyễn ....
+Rau bó xôi chứa vitamin K, A, E, B2, B6, B1, C, mangan, magiê, sắt, đồng, canxi, kali. Có chất xơ ăn kiêng, phốt pho, kẽm, protein choline, axit béo omega-3. Cung cấp dưỡng chất cho da và tóc, cho xương chắc khỏe, cải thiện lượng đường trong máu, giảm nguy cơ ung thư, giảm huyết áp và nguy cơ mắc bệnh hen suyễn...
 
 ## HDSD:  
 Dùng làm thức uống hàng ngày, 

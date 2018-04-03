@@ -1,7 +1,14 @@
 +++
 date = "2017-05-07T14:31:45+08:00"
 publishdate = "2017-06-01T00:00:00+07:00"
-description = "Bột Cà Rốt (dùng liền) đóng gói zip 50 gram"
+description = """
+Bột Cà Rốt (dùng liền) đóng gói zip 50 gram
+
+* Cải thiện thị lực, ngăn ngừa ung thư, ngăn đau tim, ngăn ngừa tai biến mạch máu não, đẹp da
+* Bổ sung vitamin A, beta-carotene
+* 100% từ Cà Rốt tươi tự nhiên an toàn, không hóa chất, không hương liệu
+* Dạng bột hoà tan dùng liền tiện lợi
+"""
 price = "119,000"
 img = ["carrot-1.jpg","carrot-2.jpg"]
 product_line = ""
@@ -26,10 +33,7 @@ VSATTP Việt Nam.
 Không hóa chất, không hương liệu
 
 ### Công dụng: 
-Cà rốt cải thiện thị lực, ngăn 
-ngừa ung thư, ngăn đau tim, 
-ngăn ngừa tai biến mạch máu 
-não, giúp làn da luôn tươi đẹp…
+Cà rốt cải thiện thị lực, ngăn ngừa ung thư, ngăn đau tim, ngăn ngừa tai biến mạch máu não, giúp làn da luôn tươi đẹp…
 
 ### Hướng dẫn sử dụng:  
 Dùng làm thức uống hàng ngày, 

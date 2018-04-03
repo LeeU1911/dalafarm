@@ -1,7 +1,15 @@
 +++
 date = "2017-05-07T14:31:45+08:00"
 publishdate = "2017-06-01T00:00:00+07:00"
-description = "Bột Củ Dền (dùng liền) đóng gói zip 50 gram"
+description = """
+Bột Củ Dền (dùng liền) đóng gói zip 50 gram
+
+* Cung cấp năng lượng cần thiết cho cơ thể
+* Bổ sung vitamin C, vitamin A, vitamin B9, sắt, kali, magiê, axit folic, betaine, kẽm, phốt pho
+* 100% từ Củ Dền tươi tự nhiên an toàn, không hóa chất, không hương liệu
+* Dạng bột hoà tan dùng liền tiện lợi
+
+"""
 price = "100,000"
 img = ["beetroot-1.jpg","beetroot-2.jpg"]
 product_line = ""

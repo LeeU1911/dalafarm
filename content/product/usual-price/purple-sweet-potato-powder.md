@@ -1,7 +1,14 @@
 +++
 date = "2017-06-06T08:05:45+08:00"
 publishdate = "2017-06-06T08:05:45+08:00"
-description = "Bột Khoai Lang Tím (dùng liền) đóng gói zip 50 gram"
+description = """
+Bột Khoai Lang Tím (dùng liền) đóng gói zip 50 gram
+
+* Bổ sung chất xơ, ngừa táo bón
+* Bổ sung vitamin C, B6, beta-carotene, chất sắt
+* Cung cấp chất chống oxy hoá
+
+"""
 price = "85,000"
 img = ["purple-sweet-potato-1.jpg","purple-sweet-potato-2.jpg"]
 product_line = ""
@@ -31,7 +38,7 @@ carotene (vitamin A carotenoid),
 vitamin C, vitamin B6, sắt, mangan 
 và kali. Đây là thực phẩm chứa chất
 chống oxy hóa cao, duy trì giảm cân, 
-ngừa ung thư, hộ trợ bệnh tiểu đường ..
+ngừa ung thư, hỗ trợ bệnh tiểu đường ..
 
 ## HDSD:  
 Dùng làm thức uống hàng ngày, 
