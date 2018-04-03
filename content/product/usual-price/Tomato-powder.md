@@ -1,7 +1,7 @@
 +++
 date = "2017-05-07T14:31:45+08:00"
 publishdate = "2017-06-01T00:00:00+07:00"
-description = "Bột Cà Chua đóng gói zip 50 gram"
+description = "Bột Cà Chua (dùng liền) đóng gói zip 50 gram"
 price = "119,000"
 img = ["tomato-1.jpg","tomato-2.jpg"]
 product_line = ""
@@ -14,7 +14,7 @@ weight = 3
 discounted_percent = "Tạm hết"
 +++
 
-# Bột Cà Chua DalaFarm 
+# Bột Cà Chua DalaFarm (dùng liền) 
 
 Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 

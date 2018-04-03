@@ -1,7 +1,7 @@
 +++
 date = "2017-05-07T14:31:45+08:00"
 publishdate = "2017-06-01T00:00:00+07:00"
-description = "Bột Củ Dền đóng gói zip 50 gram"
+description = "Bột Củ Dền (dùng liền) đóng gói zip 50 gram"
 price = "100,000"
 img = ["beetroot-1.jpg","beetroot-2.jpg"]
 product_line = ""
@@ -15,7 +15,7 @@ key = "beetroot"
 popular_product = true
 +++
 
-# Bột Củ Dền DalaFarm 
+# Bột Củ Dền DalaFarm (dùng liền)
 
 Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 

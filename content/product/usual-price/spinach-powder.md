@@ -1,7 +1,7 @@
 +++
 date = "2017-06-06T08:05:45+08:00"
 publishdate = "2017-06-06T08:05:45+08:00"
-description = "Bột Rau Bó Xôi đóng gói zip 50 gram"
+description = "Bột Rau Bó Xôi (dùng liền) đóng gói zip 50 gram"
 price = "110,000"
 img = ["spinach-1.jpg","spinach-2.jpg"]
 product_line = ""
@@ -14,7 +14,7 @@ key = "spinach"
 popular_product = true
 +++
 
-# Bột Rau Bó Xôi DalaFarm (Bột Cải Bó Xôi DalaFarm)
+# Bột Rau Bó Xôi DalaFarm (Bột Cải Bó Xôi DalaFarm) (dùng liền)
 
 Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 

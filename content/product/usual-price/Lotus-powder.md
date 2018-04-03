@@ -1,7 +1,7 @@
 +++
 date = "2017-06-06T08:05:45+08:00"
 publishdate = "2017-06-06T08:05:45+08:00"
-description = "Bột Hạt Sen đóng gói zip 50 gram"
+description = "Bột Hạt Sen (dùng liền) đóng gói zip 50 gram"
 price = "119,000"
 img = ["lotusseeds-1.jpg","lotusseeds-2.jpg"]
 product_line = ""
@@ -13,7 +13,7 @@ discounted_percent = "Tạm hết"
 aliases = ["/san-pham/bot-sen-50g","/san-pham/bot-hat-sen-50g"]
 +++
 
-# Bột Hạt Sen DalaFarm
+# Bột Hạt Sen DalaFarm (dùng liền)
 
 Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại Ninh Hòa, Khánh Hòa. Sản phẩm được 

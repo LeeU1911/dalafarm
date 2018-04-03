@@ -1,7 +1,7 @@
 +++
 date = "2017-05-07T14:31:45+08:00"
 publishdate = "2017-06-01T00:00:00+07:00"
-description = "Bột Chùm Ngây đóng gói zip 50 gram"
+description = "Bột Chùm Ngây (dùng liền) đóng gói zip 50 gram"
 price = "65,000"
 img = ["moringa-1.jpg","moringa-2.jpg"]
 product_line = ""
@@ -14,7 +14,7 @@ weight = 3
 key = "moringa"
 +++
 
-# Bột Chùm Ngây DalaFarm 
+# Bột Chùm Ngây DalaFarm (dùng liền) 
                            
 Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 

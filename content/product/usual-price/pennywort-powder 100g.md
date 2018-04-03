@@ -1,7 +1,7 @@
 +++
 date = "2017-05-07T14:31:45+08:00"
 publishdate = "2017-06-01T00:00:00+07:00"
-description = "Bột Rau Má đóng gói zip 100 gram"
+description = "Bột Rau Má (dùng liền) đóng gói zip 100 gram"
 price = "120,000"
 img = ["pennywort-100g-1.jpg","pennywort-100g-2.jpg"]
 product_line = ""
@@ -14,7 +14,7 @@ weight = 3
 key = "pennywort100"
 +++
 
-# Bột Rau Má DalaFarm 
+# Bột Rau Má DalaFarm (dùng liền) 
                         
 Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 

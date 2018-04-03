@@ -1,7 +1,7 @@
 +++
 date = "2017-06-06T08:05:45+08:00"
 publishdate = "2017-06-06T08:05:45+08:00"
-description = "Bột Nấm đóng gói zip 50 gram"
+description = "Bột Nấm (dùng liền) đóng gói zip 50 gram"
 price = "135,000"
 img = ["mushrooms-1.jpg","mushrooms-2.jpg"]
 product_line = ""
@@ -14,7 +14,7 @@ key = "mushroom"
 discounted_percent = "Còn 8 gói"
 +++
 
-# Bột Nấm Bào Ngư DalaFarm
+# Bột Nấm Bào Ngư DalaFarm (dùng liền)
 
 Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 

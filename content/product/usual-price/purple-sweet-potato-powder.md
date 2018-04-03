@@ -1,7 +1,7 @@
 +++
 date = "2017-06-06T08:05:45+08:00"
 publishdate = "2017-06-06T08:05:45+08:00"
-description = "Bột Khoai Lang Tím đóng gói zip 50 gram"
+description = "Bột Khoai Lang Tím (dùng liền) đóng gói zip 50 gram"
 price = "85,000"
 img = ["purple-sweet-potato-1.jpg","purple-sweet-potato-2.jpg"]
 product_line = ""
@@ -14,7 +14,7 @@ popular_product = true
 key = "purpleswpotato"
 +++
 
-# Bột Khoai Lang Tím DalaFarm
+# Bột Khoai Lang Tím DalaFarm (dùng liền)
 
 Được chọn lọc và chế biến từ những nguyên 
 liệu tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm 

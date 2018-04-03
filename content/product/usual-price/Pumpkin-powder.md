@@ -1,7 +1,7 @@
 +++
 date = "2017-05-07T14:31:45+08:00"
 publishdate = "2017-06-01T00:00:00+07:00"
-description = "Bột Bí Đỏ đóng gói zip 50 gram"
+description = "Bột Bí Đỏ (dùng liền) đóng gói zip 50 gram"
 price = "87,500"
 img = ["pumpkin-1.jpg","pumpkin-2.jpg"]
 product_line = ""
@@ -15,7 +15,7 @@ key = "pumpkin"
 popular_product = true
 +++
 
-# Bột Bí Đỏ DalaFarm 
+# Bột Bí Đỏ DalaFarm (dùng liền) 
                        
 Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
