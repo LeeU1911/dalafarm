@@ -91,19 +91,9 @@ custom_js  = ["js/nprogress.js"]
 favicon    = "favicon.ico"
 disableFonts = false
 #Content footer
-#contentFooter = """
-#---
-#GỌI NGAY -  [0906 951 498](tel:0906 951 498) hoặc [0918 241 066](tel:0918 241 066)
-#ĐỂ ĐƯỢC TƯ VẤN VÀ CUNG CẤP SẢN PHẨM BỘT RAU CỦ DALAFARM VỚI MỨC GIÁ TỐT NHẤT
-#
-#VPĐD: 317 Lô D, CC Lạc Long Quân, Phường 5, Quận 11, TP.HCM
-#
-#Điện thoại: [(028) 6684 2517](tel:028 6684 2517); [(0258) 3899 189](tel:0258 3899 189)
-#
-#Các đối tác, đơn vị muốn liên hệ để biết thêm thông tin công ty xin vui lòng liên hệ số [0906 951 498](tel:0906 951 498) hoặc [0918 241 066](tel:0918 241 066) hoặc email: [info@dalafarm.vn](mailto:info@dalafarm.vn)
-#
-#Quan tâm đến chính sách & chương trình cho các tổng đại lý, đại lý các cấp, vui lòng liên hệ số: [0906 951 498](tel:0906 951 498) hoặc [0918 241 066](tel:0918 241 066) hoặc email: [sale@dalafarm.vn](mailto:sale@dalafarm.vn)
-#"""
+contentFooter = """
+<a href="/order" class="page-scroll btn btn-xl">Mua Ngay</a>
+"""
 related_blog_limit = 7
 
 # Navigation
