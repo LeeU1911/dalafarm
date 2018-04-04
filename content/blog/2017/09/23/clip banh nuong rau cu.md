@@ -71,5 +71,5 @@ Bước 4: Cho hỗn hợp trên hòa tan trộn với 250gr bột mì. Sauk hi 
 -	Các bạn có thể xem clip hướng dẫn chi tiết bên dưới nhé:
 {{< youtube 2ROk78iBs78 >}}
 
-Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé.
+**_Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé_**
 

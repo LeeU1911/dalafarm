@@ -43,5 +43,5 @@ _Hiểu rõ về thực phẩm sạch_
 
 Nhiều cha mẹ khá bối rối vì không biết lựa chọn nơi an toàn, uy tín đế mua thực phẩm cho con ăn dặm. Những lo lắng xung quanh việc thuốc trừ sâu và chất kích thích trong thực phẩm thông thường gây độc hại cho sức khoẻ. Vì vậy Để quyết định nơi mua sản phẩm các mẹ phải tìm hiểu và lựa chọn nhà sản xuất uy tín và mua với số lượng như thế nào cho hợp lý. Đồng thời, bạn cần cân nhắc đến yếu tố ngân sách gia đình cũng như trẻ có thích những loại thực phẩm đó không đế tránh lãng phí khi mua số lượng lớn rau cũ tươi trữ trong tủ lạnh gây hư hỏng và nhiễm khuẩn…
 
-Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé
+**_Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé_**
 

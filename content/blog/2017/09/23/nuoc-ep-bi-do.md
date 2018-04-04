@@ -36,5 +36,5 @@ Trong khi đó, giấm táo cũng là một trong những thành phần tự nhi
 
 Ngoài ra cần phải thay đổi lối sống, ăn uống hợp lý, ngủ đúng giờ và tránh ăn những thực phẩm kích thích sản xuất axit. Tập thể dục hàng ngày cũng là điều cần thiết.
 
-Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé.
+**_Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé_**
 

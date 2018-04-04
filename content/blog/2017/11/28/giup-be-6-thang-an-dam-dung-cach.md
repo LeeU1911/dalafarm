@@ -56,5 +56,5 @@ Theo kinh nghiệm được đúc kết từ việc chăm sóc sức khỏe tr�
 
 - Giai đoạn ăn cơm: khi trẻ đã có đủ răng (tổng cộng 20 cái), trẻ mới có thể nhai cơm thật kỹ. Cha mẹ nên nấu cơm mềm và dằm nát cho trẻ ăn. Tập cho trẻ ăn các loại rau, củ bằng cách nấu canh rau đay, canh mồng tơi, canh bí đỏ, canh súp (nấu với cà-rốt, khoai tây, súp-lơ, su hào), nên chú ý cắt ngắn rau cho trẻ dễ nhai để trẻ không bị hóc cọng rau.
 
-Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé
+**_Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé_**
 

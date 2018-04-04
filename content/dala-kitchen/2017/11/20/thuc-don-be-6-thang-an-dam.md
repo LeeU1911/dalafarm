@@ -40,8 +40,10 @@ Rau đem nhặt rửa sạch, luộc chín mềm rồi cắt nhỏ, nghiền qua
 Khi bé đã quen dần với các loại rau, mẹ có thể tập cho con ăn thêm thịt động vật, bắt đầu với cá có thịt màu trắng. Món cháo cá cà rốt được chế biến như sau:
 Cà rốt rửa sạch, gọt vỏ cắt nhỏ, đem hấp chín rồi nghiền qua rây. Cá hấp chín kĩ, lọc bỏ xương cẩn thận rồi cho vào cối giã nhỏ mịn. Cho cà rốt, cá vào nồi cháo trắng đã nghiền, quấy đều và đun sôi nhỏ lửa trong vài phút. Tắt bếp, đợi cháo nguội rồi cho bé ăn.
 {{< img src="/img/blog/thuc-don-be-6-thang-an-dam(4).jpg" title="Cháo cá- cà rốt cho bé ăn dặm" >}}
-Lưu ý: Khi bắt đầu cho bé làm quen với thịt động vật, mẹ nên thật từ từ với lượng rất ít một để hệ tiêu hóa của bé có thể thích nghi và tiêu thụ thức ăn. Tuyệt đối không cho con ăn quá nhiều cá, thịt 1 lúc. Đặc biệt, với các thực phẩm giàu protein như trứng, thịt bò, cá thịt đỏ,... mẹ hãy đợi khi bé được 7 tháng hãy cho con ăn.
-Đế các mẹ bớt thời gian chế biến trong giai đoạn bận rộn sắp trở lại với công việc, các mẹ có thể sử dụng bột bí đỏ, bột cà rốt, bột bó xôi, bột khoai lang tím, bột súp lơ… Bột giúp các mẹ giảm thời gian chế biến, an toàn, không lo nhiểm khuẫn trong quá trình nấu, nghiền rau củ với giá thành cực hợp lý, Không lo lãng phí rau củ thừa.
 
-Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé
+Lưu ý: Khi bắt đầu cho bé làm quen với thịt động vật, mẹ nên thật từ từ với lượng rất ít một để hệ tiêu hóa của bé có thể thích nghi và tiêu thụ thức ăn. Tuyệt đối không cho con ăn quá nhiều cá, thịt 1 lúc. Đặc biệt, với các thực phẩm giàu protein như trứng, thịt bò, cá thịt đỏ,... mẹ hãy đợi khi bé được 7 tháng hãy cho con ăn.
+
+**Để các mẹ bớt thời gian chế biến trong giai đoạn bận rộn sắp trở lại với công việc, các mẹ có thể sử dụng bột bí đỏ, bột cà rốt, bột bó xôi, bột khoai lang tím, bột súp lơ… Bột giúp các mẹ giảm thời gian chế biến, an toàn, không lo nhiễm khuẫn trong quá trình nấu, nghiền rau củ với giá thành cực hợp lý, Không lo lãng phí rau củ thừa.**
+
+**_Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé_**
 

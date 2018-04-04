@@ -48,4 +48,4 @@ Bạn sẽ có 1 sản phẩm tối ưu đế thanh lọc cơ thể.
 
 **Hãy cũng chờ đến ngày 12/09/2017 nhé các bạn.**
  
-Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé.
+**_Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé_**

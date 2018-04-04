@@ -56,6 +56,6 @@ _Để tránh gặp phải các nguy cơ trên. Ngày nay phụ nữ trên khắ
 
 - Ngoài ra các loại rau như cà chua, củ dền, cà rốt, rau má, diếp cá giúp thải độc, cần tây, gừng giúp tan mỡ, nghệ giúp giảm sự tích tụ chất béo. Súp lơ giúp chống oxi hóa, cung cấp chất xơ, cà rốt giúp bào vệ da và mắt….
 
-Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé.
+**_Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé_**
 
 

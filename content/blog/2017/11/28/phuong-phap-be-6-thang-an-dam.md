@@ -43,5 +43,5 @@ title = "PHƯƠNG PHÁP CHO TRẺ 6 THÁNG TUỔI TẬP ĂN DẶM"
  
  Đế tránh bị nhiễm khuẩn và mất nhiều thời gian chuẩn bị đồ ăn cho bé, Các mẹ có thể thay thế rau tươi bằng các loại bột rau củ ăn dặm DalaFarm với công nghệ sấy SEFD giúp giữ được màu sắc, dinh dưỡng và mùi vị của rau củ đến 90%
 
- Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé
+ **_Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé_**
 

@@ -130,5 +130,5 @@ Bà bầu nên ăn rau gì không phải là câu hỏi khó trả lời khi m�
 
 Đặc biệt là bột rau củ DalaFarm được sản xuất theo công nghệ độc quyền SEFD giúp giữ được tới trên 90% chất dinh dưỡng so với rau tươi. Các mẹ bầu có thể bổ sung rau củ mọi lúc, mọi nơi. 
 
-Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé.
+**_Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé_**
 

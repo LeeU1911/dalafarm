@@ -33,5 +33,5 @@ Cũng giống như những lời khuyên dinh dưỡng chung cho mọi người,
 Ngoài việc thắc mắc bà bầu nên ăn gì vào buổi tối, mẹ còn cần chú ý đến việc ăn vào lúc nào. Giờ ăn tối lý tưởng cho bà bầu là trước 9h tối. Đây là “thời điểm vàng” để mẹ hoàn toàn nghỉ ngơi sau một ngày bận rộn. Để cơ thể đi vào “chế độ nghỉ”, mẹ không nên ăn tối quá muộn dẫn đến việc dạ dày và cơ quan tiêu hóa phải tiếp tục làm việc thay vì được thư giãn, nghỉ ngơi. Việc ăn tối quá trễ cũng khiến mẹ khó tiêu, khó ngủ. Do đó, mẹ nên sắp xếp thời gian để bữa tối có thể diễn ra vào khung giờ lý tưởng, từ 6 giờ đến 7 giờ tối. Càng cách xa giờ ngủ, mẹ sẽ càng có thời gian để tiêu hóa thức ăn và nghỉ ngơi nhiều hơn. Trong trường hợp ban đêm quá đói bụng, mẹ có thể bổ sung thêm một ít nước rau củ, sữa tươi hoặc bánh quy.
 Trên đây là một số gợi ý lý tưởng cho bữa tối của mẹ bầu. Tuy nhiên, mẹ không nhất thiết phải giới hạn bản thân trong một số ít lựa chọn. Bà bầu nên ăn gì vào buổi tối? Câu trả lời là tất cả những loại thực phẩm giàu dinh dưỡng và tốt cho sức khỏe. Mẹ chỉ cần chú ý về số lượng các món sao cho có một bữa ăn vừa phải, không quá no và cũng không để bản thân bị thiếu hụt năng lượng.
 
-Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé
+**_Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé_**
 
