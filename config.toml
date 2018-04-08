@@ -79,7 +79,7 @@ weight = 5
 
 [Languages.vi.params]
 name = "DalaFarm"
-description = """DalaFarm cung cấp các sản phẩm bột rau củ, bao gồm: dâu tây, cần tây, củ dền, cà rốt, diếp cá, cả bó xôi, cà chua, rau má,
+description = """DalaFarm cung cấp các sản phẩm bột rau củ, bột rau xanh, bao gồm: dâu tây, cần tây, củ dền, cà rốt, diếp cá, cả bó xôi, cà chua, rau má,
                  hạt sen. DalaFarm còn cung cấp bột rau củ hỗn hợp để pha thức uống giải độc detox
                  và dầu tỏi."""
 announcement_text = "[FREE SHIP đơn hàng trên 250 ngàn](/promotion)"
