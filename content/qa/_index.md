@@ -172,7 +172,7 @@ Các anh chị muốn đăng ký làm đại lý phân phối sản phẩm DalaF
 - Mong muốn của bạn khi làm đại lý cho bột rau củ DalaFarm? 
 - Họ Tên & số điện thoại (để chúng tôi tiện liên hệ lại) 
 
-Hotline DalaFarm: [0906951498](tel:0906951498) / [0918241066](tel:0918241066)
+Hotline DalaFarm: [0906951498](tel:0906951498) 
 
 Chúng tôi sẽ gửi các chính sách mức chiết khấu đại lý và liên hệ lại với anh chị trong thời gian ngắn. 
 

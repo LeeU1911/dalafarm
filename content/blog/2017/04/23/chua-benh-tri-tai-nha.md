@@ -108,13 +108,11 @@ b. Trị bệnh trĩ bằng phương pháp phẫu thuật HCPT:
 Phương pháp HCPT sử dụng nguyên tắc Nhiệt Nội Sinh, giúp làm đông các mô tĩnh mạch ở búi trĩ, tạo thành các mô sẹo. Sau đó, bác sĩ sẽ sử dụng dao điện để tiến hành cách bỏ từng búi trĩ đó. 
 Đế phòng tránh cũng như điều trị bệnh trị hiệu quả các bạn hãy sử dụng bột diếp cá, bột rau má của Dalafarm với công nghệ sấy thăng hoa SEFD giúp giự nguyên vitamin và dưỡng chất giúp bạn tiết kiệm thời gian và hiểu quả trong điều trị bệnh 
 
-GỌI NGAY -  [08 66 842 517](tel:08 66 842 517) hoặc [0918 241 066](tel:0918 241 066)
+GỌI NGAY -  [08 66 842 517](tel:08 66 842 517)
 ĐỂ ĐƯỢC TƯ VẤN VÀ CUNG CẤP SẢN PHẨM
 BỘT RAU CỦ DALAFARM VỚI MỨC GIÁ TỐT NHẤT
 
 VPĐD: 317 Lô D, CC Lạc Long Quân, Phường 5, 
 Quận 11,TP.HCM
-
-Điện thoại: [(028) 6684 2517](tel:028 6684 2517); [(0258) 3899 189](tel:0258 3899 189)
 
 Email: [info@dalafarm.vn](mailto:info@dalafarm.vn)

@@ -349,16 +349,16 @@ favicon    = "favicon.ico"
 #Content footer
 #contentFooter = """
 #---
-#CALL US - [+84906 951 498](tel:+84906 951 498) OR [+84918 241 066](tel:+84918 241 066)
+#CALL US - [+84906 951 498](tel:+84906 951 498)
 #TO BE CONSULTED AND GET DALAFARM VEGGIE POWDERS WITH BEST PRICE.
 #
 #OFFICE: 317 block D, Lạc Long Quân apartment, Ward 5, District 11, Ho Chi Minh City
 #
 #Phone: [(+8428) 6684 2517](tel:+8428 6684 2517); [(+84258) 3899 189](tel:+84258 3899 189)
 #
-#Partners who would like to know more about company profile, please call us at [+84906 951 498](tel:+84906 951 498) OR [+84918 241 066](tel:+84918 241 066) or email: [info@dalafarm.vn](mailto:info@dalafarm.vn)
+#Partners who would like to know more about company profile, please call us at [+84906 951 498](tel:+84906 951 498) or email: [info@dalafarm.vn](mailto:info@dalafarm.vn)
 #
-#Care about commission programs and promotional campaigns, please call us at [+84906 951 498](tel:+84906 951 498) OR [+84918 241 066](tel:+84918 241 066) or email: [sale@dalafarm.vn](mailto:sale@dalafarm.vn)
+#Care about commission programs and promotional campaigns, please call us at [+84906 951 498](tel:+84906 951 498) or email: [sale@dalafarm.vn](mailto:sale@dalafarm.vn)
 #"""
 related_blog_limit = 7
 
@@ -482,7 +482,7 @@ info = """##### DALAFARM - CHUÔNG XANH PRODUCING AND TRADING CO. LTD.
 
 <i class="fa fa-building-o"></i> 317 block D, Lac Long Quan apartment, Ward 5, District 11, HCMC, Vietnam
 
-<i class="fa fa-phone"></i> [0906 951 498](tel:0906 951 498) | [0918 241 066](tel:0918 241 066)
+<i class="fa fa-phone"></i> [0906 951 498](tel:0906 951 498)
 
 <i class="fa fa-envelope"></i> [info@dalafarm.vn](mailto:info@dalafarm.vn) | [sale@dalafarm.vn](mailto:sale@dalafarm.vn)
 
