@@ -30,7 +30,7 @@ Rau má không chỉ mát bổ lại làm đẹp rất hiệu quả. Đặc bi�
 
 **5. Làm lành vết thương**
 
-Rau má có chứa hóa chất được gọi là triterpenoidscó công dụng tăng tốc độ chữa lành vết thương, tăng cường chất chống oxy hóa tại vị trí vết thương, tăng cường da và tăng cung cấp máu cho khu vực bị thương.
+Rau má có chứa hóa chất được gọi là triterpenoids có công dụng tăng tốc độ chữa lành vết thương, tăng cường chất chống oxy hóa tại vị trí vết thương, tăng cường da và tăng cung cấp máu cho khu vực bị thương.
 
 **6. Giảm stress**
 
