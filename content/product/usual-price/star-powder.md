@@ -9,7 +9,7 @@ tags = ["veggie-powder","Starpowder"]
 thumbnail = "star powder 1.jpg"
 title = "Bột Detox Star Powder (100g)"
 weight = 5
-key = "stardetox"
+discounted_percent = "Tạm hết"
 +++
 
 # Bột Detox Star Powder

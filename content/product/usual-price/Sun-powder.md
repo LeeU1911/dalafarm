@@ -8,7 +8,7 @@ tags = ["detox-sun-powder", "veggie-powder"]
 thumbnail = "sun-powder-1.jpg"
 title = "Bột Detox Sun powder (100g)"
 weight = 5
-key = "sundetox"
+discounted_percent = "Tạm hết"
 +++
 
 # Bột Detox Sun powder
