@@ -5,7 +5,7 @@ thumbnail = "thuc-don-be-6-thang-an-dam.jpg"
 title = "THỰC ĐƠN ĂN DẶM CHO BÉ 6 THÁNG TUỔI PHÁT TRIỂN KHỎE MẠNH"
 
 +++
-**Bé 6 tháng tuổi là giai đoạn đầu tiên bắt đầu trong quá trình ăn dặm của trẻ. Nó quyết định sự yêu thích, hứng thú của bé với thức ăn về sau này. Mẹ hãy tham khảo thực đơn ăn dặm cho bé 6 tháng tuối sau đây nhé!**
+**Bé 6 tháng tuổi là giai đoạn đầu tiên bắt đầu trong quá trình ăn dặm của trẻ. Nó quyết định sự yêu thích, hứng thú của bé với thức ăn về sau này. Mẹ hãy tham khảo thực đơn ăn dặm cho bé 6 tháng tuổi sau đây nhé!**
 
 Bé đã hết tuổi chỉ "tu ti" sữa mẹ cả ngày rồi, từ tháng thứ 6 trở đi con sẽ cần được bổ sung thêm thực phẩm bên ngoài nữa. Mẹ hãy tham khảo để nấu cho bé những món thật ngon, bổ mà dễ chế biến vừa đảm bảo đủ chất cho bé, vừa không tốn quá nhiều thời gian của mẹ.
 
@@ -43,7 +43,7 @@ Cà rốt rửa sạch, gọt vỏ cắt nhỏ, đem hấp chín rồi nghiền 
 
 Lưu ý: Khi bắt đầu cho bé làm quen với thịt động vật, mẹ nên thật từ từ với lượng rất ít một để hệ tiêu hóa của bé có thể thích nghi và tiêu thụ thức ăn. Tuyệt đối không cho con ăn quá nhiều cá, thịt 1 lúc. Đặc biệt, với các thực phẩm giàu protein như trứng, thịt bò, cá thịt đỏ,... mẹ hãy đợi khi bé được 7 tháng hãy cho con ăn.
 
-**Để các mẹ bớt thời gian chế biến trong giai đoạn bận rộn sắp trở lại với công việc, các mẹ có thể sử dụng bột bí đỏ, bột cà rốt, bột bó xôi, bột khoai lang tím, bột súp lơ… Bột giúp các mẹ giảm thời gian chế biến, an toàn, không lo nhiễm khuẫn trong quá trình nấu, nghiền rau củ với giá thành cực hợp lý, Không lo lãng phí rau củ thừa.**
+**Để các mẹ bớt thời gian chế biến trong giai đoạn bận rộn sắp trở lại với công việc, các mẹ có thể sử dụng bột bí đỏ, bột cà rốt, bột bó xôi, bột khoai lang tím, bột súp lơ… Bột rau củ nguyên chất từ DalaFarm được kiểm soát nguyên liệu rau củ đầu vào an toàn giúp các mẹ giảm thời gian chế biến, đảm bảo rau củ sạch và không lo lãng phí rau củ thừa.**
 
 **_Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé_**
 
