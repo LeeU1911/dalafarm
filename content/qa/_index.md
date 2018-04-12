@@ -5,8 +5,10 @@ date = "2017-03-21T21:52:24+08:00"
 +++
 
 # Mua bột rau củ DalaFarm ở đâu?
-Tại Hồ Chí Minh, bạn có thể ghé thăm 13 Chu Mạnh Trinh, P. Bến Nghé, Quận 1 để mua sản phẩm của DalaFarm.
-Ngoài ra, DalaFarm giao tận nơi cho mọi đơn hàng trên toàn quốc. Vui lòng liên hệ fanpage [DalaFarm](https://m.me/dalafarm.com.vn) để đặt hàng hoặc biết thêm chi tiết nhé.
+Tại Hồ Chí Minh, bạn có thể ghé thăm Số 5 Hoàng Dư Khương, P. 12, Quận 10 để mua trự tiếp sản phẩm của DalaFarm.
+Hoặc đặt hàng trực tuyến tại website http://dalafarm.vn để được giao tận nơi cho mọi đơn hàng trên toàn quốc. 
+
+<a href="/order" class="page-scroll btn btn-xl">Mua Ngay</a>
   
 # Cách sử dụng bột rau củ DalaFarm như thế nào?
 Pha trực tiếp từ 1 đến 2 muỗng cà phê bột (tương đương 3 đến 5 gram bột) vào 300ml nước lọc ấm (không cần nước sôi), 
@@ -155,7 +157,6 @@ hoặc
 - Số thẻ (trong trường hợp bạn muốn chuyển qua số thẻ ATM): **9704 3211 2882 3340**
 - Tên người thụ hưởng: **Võ Thị Thanh Thư**
 - Nội dung chuyển khoản: Thanh toán đơn hàng mã **123xyz** (trong đó, **123xyz** là mã đơn hàng 6 ký tự được tạo ra bởi hệ thống DalaFarm. Khách hàng vui lòng yêu cầu mã này trước khi thanh toán đơn hàng.)
-
 
 
 Sau khi chuyển khoản, quý khách vui lòng nhắn tin facebook messenger cho DalaFarm để xác nhận nhằm trường hợp chuyển khoản khác ngân hàng không đến liền.
