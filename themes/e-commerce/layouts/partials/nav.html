@@ -22,8 +22,8 @@
         </a>
       {{ end }}
 
-      <button type="button" class="navbar-toggle cta-on-nav" data-toggle="collapse">{{ with .Site.Params.params.hero.orderButtonText }}{{ . }}{{ end }}
-      </button>
+      <a class="navbar-toggle cta-on-nav" href="{{ "/order" | absLangURL }}" >{{ with .Site.Params.params.hero.orderButtonText }}{{ . }}{{ end }}
+      </a>
     </div>
     {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
