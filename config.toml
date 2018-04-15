@@ -112,7 +112,7 @@ title = ""
 subtitle = "Bột rau củ từ 100% rau củ nguyên chất"
 buttonText = "Tìm hiểu"
 buttonPath = "/san-pham/bột-rau-củ-dalababy-70g/"
-orderButtonText = "Mua"
+orderButtonText = "MUA"
 
 # Products section
 [Languages.vi.params.product]
