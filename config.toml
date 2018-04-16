@@ -109,7 +109,7 @@ contact = "Liên hệ"
 # Hero section
 [Languages.vi.params.hero]
 title = ""
-subtitle = "Bột rau củ từ 100% rau củ nguyên chất"
+subtitle = "Bột rau xanh nguyên chất"
 buttonText = "Tìm hiểu"
 buttonPath = "/san-pham/bột-rau-củ-dalababy-70g/"
 orderButtonText = "MUA"
