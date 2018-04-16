@@ -92,8 +92,9 @@ gulp.task('less-min-smoothproducts', function() {
 //         .pipe(gulp.dest('static/img'));
 //     }
 // );
-// gulp.task('default', ['less-min','less-min-smoothproducts','scripts-all','scripts-other-page','image-opt']);
 // gulp.task('image-opt', ['images', 'theme-images']);
+
+// gulp.task('default', ['less-min','less-min-smoothproducts','scripts-all','scripts-other-page','image-opt']);
 
 gulp.task('default', ['less-min','less-min-smoothproducts','scripts-all','scripts-other-page', 'scripts-order-pages']);
 gulp.task('watch', function(){
