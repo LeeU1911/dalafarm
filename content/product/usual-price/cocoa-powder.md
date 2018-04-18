@@ -1,6 +1,6 @@
 +++
 date = "2017-05-07T14:31:45+08:00"
-publishdate = "2017-06-01T00:00:00+07:00"
+expirydate = "2017-06-01T00:00:00+07:00"
 description = "Bột Cacao đóng gói zip 100 gram"
 price = "40,000"
 img = ["cocoa-1.jpg","cocoa-2.jpg"]
