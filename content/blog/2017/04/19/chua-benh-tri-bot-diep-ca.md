@@ -34,6 +34,6 @@ Ngoài ra, bạn cũng cần phải lưu ý là không nên cho trẻ em ăn qu�
 
 Với việc trồng và kiểm soát rau củ tại nông trại để đảm bảo rau củ sạch, an toàn, DalaFarm còn sấy khô và nghiền mịn rau củ tươi ra thành bột rau củ giúp bảo toàn hơn 90% chất dinh dưỡng so với rau củ tươi nhằm giúp mọi người sử dụng rau củ một cách nhanh chóng và tiết kiệm hơn.
 
-Bạn có thể đặt mua bột rau diếp cá DalaFarm [tại đây](/san-pham/bot-diep-ca-50g/) nhé.
+Bạn có thể đặt mua bột rau diếp cá DalaFarm [tại đây](/san-pham/bot-rau-diep-ca-50g/) nhé.
 
  
