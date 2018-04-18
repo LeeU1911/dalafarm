@@ -11,7 +11,7 @@ title = "Bột Rau Diếp Cá (100g)"
 url = "/san-pham/bot-rau-diep-ca-100g"
 aliases = ["/san-pham/bột-rau-diếp-cá-100g","/san-pham/bot-rau-diep-ca-100g"]
 weight = 3
-discounted_percent = "Tạm hết"
+key = "heartleaf100"
 +++
 
 # Bột Rau Diếp Cá DalaFarm (dùng liền) 
