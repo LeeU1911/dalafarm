@@ -44,6 +44,6 @@ Cách trị mụn bằng rau diếp cá đơn giản, an toàn, tiết kiệm v�
 Lấy 1 nắm lá diếp cá đã rửa sạch xay nhỏ và sau đó dùng nước vo gạo đặc đun sôi cùng rau diếp cá. Sau đó chắt nước cốt uống.
 Chỉ cần làm như vậy sau bữa ăn, 2 đến 3 lần là khỏi. Hỗn hợp nước trên cũng rất mát cho cơ thể, vì vậy, bạn nên uống từ 5 lần trở lên cho khỏi hẳn.
 
-**Đế đơn giản và tiết kiệm thời gian hơn bạn có thể mua bột rau diếp cá Dalafarm [tại đây](/san-pham/bot-rau-diep-ca-100g/), chỉ cần pha 3-5g bột với 500ml nước và uống hàng ngày giúp mát gan, đẹp da.**
+**Đế đơn giản và tiết kiệm thời gian hơn bạn có thể mua bột rau diếp cá Dalafarm [tại đây](/san-pham/bot-rau-diep-ca-50g/), chỉ cần pha 3-5g bột với 500ml nước và uống hàng ngày giúp mát gan, đẹp da.**
 
 
