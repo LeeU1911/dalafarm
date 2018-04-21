@@ -1,12 +1,19 @@
+<style>
+    .sprite.sprite-{{ .Params.thumbnail }} {
+        background-position: {{ .Params.thumbnailX }}% 0;
+    }
+</style>
 <div class="col-xs-4 col-md-3 box-item product-box flex-column" itemprop="itemListElement" itemscope itemtype="http://schema.org/Product">
     {{ if isset .Params "popular_product" }}<div class="close-ribbon"><i class="fa fa-thumbs-up" aria-hidden="true"></i></div>{{ end }}
     <a itemprop="url" href="{{ .URL }}" class="product-link">
-        {{ $url := printf "img/product/%s" .Params.thumbnail }}
-        <img itemprop="image" src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Title }}">
+        <img class="sprite sprite-{{ .Params.thumbnail }} img-responsive">
+        <!--<i class="sprite sprite-purple-sweet-potato-1"></i>-->
+        <!--{{ $url := printf "img/product/%s" .Params.thumbnail }}-->
+        <!--<img itemprop="image" src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Title }}">-->
     </a>
     <div class="product-description flex-column">
         <div class="product-caption" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-            <h4 itemprop="name">{{ .Title | markdownify }}</h4>
+            <a href="{{ .URL }}"><h4 itemprop="name">{{ .Title | markdownify }}</h4></a>
         </div>
         <div>
             <div class=" text-price">

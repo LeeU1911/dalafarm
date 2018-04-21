@@ -6,7 +6,8 @@ price = "6"
 img = ["broccoli-1.jpg","broccoli-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","broccoli"]
-thumbnail = "broccoli-1.jpg"
+thumbnail = "broccoli-1"
+thumbnailX = 68.38
 title = "Broccoli powder (50g)"
 +++
 

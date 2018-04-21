@@ -6,7 +6,8 @@ price = "9"
 img = ["matcha-100g-1.jpg","matcha-100g-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Matcha"]
-thumbnail = "matcha-100g-1.jpg"
+thumbnail = "matcha-100g-1"
+thumbnailX = 73.64
 title = "Matcha powder (100g)"
 +++
 

@@ -5,7 +5,8 @@ price = "375,000"
 img = ["star powder 1.jpg","star powder 2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Starpowder"]
-thumbnail = "star powder 1.jpg"
+thumbnail = "star-powder-1"
+thumbnailX = 89.42
 title = "Detox Star powder (100g)"
 +++
 

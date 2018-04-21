@@ -6,7 +6,7 @@ price = "2"
 img = ["cocoa-1.jpg","cocoa-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Cocoa"]
-thumbnail = "cocoa-1.jpg"
+thumbnail = "cocoa-1"
 title = "Cocoa powder (100g)"
 +++
 

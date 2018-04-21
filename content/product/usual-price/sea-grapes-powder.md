@@ -6,7 +6,7 @@ price = "SẮP RA MẮT"
 img = ["sea-grapes-1.jpg","sea-grapes-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","sea-grapes"]
-thumbnail = "sea-grapes-1.jpg"
+thumbnail = "sea-grapes-1"
 title = "Bột Rong Nho (50g)"
 key = "seagrapes"
 +++

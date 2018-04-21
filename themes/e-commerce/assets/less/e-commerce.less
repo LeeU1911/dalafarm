@@ -1578,3 +1578,14 @@ img {
 #phan-hoi {
   position: relative;
 }
+
+.stitches-sprite(@x: 0, @y: 0) {
+  background-position: @x @y;
+}
+//{{ $url := printf "img/product/%s" .Params.thumbnail }}
+.sprite {
+  background: url(../img/product/product-sprite.png) no-repeat ;
+  display: block;
+  background-size: 2000%;
+  padding-bottom: 128.5%;
+}

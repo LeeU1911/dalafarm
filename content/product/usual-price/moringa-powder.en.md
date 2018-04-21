@@ -6,7 +6,8 @@ price = "3"
 img = ["moringa-1.jpg","moringa-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Moringa"]
-thumbnail = "moringa-1.jpg"
+thumbnail = "moringa-1"
+thumbnailX = 26.30
 title = "Moringa powder (50g)"
 +++
 

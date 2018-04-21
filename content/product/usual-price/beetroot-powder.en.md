@@ -6,7 +6,8 @@ price = "6"
 img = ["beetroot-1.jpg","beetroot-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","beetroot"]
-thumbnail = "beetroot-1.jpg"
+thumbnail = "beetroot-1"
+thumbnailX = 42.08
 title = "Beetroot powder (50g)"
 +++
 

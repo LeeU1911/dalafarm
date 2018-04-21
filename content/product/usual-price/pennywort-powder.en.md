@@ -6,7 +6,8 @@ price = "3"
 img = ["pennywort-50g-1.jpg","pennywort-50g-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","pennywort-powder"]
-thumbnail = "pennywort-50g-1.jpg"
+thumbnail = "pennywort-50g-1"
+thumbnailX = 63.12
 title = "Pennywort powder (50g)"
 +++
 

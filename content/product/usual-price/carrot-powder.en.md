@@ -6,7 +6,8 @@ price = "6"
 img = ["carrot-1.jpg","carrot-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Carrot"]
-thumbnail = "carrot-1.jpg"
+thumbnail = "carrot-1"
+thumbnailX = 36.82
 title = "Carrot powder (50g)"
 +++
 

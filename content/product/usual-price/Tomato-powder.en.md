@@ -6,7 +6,8 @@ price = "6"
 img = ["tomato-1.jpg","tomato-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Tomato"]
-thumbnail = "tomato-1.jpg"
+thumbnail = "tomato-1"
+thumbnailX = 31.56
 title = "Tomato powder (50g)"
 +++
 

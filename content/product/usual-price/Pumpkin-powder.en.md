@@ -6,7 +6,8 @@ price = "4"
 img = ["pumpkin-1.jpg","pumpkin-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Pumpkin"]
-thumbnail = "pumpkin-1.jpg"
+thumbnail = "pumpkin-1"
+thumbnailX = 21.04
 title = "Pumpkin powder (50g)"
 +++
 

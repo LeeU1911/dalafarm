@@ -5,7 +5,8 @@ price = "6"
 img = ["lotusseeds-1.jpg","lotusseeds-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Lotus seeds"]
-thumbnail = "lotusseeds-1.jpg"
+thumbnail = "lotusseeds-1"
+thumbnailX = 84.16
 title = "Lotus seeds powder (50g)"
 +++
 

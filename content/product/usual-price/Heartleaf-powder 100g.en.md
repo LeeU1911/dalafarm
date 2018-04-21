@@ -6,7 +6,8 @@ price = "8"
 img = ["heartleaf-100g-1.jpg","heartleaf-100g-2.jpg"]
 product_line = ""
 tags = ["veggie-powder","Heartleaf"]
-thumbnail = "heartleaf-100g-1.jpg"
+thumbnail = "heartleaf-100g-1"
+thumbnailX = 47.34
 title = "Heartleaf powder (100g)"
 +++
 
