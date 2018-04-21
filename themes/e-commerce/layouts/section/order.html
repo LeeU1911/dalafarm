@@ -42,10 +42,7 @@
                             {{ range $i, $e := where .Site.Pages "Section" "product" }}
                                 {{ if isset .Params "key" }}
                                 <div class="col-xs-4 col-md-3 box-item product-box flex-column" style="margin-bottom: 1em;">
-                                    <a href="{{ .URL }}" class="product-link">
-                                        {{ $url := printf "img/product/%s" .Params.thumbnail }}
-                                        <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .Title }}">
-                                    </a>
+                                    {{ partial "product-img.html" . }}
                                     <div class="product-description flex-column">
                                         <div class="product-caption">
                                             <h4>{{ .Title | markdownify }}</h4>
