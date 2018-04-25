@@ -22,8 +22,12 @@
         </a>
       {{ end }}
 
+      {{ if or (eq .RelPermalink "/order/") (eq .RelPermalink "/shipping/") (eq .RelPermalink "/confirm/") }}
+
+      {{ else }}
       <a class="navbar-toggle cta-on-nav" href="{{ "/order" | absLangURL }}" >{{ with .Site.Params.params.hero.orderButtonText }}{{ . }}{{ end }}
       </a>
+      {{ end }}
     </div>
     {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
