@@ -20,16 +20,29 @@ Khi bé đã có vẻ "hưởng ứng" với thức ăn, mẹ bắt đầu "tr�
 
 Gọt vỏ, rửa sạch, cắt nhỏ bí đỏ rồi luộc/hấp đến chín mềm. Mẹ có thể dùng thìa nghiền qua 1 cái rây như trong hình để loại bỏ phần xơ, thô. Bí sau khi nghiền cho vào nồi, thêm nước sao cho đạt độ loãng phù hợp (có thể dùng luôn nước luộc bí), quấy đều rồi đun trên lửa nhỏ đến khi sôi 1 vài phút là được. Mẹ đợi nguội rồi cho bé ăn, cháo bí đỏ vừa bổ lại thơm, ngọt dễ ăn nên bé sẽ rất thích đấy!
 Ngoài ra, mẹ có thể hấp thêm khoai tây rồi làm tương tự để được món cháo bí đỏ, khoai tây cũng rất thơm ngon!
+
+_Mua ngay bột bí đỏ từ DalaFarm để tiết kiệm thời gian nấu nướng mà vẫn đảm bảo đủ dưỡng chất cho bé yêu của bạn nhé!_
+
+<a href="/order" class="page-scroll btn btn-xl">Mua Ngay</a>
+
 {{< img src="/img/blog/thuc-don-be-6-thang-an-dam(2).jpg" title="Súp bí đỏ cho bé 6 tháng ăn dặm" >}}
 
 **Khoai lang nghiền**
 
 Mẹ chuẩn bị 1 củ khoai lang cỡ nhỏ, đem rửa sạch, gọt vỏ rồi cắt nhỏ, ngâm vài phút trong nước cho hết nhựa, vớt ra để ráo. Cho khoai vào nồi hấp/luộc tới chín mềm, nghiền qua rây cho nhuyễn mịn rồi thêm nước sôi, quấy đều trên bếp vài phút là được món cháo vừa mịn sánh, vừa thơm ngậy cho bé ăn.
 
+_Bật mí: [Bột khoai lang tím DalaFarm](/san-pham/bot-khoai-lang-tim-50g) đảm bảo giữ nguyên dinh dưỡng từ khoai lang tươi rất tốt cho đường ruột của bé!_
+
+<a href="/order" class="page-scroll btn btn-xl">Mua Ngay</a>
+
 **Súp lơ, bó xôi**
 
 Rau đem nhặt rửa sạch, luộc chín mềm rồi cắt nhỏ, nghiền qua rây. Đậu phụ non chần qua nước sôi rồi nghiềnTrộn đều hỗn hợp rau với đậu phụ, có thể thêm nước luộc rau để đạt độ sánh mong muốn. Đun hỗn hợp trên lửa nhỏ đến khi sôi vài phút thì bắc xuống, để nguội rồi cho bé ăn. Đây là một món vừa mát, mịn dễ ăn mà cũng không kém phần bổ dưỡng.
 {{< img src="/img/blog/thuc-don-be-6-thang-an-dam(3).jpg" title="Súp bó xôi +đậu phụ bổ dưỡng cho bé 6 tháng ăn dặm" >}}
+
+_Bột súp lơ và rau bó xôi từ DalaFarm với 100% thành phần rau củ tươi giúp các mẹ dành được nhiều thời gian cho bé hơn là trong bếp!_
+
+<a href="/order" class="page-scroll btn btn-xl">Mua Ngay</a>
 
 **Đậu Hà Lan nghiền sữa**
 
