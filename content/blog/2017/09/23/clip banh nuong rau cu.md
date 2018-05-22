@@ -4,7 +4,7 @@ tags = ["banh-nuong-tu-bot-rau-cu-dalafarm", "bột-cà-rốt", "carrot-powder"]
 thumbnail = "banh-nuong-tu-bot-rau-cu-dalafarm.jpg"
 title = """BÁNH NƯỚNG TRUNG THU TỪ BỘT RAU CỦ DALAFARM
 XU HƯỚNG BÁNH TRUNG THU 2017"""
-
+aliases = ["/blog/2017/09/23/banh-trung-thu-mau-rau-cu/","/blog/2017/09/23/banh-trung-thu-tu-rau-cu-tu-nhien/"]
 +++
 
 **Bánh nướng đã quá quen thuộc với mọi gia đình mỗi khi mùa trung thu đến. Càng ngày càng có nhiều loại và màu sắc của bánh. Nhưng hiếm khi bạn có thể ăn hết nguyên 1 cái bánh vì quá ngọt, sợ mập, sợ có phẩm màu…
