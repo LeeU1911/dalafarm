@@ -15,6 +15,8 @@ Thấu hiểu điều đó, DalaFarm xin gửi đến các bạn bánh trung thu
 **Cùng DalaFarm bắt đầu làm bánh nhé bạn!**
 {{< img src="/img/blog/banh-nuong-tu-bot-rau-cu-dalafarm(1).jpg" title="Nguyên vật liệu làm vỏ bánh" >}}
 
+<a href="/order" class="page-scroll btn btn-xl">Mua Ngay</a>
+
 *CÁCH LÀM VỎ BÁNH:*
 
 Bước 1: 160ml nước đường bánh nướng + 30g dầu ăn + ½ muỗng bơ dầu phụng + 1 trứng gà đánh đều trong âu.
