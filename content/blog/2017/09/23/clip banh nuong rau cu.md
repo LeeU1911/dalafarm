@@ -25,7 +25,7 @@ Bước 2: Hòa tan 15gr bộ khoai lang tím với 60ml nước vào hỗn hợ
 
 Bước 3: Cho 50gr bột vào, vừa rây vừa cho bột vào hỗn hợp trên.
 
-Bước 4: Cho hỗn hợp trên hòa tan trộn với 250gr bột mì. Sauk hi trộn vỏ bánh sẽ hơi mềm 1 chút. Cho bột nghỉ 30 phút bột sẽ khô và dẻo hơn.
+Bước 4: Cho hỗn hợp trên hòa tan trộn với 250gr bột mì. Sau khi trộn vỏ bánh sẽ hơi mềm 1 chút. Cho bột nghỉ 30 phút bột sẽ khô và dẻo hơn.
 
 *NHÂN BÁNH*
 {{< img src="/img/blog/banh-nuong-tu-bot-rau-cu-dalafarm(2).jpg" title="Nguyên vật liệu làm nhân bánh" >}}
