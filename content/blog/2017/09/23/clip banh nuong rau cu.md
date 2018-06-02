@@ -3,12 +3,12 @@ date = "2017-09-23T01:51:53+08:00"
 tags = ["banh-nuong-tu-bot-rau-cu-dalafarm", "bột-cà-rốt", "carrot-powder"]
 thumbnail = "banh-nuong-tu-bot-rau-cu-dalafarm.jpg"
 title = """BÁNH NƯỚNG TRUNG THU TỪ BỘT RAU CỦ DALAFARM
-XU HƯỚNG BÁNH TRUNG THU MỚI"""
+XU HƯỚNG BÁNH TRUNG THU MỚI NĂM NAY"""
 aliases = ["/blog/2017/09/23/banh-trung-thu-mau-rau-cu/","/blog/2017/09/23/banh-trung-thu-tu-rau-cu-tu-nhien/"]
 +++
 
 **Bánh nướng đã quá quen thuộc với mọi gia đình mỗi khi mùa trung thu đến. Càng ngày càng có nhiều loại và màu sắc của bánh. Nhưng hiếm khi bạn có thể ăn hết nguyên 1 cái bánh vì quá ngọt, sợ mập, sợ có phẩm màu…
-Thấu hiểu điều đó, DalaFarm xin gửi đến các bạn bánh trung thu được làm hầu hết từ rau củ quả với vị ngọt thanh nhẹ, chứa nhiều chất xơ bánh đã trở thành xu hướng bánh trung thu cho năm 2017**
+Thấu hiểu điều đó, DalaFarm xin gửi đến các bạn bánh trung thu được làm hầu hết từ rau củ quả với vị ngọt thanh nhẹ, chứa nhiều chất xơ bánh đã trở thành xu hướng bánh trung thu cho năm nay.**
 
 {{< youtube 2ROk78iBs78 >}}
 
