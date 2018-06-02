@@ -1,6 +1,6 @@
 +++
 date = "2017-05-01T01:51:53+08:00"
-tags = ["Trị mụn bằng rau má hiệu quả", "bot-rau-ma", "pennywort-powder"]
+tags = ["Trị mụn bằng rau má hiệu quả", "bot-rau-ma"]
 thumbnail = "tri-mun-bang-rau-ma.jpg"
 title = """RAU MÁ TRỊ MỤN, LÀM ĐẸP DA  
 CHỈ TRONG 1 TUẦN"""

@@ -1,7 +1,7 @@
 +++
 date = "2017-05-18T01:51:53+08:00"
 publishdate = "2017-05-18T01:51:53+08:00"
-tags = ["bot-ca-rot-sp-cham-soc-sac-dep-tuyet-voi", "bột-cà-rốt", "Carrot-powder"]
+tags = ["bot-ca-rot-sp-cham-soc-sac-dep-tuyet-voi", "bột-cà-rốt"]
 thumbnail = "bot-ca-rot-sp-cham-soc-sac-dep-tuyet-voi.jpg"
 title = "BỘT CÀ RỐT - SẢN PHẨM CHĂM SÓC SẮC ĐẸP TUYỆT VỜI"
 

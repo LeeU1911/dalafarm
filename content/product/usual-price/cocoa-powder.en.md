@@ -5,7 +5,7 @@ description = "Cocoa powder zip 100 gram"
 price = "2"
 img = ["cocoa-1.jpg","cocoa-2.jpg"]
 product_line = ""
-tags = ["veggie-powder","Cocoa"]
+tags = ["Cocoa"]
 thumbnail = "cocoa-1"
 title = "Cocoa powder (100g)"
 +++

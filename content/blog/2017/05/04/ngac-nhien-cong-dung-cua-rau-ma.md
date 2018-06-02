@@ -1,7 +1,7 @@
 +++
 date = "2017-05-04T01:51:53+08:00"
 publishdate = "2017-05-04T01:51:53+08:00"
-tags = ["Công dụng đa năng của rau má", "bot-rau-ma", "pennywort-powder"]
+tags = ["Công dụng đa năng của rau má", "bot-rau-ma"]
 thumbnail = "Cong-dung-cua-rau-ma.jpg"
 title = """NGẠC NHIÊN CÔNG DỤNG ĐA NĂNG  
 CỦA RAU MÁ"""

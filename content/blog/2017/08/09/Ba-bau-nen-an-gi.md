@@ -1,7 +1,7 @@
 +++
 date = "2017-08-09T01:51:53+08:00"
 publishdate = "2017-08-09T01:51:53+08:00"
-tags = ["Ba-bau-nen-an-gi", "bột-cà-rốt", "Carrot-powder"]
+tags = ["Ba-bau-nen-an-gi", "bột-cà-rốt", "Dinh-dưỡng-mẹ-bầu"]
 thumbnail = "Ba-bau-nen-an-gi.jpg"
 title = "BÀ BẦU NÊN ĂN GÌ: TRÁI CÂY HAY RAU CỦ?"
 

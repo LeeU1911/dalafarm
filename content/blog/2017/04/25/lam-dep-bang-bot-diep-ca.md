@@ -1,6 +1,6 @@
 +++
 date = "2017-04-25T01:51:53+08:00"
-tags = ["Trị mụn trứng cá", "bot-diep-ca", "heartleaf-powder"]
+tags = ["Trị mụn trứng cá", "bot-diep-ca"]
 thumbnail = "tri-mun-ca-bang-bot-diep-ca.jpg"
 title = """ RAU DIẾP CÁ CHỐNG LÃO HÓA,  
  TRỊ MỤN TRỨNG CÁ HIỆU QUẢ"""

@@ -13,7 +13,7 @@ Bột Rau Bó Xôi (dùng liền) đóng gói zip 50 gram
 price = "110,000"
 img = ["spinach-1.jpg","spinach-2.jpg"]
 product_line = ""
-tags = ["veggie-powder","spinach"]
+tags = ["spinach"]
 thumbnail = "spinach-1"
 thumbnailX = 15.78
 title = "Bột Rau Bó Xôi (50g)"

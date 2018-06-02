@@ -1,6 +1,6 @@
 +++
 date = "2017-04-23T01:51:53+08:00"
-tags = ["Trị Hôi Nách", "bot-diep-ca", "heartleaf-powder"]
+tags = ["Trị Hôi Nách", "bot-diep-ca"]
 thumbnail = "tri-hoi-nach-bang-bot-diep-ca-tn.jpg"
 title = """CÁCH TRỊ HÔI NÁCH CỰC KỲ HIỆU QUẢ     
 BẰNG RAU DIẾP CÁ"""

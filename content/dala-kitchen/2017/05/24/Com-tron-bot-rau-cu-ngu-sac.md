@@ -2,7 +2,7 @@
 date = "2017-05-24T01:51:53+08:00"
 publishdate = "2017-05-24T01:51:53+08:00"
 categories = ["dala-kitchen"]
-tags = ["Com-tron-bot-rau-cu-ngu-sac", "bột-cà-rốt", "Carrot-powder"]
+tags = ["Com-tron-bot-rau-cu-ngu-sac", "bột-cà-rốt", "bé-ăn-dặm"]
 thumbnail = "Com-tron-bot-rau-cu-ngu-sac.jpg"
 title = "CƠM TRỘN BỘT RAU CỦ NGŨ SẮC"
 

@@ -13,7 +13,7 @@ Bột Củ Dền (dùng liền) đóng gói zip 50 gram
 price = "100,000"
 img = ["beetroot-1.jpg","beetroot-2.jpg"]
 product_line = ""
-tags = ["veggie-powder","beetroot"]
+tags = ["beetroot"]
 thumbnail = "beetroot-1"
 thumbnailX = 42.08
 title = "Bột Củ Dền (50g)"

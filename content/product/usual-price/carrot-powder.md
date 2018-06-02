@@ -12,7 +12,7 @@ Bột Cà Rốt (dùng liền) đóng gói zip 50 gram
 price = "119,000"
 img = ["carrot-1.jpg","carrot-2.jpg"]
 product_line = ""
-tags = ["veggie-powder","carrot"]
+tags = ["carrot"]
 thumbnail = "carrot-1"
 thumbnailX = 36.82
 title = "Bột Cà Rốt (50g)"

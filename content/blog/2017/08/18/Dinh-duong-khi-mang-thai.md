@@ -1,7 +1,7 @@
 +++
 date = "2017-08-18T01:51:53+08:00"
 publishdate = "2017-08-18T01:51:53+08:00"
-tags = ["Dinh-duong-khi-mang-thai", "bột-cà-rốt", "Carrot-powder"]
+tags = ["Dinh-duong-khi-mang-thai", "bột-cà-rốt", "Dinh-dưỡng-mẹ-bầu"]
 thumbnail = "Dinh-duong-khi-mang-thai_1908.jpg"
 title = "DINH DƯỠNG KHI MANG THAI: “ĂN CHO HAI NGƯỜI”"
 

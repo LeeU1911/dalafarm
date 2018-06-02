@@ -1,7 +1,7 @@
 +++
 date = "2017-05-17T01:51:53+08:00"
 publishdate = "2017-05-17T01:51:53+08:00"
-tags = ["7-cong-dung-lam-dep-tuyet-voi-tu-ca-rot", "bột-cà-rốt", "Carrot-powder"]
+tags = ["7-cong-dung-lam-dep-tuyet-voi-tu-ca-rot", "bột-cà-rốt"]
 thumbnail = "7-cong-dung-lam-dep-tuyet-voi-tu-ca-rot.jpg"
 title = "7 CÔNG DỤNG LÀM ĐẸP TUYỆT VỜI TỪ CÀ RỐT"
 

@@ -1,6 +1,6 @@
 +++
 date = "2017-11-28T01:51:53+08:00"
-tags = ["phuong-phap-an-dam-cho-be-6-thang-tuoi", "bột-rau-ăn-dặm", "Carrot-powder"]
+tags = ["phuong-phap-an-dam-cho-be-6-thang-tuoi", "bột-rau-ăn-dặm", "bé-ăn-dặm"]
 thumbnail = "phuong-phap-be-6-thang-an-dam.jpg"
 title = "PHƯƠNG PHÁP CHO TRẺ 6 THÁNG TUỔI TẬP ĂN DẶM"
 

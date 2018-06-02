@@ -1,7 +1,7 @@
 +++
 date = "2017-05-19T01:51:53+08:00"
 publishdate = "2017-05-19T01:51:53+08:00"
-tags = ["bot-ca-rot-nguyen-chat-tu-dalafarm", "bột-cà-rốt", "Carrot-powder"]
+tags = ["bot-ca-rot-nguyen-chat-tu-dalafarm", "bột-cà-rốt"]
 thumbnail = "bot-ca-rot-nguyen-chat-tu-dalafarm.jpg"
 title = "BỘT CÀ RỐT NGUYÊN CHẤT TỪ DALAFARM"
 

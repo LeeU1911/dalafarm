@@ -1,6 +1,6 @@
 +++
 date = "2018-05-16T01:51:53+08:00"
-tags = ["be-6-thang-an-dam-may-bua-1-ngay", "bột-rau-ăn-dặm", "Carrot-powder"]
+tags = ["be-6-thang-an-dam-may-bua-1-ngay", "bột-rau-ăn-dặm", "bé-ăn-dặm"]
 thumbnail = "be-6-thang-an-dam-may-bua-1-ngay.jpg"
 title = "BÉ 6 THÁNG TUỔI ĂN DẶM MẤY BỮA 1 NGÀY?"
 

@@ -1,6 +1,6 @@
 +++
 date = "2017-07-28T01:50:53+08:00"
-tags = ["Ba-bau-nen-va khong-nen-an-rau-gi-de-con-khoe-manh", "bột-cà-rốt", "carrot-powder"]
+tags = ["Dinh-dưỡng-mẹ-bầu", "bột-cà-rốt"]
 thumbnail = "Ba-bau-nen-va khong-nen-an-rau-gi.jpg"
 title = """BÀ BẦU NÊN VÀ KHÔNG NÊN ĂN RAU GÌ  
  ĐỂ CON KHỎE MẠNH"""

@@ -1,6 +1,6 @@
 +++
 date = "2017-09-11T01:51:53+08:00"
-tags = ["veggie-powder","detoxpowder"]
+tags = ["detoxpowder"]
 thumbnail = "detox.jpg"
 title = "COMBO BỘ DETOX THẢI ĐỘC TOÀN DIỆN"
 +++

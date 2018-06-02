@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://dalafarm.vn/"
+baseurl = "https://dalafarm.com.vn/"
 languageCode = "vi-vn"
 title = "DalaFarm"
 theme = "e-commerce"
@@ -113,6 +113,7 @@ subtitle = "Bột rau xanh nguyên chất"
 buttonText = "Tìm hiểu"
 buttonPath = "/san-pham/bột-rau-củ-dalababy-70g/"
 orderButtonText = "MUA"
+nextButtonText = "TIẾP"
 
 # Products section
 [Languages.vi.params.product]

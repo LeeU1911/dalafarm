@@ -1,6 +1,6 @@
 +++
 date = "2017-04-25T01:51:53+08:00"
-tags = ["Công dụng của rau diếp cá", "bot-diep-ca", "heartleaf-powder"]
+tags = ["Công dụng của rau diếp cá", "bot-diep-ca"]
 thumbnail = "cong-dung-cua-rau-diep-ca.jpg"
 title = """CÔNG DỤNG CỦA RAU DIẾP CÁ"""
 

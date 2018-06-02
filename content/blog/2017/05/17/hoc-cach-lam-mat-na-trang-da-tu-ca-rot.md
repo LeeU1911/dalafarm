@@ -1,7 +1,7 @@
 +++
 date = "2017-05-17T01:51:53+08:00"
 publishdate = "2017-05-17T01:51:53+08:00"
-tags = ["hoc-cach-lam-mat-na-trang-da-tu-ca-rot", "bột-cà-rốt", "Carrot-powder"]
+tags = ["hoc-cach-lam-mat-na-trang-da-tu-ca-rot", "bột-cà-rốt"]
 thumbnail = "hoc-cach-lam-mat-na-trang-da-tu-ca-rot.jpg"
 title = "HỌC CÁCH LÀM MẶT NẠ TRẮNG DA TỪ BỘT CÀ RỐT"
 

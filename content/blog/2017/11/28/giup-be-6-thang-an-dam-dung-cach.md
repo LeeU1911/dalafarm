@@ -1,6 +1,6 @@
 +++
 date = "2017-11-28T01:51:53+08:00"
-tags = ["giup-be-6-thang-an-dam-dung-cach", "bột-rau-ăn-dặm", "Carrot-powder"]
+tags = ["giup-be-6-thang-an-dam-dung-cach", "bột-rau-ăn-dặm", "bé-ăn-dặm"]
 thumbnail = "giup-be-6-thang-an-dam-dung-cach.jpg"
 title = "KHUYẾN CÁO KHOA HỌC GIÚP CHO TRẺ 6 THÁNG ĂN DẶM ĐÚNG CÁCH "
 

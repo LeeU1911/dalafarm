@@ -8,7 +8,7 @@ công nghệ sấy cao cấp và được chứng nhận VSATTP VN
 price = "165,000"
 img = ["rainbow-powder.jpg"]
 product_line = ""
-tags = ["veggie-powder","rainbow-powder"]
+tags = ["rainbow-powder"]
 thumbnail = "rainbow-tn"
 title = "Bột rau củ Rainbow"
 url = "/san-pham/bot-rau-cu-rainbow"

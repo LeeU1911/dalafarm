@@ -2,7 +2,7 @@
 date = "2017-05-23T01:51:53+08:00"
 publishdate = "2017-05-23T01:51:53+08:00"
 categories = ["dala-kitchen"]
-tags = ["cach-lam-sua-chua-rau-cu-cho-be-yeu", "bột-cà-rốt", "Carrot-powder"]
+tags = ["cach-lam-sua-chua-rau-cu-cho-be-yeu", "bột-cà-rốt", "bé-ăn-dặm"]
 thumbnail = "cach-lam-sua-chua-rau-cu-cho-be-yeu.jpg"
 title = "CÁCH LÀM SỮA CHUA RAU CỦ CHO BÉ YÊU"
 

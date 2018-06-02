@@ -1,6 +1,6 @@
 +++
 date = "2017-04-25T01:51:53+08:00"
-tags = ["Giup da trang min", "bot-diep-ca", "heartleaf-powder"]
+tags = ["Giup da trang min", "bot-diep-ca"]
 thumbnail = "bot-rau-diep-ca-than-duoc-giup-da-trang-min.jpg"
 title = """BỘT RAU DIẾP CÁ  
  "THẦN DƯỢC" GIÚP DA TRẮNG MỊN NÕN NÀ"""

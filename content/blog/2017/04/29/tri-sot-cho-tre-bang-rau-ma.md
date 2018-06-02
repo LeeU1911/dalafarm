@@ -1,6 +1,6 @@
 +++
 date = "2017-04-29T01:51:53+08:00"
-tags = ["Hạ sốt cho trẻ", "bot-rau-ma", "pennywort-powder"]
+tags = ["Hạ sốt cho trẻ", "bot-rau-ma"]
 thumbnail = "ha-sot-bang-rau-ma.jpg"
 title = """RAU MÁ CHỮA HẠ SỐT   
 NHƯ THẾ NÀO CHO TRẺ CON?"""

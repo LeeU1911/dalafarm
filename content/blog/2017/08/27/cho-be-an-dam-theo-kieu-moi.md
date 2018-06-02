@@ -1,6 +1,6 @@
 +++
 date = "2017-08-27T01:51:53+08:00"
-tags = ["cho-be-an-dam-theo-kieu-moi", "bột-cà-rốt", "Carrot-powder"]
+tags = ["cho-be-an-dam-theo-kieu-moi", "bột-cà-rốt", "bé-ăn-dặm"]
 thumbnail = "cho-be-an-dam-theo-kieu-moi.jpg"
 title = "CHO BÉ ĂN DẶM THEO \"LUẬT MỚI\": TẠI SAO KHÔNG?"
 

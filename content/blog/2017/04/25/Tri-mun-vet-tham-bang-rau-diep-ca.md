@@ -1,6 +1,6 @@
 +++
 date = "2017-04-25T01:51:53+08:00"
-tags = ["Trị mụn và vết thâm", "bot-diep-ca", "heartleaf-powder"]
+tags = ["Trị mụn và vết thâm", "bot-diep-ca"]
 thumbnail = "bot-rau-diep-ca-giup-giam-tham-tn.jpg"
 title = """RAU DIẾP CÁ TRỊ MỤN VÀ VẾT THÂM HIỆU QUẢ"""
 

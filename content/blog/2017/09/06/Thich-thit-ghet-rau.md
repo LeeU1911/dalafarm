@@ -1,6 +1,6 @@
 +++
 date = "2017-09-06T01:51:53+08:00"
-tags = ["Thich-thit-ghet-rau", "bột-cà-rốt", "Carrot-powder"]
+tags = ["Thich-thit-ghet-rau", "bột-cà-rốt"]
 thumbnail = "Thich-thit-ghet-rau.jpg"
 title = "GIỚI TRẺ VIỆT ĐANG CÓ THÓI QUEN \"THÍCH ĂN THỊT - LƯỜI ĂN RAU\" CỰC KÌ HẠI MÀ KHÔNG HỀ ĐỂ Ý"
 

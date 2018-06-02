@@ -1,6 +1,6 @@
 +++
 date = "2017-05-01T01:51:53+08:00"
-tags = ["Mặt nạ rau má", "bot-rau-ma", "pennywort-powder"]
+tags = ["Mặt nạ rau má", "bot-rau-ma"]
 thumbnail = "mat-na-tu-rau-ma.jpg"
 title = """MẶT NẠ RAU MÁ TRỊ MỤN NGỪA SẸO,  
 BẠN ĐÃ THỬ CHƯA?"""

@@ -14,7 +14,7 @@ Bột Rau Diếp Cá (dùng liền) đóng gói zip 50 gram
 price = "85,000"
 img = ["heartleaf-50g-1.jpg","heartleaf-50g-2.jpg"]
 product_line = ""
-tags = ["veggie-powder","heartleaf-powder"]
+tags = ["heartleaf-powder"]
 thumbnail = "heartleaf-50g-1"
 thumbnailX = 52.6
 title = "Bột Rau Diếp Cá (50g)"

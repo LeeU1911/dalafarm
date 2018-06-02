@@ -1,7 +1,7 @@
 +++
 date = "2017-09-09T01:51:53+08:00"
 publishdate="2017-09-09T01:51:53+08:00"
-tags = ["Bot-tra-xanh-chong-ung-thu", "bột-cà-rốt", "Carrot-powder"]
+tags = ["Bot-tra-xanh-chong-ung-thu", "bột-cà-rốt"]
 thumbnail = "Bot-tra-xanh-chong-ung-thu.jpg"
 title = "BỘT TRÀ XANH (MATCHA): \"CHIẾN BINH CHỐNG UNG THƯ\" MẠNH HƠN NƯỚC TRÀ XANH NÊN DÙNG HÀNG NGÀY"
 

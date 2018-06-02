@@ -12,7 +12,7 @@ Bột Khoai Lang Tím (dùng liền) đóng gói zip 50 gram
 price = "85,000"
 img = ["purple-sweet-potato-1.jpg","purple-sweet-potato-2.jpg"]
 product_line = ""
-tags = ["veggie-powder","purple-sweet-potato"]
+tags = ["purple-sweet-potato"]
 thumbnail = "purple-sweet-potato-1"
 thumbnailX = 5.26
 title = "Bột Khoai Lang Tím (50g)"

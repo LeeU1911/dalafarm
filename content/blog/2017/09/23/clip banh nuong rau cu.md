@@ -1,6 +1,6 @@
 +++
 date = "2017-09-23T01:51:53+08:00"
-tags = ["banh-nuong-tu-bot-rau-cu-dalafarm", "bột-cà-rốt", "carrot-powder"]
+tags = ["banh-nuong-tu-bot-rau-cu-dalafarm", "bột-cà-rốt"]
 thumbnail = "banh-nuong-tu-bot-rau-cu-dalafarm.jpg"
 title = """BÁNH NƯỚNG TRUNG THU TỪ BỘT RAU CỦ DALAFARM
 XU HƯỚNG BÁNH TRUNG THU MỚI NĂM NAY"""

@@ -1,7 +1,7 @@
 +++
 date = "2017-05-20T01:51:53+08:00"
 publishdate = "2017-05-20T01:51:53+08:00"
-tags = ["7-cong-dung-lam-dep-tuyet-voi-tu-ca-rot", "bột-cà-rốt", "Carrot-powder"]
+tags = ["7-cong-dung-lam-dep-tuyet-voi-tu-ca-rot", "bột-cà-rốt"]
 thumbnail = "Cac-mon-an-tu-bot-ca-rot.jpg"
 title = "CÁC MÓN ĂN NGON TỪ BỘT CÀ RỐT"
 

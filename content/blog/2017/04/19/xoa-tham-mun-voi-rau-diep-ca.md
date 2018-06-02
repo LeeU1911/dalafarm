@@ -1,6 +1,6 @@
 +++
 date = "2017-04-19T22:54:16+08:00"
-tags = ["heartleaf-powder","bot-diep-ca"]
+tags = ["bot-diep-ca"]
 thumbnail = "xoa-tham-mun-voi-diep-ca-thumbnail.jpg"
 title = "XÓA VẾT THÂM MỤN VỚI RAU DIẾP CÁ SIÊU TỐC"
 

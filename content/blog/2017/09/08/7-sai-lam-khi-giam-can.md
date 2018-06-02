@@ -1,7 +1,7 @@
 +++
 date = "2017-09-08T01:51:53+08:00"
 publishdate="2017-09-08T01:51:53+08:00"
-tags = ["7-sai-lam-khi-giam-can", "bột-cà-rốt", "Carrot-powder"]
+tags = ["7-sai-lam-khi-giam-can", "bột-cà-rốt"]
 thumbnail = "7-sai-lam-khi-giam-can.png"
 title = "7 SAI LẦM DỄ MẮC PHẢI KHI GIẢM CÂN MÀ AI CŨNG CẦN PHẢI BIẾT"
 

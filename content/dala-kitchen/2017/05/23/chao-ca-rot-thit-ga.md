@@ -2,7 +2,7 @@
 date = "2017-05-23T01:51:53+08:00"
 publishdate = "2017-05-23T01:51:53+08:00"
 categories = ["dala-kitchen"]
-tags = ["chao-ca-rot-thit-ga", "bột-cà-rốt", "Carrot-powder"]
+tags = ["chao-ca-rot-thit-ga", "bột-cà-rốt", "bé-ăn-dặm"]
 thumbnail = "chao-ca-rot-thit-ga.jpg"
 title = "CHÁO CÀ RỐT THỊT GÀ"
 
@@ -28,16 +28,23 @@ Giàu chất dinh dưỡng, vitamin A, C, protit, lipit, glucid và chất xơ, 
 a. Nguyên liệu: 
 
 - 5g cà rốt 
+
 - 1/2 thìa dầu ăn  
+
 - 1/3 chén gạo tẻ pha nếp 
+
 - 1 bát nước dùng gà 
+
 - Ức gà, bột canh, rau mùi
 
 b. Cách thực hiện: 
 
 - Bước 1: Ngâm gạo trong 30 phút để gạo mềm, sau đó cho gạo vào nồi nước dùng, bật nhỏ lửa và hầm trong 30 phút cho gạo nở, chín nhừ. 
+
 - Bước 2: Thịt gà băm nhỏ vào xào cùng dầu. Mẹ nêm chút gia vị cho đậm đà. 
+
 - Bước 3: Đổ hỗn hợp trên vào nồi và nấu tới khi gạo cùng thịt gà chín nhừ. 
+
 - Bước 4: Cháo chín, mẹ tắt bếp và đổ ra chén và cho 5g cà rốt vào đảo đều. Có thể cho thêm 1 chút kem tươi.  
 
 Chén súp đã sẵn sàng 

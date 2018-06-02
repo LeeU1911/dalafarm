@@ -1,6 +1,6 @@
 +++
 date = "2017-04-25T01:51:53+08:00"
-tags = ["Trị dị ứng", "bot-diep-ca", "heartleaf-powder"]
+tags = ["Trị dị ứng", "bot-diep-ca"]
 thumbnail = "rau-diep-ca-khong-chi-la-rau.jpg"
 title = """ 4 LỢI ÍCH SỨC KHOẺ CỦA RAU DIẾP CÁ"""
 
