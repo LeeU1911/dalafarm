@@ -4,7 +4,7 @@ date = "2017-12-24T01:00:01+08:00"
 publishdate = "2018-06-04T01:00:01+08:00"
 +++
 
-### DANH SÁCH ĐẠI LÝ PHÂN PHỐI CHÍNH THỨC 
+### DANH SÁCH ĐẠI LÝ PHÂN PHỐI CHÍNH THỨC (đang cập nhật)
 
 ### Miền Bắc
   * **Hà Nội**
@@ -34,3 +34,5 @@ publishdate = "2018-06-04T01:00:01+08:00"
       * Địa chỉ: 5 Hoàng Dư Khương, phường 12, quận 10, Hồ Chí Minh (<a href="https://www.google.com/maps/place/5+Ho%C3%A0ng+D%C6%B0+Kh%C6%B0%C6%A1ng,+Ph%C6%B0%E1%BB%9Dng+12,+Qu%E1%BA%ADn+10,+H%E1%BB%93+Ch%C3%AD+Minh/@10.7753561,106.6697507,17z/data=!3m1!4b1!4m5!3m4!1s0x31752ed938b9a2eb:0x5f6f39b64233e8d!8m2!3d10.7753561!4d106.6719394" target="_blank">Tìm đường đi</a>)
       
       * Fanpage: https://www.facebook.com/happyptmart/
+      
+## ĐANG BỔ SUNG
