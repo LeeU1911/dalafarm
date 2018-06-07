@@ -11,7 +11,7 @@ thumbnailX = 10.52
 title = "Bột Nấm (50g)"
 weight = 3
 aliases = ["/san-pham/bot-nam-50g","/san-pham/bot-nam-bao-ngu-50g"]
-key = "mushroom"
+discounted_percent = "Tạm hết"
 +++
 
 # Bột Nấm Bào Ngư DalaFarm (dùng liền)
