@@ -1,6 +1,6 @@
 +++
 date = "2017-06-06T08:05:45+08:00"
-publishdate = "2018-06-06T08:05:45+08:00"
+expirydate = "2018-06-06T08:05:45+08:00"
 description = "Bột Rong Nho đóng gói zip 50 gram"
 price = "SẮP RA MẮT"
 img = ["sea-grapes-1.jpg","sea-grapes-2.jpg"]
