@@ -10,8 +10,8 @@ thumbnail = "lotusseeds-1"
 thumbnailX = 84.16
 title = "Bột Hạt Sen (50g)"
 weight = 4
-key = "lotus"
 aliases = ["/san-pham/bot-sen-50g","/san-pham/bot-hat-sen-50g"]
+discounted_percent = "Tạm hết"
 +++
 
 # Bột Hạt Sen DalaFarm (dùng liền)
