@@ -1,6 +1,6 @@
 +++
 date = "2018-06-18T01:51:53+08:00"
-tags = ["thuc-don-an-dam-kieu-nhat", "bột-rau-ăn-dặm", "Carrot-powder"]
+tags = ["thuc-don-an-dam-kieu-nhat", "bột-rau-ăn-dặm", "Bé-ăn-dặm"]
 thumbnail = "thuc-don-an-dam-kieu-nhat.jpg"
 title = "THỰC ĐƠN ĂN DẶM KIỂU NHẬT CHO BÉ 6 THÁNG TUỔI"
 
