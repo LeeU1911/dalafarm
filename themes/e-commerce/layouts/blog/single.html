@@ -86,7 +86,8 @@
                 <div class="col-md-12 text-center">
                     TAGGED:
                     {{ range .Params.tags }}
-                    <span itemprop="keywords">{{ . | upper }}</span>
+                    {{ $tagURL := printf "tags/%s" . | lower | relURL }}
+                    <a href="{{ $tagURL }}"><span itemprop="keywords">{{ . | upper }}</span></a>
                     {{ end }}
                 </div>
             </div>
