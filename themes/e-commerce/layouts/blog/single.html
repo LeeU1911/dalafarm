@@ -101,11 +101,14 @@
                     {{ end }}
 
                     {{ if $.Scratch.Get "has_related" }}
-                        {{ i18n "relatedPosts" | upper }}:
-                        <ul>
+                       <strong>{{ i18n "relatedPosts" | upper }}:</strong>
+                    <ul style="list-style: none">
                             {{ $num_to_show := .Site.Params.params.related_blog_limit | default 5 }}
                             {{ range first $num_to_show (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
-                            <li><a href="{{ .RelPermalink }}">{{ .Title }} &middot; {{ .ReadingTime }} {{ i18n "minuteRead" }}</a></li>
+                            <li>
+                                {{ $url := printf "img/blog/%s" .Params.thumbnail }}
+                                <a href="{{ .RelPermalink }}"><img src="{{ $url | absURL }}" class="img-responsive" width="70" style="display: inline-block; margin: 0px 10px 10px 0px;" alt="{{ .Title }}">{{ .Title }} &middot; {{ .ReadingTime }} {{ i18n "minuteRead" }}</a>
+                            </li>
                             {{ end }}
                         </ul>
                     {{ end }}
