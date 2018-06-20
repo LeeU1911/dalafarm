@@ -21,7 +21,7 @@ url = "/san-pham/bot-cu-den-50g"
 aliases = ["/san-pham/bột-củ-dền-50g"]
 weight = 3
 popular_product = true
-discounted_percent = "Tạm hết"
+discounted_percent = "SẮP CÓ HÀNG"
 +++
 
 # Bột Củ Dền DalaFarm (dùng liền)
