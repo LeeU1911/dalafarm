@@ -17,7 +17,7 @@ Hệ hô hấp và tiêu hóa của trẻ tập ăn dặm còn non nớt, nên k
 - Rối loạn tiêu hóa: nôn trớ, đầy hơi, chướng bụng, hoặc tiêu chảy.
 
 - Bệnh về đường hô hấp: sốt, sổ mũi, ho, đau họng, khó thở…
-{{< img src="/img/blog/nguyen-nhan-tre-6-thang-an-dam-khong-hop-tac(1).jpg" title="Bé bị ép ăn quá nhu cầu" >}}
+{{< img src="/img/blog/nguyen-nhan-tre-6-thang-an-dam-khong-hop-tac(1).png" title="Bé bị ép ăn quá nhu cầu" >}}
 
 *2. Nguyên nhân tâm lý*
 
