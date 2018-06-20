@@ -7,14 +7,14 @@ product_line = ""
 tags = ["dalababy-powder"]
 thumbnail = "dalababy-6"
 thumbnailX = 0
-title = "Bột rau củ DalaBaby (70g)"
+title = "Bột rau củ 7 vị DalaBaby (70g)"
 key = "dalababy"
 weight = 2
 popular_product = true
 aliases = ["/san-pham/bot-rau-cu-dalababy-70g/","/san-pham/dalababy","/san-pham/bot-rau-cu"]
 +++
 
-# Bột rau củ DalaBaby từ DalaFarm
+# Bột rau củ 7 vị DalaBaby từ DalaFarm
 
 Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
