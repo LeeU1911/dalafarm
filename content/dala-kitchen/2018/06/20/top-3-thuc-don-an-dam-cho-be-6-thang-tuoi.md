@@ -6,9 +6,10 @@ thumbnail = "top-3-thuc-don-an-dam-cho-be-6-thang-tuoi.jpg"
 title = "TOP 3 THỰC ĐƠN ĂN DẶM CHO BÉ 6 THÁNG BỔ DƯỠNG"
 
 +++
-**Bé mới 6 tháng tuổi thì bắt đầu ăn gì? Đây là những câu hỏi liên tục được đặt ra từ những người vừa mới lần đầu tiên làm cha làm mẹ, vậy thực chất thực đơn ăn dặm cho bé 6 tháng tuổi là gì? Để giải đáp thắc mắc cho các bậc phụ huynh vừa mới lần đầu tiên được làm cha làm mẹ, hôm nay DalaFarm xin giới thiệu cho các bậc phụ huynh thực đơn ăn dặm cho bé 6 tháng giàu chất dinh dưỡng và tốt cho sức khỏe của bé.**
+**Bé mới 6 tháng tuổi thì bắt đầu ăn gì? Đây là câu hỏi liên tục được đặt ra từ những người vừa mới lần đầu làm cha làm mẹ. Để giải đáp thắc mắc này, hôm nay DalaFarm xin giới thiệu cho các bậc phụ huynh thực đơn ăn dặm cho bé 6 tháng giàu chất dinh dưỡng và tốt cho sức khỏe của bé nhé.**
 
-#### Bột từ cà rốt và khoai tây
+#### 1. Bột từ cà rốt và khoai tây
+
 {{< img src="/img/blog/top-3-thuc-don-an-dam-cho-be-6-thang-tuoi(1).jpg" title="Bột ăn dặm cà rốt + khoai tây" >}}
 
 **Nguyên liệu:**
@@ -21,7 +22,8 @@ title = "TOP 3 THỰC ĐƠN ĂN DẶM CHO BÉ 6 THÁNG BỔ DƯỠNG"
 
 Cho bột cà rốt và khoai tây vào tô, trộn với 1 chút nước ấm, sau đó cho thêm sữa vào đảo đều là xong.
 
-#### Cháo thịt heo và bí đỏ
+#### 2. Cháo thịt heo và bí đỏ
+
 {{< img src="/img/blog/top-3-thuc-don-an-dam-cho-be-6-thang-tuoi(2).jpg" title="Cháo thịt heo + bí đỏ" >}}
 
 Cháo thịt heo và bí đỏ là thực đơn ăn dặm cho bé vô cùng bổ dưỡng bởi vì nó cung cấp cho bé nhiều chất dinh dưỡng, vitamin và chất đạm nữa, giúp bé phát triển, thông minh và mau lớn.
@@ -46,7 +48,7 @@ Múc 1 muỗng bột bí đỏ (mua [tại đây](/order)) cho vào cháo trộn
 
 Đây là 1 trong các món ăn dặm cho bé 6 tháng đầy đủ chất dinh dưỡng nhất và cũng dễ làm nhất.
 
-#### Cháo rau bó xôi và khoai tây
+#### 3. Cháo rau bó xôi và khoai tây
 {{< img src="/img/blog/top-3-thuc-don-an-dam-cho-be-6-thang-tuoi(3).jpg" title="Cháo rau bó xôi + khoai tây" >}}
 
 **Nguyên liệu:**
