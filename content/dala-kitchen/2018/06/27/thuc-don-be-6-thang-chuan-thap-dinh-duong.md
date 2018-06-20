@@ -44,7 +44,7 @@ Mẹ chuẩn bị 1 củ khoai lang cỡ nhỏ, đem rửa sạch, gọt vỏ r�
 
 **Súp lơ, bó xôi**
 
-Rau đem nhặt rửa sạch, luộc chín mềm rồi cắt nhỏ, nghiền qua rây. Đậu phụ non chần qua nước sôi rồi nghiềnTrộn đều hỗn hợp rau với đậu phụ, có thể thêm nước luộc rau để đạt độ sánh mong muốn. Đun hỗn hợp trên lửa nhỏ đến khi sôi vài phút thì bắc xuống, để nguội rồi cho bé ăn. Đây là một món vừa mát, mịn dễ ăn mà cũng không kém phần bổ dưỡng.
+Rau đem nhặt rửa sạch, luộc chín mềm rồi cắt nhỏ, nghiền qua rây. Đậu phụ non chần qua nước sôi rồi nghiền. Trộn đều hỗn hợp rau với đậu phụ, có thể thêm nước luộc rau để đạt độ sánh mong muốn. Đun hỗn hợp trên lửa nhỏ đến khi sôi vài phút thì bắc xuống, để nguội rồi cho bé ăn. Đây là một món vừa mát, mịn dễ ăn mà cũng không kém phần bổ dưỡng.
 {{< img src="/img/blog/thuc-don-be-6-thang-an-dam(3).jpg" title="Súp bó xôi +đậu phụ bổ dưỡng cho bé 6 tháng ăn dặm" >}}
 
 **Đậu Hà Lan nghiền sữa**
