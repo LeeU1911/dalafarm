@@ -23,7 +23,7 @@ Ngoài ra, mẹ có thể hấp thêm khoai tây rồi làm tương tự để �
 
 _Mua ngay bột bí đỏ từ DalaFarm để tiết kiệm thời gian nấu nướng mà vẫn đảm bảo đủ dưỡng chất cho bé yêu của bạn nhé!_
 
-<a href="/order" class="page-scroll btn btn-xl">Mua Ngay</a>
+<a href="/san-pham/bot-bi-do-50g" class="page-scroll btn btn-xl">Xem thêm</a>
 
 {{< img src="/img/blog/thuc-don-be-6-thang-an-dam(2).jpg" title="Súp bí đỏ cho bé 6 tháng ăn dặm" >}}
 
@@ -33,7 +33,7 @@ Mẹ chuẩn bị 1 củ khoai lang cỡ nhỏ, đem rửa sạch, gọt vỏ r�
 
 _Bật mí: [Bột khoai lang tím DalaFarm](/san-pham/bot-khoai-lang-tim-50g) đảm bảo giữ nguyên dinh dưỡng từ khoai lang tươi rất tốt cho đường ruột của bé!_
 
-<a href="/order" class="page-scroll btn btn-xl">Mua Ngay</a>
+<a href="/san-pham/bot-khoai-lang-tim-50g" class="page-scroll btn btn-xl">Xem thêm</a>
 
 **Súp lơ, bó xôi**
 
@@ -42,7 +42,7 @@ Rau đem nhặt rửa sạch, luộc chín mềm rồi cắt nhỏ, nghiền qua
 
 _Bột súp lơ và rau bó xôi từ DalaFarm với 100% thành phần rau củ tươi giúp các mẹ dành được nhiều thời gian cho bé hơn là trong bếp!_
 
-<a href="/order" class="page-scroll btn btn-xl">Mua Ngay</a>
+<a href="/san-pham/bot-sup-lo-xanh-50g" class="page-scroll btn btn-xl">Xem thêm</a>
 
 **Đậu Hà Lan nghiền sữa**
 
@@ -58,5 +58,5 @@ Lưu ý: Khi bắt đầu cho bé làm quen với thịt động vật, mẹ nê
 
 **Để các mẹ bớt thời gian chế biến trong giai đoạn bận rộn sắp trở lại với công việc, các mẹ có thể sử dụng bột bí đỏ, bột cà rốt, bột bó xôi, bột khoai lang tím, bột súp lơ… Bột rau củ nguyên chất từ DalaFarm được kiểm soát nguyên liệu rau củ đầu vào an toàn giúp các mẹ giảm thời gian chế biến, đảm bảo rau củ sạch và không lo lãng phí rau củ thừa.**
 
-**_Bạn có thể đặt mua các loại bột rau củ [tại đây](/san-pham) nhé_**
+**_Bạn có thể đặt mua các loại bột rau củ [tại đây](/order) nhé_**
 
