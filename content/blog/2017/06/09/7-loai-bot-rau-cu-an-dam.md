@@ -5,7 +5,7 @@ tags = ["7-loai-bot-rau-cu-an-dam", "bột-baby", "baby-powder", "dala-baby"]
 thumbnail = "7-loai-bot-rau-cu-an-dam.jpg"
 title = """7 LOẠI BỘT RAU CỦ QUẢ ĂN DẶM CHO BÉ -  
  MẸ KHÔNG THỂ BỎ QUA."""
-
+aliases = ["/blog/2017/06/09/7-loại-bột-rau-củ-ăn-dặm/"]
 +++
 **Ăn dặm là giai đoạn quan trọng của trẻ nhỏ, không chỉ cung cấp dưỡng chất cần thiết 
 cho sự tăng trưởng của bé mà còn giúp bé làm quen dần với mùi vị thức ăn, ảnh hưởng đến 
