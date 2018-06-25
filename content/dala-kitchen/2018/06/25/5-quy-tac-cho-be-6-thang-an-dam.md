@@ -34,6 +34,6 @@ Trẻ từ 6 tháng tuổi trở lên rất cần được bổ sung sắt vì l
 
 **Để các mẹ bớt thời gian chế biến trong giai đoạn bận rộn sắp trở lại với công việc, các mẹ có thể sử dụng bột bí đỏ, bột cà rốt, bột bó xôi, bột khoai lang tím, bột súp lơ… Bột rau củ nguyên chất từ DalaFarm được kiểm soát nguyên liệu rau củ đầu vào an toàn giúp các mẹ giảm thời gian chế biến, đảm bảo rau củ sạch và không lo lãng phí rau củ thừa.**
 
-Bạn có thể đặt mua các loại bột rau củ [tại đây](/order) nhé
+Bạn có thể đặt mua các loại bột rau củ [tại đây](/order) nhé.
 
 
