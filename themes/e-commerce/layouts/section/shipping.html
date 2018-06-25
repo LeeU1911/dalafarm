@@ -432,10 +432,11 @@
             } else if (promoCode === 'KS10PCT') {
                 alert({{ with .Site.Params.params.discount_code_success_alert }}{{ . }}{{ end }} + '10%');
                 return 10;
-            } else if (promoCode === 'FREESHIPDALAT') {
+            } else if (promoCode === 'FREESHIPDALAT' || promoCode === 'E484FT') {
                 alert({{ with .Site.Params.params.discount_code_success_alert }}{{ . }}{{ end }} + 'FREE SHIP');
                 return 0;
             }
+
             /*if (promoCode === 'DLF1T5OFF') {
                 return 5;
             } else if (promoCode === 'DLF1T10OFF') {

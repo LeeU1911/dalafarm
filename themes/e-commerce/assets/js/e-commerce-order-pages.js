@@ -182,7 +182,7 @@ function applyPromotion(bill){
         // alert("Lưu ý: Nếu muốn hưởng chương trình khuyến mãi trên hệ thống, bạn cần gỡ bỏ mã khuyến mãi đang dùng " + bill.promoCode + ".");
         // return bill;
     // }
-	if(bill.promoCode !== undefined && bill.promoCode === "FREESHIPDALAT") {
+	if(bill.promoCode !== undefined && (bill.promoCode === "FREESHIPDALAT" || bill.promoCode === "E484FT")) {
 		bill.freeShip = true;
 		return bill;
 	}
