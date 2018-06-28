@@ -88,7 +88,7 @@ function conformProductsArrayForAnalyticsPurpose(productsArr) {
     return conformedProductsArr;
 }
 
-   var apiBaseURL = "http://api.dalafarm.vn";
+   var apiBaseURL = "https://api.dalafarm.vn";
 // var apiBaseURL = "http://localhost:8080";
 
 function getShippingCostNUpdateSubtotal(dropDistrictId, callback, weight) {
