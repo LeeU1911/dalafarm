@@ -198,9 +198,9 @@ function applyPromotion(bill){
         // bill.freeShip = true;
     // }
 
-    if(totalBillWoShippingCost >= 250000){
-        bill.freeShip = true;
-    }
+    // if(totalBillWoShippingCost >= 250000){
+    //     bill.freeShip = true;
+    // }
 
     // if(totalBillWoShippingCost > 580000) {
     //     bill.freeShip = true;
