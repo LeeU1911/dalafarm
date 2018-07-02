@@ -20,6 +20,7 @@ url = "/san-pham/bot-ca-rot-50g"
 aliases = ["/san-pham/bột-cà-rốt-50g","/san-pham/Bột-cà-rốt-50g"]
 weight = 3
 discounted_percent = "SẮP CÓ HÀNG"
+key = "carrot"
 +++
 
 # Bột Cà Rốt DalaFarm (dùng liền) 

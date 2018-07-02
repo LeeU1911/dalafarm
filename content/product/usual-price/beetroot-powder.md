@@ -22,6 +22,7 @@ aliases = ["/san-pham/bột-củ-dền-50g"]
 weight = 3
 popular_product = true
 discounted_percent = "SẮP CÓ HÀNG"
+key = "beetroot"
 +++
 
 # Bột Củ Dền DalaFarm (dùng liền)
