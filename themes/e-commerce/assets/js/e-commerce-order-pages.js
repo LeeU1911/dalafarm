@@ -198,7 +198,7 @@ function applyPromotion(bill){
         // bill.freeShip = true;
     // }
 
-    if(totalBillWoShippingCost >= 600000){
+    if(totalBillWoShippingCost >= 250000){
         bill.freeShip = true;
     }
 

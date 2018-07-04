@@ -82,7 +82,7 @@ name = "DalaFarm"
 description = """DalaFarm cung cấp các sản phẩm bột rau củ, bột rau xanh, bao gồm: dâu tây, cần tây, củ dền, cà rốt, diếp cá, cả bó xôi, cà chua, rau má,
                  hạt sen. DalaFarm còn cung cấp bột rau củ hỗn hợp để pha thức uống giải độc detox
                  và dầu tỏi."""
-announcement_text = "[GIẢM 5% MỌI ĐƠN HÀNG](/promotion)"
+announcement_text = "[FREE SHIP ĐƠN HÀNG TRÊN 250 NGÀN](/promotion)"
 announcement_link = "/promotion"
 discount_code_success_alert = "Chúc mừng bạn đã nhận được khuyến mãi "
 # Link custom assets relative to /static
