@@ -51,24 +51,19 @@ name   = "Về DalaFarm"
 weight = 4
 identifier = "ve-dalafarm"
 [[Languages.vi.menu.main]]
-url    = "/#ve-dalafarm"
-name   = "Hành Trình DalaFarm"
-weight = 1
-parent = "ve-dalafarm"
-[[Languages.vi.menu.main]]
 url    = "/company-profile"
 name   = "Đôi nét về DalaFarm"
-weight = 2
+weight = 1
 parent = "ve-dalafarm"
 [[Languages.vi.menu.main]]
 url    = "/company-docs"
 name   = "Giấy tờ chứng nhận"
-weight = 3
+weight = 2
 parent = "ve-dalafarm"
 [[Languages.vi.menu.main]]
 url    = "/team"
 name   = "Thành Viên DalaFarm"
-weight = 4
+weight = 3
 parent = "ve-dalafarm"
 
 
@@ -111,7 +106,7 @@ contact = "Liên hệ"
 title = ""
 subtitle = "Bột rau xanh nguyên chất"
 buttonText = "Tìm hiểu"
-buttonPath = "/san-pham/bột-rau-củ-dalababy-70g/"
+buttonPath = "/company-profile/"
 orderButtonText = "MUA"
 nextButtonText = "TIẾP"
 
@@ -158,7 +153,7 @@ enable = false
 [Languages.vi.params.team]
 enable = true
 center = true
-title = "Thành viên DalaFarm"
+title = "Thành viên nòng cốt DalaFarm"
 subtitle = ""
 description = "Chúng tôi là một đội ngũ gồm những thành viên có những nền tảng khác nhau nhưng cùng 1 chí hướng để mang những sản phẩm tốt nhất của Việt Nam ra thế giới."
 path = "chung-toi"
