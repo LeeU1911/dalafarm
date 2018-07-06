@@ -1,48 +1,54 @@
 +++
 date = "2018-07-06T01:51:53+08:00"
 publishdate = "2018-07-06T01:51:53+08:00"
-tags = ["b?t-khoai-lang-t�m", "l?i-�ch-c?a-khoai-lang-t�m", "ch?ng-l�o-h�a", "ng?a-ung-th?", "gi?m-c�n"]
+tags = ["b?t-khoai-lang-tím", "l?i-ích-c?a-khoai-lang-tím", "ch?ng-lão-hóa", "ng?a-ung-th?", "gi?m-cân"]
 thumbnail = "thuc-don-an-dam-kieu-nhat.jpg"
-title = "S? TH?T V? L?I �CH S?C KH?E C?A KHOAI LANG T�M"
+title = "SỰ THẬT VỀ LỢI ÍCH SỨC KHỎE CỦA KHOAI LANG TÍM"
 
 +++
-**B?N C� BI?T?**
-Khoai lang t�m c�n ???c g?i l� khoai lang Peru, c� ngu?n g?c t? Nam M?, t�n khoa h?c l� Solanum andigenum.
-V? dinh d??ng, khoai lang t�m ???c xem l� m?t lo?i l??ng th?c , th?c ph?m t?t g�p ph?n ?a d?ng h�a ch?t b?t ???ng trong kh?u ph?n ?n, h? tr? qu� tr�nh ti�u h�a v� ch�ng r?t d? ti�u v� ch?a nhi?u ch?t x? gi�p nhu?n tr??ng. B�n c?nh ?�, khoai lang t�m c�n ch?a �t ch?t b�o, kh�ng cholesterol, nhi?u h?p ch?t dinh d??ng quan tr?ng kh�c nh? c�c lo?i vitamin nh�m A, B, C, E, c�c axit amin v� c�c nguy�n t? vi l??ng c?n thi?t kh�c nh? canxi, s?t, magie, k?m� v� ch?a nhi?u ch?t ch?ng oxy h�a n�n r?t t?t cho s?c kh?e.
-**V� gi� tr? dinh d??ng cao n�n khoai lang t�m r?t c� l?i cho s?c kh?e**
-### T�c d?ng l�n huy?t �p :
-C�c nghi�n c?u t?i M? cho th?y r?ng , �trong khoai lang t�m c� ch?a c�c h?p ch?t gi?ng nh? trong thu?c h? huy?t �p ACF inhebitor v� c�c h?p ch?t h?u �ch kh�c , c� t�c d?ng ph�ng ng?a b?nh cao huy?t �p.
-Tuy nhi�n, c�c nh� khoa h?c khuy?n c�o ?? mang l?i l?i �ch cao nh?t th� kh�ng n�n n??ng c?ng nh? ?n khoai lang t�m v?i kem b? th?c v?t, n� s? gi?m c�c th�nh ph?n ch?ng oxy h�a v� t�c d?ng �b�nh ?n� huy?t �p c?a khoai.
+**BẠN CÓ BIẾT?**
+Khoai lang tím còn được gọi là khoai lang Peru, có nguồn gốc từ Nam Mỹ, tên khoa học là Solanum andigenum.
+Về dinh dưỡng, khoai lang tím được xem là một loại lương thực , thực phẩm tốt góp phần đa dạng hóa chất bột đường trong khẩu phần ăn, hỗ trợ quá trình tiêu hóa vì chúng rất dễ tiêu và chứa nhiều chất xơ giúp nhuận trường. Bên cạnh đó, khoai lang tím còn chứa ít chất béo, không cholesterol, nhiều hợp chất dinh dưỡng quan trọng khác như các loại vitamin nhóm A, B, C, E, các axit amin và các nguyên tố vi lượng cần thiết khác như canxi, sắt, magie, kẽm… và chứa nhiều chất chống oxy hóa nên rất tốt cho sức khỏe.
 
-### T�c d?ng l�n tim m?ch :
-Khoai lang t�m r?t gi�u ch?t anthocyanin - c� th? c?t ???c c?n ?au tim, gi?m thi?u c�c t?n th??ng n�o li�n quan ??t qu? v� ng?n c?n s? t?o th�nh c�c c?c m�u ?�ng trong l�ng m?ch m�u (nguy�n nh�n d?n ??n t?c m?ch, g�y tai bi?n m?ch m�u n�o v� nh?ng c?n nh?i m�u c? tim ??t ng?t), h?n ch? s? suy gi?m s?c ?? kh�ng.( �theo nghi�n c?u c?a David Heber, ??i h?c Harvard- M?)
+**Vì giá trị dinh dưỡng cao nên khoai lang tím rất có lợi cho sức khỏe**
+### Tác dụng lên huyết áp :
+Các nghiên cứu tại Mỹ cho thấy rằng ,  trong khoai lang tím có chứa các hợp chất giống như trong thuốc hạ huyết áp ACF inhebitor và các hợp chất hữu ích khác , có tác dụng phòng ngừa bệnh cao huyết áp.
+Tuy nhiên, các nhà khoa học khuyến cáo để mang lại lợi ích cao nhất thì không nên nướng cũng như ăn khoai lang tím với kem bơ thực vật, nó sẽ giảm các thành phần chống oxy hóa và tác dụng “bình ổn” huyết áp của khoai.
+{{< img src="/img/blog/huyết-áp.jpg" title="Khoai lang tím và tác dụng "bình ổn" huyết áp" >}}
 
-### T�c d?ng gi?m ???ng :
-Khoai lang c� �t ch?t b�o, ch?a nhi?u vitamin, c�c nguy�n t? vi l??ng cao, �t ???ng m? n�n r?t c� l?i cho nh?ng ng??i m?c b?nh ti?u ???ng. Ngo�i ra, anthocyanin c�n c� t�c d?ng t?t trong vi?c ?i?u h�a l??ng ???ng huy?t c?a nh?ng b?nh nh�n ?�i th�o ???ng.
+### Tác dụng lên tim mạch :
+Khoai lang tím rất giàu chất anthocyanin - có thể cắt được cơn đau tim, giảm thiểu các tổn thương não liên quan đột quỵ và ngăn cản sự tạo thành các cục máu đông trong lòng mạch máu (nguyên nhân dẫn đến tắc mạch, gây tai biến mạch máu não và những cơn nhồi máu cơ tim đột ngột), hạn chế sự suy giảm sức đề kháng.(  theo nghiên cứu của David Heber, Đại học Harvard- Mỹ)
+{{< img src="/img/blog/tim-mạch.jpg" title="Khoai lang tím và các bệnh tim mạch" >}}
+### Tác dụng giảm đường :
+Khoai lang có ít chất béo, chứa nhiều vitamin, các nguyên tố vi lượng cao, ít đường mỡ nên rất có lợi cho những người mắc bệnh tiểu đường. Ngoài ra, anthocyanin còn có tác dụng tốt trong việc điều hòa lượng đường huyết của những bệnh nhân đái tháo đường.
 
-{{< img src="/img/blog/thuc-don-an-dam-kieu-nhat(2).jpg" title="S�p b� ?? r?t t?t cho B� 6 th�ng b?t ??u ?n d?m" >}}
+{{< img src="/img/blog/đái-tháo-đường.jpg" title="Tác dụng điều hòa đường huyết của khoai lang tím" >}}
 
-### Khoai lang t�m v� ung th? :
-Anthocyanin l� m?t lo?i s?c t? t?o ra m�u t�m ? rau c?, ngo�i nh?ng t�c d?ng c� l?i cho h? tim m?ch, anthocyanin c�n c� t�c d?ng t?t trong ch?ng l�o h�a, ng?n ng?a s? ph�t tri?n c?a c�c kh?i u, b??u, h?n ch? nguy c? b? ??t qu?, gi?m nguy c? m?c ung th?
+### Khoai lang tím và ung thư :
+Anthocyanin là một loại sắc tố tạo ra màu tím ở rau củ, ngoài những tác dụng có lợi cho hệ tim mạch, anthocyanin còn có tác dụng tốt trong chống lão hóa, ngăn ngừa sự phát triển của các khối u, bướu, hạn chế nguy cơ bị đột quỵ, giảm nguy cơ mắc ung thư
+{{< img src="/img/blog/ngừa-ung-thư.jpg" title="Khoai lang tím giúp giảm nguy cơ mắc ung thư" >}}
 
-### T�c d?ng l�n gan :
-M?t nghi�n c?u cho th?y, ti�u th? m?t th?c u?ng bi?n ch? t? khoai lang t�m c� hi?u qu? c?i thi?n ch?c n?ng c?a gan ? ng??i c� nguy c? b? vi�m gan v� gi?m n?ng ?? men gan hay b?nh v? gan.
+### Tác dụng lên gan :
+Một nghiên cứu cho thấy, tiêu thụ một thức uống biến chế từ khoai lang tím có hiệu quả cải thiện chức năng của gan ở người có nguy cơ bị viêm gan và giảm nồng độ men gan hay bệnh về gan.
 
-{{< img src="/img/blog/thuc-don-an-dam-kieu-nhat(3).jpg" title="B� 6 th�ng n�n ?n th�m c�c m�n ?n l? kh�c ?? tr�nh b? ng�n" >}}
+{{< img src="/img/blog/gan.jpg" title="Khoai lang tím giúp cải thiện chức năng gan" >}}
 
-### T�c d?ng gi?m c�n :
-Khoai lang t�m l� th?c ph?m gi�u d??ng ch?t nh? axit amin, c�c lo?i vitamin A, B, C v� E, canxi, k?m, s?t� n�n ???c coi l� th?c ph?m ch?a �t n?ng l??ng, nhanh no v� ngon mi?ng h?n. Ch�nh v� v?y, khoai lang t�m l� l?a ch?n h�ng ??u cho nh?ng ng??i mu?n gi?m c�n.
-Ngo�i ra, n?u so v?i c?m g?o v� nh?ng lo?i c? kh�c th� khoai lang t�m ch? c� m?c n?ng l??ng b?ng 1/3. Do v?y, th?c ph?m n�y kh�ng g�y b�o ph�, gi�p gi?m c�n d? d�ng h?n.
-
-### Ch?ng l�o h�a da :
-?n khoai lang t�m ho?c u?ng c�c s?n ph?m t? khoai lang t�m 2 l?n/tu?n s? gi�p da m?m m?i v� ??p h?n v� khoai lang t�m c� ch?a nhi?u sinh t? c� l?i, ch?t kho�ng, ch?t x?. C� th? ?n khoai lu?c ho?c nghi?n khoai lang nhuy?n, tr?n v?i s?a t??i ho?c s?a chua ??p l�n da.
+### Tác dụng giảm cân:
+Khoai lang tím là thực phẩm giàu dưỡng chất như axit amin, các loại vitamin A, B, C và E, canxi, kẽm, sắt… nên được coi là thực phẩm chứa ít năng lượng, nhanh no và ngon miệng hơn. Chính vì vậy, khoai lang tím là lựa chọn hàng đầu cho những người muốn giảm cân.
+Ngoài ra, nếu so với cơm gạo và những loại củ khác thì khoai lang tím chỉ có mức năng lượng bằng 1/3. Do vậy, thực phẩm này không gây béo phì, giúp giảm cân dễ dàng hơn.
+{{< img src="/img/blog/giảm-cân.jpg" title="Khoai lang tím giúp giảm cân hiệu quả" >}}
+### Chống lão hóa da :
+Ăn khoai lang tím hoặc uống các sản phẩm từ khoai lang tím 2 lần/tuần sẽ giúp da mềm mại và đẹp hơn vì khoai lang tím có chứa nhiều sinh tố có lợi, chất khoáng, chất xơ. Có thể ăn khoai luộc hoặc nghiền khoai lang nhuyễn, trộn với sữa tươi hoặc sữa chua đắp lên da.
+{{< img src="/img/blog/chống-lão-hóa.jpg" title="Khoai lang tím và quá trình lão hóa da" >}}
  
-### Ng?n ng?a n?p nh?n :
-Khoai lang t�m gi�u beta carotene, vitamin B1, vitamin C, Ca, Mg v� c�c ch?t dinh d??ng kh�c. ??c bi?t, n� c� anthocyanins c� t�c d?ng ch?ng oxy h�a m?nh gi�p ng?n ng?a n?p nh?n, ng?n ng?a m?i m?t.
+### Ngăn ngừa nếp nhăn :
+Khoai lang tím giàu beta carotene, vitamin B1, vitamin C, Ca, Mg và các chất dinh dưỡng khác. Đặc biệt, nó có anthocyanins có tác dụng chống oxy hóa mạnh giúp ngăn ngừa nếp nhăn, ngăn ngừa mỏi mắt.
+{{< img src="/img/blog/xóa-nếp-nhăn.jpg" title="Khoai lang tím ngăn ngừa nếp nhăn" >}}
 
-***L?i khuy�n ?? b?o v? s?c kh?e khi ?n khoai lang t�m***
-Kh�ng th? ph? nh?n nh?ng c�ng d?ng tuy?t v?i c?a khoai lang t�m .Tuy nhi�n, ?? khoai lang t�m ph�t huy ???c h?t c�c l?i �ch c?a n� m� kh�ng g�y ?nh h??ng ti�u c?c th� b?n n�n b? t�i nh?ng kinh nghi?m sau:
-- Kh�ng ?n khoai lang t�m khi ?�i: L??ng ???ng trong khoai s? l�m t?ng ti?t d?ch v? n?u ?n l�c ?�i, g�y n�ng ru?t, ? chua, ch??ng b?ng kh� ch?u v� gi?m s? ngon mi?ng cho b?a ?n s?p ??n.
-- Ng??i b?nh th?n n�n tr�nh ?n: Trong khoai lang c� nhi?u ch?t x?, kali, vitamin A,� m� ng??i b? th?n y?u s? h?n ch? kh? n?ng lo?i b? nh?ng ch?t d? th?a, do ?� d? g�y ra r?i lo?n nh?p tim hay ph� n?, t?n th??ng gan, th?n.
+***Lời khuyên để bảo vệ sức khỏe khi ăn khoai lang tím***
+Không thể phủ nhận những công dụng tuyệt vời của khoai lang tím .Tuy nhiên, để khoai lang tím phát huy được hết các lợi ích của nó mà không gây ảnh hưởng tiêu cực thì bạn nên bỏ túi những kinh nghiệm sau:
+– Không ăn khoai lang tím khi đói: Lượng đường trong khoai sẽ làm tăng tiết dịch vị nếu ăn lúc đói, gây nóng ruột, ợ chua, chướng bụng khó chịu và giảm sự ngon miệng cho bữa ăn sắp đến.
+– Người bệnh thận nên tránh ăn: Trong khoai lang có nhiều chất xơ, kali, vitamin A,… mà người bị thận yếu sẽ hạn chế khả năng loại bỏ những chất dư thừa, do đó dễ gây ra rối loạn nhịp tim hay phù nề, tổn thương gan, thận.
 
-B?n c� th? ??t mua b?t khoai lang t�m [t?i ?�y](/san-pham) nh�!
+
+Bạn có thể mua bột khoai lang tím [tại đây](/san-pham) nhé!
