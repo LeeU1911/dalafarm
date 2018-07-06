@@ -18,9 +18,9 @@ Về dinh dưỡng, khoai lang tím được xem là một loại lương thực
 ### Tác dụng lên huyết áp:
 
 Các nghiên cứu tại Mỹ cho thấy rằng ,  trong khoai lang tím có chứa các hợp chất giống như trong thuốc hạ huyết áp ACF inhebitor và các hợp chất hữu ích khác , có tác dụng phòng ngừa bệnh cao huyết áp.
-Tuy nhiên, các nhà khoa học khuyến cáo để mang lại lợi ích cao nhất thì không nên nướng cũng như ăn khoai lang tím với kem bơ thực vật, nó sẽ giảm các thành phần chống oxy hóa và tác dụng “bình ổn” huyết áp của khoai.
+Tuy nhiên, các nhà khoa học khuyến cáo để mang lại lợi ích cao nhất thì không nên nướng cũng như ăn khoai lang tím với kem bơ thực vật, nó sẽ giảm các thành phần chống oxy hóa và tác dụng "bình ổn" huyết áp của khoai.
 
-{{< img src="/img/blog/huyết-áp.jpg" title="Khoai lang tím và tác dụng "bình ổn" huyết áp" >}}
+{{< img src="/img/blog/huyết-áp.jpg" title="Khoai lang tím và tác dụng 'bình ổn' huyết áp" >}}
 
 ### Tác dụng lên tim mạch:
 
