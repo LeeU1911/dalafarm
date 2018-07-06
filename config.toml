@@ -234,7 +234,7 @@ info = """##### DALAFARM - CÔNG TY TNHH SXTM CHUÔNG XANH
   link = "/term-condition"
 [[Languages.vi.params.footer.social]]
   icon = "fa-facebook"
-  link = "https://www.facebook.com/dalafarm.vn/"
+  link = "https://www.facebook.com/dalafarm.com.vn/"
 [[Languages.vi.params.footer.social]]
   icon = "fa-pinterest"
   link = "https://www.pinterest.com/dalafarm/"
