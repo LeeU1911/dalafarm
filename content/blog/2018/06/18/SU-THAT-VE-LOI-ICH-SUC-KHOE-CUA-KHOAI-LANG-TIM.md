@@ -1,8 +1,8 @@
 +++
 date = "2018-07-06T01:51:53+08:00"
 publishdate = "2018-07-06T01:51:53+08:00"
-tags = ["b?t-khoai-lang-tím", "l?i-ích-c?a-khoai-lang-tím", "ch?ng-lão-hóa", "ng?a-ung-th?", "gi?m-cân"]
-thumbnail = "thuc-don-an-dam-kieu-nhat.jpg"
+tags = ["bột-khoai-lang-tím", "lợi-ích-của-khoai-lang-tím", "chống-lão-hóa", "ngừa-ung-thư", "giảm-cân"]
+thumbnail = "khoai-lang-tím.jpg"
 title = "SỰ THẬT VỀ LỢI ÍCH SỨC KHỎE CỦA KHOAI LANG TÍM"
 
 +++
