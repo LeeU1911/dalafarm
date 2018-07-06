@@ -7,9 +7,11 @@
       </div>
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
-
+          <div class="fb-page" data-href="https://www.facebook.com/Dalafarm.com.vn" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Dalafarm.com.vn" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Dalafarm.com.vn">DalaFarm</a></blockquote></div>
+          <br/>
+          <br/>
           {{ range .Site.Params.params.footer.social }}
-            <li><a href="{{ .link }}"><i class="fa {{ .icon }}"></i></a></li>
+            <li><a href="{{ .link }}" target="_blank"><i class="fa {{ .icon }}"></i></a></li>
           {{ end }}
 
         </ul>
