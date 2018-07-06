@@ -6,6 +6,7 @@
 {{ partial "google_tag_manager_after_opening_body_tag.html" }}
 {{ partial "messenger_customer_chat_plugin.html" . }}
 {{ partial "nav-for-other-page.html" . }}
+{{ partial "facebook_sdk.html" . }}
 <section id="{{ .Section }}" itemscope itemtype="http://schema.org/Product">
 <div class="container">
     <div class="row">
@@ -58,8 +59,10 @@
                 </div>
                 <div><a href="{{ "/order" | absLangURL }}"><button type="button" class="btn btn-default btn-lg btn-number add-to-cart-init-btn init-order-class"
                                                                    id="buyBtn">
-                    <span class="">Mua</span>
+                    <span class="">{{ with .Site.Params.params.hero.orderButtonText }}{{ . }}{{ end }}</span>
                 </button></a></div>
+                {{ partial "fb_share_button.html" . }}
+                {{ partial "zalo_share_button.html" . }}
             </div>
         </div>
         <div class="row">
@@ -109,6 +112,7 @@
 {{ partial "footer.html" . }}
 {{ end }}
 {{ partial "js_other_page.html" . }}
+{{ partial "zalo_sdk.html" . }}
 <script type="text/javascript" src="{{ "js/smoothproducts.min.js"| absURL }}"></script>
 <script type="text/javascript">
     /* wait for images to load */

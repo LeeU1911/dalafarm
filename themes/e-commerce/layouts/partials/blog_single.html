@@ -5,16 +5,6 @@
 <body id="page-top" class="index">
 {{ partial "google_tag_manager_after_opening_body_tag.html" }}
 {{ partial "messenger_customer_chat_plugin.html" . }}
-<script>
-    (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
-        fjs.parentNode.insertBefore(js, fjs);
-
-    }(document, 'script', 'facebook-jssdk'));
-</script>
 {{ partial "nav-for-other-page.html" . }}
 <section id="{{ .Section }}" itemscope itemtype="http://schema.org/BlogPosting">
     <link itemprop="mainEntityOfPage" href="{{ .RelPermalink | absLangURL }}" />
@@ -61,23 +51,15 @@
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
-                    <div class="fb-share-button media-share-button" data-href="{{ .Permalink }}" data-layout="button" data-size="large" data-mobile-iframe="false">
-                        <a class="fb-xfbml-parse-ignore" target="_blank" href="#">Share</a>
-                    </div>
-                    <div class="zalo-share-button media-share-button" data-href="{{ .Permalink }}" data-oaid="579745863508352884"
-                         data-layout="1" data-color="blue" data-customize=false>
-                    </div>
+                    {{ partial "fb_share_button.html" . }}
+                    {{ partial "zalo_share_button.html" . }}
                     <br/>
                     <br/>
                     <article class="blog-article" itemprop="articleBody">
                         {{ .Content | markdownify | emojify}}
                         <p>{{ with .Site.Params.params.contentFooter }}{{ . | markdownify }}{{ end }}</p>
-                        <div class="fb-share-button media-share-button" data-href="{{ .Permalink }}" data-layout="button" data-size="large" data-mobile-iframe="false">
-                            <a class="fb-xfbml-parse-ignore" target="_blank" href="#">Share</a>
-                        </div>
-                        <div class="zalo-share-button media-share-button" data-href="{{ .Permalink }}" data-oaid="579745863508352884"
-                             data-layout="1" data-color="blue" data-customize=false>
-                        </div>
+                        {{ partial "fb_share_button.html" . }}
+                        {{ partial "zalo_share_button.html" . }}
                     </article>
                 </div>
                 <div class="col-md-1"></div>
@@ -128,6 +110,6 @@
 {{ partial "footer.html" . }}
 {{ end }}
 {{ partial "js_other_page.html" . }}
-<script src="https://sp.zalo.me/plugins/sdk.js"></script>
+{{ partial "zalo_sdk.html" . }}
 </body>
 </html>
