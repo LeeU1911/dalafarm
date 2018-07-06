@@ -38,7 +38,7 @@ Khoai lang có ít chất béo, chứa nhiều vitamin, các nguyên tố vi lư
 
 Anthocyanin là một loại sắc tố tạo ra màu tím ở rau củ, ngoài những tác dụng có lợi cho hệ tim mạch, anthocyanin còn có tác dụng tốt trong chống lão hóa, ngăn ngừa sự phát triển của các khối u, bướu, hạn chế nguy cơ bị đột quỵ, giảm nguy cơ mắc ung thư.
 
-{{< img src="/img/blog/ngừa-ung-thư.jpg" title="Khoai lang tím giúp giảm nguy cơ mắc ung thư" >}}
+{{< img src="/img/blog/ngừa-ung-thư.png" title="Khoai lang tím giúp giảm nguy cơ mắc ung thư" >}}
 
 ### Tác dụng lên gan:
 
@@ -63,7 +63,7 @@ Ngoài ra, nếu so với cơm gạo và những loại củ khác thì khoai la
 
 Khoai lang tím giàu beta carotene, vitamin B1, vitamin C, Ca, Mg và các chất dinh dưỡng khác. Đặc biệt, nó có anthocyanins có tác dụng chống oxy hóa mạnh giúp ngăn ngừa nếp nhăn, ngăn ngừa mỏi mắt.
 
-{{< img src="/img/blog/xóa-nếp-nhăn.jpg" title="Khoai lang tím ngăn ngừa nếp nhăn" >}}
+{{< img src="/img/blog/xóa-nếp-nhăn.png" title="Khoai lang tím ngăn ngừa nếp nhăn" >}}
 
 ***Lời khuyên để bảo vệ sức khỏe khi ăn khoai lang tím***
 
