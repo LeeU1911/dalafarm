@@ -438,6 +438,9 @@
             } else if (promoCode === 'FREESHIPDALAT' || promoCode === 'E484FT') {
                 alert({{ with .Site.Params.params.discount_code_success_alert }}{{ . }}{{ end }} + 'FREE SHIP');
                 return 0;
+            } else if (promoCode === '952DLR') {
+                alert('Mã dành cho đại lý hợp lệ');
+                return 0;
             }
 
             /*if (promoCode === 'DLF1T5OFF') {
