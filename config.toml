@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://dalafarm.vn/"
+baseurl = "https://dalafarm.com.vn/"
 languageCode = "vi-vn"
 title = "DalaFarm"
 theme = "e-commerce"
@@ -87,7 +87,7 @@ favicon    = "favicon.ico"
 disableFonts = false
 #Content footer
 contentFooter = """
-<a href="/order" class="page-scroll btn btn-xl">Mua Ngay</a>
+<a href="/order" style="color: #fff;background-color: #C5F442;" class="page-scroll btn btn-xl">Mua Ngay</a>
 """
 related_blog_limit = 7
 
