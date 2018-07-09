@@ -4,9 +4,10 @@ publishdate = "2017-06-06T08:05:45+08:00"
 description = """
 Bột Khoai Lang Tím (dùng liền) đóng gói zip 50 gram
 
-* Bổ sung chất xơ, ngừa táo bón
-* Bổ sung vitamin C, B6, beta-carotene, chất sắt
-* Cung cấp chất chống oxy hoá
+* Bổ sung chất xơ.
+* Bổ sung các vitamin nhóm A,B,C,E; axit amin và các nguyên tố vi lượng cần thiết: canxi, sắt, magie, kẽm...
+* Ít chất béo, không cholesterol.
+* Cung cấp chất chống oxy hoá.
 
 """
 price = "85,000"
@@ -24,22 +25,21 @@ key = "purpleswpotato"
 
 # Bột Khoai Lang Tím DalaFarm (dùng liền)
 
-Được chọn lọc và chế biến từ những nguyên 
-liệu tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm 
+Được chọn lọc và chế biến từ những củ khoai lang tím tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm 
 được sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp chứng 
 nhận VSATTP Việt Nam.
 
 ## Thành phần: 
 100% Khoai Lang Tím 
-Không hóa chất, không hương liệu
+không hóa chất, không hương liệu
 
 ## Công dụng: 
-Giàu carbohydrate, chất xơ, beta-
+Giàu anthocyanin, carbohydrate, chất xơ, beta-
 carotene (vitamin A carotenoid), 
 vitamin C, vitamin B6, sắt, mangan 
 và kali. Đây là thực phẩm chứa chất
-chống oxy hóa cao, duy trì giảm cân, 
-ngừa ung thư, hỗ trợ bệnh tiểu đường ..
+chống oxy hóa cao, duy trì giảm cân,
+ngừa táo bón, ngừa ung thư, hỗ trợ bệnh tiểu đường ..
 
 ## HDSD:  
 Dùng làm thức uống hàng ngày, 
