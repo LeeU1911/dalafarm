@@ -36,7 +36,7 @@ weight = 2
 parent = "blog"
 
 [[Languages.vi.menu.main]]
-url    = "/product"
+url    = "/san-pham"
 name   = "Sản Phẩm"
 weight = 2
 
