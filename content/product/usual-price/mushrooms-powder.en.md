@@ -1,6 +1,6 @@
 +++
 date = "2017-06-06T08:05:45+08:00"
-publishdate = "2017-06-06T08:05:45+08:00"
+expirydate = "2017-06-06T08:05:45+08:00"
 description = "Mushroom Powder zip 50 gram"
 price = "6.5"
 img = ["mushrooms-1.jpg","mushrooms-2.jpg"]
