@@ -1,6 +1,6 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
-publishdate = "2017-06-01T00:00:00+07:00"
+expirydate = "2017-06-01T00:00:00+07:00"
 description = "Matcha powder zip 100 gram"
 price = "9"
 img = ["matcha-100g-1.jpg","matcha-100g-2.jpg"]

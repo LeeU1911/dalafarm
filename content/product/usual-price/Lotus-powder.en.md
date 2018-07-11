@@ -1,5 +1,6 @@
 +++
 date = "2017-04-17T23:12:45+08:00"
+expirydate = "2017-04-17T23:12:45+08:00"
 description = "Lotus seeds powder zip 50 gram"
 price = "6"
 img = ["lotusseeds-1.jpg","lotusseeds-2.jpg"]

@@ -1,6 +1,6 @@
 +++
 date = "2017-05-07T14:31:45+08:00"
-publishdate = "2017-06-01T00:00:00+07:00"
+expirydate = "2017-06-01T00:00:00+07:00"
 description = "Bột Trà Xanh đóng gói zip 50 gram"
 price = "95,000"
 img = ["matcha-50g-1.jpg","matcha-50g-2.jpg"]

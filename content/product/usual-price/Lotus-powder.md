@@ -1,6 +1,6 @@
 +++
 date = "2017-06-06T08:05:45+08:00"
-publishdate = "2017-06-06T08:05:45+08:00"
+expirydate = "2017-06-06T08:05:45+08:00"
 description = "Bột Hạt Sen (dùng liền) đóng gói zip 50 gram"
 price = "119,000"
 img = ["lotusseeds-1.jpg","lotusseeds-2.jpg"]
