@@ -20,7 +20,6 @@ title = "Bột Rau Bó Xôi (50g)"
 weight = 3
 aliases = ["/san-pham/bot-rau-bo-xoi-50g","/san-pham/bot-cai-bo-xoi-50g"]
 key = "spinach"
-popular_product = true
 +++
 
 # Bột Rau Bó Xôi DalaFarm (Bột Cải Bó Xôi DalaFarm) (dùng liền)
