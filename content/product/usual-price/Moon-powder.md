@@ -1,5 +1,6 @@
 +++
 date = "2017-07-08T23:12:45+08:00"
+expirydate = "2017-07-08T23:12:45+08:00"
 description = "Bột Detox Moon powder đóng gói zip 100 gram"
 price = "375,000"
 img = ["moon-powder-1.jpg","moon-powder-2.jpg"]
