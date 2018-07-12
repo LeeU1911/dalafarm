@@ -29,7 +29,7 @@ Biểu hiện sớm của bệnh còi xương là trẻ hay quấy khóc, nôn t
 
 Khi ăn dặm, vẫn cần duy trì một lượng sữa nhất định tùy theo lứa tuổi, nên cho trẻ ăn đủ chất với thực đơn đa dạng, thường xuyên cho trẻ ăn cua, cá, trứng, sữa, gan, pho mai, các loại rau xanh. Chú ý bữa ăn luôn có dầu ăn hoặc mỡ để tăng hấp thu **vitamin D**.
 
-{{< img src="/img/blog/vitamin-D.jpg" title="Thực đơn ăn dặm cho bé" >}}
+{{< img src="/img/blog/vitamin-D.jpg" title="Thực phẩm giàu vitamin D" >}}
 
 Nguồn:
 
