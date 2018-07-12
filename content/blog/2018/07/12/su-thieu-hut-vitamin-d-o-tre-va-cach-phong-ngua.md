@@ -17,13 +17,13 @@ Biểu hiện sớm của bệnh còi xương là trẻ hay quấy khóc, nôn t
 
 - Các biến chứng của xương làm giảm chiều cao, hạn chế chức năng hô hấp, thay đổi dáng đi và ảnh hưởng xấu đến sinh đẻ ở trẻ gái. Ngoài ra trẻ còn bị xanh xao, thiếu máu và hay bị viêm phổi tái đi tái lại.
 
-{{< img src="/img/blog/còi-xương.jpg" title="Dấu hiệu nhận biết trẻ còi xương" >}}
+{{< img src="/img/blog/coi-xuong.jpg" title="Dấu hiệu nhận biết trẻ còi xương" >}}
 
 **May mắn thay, việc phòng ngừa thiếu hụt Vitamin D cho trẻ khá đơn giản!**
 
 - Tắm nắng: mẹ và bé có thể cùng nhau tắm nắng vào buổi sáng, khoảng 10 - 15 phút. Lưu ý khi tắm nắng bạn phải để ánh sáng mặt trời chiếu trực tiếp lên da bé, không qua cửa kính, tắm toàn thân. Khi tắm, nhớ che mắt bé nḥư đội mũ rộng vành để ánh nắng không chiếu trực tiếp vào mắt bé.
 
-{{< img src="/img/blog/tắm-nắng.jpg" title="Tắm nắng cho bé" >}}
+{{< img src="/img/blog/tam-nang.jpg" title="Tắm nắng cho bé" >}}
 
 - Ăn uống: Cho bé bú ngay sau khi sinh càng sớm càng tốt. Nếu có điều kiện thì mẹ nên duy trì cho bé bú hoàn toàn bằng sữa mẹ trong 6 tháng đầu tiên. Nếu không thì nên cho bé uống sữa bổ sung, không nên cho bé ăn dặm quá sớm (trước 4 tháng).
 
