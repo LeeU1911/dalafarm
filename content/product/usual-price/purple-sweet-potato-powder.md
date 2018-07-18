@@ -4,10 +4,11 @@ publishdate = "2017-06-06T08:05:45+08:00"
 description = """
 Bột Khoai Lang Tím (dùng liền) đóng gói zip 50 gram
 
-* Bổ sung chất xơ.
+* Bổ sung chất xơ, cung cấp tinh bột chậm.
 * Bổ sung các vitamin nhóm A,B,C,E; axit amin và các nguyên tố vi lượng cần thiết: canxi, sắt, magie, kẽm...
 * Ít chất béo, không cholesterol.
 * Cung cấp chất chống oxy hoá.
+* Xem thêm công dụng của bột khoai lang tím [tại đây](/blog/2018/07/06/su-that-ve-loi-ich-suc-khoe-cua-khoai-lang-tim/)
 
 """
 price = "85,000"
