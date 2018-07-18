@@ -1,7 +1,14 @@
 +++
 date = "2017-05-07T14:31:45+08:00"
 publishdate = "2017-06-01T00:00:00+07:00"
-description = "Bột Rau Má (dùng liền) đóng gói zip 50 gram"
+description = """Bột Rau Má (dùng liền) đóng gói zip 50 gram
+
+* Giải nhiệt, mát gan
+* Chứa Triterpenoids giúp giảm sưng viêm, tốt cho tim mạch, giảm stress.
+* Cải thiện trí nhớ, làm chậm sự lão hoá
+* 100% từ Rau Má tươi tự nhiên an toàn, không hóa chất, không hương liệu
+* Dạng bột hoà tan dùng liền tiện lợi
+"""
 price = "65,000"
 img = ["pennywort-50g-1.jpg","pennywort-50g-2.jpg"]
 product_line = ""
