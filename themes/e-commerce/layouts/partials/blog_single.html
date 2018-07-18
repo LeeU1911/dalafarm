@@ -51,9 +51,6 @@
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
-                    {{ partial "fb_share_button.html" . }}
-                    {{ partial "zalo_share_button.html" . }}
-                    <br/>
                     <br/>
                     <article class="blog-article" itemprop="articleBody">
                         {{ .Content | markdownify | emojify}}
