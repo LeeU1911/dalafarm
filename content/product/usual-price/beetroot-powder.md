@@ -4,6 +4,8 @@ publishdate = "2017-06-01T00:00:00+07:00"
 description = """
 Bột Củ Dền (dùng liền) đóng gói zip 50 gram
 
+* Hạ huyết áp, cải thiện sức khoẻ tim mạch
+* Thúc đẩy giảm cân
 * Cung cấp năng lượng cần thiết cho cơ thể
 * Bổ sung vitamin C, vitamin A, vitamin B9, sắt, kali, magiê, axit folic, betaine, kẽm, phốt pho
 * 100% từ Củ Dền tươi tự nhiên an toàn, không hóa chất, không hương liệu
