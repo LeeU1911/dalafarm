@@ -71,7 +71,7 @@ Khoai lang có ít chất béo, chứa nhiều vitamin, các nguyên tố vi lư
 
 {{< img src="/img/blog/đái-tháo-đường.jpg" title="Tác dụng điều hòa đường huyết của khoai lang tím" >}}
 
-{{< img src="/img/blog/đai-thao-đuong2.jpg" title="Bột khoai lang tím DalaFarm" >}}
+{{< img src="/img/blog/dai-thao-duong2.jpg" title="Bột khoai lang tím DalaFarm" >}}
 
 ***Lời khuyên để bảo vệ sức khỏe khi ăn khoai lang tím***
 
