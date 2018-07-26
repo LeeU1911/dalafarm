@@ -69,6 +69,9 @@ Với hàm lượng Folate cao, củ dền giúp tối ưu hóa các hoạt đ�
 
 {{< img src="/img/blog/h2.jpg" title="tác dụng chống lão hóa" >}}
 
+Tuy có nhiều giá trị dinh dưỡng cao như vậy, việc đảm bảo chọn lựa củ dền tươi ngon, sạch, không có hoá chất độc hại cũng rất quan trọng, đó là lý do tại sao [DalaFarm trồng và kiểm soát nguồn nguyên liệu củ dền tươi](/blog/2017/04/30/chat-luong-bot-cu-den-dalafarm/) nhằm đảm bảo chất lương [bột củ dền DalaFarm](/san-pham/bot-cu-den-50g/) luôn hoàn hảo khi tới tay người tiêu dùng.
+
+
 
 
 
