@@ -20,6 +20,8 @@ Nước sau khi pha có thể dùng liền hoặc để tủ lạnh trong 5 - 10
 Bột rau củ DalaFarm lấy tiêu chí giữ nguyên độ lợn cợn của rau củ để bổ sung thêm lượng chất xơ không hoà tan cho người sử dụng, 
 tương tự như việc bạn ăn rau củ tươi để có chất xơ giúp tiêu hóa tốt và đào thải những chất xấu trong đường ruột ra khỏi cơ thể.
 
+{{< img src="/img/hdsd.png" title="Hướng Dẫn Sử Dụng Bột Rau Củ DalaFarm" >}}
+
 # Công dụng của bột rau củ DalaFarm là gì? 
 Bột rau củ DalaFarm nguồn gốc 100% rau củ tự nhiên, nên công dụng của từng loại bột sẽ chính là công dụng của loại rau củ đó. Ví dụ:  
 
