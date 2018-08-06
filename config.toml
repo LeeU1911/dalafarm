@@ -103,7 +103,7 @@ contact = "Liên hệ"
 
 # Hero section
 [Languages.vi.params.hero]
-title = "Bổ sung chất xơ tiện lợi gấp từ 4 lần rau củ tươi*"
+title = "Bổ sung chất xơ tiện lợi gấp từ 5 lần rau củ tươi*"
 subtitle = "Bột rau xanh nguyên chất"
 buttonText = "Tìm hiểu"
 buttonPath = "/san-pham/"
