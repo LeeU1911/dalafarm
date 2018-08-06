@@ -123,6 +123,29 @@ enable = true
 title = "Phản hồi"
 subtitle = "Xem khách hàng của DalaFarm nói gì về sản phẩm nhé"
 path = "phan-hoi"
+    [[Languages.vi.params.review.reviews]]
+      img = "yen-nguyen.jpg"
+      name = "Yến Nguyễn"
+      position = "Software engineer at DXC Vietnam"
+      content = "Mình đã dùng sản phẩm pha chung bột cho bé ăn, bé rất thích và dạ dày bé có vẻ dễ tiêu hóa hơn. Cảm ơn shop."
+
+    [[Languages.vi.params.review.reviews]]
+      img = "tai-phan.jpg"
+      name = "Tài Phan"
+      position = "Senior Head teacher at outerspace language school"
+      content = "Tôi đã và đang sử dụng sản phẩm của DalaFarm. Nếu bạn đang cảm thấy ăn rau là môt nỗi cực hình thì bạn sẽ quên nó ngay khi sử dụng DalaFarm."
+
+    [[Languages.vi.params.review.reviews]]
+      img = "uyen-to.jpg"
+      name = "Tố Uyên"
+      position = "Ho Chi Minh City, Vietnam"
+      content = "Bột rau diếp cá này xài siêu thích. Dễ uống, không nặng mùi như rau, pha với nước thêm xíu đường thêm ít đá là toẹt vời luôn ý."
+
+    [[Languages.vi.params.review.reviews]]
+      img = "nguyen-thu-thao.jpg"
+      name = "Nguyễn Thu Thảo"
+      position = "Ho Chi Minh City, Vietnam"
+      content = "Mình thử cho con gái 5 tuổi uống xem nó nhận xét thế nào mà uống vô một vài ngụm là nó phát biểu luôn \"Cái này là sinh tố bông cải phải không mẹ?\" Hihi..."
 
 # About section
 [Languages.vi.params.about]
