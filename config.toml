@@ -114,7 +114,7 @@ nextButtonText = "TIẾP"
 [Languages.vi.params.product]
 enable = true
 title = "Sản phẩm"
-subtitle = "Danh mục sản phẩm của DalaFarm"
+subtitle = ""
 path = "san-pham"
 
 # Review section
