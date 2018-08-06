@@ -23,7 +23,6 @@ url = "/san-pham/bot-cu-den-50g"
 aliases = ["/san-pham/bột-củ-dền-50g"]
 weight = 3
 popular_product = true
-discounted_percent = "HÀNG MỚI VỀ"
 key = "beetroot"
 +++
 
