@@ -31,7 +31,11 @@
             <div class="row" id="order-content">
                 <div class="col-md-12">
                     <div class="panel panel-default">
-                        <div class="panel-heading">Thông tin người mua</div>
+                        <div class="panel-heading clearfix">
+                            <h4 class="panel-title pull-left" style="padding-top: 7.5px;vertical-align: center">Thông tin người mua</h4>
+                            <div class="btn-group pull-right">
+                                <button id="editDelivery" name="edit" class="btn btn-xxl btn-default btn-block">Sửa</button>
+                            </div></div>
                         <div class="panel-body">
                             <p data-bind="text: name"></p>
                             <p data-bind="text: phone1"></p>
@@ -137,9 +141,9 @@
             $('#purchaseBtn').button('loading');
             saveToDb(bill);
         });
-        $('#edit').on('click', function (e) {
+        $('#editDelivery').on('click', function (e) {
             e.preventDefault();
-            window.location = "/order";
+            window.location = "/shipping";
         });
 
         function saveToDb(bill) {
