@@ -46,7 +46,7 @@ cần thiết cho cơ thể, dụng đào
 thải độc tố, ngăn ngừa hiệu quả 
 một số dạng ung thư. 
 
-### Giá trị dinh dưỡng
+### Giá trị dinh dưỡng trong 100 gram bột củ dền DalaFarm
 
 
 Chất | | Giá trị 
