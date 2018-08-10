@@ -145,6 +145,10 @@
             e.preventDefault();
             window.location = "/shipping";
         });
+        $('#edit').on('click', function (e) {
+            e.preventDefault();
+            window.location = "/order";
+        });
 
         function saveToDb(bill) {
             var billFormUI = ko.toJS(viewModel);
