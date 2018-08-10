@@ -33,11 +33,11 @@ tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩ
 sản xuất bằng công nghệ sấy độc quyền SEFD và được cấp chứng nhận 
 VSATTP Việt Nam.
 
-### Thành phần: 
+### Thành phần
 100% Củ Dền
 Không hóa chất, không hương liệu
 
-### Công dụng: 
+### Công dụng
 Củ dền chứa rất nhiều vitamin C, 
 vitamin A, vitamin B9, sắt, kali, 
 magiê, axit folic, betaine, kẽm, 
@@ -46,7 +46,19 @@ cần thiết cho cơ thể, dụng đào
 thải độc tố, ngăn ngừa hiệu quả 
 một số dạng ung thư. 
 
-### Hướng dẫn sử dụng:  
+### Giá trị dinh dưỡng
+
+
+Chất | | Giá trị 
+--- | --- | --- 
+Energy | | 173kcal 
+Dietary fiber | | 14.4g 
+Iron | | 3.22mg 
+Vitamin C | | 19.7mg 
+Vitamin A | |  79.6mcg
+
+
+### Hướng dẫn sử dụng
 Dùng làm thức uống hàng ngày, 
 bột dinh dưỡng cho em bé, làm 
 nguyên liệu nấu súp, cháo, làm 
