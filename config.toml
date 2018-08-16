@@ -240,7 +240,7 @@ title = "Liên hệ với DalaFarm"
 # Footer section
 [Languages.vi.params.footer]
 enable = true
-copyright = "Bản quyền thuộc DalaFarm (C) 2017"
+copyright = "Bản quyền thuộc DalaFarm (C) 2017 - 2018"
 info = """##### DALAFARM - CÔNG TY TNHH SXTM CHUÔNG XANH
 
 <i class="fa fa-building-o"></i> 317 Lô D, CC Lạc Long Quân, Phường 5, Quận 11, TP.HCM <i class="fa fa-phone"></i> [0906 951 498](tel:0906 951 498)
@@ -496,7 +496,7 @@ title = "Contact Us"
 # Footer section
 [Languages.en.params.footer]
 enable = true
-copyright = "Copyright DalaFarm (C) 2017"
+copyright = "Copyright DalaFarm (C) 2017 - 2018"
 info = """##### DALAFARM - CHUÔNG XANH PRODUCING AND TRADING CO. LTD.
 
 <i class="fa fa-building-o"></i> 317 block D, Lac Long Quan apartment, Ward 5, District 11, HCMC, Vietnam
