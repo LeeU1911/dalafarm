@@ -1,3 +1,4 @@
+{{ if and (isset .Params "key") (not (hasPrefix .Params.key "5g")) }}
 <div class="col-xs-4 col-md-3 box-item product-box flex-column" itemprop="itemListElement" itemscope itemtype="http://schema.org/Product">
     {{ if isset .Params "popular_product" }}<div class="close-ribbon"><i class="fa fa-heart" aria-hidden="true"></i></div>{{ end }}
     {{ partial "product-img.html" . }}
@@ -42,3 +43,4 @@
         </div>
     </div>
 </div>
+{{ end }}
