@@ -46,7 +46,7 @@
                                 {{ $lengthOfKey := len $strKey }}
                                 {{ $start := sub $lengthOfKey 2 }}
                                 {{ $end := $lengthOfKey }}
-                                {{ if not (eq (substr $strKey $start $end) "5g") }}
+                                {{ if eq (substr $strKey $start $end) "5g" }}
                                 <div class="col-xs-4 col-md-3 box-item product-box flex-column" style="margin-bottom: 1em;">
                                     {{ if isset .Params "popular_product" }}<div class="close-ribbon"><i class="fa fa-heart" aria-hidden="true"></i></div>{{ end }}
                                     {{ partial "product-img.html" . }}
@@ -181,6 +181,13 @@
                 lotusAmt: ko.observable((bill && bill.products && bill.products.lotusAmt) || "0"),
                 spinachAmt: ko.observable((bill && bill.products && bill.products.spinachAmt) || "0"),
                 purpleswpotatoAmt: ko.observable((bill && bill.products && bill.products.purpleswpotatoAmt) || "0"),
+                carrot5gAmt: ko.observable((bill && bill.products && bill.products.carrotAmt) || "0"),
+                pumpkin5gAmt: ko.observable((bill && bill.products && bill.products.pumpkinAmt) || "0"),
+                broccoli5gAmt: ko.observable((bill && bill.products && bill.products.broccoliAmt) || "0"),
+                mushroom5gAmt: ko.observable((bill && bill.products && bill.products.mushroomAmt) || "0"),
+                lotus5gAmt: ko.observable((bill && bill.products && bill.products.lotusAmt) || "0"),
+                spinach5gAmt: ko.observable((bill && bill.products && bill.products.spinachAmt) || "0"),
+                purpleswpotato5gAmt: ko.observable((bill && bill.products && bill.products.purpleswpotatoAmt) || "0"),
                 garlicoilAmt: ko.observable((bill && bill.products && bill.products.garlicoilAmt) || "0"),
                 dalababyAmt: ko.observable((bill && bill.products && bill.products.dalababyAmt) || "0")/*,
                 garlicwineAmt: ko.observable((bill && bill.products && bill.products.garlicwineAmt) || "0"),

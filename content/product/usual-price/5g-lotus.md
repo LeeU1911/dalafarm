@@ -10,7 +10,7 @@ thumbnail = "lotusseeds-1"
 thumbnailX = 84.16
 title = "Bột Hạt Sen (5g)"
 weight = 1
-key = "5glotus"
+key = "lotus5g"
 aliases = ["/san-pham/bot-sen-5g","/san-pham/bot-hat-sen-5g"]
 +++
 

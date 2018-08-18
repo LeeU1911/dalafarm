@@ -19,7 +19,7 @@ title = "Bột Cà Rốt (5g)"
 url = "/san-pham/bot-ca-rot-5g"
 aliases = ["/san-pham/bột-cà-rốt-5g","/san-pham/Bột-cà-rốt-5g"]
 weight = 1
-key = "5gcarrot"
+key = "carrot5g"
 +++
 
 # Bột Cà Rốt DalaFarm (dùng liền) 
