@@ -23,7 +23,7 @@
         </div>
         <div class="row alert alert-info">
             <p class="order-page-content">
-            {{ .Content }}
+            {{ .Content | markdownify }}
             </p>
         </div>
         <div class="row">
@@ -46,7 +46,7 @@
                                 {{ $lengthOfKey := len $strKey }}
                                 {{ $start := sub $lengthOfKey 2 }}
                                 {{ $end := $lengthOfKey }}
-                                {{ if eq (substr $strKey $start $end) "5g" }}
+                                {{ if or (eq (substr $strKey $start $end) "5g") (eq $strKey "carrot") (eq $strKey "pumpkin") (eq $strKey "purpleswpotato") (eq $strKey "pennywort")  }}
                                 <div class="col-xs-4 col-md-3 box-item product-box flex-column" style="margin-bottom: 1em;">
                                     {{ if isset .Params "popular_product" }}<div class="close-ribbon"><i class="fa fa-heart" aria-hidden="true"></i></div>{{ end }}
                                     {{ partial "product-img.html" . }}
@@ -89,7 +89,7 @@
                                                      <span class="glyphicon glyphicon-minus"></span>
                                                  </button>
                                             </span>
-                                        <input data-bind="value: products.{{.Params.key}}Amt" type="text" name="quant[1]-{{.Params.key}}" class="form-control input-lg input-number add-to-cart-btn" value="0" min="0" max="10">
+                                        <input data-bind="value: products.{{.Params.key}}Amt" type="text" name="quant[1]-{{.Params.key}}" class="form-control input-lg input-number add-to-cart-btn" value="0" min="0" max="100">
                                         <span class="input-group-btn">
                                                 <button type="button" class="btn btn-default btn-lg btn-number add-to-cart-btn"
                                                         onclick="dataLayer.push({'sku': '{{ .Params.key }}', 'value': 1})"
@@ -228,7 +228,7 @@
                 return;
             }
             saveToSession(bill);
-            window.location = "/shipping";
+            window.location = "/promo-shipping";
         });
 
         function storeProductPrice(bill){
