@@ -145,7 +145,7 @@
     });
 
     $(function() {
-        var bill = JSON.parse(sessionStorage.getItem('order')) || undefined;
+        var bill = JSON.parse(sessionStorage.getItem('promo-order')) || undefined;
 
         var viewModel = {
             id: ko.observable((bill && bill.id) || ""),
@@ -244,7 +244,7 @@
         }
 
         function saveToSession(bill) {
-            sessionStorage.setItem("order", JSON.stringify(bill));
+            sessionStorage.setItem("promo-order", JSON.stringify(bill));
         }
 
         $('.btn-number').click(function(e){

@@ -75,7 +75,7 @@
 <script>
     $(function () {
 
-        var bill = applyPromotion(JSON.parse(sessionStorage.getItem('order')));
+        var bill = applyPromotion(JSON.parse(sessionStorage.getItem('promo-order')));
 
         function ViewModel() {
             this.id = bill.id;
@@ -296,14 +296,14 @@
                 data: payload,
                 success: function (res) {
                     console.log(res);
-                    localStorage.setItem('order-' + order.id, JSON.stringify(order));
-                    sessionStorage.removeItem('order');
+                    localStorage.setItem('promo-order-' + order.id, JSON.stringify(order));
+                    sessionStorage.removeItem('promo-order');
                     window.location = "/thank-you";
                 },
                 error: function (error) {
                     console.log(error);
                     order.error = error;
-                    localStorage.setItem('order-' + order.id, JSON.stringify(order));
+                    localStorage.setItem('promo-order-' + order.id, JSON.stringify(order));
                     window.location = "/order-error";
                 },
                 dataType: "json"
@@ -337,14 +337,14 @@
                 data: payload,
                 success: function (res) {
                     console.log(res);
-                    localStorage.setItem('order-' + order.id, JSON.stringify(order));
-                    sessionStorage.removeItem('order');
+                    localStorage.setItem('promo-order-' + order.id, JSON.stringify(order));
+                    sessionStorage.removeItem('promo-order');
                     window.location = "/thank-you";
                 },
                 error: function (error) {
                     console.log(error);
                     order.error = error;
-                    localStorage.setItem('order-' + order.id, JSON.stringify(order));
+                    localStorage.setItem('promo-order-' + order.id, JSON.stringify(order));
                     window.location = "/order-error";
                 },
                 dataType: "json"

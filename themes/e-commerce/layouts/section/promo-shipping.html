@@ -216,7 +216,7 @@
             }
         };
 
-        var bill = JSON.parse(sessionStorage.getItem('order')) || emptyBill;
+        var bill = JSON.parse(sessionStorage.getItem('promo-order')) || emptyBill;
 
         // Custom validation for phone number
         ko.validation.rules['phoneVN'] = {
@@ -422,7 +422,7 @@
         });
 
         function saveToSession(bill) {
-            sessionStorage.setItem("order", JSON.stringify(bill));
+            sessionStorage.setItem("promo-order", JSON.stringify(bill));
         }
 
         function verifyPromoCode(promoCode) {
