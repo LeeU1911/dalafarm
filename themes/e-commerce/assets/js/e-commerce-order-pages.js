@@ -312,6 +312,20 @@ function humanizeProductName(productKey) {
                 return "Bột detox vàng Star Powder 100g";
             case "combodetox":
                 return "Combo Bộ 3 Detox Thải Độc Toàn Diện (300g)";
+            case "carrot5g":
+                return "Bột cà rốt 5g";
+            case "pumpkin5g":
+                return "Bột bí đỏ 5g";
+            case "broccoli5g":
+                return "Bột súp lơ xanh 5g";
+            case "mushroom5g":
+                return "Bột nấm bào ngư xám 5g";
+            case "lotus5g":
+                return "Bột hạt sen 5g";
+            case "spinach5g":
+                return "Bột rau bó xôi 5g";
+            case "purpleswpotato5g":
+                return "Bột khoai lang tím 5g";
             default:
                 return productKey;
         }
