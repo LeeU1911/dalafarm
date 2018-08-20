@@ -8,7 +8,7 @@ url = "promo-order"
 
 #### **Hoà chung niềm vui của cả dân tộc DalaFarm vinh dự tổ chức chương trình ưu đãi hấp dẫn**
 
-:tada: NIỀM VUI LỚN: Mua combo tự chọn trong 7 vị bột rau củ được quà tặng hấp dẫn. Quý khách sẽ có nhiều lựa chọn về sản phẩm rau củ trong túi nhỏ 5 gram tiện lợi giá chỉ **#14k** dùng 1 lần bổ sung chất xơ hơn 5 lần rau củ tươi*.
+:tada: NIỀM VUI LỚN: Mua combo tự chọn trong 7 vị bột rau củ (khoai lang tím, bỉ đỏ, súp lơ xanh, cà rốt, hạt sen, nấm, cải bó xôi) được quà tặng hấp dẫn. Quý khách sẽ có nhiều lựa chọn về sản phẩm rau củ trong túi nhỏ 5 gram tiện lợi giá chỉ **#14k** dùng 1 lần bổ sung chất xơ hơn 5 lần rau củ tươi*.
 
 **Đặc biệt:**
 
