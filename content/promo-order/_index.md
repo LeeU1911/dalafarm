@@ -4,6 +4,8 @@ date = "2018-08-18T15:00:24+08:00"
 url = "promo-order"
 +++
 
+{{< img src="/img/banner.jpg" title="" >}}
+
 ### :hotsprings: Mừng NGÀY QUỐC KHÁNH VIỆT NAM 02/09 🇻🇳 
 
 #### **Hoà chung niềm vui của cả dân tộc DalaFarm vinh dự tổ chức chương trình ưu đãi hấp dẫn**
