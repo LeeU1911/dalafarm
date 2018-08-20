@@ -10,11 +10,11 @@ Bột Cà Rốt (dùng liền) đóng gói giấy 5 gram
 * Dạng bột hoà tan dùng liền tiện lợi
 """
 price = "14,000"
-img = ["carrot-1.jpg","carrot-2.jpg"]
+img = ["goi_5g_rot.jpg"]
 product_line = ""
 tags = ["carrot"]
-thumbnail = "carrot-1"
-thumbnailX = 36.82
+thumbnail = "goi_5g_rot"
+thumbnailX = 89.42
 title = "Bột Cà Rốt (5g)"
 url = "/san-pham/bot-ca-rot-5g"
 aliases = ["/san-pham/bột-cà-rốt-5g","/san-pham/Bột-cà-rốt-5g"]

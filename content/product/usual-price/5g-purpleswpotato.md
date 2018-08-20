@@ -12,11 +12,11 @@ Bột Khoai Lang Tím (dùng liền) đóng gói giấy 5 gram
 
 """
 price = "14,000"
-img = ["purple-sweet-potato-1.jpg","purple-sweet-potato-2.jpg"]
+img = ["goi_5g_klt.jpg"]
 product_line = ""
 tags = ["purple-sweet-potato"]
-thumbnail = "purple-sweet-potato-1"
-thumbnailX = 5.26
+thumbnail = "goi_5g_klt"
+thumbnailX = 73.64
 title = "Bột Khoai Lang Tím (5g)"
 weight = 1
 aliases = ["/san-pham/bot-khoai-lang-tim-5g","/san-pham/bot-khoai-lang-5g"]

@@ -11,11 +11,11 @@ Bột Rau Bó Xôi (dùng liền) đóng gói giấy 5 gram
 * Dạng bột hoà tan dùng liền tiện lợi
 """
 price = "14,000"
-img = ["spinach-1.jpg","spinach-2.jpg"]
+img = ["goi_5g_klt.jpg"]
 product_line = ""
 tags = ["spinach"]
-thumbnail = "spinach-1"
-thumbnailX = 15.78
+thumbnail = "goi_5g_xoi"
+thumbnailX = 100
 title = "Bột Rau Bó Xôi (5g)"
 weight = 1
 aliases = ["/san-pham/bot-rau-bo-xoi-5g","/san-pham/bot-cai-bo-xoi-5g"]
