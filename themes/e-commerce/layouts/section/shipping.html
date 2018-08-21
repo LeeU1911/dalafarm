@@ -426,7 +426,7 @@
         }
 
         function verifyPromoCode(promoCode) {
-            if (promoCode === 'MN30OFF') {
+            if (promoCode.toUpperCase() === 'MN30OFF') {
                 alert({{ with .Site.Params.params.discount_code_success_alert }}{{ . }}{{ end }} + '30%');
                 return 30;
             } else if (promoCode.toUpperCase() === 'FB15TY') {
