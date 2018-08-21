@@ -2,16 +2,16 @@
 date = "2017-06-28T23:12:45+08:00"
 description = "Hộp bột rau củ gồm 7 loại cho bé yêu ăn dặm DalaBaby 70 gram"
 price = "199,000"
-img = ["dalababy-1.jpg","dalababy-2.jpg","dalababy-3.jpg","dalababy-4.jpg","dalababy-5.jpg"]
+img = ["2-9promo-7vi.jpg","2-9promo-7vi-2.jpg"]
 product_line = ""
 tags = ["dalababy-powder"]
 thumbnail = "dalababy-6"
 thumbnailX = 0
-title = "Bột rau củ 7 vị DalaBaby (70g)"
+title = "Combo bột rau củ 7 vị 14 gói 5 gram (70g)"
 weight = 2
 popular_product = true
+key = "dalababy"
 aliases = ["/san-pham/bot-rau-cu-dalababy-70g/","/san-pham/dalababy","/san-pham/bot-rau-cu"]
-discounted_percent = "Tạm Hết"
 +++
 
 # Bột rau củ 7 vị DalaBaby từ DalaFarm
@@ -48,7 +48,7 @@ có đủ chất xơ và vitamin cho bé yêu của bạn.
 
 Bột gồm 14 gói (7 gói x 7 vị x 2 gói/ vị)
 
-Bột Dalafarm giúp bé thay đổi mùi vị và cung cấp đầy đủ các loại vitamins từ rau củ quả.
+Bột DalaFarm giúp bé thay đổi mùi vị và cung cấp đầy đủ các loại vitamins từ rau củ quả.
 
 ### Công dụng
 
