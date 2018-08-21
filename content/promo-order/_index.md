@@ -27,3 +27,11 @@ url = "promo-order"
 Thời gian khuyến mãi :clock9: **từ 20 / 08 đến 02 / 09** :clock9: số lượng sản phẩm và thời gian khuyến mãi đều có hạn nên MUA càng NHANH, ƯU ĐÃI càng LỚN nè!
 
 _(*) Bột rau củ DalaFarm bổ sung chất xơ tiện lợi cho cơ thể hơn 5 lần lượng rau củ tươi cùng trọng lượng._
+
+### Hướng Dẫn Sử Dụng
+
+{{< img src="/img/hdsd.png" title="Hướng Dẫn Sử Dụng Bột Rau Củ DalaFarm" >}}
+
+## 20 gram bột rau củ chứa lượng chất xơ tương đương 1 chén rau luộc
+
+{{< img src="/img/20gram_equal_100_veggie.jpg" title="" >}}
