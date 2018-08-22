@@ -9,7 +9,7 @@ tags = ["Lotusseeds"]
 thumbnail = "goi_5g_sen.jpg"
 thumbnailX = 94.68
 title = "Bột Hạt Sen (5g)"
-weight = 1
+weight = 2
 key = "lotus5g"
 aliases = ["/san-pham/bot-sen-5g","/san-pham/bot-hat-sen-5g"]
 +++

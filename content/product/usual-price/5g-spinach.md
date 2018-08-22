@@ -17,7 +17,7 @@ tags = ["spinach"]
 thumbnail = "goi_5g_xoi"
 thumbnailX = 100
 title = "Bột Rau Bó Xôi (5g)"
-weight = 1
+weight = 2
 aliases = ["/san-pham/bot-rau-bo-xoi-5g","/san-pham/bot-cai-bo-xoi-5g"]
 key = "spinach5g"
 +++

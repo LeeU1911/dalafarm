@@ -11,7 +11,7 @@ thumbnailX = 31.56
 title = "Bột Bí Đỏ (5g)"
 url = "/san-pham/bot-bi-do-5g"
 aliases = ["/san-pham/bột-bí-đỏ-5g","/san-pham/Bột-bí-đỏ-5g"]
-weight = 1
+weight = 2
 key = "pumpkin5g"
 +++
 

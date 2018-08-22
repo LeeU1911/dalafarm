@@ -9,7 +9,7 @@ tags = ["mushrooms"]
 thumbnail = "goi_5g_nam"
 thumbnailX = 84.16
 title = "Bột Nấm (5g)"
-weight = 1
+weight = 2
 aliases = ["/san-pham/bot-nam-5g","/san-pham/bot-nam-bao-ngu-5g"]
 key = "mushroom5g"
 +++

@@ -18,7 +18,7 @@ thumbnailX = 89.42
 title = "Bột Cà Rốt (5g)"
 url = "/san-pham/bot-ca-rot-5g"
 aliases = ["/san-pham/bột-cà-rốt-5g","/san-pham/Bột-cà-rốt-5g"]
-weight = 1
+weight = 2
 key = "carrot5g"
 +++
 
