@@ -20,7 +20,7 @@
         <a class="navbar-brand page-scroll" href="{{ .Site.BaseURL | relLangURL }}">
             {{ with .Site.Params.params.navigation.brand }}{{ . }}{{ end }}
         </a>
-      {{ if or (eq .RelPermalink "/order/") (eq .RelPermalink "/shipping/") (eq .RelPermalink "/confirm/") }}
+      {{ if or (eq .RelPermalink "/order/") (eq .RelPermalink "/shipping/") (eq .RelPermalink "/confirm/") (eq .RelPermalink "/promo-order/") (eq .RelPermalink "/promo-shipping/") (eq .RelPermalink "/promo-confirm/") }}
 
       {{ else }}
       <a class="navbar-toggle cta-on-nav" href="{{ "/order" | absLangURL }}" >{{ with .Site.Params.params.hero.orderButtonText }}{{ . }}{{ end }}
