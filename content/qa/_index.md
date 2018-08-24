@@ -61,8 +61,7 @@ Ngoài ra, bột rau củ DalaFarm được sấy bởi công nghệ độc quy�
   
 Theo khuyến cáo của tổ chức WHO, chế độ rau củ quả tươi của 1 người trong 1 ngày là khoảng 400 - 500 gram.
 
-Mỗi 3 - 5 gram bột rau củ DalaFarm sẽ tương đương với 80 - 100 gram rau tươi. Nên chỉ cần sử dụng khoảng 20 - 35 gram bột rau củ DalaFarm 
-mỗi ngày là sẽ yên tâm có đủ chất xơ và vitamin cho cơ thể.
+Mỗi 15 - 20 gram bột rau củ DalaFarm chứa lượng chất xơ tương đương với 80 - 100 gram rau tươi.
  
 # Công nghệ sấy của DalaFarm là gì?
 

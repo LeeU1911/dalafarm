@@ -71,7 +71,7 @@ có thể gây ra bệnh còi xương và làm cho hệ thống miễn dịch c�
 
 * Dùng với cháo: Cháo nấu chín, múc cháo 
 ra chén, lấy 3 - 5 gram bột tức khoảng 
-1-2 thìa bột(tương đương 80-100 gram 
+1-2 thìa bột(15 - 20 gram bột rau củ DalaFarm chứa lượng chất xơ tương đương 80-100 gram 
 rau tươi). Bỏ trực tiếp vào cháo khuấy đều 
 là bé có thể dùng được. 
 
