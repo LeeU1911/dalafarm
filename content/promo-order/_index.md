@@ -14,6 +14,8 @@ url = "promo-order"
 
 **Đặc biệt:**
 
+* **Đơn hàng từ 250k**: FREE SHIP
+
 * **Đơn hàng từ 599k**: được tặng **1 kính mát thời trang** trị giá **190**k (chọn 1 trong 2 mẫu dành cho nam và nữ)
 
 * **Đơn hàng từ 1099k**: được tặng **1 balo mẹ và bé Beauty Mommy KEMOVI cỡ nhỏ** trị giá **420k** 
