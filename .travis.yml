@@ -13,7 +13,6 @@ script:
   - hugo version
   - gulp
   - hugo
-  - gulp minify-html
   - ls public
 before_deploy: pip install --user s3cmd
 deploy:
