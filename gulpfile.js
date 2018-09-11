@@ -8,11 +8,11 @@ var cssMin = require('gulp-minify-css');
 var gzip = require('gulp-gzip');
 var htmlmin = require('gulp-htmlmin');
 
-gulp.task('minify-html', function() {
-    return gulp.src('public/**/*.html')
-        .pipe(htmlmin({collapseWhitespace: true}))
-        .pipe(gulp.dest('public'));
-});
+// gulp.task('minify-html', function() {
+//     return gulp.src('public/**/*.html')
+//         .pipe(htmlmin({collapseWhitespace: true}))
+//         .pipe(gulp.dest('public'));
+// });
 
 //script paths
 var jsFiles = ['themes/e-commerce/assets/js/e-commerce.js','themes/e-commerce/assets/js/e-commerce-all-pages.js'],
