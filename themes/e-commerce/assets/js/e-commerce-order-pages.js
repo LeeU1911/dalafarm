@@ -75,7 +75,7 @@ function getProductsArrayFromBill(b) {
         if (keyAmt.substr(keyAmt.length - 3, keyAmt.length) == "Amt") {
             var sku = keyAmt.substr(0, keyAmt.length - 3);
             var price = products[sku + "Price"];
-            return {name: sku, amount: val, price: price, subtotal: val * price};
+            return {name: sku, amount: val, price: price, subtotal: val * price || 0};
         }
     });
 }
