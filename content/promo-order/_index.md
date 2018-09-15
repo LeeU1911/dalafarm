@@ -26,7 +26,7 @@ url = "promo-order"
 
 🌡️CƠ HỘI HIẾM CÓ KHÓ CHỜ, CHỈ DUY NHẤT 1 LẦN TRONG NĂM🌡️
 
-Thời gian khuyến mãi :clock9: **từ 20 / 08 đến 20 / 09** :clock9: số lượng sản phẩm và thời gian khuyến mãi đều có hạn nên MUA càng NHANH, ƯU ĐÃI càng LỚN nè!
+Thời gian khuyến mãi :clock9: **từ 20 / 08 đến 15 / 09** :clock9: số lượng sản phẩm và thời gian khuyến mãi đều có hạn nên MUA càng NHANH, ƯU ĐÃI càng LỚN nè!
 
 _(*) Bột rau củ DalaFarm bổ sung chất xơ tiện lợi cho cơ thể hơn 5 lần lượng rau củ tươi cùng trọng lượng._
 
