@@ -5,7 +5,7 @@ url = "promo-order"
 +++
 ### GỘP 2 HOÁ ĐƠN NHẬN NGAY BALO KEMOVI
 
-Từ 16-09 đến 30-19, quý khách hàng DalaFarm gộp **2 hoá đơn** với tổng **số tiền > 1199k** sẽ nhận ngay **1 BALO MẸ VÀ BÉ SIÊU TIỆN DỤNG KEMOVI** siêu tiện dụng!
+Từ 16-09 đến 30-19, quý khách hàng DalaFarm gộp **2 hoá đơn** với tổng **số tiền > 1199k** sẽ nhận ngay **1 BALO MẸ VÀ BÉ SIÊU TIỆN DỤNG KEMOVI** siêu tiện dụng trị giá 420k!
 
 {{< img src="/img/Balo-da-nang-beauty-mommy-5_720x.jpg" title="BALO MẸ VÀ BÉ KEMOVI" >}}
 
