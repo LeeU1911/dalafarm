@@ -3,30 +3,23 @@ title = "Đặt hàng"
 date = "2018-08-18T15:00:24+08:00"
 url = "promo-order"
 +++
+### GỘP 2 HOÁ ĐƠN NHẬN NGAY BALO KEMOVI
 
-{{< img src="/img/banner.jpg" title="" >}}
+Từ 16-09 đến 30-19, quý khách hàng DalaFarm gộp **2 hoá đơn** với tổng **số tiền > 1199k** sẽ nhận ngay **1 BALO MẸ VÀ BÉ SIÊU TIỆN DỤNG KEMOVI** siêu tiện dụng!
 
-### :hotsprings: Mừng NGÀY QUỐC KHÁNH VIỆT NAM 02/09 🇻🇳 
+{{< img src="/img/Balo-da-nang-beauty-mommy-5_720x.jpg" title="BALO MẸ VÀ BÉ KEMOVI" >}}
 
-#### **Hoà chung niềm vui của cả dân tộc DalaFarm vinh dự tổ chức chương trình ưu đãi hấp dẫn**
+{{< img src="/img/balo_kemovi_trong.jpg" title="Ngăn đựng giữ nhiệt" >}}
 
-:tada: NIỀM VUI LỚN: Mua combo tự chọn trong 7 vị bột rau củ (khoai lang tím, bỉ đỏ, súp lơ xanh, cà rốt, hạt sen, nấm, cải bó xôi) được quà tặng hấp dẫn. Quý khách sẽ có nhiều lựa chọn về sản phẩm rau củ trong túi nhỏ 5 gram tiện lợi giá chỉ **#14k** dùng 1 lần bổ sung chất xơ hơn 5 lần rau củ tươi*.
+Lưu ý: 
 
-**Đặc biệt:**
+* Không áp dụng với các hoá đơn đã nhận các chương trình khuyến mãi khác. 
 
-* **Đơn hàng từ 250k**: FREE SHIP
+* 2 hoá đơn cách nhau **không quá 15 ngày**. 
 
-* **Đơn hàng từ 599k**: được tặng **1 kính mát thời trang** trị giá **190**k (chọn 1 trong 2 mẫu dành cho nam và nữ)
+* Áp dụng cho **mọi hoá đơn trong tháng 9**.
 
-* **Đơn hàng từ 1099k**: được tặng **1 balo mẹ và bé Beauty Mommy KEMOVI cỡ nhỏ** trị giá **420k** 
-
-* **Đơn hàng từ 1599k**: được tặng **1 balo mẹ và bé Extra Beauty Mommy KEMOVI cỡ lớn + 2 túi rút dây thêu** tiện lợi và thời trang tổng trị giá **590k**
-
-🌡️MUA CÀNG NHIỀU KHUYẾN MÃI CÀNG LỚN🌡️
-
-🌡️CƠ HỘI HIẾM CÓ KHÓ CHỜ, CHỈ DUY NHẤT 1 LẦN TRONG NĂM🌡️
-
-Thời gian khuyến mãi :clock9: **từ 20 / 08 đến 15 / 09** :clock9: số lượng sản phẩm và thời gian khuyến mãi đều có hạn nên MUA càng NHANH, ƯU ĐÃI càng LỚN nè!
+* Khi mua hoá đơn thứ 2, vui lòng inbox trên web/fanpage hoặc gọi số hotline [0906 951 498](tel:0906951498) để xác nhận và nhận quà khuyến mãi.
 
 _(*) Bột rau củ DalaFarm bổ sung chất xơ tiện lợi cho cơ thể hơn 5 lần lượng rau củ tươi cùng trọng lượng._
 
