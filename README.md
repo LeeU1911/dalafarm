@@ -30,16 +30,15 @@ Email: info@dalafarm.vn
 
 ## Install 
 
-You must have ![hugo](https://gohugo.io/getting-started/installing/) and ![gulp](https://github.com/gulpjs/gulp/blob/v3.9.1/docs/getting-started.md) installed.
+You must have [hugo](https://gohugo.io/getting-started/installing/) and [gulp](https://github.com/gulpjs/gulp/blob/v3.9.1/docs/getting-started.md) installed.
 
-
-'''
+```
 git clone git@github.com:LeeU1911/dalafarm.git
 cd dalafarm 
 sudo npm install gulp-concat gulp-rename gulp-uglify gulp-less gulp-minify-css gulp-imagemin gulp-gzip gulp-htmlmin
 gulp
 hugo server
-'''
+```
 
 
 
