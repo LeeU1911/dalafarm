@@ -541,3 +541,258 @@ info = """##### DALAFARM - CHUÔNG XANH PRODUCING AND TRADING CO. LTD.
 [[Languages.en.params.footer.sitemap]]
   text = "DalaFarm Team"
   link = "/team/"
+
+########################################
+#
+## Portuguese
+[Languages.pt]
+title = "DalaFarm"
+weight = 0
+
+[Languages.pt.permalinks]
+product = "/product/:slug"
+
+[[Languages.pt.menu.main]]
+url    = "#"
+name   = "Blog"
+weight = 1
+identifier = "blog"
+[[Languages.pt.menu.main]]
+url    = "/blog"
+name   = "Blog DalaFarm"
+weight = 1
+parent = "blog"
+[[Languages.pt.menu.main]]
+url    = "/dala-kitchen"
+name   = "Cozinha DalaFarm"
+weight = 2
+parent = "blog"
+
+[[Languages.pt.menu.main]]
+url    = "/product"
+name   = "Produtos"
+weight = 2
+
+[[Languages.pt.menu.main]]
+url    = "/qa"
+name   = "FAQ"
+weight = 3
+
+[[Languages.pt.menu.main]]
+url    = "#"
+name   = "Sobre nós"
+weight = 4
+identifier = "about-us"
+[[Languages.pt.menu.main]]
+url    = "/#about-us"
+name   = "Jornada DalaFarm"
+weight = 1
+parent = "about-us"
+[[Languages.pt.menu.main]]
+url    = "/company-profile"
+name   = "Perfil"
+weight = 2
+parent = "about-us"
+[[Languages.pt.menu.main]]
+url    = "/company-docs"
+name   = "Certificados"
+weight = 3
+parent = "about-us"
+[[Languages.pt.menu.main]]
+url    = "/team"
+name   = "Time DalaFarm"
+weight = 4
+parent = "about-us"
+
+
+[[Languages.pt.menu.main]]
+url    = "/#contact"
+name   = "Contato"
+weight = 5
+
+[Languages.pt.params]
+name = "DalaFarm"
+description = """DalaFarm providencia vegetais em pó como morangos, aipos, beterraba, cenoura, heart-leaf, espinafre, tomates, conchelo,
+                 pó de semente de lotus para bebê. DalaFarm também produz vegetais misturados para drink detox, juntamento com oléo de alho.
+                 """
+
+# Link custom assets relative to /static
+custom_css = ["css/nprogress.css"]
+custom_js  = ["js/nprogress.js"]
+favicon    = "favicon.ico"
+#Content footer
+#contentFooter = """
+#---
+#CALL US - [+84906 951 498](tel:+84906 951 498)
+#TO BE CONSULTED AND GET DALAFARM VEGGIE POWDERS WITH BEST PRICE.
+#
+#OFFICE: 317 block D, Lạc Long Quân apartment, Ward 5, District 11, Ho Chi Minh City
+#
+#Phone: [(+8428) 6684 2517](tel:+8428 6684 2517); [(+84258) 3899 189](tel:+84258 3899 189)
+#
+#Partners who would like to know more about company profile, please call us at [+84906 951 498](tel:+84906 951 498) or email: [info@dalafarm.vn](mailto:info@dalafarm.vn)
+#
+#Care about commission programs and promotional campaigns, please call us at [+84906 951 498](tel:+84906 951 498) or email: [sale@dalafarm.vn](mailto:sale@dalafarm.vn)
+#"""
+related_blog_limit = 7
+
+# Navigation
+[Languages.pt.params.navigation]
+brand = "DalaFarm"
+product = "Produtos"
+about = "Sobre nós"
+team = "Time DalaFarm"
+contact = "Contate-nos"
+# Optional logo as brand stored in img/
+#logo = "logo.svg"
+
+# Hero section
+[Languages.pt.params.hero]
+title = "Bom vindo a DalaFarm!"
+subtitle = "Prazer em conhecer"
+buttonText = "Veja os produtos ofertados"
+
+# Products section
+[Languages.pt.params.product]
+enable = true
+title = "Produtos"
+subtitle = "Produtos oferecidos pela Dalafarm"
+path = "product"
+
+# About section
+[Languages.pt.params.about]
+enable = false
+    title = "História da DalaFarm"
+    subtitle = "Como nossa jornada começou."
+    endpoint = "Be part<br> of our <br>story!"
+    path = "sobre nós"
+    [[Languages.pt.params.about.events]]
+      img = "toi-den-duc-ha.png"
+      date = "June 2015"
+      title = "Đức Hà company is established"
+      description = "Ms. Hà fundou a compania Đức Hà para produzir e comercializar temperos baseadas em ervas, mais especificamente, alho preto e produtos baseados em alho"
+
+    [[Languages.pt.params.about.events]]
+      img = "dalahouse.jpg"
+      date = "Feb 2016"
+      title = "Dalahouse nasceu"
+      description = "Ms. Trâm fundou a compania Dalahouse com paixa para fazer pó vegano mais acessivel e conveniente para estilos de vida mais corridos"
+
+    [[Languages.pt.params.about.events]]
+      img = "dalafarm.png"
+      date = "March 2017"
+      title = "Começo da história DalaFarm"
+      description = "Compartilhando da mesma paixão sobre ea alta qualidade dos produtos Vietnameses, Ms. Hà e Ms. Trâm uniram Đức Hà và Dalahouse em uma compania unificada - chamada DalaFarm. Com 2 co-fundadores adicionais - Ms. Thư and Mr. Vũ, nós prometemos entregar produtos de alta qualidade, saúde e segurança para todo o mundo!"
+
+# Team section
+[Languages.pt.params.team]
+enable = true
+center = true
+title = "Time DalaFarm"
+subtitle = ""
+description = "Nós somos pessoas apoixonadas, jovens e dinâmicas com diferentes origens, que compartilham a mesma motivação de levar o melhor do Vietnam para o mundo."
+path = "team"
+    [[Languages.pt.params.team.members]]
+      img = "thu.jpg"
+      name = "Võ Thị Thanh Thư"
+      position = "Co-founder"
+      livesIn = "Hồ Chí Minh, Việt Nam"
+#      bio = "Sale Representative"
+      social = [
+        ["fa-facebook", "https://www.facebook.com/thanh.thuvo.1"]
+      ]
+
+    [[Languages.pt.params.team.members]]
+      img = "vu.jpg"
+      name = "Lê Tấn Vũ"
+      position = "Co-founder"
+      livesIn = "Hồ Chí Minh, Việt Nam"
+#      bio = "Software Engineer"
+      social = [
+        ["fa-facebook", "https://www.facebook.com/LeeU14"]
+      ]
+# Contact section
+[Languages.pt.params.contact]
+enable = true
+title = "Contate-nos"
+    subtitle  = "Deixe uma mensagem e responderemos dentro de um dia."
+    buttonText = "Enviar mensagem"
+    thanks = "Obrigado por nos contactar. Nós responderemos dentro de um dia."
+    error = "A mensagem não foi enviada. Por favor, envie um email para info@dalafarm.vn"
+    email = "info@dalafarm.vn"
+
+# 'warning' defines error messages for invalid inputs
+[Languages.pt.params.contact.form.name]
+  text = "Name *"
+  warning = "Por favor, coloque o seu nome."
+
+[Languages.pt.params.contact.form.email]
+  text = "Email*"
+  warning = "Por favor, coloque o seu número de email."
+
+[Languages.pt.params.contact.form.phone]
+  text = "Telefone *"
+  warning = "Por favor, coloque o seu número de telefone."
+
+[Languages.pt.params.contact.form.message]
+  text = "Menssagem *"
+  warning = "Por favor, coloque a sua mensagem."
+
+# Add optional form fields to identify contact forms
+[[Languages.pt.params.contact.form.hidden]]
+    name = "DalaFarm"
+    value = "dalafarm.vn"
+#
+[[Languages.pt.params.contact.form.hidden]]
+# Special values for name such as "page" and "site" will be autofilled
+    name = "site"
+
+
+# Footer section
+[Languages.pt.params.footer]
+enable = true
+copyright = "Copyright DalaFarm (C) 2017 - 2018"
+info = """##### DALAFARM - CHUÔNG XANH PRODUÇÃO E COMÉRCIO CO. LTD.
+
+<i class="fa fa-building-o"></i> 317 bloco D, Lac Long Quan apartmento, Ala 5, Destrito 11, HCMC, Vietnã
+
+<i class="fa fa-phone"></i> [0906 951 498](tel:0906 951 498)
+
+<i class="fa fa-envelope"></i> [info@dalafarm.vn](mailto:info@dalafarm.vn) | [sale@dalafarm.vn](mailto:sale@dalafarm.vn)
+
+<i class="fa fa-calendar"></i> Segunda - Sábado <i class="fa fa-clock-o"></i> 8:00 - 17:00
+"""
+[[Languages.pt.params.footer.quicklinks]]
+  text = "Termos and Condições"
+  link = "/term-condition"
+[[Languages.pt.params.footer.social]]
+  icon = "fa-facebook"
+  link = "https://www.facebook.com/dalafarm.vn/"
+[[Languages.pt.params.footer.social]]
+  icon = "fa-pinterest"
+  link = "https://www.pinterest.com/dalafarm/"
+[[Languages.pt.params.footer.social]]
+  icon = "fa-instagram"
+  link = "https://www.instagram.com/dalafarm.vn/"
+
+[[Languages.pt.params.footer.sitemap]]
+  text = "Blog DalaFarm"
+  link = "/blog/"
+[[Languages.pt.params.footer.sitemap]]
+  text = "Cozinha DalaFarm"
+  link = "/dala-kitchen/"
+[[Languages.pt.params.footer.sitemap]]
+  text = "Produto"
+  link = "/product/"
+[[Languages.pt.params.footer.sitemap]]
+  text = "FAQ"
+  link = "/qa/"
+[[Languages.pt.params.footer.sitemap]]
+  text = "Perfil DalaFarm "
+  link = "/company-profile/"
+[[Languages.pt.params.footer.sitemap]]
+  text = "Ceritificados"
+  link = "/company-docs/"
+[[Languages.pt.params.footer.sitemap]]
+  text = "Time DalaFarm"
+  link = "/team/"

@@ -7,7 +7,7 @@ img = ["DAU 1.jpg","DAU 2.jpg","DAU 3.jpg","DAU 4.jpg","DAU 5.jpg"]
 product_line = ""
 tags = ["garlic-oil","DalaBaby-powder"]
 thumbnail = "dau-toi-tn"
-title = "Đà Lạt Extra virgin garlic-infused sesame oil (250ml)"
+title = "Extra virgin garlic-infused sesame oil (250ml)"
 key = "garlicoil"
 weight = 2
 +++
@@ -17,55 +17,55 @@ weight = 2
 ### Ingredients
 100% garlic-infused sesame oil. No additives or preservatives
 
-### Tại sao phải cho bé ăn dầu ăn ?
+### Why eat baby oil?
 
-Dầu ăn là nhóm chất dinh dưỡng rất quan trọng, đóng vai trò chính trong cung cấp năng lượng cho trẻ. Đặc biệt là các chất béo không bão hòa như omega 3 – loại chất chiếm 60% chất cần thiết cho não bộ, giúp não điều khiển đúng hành vi, tăng cường trí nhớ và nhận thức. 
+Cooking oil is a very important nutrient group, which plays a major role in providing energy to children. Particularly unsaturated fats such as omega-3, which make up 60% of the brain's essential nutrients, help the brain control behaviors, enhance memory and cognition.
 
-Chất béo còn giúp hình thành mô mỡ có chức năng điều hòa thân nhiệt, cung cấp chất béo giúp cho quá trình hấp thu các vitamin quan trọng trong cơ thể (A, D, E, K ),… việc sử dụng chất béo thế nào cho hợp lý với cơ thể của trẻ em là điều rất quan trọng.
+Fat also helps to form fat tissue that regulates body heat, providing fat to help the process of absorbing important vitamins in the body (A, D, E, K), ... the use of fatty substances It is very important to be sensible with the body of the child.
 
-Một chế độ ăn thiếu chất béo có thể khiến trẻ khó hấp thụ vitamin D dẫn đến còi xương, chậm lớn, chậm tăng cân.
+A diet low in fat can make children difficult to absorb vitamin D leading to rickets, slow growth, slow weight gain.
 
-Cho thêm từ 1-2 thìa cà phê dầu mỗi lần vào bát cháo, bột của con là cách tốt nhất để mẹ đảm bảo sự phát triển của não bộ và hệ miễn dịch cho bé yêu.
+Add 1-2 teaspoons of oil each time to the bowl of porridge, baby powder is the best way to ensure mother's brain development and immune system for baby.
 
-### Cách sử dụng dầu ăn khi trẻ bắt đầu ăn dặm
+### How to use cooking oil when children start to eat miles
 
-Trẻ dưới 6 tháng tuổi chưa cần thiết dùng dầu ăn sẽ khó tiêu (dù mẹ có cho con ăn dặm sớm cũng vậy). Nên cho con bú mẹ hoàn toàn trong 6 tháng đầu, trong sữa mẹ có rất nhiều chất béo và nhiều dinh dưỡng, kháng thể, không cần bổ sung thêm gì khác cho trẻ nếu con bú mẹ và tăng cân tốt.
+Infants under six months of age do not need to consume indigestible cooking oil. Breastfeeding is recommended for the first 6 months of life, in breast milk that is high in fat and high in nutrients, antibodies, no additional supplements for the baby if breastfeeding and good weight gain.
 
-Sau 6 tháng, trẻ giảm bú mẹ và tập ăn dặm. Sau vài tuần trẻ tập ăn dặm đã quen bụng, sang tháng thứ 7 đã có thể sử dụng dầu ăn trong các cử ăn dặm hàng ngày cho trẻ.
+After 6 months, the baby reduced breastfeeding and practiced miles. After a few weeks of eating and drinking, the 7th month can be used as a daily food for children.
 
-Thức ăn của trẻ dưới 2 tuổi chủ yếu là những món ăn lỏng, bột – cháo – cơm nát, trong 1 chén bột /cháo, súp của trẻ cần khoảng 5-10ml dầu ăn.
+The food of children under 2 years old is mostly liquid foods, flour - porridge - rice, in a cup of powder / porridge, children need about 5-10ml of cooking oil.
 
-### Dùng dầu ăn đúng cách cho trẻ 
+### Use proper cooking oil for your baby
 
-Trong đa số các loại dầu ăn có chứa một thành phần chất béo quý rất tốt cho sức khỏe, đó là chất béo chưa bão hòa. Tuy nhiên, chất béo có lợi này không bền vững, khi gặp nhiệt độ cao trong quá trình chế biến thức ăn sẽ bị biến đổi thành chất béo bão hòa không tốt cho sức khỏe.
+In most types of edible oils it contains a very healthy fat component, which is unsaturated fat. However, this beneficial fat is not sustainable, when exposed to high temperatures during food processing will be converted to saturated fat is not good for health.
 
-Cho một muỗng dầu ăn vào thức ăn của trẻ khi chuẩn bị bắc khỏi bếp mới có tác dụng tốt đối với sự phát triển của bé vì khi đó dầu chưa bị biến chất do tác động của nhiệt độ cao, giúp trẻ hấp thu dễ dàng hơn.
+Putting a spoonful of cooking oil into the baby's food when preparing to come out of the new kitchen will have a positive effect on the development of the baby because then the oil is not degraded by the effects of high temperatures, to help children absorb easily. than.
 
-### Công dụng của dầu tỏi tía
-Tăng cường sức đề kháng.
+### Use of purple garlic oil
+Strengthen resistance.
 
-Hỗ trợ khi bé cảm cùm.
+Support when baby touched.
 
-Giúp bé ăn ngon, tiêu hóa tốt.
+Help your baby eat well, digest good.
 
-Chữa rối loạn hô hấp
+Respiratory disorders
 
-Trị đau bụng
+Treatment of abdominal pain
 
-Kiểm soát nhiễm trùng
+Control of infection
 
-Chữa lành vết thương
+Healing
 
-Tẩy giun
+Deworming
 
-### Bảo quản
+### Preservation
 
-Nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp
+Store in cool, dry place, away from direct sunlight
 
-### Khuyên dùng
+### Recomend using
 
-Sử dụng trực tiếp hoặc 
-nấu ở nhiệt độ thấp
+Use directly or
+cook at low temperature
 
-## Quy cách đóng gói
-Chai dung tích 250ml
+## Packing
+Bottle of 250ml

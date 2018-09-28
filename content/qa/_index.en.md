@@ -6,18 +6,17 @@ date = "2017-03-21T21:52:24+08:00"
 
 # Is DalaFarm vegetables powders organic certified?
 
-Hiện tại DalaFarm là trang trại đầu tiên của công ty Chuông Xanh trồng hoàn toàn theo phương pháp hữu cơ Mansanobu Fukuoka tác giả cuốn sách "Cuộc cách mạng một cọng rơm" với phương pháp "Không làm gì cả".
+Currently, DalaFarm is the first Green Buddy farm to be fully grown by Mansanobu Fukuoka, author of the book "The Revolution of a Straw" with the "Do Nothing" method.
 
-Ở thời điểm hiện tại, nông trại DalaFarm xin cam kết với khách hàng về các sản phẩm bột chất lượng từ rau củ sạch, an toàn cho sức khỏe, cam kết 100% không phân hoá học, không thuốc trừ sâu. Các dưỡng chất cho rau củ trong nông trại được cung cấp bằng phân trùn quế.
+At the present time, DalaFarm Farm pledges to provide quality products from safe, healthy vegetables, committed to 100% non-chemical, no pesticides. Nutrients for vegetables on the farm are provided by vermicard fertilizer.
 
-Trong quá trình đó, DalaFarm vẫn đang tích cực nỗ lực hết sức để cải tiến, hoàn thiện và hướng tới việc đạt tiêu chuẩn hữu cơ (Organic) khắc khe (ví dụ: đất trồng rau củ không được sử dụng phân hóa học từ trên 3 năm trở đi), để đáp lại lòng tin yêu của những khách hàng luôn tin tưởng và ủng hộ DalaFarm.‎
+In the process, DalaFarm is still actively working to improve, perfect and towards the strict organic standards (for example, the soil is not used for chemical fertilizers. over 3 years onwards), in response to the trust of customers who trust and support DalaFarm.
  
-# Cách thanh toán 
+# How to pay
 
-DalaFarm khuyến khích khách hàng thanh toán qua hình thức chuyển khoản qua internet banking hoặc app trên điện thoại di động vì những lợi ích sau:
+DalaFarm encourages customers to pay via internet banking or mobile app for the following benefits:
 
-* Không cần mang và giữ tiền mặt trong người phòng ngừa bị mất cắp hoặc rơi rớt
-* Nhận khuyến mãi giảm 100% giá shipping trực tiếp từ DalaFarm  
+* There is no need to carry and keep cash in the prevention of theft or fall
+* Get discount 100% direct shipping price from DalaFarm
 
-Tuy nhiên, DalaFarm vẫn nhận những hình thức thanh toán khác mà khách hàng chọn như trả tiền mặt lúc nhận hàng.
-
+However, DalaFarm still accepts other forms of payment that customers choose as cash on delivery.
