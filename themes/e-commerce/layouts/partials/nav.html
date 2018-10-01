@@ -22,11 +22,16 @@
         </a>
       {{ end }}
 
-      {{ if or (eq .RelPermalink "/order/") (eq .RelPermalink "/shipping/") (eq .RelPermalink "/confirm/") (eq .RelPermalink "/promo-order/") (eq .RelPermalink "/promo-shipping/") (eq .RelPermalink "/promo-confirm/")}}
+      {{ if or (eq .RelPermalink "/shipping/") (eq .RelPermalink "/confirm/") (eq .RelPermalink "/promo-shipping/") (eq .RelPermalink "/promo-confirm/")}}
 
       {{ else }}
-      <a class="navbar-toggle cta-on-nav" href="{{ "/promo-order" | absLangURL }}" >{{ with .Site.Params.params.hero.orderButtonText }}{{ . }}{{ end }}
+      <!--<a class="navbar-toggle cta-on-nav" href="{{ "/promo-order" | absLangURL }}" >{{ with .Site.Params.params.hero.orderButtonText }}{{ . }}{{ end }}-->
+      <!--</a>-->
+
+      <a class="navbar-toggle cta-on-nav" href="{{ "/promo-shipping" | absLangURL }}"><i class="fa fa-shopping-cart fa-3x" style="color: #CEFF44!important;"></i>
+      <span data-bind="text: sumAmt" class="cart-items-num"></span>
       </a>
+
       {{ end }}
     </div>
     {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}

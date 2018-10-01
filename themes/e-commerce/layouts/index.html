@@ -189,15 +189,25 @@
                 spinach5gAmt: ko.observable((bill && bill.products && bill.products.spinach5gAmt) || "0"),
                 purpleswpotato5gAmt: ko.observable((bill && bill.products && bill.products.purpleswpotato5gAmt) || "0"),
                 garlicoilAmt: ko.observable((bill && bill.products && bill.products.garlicoilAmt) || "0"),
-                dalababyAmt: ko.observable((bill && bill.products && bill.products.dalababyAmt) || "0")/*,
-                garlicwineAmt: ko.observable((bill && bill.products && bill.products.garlicwineAmt) || "0"),
-                garlichoneyAmt: ko.observable((bill && bill.products && bill.products.garlichoneyAmt) || "0")*/,
+                dalababyAmt: ko.observable((bill && bill.products && bill.products.dalababyAmt) || "0"),
                 sundetoxAmt: ko.observable((bill && bill.products && bill.products.sundetoxAmt) || "0"),
                 moondetoxAmt: ko.observable((bill && bill.products && bill.products.moondetoxAmt) || "0"),
                 stardetoxAmt: ko.observable((bill && bill.products && bill.products.stardetoxAmt) || "0"),
                 combodetoxAmt: ko.observable((bill && bill.products && bill.products.combodetoxAmt) || "0")
             }
         };
+        viewModel.sumAmt = ko.computed(function () {
+            var sum = 0;
+            for(var el in this.products) {
+                if(this.products.hasOwnProperty(el)) {
+                    var amt = parseFloat(this.products[el]());
+                    if(!isNaN(amt)){
+                        sum += amt;
+                    }
+                }
+            }
+            return sum;
+        }, viewModel);
 
         // Activates knockout.js
         ko.applyBindings(viewModel);

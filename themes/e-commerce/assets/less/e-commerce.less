@@ -885,14 +885,15 @@ img {
 .cta-on-nav {
   position: relative;
   float: right;
-  margin: 5px 15px 5px 0px;
-  background-color: @color_6 !important;
   &:hover {
     color: @color_12;
   }
   &:visited {
     color: @color_12;
   }
+  background-color: transparent !important;
+  padding: 10px 15px 0 0;
+  margin: -5px 0px 0px 0;
 }
 .img-team {
   max-width: 50%;
@@ -1600,4 +1601,8 @@ ul.lang-switcher > li > a {
   display: block;
   color: white;
   font-weight: bold;
+}
+
+.cart-items-num {
+  background-color: red;color: white; border: 3px solid red; -webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;position: relative; float: right; left: -10px; top: -2px;padding: 0px 5px 0px 5px;
 }

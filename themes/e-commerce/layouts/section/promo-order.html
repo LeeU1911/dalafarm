@@ -28,8 +28,8 @@
         </div>
         <div class="row">
             <div class="col-md-4"></div>
-            <div class="col-xs-12 col-md-8 text-right">
-                <button id="save1" name="save" class="btn btn-xxl btn-success saveBtn btn-block">Tiếp tục</button>
+            <div class="col-xs-12 col-md-8 text-right" style="margin-bottom: 15px;">
+                <button id="save1" name="save" class="btn btn-xxl btn-success saveBtn btn-block">Đến Giỏ Hàng</button>
             </div>
         </div>
         <div class="row">
@@ -115,7 +115,7 @@
             <!-- Button (Double) -->
             <div class="form-group">
                 <div class="col-xs-12 col-md-8 text-right second-last-btn">
-                    <button id="save2" name="save" class="btn btn-xxl btn-success saveBtn btn-block">Tiếp tục</button>
+                    <button id="save2" name="save" class="btn btn-xxl btn-success saveBtn btn-block">Đến Giỏ Hàng</button>
                 </div>
                 <div class="col-xs-12 col-md-4 cancel-btn">
                     <!--<button id="cancel" name="cancel" class="btn btn-xxl btn-danger btn-block">Xóa thông tin</button>-->
@@ -189,15 +189,25 @@
                 spinach5gAmt: ko.observable((bill && bill.products && bill.products.spinach5gAmt) || "0"),
                 purpleswpotato5gAmt: ko.observable((bill && bill.products && bill.products.purpleswpotato5gAmt) || "0"),
                 garlicoilAmt: ko.observable((bill && bill.products && bill.products.garlicoilAmt) || "0"),
-                dalababyAmt: ko.observable((bill && bill.products && bill.products.dalababyAmt) || "0")/*,
-                garlicwineAmt: ko.observable((bill && bill.products && bill.products.garlicwineAmt) || "0"),
-                garlichoneyAmt: ko.observable((bill && bill.products && bill.products.garlichoneyAmt) || "0")*/,
+                dalababyAmt: ko.observable((bill && bill.products && bill.products.dalababyAmt) || "0"),
                 sundetoxAmt: ko.observable((bill && bill.products && bill.products.sundetoxAmt) || "0"),
                 moondetoxAmt: ko.observable((bill && bill.products && bill.products.moondetoxAmt) || "0"),
                 stardetoxAmt: ko.observable((bill && bill.products && bill.products.stardetoxAmt) || "0"),
                 combodetoxAmt: ko.observable((bill && bill.products && bill.products.combodetoxAmt) || "0")
             }
         };
+        viewModel.sumAmt = ko.computed(function () {
+            var sum = 0;
+            for(var el in this.products) {
+                if(this.products.hasOwnProperty(el)) {
+                    var amt = parseFloat(this.products[el]());
+                    if(!isNaN(amt)){
+                        sum += amt;
+                    }
+                }
+            }
+            return sum;
+        }, viewModel);
 
         // Activates knockout.js
         ko.applyBindings(viewModel);
