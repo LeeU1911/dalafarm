@@ -1,5 +1,5 @@
 <div class="panel panel-default">
-    <div class="panel-heading">Sản phẩm
+    <div class="panel-heading">GIỎ HÀNG
     </div>
 
     <div class="panel-body" id="order-content">
@@ -7,6 +7,15 @@
             {{ range where .Site.Pages "Section" "product" }}
             {{ if isset .Params "key" }}
             <span data-bind="if: name == '{{ .Params.key }}'">
+                {{ $image_type_arr := split .Params.thumbnail "." }}
+                {{ $image_ext := index $image_type_arr 1 }}
+                {{ if or (eq $image_ext "jpg") (eq $image_ext "png") }}
+                    {{ $url := printf "img/product/%s" .Params.thumbnail }}
+                    <img src="{{ $url | absLangURL }}" class="img-responsive img-thumbnail" alt="{{ .Params.thumbnail }}" style="width: 50px;">
+                {{ else }}
+                    {{ $url := printf "img/product/%s.jpg" .Params.thumbnail }}
+                    <img src="{{ $url | absLangURL }}" class="img-responsive img-thumbnail" alt="{{ .Params.thumbnail }}" style="width: 50px;">
+                {{ end }}
                 <span>
                     {{ .Title }} -
                 </span>
