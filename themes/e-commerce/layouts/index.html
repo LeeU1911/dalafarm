@@ -63,6 +63,11 @@
                                         <h4>{{ .Title | markdownify }}</h4>
                                     </div>
                                     <div class=" text-price">
+                                        {{ if isset .Params "discounted_percent" }}
+                                        <span class="text-discount-percent">
+                                        {{ echoParam .Params "discounted_percent" }}
+                                        </span>
+                                        {{ end }}
                                         <p class="text-current-price">
                                         <p>
                                             {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}
@@ -78,8 +83,10 @@
                                             {{ else }}<span class="text-current-price" id="{{ printf "%sPrice" .Params.key }}" data-price="{{ index $prices .Params.key }}" data-bind="text: numeral({{ index $prices .Params.key }}).format('0,0') + ' {{ $currency }}'">
                                             {{ end }}</span></p>
                                         </p>
+
                                         </p>
                                     </div>
+
                                 </div>
                                 <div class="input-group btn-block" data-bind="visible: products.{{.Params.key}}Amt() == 0">
                                     <button type="button" class="btn btn-default btn-lg btn-number add-to-cart-init-btn" data-type="plus" data-field="quant[1]-{{.Params.key}}"

@@ -55,6 +55,11 @@
                                             <h4>{{ .Title | markdownify }}</h4>
                                         </div>
                                         <div class=" text-price">
+                                        {{ if isset .Params "discounted_percent" }}
+                                        <span class="text-discount-percent">
+                                        {{ echoParam .Params "discounted_percent" }}
+                                        </span>
+                                        {{ end }}
                                             <p class="text-current-price">
                                             <p>
                                                 {{ $dscnt_price := printf "%s_discounted_price" .Params.key }}

@@ -13,6 +13,7 @@ Combo bột rau củ gồm 5 loại cho bé yêu ăn dặm 45 gram
 
 """
 price = "339,000"
+discounted_percent = "MỚI"
 img = ["2-9promo-7vi.jpg","2-9promo-7vi-2.jpg"]
 product_line = ""
 tags = ["dalababy-powder"]
