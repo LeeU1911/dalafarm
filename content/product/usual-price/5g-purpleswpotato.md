@@ -21,7 +21,6 @@ title = "Bột Khoai Lang Tím (5g)"
 weight = 2
 aliases = ["/san-pham/bot-khoai-lang-tim-5g","/san-pham/bot-khoai-lang-5g"]
 popular_product = true
-key = "purpleswpotato5g"
 +++
 
 # Bột Khoai Lang Tím DalaFarm (dùng liền)

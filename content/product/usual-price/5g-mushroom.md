@@ -11,7 +11,6 @@ thumbnailX = 84.16
 title = "Bột Nấm (5g)"
 weight = 2
 aliases = ["/san-pham/bot-nam-5g","/san-pham/bot-nam-bao-ngu-5g"]
-key = "mushroom5g"
 +++
 
 # Bột Nấm Bào Ngư DalaFarm (dùng liền)

@@ -19,7 +19,6 @@ thumbnailX = 100
 title = "Bột Rau Bó Xôi (5g)"
 weight = 2
 aliases = ["/san-pham/bot-rau-bo-xoi-5g","/san-pham/bot-cai-bo-xoi-5g"]
-key = "spinach5g"
 +++
 
 # Bột Rau Bó Xôi DalaFarm (Bột Cải Bó Xôi DalaFarm) (dùng liền)
