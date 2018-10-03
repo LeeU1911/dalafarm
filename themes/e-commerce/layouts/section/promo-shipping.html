@@ -40,13 +40,13 @@
                         <div class="form-group">
                             <label class="col-md-2 control-label" for="name">Mã giảm giá (nếu có)</label>
                             <div class="col-md-8">
-                                <input data-bind="value: promoCode, disable: discountPercent() >= 0" id="promoCode" name="promoCode" type="text"
+                                <input data-bind="value: promoCode, disable: discountPercent() > 0" id="promoCode" name="promoCode" type="text"
                                        placeholder="Mã giảm giá" class="form-control input-lg">
                             </div>
                             <div class="col-md-2">
                                 <button id="verifyPromoCode" name="verifyPromoCode"
                                         class="btn btn-lg btn-success"
-                                        data-bind="text: discountPercent() >= 0?'Gỡ bỏ':'Áp dụng'">
+                                        data-bind="text: discountPercent() > 0?'Gỡ bỏ':'Áp dụng'">
                                 </button>
                             </div>
                         </div>
@@ -457,7 +457,7 @@
                 return 20;
             }*/
             alert("Mã giảm giá không hợp lệ! Vui lòng kiểm tra.");
-            return -1;
+            return 0;
         }
 
         function applyDiscountOnTotal(subtotal, discountPercent) {
@@ -466,7 +466,7 @@
 
         $('#verifyPromoCode').on('click', function (e) {
             e.preventDefault();
-            if(viewModel().discountPercent() === undefined || viewModel().discountPercent() < 0) {
+            if(viewModel().discountPercent() === undefined || viewModel().discountPercent() <= 0) {
                 var promoCode = viewModel().promoCode();
                 var subtotal = viewModel().subtotal();
                 var discountPercent = verifyPromoCode(promoCode);
