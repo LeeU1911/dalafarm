@@ -1,19 +1,31 @@
 +++
-date = "2017-06-28T23:12:45+08:00"
-description = "Hộp bột rau củ gồm 7 loại cho bé yêu ăn dặm DalaBaby 70 gram"
-price = "199,000"
+date = "2018-10-01T23:12:45+08:00"
+description = """
+Combo bột rau củ gồm 5 loại cho bé yêu ăn dặm 45 gram
+
+* Công nghệ sấy tiên tiến Nhật Bản
+
+* Giữ hơn 90% dinh dưỡng từ rau củ tươi
+
+* Lượng chất xơ tiêu hoá đậm đặc gấp hơn 5 lần rau củ tươi
+
+* Nguyên liệu rau củ an toàn trồng theo hướng hữu cơ
+
+"""
+price = "339,000"
 img = ["2-9promo-7vi.jpg","2-9promo-7vi-2.jpg"]
 product_line = ""
 tags = ["dalababy-powder"]
 thumbnail = "dalababy-6"
 thumbnailX = 0
-title = "Combo bột rau củ 7 vị 14 gói 5 gram (70g)"
+title = "Combo bột rau củ ngũ vị"
 weight = 1
 popular_product = true
+key = "dalababy"
 aliases = ["/san-pham/bot-rau-cu-dalababy-70g/","/san-pham/dalababy","/san-pham/bot-rau-cu"]
 +++
 
-# Bột rau củ 7 vị DalaBaby từ DalaFarm
+# Bột rau củ ngũ vị từ DalaFarm
 
 Được chọn lọc và chế biến từ những nguyên liệu 
 tươi ngon không hóa chất trồng tại DalaFarm, Lâm Đồng. Sản phẩm được 
@@ -23,9 +35,8 @@ VSATTP Việt Nam.
 Theo khuyến cáo của tổ chức y tế thế giới (WHO) chế độ rau củ quả cho trẻ em 
 từ 300 - 400 gram rau tươi/ ngày.
 
-Với bột rau củ DalaFarm khoảng 3-5g bột rau củ sẽ tương đương 80-100 gram 
-rau tươi. Nên chỉ cần cung cấp khoảng 15-20 gram bột rau củ mỗi ngày là sẽ yên tâm 
-có đủ chất xơ và vitamin cho bé yêu của bạn.
+Với bột rau củ DalaFarm khoảng 20 gram bột rau củ sẽ chứa lượng chất xơ tương đương 100 gram 
+rau tươi.
 
 ### Thành phần
 
@@ -35,17 +46,13 @@ có đủ chất xơ và vitamin cho bé yêu của bạn.
 
 * Bột bí đỏ
 
-* Bột rau bó xôi
-
-* Bột nấm bào ngư
-
-* Bột hạt sen
-
 * Bột khoai lang tím
+
+* Bột củ dền
 
 100% từ rau củ tươi tự nhiên không chất bảo quản. 
 
-Bột gồm 14 gói (7 gói x 7 vị x 2 gói/ vị)
+Combo gồm 15 gói (5 vị x 3 gói/ vị)
 
 Bột DalaFarm giúp bé thay đổi mùi vị và cung cấp đầy đủ các loại vitamins từ rau củ quả.
 
@@ -70,7 +77,7 @@ có thể gây ra bệnh còi xương và làm cho hệ thống miễn dịch c�
 
 * Dùng với cháo: Cháo nấu chín, múc cháo 
 ra chén, lấy 3 - 5 gram bột tức khoảng 
-1-2 thìa bột(15 - 20 gram bột rau củ DalaFarm chứa lượng chất xơ tương đương 80-100 gram 
+1-2 thìa bột (15 - 20 gram bột rau củ DalaFarm chứa lượng chất xơ tương đương 80-100 gram 
 rau tươi). Bỏ trực tiếp vào cháo khuấy đều 
 là bé có thể dùng được. 
 
