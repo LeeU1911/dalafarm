@@ -15,7 +15,7 @@ Phiếu voucher trị giá #300k khi mua sản phẩm tại DalaFarm
 
 Khi các mẹ sử dụng bột rau củ DalaFarm để quay clip chuẩn bị món ăn và cho bé yêu ăn, up lên Fb với hashtag #dalafarm #mua1nhan2  cùng mã đơn hàng đã mua trong tháng 10. 
 
-Mẹ sẽ được tặng ngay **1 voucher trị giá #300k** trực tiếp trên hoá đơn khi mua sản phẩm DalaFarm tại website https://dalafarm.vn
+Mẹ sẽ được tặng ngay **1 trong 500 voucher trị giá #300k** trực tiếp trên hoá đơn khi mua sản phẩm DalaFarm tại website https://dalafarm.vn
 
 Lưu ý: Chương trình có thể kết thúc sớm hơn dự kiến khi số lượng quà khuyến mãi đã hết.
 
