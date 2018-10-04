@@ -1,7 +1,7 @@
 +++
 date = "2018-10-01T23:12:45+08:00"
 description = """
-Combo bột rau củ gồm 5 loại cho bé yêu ăn dặm 45 gram
+Combo bột rau củ gồm 5 loại cho bé yêu ăn dặm 75 gram
 
 * Công nghệ sấy tiên tiến Nhật Bản
 
@@ -53,7 +53,7 @@ rau tươi.
 
 100% từ rau củ tươi tự nhiên không chất bảo quản. 
 
-Combo gồm 15 gói (5 vị x 3 gói/ vị)
+Combo gồm 15 gói 3 gram (5 vị x 5 gói / vị)
 
 Bột DalaFarm giúp bé thay đổi mùi vị và cung cấp đầy đủ các loại vitamins từ rau củ quả.
 
