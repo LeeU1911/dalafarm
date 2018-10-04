@@ -4,14 +4,19 @@ date = "2018-08-18T15:00:24+08:00"
 url = "promo-order"
 +++
 
-KHUYẾN MÃI LỚN THÁNG 10 - MUA 1 NHẬN 2!
+### THÁNG 10 - MUA 1 LẦN NHẬN 2 PHẦN QUÀ
 
-Chào mừng ngày Phụ Nữ Việt Nam 20-10 sắp tới, #DalaFarm xin tổ chức chương trình MUA 1 đơn NHẬN 2 phần quà hấp dẫn cho mọi khách hàng trong suốt tháng 10.
+_Thể lệ:_
 
-Thể lệ:
+Mua đơn hàng trị giá từ **#350k** trở lên nhận ngay **1 Khăn choàng cổ Pashmina** MỪNG PHỤ NỮ VIỆT NAM
 
-1. Mua đơn hàng trị giá từ #350k trở lên nhận ngay 1 Khăn choàng cổ Pashmina thích hợp dùng cho văn phòng, thời trang, che nắng, giữ ấm, đi làm, dự tiệc, v.v...
+PHẦN QUÀ LẦN 2:  Quà cho con yêu 
+Phiếu voucher trị giá #300k khi mua sản phẩm tại DalaFarm
 
-2. Sử dụng bột rau củ DalaFarm quay clip chuẩn bị món ăn và cho bé yêu ăn, up lên Fb với hashtag #dalafarm #mua1nhan2 cùng 6 mã số đơn hàng đã mua trong tháng 10 sẽ được quay số trúng thưởng 1 trong 50 voucher trị giá #300k khi mua sản phẩm DalaFarm tại website https://dalafarm.vn
+Khi các mẹ sử dụng bột rau củ DalaFarm để quay clip chuẩn bị món ăn và cho bé yêu ăn, up lên Fb với hashtag #dalafarm #mua1nhan2  cùng mã đơn hàng đã mua trong tháng 10. 
+
+Mẹ sẽ được tặng ngay **1 voucher trị giá #300k** trực tiếp trên hoá đơn khi mua sản phẩm DalaFarm tại website https://dalafarm.vn
 
 Lưu ý: Chương trình có thể kết thúc sớm hơn dự kiến khi số lượng quà khuyến mãi đã hết.
+
+{{< img src="/img/20-10.png" title="MỪNG NGÀY PHỤ NỮ VIỆT NAM" >}}
