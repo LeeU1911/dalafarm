@@ -53,7 +53,7 @@ rau tươi.
 
 100% từ rau củ tươi tự nhiên không chất bảo quản. 
 
-Combo gồm 15 gói 3 gram (5 vị x 5 gói / vị)
+Combo gồm 15 gói 5 gram (5 vị x 3 gói / vị)
 
 Bột DalaFarm giúp bé thay đổi mùi vị và cung cấp đầy đủ các loại vitamins từ rau củ quả.
 
