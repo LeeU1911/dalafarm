@@ -10,7 +10,8 @@ _Thể lệ:_
 
 Mua đơn hàng trị giá từ **#350k** trở lên nhận ngay **1 Khăn choàng cổ Pashmina** MỪNG PHỤ NỮ VIỆT NAM
 
-PHẦN QUÀ LẦN 2:  Quà cho con yêu 
+**PHẦN QUÀ LẦN 2:  Quà cho con yêu** 
+
 Phiếu voucher trị giá #300k khi mua sản phẩm tại DalaFarm
 
 Khi các mẹ sử dụng bột rau củ DalaFarm để quay clip chuẩn bị món ăn và cho bé yêu ăn, up lên Fb với hashtag #dalafarm #mua1nhan2  cùng mã đơn hàng đã mua trong tháng 10. 
