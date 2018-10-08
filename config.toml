@@ -8,6 +8,7 @@ defaultContentLanguage = "vi"
 #googleAnalytics = "UA-87063471-2"
 disqusShortname = "dalafarm"
 paginate = 8
+disableLanguages = ["pt"]
 
 ##########################################
 [Languages]
