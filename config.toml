@@ -536,7 +536,7 @@ info = """##### DALAFARM - CHUÔNG XANH PRODUCING AND TRADING CO. LTD.
   text = "DalaFarm Profile"
   link = "/company-profile/"
 [[Languages.en.params.footer.sitemap]]
-  text = "Ceritificates"
+  text = "Certificates"
   link = "/company-docs/"
 [[Languages.en.params.footer.sitemap]]
   text = "DalaFarm Team"
