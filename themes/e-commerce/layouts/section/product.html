@@ -80,14 +80,14 @@
                                 <div class="input-group btn-block" data-bind="visible: products.{{.Params.key}}Amt() == 0">
                                     <button type="button" class="btn btn-default btn-lg btn-number add-to-cart-init-btn" data-type="plus" data-field="quant[1]-{{.Params.key}}"
                                             id="addToCartBtn"
-                                            onclick="dataLayer.push({'sku': '{{ .Params.key }}', 'value': 1});mixpanel.track('Add To Cart', {'{{ .Params.key }': 1});">
+                                            onclick="dataLayer.push({'sku': '{{ .Params.key }}', 'value': 1});mixpanel.track('Add To Cart', {'{{ .Params.key }}': 1});">
                                         Chọn
                                     </button>
                                 </div>
                                 <div class="input-group" data-bind="visible: products.{{.Params.key}}Amt() > 0">
                                             <span class="input-group-btn">
                                                  <button type="button" class="btn btn-default btn-lg btn-number add-to-cart-btn"
-                                                         onclick="dataLayer.push({'sku': '{{ .Params.key }}', 'value': -1});mixpanel.track('Remove From Cart', {'{{ .Params.key }': 1});"
+                                                         onclick="dataLayer.push({'sku': '{{ .Params.key }}', 'value': -1});mixpanel.track('Remove From Cart', {'{{ .Params.key }}': 1});"
                                                          id="addToCartBtnMinus"
                                                          data-type="minus" data-field="quant[1]-{{.Params.key}}">
                                                      <span class="glyphicon glyphicon-minus"></span>
@@ -96,7 +96,7 @@
                                     <input data-bind="value: products.{{.Params.key}}Amt" type="text" name="quant[1]-{{.Params.key}}" class="form-control input-lg input-number add-to-cart-btn" value="0" min="0" max="100">
                                     <span class="input-group-btn">
                                                 <button type="button" class="btn btn-default btn-lg btn-number add-to-cart-btn"
-                                                        onclick="dataLayer.push({'sku': '{{ .Params.key }}', 'value': 1});mixpanel.track('Add To Cart', {'{{ .Params.key }': 1});"
+                                                        onclick="dataLayer.push({'sku': '{{ .Params.key }}', 'value': 1});mixpanel.track('Add To Cart', {'{{ .Params.key }}': 1});"
                                                         id="addToCartBtnPlus"
                                                         data-type="plus" data-field="quant[1]-{{.Params.key}}">
                                                     <span class="glyphicon glyphicon-plus"></span>
