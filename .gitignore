@@ -9,3 +9,5 @@ secrets.tar
 /themes/e-commerce/static/js/scripts.min.js
 /themes/e-commerce/static/js/scripts-other-page.min.js
 /themes/e-commerce/static/js/scripts-order-pages.min.js
+.DS_Store
+/**/.DS_Store
