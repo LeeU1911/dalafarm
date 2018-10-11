@@ -9,7 +9,7 @@ title = "CÔNG THỨC PHA TRÀ SỮA KHOAI LANG TÍM"
 
 Sau cơn sốt **trà sữa trân châu đường đen**, giới trẻ Việt đang truyền tai nhau 1 loại trà sữa hot trend mới vô cùng đẹp mắt mà lại hợp mốt các bạn trẻ _sống nội tâm, yêu màu tím_.
 
-Hôm nay DalaFarm xin giới thiệu với mọi người **cách làm trả sữa khoai lang tím** vừa ngon lại vừa đẹp ngay tại nhà nhé.
+Hôm nay DalaFarm xin giới thiệu với mọi người **cách làm trà sữa khoai lang tím** vừa ngon lại vừa đẹp ngay tại nhà nhé.
 
 {{< img src="/img/blog/tra-sua-khoai-lang-tim-tn.jpg" title="Trà sữa khoai lang tím ngon đẹp" >}}
 
