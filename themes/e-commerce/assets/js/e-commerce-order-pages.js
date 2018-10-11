@@ -299,7 +299,7 @@ function humanizeProductName(productKey) {
             case "garlicoil":
                 return "Dầu tỏi tía Đà Lạt 250ml";
             case "dalababy":
-                return "Bột rau củ DalaBaby 70g";
+                return "Combo bột rau củ ngũ vị 75g";
             case "garlicwine":
                 return "Rượu tỏi đen 750ml";
             case "garlichoney":
