@@ -46,7 +46,6 @@
                                 {{ $lengthOfKey := len $strKey }}
                                 {{ $start := sub $lengthOfKey 2 }}
                                 {{ $end := $lengthOfKey }}
-                                {{ if or (eq (substr $strKey $start $end) "5g") (eq $strKey "carrot") (eq $strKey "pumpkin") (eq $strKey "purpleswpotato") (eq $strKey "pennywort") (eq $strKey "heartleaf") (eq $strKey "beetroot") (eq $strKey "broccoli") (eq $strKey "moringa") (eq $strKey "dalababy") (eq $strKey "spinach")}}
                                 <div class="col-xs-4 col-md-3 box-item product-box flex-column" style="margin-bottom: 1em;">
                                     {{ if isset .Params "popular_product" }}<div class="close-ribbon"><i class="fa fa-heart" aria-hidden="true"></i></div>{{ end }}
                                     {{ partial "product-img.html" . }}
@@ -105,7 +104,6 @@
                                             </span>
                                     </div>
                                 </div>
-                            {{ end }}
                                 {{ end }}
                             {{ end }}
                         </div>
