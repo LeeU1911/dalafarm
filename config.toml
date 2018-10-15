@@ -17,9 +17,6 @@ disableLanguages = ["pt"]
 title = "DalaFarm"
 weight = 0
 
-[Languages.vi.permalinks]
-product = "/san-pham/:slug"
-
 [[Languages.vi.menu.main]]
 url    = "#"
 name   = "Blog"
