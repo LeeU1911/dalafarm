@@ -40,7 +40,11 @@ Triterpenoids trong rau má cũng có thể làm giảm sự lo lắng và tăng
 
 {{< img src="/img/blog/6-cong-dung-tuyet-voi-cua-bot-rau-ma(3).png" title="Nước rau má" >}}
 
-Với việc trồng và kiểm soát rau củ tại nông trại để đảm bảo rau củ sạch, an toàn, DalaFarm còn sấy khô và nghiền mịn rau củ tươi ra thành bột rau củ giúp bảo toàn hơn 90% chất dinh dưỡng so với rau củ tươi nhằm giúp mọi người sử dụng rau củ một cách nhanh chóng và tiết kiệm hơn.
+**Cách sử dụng nước rau má đúng cách**
+
+Việc thực phẩm bẩn tràn lan trên thị trường hiện nay là 1 vấn đề đáng lo ngại. Rau má cũng không phải là 1 ngoại lệ. Mặc dù có rất nhiều công dụng bổ ích như trên nhưng nếu sử dụng nguồn rau má không an toàn cũng sẽ mang lại nhiều tác hại hơn là lợi ích cho cơ thể bạn và người thân. 
+
+Với việc trồng và kiểm soát rau củ tại nông trại để đảm bảo rau củ sạch, an toàn, DalaFarm sấy khô và nghiền mịn rau má tươi thành bột rau má giữ nguyên 100% lượng chất xơ không hoà tan. Việc này giúp bảo toàn hơn 90% chất dinh dưỡng trong rau má tươi và 100% lượng chất xơ, giúp mọi người chế biến rau má bổ sung chất xơ và dinh dưỡng, thanh nhiệt cho cơ thể bạn và người thân an toàn, tiện lợi hơn.
 
 Bạn có thể đặt mua bột rau má DalaFarm [tại đây](/san-pham/bot-rau-ma-50g/) nhé.
 
