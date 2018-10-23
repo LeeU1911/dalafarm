@@ -44,7 +44,7 @@
         </p>
         <p>
             <span data-bind="if: shippingCost != undefined && !shippingCost.isNaN && shippingCost() > 0">
-                <span>Phí giao hàng: </span><span data-bind="text: numeral(shippingCost()).format('0,0')"></span><span></span>
+                <span>Phí giao hàng: </span><span data-bind="text: numeral(shippingCost()).format('0,0')"></span><span>(Miễn phí cho đơn hàng trên 399k)</span>
             </span>
             <span data-bind="if: shippingCost != undefined && !shippingCost.isNaN && shippingCost() == 0">
                 <span>Phí giao hàng: MIỄN PHÍ</span>
