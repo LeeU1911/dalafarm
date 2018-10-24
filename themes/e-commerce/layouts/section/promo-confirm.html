@@ -110,7 +110,11 @@
             'order-id': bill.id,
             'transactionId': bill.id,
             'currency': 'VND'});
-
+        mixpanel.track('Purchase', {'value': bill.subtotal,
+            'transactionShipping': bill.shippingCost,
+            'transactionTotal': bill.subtotal,
+            'order-id': bill.id,
+            'currency': 'VND'});
         function getShippingCost() {
             if(bill.freeShip) {
 //                if(bill.info.province === "Hồ Chí Minh"){
