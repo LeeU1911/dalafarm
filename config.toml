@@ -34,7 +34,7 @@ weight = 2
 parent = "blog"
 
 [[Languages.vi.menu.main]]
-url    = "/san-pham"
+url    = "https://dalafarm.com.vn/collections/all"
 name   = "Sản Phẩm"
 weight = 2
 
@@ -104,7 +104,7 @@ contact = "Liên hệ"
 title = "Bổ sung chất xơ tiện lợi gấp từ 5 lần rau củ tươi*"
 subtitle = "Bột rau xanh nguyên chất"
 buttonText = "Tìm hiểu"
-buttonPath = "/san-pham/"
+buttonPath = "https://dalafarm.com.vn/collections/all"
 orderButtonText = "MUA"
 nextButtonText = "TIẾP"
 
