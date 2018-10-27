@@ -1,7 +1,14 @@
 <div class="col-sm-3 text-center box-item">
     <a href="{{ .Permalink }}" class="blog-link">
-        {{ $url := printf "img/blog/%s" .Params.thumbnail }}
-        <img src="{{ $url | absURL }}" class="img-responsive center-block" alt="{{ .Title }}">
+        {{ $image_path := split .Params.thumbnail "/" }}
+        {{ $image_path_root_folder := index $image_path 1 }}
+        {{ if eq $image_path_root_folder "img" }}
+            {{ $url := printf "%s" .Params.thumbnail }}
+            <img src="{{ $url | absURL }}" class="img-responsive center-block" alt="{{ .Title }}">
+        {{ else }}
+            {{ $url := printf "img/blog/%s" .Params.thumbnail }}
+            <img src="{{ $url | absURL }}" class="img-responsive center-block" alt="{{ .Title }}">
+        {{ end }}
     </a>
         <time class="blog-time">
             {{ $data := index .Site.Data .Site.Language.Lang }}
