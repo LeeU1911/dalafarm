@@ -1,6 +1,5 @@
 backend:
-  name: git-gateway 
-  # repo: LeeU1911/dalafarm # path to github repo
+  name: git-gateway
 
 publish_mode: editorial_workflow
 media_folder: "static/img/blog" #Media files for blogging
@@ -16,6 +15,7 @@ collections:
     fields:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "Date", name: "date", widget: "datetime"}
+     - {label: "Draft", name: "draft", widget: "boolean"}
      - {label: "Publish Date", name: "publishdate", widget: "datetime"}
      - {label: "Thumbnail", name: "thumbnail", widget: "image"}
      - {label: "Tags", name: "tags", widget: "list"}
