@@ -10,28 +10,6 @@
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   <script>
-      var blogThumbnailControl = createClass({
-          handleChange: function(e) {
-              this.props.onChange(e.target.value.split(',').map((e) => e.trim()));
-          },
-
-          render: function() {
-              var value = this.props.value;
-              return h('input', { type: 'text', value: value ? value.join(', ') : '', onChange: this.handleChange });
-          }
-      });
-
-      var blogThumbnailPreview = createClass({
-          render: function() {
-              return h('ul', {},
-                  this.props.value.map(function(val, index) {
-                      return h('li', {key: index}, val);
-                  })
-              );
-          }
-      });
-
-      CMS.registerWidget('blogthumbnail', blogThumbnailControl, blogThumbnailPreview);
       CMS.registerEditorComponent({
           // Internal id of the component
           id: "youtube",
