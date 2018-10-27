@@ -1,0 +1,26 @@
+backend:
+  name: github 
+  repo: LeeU1911/dalafarm # path to github repo
+
+display_url: http://localhost:1313
+publish_mode: editorial_workflow
+media_folder: "static/img/blog" #Media files for blogging
+public_folder: "/img/blog" #src attribute for uploaded media files will begin with /img/blog
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    format: toml-frontmatter
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    filter:
+      field: language
+      value: vi
+    fields: 
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "Date", name: "date", widget: "datetime"}
+     - {label: "Publish Date", name: "publishdate", widget: "datetime"}
+     - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+     - {label: "Tags", name: "tags", widget: "list"}
+     - {label: "Body", name: "body", widget: "markdown"}
