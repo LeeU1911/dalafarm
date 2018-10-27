@@ -271,7 +271,7 @@ info = """##### DALAFARM - CÔNG TY TNHH SXTM CHUÔNG XANH
   link = "/dala-kitchen/"
 [[Languages.vi.params.footer.sitemap]]
   text = "Sản phẩm"
-  link = "https://dalafarm.com.vn/collections/all"
+  link = "/san-pham/"
 [[Languages.vi.params.footer.sitemap]]
   text = "Hỏi đáp"
   link = "/qa/"
