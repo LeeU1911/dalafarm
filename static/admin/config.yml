@@ -14,10 +14,7 @@ collections:
     folder: "content/blog"
     create: true
     slug: "{{slug}}"
-    filter:
-      field: language
-      value: vi
-    fields: 
+    fields:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "Date", name: "date", widget: "datetime"}
      - {label: "Publish Date", name: "publishdate", widget: "datetime"}
