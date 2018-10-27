@@ -1,6 +1,6 @@
 backend:
-  name: github 
-  repo: LeeU1911/dalafarm # path to github repo
+  name: git-gateway 
+  # repo: LeeU1911/dalafarm # path to github repo
 
 display_url: http://localhost:1313
 publish_mode: editorial_workflow
