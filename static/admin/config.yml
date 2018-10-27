@@ -2,7 +2,6 @@ backend:
   name: git-gateway 
   # repo: LeeU1911/dalafarm # path to github repo
 
-display_url: http://localhost:1313
 publish_mode: editorial_workflow
 media_folder: "static/img/blog" #Media files for blogging
 public_folder: "/img/blog" #src attribute for uploaded media files will begin with /img/blog
