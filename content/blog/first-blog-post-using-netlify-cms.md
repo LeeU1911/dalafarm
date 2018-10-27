@@ -13,4 +13,4 @@ No more weird looks from my co-workers ever again!
 
 P/S: I'm gonna insert an image just to illustrate how easy it is to use for media files as well!
 
-![uploaded using netlify cms - dalafarm](/img/blog/1-chen-rau-luoc.jpg)
+![uploaded using netlify cms - dalafarm](/img/blog/Ba-bau-nen-an-gi-de-con-thong-minh(3).png)
