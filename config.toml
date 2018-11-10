@@ -85,7 +85,7 @@ favicon    = "favicon.ico"
 disableFonts = false
 #Content footer
 contentFooter = """
-<a href="/order" style="color: #fff;background-color: #C5F442;" class="page-scroll btn btn-xl">Mua Ngay</a>
+<a href="https://dalafarm.com.vn/collections/all" style="color: #fff;background-color: #C5F442;" class="page-scroll btn btn-xl">Mua Ngay</a>
 """
 related_blog_limit = 7
 
@@ -104,7 +104,7 @@ contact = "Liên hệ"
 title = "Bổ sung chất xơ tiện lợi gấp từ 5 lần rau củ tươi*"
 subtitle = "Bột rau xanh nguyên chất"
 buttonText = "Tìm hiểu"
-buttonPath = "/san-pham/"
+buttonPath = "https://dalafarm.com.vn/collections/all"
 orderButtonText = "MUA"
 nextButtonText = "TIẾP"
 

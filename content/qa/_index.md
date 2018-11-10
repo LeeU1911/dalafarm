@@ -8,7 +8,7 @@ date = "2017-03-21T21:52:24+08:00"
 Tại Hồ Chí Minh, bạn có thể ghé thăm Số 5 Hoàng Dư Khương, P. 12, Quận 10 để mua trự tiếp sản phẩm của DalaFarm.
 Hoặc đặt hàng trực tuyến tại website http://dalafarm.vn để được giao tận nơi cho mọi đơn hàng trên toàn quốc. 
 
-<a href="/order" class="page-scroll btn btn-xl">Mua Ngay</a>
+<a href="https://dalafarm.com.vn/collections/all" class="page-scroll btn btn-xl">Mua Ngay</a>
   
 # Cách sử dụng bột rau củ DalaFarm như thế nào?
 Pha trực tiếp từ 1 đến 2 muỗng cà phê bột (tương đương 3 đến 5 gram bột) vào 300ml nước lọc ấm (không cần nước sôi), 

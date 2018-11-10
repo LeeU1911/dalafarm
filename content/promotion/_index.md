@@ -11,4 +11,4 @@ Chương trình khuyến mãi giảm 5% vì lỗi hạ tầng kỹ thuật đã 
 
 Chúng tôi xin mở lại chương trình FREE Ship cho đơn hàng trên 250k. Xin cám ơn.
 
-<a href="/order" class="page-scroll btn btn-xl">ĐẶT HÀNG</a>
+<a href="https://dalafarm.com.vn/collections/all" class="page-scroll btn btn-xl">ĐẶT HÀNG</a>
