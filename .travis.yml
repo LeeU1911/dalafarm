@@ -11,7 +11,7 @@ install:
   - npm install gulp gulp-concat gulp-less gulp-minify-css gulp-rename gulp-uglify gulp-watch gulp-gzip gulp-htmlmin
 script:
   - hugo version
-  - gulp
+  - gulp default
   - hugo
   - ls public
 before_deploy: pip install --user s3cmd
