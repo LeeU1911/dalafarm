@@ -1,5 +1,6 @@
 +++
 date = "2018-10-01T23:12:45+08:00"
+expirydate = "2018-10-01T23:12:45+08:00"
 description = """
 Combo bột rau củ gồm 5 loại cho bé yêu ăn dặm 75 gram
 
