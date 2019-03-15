@@ -1,3 +1,6 @@
+# Update: Shutdown
+We shutdown the company and this repository no longers lead to a working website anymore. However, it can be a point of referrence.
+
 # DalaFarm
 [![Build Status](https://travis-ci.org/LeeU1911/dalafarm.svg?branch=master)](https://travis-ci.org/LeeU1911/dalafarm)
 
